@@ -18,7 +18,7 @@
 <a id="overview"></a>
 ## 📊 Aperçu
 
-- **59 cas d’usage · GPT-6.2 Sol**. La collection couvre 59 publications sources. Parmi ceux-ci, 58 affichent un résultat de tâche et un enregistre une tentative inachevée. Dix messages fournissent des invites exactes dans la langue d'origine.
+- **69 cas d’usage · GPT-6.2 Sol**. La collection réunit 69 publications originales. Parmi elles, 68 montrent un résultat et une documente une tentative inachevée. Onze reproduisent le prompt exact dans sa langue d’origine.
 - Scènes et modélisation 3D · Graphismes et animations créatifs · Sites Web et interfaces · Développement de jeux · Utilisation de l'ordinateur et peinture · Utilisation de l'ordinateur et communication
 - Chaque fiche indique la publication originale, son auteur, la date, le type de preuve et le résultat visible.
 - Utilisez l’invite publique lorsqu’elle est disponible. Conservez l’entrée d’origine lors de la comparaison des résultats.
@@ -76,6 +76,11 @@
 | [Cas 57. Une maison avec vue intérieure et aérienne](#case-57) | [Scènes et modélisation 3D](#category-three) | Vérifiez si un bâtiment 3D reste cohérent dans les vues intérieures et extérieures. | Demo |
 | [Cas 58. Un trou noir HTML Three.js unique](#case-58) | [Scènes et modélisation 3D](#category-three) | Utilisez le clip et les images fixes pour vérifier comment une scène gère plusieurs points de vue. | Demo |
 | [Cas 59. Un palais Three.js flottant](#case-59) | [Scènes et modélisation 3D](#category-three) | Inspectez l'échelle et la présentation d'un palais suspendu sous plusieurs angles. | Demo |
+| [Cas 63. Vue éclatée d’une montre mécanique](#case-63) | [Scènes et modélisation 3D](#category-three) | Examinez le cadran et observez comment le modèle sépare les différentes couches. | Demo |
+| [Cas 64. Deux scènes de pagodes en comparaison directe](#case-64) | [Scènes et modélisation 3D](#category-three) | Comparez la disposition de la pagode, des arbres et de l’eau dans les deux résultats. | Evaluation |
+| [Cas 65. Un jardin de carpes koï dans Three.js](#case-65) | [Scènes et modélisation 3D](#category-three) | Suivez les carpes pour observer les mouvements de l’eau et les reflets. | Demo |
+| [Cas 66. Une tornade au-dessus d’un parking](#case-66) | [Scènes et modélisation 3D](#category-three) | Observez comment la simulation déplace les débris dans un parking. | Demo |
+| [Cas 68. Une maquette interactive du Boeing 787-9](#case-68) | [Scènes et modélisation 3D](#category-three) | Utilisez les commandes de vue pour examiner l’extérieur de l’avion et le moteur. | Demo |
 | [Cas 3. L'histoire de l'humanité et l'avenir de l'IA en 3D](#case-3) | [Graphismes et animations créatifs](#category-graphics) | Transformez un bref récit en une séquence de scènes animées. | Demo |
 | [Cas 8. Portrait Tibo dans un atelier de peinture par navigateur](#case-8) | [Graphismes et animations créatifs](#category-graphics) | Inspectez les étapes d’un portrait au fur et à mesure que la page le construit. | Demo |
 | [Cas 10. Peinture de portrait Sam Altman partagée par 0x0SojalSec](#case-10) | [Graphismes et animations créatifs](#category-graphics) | Suivez la transition des formes brutes vers un portrait fini. | Demo |
@@ -97,10 +102,15 @@
 | [Cas 51. Un pélican et deux crabes faisant du vélo](#case-51) | [Graphismes et animations créatifs](#category-graphics) | Inspectez le timing de plusieurs personnages animés en une seule fois. | Demo |
 | [Cas 52. Une comparaison du contrôleur PS5 dans les paramètres Sol](#case-52) | [Graphismes et animations créatifs](#category-graphics) | Utilisez un produit familier pour comparer les contours et les ombres. | Evaluation |
 | [Cas 55. Une illustration de profil verte BMW M4 CS](#case-55) | [Graphismes et animations créatifs](#category-graphics) | Vérifiez les proportions et les détails du profil dans un véhicule familier. | Demo |
+| [Cas 60. Comparaison de SVG du Roi des singes](#case-60) | [Graphismes et animations créatifs](#category-graphics) | Comparez la composition de la même scène du Roi des singes par trois systèmes. | Evaluation |
 | [Cas 4. Le trou noir interactif de la fin des temps](#case-4) | [Sites Web et interfaces](#category-web) | Utilisez un trou noir comme point focal pour une page Three.js interactive. | Demo |
 | [Cas 7. Island Atlas avec une bascule jour/nuit](#case-7) | [Sites Web et interfaces](#category-web) | Utilisez un îlot 3D compact pour tester les états d'éclairage dans une interface Web. | Demo |
 | [Cas 41. Tests d'image de référence dans le Codex et le API](#case-41) | [Sites Web et interfaces](#category-web) | Comparez ce que font deux sorties avec la même référence avant d'attribuer la différence. | Evaluation |
+| [Cas 61. Des billes sous l’effet de la gravité dans un heptagone rotatif](#case-61) | [Sites Web et interfaces](#category-web) | Observez le mouvement des billes quand le récipient tourne. | Demo |
+| [Cas 69. Configurateur à 360 degrés pour la Bugatti Chiron](#case-69) | [Sites Web et interfaces](#category-web) | Comparez les finitions de peinture lorsque la caméra tourne autour de la voiture. | Demo |
 | [Cas 17. Jeu de poursuite de voxels PELICAN PANIC](#case-17) | [Développement de jeux](#category-game) | Utilisez un court jeu de poursuite pour inspecter les commandes, les commentaires et l'état final. | Demo |
+| [Cas 62. Un Rubik’s Cube dans le navigateur](#case-62) | [Développement de jeux](#category-game) | Regardez l’aperçu pour vérifier les rotations du cube et la position des autocollants. | Demo |
+| [Cas 67. Prototype de jeu de course sur la côte](#case-67) | [Développement de jeux](#category-game) | Vérifiez la lisibilité du compte à rebours, de la vitesse et du plan du circuit pendant la course. | Demo |
 | [Cas 1. Freddie Mercury dans MS Paint](#case-1) | [Utilisation de l'ordinateur et peinture](#category-painting) | Utilisez un portrait pour inspecter ce que produit une tentative de dessin sur ordinateur. | Demo |
 | [Cas 43. Une tentative inachevée de relayer un message](#case-43) | [Utilisation de l'ordinateur et communication](#category-communication) | Utilisez cette tentative pour voir où un flux de travail de bureau s'est arrêté. | Limit |
 
@@ -641,6 +651,81 @@ Type: Demo | Date: 2026-11-08
 
 ---
 
+<a id="case-63"></a>
+### Cas 63: [Vue éclatée d’une montre mécanique](https://x.com/VeknQAQ/status/2119644781710303276) (par [@VeknQAQ](https://x.com/VeknQAQ))
+
+**Examinez le cadran et observez comment le modèle sépare les différentes couches.**
+
+La vidéo passe de la montre assemblée à une vue éclatée où le cadran et les pièces internes sont séparés.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119644705072046080-2e9ea2a58509a7177571.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-63/2119644705072046080-poster-ed92564c349b8e9d5637.jpg" width="640" alt="Aperçu des sources 1 · Vue éclatée d’une montre mécanique"></a>
+
+[Lire la vidéo de démonstration](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119644705072046080-2e9ea2a58509a7177571.mp4)
+
+Type: Demo | Date: 2026-11-09
+
+---
+
+<a id="case-64"></a>
+### Cas 64: [Deux scènes de pagodes en comparaison directe](https://x.com/Aurora0x3f/status/2119664137685045606) (par [@Aurora0x3f](https://x.com/Aurora0x3f))
+
+**Comparez la disposition de la pagode, des arbres et de l’eau dans les deux résultats.**
+
+La vidéo étiquette la scène du haut GPT-6.2 Sol et celle du bas Opus 5.5. L’auteur a préféré le résultat d’Opus 5.5.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119663168578637824-e1a40ebc49f22aacda95.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-64/2119663168578637824-poster-b2b794870967829859d6.jpg" width="640" alt="Aperçu des sources 1 · Deux scènes de pagodes en comparaison directe"></a>
+
+[Lire la vidéo de démonstration](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119663168578637824-e1a40ebc49f22aacda95.mp4)
+
+Type: Evaluation | Date: 2026-11-09
+
+---
+
+<a id="case-65"></a>
+### Cas 65: [Un jardin de carpes koï dans Three.js](https://x.com/SahilPanhotra/status/2119666543864782937) (par [@SahilPanhotra](https://x.com/SahilPanhotra))
+
+**Suivez les carpes pour observer les mouvements de l’eau et les reflets.**
+
+L’auteur décrit un jardin réalisé avec Three.js dans un seul fichier HTML. La vidéo montre des carpes qui nagent près des rochers et des feuilles tandis que les reflets changent.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119648453227884544-bee45570bdf53daf5f45.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-65/2119648453227884544-poster-4425357fdd67709bd4fb.jpg" width="640" alt="Aperçu des sources 1 · Un jardin de carpes koï dans Three.js"></a>
+
+[Lire la vidéo de démonstration](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119648453227884544-bee45570bdf53daf5f45.mp4)
+
+Type: Demo | Date: 2026-11-09
+
+---
+
+<a id="case-66"></a>
+### Cas 66: [Une tornade au-dessus d’un parking](https://x.com/bei351009016/status/2119668859796124087) (par [@bei351009016](https://x.com/bei351009016))
+
+**Observez comment la simulation déplace les débris dans un parking.**
+
+La vidéo montre une tornade au-dessus d’un parking miniature, avec des débris qui tourbillonnent au-dessus des véhicules et des bâtiments.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119668021623201792-fe62c5ab6f21ecf5e155.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-66/2119668021623201792-poster-17a3e6466176103ddd18.jpg" width="640" alt="Aperçu des sources 1 · Une tornade au-dessus d’un parking"></a>
+
+[Lire la vidéo de démonstration](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119668021623201792-fe62c5ab6f21ecf5e155.mp4)
+
+Type: Demo | Date: 2026-11-09
+
+---
+
+<a id="case-68"></a>
+### Cas 68: [Une maquette interactive du Boeing 787-9](https://x.com/iamtheQwen/status/2119687952213397549) (par [@iamtheQwen](https://x.com/iamtheQwen))
+
+**Utilisez les commandes de vue pour examiner l’extérieur de l’avion et le moteur.**
+
+L’enregistrement montre un 787-9 que l’on peut faire pivoter, plusieurs vues et une coupe du moteur. L’auteur mentionne aussi une commande du train d’atterrissage et une démonstration du flux d’air.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119687852141551616-093a9713679a3d5eb80b.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-68/2119687852141551616-poster-6fc1887412c7a1937b45.jpg" width="640" alt="Aperçu des sources 1 · Une maquette interactive du Boeing 787-9"></a>
+
+[Lire la vidéo de démonstration](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119687852141551616-093a9713679a3d5eb80b.mp4)
+
+Type: Demo | Date: 2026-11-09
+
+---
+
 <a id="category-graphics"></a>
 ## 🎨 Graphismes et animations créatifs
 
@@ -1004,6 +1089,31 @@ Type: Demo | Date: 2026-11-08
 
 ---
 
+<a id="case-60"></a>
+### Cas 60: [Comparaison de SVG du Roi des singes](https://x.com/xbquan/status/2119581984989364514) (par [@xbquan](https://x.com/xbquan))
+
+**Comparez la composition de la même scène du Roi des singes par trois systèmes.**
+
+L’auteur attribue les trois images à GPT-6.2 Sol au réglage maximal, à QoDuck de Qoder et à HY4 de WorkBuddy. Le prompt publié dans sa réponse demande une seule version SVG et interdit toute vérification par capture d’écran.
+
+[Réponse de l’auteur avec le prompt original](https://x.com/xbquan/status/2119582058922316169)
+
+**Prompt:**
+
+```
+用尽你的一切能力，用代码画一张孙悟空的大闹天宫名场面的svg图片，我想要尽可能的还原，只能画一版，不准截图检查。
+```
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-60/2119580835200516096-1e4e7a136e429b696a7a.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-60/2119580835200516096-1e4e7a136e429b696a7a.jpg" width="640" alt="Aperçu des sources 1 · Comparaison de SVG du Roi des singes"></a>
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-60/2119581876805640192-01552031d537dc13d897.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-60/2119581876805640192-01552031d537dc13d897.jpg" width="640" alt="Aperçu des sources 2 · Comparaison de SVG du Roi des singes"></a>
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-60/2119581974092546048-c61fe179e1741227a187.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-60/2119581974092546048-c61fe179e1741227a187.png" width="640" alt="Aperçu des sources 3 · Comparaison de SVG du Roi des singes"></a>
+
+Type: Evaluation | Date: 2026-11-09
+
+---
+
 <a id="category-web"></a>
 ## 🌐 Sites Web et interfaces
 
@@ -1063,6 +1173,36 @@ Type: Evaluation | Date: 2026-11-08
 
 ---
 
+<a id="case-61"></a>
+### Cas 61: [Des billes sous l’effet de la gravité dans un heptagone rotatif](https://x.com/VeknQAQ/status/2119613583055261907) (par [@VeknQAQ](https://x.com/VeknQAQ))
+
+**Observez le mouvement des billes quand le récipient tourne.**
+
+L’enregistrement du navigateur montre des billes colorées qui tombent et s’accumulent le long des bords d’un récipient rotatif à sept côtés.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119613276808163329-9e32891b47f58015ccd9.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-61/2119613276808163329-poster-ebcefd25490e1fa11f76.jpg" width="640" alt="Aperçu des sources 1 · Des billes sous l’effet de la gravité dans un heptagone rotatif"></a>
+
+[Lire la vidéo de démonstration](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119613276808163329-9e32891b47f58015ccd9.mp4)
+
+Type: Demo | Date: 2026-11-09
+
+---
+
+<a id="case-69"></a>
+### Cas 69: [Configurateur à 360 degrés pour la Bugatti Chiron](https://x.com/SahilPanhotra/status/2119692064099368967) (par [@SahilPanhotra](https://x.com/SahilPanhotra))
+
+**Comparez les finitions de peinture lorsque la caméra tourne autour de la voiture.**
+
+L’enregistrement montre des finitions bleue, argentée et noire sous un éclairage de studio, sous plusieurs angles.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119691929403482112-00220dfbd8a8d75a6ce7.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-69/2119691929403482112-poster-645e9a72b2bb463ff65e.jpg" width="640" alt="Aperçu des sources 1 · Configurateur à 360 degrés pour la Bugatti Chiron"></a>
+
+[Lire la vidéo de démonstration](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119691929403482112-00220dfbd8a8d75a6ce7.mp4)
+
+Type: Demo | Date: 2026-11-09
+
+---
+
 <a id="category-game"></a>
 ## 🎮 Développement de jeux
 
@@ -1079,6 +1219,36 @@ Le clip montre un cavalier échappant à un monstre pomme de terre sur un pélic
 
 
 Type: Demo | Date: 2026-11-08
+
+---
+
+<a id="case-62"></a>
+### Cas 62: [Un Rubik’s Cube dans le navigateur](https://x.com/VeknQAQ/status/2119633751173173475) (par [@VeknQAQ](https://x.com/VeknQAQ))
+
+**Regardez l’aperçu pour vérifier les rotations du cube et la position des autocollants.**
+
+L’enregistrement montre un cube en 3D dans un état résolu et un état mélangé, avec les commandes du navigateur.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119633608680124416-44e5b8b00d129caeba34.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-62/2119633608680124416-poster-1ea9e2acda539d582293.jpg" width="640" alt="Aperçu des sources 1 · Un Rubik’s Cube dans le navigateur"></a>
+
+[Lire la vidéo de démonstration](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119633608680124416-44e5b8b00d129caeba34.mp4)
+
+Type: Demo | Date: 2026-11-09
+
+---
+
+<a id="case-67"></a>
+### Cas 67: [Prototype de jeu de course sur la côte](https://x.com/Stargridcompass/status/2119683294220390638) (par [@Stargridcompass](https://x.com/Stargridcompass))
+
+**Vérifiez la lisibilité du compte à rebours, de la vitesse et du plan du circuit pendant la course.**
+
+L’enregistrement montre le départ sur la grille et la course en cours. L’auteur indique que la création a pris 16 minutes.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119682250472112128-81f053c6ffe2a4aae055.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-67/2119682250472112128-poster-526c85969a54c7f93833.jpg" width="640" alt="Aperçu des sources 1 · Prototype de jeu de course sur la côte"></a>
+
+[Lire la vidéo de démonstration](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119682250472112128-81f053c6ffe2a4aae055.mp4)
+
+Type: Demo | Date: 2026-11-09
 
 ---
 
@@ -1126,6 +1296,6 @@ Type: Limit | Date: 2026-11-08
 
 Merci aux créateurs qui ont partagé ces expériences. Les œuvres et supports liés appartiennent à leurs créateurs respectifs.
 
-[@Avenoxai](https://x.com/Avenoxai), [@kimmonismus](https://x.com/kimmonismus), [@imjustnewatai](https://x.com/imjustnewatai), [@Khazix0918](https://x.com/Khazix0918), [@marcthecreatorr](https://x.com/marcthecreatorr), [@Bhavani_00007](https://x.com/Bhavani_00007), [@JustLingonberry](https://x.com/JustLingonberry), [@Mr_Salio](https://x.com/Mr_Salio), [@aGim_asf](https://x.com/aGim_asf), [@0x0SojalSec](https://x.com/0x0SojalSec), [@pengsonal](https://x.com/pengsonal), [@GeekCatX](https://x.com/GeekCatX), [@Ananth7e](https://x.com/Ananth7e), [@EnvolDev](https://x.com/EnvolDev), [@xbquan](https://x.com/xbquan), [@SahilPanhotra](https://x.com/SahilPanhotra), [@rubenssoto_ai](https://x.com/rubenssoto_ai), [@vikktorrrre](https://x.com/vikktorrrre), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@Cayden970207](https://x.com/Cayden970207), [@HarshithLucky3](https://x.com/HarshithLucky3), [@TokenGremlin](https://x.com/TokenGremlin), [@SadAlbert10](https://x.com/SadAlbert10), [@maxt3chno](https://x.com/maxt3chno), [@karanC_12](https://x.com/karanC_12), [@JustinGorya](https://x.com/JustinGorya), [@kdnbmb](https://x.com/kdnbmb), [@VraserX](https://x.com/VraserX), [@jessexai_](https://x.com/jessexai_), [@theaidesk_](https://x.com/theaidesk_), [@gadi_neelesh](https://x.com/gadi_neelesh), [@Haleeeemahh](https://x.com/Haleeeemahh), [@SPAC89](https://x.com/SPAC89)
+[@Avenoxai](https://x.com/Avenoxai), [@kimmonismus](https://x.com/kimmonismus), [@imjustnewatai](https://x.com/imjustnewatai), [@Khazix0918](https://x.com/Khazix0918), [@marcthecreatorr](https://x.com/marcthecreatorr), [@Bhavani_00007](https://x.com/Bhavani_00007), [@JustLingonberry](https://x.com/JustLingonberry), [@Mr_Salio](https://x.com/Mr_Salio), [@aGim_asf](https://x.com/aGim_asf), [@0x0SojalSec](https://x.com/0x0SojalSec), [@pengsonal](https://x.com/pengsonal), [@GeekCatX](https://x.com/GeekCatX), [@Ananth7e](https://x.com/Ananth7e), [@EnvolDev](https://x.com/EnvolDev), [@xbquan](https://x.com/xbquan), [@SahilPanhotra](https://x.com/SahilPanhotra), [@rubenssoto_ai](https://x.com/rubenssoto_ai), [@vikktorrrre](https://x.com/vikktorrrre), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@Cayden970207](https://x.com/Cayden970207), [@HarshithLucky3](https://x.com/HarshithLucky3), [@TokenGremlin](https://x.com/TokenGremlin), [@SadAlbert10](https://x.com/SadAlbert10), [@maxt3chno](https://x.com/maxt3chno), [@karanC_12](https://x.com/karanC_12), [@JustinGorya](https://x.com/JustinGorya), [@kdnbmb](https://x.com/kdnbmb), [@VraserX](https://x.com/VraserX), [@jessexai_](https://x.com/jessexai_), [@theaidesk_](https://x.com/theaidesk_), [@gadi_neelesh](https://x.com/gadi_neelesh), [@Haleeeemahh](https://x.com/Haleeeemahh), [@SPAC89](https://x.com/SPAC89), [@VeknQAQ](https://x.com/VeknQAQ), [@Aurora0x3f](https://x.com/Aurora0x3f), [@bei351009016](https://x.com/bei351009016), [@Stargridcompass](https://x.com/Stargridcompass), [@iamtheQwen](https://x.com/iamtheQwen)
 
 *Veuillez ouvrir un problème de correction de source pour les demandes d'attribution ou de suppression.*

@@ -18,7 +18,7 @@
 <a id="overview"></a>
 ## 📊 概要
 
-- **59 件のユースケース · GPT-6.2 Sol**. このコレクションには 59 のソース投稿が含まれています。このうち 58 件はタスクの出力を示し、1 件は未完了の試行を記録します。 10 件の投稿で、元の言語で正確なプロンプトが提供されます。
+- **69 件のユースケース · GPT-6.2 Sol**. 元の投稿を69件収録しています。68件は成果物を示し、1件は未完了の試行を記録しています。11件では原文のプロンプトを確認できます。
 - 3D シーンとモデリング · クリエイティブなグラフィックとアニメーション · ウェブサイトとインターフェース · ゲーム開発 · パソコンの使用と絵を描くこと · コンピュータの使用とコミュニケーション
 - 各事例には、元の投稿、投稿者、日付、証拠の種類、確認できる結果を掲載しています。
 - 利用可能な場合はパブリック プロンプトを使用します。結果を比較するときは、元の入力を保持します。
@@ -76,6 +76,11 @@
 | [ケース 57. 室内と空の景色を楽しめる家](#case-57) | [3D シーンとモデリング](#category-three) | 3D 建物が内部ビューと外部ビューにわたって一貫性を保っているかどうかを検査します。 | Demo |
 | [ケース 58. 単一の HTML Three.js ブラック ホール](#case-58) | [3D シーンとモデリング](#category-three) | クリップと静止画を使用して、1 つのシーンが複数の視点をどのように処理するかを確認します。 | Demo |
 | [ケース 59. 浮かぶThree.js宮殿](#case-59) | [3D シーンとモデリング](#category-three) | 吊り下げられた宮殿の規模と表現をさまざまな角度から観察します。 | Demo |
+| [ケース 63. 機械式腕時計の分解表示](#case-63) | [3D シーンとモデリング](#category-three) | 文字盤を観察し、モデルが各層をどう分解して見せるか確認します。 | Demo |
+| [ケース 64. 2つの仏塔シーンを比較](#case-64) | [3D シーンとモデリング](#category-three) | 仏塔、木々、水面の配置を2つの出力で比べます。 | Evaluation |
+| [ケース 65. Three.jsで作った錦鯉の中庭](#case-65) | [3D シーンとモデリング](#category-three) | 錦鯉の動きを追い、水面の揺れや反射を観察します。 | Demo |
+| [ケース 66. 駐車場を通過する竜巻](#case-66) | [3D シーンとモデリング](#category-three) | 嵐のシミュレーションで駐車場の破片がどう動くか確認します。 | Demo |
+| [ケース 68. 操作できるボーイング787-9の模型](#case-68) | [3D シーンとモデリング](#category-three) | 表示を切り替えながら機体外部とエンジンを確認します。 | Demo |
 | [ケース 3. 3D で見る人類の歴史と AI の未来](#case-3) | [クリエイティブなグラフィックとアニメーション](#category-graphics) | 物語の概要を一連のアニメーション シーンに変換します。 | Demo |
 | [ケース 8. ブラウザペイントスタジオのTiboポートレート](#case-8) | [クリエイティブなグラフィックとアニメーション](#category-graphics) | ページがポートレートを構築する際に、ポートレートの段階を検査します。 | Demo |
 | [ケース 10. 0x0SojalSec が共有する Sam Altman の肖像画](#case-10) | [クリエイティブなグラフィックとアニメーション](#category-graphics) | 大まかな形状から完成したポートレートへの移行を追跡します。 | Demo |
@@ -97,10 +102,15 @@
 | [ケース 51. 自転車に乗るペリカンと2匹のカニ](#case-51) | [クリエイティブなグラフィックとアニメーション](#category-graphics) | 複数のアニメーション キャラクターのタイミングを 1 回のショットで検査します。 | Demo |
 | [ケース 52. Sol 設定間の PS5 コントローラーの比較](#case-52) | [クリエイティブなグラフィックとアニメーション](#category-graphics) | 使い慣れた製品を使用して、輪郭と陰影を比較します。 | Evaluation |
 | [ケース 55. 緑色のBMW M4 CSのプロフィールイラスト](#case-55) | [クリエイティブなグラフィックとアニメーション](#category-graphics) | 見慣れた車両でプロポーションやプロフィールのディテールを確認してください。 | Demo |
+| [ケース 60. 孫悟空「大鬧天宮」のSVG比較](#case-60) | [クリエイティブなグラフィックとアニメーション](#category-graphics) | 同じ孫悟空の場面を3つのシステムがどう構成したか比べます。 | Evaluation |
 | [ケース 4. 時間の終わりのインタラクティブ ブラック ホール](#case-4) | [ウェブサイトとインターフェース](#category-web) | インタラクティブな Three.js ページの焦点としてブラック ホールを使用します。 | Demo |
 | [ケース 7. Island Atlas 昼夜切り替え付き](#case-7) | [ウェブサイトとインターフェース](#category-web) | コンパクトな 3D アイランドを使用して、Web インターフェイスで照明状態をテストします。 | Demo |
 | [ケース 41. Codex および API での参照イメージのテスト](#case-41) | [ウェブサイトとインターフェース](#category-web) | 違いを特定する前に、同じリファレンスを使用して 2 つの出力が何を行うかを比較してください。 | Evaluation |
+| [ケース 61. 回転する七角形の中の重力ボール](#case-61) | [ウェブサイトとインターフェース](#category-web) | 容器が回転するとボールがどう動くか確認します。 | Demo |
+| [ケース 69. ブガッティ・シロンの360度コンフィギュレーター](#case-69) | [ウェブサイトとインターフェース](#category-web) | カメラが車の周りを移動する様子を見ながら、塗装の仕上がりを比べます。 | Demo |
 | [ケース 17. PELICAN PANIC ボクセルチェイスゲーム](#case-17) | [ゲーム開発](#category-game) | 短い追跡ゲームを使用して、コントロール、フィードバック、および終了状態を検査します。 | Demo |
+| [ケース 62. ブラウザーで動くルービックキューブ](#case-62) | [ゲーム開発](#category-game) | プレビューでキューブの回転とステッカーの配置を確認します。 | Demo |
+| [ケース 67. 海岸沿いのレースゲームの試作](#case-67) | [ゲーム開発](#category-game) | レース中にカウントダウン、速度表示、コースマップが読み取りやすいか確認します。 | Demo |
 | [ケース 1. Freddie Mercury の MS Paint](#case-1) | [パソコンの使用と絵を描くこと](#category-painting) | ポートレートを使用して、デスクトップ描画の試行によって何が生成されるかを検査します。 | Demo |
 | [ケース 43. メッセージを中継する未完了の試み](#case-43) | [コンピュータの使用とコミュニケーション](#category-communication) | この試みを使用して、デスクトップ ワークフローがどこで停止したかを確認します。 | Limit |
 
@@ -641,6 +651,81 @@ Type: Demo | Date: 2026-11-08
 
 ---
 
+<a id="case-63"></a>
+### ケース 63: [機械式腕時計の分解表示](https://x.com/VeknQAQ/status/2119644781710303276) (投稿者 [@VeknQAQ](https://x.com/VeknQAQ))
+
+**文字盤を観察し、モデルが各層をどう分解して見せるか確認します。**
+
+動画は組み上がった腕時計から、文字盤と内部部品を離して並べた分解表示へ切り替わります。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119644705072046080-2e9ea2a58509a7177571.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-63/2119644705072046080-poster-ed92564c349b8e9d5637.jpg" width="640" alt="ソースプレビュー 1 · 機械式腕時計の分解表示"></a>
+
+[デモ動画を再生](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119644705072046080-2e9ea2a58509a7177571.mp4)
+
+Type: Demo | Date: 2026-11-09
+
+---
+
+<a id="case-64"></a>
+### ケース 64: [2つの仏塔シーンを比較](https://x.com/Aurora0x3f/status/2119664137685045606) (投稿者 [@Aurora0x3f](https://x.com/Aurora0x3f))
+
+**仏塔、木々、水面の配置を2つの出力で比べます。**
+
+動画では上段が GPT-6.2 Sol、下段が Opus 5.5 と表示されています。投稿者は Opus 5.5 の結果を好みました。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119663168578637824-e1a40ebc49f22aacda95.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-64/2119663168578637824-poster-b2b794870967829859d6.jpg" width="640" alt="ソースプレビュー 1 · 2つの仏塔シーンを比較"></a>
+
+[デモ動画を再生](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119663168578637824-e1a40ebc49f22aacda95.mp4)
+
+Type: Evaluation | Date: 2026-11-09
+
+---
+
+<a id="case-65"></a>
+### ケース 65: [Three.jsで作った錦鯉の中庭](https://x.com/SahilPanhotra/status/2119666543864782937) (投稿者 [@SahilPanhotra](https://x.com/SahilPanhotra))
+
+**錦鯉の動きを追い、水面の揺れや反射を観察します。**
+
+投稿者によると、中庭は Three.js を使い、1つの HTML ファイルで作られています。動画では、反射が変化する水面の下を錦鯉が石や葉のそばを泳いでいきます。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119648453227884544-bee45570bdf53daf5f45.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-65/2119648453227884544-poster-4425357fdd67709bd4fb.jpg" width="640" alt="ソースプレビュー 1 · Three.jsで作った錦鯉の中庭"></a>
+
+[デモ動画を再生](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119648453227884544-bee45570bdf53daf5f45.mp4)
+
+Type: Demo | Date: 2026-11-09
+
+---
+
+<a id="case-66"></a>
+### ケース 66: [駐車場を通過する竜巻](https://x.com/bei351009016/status/2119668859796124087) (投稿者 [@bei351009016](https://x.com/bei351009016))
+
+**嵐のシミュレーションで駐車場の破片がどう動くか確認します。**
+
+動画では、ミニチュアの駐車場の上に竜巻が発生し、車や建物の上で破片が渦を巻きます。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119668021623201792-fe62c5ab6f21ecf5e155.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-66/2119668021623201792-poster-17a3e6466176103ddd18.jpg" width="640" alt="ソースプレビュー 1 · 駐車場を通過する竜巻"></a>
+
+[デモ動画を再生](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119668021623201792-fe62c5ab6f21ecf5e155.mp4)
+
+Type: Demo | Date: 2026-11-09
+
+---
+
+<a id="case-68"></a>
+### ケース 68: [操作できるボーイング787-9の模型](https://x.com/iamtheQwen/status/2119687952213397549) (投稿者 [@iamtheQwen](https://x.com/iamtheQwen))
+
+**表示を切り替えながら機体外部とエンジンを確認します。**
+
+録画では、回転できる787-9、複数の表示角度、エンジン断面が確認できます。投稿者は降着装置の切り替えと気流のデモも挙げています。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119687852141551616-093a9713679a3d5eb80b.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-68/2119687852141551616-poster-6fc1887412c7a1937b45.jpg" width="640" alt="ソースプレビュー 1 · 操作できるボーイング787-9の模型"></a>
+
+[デモ動画を再生](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119687852141551616-093a9713679a3d5eb80b.mp4)
+
+Type: Demo | Date: 2026-11-09
+
+---
+
 <a id="category-graphics"></a>
 ## 🎨 クリエイティブなグラフィックとアニメーション
 
@@ -1004,6 +1089,31 @@ Type: Demo | Date: 2026-11-08
 
 ---
 
+<a id="case-60"></a>
+### ケース 60: [孫悟空「大鬧天宮」のSVG比較](https://x.com/xbquan/status/2119581984989364514) (投稿者 [@xbquan](https://x.com/xbquan))
+
+**同じ孫悟空の場面を3つのシステムがどう構成したか比べます。**
+
+投稿者は3枚の画像を順に、最高設定の GPT-6.2 Sol、Qoder の QoDuck、WorkBuddy の HY4 と記しています。返信で公開したプロンプトは、SVGを1案だけ作り、スクリーンショットで確認しないよう求めています。
+
+[元のプロンプトを掲載した作者の返信](https://x.com/xbquan/status/2119582058922316169)
+
+**プロンプト:**
+
+```
+用尽你的一切能力，用代码画一张孙悟空的大闹天宫名场面的svg图片，我想要尽可能的还原，只能画一版，不准截图检查。
+```
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-60/2119580835200516096-1e4e7a136e429b696a7a.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-60/2119580835200516096-1e4e7a136e429b696a7a.jpg" width="640" alt="ソースプレビュー 1 · 孫悟空「大鬧天宮」のSVG比較"></a>
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-60/2119581876805640192-01552031d537dc13d897.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-60/2119581876805640192-01552031d537dc13d897.jpg" width="640" alt="ソースプレビュー 2 · 孫悟空「大鬧天宮」のSVG比較"></a>
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-60/2119581974092546048-c61fe179e1741227a187.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-60/2119581974092546048-c61fe179e1741227a187.png" width="640" alt="ソースプレビュー 3 · 孫悟空「大鬧天宮」のSVG比較"></a>
+
+Type: Evaluation | Date: 2026-11-09
+
+---
+
 <a id="category-web"></a>
 ## 🌐 ウェブサイトとインターフェース
 
@@ -1063,6 +1173,36 @@ Type: Evaluation | Date: 2026-11-08
 
 ---
 
+<a id="case-61"></a>
+### ケース 61: [回転する七角形の中の重力ボール](https://x.com/VeknQAQ/status/2119613583055261907) (投稿者 [@VeknQAQ](https://x.com/VeknQAQ))
+
+**容器が回転するとボールがどう動くか確認します。**
+
+ブラウザーの録画では、色とりどりのボールが回転する七角形の容器の中で落下し、縁に沿って集まります。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119613276808163329-9e32891b47f58015ccd9.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-61/2119613276808163329-poster-ebcefd25490e1fa11f76.jpg" width="640" alt="ソースプレビュー 1 · 回転する七角形の中の重力ボール"></a>
+
+[デモ動画を再生](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119613276808163329-9e32891b47f58015ccd9.mp4)
+
+Type: Demo | Date: 2026-11-09
+
+---
+
+<a id="case-69"></a>
+### ケース 69: [ブガッティ・シロンの360度コンフィギュレーター](https://x.com/SahilPanhotra/status/2119692064099368967) (投稿者 [@SahilPanhotra](https://x.com/SahilPanhotra))
+
+**カメラが車の周りを移動する様子を見ながら、塗装の仕上がりを比べます。**
+
+録画ではスタジオ照明の下で、撮影角度を変えながら青、銀、黒の塗装を表示します。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119691929403482112-00220dfbd8a8d75a6ce7.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-69/2119691929403482112-poster-645e9a72b2bb463ff65e.jpg" width="640" alt="ソースプレビュー 1 · ブガッティ・シロンの360度コンフィギュレーター"></a>
+
+[デモ動画を再生](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119691929403482112-00220dfbd8a8d75a6ce7.mp4)
+
+Type: Demo | Date: 2026-11-09
+
+---
+
 <a id="category-game"></a>
 ## 🎮 ゲーム開発
 
@@ -1079,6 +1219,36 @@ Type: Evaluation | Date: 2026-11-08
 
 
 Type: Demo | Date: 2026-11-08
+
+---
+
+<a id="case-62"></a>
+### ケース 62: [ブラウザーで動くルービックキューブ](https://x.com/VeknQAQ/status/2119633751173173475) (投稿者 [@VeknQAQ](https://x.com/VeknQAQ))
+
+**プレビューでキューブの回転とステッカーの配置を確認します。**
+
+録画には、色をそろえた状態と崩した状態の3Dキューブ、ブラウザー上の操作ボタンが映っています。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119633608680124416-44e5b8b00d129caeba34.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-62/2119633608680124416-poster-1ea9e2acda539d582293.jpg" width="640" alt="ソースプレビュー 1 · ブラウザーで動くルービックキューブ"></a>
+
+[デモ動画を再生](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119633608680124416-44e5b8b00d129caeba34.mp4)
+
+Type: Demo | Date: 2026-11-09
+
+---
+
+<a id="case-67"></a>
+### ケース 67: [海岸沿いのレースゲームの試作](https://x.com/Stargridcompass/status/2119683294220390638) (投稿者 [@Stargridcompass](https://x.com/Stargridcompass))
+
+**レース中にカウントダウン、速度表示、コースマップが読み取りやすいか確認します。**
+
+録画にはスタートグリッドからの発進とレース中の様子が映っています。投稿者によると制作には16分かかりました。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119682250472112128-81f053c6ffe2a4aae055.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-67/2119682250472112128-poster-526c85969a54c7f93833.jpg" width="640" alt="ソースプレビュー 1 · 海岸沿いのレースゲームの試作"></a>
+
+[デモ動画を再生](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119682250472112128-81f053c6ffe2a4aae055.mp4)
+
+Type: Demo | Date: 2026-11-09
 
 ---
 
@@ -1126,6 +1296,6 @@ Type: Limit | Date: 2026-11-08
 
 これらの実験を共有してくれたクリエイターに感謝します。リンクされた作品およびメディアは、それぞれの作成者に帰属します。
 
-[@Avenoxai](https://x.com/Avenoxai), [@kimmonismus](https://x.com/kimmonismus), [@imjustnewatai](https://x.com/imjustnewatai), [@Khazix0918](https://x.com/Khazix0918), [@marcthecreatorr](https://x.com/marcthecreatorr), [@Bhavani_00007](https://x.com/Bhavani_00007), [@JustLingonberry](https://x.com/JustLingonberry), [@Mr_Salio](https://x.com/Mr_Salio), [@aGim_asf](https://x.com/aGim_asf), [@0x0SojalSec](https://x.com/0x0SojalSec), [@pengsonal](https://x.com/pengsonal), [@GeekCatX](https://x.com/GeekCatX), [@Ananth7e](https://x.com/Ananth7e), [@EnvolDev](https://x.com/EnvolDev), [@xbquan](https://x.com/xbquan), [@SahilPanhotra](https://x.com/SahilPanhotra), [@rubenssoto_ai](https://x.com/rubenssoto_ai), [@vikktorrrre](https://x.com/vikktorrrre), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@Cayden970207](https://x.com/Cayden970207), [@HarshithLucky3](https://x.com/HarshithLucky3), [@TokenGremlin](https://x.com/TokenGremlin), [@SadAlbert10](https://x.com/SadAlbert10), [@maxt3chno](https://x.com/maxt3chno), [@karanC_12](https://x.com/karanC_12), [@JustinGorya](https://x.com/JustinGorya), [@kdnbmb](https://x.com/kdnbmb), [@VraserX](https://x.com/VraserX), [@jessexai_](https://x.com/jessexai_), [@theaidesk_](https://x.com/theaidesk_), [@gadi_neelesh](https://x.com/gadi_neelesh), [@Haleeeemahh](https://x.com/Haleeeemahh), [@SPAC89](https://x.com/SPAC89)
+[@Avenoxai](https://x.com/Avenoxai), [@kimmonismus](https://x.com/kimmonismus), [@imjustnewatai](https://x.com/imjustnewatai), [@Khazix0918](https://x.com/Khazix0918), [@marcthecreatorr](https://x.com/marcthecreatorr), [@Bhavani_00007](https://x.com/Bhavani_00007), [@JustLingonberry](https://x.com/JustLingonberry), [@Mr_Salio](https://x.com/Mr_Salio), [@aGim_asf](https://x.com/aGim_asf), [@0x0SojalSec](https://x.com/0x0SojalSec), [@pengsonal](https://x.com/pengsonal), [@GeekCatX](https://x.com/GeekCatX), [@Ananth7e](https://x.com/Ananth7e), [@EnvolDev](https://x.com/EnvolDev), [@xbquan](https://x.com/xbquan), [@SahilPanhotra](https://x.com/SahilPanhotra), [@rubenssoto_ai](https://x.com/rubenssoto_ai), [@vikktorrrre](https://x.com/vikktorrrre), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@Cayden970207](https://x.com/Cayden970207), [@HarshithLucky3](https://x.com/HarshithLucky3), [@TokenGremlin](https://x.com/TokenGremlin), [@SadAlbert10](https://x.com/SadAlbert10), [@maxt3chno](https://x.com/maxt3chno), [@karanC_12](https://x.com/karanC_12), [@JustinGorya](https://x.com/JustinGorya), [@kdnbmb](https://x.com/kdnbmb), [@VraserX](https://x.com/VraserX), [@jessexai_](https://x.com/jessexai_), [@theaidesk_](https://x.com/theaidesk_), [@gadi_neelesh](https://x.com/gadi_neelesh), [@Haleeeemahh](https://x.com/Haleeeemahh), [@SPAC89](https://x.com/SPAC89), [@VeknQAQ](https://x.com/VeknQAQ), [@Aurora0x3f](https://x.com/Aurora0x3f), [@bei351009016](https://x.com/bei351009016), [@Stargridcompass](https://x.com/Stargridcompass), [@iamtheQwen](https://x.com/iamtheQwen)
 
 *帰属または削除リクエストについては、ソース修正の問題を開いてください。*

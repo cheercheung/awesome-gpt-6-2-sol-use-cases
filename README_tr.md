@@ -18,7 +18,7 @@
 <a id="overview"></a>
 ## 📊 Genel Bakış
 
-- **59 kullanım örneği · GPT-6.2 Sol**. Koleksiyon 59 kaynak gönderiyi kapsıyor. Bunlardan 58'i bir görev çıktısını gösterir ve biri tamamlanmamış bir girişimi kaydeder. On gönderi, orijinal dilde tam istemler sağlar.
+- **69 kullanım örneği · GPT-6.2 Sol**. Derleme 69 kaynak gönderiyi içerir. Bunların 68’i bir sonuç gösterir, biri tamamlanmamış bir denemeyi kaydeder. On bir gönderide istemin özgün dildeki tam metni yer alır.
 - 3 boyutlu sahneler ve modelleme · Yaratıcı grafikler ve animasyon · Web siteleri ve arayüzler · Oyun geliştirme · Bilgisayar kullanımı ve boyama · Bilgisayar kullanımı ve iletişim
 - Her örnekte özgün gönderi, içerik sahibi, tarih, kanıt türü ve görülen sonuç yer alır.
 - Mümkün olduğunda genel istemi kullanın. Sonuçları karşılaştırırken orijinal girişi koruyun.
@@ -76,6 +76,11 @@
 | [Örnek 57. İçi ve havası manzaralı bir ev](#case-57) | [3 boyutlu sahneler ve modelleme](#category-three) | Bir 3D binanın iç ve dış görünümlerde tutarlı kalıp kalmadığını inceleyin. | Demo |
 | [Örnek 58. Tek HTML Three.js kara delik](#case-58) | [3 boyutlu sahneler ve modelleme](#category-three) | Bir sahnenin birden fazla bakış açısını nasıl ele aldığını incelemek için klibi ve fotoğrafları kullanın. | Demo |
 | [Örnek 59. Yüzen bir Three.js sarayı](#case-59) | [3 boyutlu sahneler ve modelleme](#category-three) | Asma bir sarayın ölçeğini ve sunumunu çeşitli açılardan inceleyin. | Demo |
+| [Örnek 63. Mekanik saatin patlatılmış görünümü](#case-63) | [3 boyutlu sahneler ve modelleme](#category-three) | Kadranı inceleyin ve modelin katmanları nasıl ayırdığını görün. | Demo |
+| [Örnek 64. İki pagoda sahnesinin karşılaştırması](#case-64) | [3 boyutlu sahneler ve modelleme](#category-three) | İki çıktının pagodayı, ağaçları ve suyu nasıl yerleştirdiğini karşılaştırın. | Evaluation |
+| [Örnek 65. Three.js ile yapılan koi avlusu](#case-65) | [3 boyutlu sahneler ve modelleme](#category-three) | Koi balıklarını takip ederek suyun hareketini ve yansımaları inceleyin. | Demo |
+| [Örnek 66. Otoparkın üzerinden geçen hortum](#case-66) | [3 boyutlu sahneler ve modelleme](#category-three) | Fırtına simülasyonunun otoparktaki enkazı nasıl hareket ettirdiğini izleyin. | Demo |
+| [Örnek 68. Etkileşimli Boeing 787-9 modeli](#case-68) | [3 boyutlu sahneler ve modelleme](#category-three) | Görünüm kontrolleriyle uçağın dışını ve motoru inceleyin. | Demo |
 | [Örnek 3. 3D'de insanlık tarihi ve yapay zekanın geleceği](#case-3) | [Yaratıcı grafikler ve animasyon](#category-graphics) | Bir anlatım özetini bir dizi animasyonlu sahneye dönüştürün. | Demo |
 | [Örnek 8. Bir tarayıcı boyama stüdyosunda Tibo portresi](#case-8) | [Yaratıcı grafikler ve animasyon](#category-graphics) | Sayfa onu oluştururken bir portrenin aşamalarını inceleyin. | Demo |
 | [Örnek 10. 0x0SojalSec tarafından paylaşılan Sam Altman portre resmi](#case-10) | [Yaratıcı grafikler ve animasyon](#category-graphics) | Kaba şekillerden bitmiş bir portreye geçişi takip edin. | Demo |
@@ -97,10 +102,15 @@
 | [Örnek 51. Bisiklete binen bir pelikan ve iki yengeç](#case-51) | [Yaratıcı grafikler ve animasyon](#category-graphics) | Tek çekimde birden fazla animasyonlu karakterin zamanlamasını inceleyin. | Demo |
 | [Örnek 52. Sol ayarlarında PS5 kontrol cihazı karşılaştırması](#case-52) | [Yaratıcı grafikler ve animasyon](#category-graphics) | Konturları ve gölgelemeyi karşılaştırmak için tanıdık bir ürün kullanın. | Evaluation |
 | [Örnek 55. Yeşil bir BMW M4 CS profil resmi](#case-55) | [Yaratıcı grafikler ve animasyon](#category-graphics) | Tanıdık bir araçta oranları ve profil ayrıntılarını kontrol edin. | Demo |
+| [Örnek 60. Maymun Kral SVG karşılaştırması](#case-60) | [Yaratıcı grafikler ve animasyon](#category-graphics) | Üç sistemin aynı Maymun Kral sahnesini nasıl kurguladığını karşılaştırın. | Evaluation |
 | [Örnek 4. Zamanın Sonu etkileşimli kara delik](#case-4) | [Web siteleri ve arayüzler](#category-web) | Etkileşimli bir Three.js sayfası için odak noktası olarak bir kara delik kullanın. | Demo |
 | [Örnek 7. Gündüz ve gece geçişli Island Atlas](#case-7) | [Web siteleri ve arayüzler](#category-web) | Bir web arayüzünde aydınlatma durumlarını test etmek için kompakt bir 3B ada kullanın. | Demo |
 | [Örnek 41. Codex ve API'de referans görüntü testleri](#case-41) | [Web siteleri ve arayüzler](#category-web) | Farkı atfetmeden önce iki çıkışın aynı referansla ne yaptığını karşılaştırın. | Evaluation |
+| [Örnek 61. Dönen yedigen içinde yerçekimiyle hareket eden toplar](#case-61) | [Web siteleri ve arayüzler](#category-web) | Kap dönerken topların nasıl hareket ettiğini inceleyin. | Demo |
+| [Örnek 69. Bugatti Chiron için 360 derece yapılandırıcı](#case-69) | [Web siteleri ve arayüzler](#category-web) | Kamera aracın etrafında dolaşırken boya seçeneklerini karşılaştırın. | Demo |
 | [Örnek 17. PELICAN PANIC voksel kovalamaca oyunu](#case-17) | [Oyun geliştirme](#category-game) | Kontrolleri, geri bildirimi ve bitiş durumunu incelemek için kısa bir takip oyunu kullanın. | Demo |
+| [Örnek 62. Tarayıcıda Rubik Küpü](#case-62) | [Oyun geliştirme](#category-game) | Önizlemede küpün dönüşlerini ve çıkartmaların yerlerini inceleyin. | Demo |
+| [Örnek 67. Sahil pistinde yarış oyunu prototipi](#case-67) | [Oyun geliştirme](#category-game) | Yarış sırasında geri sayımın, hız göstergesinin ve pist haritasının okunaklı olup olmadığını kontrol edin. | Demo |
 | [Örnek 1. MS Paint'deki Freddie Mercury](#case-1) | [Bilgisayar kullanımı ve boyama](#category-painting) | Bir masaüstü çizim girişiminin ne ürettiğini incelemek için bir portre kullanın. | Demo |
 | [Örnek 43. Bir mesajı iletmek için tamamlanmamış bir girişim](#case-43) | [Bilgisayar kullanımı ve iletişim](#category-communication) | Masaüstü iş akışının nerede durduğunu görme girişimini kullanın. | Limit |
 
@@ -641,6 +651,81 @@ Type: Demo | Date: 2026-11-08
 
 ---
 
+<a id="case-63"></a>
+### Örnek 63: [Mekanik saatin patlatılmış görünümü](https://x.com/VeknQAQ/status/2119644781710303276) (yazan [@VeknQAQ](https://x.com/VeknQAQ))
+
+**Kadranı inceleyin ve modelin katmanları nasıl ayırdığını görün.**
+
+Video, monte edilmiş saatten kadranın ve iç parçaların birbirinden ayrıldığı patlatılmış görünüme geçiyor.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119644705072046080-2e9ea2a58509a7177571.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-63/2119644705072046080-poster-ed92564c349b8e9d5637.jpg" width="640" alt="Kaynak önizlemesi 1 · Mekanik saatin patlatılmış görünümü"></a>
+
+[Demo videosunu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119644705072046080-2e9ea2a58509a7177571.mp4)
+
+Type: Demo | Date: 2026-11-09
+
+---
+
+<a id="case-64"></a>
+### Örnek 64: [İki pagoda sahnesinin karşılaştırması](https://x.com/Aurora0x3f/status/2119664137685045606) (yazan [@Aurora0x3f](https://x.com/Aurora0x3f))
+
+**İki çıktının pagodayı, ağaçları ve suyu nasıl yerleştirdiğini karşılaştırın.**
+
+Videoda üstteki sahne GPT-6.2 Sol, alttaki ise Opus 5.5 olarak etiketlenmiş. Yazar Opus 5.5 sonucunu tercih etmiş.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119663168578637824-e1a40ebc49f22aacda95.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-64/2119663168578637824-poster-b2b794870967829859d6.jpg" width="640" alt="Kaynak önizlemesi 1 · İki pagoda sahnesinin karşılaştırması"></a>
+
+[Demo videosunu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119663168578637824-e1a40ebc49f22aacda95.mp4)
+
+Type: Evaluation | Date: 2026-11-09
+
+---
+
+<a id="case-65"></a>
+### Örnek 65: [Three.js ile yapılan koi avlusu](https://x.com/SahilPanhotra/status/2119666543864782937) (yazan [@SahilPanhotra](https://x.com/SahilPanhotra))
+
+**Koi balıklarını takip ederek suyun hareketini ve yansımaları inceleyin.**
+
+Yazar avlunun Three.js ile tek bir HTML dosyasında yapıldığını söylüyor. Video, değişen yansımaların altında taşların ve yaprakların yanından yüzen koi balıklarını gösteriyor.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119648453227884544-bee45570bdf53daf5f45.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-65/2119648453227884544-poster-4425357fdd67709bd4fb.jpg" width="640" alt="Kaynak önizlemesi 1 · Three.js ile yapılan koi avlusu"></a>
+
+[Demo videosunu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119648453227884544-bee45570bdf53daf5f45.mp4)
+
+Type: Demo | Date: 2026-11-09
+
+---
+
+<a id="case-66"></a>
+### Örnek 66: [Otoparkın üzerinden geçen hortum](https://x.com/bei351009016/status/2119668859796124087) (yazan [@bei351009016](https://x.com/bei351009016))
+
+**Fırtına simülasyonunun otoparktaki enkazı nasıl hareket ettirdiğini izleyin.**
+
+Video, minyatür bir otoparkın üzerindeki hortumu ve araçlarla binaların üzerinde dönen parçaları gösteriyor.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119668021623201792-fe62c5ab6f21ecf5e155.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-66/2119668021623201792-poster-17a3e6466176103ddd18.jpg" width="640" alt="Kaynak önizlemesi 1 · Otoparkın üzerinden geçen hortum"></a>
+
+[Demo videosunu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119668021623201792-fe62c5ab6f21ecf5e155.mp4)
+
+Type: Demo | Date: 2026-11-09
+
+---
+
+<a id="case-68"></a>
+### Örnek 68: [Etkileşimli Boeing 787-9 modeli](https://x.com/iamtheQwen/status/2119687952213397549) (yazan [@iamtheQwen](https://x.com/iamtheQwen))
+
+**Görünüm kontrolleriyle uçağın dışını ve motoru inceleyin.**
+
+Kayıt, döndürülebilen bir 787-9, farklı görünümler ve motor kesiti gösteriyor. Yazar ayrıca iniş takımı kontrolünden ve hava akışı gösteriminden söz ediyor.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119687852141551616-093a9713679a3d5eb80b.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-68/2119687852141551616-poster-6fc1887412c7a1937b45.jpg" width="640" alt="Kaynak önizlemesi 1 · Etkileşimli Boeing 787-9 modeli"></a>
+
+[Demo videosunu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119687852141551616-093a9713679a3d5eb80b.mp4)
+
+Type: Demo | Date: 2026-11-09
+
+---
+
 <a id="category-graphics"></a>
 ## 🎨 Yaratıcı grafikler ve animasyon
 
@@ -1004,6 +1089,31 @@ Type: Demo | Date: 2026-11-08
 
 ---
 
+<a id="case-60"></a>
+### Örnek 60: [Maymun Kral SVG karşılaştırması](https://x.com/xbquan/status/2119581984989364514) (yazan [@xbquan](https://x.com/xbquan))
+
+**Üç sistemin aynı Maymun Kral sahnesini nasıl kurguladığını karşılaştırın.**
+
+Yazar üç görseli sırasıyla en yüksek ayarda GPT-6.2 Sol, Qoder’ın QoDuck modeli ve WorkBuddy’nin HY4 modeli olarak etiketliyor. Yanıtında yayımladığı istem, tek bir SVG sürümü istiyor ve ekran görüntüsüyle kontrolü yasaklıyor.
+
+[Yazarın özgün istemi paylaştığı yanıt](https://x.com/xbquan/status/2119582058922316169)
+
+**İstem:**
+
+```
+用尽你的一切能力，用代码画一张孙悟空的大闹天宫名场面的svg图片，我想要尽可能的还原，只能画一版，不准截图检查。
+```
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-60/2119580835200516096-1e4e7a136e429b696a7a.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-60/2119580835200516096-1e4e7a136e429b696a7a.jpg" width="640" alt="Kaynak önizlemesi 1 · Maymun Kral SVG karşılaştırması"></a>
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-60/2119581876805640192-01552031d537dc13d897.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-60/2119581876805640192-01552031d537dc13d897.jpg" width="640" alt="Kaynak önizlemesi 2 · Maymun Kral SVG karşılaştırması"></a>
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-60/2119581974092546048-c61fe179e1741227a187.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-60/2119581974092546048-c61fe179e1741227a187.png" width="640" alt="Kaynak önizlemesi 3 · Maymun Kral SVG karşılaştırması"></a>
+
+Type: Evaluation | Date: 2026-11-09
+
+---
+
 <a id="category-web"></a>
 ## 🌐 Web siteleri ve arayüzler
 
@@ -1063,6 +1173,36 @@ Type: Evaluation | Date: 2026-11-08
 
 ---
 
+<a id="case-61"></a>
+### Örnek 61: [Dönen yedigen içinde yerçekimiyle hareket eden toplar](https://x.com/VeknQAQ/status/2119613583055261907) (yazan [@VeknQAQ](https://x.com/VeknQAQ))
+
+**Kap dönerken topların nasıl hareket ettiğini inceleyin.**
+
+Tarayıcı kaydı, renkli topların dönen yedi kenarlı kabın içinde düşüp kenarlarda toplandığını gösteriyor.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119613276808163329-9e32891b47f58015ccd9.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-61/2119613276808163329-poster-ebcefd25490e1fa11f76.jpg" width="640" alt="Kaynak önizlemesi 1 · Dönen yedigen içinde yerçekimiyle hareket eden toplar"></a>
+
+[Demo videosunu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119613276808163329-9e32891b47f58015ccd9.mp4)
+
+Type: Demo | Date: 2026-11-09
+
+---
+
+<a id="case-69"></a>
+### Örnek 69: [Bugatti Chiron için 360 derece yapılandırıcı](https://x.com/SahilPanhotra/status/2119692064099368967) (yazan [@SahilPanhotra](https://x.com/SahilPanhotra))
+
+**Kamera aracın etrafında dolaşırken boya seçeneklerini karşılaştırın.**
+
+Kayıt, stüdyo ışığı altında mavi, gümüş ve siyah boyaları farklı açılardan gösteriyor.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119691929403482112-00220dfbd8a8d75a6ce7.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-69/2119691929403482112-poster-645e9a72b2bb463ff65e.jpg" width="640" alt="Kaynak önizlemesi 1 · Bugatti Chiron için 360 derece yapılandırıcı"></a>
+
+[Demo videosunu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119691929403482112-00220dfbd8a8d75a6ce7.mp4)
+
+Type: Demo | Date: 2026-11-09
+
+---
+
 <a id="category-game"></a>
 ## 🎮 Oyun geliştirme
 
@@ -1079,6 +1219,36 @@ Klipte, pelikan üzerindeki patates canavarından kaçan bir binici görülüyor
 
 
 Type: Demo | Date: 2026-11-08
+
+---
+
+<a id="case-62"></a>
+### Örnek 62: [Tarayıcıda Rubik Küpü](https://x.com/VeknQAQ/status/2119633751173173475) (yazan [@VeknQAQ](https://x.com/VeknQAQ))
+
+**Önizlemede küpün dönüşlerini ve çıkartmaların yerlerini inceleyin.**
+
+Kayıt, 3B küpü çözülmüş ve karıştırılmış hâlleriyle, tarayıcıdaki kontrollerle birlikte gösteriyor.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119633608680124416-44e5b8b00d129caeba34.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-62/2119633608680124416-poster-1ea9e2acda539d582293.jpg" width="640" alt="Kaynak önizlemesi 1 · Tarayıcıda Rubik Küpü"></a>
+
+[Demo videosunu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119633608680124416-44e5b8b00d129caeba34.mp4)
+
+Type: Demo | Date: 2026-11-09
+
+---
+
+<a id="case-67"></a>
+### Örnek 67: [Sahil pistinde yarış oyunu prototipi](https://x.com/Stargridcompass/status/2119683294220390638) (yazan [@Stargridcompass](https://x.com/Stargridcompass))
+
+**Yarış sırasında geri sayımın, hız göstergesinin ve pist haritasının okunaklı olup olmadığını kontrol edin.**
+
+Kayıtta araçların start diziliminden kalkışı ve yarışın devamı görülüyor. Yazar yapımın 16 dakika sürdüğünü bildiriyor.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119682250472112128-81f053c6ffe2a4aae055.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-67/2119682250472112128-poster-526c85969a54c7f93833.jpg" width="640" alt="Kaynak önizlemesi 1 · Sahil pistinde yarış oyunu prototipi"></a>
+
+[Demo videosunu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119682250472112128-81f053c6ffe2a4aae055.mp4)
+
+Type: Demo | Date: 2026-11-09
 
 ---
 
@@ -1126,6 +1296,6 @@ Type: Limit | Date: 2026-11-08
 
 Bu deneyleri paylaşan yaratıcılara teşekkürler. Bağlantılı çalışma ve medya, ilgili yaratıcılarına aittir.
 
-[@Avenoxai](https://x.com/Avenoxai), [@kimmonismus](https://x.com/kimmonismus), [@imjustnewatai](https://x.com/imjustnewatai), [@Khazix0918](https://x.com/Khazix0918), [@marcthecreatorr](https://x.com/marcthecreatorr), [@Bhavani_00007](https://x.com/Bhavani_00007), [@JustLingonberry](https://x.com/JustLingonberry), [@Mr_Salio](https://x.com/Mr_Salio), [@aGim_asf](https://x.com/aGim_asf), [@0x0SojalSec](https://x.com/0x0SojalSec), [@pengsonal](https://x.com/pengsonal), [@GeekCatX](https://x.com/GeekCatX), [@Ananth7e](https://x.com/Ananth7e), [@EnvolDev](https://x.com/EnvolDev), [@xbquan](https://x.com/xbquan), [@SahilPanhotra](https://x.com/SahilPanhotra), [@rubenssoto_ai](https://x.com/rubenssoto_ai), [@vikktorrrre](https://x.com/vikktorrrre), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@Cayden970207](https://x.com/Cayden970207), [@HarshithLucky3](https://x.com/HarshithLucky3), [@TokenGremlin](https://x.com/TokenGremlin), [@SadAlbert10](https://x.com/SadAlbert10), [@maxt3chno](https://x.com/maxt3chno), [@karanC_12](https://x.com/karanC_12), [@JustinGorya](https://x.com/JustinGorya), [@kdnbmb](https://x.com/kdnbmb), [@VraserX](https://x.com/VraserX), [@jessexai_](https://x.com/jessexai_), [@theaidesk_](https://x.com/theaidesk_), [@gadi_neelesh](https://x.com/gadi_neelesh), [@Haleeeemahh](https://x.com/Haleeeemahh), [@SPAC89](https://x.com/SPAC89)
+[@Avenoxai](https://x.com/Avenoxai), [@kimmonismus](https://x.com/kimmonismus), [@imjustnewatai](https://x.com/imjustnewatai), [@Khazix0918](https://x.com/Khazix0918), [@marcthecreatorr](https://x.com/marcthecreatorr), [@Bhavani_00007](https://x.com/Bhavani_00007), [@JustLingonberry](https://x.com/JustLingonberry), [@Mr_Salio](https://x.com/Mr_Salio), [@aGim_asf](https://x.com/aGim_asf), [@0x0SojalSec](https://x.com/0x0SojalSec), [@pengsonal](https://x.com/pengsonal), [@GeekCatX](https://x.com/GeekCatX), [@Ananth7e](https://x.com/Ananth7e), [@EnvolDev](https://x.com/EnvolDev), [@xbquan](https://x.com/xbquan), [@SahilPanhotra](https://x.com/SahilPanhotra), [@rubenssoto_ai](https://x.com/rubenssoto_ai), [@vikktorrrre](https://x.com/vikktorrrre), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@Cayden970207](https://x.com/Cayden970207), [@HarshithLucky3](https://x.com/HarshithLucky3), [@TokenGremlin](https://x.com/TokenGremlin), [@SadAlbert10](https://x.com/SadAlbert10), [@maxt3chno](https://x.com/maxt3chno), [@karanC_12](https://x.com/karanC_12), [@JustinGorya](https://x.com/JustinGorya), [@kdnbmb](https://x.com/kdnbmb), [@VraserX](https://x.com/VraserX), [@jessexai_](https://x.com/jessexai_), [@theaidesk_](https://x.com/theaidesk_), [@gadi_neelesh](https://x.com/gadi_neelesh), [@Haleeeemahh](https://x.com/Haleeeemahh), [@SPAC89](https://x.com/SPAC89), [@VeknQAQ](https://x.com/VeknQAQ), [@Aurora0x3f](https://x.com/Aurora0x3f), [@bei351009016](https://x.com/bei351009016), [@Stargridcompass](https://x.com/Stargridcompass), [@iamtheQwen](https://x.com/iamtheQwen)
 
 *Atıf veya kaldırma istekleri için lütfen kaynak düzeltme konusu açın.*
