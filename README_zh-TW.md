@@ -18,7 +18,7 @@
 <a id="overview"></a>
 ## 📊 概述
 
-- **59 條使用案例 · GPT-6.2 Sol**. 該集合涵蓋 59 個來源帖子。其中，58 個顯示任務輸出，一個記錄未完成的嘗試。十個帖子以原始語言提供了準確的提示。
+- **69 條使用案例 · GPT-6.2 Sol**. 共收錄 69 則原始貼文，其中 68 則展示成果，1 則記錄未完成的嘗試。11 則附有作者公開的原文提示詞。
 - 3D場景和建模 · 創意圖形和動畫 · 網站和介面 · 遊戲開發 · 電腦使用與繪畫 · 電腦使用和通訊
 - 每條附上原始貼文、作者、日期、證據類型與可見成果。
 - 盡可能使用公共提示。比較結果時保留原始輸入。
@@ -76,6 +76,11 @@
 | [案例 57. 擁有內部和鳥瞰圖的房子](#case-57) | [3D場景和建模](#category-three) | 檢查 3D 建築的內部和外部視圖是否保持連貫。 | Demo |
 | [案例 58. 單一HTML Three.js黑洞](#case-58) | [3D場景和建模](#category-three) | 使用剪輯和劇照來檢查一個場景如何處理多個視點。 | Demo |
 | [案例 59. 漂浮的Three.js宮殿](#case-59) | [3D場景和建模](#category-three) | 從多個角度觀察懸浮宮殿的規模和外觀。 | Demo |
+| [案例 63. 機械錶的爆炸圖](#case-63) | [3D場景和建模](#category-three) | 先看錶面，再觀察模型如何分開各層零件。 | Demo |
+| [案例 64. 兩個寶塔場景比較](#case-64) | [3D場景和建模](#category-three) | 比較兩個結果如何配置寶塔、樹木和水面。 | Evaluation |
+| [案例 65. Three.js 錦鯉庭院](#case-65) | [3D場景和建模](#category-three) | 跟著錦鯉觀察水面流動與倒影。 | Demo |
+| [案例 66. 停車場上空的龍捲風](#case-66) | [3D場景和建模](#category-three) | 觀察風暴模擬如何帶動停車場裡的碎片。 | Demo |
+| [案例 68. 互動式波音 787-9 模型](#case-68) | [3D場景和建模](#category-three) | 用視角控制項檢視飛機外部和引擎。 | Demo |
 | [案例 3. 3D 人類歷史與人工智慧未來](#case-3) | [創意圖形和動畫](#category-graphics) | 將敘事簡報變成一系列動畫場景。 | Demo |
 | [案例 8. Tibo 瀏覽器繪畫工作室中的肖像](#case-8) | [創意圖形和動畫](#category-graphics) | 在頁面建立時檢查肖像的各個階段。 | Demo |
 | [案例 10. 0x0SojalSec分享的Sam Altman肖像畫](#case-10) | [創意圖形和動畫](#category-graphics) | 遵循從粗糙形狀到完成肖像的過渡。 | Demo |
@@ -97,10 +102,15 @@
 | [案例 51. 一隻鵜鶘和兩隻螃蟹騎自行車](#case-51) | [創意圖形和動畫](#category-graphics) | 在一個鏡頭中檢查多個動畫角色的時間安排。 | Demo |
 | [案例 52. PS5 控制器在 Sol 設定之間的比較](#case-52) | [創意圖形和動畫](#category-graphics) | 使用熟悉的產品來比較輪廓和陰影。 | Evaluation |
 | [案例 55. 綠色 BMW M4 CS 輪廓圖](#case-55) | [創意圖形和動畫](#category-graphics) | 檢查熟悉車輛的比例和輪廓細節。 | Demo |
+| [案例 60. 孫悟空大鬧天宮 SVG 比較](#case-60) | [創意圖形和動畫](#category-graphics) | 比較三個系統如何構圖，呈現同一個大鬧天宮場景。 | Evaluation |
 | [案例 4. 時間終結互動黑洞](#case-4) | [網站和介面](#category-web) | 使用黑洞作為互動式 Three.js 頁面的焦點。 | Demo |
 | [案例 7. Island Atlas 帶晝夜切換](#case-7) | [網站和介面](#category-web) | 使用緊湊的 3D 島來測試 Web 介面中的照明狀態。 | Demo |
 | [案例 41. Codex 和 API 中的參考影像測試](#case-41) | [網站和介面](#category-web) | 在歸因差異之前，比較兩個輸出對相同參考的效果。 | Evaluation |
+| [案例 61. 旋轉七邊形裡的重力小球](#case-61) | [網站和介面](#category-web) | 觀察容器旋轉時小球如何移動。 | Demo |
+| [案例 69. 布加迪 Chiron 360 度配置器](#case-69) | [網站和介面](#category-web) | 在鏡頭環繞車輛時比較不同車漆。 | Demo |
 | [案例 17. PELICAN PANIC 體素追逐遊戲](#case-17) | [遊戲開發](#category-game) | 使用短追逐遊戲來檢查控制、回饋和結束狀態。 | Demo |
+| [案例 62. 瀏覽器裡的立體魔術方塊](#case-62) | [遊戲開發](#category-game) | 從預覽檢查方塊的轉動與貼紙位置。 | Demo |
+| [案例 67. 海岸賽車遊戲原型](#case-67) | [遊戲開發](#category-game) | 檢查比賽中的倒數計時、車速讀數和賽道地圖是否清楚易讀。 | Demo |
 | [案例 1. Freddie Mercury 中 MS Paint](#case-1) | [電腦使用與繪畫](#category-painting) | 使用肖像來檢查桌面繪圖嘗試產生的效果。 | Demo |
 | [案例 43. 未完成的訊息轉發嘗試](#case-43) | [電腦使用和通訊](#category-communication) | 透過嘗試查看桌面工作流程停止的位置。 | Limit |
 
@@ -641,6 +651,81 @@ Type: Demo | Date: 2026-11-08
 
 ---
 
+<a id="case-63"></a>
+### 案例 63: [機械錶的爆炸圖](https://x.com/VeknQAQ/status/2119644781710303276) (作者 [@VeknQAQ](https://x.com/VeknQAQ))
+
+**先看錶面，再觀察模型如何分開各層零件。**
+
+影片從組裝好的機械錶切換至爆炸圖，錶面與內部零件逐層拉開。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119644705072046080-2e9ea2a58509a7177571.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-63/2119644705072046080-poster-ed92564c349b8e9d5637.jpg" width="640" alt="原始碼預覽 1 · 機械錶的爆炸圖"></a>
+
+[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119644705072046080-2e9ea2a58509a7177571.mp4)
+
+Type: Demo | Date: 2026-11-09
+
+---
+
+<a id="case-64"></a>
+### 案例 64: [兩個寶塔場景比較](https://x.com/Aurora0x3f/status/2119664137685045606) (作者 [@Aurora0x3f](https://x.com/Aurora0x3f))
+
+**比較兩個結果如何配置寶塔、樹木和水面。**
+
+影片將上方場景標為 GPT-6.2 Sol，下方標為 Opus 5.5。作者較喜歡 Opus 5.5 的結果。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119663168578637824-e1a40ebc49f22aacda95.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-64/2119663168578637824-poster-b2b794870967829859d6.jpg" width="640" alt="原始碼預覽 1 · 兩個寶塔場景比較"></a>
+
+[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119663168578637824-e1a40ebc49f22aacda95.mp4)
+
+Type: Evaluation | Date: 2026-11-09
+
+---
+
+<a id="case-65"></a>
+### 案例 65: [Three.js 錦鯉庭院](https://x.com/SahilPanhotra/status/2119666543864782937) (作者 [@SahilPanhotra](https://x.com/SahilPanhotra))
+
+**跟著錦鯉觀察水面流動與倒影。**
+
+作者說庭院以 Three.js 製作，放在單一 HTML 檔案中。影片裡，錦鯉游過石頭與葉片，水面倒影不斷變化。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119648453227884544-bee45570bdf53daf5f45.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-65/2119648453227884544-poster-4425357fdd67709bd4fb.jpg" width="640" alt="原始碼預覽 1 · Three.js 錦鯉庭院"></a>
+
+[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119648453227884544-bee45570bdf53daf5f45.mp4)
+
+Type: Demo | Date: 2026-11-09
+
+---
+
+<a id="case-66"></a>
+### 案例 66: [停車場上空的龍捲風](https://x.com/bei351009016/status/2119668859796124087) (作者 [@bei351009016](https://x.com/bei351009016))
+
+**觀察風暴模擬如何帶動停車場裡的碎片。**
+
+影片顯示龍捲風出現在微縮停車場上空，碎片在車輛與建築物上方盤旋。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119668021623201792-fe62c5ab6f21ecf5e155.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-66/2119668021623201792-poster-17a3e6466176103ddd18.jpg" width="640" alt="原始碼預覽 1 · 停車場上空的龍捲風"></a>
+
+[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119668021623201792-fe62c5ab6f21ecf5e155.mp4)
+
+Type: Demo | Date: 2026-11-09
+
+---
+
+<a id="case-68"></a>
+### 案例 68: [互動式波音 787-9 模型](https://x.com/iamtheQwen/status/2119687952213397549) (作者 [@iamtheQwen](https://x.com/iamtheQwen))
+
+**用視角控制項檢視飛機外部和引擎。**
+
+錄影展示可旋轉的 787-9、不同視角和引擎剖面。作者也提到起落架切換與氣流展示。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119687852141551616-093a9713679a3d5eb80b.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-68/2119687852141551616-poster-6fc1887412c7a1937b45.jpg" width="640" alt="原始碼預覽 1 · 互動式波音 787-9 模型"></a>
+
+[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119687852141551616-093a9713679a3d5eb80b.mp4)
+
+Type: Demo | Date: 2026-11-09
+
+---
+
 <a id="category-graphics"></a>
 ## 🎨 創意圖形和動畫
 
@@ -1004,6 +1089,31 @@ Type: Demo | Date: 2026-11-08
 
 ---
 
+<a id="case-60"></a>
+### 案例 60: [孫悟空大鬧天宮 SVG 比較](https://x.com/xbquan/status/2119581984989364514) (作者 [@xbquan](https://x.com/xbquan))
+
+**比較三個系統如何構圖，呈現同一個大鬧天宮場景。**
+
+作者將三張圖依序標為最高設定的 GPT-6.2 Sol、Qoder 的 QoDuck 和 WorkBuddy 的 HY4。作者在回覆中公開的提示詞要求只畫一版 SVG，且不允許截圖檢查。
+
+[作者發布提示詞的回覆](https://x.com/xbquan/status/2119582058922316169)
+
+**提示詞:**
+
+```
+用尽你的一切能力，用代码画一张孙悟空的大闹天宫名场面的svg图片，我想要尽可能的还原，只能画一版，不准截图检查。
+```
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-60/2119580835200516096-1e4e7a136e429b696a7a.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-60/2119580835200516096-1e4e7a136e429b696a7a.jpg" width="640" alt="原始碼預覽 1 · 孫悟空大鬧天宮 SVG 比較"></a>
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-60/2119581876805640192-01552031d537dc13d897.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-60/2119581876805640192-01552031d537dc13d897.jpg" width="640" alt="原始碼預覽 2 · 孫悟空大鬧天宮 SVG 比較"></a>
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-60/2119581974092546048-c61fe179e1741227a187.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-60/2119581974092546048-c61fe179e1741227a187.png" width="640" alt="原始碼預覽 3 · 孫悟空大鬧天宮 SVG 比較"></a>
+
+Type: Evaluation | Date: 2026-11-09
+
+---
+
 <a id="category-web"></a>
 ## 🌐 網站和介面
 
@@ -1063,6 +1173,36 @@ Type: Evaluation | Date: 2026-11-08
 
 ---
 
+<a id="case-61"></a>
+### 案例 61: [旋轉七邊形裡的重力小球](https://x.com/VeknQAQ/status/2119613583055261907) (作者 [@VeknQAQ](https://x.com/VeknQAQ))
+
+**觀察容器旋轉時小球如何移動。**
+
+瀏覽器錄影顯示，一組彩色小球在旋轉的七邊形容器內下落，並沿邊緣聚集。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119613276808163329-9e32891b47f58015ccd9.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-61/2119613276808163329-poster-ebcefd25490e1fa11f76.jpg" width="640" alt="原始碼預覽 1 · 旋轉七邊形裡的重力小球"></a>
+
+[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119613276808163329-9e32891b47f58015ccd9.mp4)
+
+Type: Demo | Date: 2026-11-09
+
+---
+
+<a id="case-69"></a>
+### 案例 69: [布加迪 Chiron 360 度配置器](https://x.com/SahilPanhotra/status/2119692064099368967) (作者 [@SahilPanhotra](https://x.com/SahilPanhotra))
+
+**在鏡頭環繞車輛時比較不同車漆。**
+
+錄影展示攝影棚燈光下的藍色、銀色和黑色車漆，以及不同的拍攝角度。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119691929403482112-00220dfbd8a8d75a6ce7.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-69/2119691929403482112-poster-645e9a72b2bb463ff65e.jpg" width="640" alt="原始碼預覽 1 · 布加迪 Chiron 360 度配置器"></a>
+
+[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119691929403482112-00220dfbd8a8d75a6ce7.mp4)
+
+Type: Demo | Date: 2026-11-09
+
+---
+
 <a id="category-game"></a>
 ## 🎮 遊戲開發
 
@@ -1079,6 +1219,36 @@ Type: Evaluation | Date: 2026-11-08
 
 
 Type: Demo | Date: 2026-11-08
+
+---
+
+<a id="case-62"></a>
+### 案例 62: [瀏覽器裡的立體魔術方塊](https://x.com/VeknQAQ/status/2119633751173173475) (作者 [@VeknQAQ](https://x.com/VeknQAQ))
+
+**從預覽檢查方塊的轉動與貼紙位置。**
+
+錄影展示立體魔術方塊還原與打亂後的狀態，以及瀏覽器裡的操作控制項。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119633608680124416-44e5b8b00d129caeba34.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-62/2119633608680124416-poster-1ea9e2acda539d582293.jpg" width="640" alt="原始碼預覽 1 · 瀏覽器裡的立體魔術方塊"></a>
+
+[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119633608680124416-44e5b8b00d129caeba34.mp4)
+
+Type: Demo | Date: 2026-11-09
+
+---
+
+<a id="case-67"></a>
+### 案例 67: [海岸賽車遊戲原型](https://x.com/Stargridcompass/status/2119683294220390638) (作者 [@Stargridcompass](https://x.com/Stargridcompass))
+
+**檢查比賽中的倒數計時、車速讀數和賽道地圖是否清楚易讀。**
+
+錄影展示起跑和比賽過程。作者回報製作耗時 16 分鐘。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119682250472112128-81f053c6ffe2a4aae055.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-67/2119682250472112128-poster-526c85969a54c7f93833.jpg" width="640" alt="原始碼預覽 1 · 海岸賽車遊戲原型"></a>
+
+[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119682250472112128-81f053c6ffe2a4aae055.mp4)
+
+Type: Demo | Date: 2026-11-09
 
 ---
 
@@ -1126,6 +1296,6 @@ Type: Limit | Date: 2026-11-08
 
 感謝分享這些實驗的創作者。連結的作品和媒體屬於其各自的創作者。
 
-[@Avenoxai](https://x.com/Avenoxai), [@kimmonismus](https://x.com/kimmonismus), [@imjustnewatai](https://x.com/imjustnewatai), [@Khazix0918](https://x.com/Khazix0918), [@marcthecreatorr](https://x.com/marcthecreatorr), [@Bhavani_00007](https://x.com/Bhavani_00007), [@JustLingonberry](https://x.com/JustLingonberry), [@Mr_Salio](https://x.com/Mr_Salio), [@aGim_asf](https://x.com/aGim_asf), [@0x0SojalSec](https://x.com/0x0SojalSec), [@pengsonal](https://x.com/pengsonal), [@GeekCatX](https://x.com/GeekCatX), [@Ananth7e](https://x.com/Ananth7e), [@EnvolDev](https://x.com/EnvolDev), [@xbquan](https://x.com/xbquan), [@SahilPanhotra](https://x.com/SahilPanhotra), [@rubenssoto_ai](https://x.com/rubenssoto_ai), [@vikktorrrre](https://x.com/vikktorrrre), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@Cayden970207](https://x.com/Cayden970207), [@HarshithLucky3](https://x.com/HarshithLucky3), [@TokenGremlin](https://x.com/TokenGremlin), [@SadAlbert10](https://x.com/SadAlbert10), [@maxt3chno](https://x.com/maxt3chno), [@karanC_12](https://x.com/karanC_12), [@JustinGorya](https://x.com/JustinGorya), [@kdnbmb](https://x.com/kdnbmb), [@VraserX](https://x.com/VraserX), [@jessexai_](https://x.com/jessexai_), [@theaidesk_](https://x.com/theaidesk_), [@gadi_neelesh](https://x.com/gadi_neelesh), [@Haleeeemahh](https://x.com/Haleeeemahh), [@SPAC89](https://x.com/SPAC89)
+[@Avenoxai](https://x.com/Avenoxai), [@kimmonismus](https://x.com/kimmonismus), [@imjustnewatai](https://x.com/imjustnewatai), [@Khazix0918](https://x.com/Khazix0918), [@marcthecreatorr](https://x.com/marcthecreatorr), [@Bhavani_00007](https://x.com/Bhavani_00007), [@JustLingonberry](https://x.com/JustLingonberry), [@Mr_Salio](https://x.com/Mr_Salio), [@aGim_asf](https://x.com/aGim_asf), [@0x0SojalSec](https://x.com/0x0SojalSec), [@pengsonal](https://x.com/pengsonal), [@GeekCatX](https://x.com/GeekCatX), [@Ananth7e](https://x.com/Ananth7e), [@EnvolDev](https://x.com/EnvolDev), [@xbquan](https://x.com/xbquan), [@SahilPanhotra](https://x.com/SahilPanhotra), [@rubenssoto_ai](https://x.com/rubenssoto_ai), [@vikktorrrre](https://x.com/vikktorrrre), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@Cayden970207](https://x.com/Cayden970207), [@HarshithLucky3](https://x.com/HarshithLucky3), [@TokenGremlin](https://x.com/TokenGremlin), [@SadAlbert10](https://x.com/SadAlbert10), [@maxt3chno](https://x.com/maxt3chno), [@karanC_12](https://x.com/karanC_12), [@JustinGorya](https://x.com/JustinGorya), [@kdnbmb](https://x.com/kdnbmb), [@VraserX](https://x.com/VraserX), [@jessexai_](https://x.com/jessexai_), [@theaidesk_](https://x.com/theaidesk_), [@gadi_neelesh](https://x.com/gadi_neelesh), [@Haleeeemahh](https://x.com/Haleeeemahh), [@SPAC89](https://x.com/SPAC89), [@VeknQAQ](https://x.com/VeknQAQ), [@Aurora0x3f](https://x.com/Aurora0x3f), [@bei351009016](https://x.com/bei351009016), [@Stargridcompass](https://x.com/Stargridcompass), [@iamtheQwen](https://x.com/iamtheQwen)
 
 *請針對歸屬或刪除要求開啟來源更正問題。*

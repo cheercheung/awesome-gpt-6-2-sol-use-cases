@@ -1,14 +1,14 @@
 {
   "model": "GPT-6.2 Sol",
   "scope": "Community attribution; model identities remain unverified.",
-  "total_cases": 59,
-  "visible_demos": 58,
+  "total_cases": 69,
+  "visible_demos": 68,
   "counts_by_category": {
     "painting": 1,
-    "three": 32,
-    "graphics": 21,
-    "web": 3,
-    "game": 1,
+    "three": 37,
+    "graphics": 22,
+    "web": 5,
+    "game": 3,
     "communication": 1
   },
   "cases": [
@@ -1327,6 +1327,191 @@
       ]
     },
     {
+      "source_url": "https://x.com/VeknQAQ/status/2119644781710303276",
+      "author_handle": "VeknQAQ",
+      "author_url": "https://x.com/VeknQAQ",
+      "date": "2026-11-09",
+      "dedup_key": "x:2119644781710303276",
+      "task_status": "demonstrated",
+      "material_family": null,
+      "is_demo": true,
+      "model_claimed": "GPT-6.2 Sol",
+      "prompt": null,
+      "root_media": [
+        {
+          "id": "2119644705072046080",
+          "type": "video",
+          "attachment_permalink": "https://x.com/VeknQAQ/status/2119644781710303276/video/1",
+          "image_or_poster_url": "https://pbs.twimg.com/amplify_video_thumb/2119644705072046080/img/AtqAGKmI4t9emVJV.jpg",
+          "playback_source_url": "https://video-s.twimg.com/amplify_video/2119644705072046080/vid/avc1/2068x1208/VWRK5qxnWbzcQlbf.mp4?tag=29"
+        }
+      ],
+      "title": "An exploded-view mechanical watch",
+      "takeaway": "Inspect the watch face and see how the model separates its layers.",
+      "body_notes": "The video moves from the assembled watch to an exploded view with the face and internal parts spread apart.",
+      "number": 63,
+      "anchor": "case-63",
+      "category": "three",
+      "type": "Demo",
+      "attribution": "Creator statement. Underlying model unverified.",
+      "display_media": [
+        {
+          "case_number": 63,
+          "media_id": "2119644705072046080",
+          "visual": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-63/2119644705072046080-poster-ed92564c349b8e9d5637.jpg",
+          "playback": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119644705072046080-2e9ea2a58509a7177571.mp4"
+        }
+      ]
+    },
+    {
+      "source_url": "https://x.com/Aurora0x3f/status/2119664137685045606",
+      "author_handle": "Aurora0x3f",
+      "author_url": "https://x.com/Aurora0x3f",
+      "date": "2026-11-09",
+      "dedup_key": "x:2119664137685045606",
+      "task_status": "demonstrated",
+      "material_family": null,
+      "is_demo": true,
+      "model_claimed": "GPT-6.2 Sol",
+      "prompt": null,
+      "root_media": [
+        {
+          "id": "2119663168578637824",
+          "type": "video",
+          "attachment_permalink": "https://x.com/Aurora0x3f/status/2119664137685045606/video/1",
+          "image_or_poster_url": "https://pbs.twimg.com/amplify_video_thumb/2119663168578637824/img/gCkfEcOb3QI8bwQe.jpg",
+          "playback_source_url": "https://video-s.twimg.com/amplify_video/2119663168578637824/vid/avc1/960x1080/ux-Jkrh3nqKePOwk.mp4?tag=29"
+        }
+      ],
+      "title": "A comparison of two pagoda scenes",
+      "takeaway": "Compare how two outputs arrange a pagoda, trees and water.",
+      "body_notes": "The clip labels the upper scene GPT-6.2 Sol and the lower one Opus 5.5. The author preferred the Opus 5.5 result.",
+      "number": 64,
+      "anchor": "case-64",
+      "category": "three",
+      "type": "Evaluation",
+      "attribution": "Creator statement. Underlying model unverified.",
+      "display_media": [
+        {
+          "case_number": 64,
+          "media_id": "2119663168578637824",
+          "visual": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-64/2119663168578637824-poster-b2b794870967829859d6.jpg",
+          "playback": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119663168578637824-e1a40ebc49f22aacda95.mp4"
+        }
+      ]
+    },
+    {
+      "source_url": "https://x.com/SahilPanhotra/status/2119666543864782937",
+      "author_handle": "SahilPanhotra",
+      "author_url": "https://x.com/SahilPanhotra",
+      "date": "2026-11-09",
+      "dedup_key": "x:2119666543864782937",
+      "task_status": "demonstrated",
+      "material_family": null,
+      "is_demo": true,
+      "model_claimed": "GPT-6.2 Sol",
+      "prompt": null,
+      "root_media": [
+        {
+          "id": "2119648453227884544",
+          "type": "video",
+          "attachment_permalink": "https://x.com/SahilPanhotra/status/2119666543864782937/video/1",
+          "image_or_poster_url": "https://pbs.twimg.com/amplify_video_thumb/2119648453227884544/img/1NbnR5oMTujhxuFU.jpg",
+          "playback_source_url": "https://video-s.twimg.com/amplify_video/2119648453227884544/vid/avc1/1920x1080/XpA7iHp_-wN5n58M.mp4?tag=29"
+        }
+      ],
+      "title": "A Three.js koi courtyard",
+      "takeaway": "Follow the koi to inspect how the scene handles moving water and reflections.",
+      "body_notes": "The author describes a Three.js courtyard built in one HTML file. The clip shows koi swimming past rocks and leaves under shifting reflections.",
+      "number": 65,
+      "anchor": "case-65",
+      "category": "three",
+      "type": "Demo",
+      "attribution": "Creator statement. Underlying model unverified.",
+      "display_media": [
+        {
+          "case_number": 65,
+          "media_id": "2119648453227884544",
+          "visual": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-65/2119648453227884544-poster-4425357fdd67709bd4fb.jpg",
+          "playback": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119648453227884544-bee45570bdf53daf5f45.mp4"
+        }
+      ]
+    },
+    {
+      "source_url": "https://x.com/bei351009016/status/2119668859796124087",
+      "author_handle": "bei351009016",
+      "author_url": "https://x.com/bei351009016",
+      "date": "2026-11-09",
+      "dedup_key": "x:2119668859796124087",
+      "task_status": "demonstrated",
+      "material_family": null,
+      "is_demo": true,
+      "model_claimed": "GPT-6.2 Sol",
+      "prompt": null,
+      "root_media": [
+        {
+          "id": "2119668021623201792",
+          "type": "video",
+          "attachment_permalink": "https://x.com/bei351009016/status/2119668859796124087/video/1",
+          "image_or_poster_url": "https://pbs.twimg.com/amplify_video_thumb/2119668021623201792/img/l60jnjNKAcvp6khv.jpg",
+          "playback_source_url": "https://video-s.twimg.com/amplify_video/2119668021623201792/vid/avc1/1918x908/HLCm-KNpmwH9O_E2.mp4?tag=29"
+        }
+      ],
+      "title": "A tornado over a parking lot",
+      "takeaway": "Watch how a storm simulation moves debris around a parking lot.",
+      "body_notes": "The clip shows a tornado over a miniature lot, with debris circulating above vehicles and buildings.",
+      "number": 66,
+      "anchor": "case-66",
+      "category": "three",
+      "type": "Demo",
+      "attribution": "Creator statement. Underlying model unverified.",
+      "display_media": [
+        {
+          "case_number": 66,
+          "media_id": "2119668021623201792",
+          "visual": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-66/2119668021623201792-poster-17a3e6466176103ddd18.jpg",
+          "playback": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119668021623201792-fe62c5ab6f21ecf5e155.mp4"
+        }
+      ]
+    },
+    {
+      "source_url": "https://x.com/iamtheQwen/status/2119687952213397549",
+      "author_handle": "iamtheQwen",
+      "author_url": "https://x.com/iamtheQwen",
+      "date": "2026-11-09",
+      "dedup_key": "x:2119687952213397549",
+      "task_status": "demonstrated",
+      "material_family": null,
+      "is_demo": true,
+      "model_claimed": "GPT-6.2 Sol",
+      "prompt": null,
+      "root_media": [
+        {
+          "id": "2119687852141551616",
+          "type": "video",
+          "attachment_permalink": "https://x.com/iamtheQwen/status/2119687952213397549/video/1",
+          "image_or_poster_url": "https://pbs.twimg.com/amplify_video_thumb/2119687852141551616/img/SB6Q-cWkIUWJvekA.jpg",
+          "playback_source_url": "https://video-s.twimg.com/amplify_video/2119687852141551616/vid/avc1/1008x720/cvNXfv2EzMkxJ-zE.mp4?tag=29"
+        }
+      ],
+      "title": "An interactive Boeing 787-9 model",
+      "takeaway": "Use the view controls to inspect the aircraft exterior and engine.",
+      "body_notes": "The recording shows a rotatable 787-9, alternate views and an engine cutaway. The author also reports a landing gear toggle and an airflow demonstration.",
+      "number": 68,
+      "anchor": "case-68",
+      "category": "three",
+      "type": "Demo",
+      "attribution": "Creator statement. Underlying model unverified.",
+      "display_media": [
+        {
+          "case_number": 68,
+          "media_id": "2119687852141551616",
+          "visual": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-68/2119687852141551616-poster-6fc1887412c7a1937b45.jpg",
+          "playback": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119687852141551616-093a9713679a3d5eb80b.mp4"
+        }
+      ]
+    },
+    {
       "source_url": "https://x.com/imjustnewatai/status/2119518062034792958",
       "author_handle": "imjustnewatai",
       "author_url": "https://x.com/imjustnewatai",
@@ -2130,6 +2315,70 @@
       ]
     },
     {
+      "source_url": "https://x.com/xbquan/status/2119581984989364514",
+      "author_handle": "xbquan",
+      "author_url": "https://x.com/xbquan",
+      "date": "2026-11-09",
+      "dedup_key": "x:2119581984989364514",
+      "task_status": "demonstrated",
+      "material_family": null,
+      "is_demo": true,
+      "model_claimed": "GPT-6.2 Sol",
+      "prompt": "用尽你的一切能力，用代码画一张孙悟空的大闹天宫名场面的svg图片，我想要尽可能的还原，只能画一版，不准截图检查。",
+      "root_media": [
+        {
+          "id": "2119580835200516096",
+          "type": "photo",
+          "attachment_permalink": "https://x.com/xbquan/status/2119581984989364514/photo/1",
+          "image_or_poster_url": "https://pbs.twimg.com/media/HWpDiiLaQAAuBnd.jpg",
+          "playback_source_url": null
+        },
+        {
+          "id": "2119581876805640192",
+          "type": "photo",
+          "attachment_permalink": "https://x.com/xbquan/status/2119581984989364514/photo/1",
+          "image_or_poster_url": "https://pbs.twimg.com/media/HWpEfKdbIAASvL-.jpg",
+          "playback_source_url": null
+        },
+        {
+          "id": "2119581974092546048",
+          "type": "photo",
+          "attachment_permalink": "https://x.com/xbquan/status/2119581984989364514/photo/1",
+          "image_or_poster_url": "https://pbs.twimg.com/media/HWpEk04bgAAKZvz.png",
+          "playback_source_url": null
+        }
+      ],
+      "title": "Monkey King SVG comparison",
+      "takeaway": "Compare how three systems stage the same Monkey King scene.",
+      "body_notes": "The author labels the three images GPT-6.2 Sol at the highest setting, Qoder’s QoDuck and WorkBuddy’s HY4. The prompt in the author’s reply requests one SVG version and forbids checking a screenshot.",
+      "number": 60,
+      "anchor": "case-60",
+      "category": "graphics",
+      "type": "Evaluation",
+      "attribution": "Creator statement. Underlying model unverified.",
+      "display_media": [
+        {
+          "case_number": 60,
+          "media_id": "2119580835200516096",
+          "visual": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-60/2119580835200516096-1e4e7a136e429b696a7a.jpg",
+          "playback": null
+        },
+        {
+          "case_number": 60,
+          "media_id": "2119581876805640192",
+          "visual": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-60/2119581876805640192-01552031d537dc13d897.jpg",
+          "playback": null
+        },
+        {
+          "case_number": 60,
+          "media_id": "2119581974092546048",
+          "visual": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-60/2119581974092546048-c61fe179e1741227a187.png",
+          "playback": null
+        }
+      ],
+      "prompt_source_url": "https://x.com/xbquan/status/2119582058922316169"
+    },
+    {
       "source_url": "https://x.com/Khazix0918/status/2119507514459144677",
       "author_handle": "Khazix0918",
       "author_url": "https://x.com/Khazix0918",
@@ -2241,6 +2490,80 @@
       ]
     },
     {
+      "source_url": "https://x.com/VeknQAQ/status/2119613583055261907",
+      "author_handle": "VeknQAQ",
+      "author_url": "https://x.com/VeknQAQ",
+      "date": "2026-11-09",
+      "dedup_key": "x:2119613583055261907",
+      "task_status": "demonstrated",
+      "material_family": null,
+      "is_demo": true,
+      "model_claimed": "GPT-6.2 Sol",
+      "prompt": null,
+      "root_media": [
+        {
+          "id": "2119613276808163329",
+          "type": "video",
+          "attachment_permalink": "https://x.com/VeknQAQ/status/2119613583055261907/video/1",
+          "image_or_poster_url": "https://pbs.twimg.com/amplify_video_thumb/2119613276808163329/img/yme7mUfCZafYv9rT.jpg",
+          "playback_source_url": "https://video-s.twimg.com/amplify_video/2119613276808163329/vid/avc1/1956x1198/0eEkmf5ignbMO9fa.mp4?tag=29"
+        }
+      ],
+      "title": "Gravity balls in a rotating heptagon",
+      "takeaway": "Inspect how balls respond as their container rotates.",
+      "body_notes": "The browser recording shows a group of colored balls falling and collecting along the edges of a rotating seven-sided container.",
+      "number": 61,
+      "anchor": "case-61",
+      "category": "web",
+      "type": "Demo",
+      "attribution": "Creator statement. Underlying model unverified.",
+      "display_media": [
+        {
+          "case_number": 61,
+          "media_id": "2119613276808163329",
+          "visual": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-61/2119613276808163329-poster-ebcefd25490e1fa11f76.jpg",
+          "playback": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119613276808163329-9e32891b47f58015ccd9.mp4"
+        }
+      ]
+    },
+    {
+      "source_url": "https://x.com/SahilPanhotra/status/2119692064099368967",
+      "author_handle": "SahilPanhotra",
+      "author_url": "https://x.com/SahilPanhotra",
+      "date": "2026-11-09",
+      "dedup_key": "x:2119692064099368967",
+      "task_status": "demonstrated",
+      "material_family": null,
+      "is_demo": true,
+      "model_claimed": "GPT-6.2 Sol",
+      "prompt": null,
+      "root_media": [
+        {
+          "id": "2119691929403482112",
+          "type": "video",
+          "attachment_permalink": "https://x.com/SahilPanhotra/status/2119692064099368967/video/1",
+          "image_or_poster_url": "https://pbs.twimg.com/amplify_video_thumb/2119691929403482112/img/JC3CRQ-pgbhGvyvn.jpg",
+          "playback_source_url": "https://video-s.twimg.com/amplify_video/2119691929403482112/vid/avc1/1920x1080/U4l9bdmFMEVEWr5M.mp4?tag=29"
+        }
+      ],
+      "title": "A 360-degree Bugatti Chiron configurator",
+      "takeaway": "Compare paint finishes as the camera moves around the car.",
+      "body_notes": "The recording shows blue, silver and black finishes under studio lighting as the camera changes angle.",
+      "number": 69,
+      "anchor": "case-69",
+      "category": "web",
+      "type": "Demo",
+      "attribution": "Creator statement. Underlying model unverified.",
+      "display_media": [
+        {
+          "case_number": 69,
+          "media_id": "2119691929403482112",
+          "visual": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-69/2119691929403482112-poster-645e9a72b2bb463ff65e.jpg",
+          "playback": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119691929403482112-00220dfbd8a8d75a6ce7.mp4"
+        }
+      ]
+    },
+    {
       "source_url": "https://x.com/Ananth7e/status/2119479157633786246",
       "author_handle": "Ananth7e",
       "author_url": "https://x.com/Ananth7e",
@@ -2274,6 +2597,80 @@
           "media_id": "2119478839500013568",
           "visual": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-17/2119478839500013568-poster-3716db2a9abc6cf0e264.jpg",
           "playback": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119478839500013568-2ec29cee42e54d0bf9c5.mp4"
+        }
+      ]
+    },
+    {
+      "source_url": "https://x.com/VeknQAQ/status/2119633751173173475",
+      "author_handle": "VeknQAQ",
+      "author_url": "https://x.com/VeknQAQ",
+      "date": "2026-11-09",
+      "dedup_key": "x:2119633751173173475",
+      "task_status": "demonstrated",
+      "material_family": null,
+      "is_demo": true,
+      "model_claimed": "GPT-6.2 Sol",
+      "prompt": null,
+      "root_media": [
+        {
+          "id": "2119633608680124416",
+          "type": "video",
+          "attachment_permalink": "https://x.com/VeknQAQ/status/2119633751173173475/video/1",
+          "image_or_poster_url": "https://pbs.twimg.com/amplify_video_thumb/2119633608680124416/img/JwO98Awon62uVeqX.jpg",
+          "playback_source_url": "https://video-s.twimg.com/amplify_video/2119633608680124416/vid/avc1/1962x1216/2A4VmKOWsTlGeiVa.mp4?tag=29"
+        }
+      ],
+      "title": "A browser Rubik’s Cube",
+      "takeaway": "Use the preview to inspect cube rotations and sticker placement.",
+      "body_notes": "The recording shows a 3D cube in solved and mixed states, alongside controls in the browser.",
+      "number": 62,
+      "anchor": "case-62",
+      "category": "game",
+      "type": "Demo",
+      "attribution": "Creator statement. Underlying model unverified.",
+      "display_media": [
+        {
+          "case_number": 62,
+          "media_id": "2119633608680124416",
+          "visual": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-62/2119633608680124416-poster-1ea9e2acda539d582293.jpg",
+          "playback": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119633608680124416-44e5b8b00d129caeba34.mp4"
+        }
+      ]
+    },
+    {
+      "source_url": "https://x.com/Stargridcompass/status/2119683294220390638",
+      "author_handle": "Stargridcompass",
+      "author_url": "https://x.com/Stargridcompass",
+      "date": "2026-11-09",
+      "dedup_key": "x:2119683294220390638",
+      "task_status": "demonstrated",
+      "material_family": null,
+      "is_demo": true,
+      "model_claimed": "GPT-6.2 Sol",
+      "prompt": null,
+      "root_media": [
+        {
+          "id": "2119682250472112128",
+          "type": "video",
+          "attachment_permalink": "https://x.com/Stargridcompass/status/2119683294220390638/video/1",
+          "image_or_poster_url": "https://pbs.twimg.com/amplify_video_thumb/2119682250472112128/img/SQ_4OvO-WOglyNXq.jpg",
+          "playback_source_url": "https://video-s.twimg.com/amplify_video/2119682250472112128/vid/avc1/2232x1080/l0KaZAU8E8wyg6HI.mp4?tag=29"
+        }
+      ],
+      "title": "A coastal racing game prototype",
+      "takeaway": "Check whether the countdown, speed readout and track map stay readable during a race.",
+      "body_notes": "The recording shows a grid start and a race in progress. The author reports a 16-minute build.",
+      "number": 67,
+      "anchor": "case-67",
+      "category": "game",
+      "type": "Demo",
+      "attribution": "Creator statement. Underlying model unverified.",
+      "display_media": [
+        {
+          "case_number": 67,
+          "media_id": "2119682250472112128",
+          "visual": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-67/2119682250472112128-poster-526c85969a54c7f93833.jpg",
+          "playback": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119682250472112128-81f053c6ffe2a4aae055.mp4"
         }
       ]
     },

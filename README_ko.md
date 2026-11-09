@@ -18,7 +18,7 @@
 <a id="overview"></a>
 ## 📊 개요
 
-- **59 개 활용 사례 · GPT-6.2 Sol**. 컬렉션에는 59개의 소스 게시물이 포함됩니다. 이 중 58개는 작업 출력을 표시하고 하나는 완료되지 않은 시도를 기록합니다. 10개의 게시물은 원래 언어로 정확한 프롬프트를 제공합니다.
+- **69 개 활용 사례 · GPT-6.2 Sol**. 원본 게시물 69건을 모았습니다. 68건은 작업 결과를 보여 주고, 1건은 완료하지 못한 시도를 기록합니다. 11건에는 원문 프롬프트가 포함됩니다.
 - 3D 장면 및 모델링 · 창의적인 그래픽과 애니메이션 · 웹사이트 및 인터페이스 · 게임 개발 · 컴퓨터 사용 및 페인팅 · 컴퓨터 사용 및 통신
 - 각 사례에는 원본 게시물, 제작자, 날짜, 증거 유형, 화면에서 확인한 결과를 담았습니다.
 - 가능한 경우 공개 프롬프트를 사용하세요. 결과를 비교할 때 원래 입력을 유지하세요.
@@ -76,6 +76,11 @@
 | [사례 57. 내부와 조감도가 보이는 집](#case-57) | [3D 장면 및 모델링](#category-three) | 3D 건물이 내부 및 외부 뷰에서 일관성을 유지하는지 검사합니다. | Demo |
 | [사례 58. 단일 HTML Three.js 블랙홀](#case-58) | [3D 장면 및 모델링](#category-three) | 클립과 스틸을 사용하여 한 장면이 여러 시점을 처리하는 방법을 검사합니다. | Demo |
 | [사례 59. 떠다니는 Three.js 궁전](#case-59) | [3D 장면 및 모델링](#category-three) | 여러 각도에서 매달린 궁전의 규모와 모습을 살펴보세요. | Demo |
+| [사례 63. 기계식 시계의 분해도](#case-63) | [3D 장면 및 모델링](#category-three) | 시계 문자판을 보고 모델이 부품을 층별로 어떻게 나누는지 살펴보세요. | Demo |
+| [사례 64. 두 탑 장면 비교](#case-64) | [3D 장면 및 모델링](#category-three) | 두 결과물이 탑과 나무, 물을 어떻게 배치했는지 비교해 보세요. | Evaluation |
+| [사례 65. Three.js로 만든 비단잉어 정원](#case-65) | [3D 장면 및 모델링](#category-three) | 비단잉어를 따라가며 물의 움직임과 반사를 살펴보세요. | Demo |
+| [사례 66. 주차장을 지나가는 토네이도](#case-66) | [3D 장면 및 모델링](#category-three) | 폭풍 시뮬레이션이 주차장의 잔해를 어떻게 움직이는지 살펴보세요. | Demo |
+| [사례 68. 조작 가능한 보잉 787-9 모형](#case-68) | [3D 장면 및 모델링](#category-three) | 보기 제어 기능으로 항공기 외부와 엔진을 살펴보세요. | Demo |
 | [사례 3. 3D로 보는 인류 역사와 AI의 미래](#case-3) | [창의적인 그래픽과 애니메이션](#category-graphics) | 내러티브 브리핑을 일련의 애니메이션 장면으로 바꿔보세요. | Demo |
 | [사례 8. 브라우저 페인팅 스튜디오의 Tibo 초상화](#case-8) | [창의적인 그래픽과 애니메이션](#category-graphics) | 페이지가 구성되는 초상화의 단계를 살펴보세요. | Demo |
 | [사례 10. 0x0SojalSec가 공유한 Sam Altman 초상화 그림](#case-10) | [창의적인 그래픽과 애니메이션](#category-graphics) | 대략적인 모양에서 완성된 초상화로의 전환을 따라가보세요. | Demo |
@@ -97,10 +102,15 @@
 | [사례 51. 자전거를 타고 있는 펠리컨과 게 두 마리](#case-51) | [창의적인 그래픽과 애니메이션](#category-graphics) | 한 장면에서 여러 애니메이션 캐릭터의 타이밍을 검사합니다. | Demo |
 | [사례 52. Sol 설정 전반에 걸친 PS5 컨트롤러 비교](#case-52) | [창의적인 그래픽과 애니메이션](#category-graphics) | 익숙한 제품을 사용하여 윤곽선과 음영을 비교하세요. | Evaluation |
 | [사례 55. 녹색 BMW M4 CS 프로필 그림](#case-55) | [창의적인 그래픽과 애니메이션](#category-graphics) | 익숙한 차량에서 비율과 프로필 디테일을 확인하세요. | Demo |
+| [사례 60. 손오공의 대요천궁 SVG 비교](#case-60) | [창의적인 그래픽과 애니메이션](#category-graphics) | 같은 손오공 장면을 세 시스템이 어떻게 구성했는지 비교해 보세요. | Evaluation |
 | [사례 4. 시간의 끝 대화형 블랙홀](#case-4) | [웹사이트 및 인터페이스](#category-web) | 대화형 Three.js 페이지의 초점으로 블랙홀을 사용하세요. | Demo |
 | [사례 7. 낮과 밤을 전환하는 Island Atlas](#case-7) | [웹사이트 및 인터페이스](#category-web) | 웹 인터페이스에서 조명 상태를 테스트하려면 소형 3D 아일랜드를 사용하세요. | Demo |
 | [사례 41. Codex 및 API의 참조 이미지 테스트](#case-41) | [웹사이트 및 인터페이스](#category-web) | 차이점을 밝히기 전에 동일한 참조로 두 출력이 수행하는 작업을 비교하십시오. | Evaluation |
+| [사례 61. 회전하는 칠각형 속 중력 공](#case-61) | [웹사이트 및 인터페이스](#category-web) | 용기가 회전할 때 공이 어떻게 움직이는지 살펴보세요. | Demo |
+| [사례 69. 부가티 시론 360도 구성 도구](#case-69) | [웹사이트 및 인터페이스](#category-web) | 카메라가 차량 주위를 돌 때 도장 마감을 비교해 보세요. | Demo |
 | [사례 17. PELICAN PANIC 복셀 추격 게임](#case-17) | [게임 개발](#category-game) | 컨트롤, 피드백, 종료 상태를 검사하려면 짧은 추격 게임을 사용하세요. | Demo |
+| [사례 62. 브라우저 속 루빅스 큐브](#case-62) | [게임 개발](#category-game) | 미리보기에서 큐브의 회전과 스티커 배치를 확인해 보세요. | Demo |
+| [사례 67. 해안 도로 레이싱 게임 시제품](#case-67) | [게임 개발](#category-game) | 경주 중 카운트다운, 속도 표시, 코스 지도를 읽기 쉬운지 확인해 보세요. | Demo |
 | [사례 1. MS Paint의 Freddie Mercury](#case-1) | [컴퓨터 사용 및 페인팅](#category-painting) | 초상화를 사용하여 데스크톱 그리기 시도가 생성하는 내용을 검사합니다. | Demo |
 | [사례 43. 메시지를 전달하려는 아직 끝나지 않은 시도](#case-43) | [컴퓨터 사용 및 통신](#category-communication) | 데스크톱 워크플로가 중지된 위치를 확인하는 시도를 사용하세요. | Limit |
 
@@ -641,6 +651,81 @@ Type: Demo | Date: 2026-11-08
 
 ---
 
+<a id="case-63"></a>
+### 사례 63: [기계식 시계의 분해도](https://x.com/VeknQAQ/status/2119644781710303276) (작성자 [@VeknQAQ](https://x.com/VeknQAQ))
+
+**시계 문자판을 보고 모델이 부품을 층별로 어떻게 나누는지 살펴보세요.**
+
+영상은 조립된 시계에서 문자판과 내부 부품을 벌려 놓은 분해도로 전환됩니다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119644705072046080-2e9ea2a58509a7177571.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-63/2119644705072046080-poster-ed92564c349b8e9d5637.jpg" width="640" alt="소스 미리보기 1 · 기계식 시계의 분해도"></a>
+
+[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119644705072046080-2e9ea2a58509a7177571.mp4)
+
+Type: Demo | Date: 2026-11-09
+
+---
+
+<a id="case-64"></a>
+### 사례 64: [두 탑 장면 비교](https://x.com/Aurora0x3f/status/2119664137685045606) (작성자 [@Aurora0x3f](https://x.com/Aurora0x3f))
+
+**두 결과물이 탑과 나무, 물을 어떻게 배치했는지 비교해 보세요.**
+
+영상은 위쪽 장면을 GPT-6.2 Sol, 아래쪽을 Opus 5.5로 표시합니다. 작성자는 Opus 5.5의 결과를 더 선호했습니다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119663168578637824-e1a40ebc49f22aacda95.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-64/2119663168578637824-poster-b2b794870967829859d6.jpg" width="640" alt="소스 미리보기 1 · 두 탑 장면 비교"></a>
+
+[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119663168578637824-e1a40ebc49f22aacda95.mp4)
+
+Type: Evaluation | Date: 2026-11-09
+
+---
+
+<a id="case-65"></a>
+### 사례 65: [Three.js로 만든 비단잉어 정원](https://x.com/SahilPanhotra/status/2119666543864782937) (작성자 [@SahilPanhotra](https://x.com/SahilPanhotra))
+
+**비단잉어를 따라가며 물의 움직임과 반사를 살펴보세요.**
+
+작성자는 Three.js로 정원을 만들고 하나의 HTML 파일에 담았다고 설명합니다. 영상에서 비단잉어가 바위와 잎사귀 곁을 지나고 물에 비친 모습이 변합니다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119648453227884544-bee45570bdf53daf5f45.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-65/2119648453227884544-poster-4425357fdd67709bd4fb.jpg" width="640" alt="소스 미리보기 1 · Three.js로 만든 비단잉어 정원"></a>
+
+[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119648453227884544-bee45570bdf53daf5f45.mp4)
+
+Type: Demo | Date: 2026-11-09
+
+---
+
+<a id="case-66"></a>
+### 사례 66: [주차장을 지나가는 토네이도](https://x.com/bei351009016/status/2119668859796124087) (작성자 [@bei351009016](https://x.com/bei351009016))
+
+**폭풍 시뮬레이션이 주차장의 잔해를 어떻게 움직이는지 살펴보세요.**
+
+영상에서 토네이도가 축소 모형 주차장 위에 나타나고 차량과 건물 위로 잔해가 소용돌이칩니다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119668021623201792-fe62c5ab6f21ecf5e155.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-66/2119668021623201792-poster-17a3e6466176103ddd18.jpg" width="640" alt="소스 미리보기 1 · 주차장을 지나가는 토네이도"></a>
+
+[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119668021623201792-fe62c5ab6f21ecf5e155.mp4)
+
+Type: Demo | Date: 2026-11-09
+
+---
+
+<a id="case-68"></a>
+### 사례 68: [조작 가능한 보잉 787-9 모형](https://x.com/iamtheQwen/status/2119687952213397549) (작성자 [@iamtheQwen](https://x.com/iamtheQwen))
+
+**보기 제어 기능으로 항공기 외부와 엔진을 살펴보세요.**
+
+녹화에는 회전 가능한 787-9, 여러 시점, 엔진 단면이 나옵니다. 작성자는 착륙 장치 전환과 공기 흐름 시연도 언급했습니다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119687852141551616-093a9713679a3d5eb80b.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-68/2119687852141551616-poster-6fc1887412c7a1937b45.jpg" width="640" alt="소스 미리보기 1 · 조작 가능한 보잉 787-9 모형"></a>
+
+[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119687852141551616-093a9713679a3d5eb80b.mp4)
+
+Type: Demo | Date: 2026-11-09
+
+---
+
 <a id="category-graphics"></a>
 ## 🎨 창의적인 그래픽과 애니메이션
 
@@ -1004,6 +1089,31 @@ Type: Demo | Date: 2026-11-08
 
 ---
 
+<a id="case-60"></a>
+### 사례 60: [손오공의 대요천궁 SVG 비교](https://x.com/xbquan/status/2119581984989364514) (작성자 [@xbquan](https://x.com/xbquan))
+
+**같은 손오공 장면을 세 시스템이 어떻게 구성했는지 비교해 보세요.**
+
+작성자는 세 이미지를 최고 설정의 GPT-6.2 Sol, Qoder의 QoDuck, WorkBuddy의 HY4 순으로 표시했습니다. 작성자가 답글에 공개한 프롬프트는 SVG 한 버전만 만들고 스크린샷으로 확인하지 말라고 요구합니다.
+
+[원문 프롬프트를 공개한 작성자 답글](https://x.com/xbquan/status/2119582058922316169)
+
+**프롬프트:**
+
+```
+用尽你的一切能力，用代码画一张孙悟空的大闹天宫名场面的svg图片，我想要尽可能的还原，只能画一版，不准截图检查。
+```
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-60/2119580835200516096-1e4e7a136e429b696a7a.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-60/2119580835200516096-1e4e7a136e429b696a7a.jpg" width="640" alt="소스 미리보기 1 · 손오공의 대요천궁 SVG 비교"></a>
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-60/2119581876805640192-01552031d537dc13d897.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-60/2119581876805640192-01552031d537dc13d897.jpg" width="640" alt="소스 미리보기 2 · 손오공의 대요천궁 SVG 비교"></a>
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-60/2119581974092546048-c61fe179e1741227a187.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-60/2119581974092546048-c61fe179e1741227a187.png" width="640" alt="소스 미리보기 3 · 손오공의 대요천궁 SVG 비교"></a>
+
+Type: Evaluation | Date: 2026-11-09
+
+---
+
 <a id="category-web"></a>
 ## 🌐 웹사이트 및 인터페이스
 
@@ -1063,6 +1173,36 @@ Type: Evaluation | Date: 2026-11-08
 
 ---
 
+<a id="case-61"></a>
+### 사례 61: [회전하는 칠각형 속 중력 공](https://x.com/VeknQAQ/status/2119613583055261907) (작성자 [@VeknQAQ](https://x.com/VeknQAQ))
+
+**용기가 회전할 때 공이 어떻게 움직이는지 살펴보세요.**
+
+브라우저 녹화에서 여러 색의 공이 회전하는 칠각형 용기 안에서 떨어져 가장자리를 따라 모입니다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119613276808163329-9e32891b47f58015ccd9.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-61/2119613276808163329-poster-ebcefd25490e1fa11f76.jpg" width="640" alt="소스 미리보기 1 · 회전하는 칠각형 속 중력 공"></a>
+
+[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119613276808163329-9e32891b47f58015ccd9.mp4)
+
+Type: Demo | Date: 2026-11-09
+
+---
+
+<a id="case-69"></a>
+### 사례 69: [부가티 시론 360도 구성 도구](https://x.com/SahilPanhotra/status/2119692064099368967) (작성자 [@SahilPanhotra](https://x.com/SahilPanhotra))
+
+**카메라가 차량 주위를 돌 때 도장 마감을 비교해 보세요.**
+
+녹화에서는 스튜디오 조명 아래 파란색, 은색, 검은색 도장을 여러 각도에서 보여 줍니다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119691929403482112-00220dfbd8a8d75a6ce7.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-69/2119691929403482112-poster-645e9a72b2bb463ff65e.jpg" width="640" alt="소스 미리보기 1 · 부가티 시론 360도 구성 도구"></a>
+
+[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119691929403482112-00220dfbd8a8d75a6ce7.mp4)
+
+Type: Demo | Date: 2026-11-09
+
+---
+
 <a id="category-game"></a>
 ## 🎮 게임 개발
 
@@ -1079,6 +1219,36 @@ Type: Evaluation | Date: 2026-11-08
 
 
 Type: Demo | Date: 2026-11-08
+
+---
+
+<a id="case-62"></a>
+### 사례 62: [브라우저 속 루빅스 큐브](https://x.com/VeknQAQ/status/2119633751173173475) (작성자 [@VeknQAQ](https://x.com/VeknQAQ))
+
+**미리보기에서 큐브의 회전과 스티커 배치를 확인해 보세요.**
+
+녹화에는 맞춰진 상태와 뒤섞인 상태의 3D 큐브, 브라우저 조작 버튼이 나옵니다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119633608680124416-44e5b8b00d129caeba34.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-62/2119633608680124416-poster-1ea9e2acda539d582293.jpg" width="640" alt="소스 미리보기 1 · 브라우저 속 루빅스 큐브"></a>
+
+[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119633608680124416-44e5b8b00d129caeba34.mp4)
+
+Type: Demo | Date: 2026-11-09
+
+---
+
+<a id="case-67"></a>
+### 사례 67: [해안 도로 레이싱 게임 시제품](https://x.com/Stargridcompass/status/2119683294220390638) (작성자 [@Stargridcompass](https://x.com/Stargridcompass))
+
+**경주 중 카운트다운, 속도 표시, 코스 지도를 읽기 쉬운지 확인해 보세요.**
+
+녹화에는 출발 대열과 경주 중인 모습이 나옵니다. 작성자는 제작에 16분이 걸렸다고 밝혔습니다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119682250472112128-81f053c6ffe2a4aae055.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-67/2119682250472112128-poster-526c85969a54c7f93833.jpg" width="640" alt="소스 미리보기 1 · 해안 도로 레이싱 게임 시제품"></a>
+
+[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119682250472112128-81f053c6ffe2a4aae055.mp4)
+
+Type: Demo | Date: 2026-11-09
 
 ---
 
@@ -1126,6 +1296,6 @@ Type: Limit | Date: 2026-11-08
 
 이러한 실험을 공유해 주신 제작자에게 감사드립니다. 링크된 저작물과 미디어는 해당 창작자에게 귀속됩니다.
 
-[@Avenoxai](https://x.com/Avenoxai), [@kimmonismus](https://x.com/kimmonismus), [@imjustnewatai](https://x.com/imjustnewatai), [@Khazix0918](https://x.com/Khazix0918), [@marcthecreatorr](https://x.com/marcthecreatorr), [@Bhavani_00007](https://x.com/Bhavani_00007), [@JustLingonberry](https://x.com/JustLingonberry), [@Mr_Salio](https://x.com/Mr_Salio), [@aGim_asf](https://x.com/aGim_asf), [@0x0SojalSec](https://x.com/0x0SojalSec), [@pengsonal](https://x.com/pengsonal), [@GeekCatX](https://x.com/GeekCatX), [@Ananth7e](https://x.com/Ananth7e), [@EnvolDev](https://x.com/EnvolDev), [@xbquan](https://x.com/xbquan), [@SahilPanhotra](https://x.com/SahilPanhotra), [@rubenssoto_ai](https://x.com/rubenssoto_ai), [@vikktorrrre](https://x.com/vikktorrrre), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@Cayden970207](https://x.com/Cayden970207), [@HarshithLucky3](https://x.com/HarshithLucky3), [@TokenGremlin](https://x.com/TokenGremlin), [@SadAlbert10](https://x.com/SadAlbert10), [@maxt3chno](https://x.com/maxt3chno), [@karanC_12](https://x.com/karanC_12), [@JustinGorya](https://x.com/JustinGorya), [@kdnbmb](https://x.com/kdnbmb), [@VraserX](https://x.com/VraserX), [@jessexai_](https://x.com/jessexai_), [@theaidesk_](https://x.com/theaidesk_), [@gadi_neelesh](https://x.com/gadi_neelesh), [@Haleeeemahh](https://x.com/Haleeeemahh), [@SPAC89](https://x.com/SPAC89)
+[@Avenoxai](https://x.com/Avenoxai), [@kimmonismus](https://x.com/kimmonismus), [@imjustnewatai](https://x.com/imjustnewatai), [@Khazix0918](https://x.com/Khazix0918), [@marcthecreatorr](https://x.com/marcthecreatorr), [@Bhavani_00007](https://x.com/Bhavani_00007), [@JustLingonberry](https://x.com/JustLingonberry), [@Mr_Salio](https://x.com/Mr_Salio), [@aGim_asf](https://x.com/aGim_asf), [@0x0SojalSec](https://x.com/0x0SojalSec), [@pengsonal](https://x.com/pengsonal), [@GeekCatX](https://x.com/GeekCatX), [@Ananth7e](https://x.com/Ananth7e), [@EnvolDev](https://x.com/EnvolDev), [@xbquan](https://x.com/xbquan), [@SahilPanhotra](https://x.com/SahilPanhotra), [@rubenssoto_ai](https://x.com/rubenssoto_ai), [@vikktorrrre](https://x.com/vikktorrrre), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@Cayden970207](https://x.com/Cayden970207), [@HarshithLucky3](https://x.com/HarshithLucky3), [@TokenGremlin](https://x.com/TokenGremlin), [@SadAlbert10](https://x.com/SadAlbert10), [@maxt3chno](https://x.com/maxt3chno), [@karanC_12](https://x.com/karanC_12), [@JustinGorya](https://x.com/JustinGorya), [@kdnbmb](https://x.com/kdnbmb), [@VraserX](https://x.com/VraserX), [@jessexai_](https://x.com/jessexai_), [@theaidesk_](https://x.com/theaidesk_), [@gadi_neelesh](https://x.com/gadi_neelesh), [@Haleeeemahh](https://x.com/Haleeeemahh), [@SPAC89](https://x.com/SPAC89), [@VeknQAQ](https://x.com/VeknQAQ), [@Aurora0x3f](https://x.com/Aurora0x3f), [@bei351009016](https://x.com/bei351009016), [@Stargridcompass](https://x.com/Stargridcompass), [@iamtheQwen](https://x.com/iamtheQwen)
 
 *저작자 표시 또는 삭제 요청에 대한 소스 수정 문제를 열어주세요.*

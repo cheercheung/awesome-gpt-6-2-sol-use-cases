@@ -18,7 +18,7 @@
 <a id="overview"></a>
 ## 📊 Обзор
 
-- **59 примеров применения · GPT-6.2 Sol**. Сборник охватывает 59 исходных постов. Из них 58 показывают результат выполнения задачи, а один фиксирует незавершенную попытку. Десять постов содержат точные подсказки на языке оригинала.
+- **69 примеров применения · GPT-6.2 Sol**. В подборке 69 исходных публикаций. Из них 68 показывают результат, а одна описывает незавершённую попытку. В 11 публикациях приведён точный текст промпта на языке оригинала.
 - 3D сцены и моделирование · Креативная графика и анимация · Веб-сайты и интерфейсы · Разработка игр · Использование компьютера и рисование · Использование компьютера и общение
 - В каждом примере указаны исходная публикация, автор, дата, тип доказательства и видимый результат.
 - Используйте общедоступную подсказку, если она доступна. Сохраняйте исходные данные при сравнении результатов.
@@ -76,6 +76,11 @@
 | [Пример 57. Дом с интерьером и видом с воздуха](#case-57) | [3D сцены и моделирование](#category-three) | Проверьте, остается ли 3D-здание целостным на видах изнутри и снаружи. | Demo |
 | [Пример 58. Одиночная черная дыра HTML Three.js](#case-58) | [3D сцены и моделирование](#category-three) | Используйте клип и фотографии, чтобы проверить, как одна сцена обрабатывает несколько точек обзора. | Demo |
 | [Пример 59. Плавающий дворец Three.js](#case-59) | [3D сцены и моделирование](#category-three) | Осмотрите масштаб и внешний вид подвесного дворца с нескольких сторон. | Demo |
+| [Пример 63. Механические часы в разобранном виде](#case-63) | [3D сцены и моделирование](#category-three) | Рассмотрите циферблат и посмотрите, как модель раздвигает слои. | Demo |
+| [Пример 64. Две сцены с пагодами в одном кадре](#case-64) | [3D сцены и моделирование](#category-three) | Сравните, как в двух вариантах расположены пагода, деревья и вода. | Evaluation |
+| [Пример 65. Двор с карпами кои на Three.js](#case-65) | [3D сцены и моделирование](#category-three) | Проследите за карпами, чтобы оценить движение воды и отражения. | Demo |
+| [Пример 66. Торнадо над парковкой](#case-66) | [3D сцены и моделирование](#category-three) | Посмотрите, как имитация шторма перемещает обломки по парковке. | Demo |
+| [Пример 68. Интерактивная модель Boeing 787-9](#case-68) | [3D сцены и моделирование](#category-three) | Используйте управление видами, чтобы рассмотреть самолёт снаружи и изучить двигатель. | Demo |
 | [Пример 3. История человечества и будущее искусственного интеллекта в 3D](#case-3) | [Креативная графика и анимация](#category-graphics) | Превратите повествование в последовательность анимированных сцен. | Demo |
 | [Пример 8. Портрет Tibo в браузерной студии рисования](#case-8) | [Креативная графика и анимация](#category-graphics) | Изучите этапы создания портрета по мере его создания на странице. | Demo |
 | [Пример 10. Портретная картина Sam Altman, предоставленная 0x0SojalSec](#case-10) | [Креативная графика и анимация](#category-graphics) | Проследите за переходом от грубых форм к готовому портрету. | Demo |
@@ -97,10 +102,15 @@
 | [Пример 51. Пеликан и два краба катаются на велосипедах](#case-51) | [Креативная графика и анимация](#category-graphics) | Проверьте синхронизацию нескольких анимированных персонажей в одном кадре. | Demo |
 | [Пример 52. Сравнение контроллера PS5 с настройками Sol](#case-52) | [Креативная графика и анимация](#category-graphics) | Используйте знакомый продукт для сравнения контуров и штриховок. | Evaluation |
 | [Пример 55. Зеленая иллюстрация профиля BMW M4 CS.](#case-55) | [Креативная графика и анимация](#category-graphics) | Проверьте пропорции и детали профиля знакомого автомобиля. | Demo |
+| [Пример 60. Сравнение SVG с Царём обезьян](#case-60) | [Креативная графика и анимация](#category-graphics) | Сравните, как три системы построили одну и ту же сцену с Царём обезьян. | Evaluation |
 | [Пример 4. Интерактивная черная дыра «Конец времени»](#case-4) | [Веб-сайты и интерфейсы](#category-web) | Используйте черную дыру в качестве фокуса интерактивной страницы Three.js. | Demo |
 | [Пример 7. Island Atlas с переключением дня и ночи.](#case-7) | [Веб-сайты и интерфейсы](#category-web) | Используйте компактный 3D-остров для проверки состояния освещения в веб-интерфейсе. | Demo |
 | [Пример 41. Тесты эталонного изображения в Codex и API](#case-41) | [Веб-сайты и интерфейсы](#category-web) | Прежде чем приписывать разницу, сравните, что делают два выхода с одним и тем же эталоном. | Evaluation |
+| [Пример 61. Шарики под действием гравитации во вращающемся семиугольнике](#case-61) | [Веб-сайты и интерфейсы](#category-web) | Проследите, как движутся шарики при вращении контейнера. | Demo |
+| [Пример 69. Конфигуратор Bugatti Chiron с обзором на 360 градусов](#case-69) | [Веб-сайты и интерфейсы](#category-web) | Сравните варианты окраски, пока камера движется вокруг машины. | Demo |
 | [Пример 17. PELICAN PANIC воксельная погоня](#case-17) | [Разработка игр](#category-game) | Используйте короткую игру-погоню, чтобы проверить элементы управления, обратную связь и конечное состояние. | Demo |
+| [Пример 62. Кубик Рубика в браузере](#case-62) | [Разработка игр](#category-game) | Посмотрите, как поворачивается кубик и где расположены наклейки. | Demo |
+| [Пример 67. Прототип гоночной игры на побережье](#case-67) | [Разработка игр](#category-game) | Проверьте, хорошо ли читаются обратный отсчёт, скорость и карта трассы во время гонки. | Demo |
 | [Пример 1. Freddie Mercury в MS Paint](#case-1) | [Использование компьютера и рисование](#category-painting) | Используйте портрет, чтобы проверить, что дает попытка рисования на рабочем столе. | Demo |
 | [Пример 43. Незавершенная попытка передать сообщение](#case-43) | [Использование компьютера и общение](#category-communication) | Используйте попытку увидеть, где остановился рабочий процесс рабочего стола. | Limit |
 
@@ -641,6 +651,81 @@ Type: Demo | Date: 2026-11-08
 
 ---
 
+<a id="case-63"></a>
+### Пример 63: [Механические часы в разобранном виде](https://x.com/VeknQAQ/status/2119644781710303276) (автор [@VeknQAQ](https://x.com/VeknQAQ))
+
+**Рассмотрите циферблат и посмотрите, как модель раздвигает слои.**
+
+Ролик переходит от собранных часов к разобранному виду, где циферблат и внутренние детали разнесены.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119644705072046080-2e9ea2a58509a7177571.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-63/2119644705072046080-poster-ed92564c349b8e9d5637.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Механические часы в разобранном виде"></a>
+
+[Воспроизвести демонстрацию](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119644705072046080-2e9ea2a58509a7177571.mp4)
+
+Type: Demo | Date: 2026-11-09
+
+---
+
+<a id="case-64"></a>
+### Пример 64: [Две сцены с пагодами в одном кадре](https://x.com/Aurora0x3f/status/2119664137685045606) (автор [@Aurora0x3f](https://x.com/Aurora0x3f))
+
+**Сравните, как в двух вариантах расположены пагода, деревья и вода.**
+
+В ролике верхняя сцена подписана GPT-6.2 Sol, нижняя — Opus 5.5. Автору больше понравился результат Opus 5.5.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119663168578637824-e1a40ebc49f22aacda95.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-64/2119663168578637824-poster-b2b794870967829859d6.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Две сцены с пагодами в одном кадре"></a>
+
+[Воспроизвести демонстрацию](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119663168578637824-e1a40ebc49f22aacda95.mp4)
+
+Type: Evaluation | Date: 2026-11-09
+
+---
+
+<a id="case-65"></a>
+### Пример 65: [Двор с карпами кои на Three.js](https://x.com/SahilPanhotra/status/2119666543864782937) (автор [@SahilPanhotra](https://x.com/SahilPanhotra))
+
+**Проследите за карпами, чтобы оценить движение воды и отражения.**
+
+Автор описывает двор, созданный на Three.js в одном HTML-файле. На видео карпы проплывают мимо камней и листьев, пока отражения на воде меняются.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119648453227884544-bee45570bdf53daf5f45.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-65/2119648453227884544-poster-4425357fdd67709bd4fb.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Двор с карпами кои на Three.js"></a>
+
+[Воспроизвести демонстрацию](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119648453227884544-bee45570bdf53daf5f45.mp4)
+
+Type: Demo | Date: 2026-11-09
+
+---
+
+<a id="case-66"></a>
+### Пример 66: [Торнадо над парковкой](https://x.com/bei351009016/status/2119668859796124087) (автор [@bei351009016](https://x.com/bei351009016))
+
+**Посмотрите, как имитация шторма перемещает обломки по парковке.**
+
+Ролик показывает торнадо над миниатюрной парковкой. Обломки кружатся над машинами и зданиями.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119668021623201792-fe62c5ab6f21ecf5e155.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-66/2119668021623201792-poster-17a3e6466176103ddd18.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Торнадо над парковкой"></a>
+
+[Воспроизвести демонстрацию](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119668021623201792-fe62c5ab6f21ecf5e155.mp4)
+
+Type: Demo | Date: 2026-11-09
+
+---
+
+<a id="case-68"></a>
+### Пример 68: [Интерактивная модель Boeing 787-9](https://x.com/iamtheQwen/status/2119687952213397549) (автор [@iamtheQwen](https://x.com/iamtheQwen))
+
+**Используйте управление видами, чтобы рассмотреть самолёт снаружи и изучить двигатель.**
+
+На записи видны вращаемая модель 787-9, разные виды и разрез двигателя. Автор также сообщает о переключении шасси и демонстрации воздушного потока.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119687852141551616-093a9713679a3d5eb80b.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-68/2119687852141551616-poster-6fc1887412c7a1937b45.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Интерактивная модель Boeing 787-9"></a>
+
+[Воспроизвести демонстрацию](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119687852141551616-093a9713679a3d5eb80b.mp4)
+
+Type: Demo | Date: 2026-11-09
+
+---
+
 <a id="category-graphics"></a>
 ## 🎨 Креативная графика и анимация
 
@@ -1004,6 +1089,31 @@ Type: Demo | Date: 2026-11-08
 
 ---
 
+<a id="case-60"></a>
+### Пример 60: [Сравнение SVG с Царём обезьян](https://x.com/xbquan/status/2119581984989364514) (автор [@xbquan](https://x.com/xbquan))
+
+**Сравните, как три системы построили одну и ту же сцену с Царём обезьян.**
+
+Автор подписал три изображения как GPT-6.2 Sol с максимальной настройкой, QoDuck от Qoder и HY4 от WorkBuddy. В опубликованном им ответе промпт требует один вариант SVG и запрещает проверять его по снимку экрана.
+
+[Ответ автора с исходным промптом](https://x.com/xbquan/status/2119582058922316169)
+
+**Промпт:**
+
+```
+用尽你的一切能力，用代码画一张孙悟空的大闹天宫名场面的svg图片，我想要尽可能的还原，只能画一版，不准截图检查。
+```
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-60/2119580835200516096-1e4e7a136e429b696a7a.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-60/2119580835200516096-1e4e7a136e429b696a7a.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Сравнение SVG с Царём обезьян"></a>
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-60/2119581876805640192-01552031d537dc13d897.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-60/2119581876805640192-01552031d537dc13d897.jpg" width="640" alt="Предварительный просмотр исходного кода 2 · Сравнение SVG с Царём обезьян"></a>
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-60/2119581974092546048-c61fe179e1741227a187.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-60/2119581974092546048-c61fe179e1741227a187.png" width="640" alt="Предварительный просмотр исходного кода 3 · Сравнение SVG с Царём обезьян"></a>
+
+Type: Evaluation | Date: 2026-11-09
+
+---
+
 <a id="category-web"></a>
 ## 🌐 Веб-сайты и интерфейсы
 
@@ -1063,6 +1173,36 @@ Type: Evaluation | Date: 2026-11-08
 
 ---
 
+<a id="case-61"></a>
+### Пример 61: [Шарики под действием гравитации во вращающемся семиугольнике](https://x.com/VeknQAQ/status/2119613583055261907) (автор [@VeknQAQ](https://x.com/VeknQAQ))
+
+**Проследите, как движутся шарики при вращении контейнера.**
+
+Запись браузера показывает, как разноцветные шарики падают и собираются у краёв вращающегося семиугольного контейнера.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119613276808163329-9e32891b47f58015ccd9.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-61/2119613276808163329-poster-ebcefd25490e1fa11f76.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Шарики под действием гравитации во вращающемся семиугольнике"></a>
+
+[Воспроизвести демонстрацию](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119613276808163329-9e32891b47f58015ccd9.mp4)
+
+Type: Demo | Date: 2026-11-09
+
+---
+
+<a id="case-69"></a>
+### Пример 69: [Конфигуратор Bugatti Chiron с обзором на 360 градусов](https://x.com/SahilPanhotra/status/2119692064099368967) (автор [@SahilPanhotra](https://x.com/SahilPanhotra))
+
+**Сравните варианты окраски, пока камера движется вокруг машины.**
+
+Запись показывает синюю, серебристую и чёрную окраску под студийным светом с разных ракурсов.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119691929403482112-00220dfbd8a8d75a6ce7.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-69/2119691929403482112-poster-645e9a72b2bb463ff65e.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Конфигуратор Bugatti Chiron с обзором на 360 градусов"></a>
+
+[Воспроизвести демонстрацию](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119691929403482112-00220dfbd8a8d75a6ce7.mp4)
+
+Type: Demo | Date: 2026-11-09
+
+---
+
 <a id="category-game"></a>
 ## 🎮 Разработка игр
 
@@ -1079,6 +1219,36 @@ Type: Evaluation | Date: 2026-11-08
 
 
 Type: Demo | Date: 2026-11-08
+
+---
+
+<a id="case-62"></a>
+### Пример 62: [Кубик Рубика в браузере](https://x.com/VeknQAQ/status/2119633751173173475) (автор [@VeknQAQ](https://x.com/VeknQAQ))
+
+**Посмотрите, как поворачивается кубик и где расположены наклейки.**
+
+В записи показаны собранное и перемешанное состояния трёхмерного кубика, а также элементы управления в браузере.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119633608680124416-44e5b8b00d129caeba34.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-62/2119633608680124416-poster-1ea9e2acda539d582293.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Кубик Рубика в браузере"></a>
+
+[Воспроизвести демонстрацию](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119633608680124416-44e5b8b00d129caeba34.mp4)
+
+Type: Demo | Date: 2026-11-09
+
+---
+
+<a id="case-67"></a>
+### Пример 67: [Прототип гоночной игры на побережье](https://x.com/Stargridcompass/status/2119683294220390638) (автор [@Stargridcompass](https://x.com/Stargridcompass))
+
+**Проверьте, хорошо ли читаются обратный отсчёт, скорость и карта трассы во время гонки.**
+
+На записи видны старт с решётки и ход гонки. По словам автора, создание игры заняло 16 минут.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119682250472112128-81f053c6ffe2a4aae055.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-67/2119682250472112128-poster-526c85969a54c7f93833.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Прототип гоночной игры на побережье"></a>
+
+[Воспроизвести демонстрацию](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119682250472112128-81f053c6ffe2a4aae055.mp4)
+
+Type: Demo | Date: 2026-11-09
 
 ---
 
@@ -1126,6 +1296,6 @@ Type: Limit | Date: 2026-11-08
 
 Спасибо создателям, поделившимся этими экспериментами. Связанные произведения и медиа принадлежат их создателям.
 
-[@Avenoxai](https://x.com/Avenoxai), [@kimmonismus](https://x.com/kimmonismus), [@imjustnewatai](https://x.com/imjustnewatai), [@Khazix0918](https://x.com/Khazix0918), [@marcthecreatorr](https://x.com/marcthecreatorr), [@Bhavani_00007](https://x.com/Bhavani_00007), [@JustLingonberry](https://x.com/JustLingonberry), [@Mr_Salio](https://x.com/Mr_Salio), [@aGim_asf](https://x.com/aGim_asf), [@0x0SojalSec](https://x.com/0x0SojalSec), [@pengsonal](https://x.com/pengsonal), [@GeekCatX](https://x.com/GeekCatX), [@Ananth7e](https://x.com/Ananth7e), [@EnvolDev](https://x.com/EnvolDev), [@xbquan](https://x.com/xbquan), [@SahilPanhotra](https://x.com/SahilPanhotra), [@rubenssoto_ai](https://x.com/rubenssoto_ai), [@vikktorrrre](https://x.com/vikktorrrre), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@Cayden970207](https://x.com/Cayden970207), [@HarshithLucky3](https://x.com/HarshithLucky3), [@TokenGremlin](https://x.com/TokenGremlin), [@SadAlbert10](https://x.com/SadAlbert10), [@maxt3chno](https://x.com/maxt3chno), [@karanC_12](https://x.com/karanC_12), [@JustinGorya](https://x.com/JustinGorya), [@kdnbmb](https://x.com/kdnbmb), [@VraserX](https://x.com/VraserX), [@jessexai_](https://x.com/jessexai_), [@theaidesk_](https://x.com/theaidesk_), [@gadi_neelesh](https://x.com/gadi_neelesh), [@Haleeeemahh](https://x.com/Haleeeemahh), [@SPAC89](https://x.com/SPAC89)
+[@Avenoxai](https://x.com/Avenoxai), [@kimmonismus](https://x.com/kimmonismus), [@imjustnewatai](https://x.com/imjustnewatai), [@Khazix0918](https://x.com/Khazix0918), [@marcthecreatorr](https://x.com/marcthecreatorr), [@Bhavani_00007](https://x.com/Bhavani_00007), [@JustLingonberry](https://x.com/JustLingonberry), [@Mr_Salio](https://x.com/Mr_Salio), [@aGim_asf](https://x.com/aGim_asf), [@0x0SojalSec](https://x.com/0x0SojalSec), [@pengsonal](https://x.com/pengsonal), [@GeekCatX](https://x.com/GeekCatX), [@Ananth7e](https://x.com/Ananth7e), [@EnvolDev](https://x.com/EnvolDev), [@xbquan](https://x.com/xbquan), [@SahilPanhotra](https://x.com/SahilPanhotra), [@rubenssoto_ai](https://x.com/rubenssoto_ai), [@vikktorrrre](https://x.com/vikktorrrre), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@Cayden970207](https://x.com/Cayden970207), [@HarshithLucky3](https://x.com/HarshithLucky3), [@TokenGremlin](https://x.com/TokenGremlin), [@SadAlbert10](https://x.com/SadAlbert10), [@maxt3chno](https://x.com/maxt3chno), [@karanC_12](https://x.com/karanC_12), [@JustinGorya](https://x.com/JustinGorya), [@kdnbmb](https://x.com/kdnbmb), [@VraserX](https://x.com/VraserX), [@jessexai_](https://x.com/jessexai_), [@theaidesk_](https://x.com/theaidesk_), [@gadi_neelesh](https://x.com/gadi_neelesh), [@Haleeeemahh](https://x.com/Haleeeemahh), [@SPAC89](https://x.com/SPAC89), [@VeknQAQ](https://x.com/VeknQAQ), [@Aurora0x3f](https://x.com/Aurora0x3f), [@bei351009016](https://x.com/bei351009016), [@Stargridcompass](https://x.com/Stargridcompass), [@iamtheQwen](https://x.com/iamtheQwen)
 
 *Пожалуйста, откройте вопрос об исправлении источника для запросов на атрибуцию или удаление.*
