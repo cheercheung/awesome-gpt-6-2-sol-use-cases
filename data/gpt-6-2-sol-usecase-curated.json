@@ -1,0 +1,2368 @@
+{
+  "model": "GPT-6.2 Sol",
+  "scope": "Community attribution; model identities remain unverified.",
+  "total_cases": 59,
+  "visible_demos": 58,
+  "counts_by_category": {
+    "painting": 1,
+    "three": 32,
+    "graphics": 21,
+    "web": 3,
+    "game": 1,
+    "communication": 1
+  },
+  "cases": [
+    {
+      "source_url": "https://x.com/kimmonismus/status/2119543483048268179",
+      "author_handle": "kimmonismus",
+      "author_url": "https://x.com/kimmonismus",
+      "date": "2026-11-08",
+      "dedup_key": "x:2119543483048268179",
+      "task_status": "demonstrated",
+      "material_family": "simpsons-house",
+      "is_demo": true,
+      "model_claimed": "GPT-6.2 Sol",
+      "prompt": null,
+      "root_media": [
+        {
+          "id": "2119532455732391936",
+          "type": "photo",
+          "attachment_permalink": "https://x.com/kimmonismus/status/2119543483048268179/video/1",
+          "image_or_poster_url": "https://pbs.twimg.com/media/HWoXienXMAA2UHI.png",
+          "playback_source_url": null
+        },
+        {
+          "id": "2119532301629444096",
+          "type": "video",
+          "attachment_permalink": "https://x.com/kimmonismus/status/2119543483048268179/video/1",
+          "image_or_poster_url": "https://pbs.twimg.com/amplify_video_thumb/2119532301629444096/img/VzOUzbjnqDueh6NJ.jpg",
+          "playback_source_url": "https://video.twimg.com/amplify_video/2119532301629444096/vid/avc1/1920x1080/GBNaMyedGdXf8LDe.mp4?tag=29"
+        },
+        {
+          "id": "2119532554088742912",
+          "type": "photo",
+          "attachment_permalink": "https://x.com/kimmonismus/status/2119543483048268179/video/1",
+          "image_or_poster_url": "https://pbs.twimg.com/media/HWoXoNBWAAAOdSM.jpg",
+          "playback_source_url": null
+        }
+      ],
+      "title": "A suburban house and a pelican sketch",
+      "takeaway": "Pair a rendered scene with a compact drawing test.",
+      "body_notes": "The post shows a Three.js house diorama and a pelican drawing. The author phrases the model attribution as a question.",
+      "number": 2,
+      "anchor": "case-2",
+      "category": "three",
+      "type": "Demo",
+      "attribution": "Creator statement. Underlying model unverified.",
+      "display_media": [
+        {
+          "case_number": 2,
+          "media_id": "2119532455732391936",
+          "visual": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-02/2119532455732391936-fa2a8f20e72b385fb876.png",
+          "playback": null
+        },
+        {
+          "case_number": 2,
+          "media_id": "2119532301629444096",
+          "visual": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-02/2119532301629444096-poster-3bee934f98dcb35913e6.jpg",
+          "playback": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119532301629444096-59cbe92bb0ac66550f15.mp4"
+        },
+        {
+          "case_number": 2,
+          "media_id": "2119532554088742912",
+          "visual": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-02/2119532554088742912-0aa402b50c531d333c76.jpg",
+          "playback": null
+        }
+      ]
+    },
+    {
+      "source_url": "https://x.com/marcthecreatorr/status/2119503438405136765",
+      "author_handle": "marcthecreatorr",
+      "author_url": "https://x.com/marcthecreatorr",
+      "date": "2026-11-08",
+      "dedup_key": "x:2119503438405136765",
+      "task_status": "demonstrated",
+      "material_family": "sailing-ship-comparison",
+      "is_demo": true,
+      "model_claimed": "GPT-6.2 Sol",
+      "prompt": "create an interactive sailing ship in three.js, make it detailed as possible:",
+      "root_media": [
+        {
+          "id": "2119502925797953536",
+          "type": "video",
+          "attachment_permalink": "https://x.com/marcthecreatorr/status/2119503438405136765/video/1",
+          "image_or_poster_url": "https://pbs.twimg.com/amplify_video_thumb/2119502925797953536/img/wiZ1ZbgBM5mZnQY9.jpg",
+          "playback_source_url": "https://video-s.twimg.com/amplify_video/2119502925797953536/vid/avc1/2160x2160/0dp05obuP3GscqEy.mp4?tag=29"
+        }
+      ],
+      "title": "A same-prompt Three.js sailing ship comparison",
+      "takeaway": "Compare how two outputs handle detail and interaction on the same ship brief.",
+      "body_notes": "The clip compares two sailing ships. The author reports 27 minutes and $3 for one run and 95 minutes and $16 for the other. Those figures come from the post.",
+      "number": 5,
+      "anchor": "case-5",
+      "category": "three",
+      "type": "Evaluation",
+      "attribution": "Creator statement. Underlying model unverified.",
+      "display_media": [
+        {
+          "case_number": 5,
+          "media_id": "2119502925797953536",
+          "visual": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-05/2119502925797953536-poster-116cd4a4d6e1cb5d973f.jpg",
+          "playback": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119502925797953536-f1e1d1b1900d66b4eb77.mp4"
+        }
+      ]
+    },
+    {
+      "source_url": "https://x.com/Bhavani_00007/status/2119503354405720140",
+      "author_handle": "Bhavani_00007",
+      "author_url": "https://x.com/Bhavani_00007",
+      "date": "2026-11-08",
+      "dedup_key": "x:2119503354405720140",
+      "task_status": "demonstrated",
+      "material_family": "red-train-comparison",
+      "is_demo": true,
+      "model_claimed": "GPT-6.2 Sol",
+      "prompt": null,
+      "root_media": [
+        {
+          "id": "2119503068949856256",
+          "type": "video",
+          "attachment_permalink": "https://x.com/Bhavani_00007/status/2119503354405720140/video/1",
+          "image_or_poster_url": "https://pbs.twimg.com/amplify_video_thumb/2119503068949856256/img/qhTp_02C5AJdZaoA.jpg",
+          "playback_source_url": "https://video-s.twimg.com/amplify_video/2119503068949856256/vid/avc1/1200x1600/y5w6cdwHEFZcLBOz.mp4?tag=29"
+        }
+      ],
+      "title": "A red train crossing a mountain valley",
+      "takeaway": "Compare moving vehicles and scenery in a shared scene.",
+      "body_notes": "The two labeled outputs show a red train traveling on an elevated track through a green valley. The source labels the results Sol 6.2 and Opus 5.5.",
+      "number": 6,
+      "anchor": "case-6",
+      "category": "three",
+      "type": "Evaluation",
+      "attribution": "Creator statement. Underlying model unverified.",
+      "display_media": [
+        {
+          "case_number": 6,
+          "media_id": "2119503068949856256",
+          "visual": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-06/2119503068949856256-poster-aa72e097b1fd4a84966f.jpg",
+          "playback": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119503068949856256-bca1ef454e3e673e2bce.mp4"
+        }
+      ]
+    },
+    {
+      "source_url": "https://x.com/aGim_asf/status/2119498787282436207",
+      "author_handle": "aGim_asf",
+      "author_url": "https://x.com/aGim_asf",
+      "date": "2026-11-08",
+      "dedup_key": "x:2119498787282436207",
+      "task_status": "demonstrated",
+      "material_family": "colosseum-comparison",
+      "is_demo": true,
+      "model_claimed": "GPT-6.2 Sol",
+      "prompt": null,
+      "root_media": [
+        {
+          "id": "2119498709633220608",
+          "type": "video",
+          "attachment_permalink": "https://x.com/aGim_asf/status/2119498787282436207/video/1",
+          "image_or_poster_url": "https://pbs.twimg.com/amplify_video_thumb/2119498709633220608/img/9RmAXmqKcF8ZrPIq.jpg",
+          "playback_source_url": "https://video-s.twimg.com/amplify_video/2119498709633220608/vid/avc1/1080x1216/a9b4iDy-RQIwYzki.mp4?tag=29"
+        }
+      ],
+      "title": "A ruined Colosseum in two scene treatments",
+      "takeaway": "Compare camera coverage and architectural detail in two reconstructions.",
+      "body_notes": "The clip pairs a result labeled Sol routed with one labeled Opus 5.5. The sampled views include the exterior, an overhead angle, and a night view.",
+      "number": 9,
+      "anchor": "case-9",
+      "category": "three",
+      "type": "Evaluation",
+      "attribution": "Creator statement. Underlying model unverified.",
+      "display_media": [
+        {
+          "case_number": 9,
+          "media_id": "2119498709633220608",
+          "visual": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-09/2119498709633220608-poster-8243d0e74884908136c0.jpg",
+          "playback": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119498709633220608-26722fac9106b56240f3.mp4"
+        }
+      ]
+    },
+    {
+      "source_url": "https://x.com/EnvolDev/status/2119482078341591479",
+      "author_handle": "EnvolDev",
+      "author_url": "https://x.com/EnvolDev",
+      "date": "2026-11-08",
+      "dedup_key": "x:2119482078341591479",
+      "task_status": "secondhand",
+      "material_family": "aetheria-floating-islands",
+      "is_demo": true,
+      "model_claimed": "GPT-6.2 Sol",
+      "prompt": null,
+      "root_media": [
+        {
+          "id": "2119437684120707072",
+          "type": "video",
+          "attachment_permalink": "https://x.com/Mr_Salio/status/2119437812604838342/video/1",
+          "image_or_poster_url": "https://pbs.twimg.com/amplify_video_thumb/2119437684120707072/img/hWdo-zoXb1i1TRWG.jpg",
+          "playback_source_url": "https://video.twimg.com/amplify_video/2119437684120707072/vid/avc1/1920x1080/E6EVXLDH8i3q7-xC.mp4?tag=29"
+        }
+      ],
+      "title": "AETHERIA floating islands shared by EnvolDev",
+      "takeaway": "Follow the camera through a floating landscape.",
+      "body_notes": "The clip moves among islands, waterfalls, and a temple before displaying an end title. It matches the AETHERIA footage shown in the collection's other entry.",
+      "number": 15,
+      "anchor": "case-15",
+      "category": "three",
+      "type": "Demo",
+      "attribution": "Creator statement. Underlying model unverified.",
+      "display_media": [
+        {
+          "case_number": 15,
+          "media_id": "2119437684120707072",
+          "visual": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-15/2119437684120707072-poster-633f997463e30650c978.jpg",
+          "playback": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119437684120707072-bd2ec92a5b611ac8fbd3.mp4"
+        }
+      ]
+    },
+    {
+      "source_url": "https://x.com/xbquan/status/2119479402052657395",
+      "author_handle": "xbquan",
+      "author_url": "https://x.com/xbquan",
+      "date": "2026-11-08",
+      "dedup_key": "x:2119479402052657395",
+      "task_status": "demonstrated",
+      "material_family": null,
+      "is_demo": true,
+      "model_claimed": "GPT-6.2 Sol",
+      "prompt": null,
+      "root_media": [
+        {
+          "id": "2119478886493040640",
+          "type": "video",
+          "attachment_permalink": "https://x.com/xbquan/status/2119479402052657395/video/1",
+          "image_or_poster_url": "https://pbs.twimg.com/amplify_video_thumb/2119478886493040640/img/V-J4ynpx76jRKOp6.jpg",
+          "playback_source_url": "https://video.twimg.com/amplify_video/2119478886493040640/vid/avc1/696x624/39Kp8aNTiGeOihtT.mp4?tag=29"
+        },
+        {
+          "id": "2119479019515396096",
+          "type": "photo",
+          "attachment_permalink": "https://x.com/xbquan/status/2119479402052657395/video/1",
+          "image_or_poster_url": "https://pbs.twimg.com/media/HWnm8FMbwAAdf91.png",
+          "playback_source_url": null
+        },
+        {
+          "id": "2119479313682837504",
+          "type": "photo",
+          "attachment_permalink": "https://x.com/xbquan/status/2119479402052657395/video/1",
+          "image_or_poster_url": "https://pbs.twimg.com/media/HWnnNNDasAAbfg5.png",
+          "playback_source_url": null
+        }
+      ],
+      "title": "A purple furry character with earlier comparisons",
+      "takeaway": "Separate a new character clip from reference outputs in the same post.",
+      "body_notes": "The video shows the purple character turning. Two still images are labeled Opus 5.5 and GPT-6.1 Sol and belong to an earlier comparison.",
+      "number": 16,
+      "anchor": "case-16",
+      "category": "three",
+      "type": "Demo",
+      "attribution": "Creator statement. Underlying model unverified.",
+      "display_media": [
+        {
+          "case_number": 16,
+          "media_id": "2119478886493040640",
+          "visual": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-16/2119478886493040640-poster-311533a33c0d7347ebba.jpg",
+          "playback": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119478886493040640-b74d054d9845c14539a7.mp4"
+        },
+        {
+          "case_number": 16,
+          "media_id": "2119479019515396096",
+          "visual": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-16/2119479019515396096-43ac0320808f9c27b0e1.png",
+          "playback": null
+        },
+        {
+          "case_number": 16,
+          "media_id": "2119479313682837504",
+          "visual": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-16/2119479313682837504-7663aa353ea789acf78d.png",
+          "playback": null
+        }
+      ]
+    },
+    {
+      "source_url": "https://x.com/SahilPanhotra/status/2119478318949126549",
+      "author_handle": "SahilPanhotra",
+      "author_url": "https://x.com/SahilPanhotra",
+      "date": "2026-11-08",
+      "dedup_key": "x:2119478318949126549",
+      "task_status": "demonstrated",
+      "material_family": null,
+      "is_demo": true,
+      "model_claimed": "GPT-6.2 Sol",
+      "prompt": null,
+      "root_media": [
+        {
+          "id": "2119478210362830848",
+          "type": "video",
+          "attachment_permalink": "https://x.com/SahilPanhotra/status/2119478318949126549/video/1",
+          "image_or_poster_url": "https://pbs.twimg.com/amplify_video_thumb/2119478210362830848/img/lDll8BOUedhzCvqi.jpg",
+          "playback_source_url": "https://video.twimg.com/amplify_video/2119478210362830848/vid/avc1/1920x1080/nUILLTl-SmlofXZ1.mp4?tag=29"
+        }
+      ],
+      "title": "A winged elephant carrying a garden",
+      "takeaway": "Use a single fantasy premise to inspect composition from several angles.",
+      "body_notes": "The scene shows a golden-winged elephant carrying a Japanese garden above the clouds, with waterfalls and a sunset.",
+      "number": 18,
+      "anchor": "case-18",
+      "category": "three",
+      "type": "Demo",
+      "attribution": "Creator statement. Underlying model unverified.",
+      "display_media": [
+        {
+          "case_number": 18,
+          "media_id": "2119478210362830848",
+          "visual": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-18/2119478210362830848-poster-b78507b1cfbff6fee052.jpg",
+          "playback": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119478210362830848-d6ea2866b74f766af2f6.mp4"
+        }
+      ]
+    },
+    {
+      "source_url": "https://x.com/rubenssoto_ai/status/2119473734109237340",
+      "author_handle": "rubenssoto_ai",
+      "author_url": "https://x.com/rubenssoto_ai",
+      "date": "2026-11-08",
+      "dedup_key": "x:2119473734109237340",
+      "task_status": "secondhand",
+      "material_family": "black-hole-comparison",
+      "is_demo": true,
+      "model_claimed": "GPT-6.2 Sol",
+      "prompt": null,
+      "root_media": [
+        {
+          "id": "2119423566944854016",
+          "type": "video",
+          "attachment_permalink": "https://x.com/TokenGremlin/status/2119423600692166703/video/1",
+          "image_or_poster_url": "https://pbs.twimg.com/amplify_video_thumb/2119423566944854016/img/RX0joNUoH2bqKqYB.jpg",
+          "playback_source_url": "https://video.twimg.com/amplify_video/2119423566944854016/vid/avc1/1080x1512/SmakZiDI1kezcyGo.mp4?tag=29"
+        }
+      ],
+      "title": "A Three.js black hole comparison shared by rubenssoto_ai",
+      "takeaway": "Compare the visible approaches to the same black hole scene.",
+      "body_notes": "The repost shares a Three.js black hole comparison with an Opus result. The same material appears in other entries.",
+      "number": 20,
+      "anchor": "case-20",
+      "category": "three",
+      "type": "Evaluation",
+      "attribution": "Creator statement. Underlying model unverified.",
+      "display_media": [
+        {
+          "case_number": 20,
+          "media_id": "2119423566944854016",
+          "visual": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-20/2119423566944854016-poster-f1b3ec251b11ad98c812.jpg",
+          "playback": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119423566944854016-8c4caf17341d8a78d874.mp4"
+        }
+      ]
+    },
+    {
+      "source_url": "https://x.com/vikktorrrre/status/2119473712751649201",
+      "author_handle": "vikktorrrre",
+      "author_url": "https://x.com/vikktorrrre",
+      "date": "2026-11-08",
+      "dedup_key": "x:2119473712751649201",
+      "task_status": "demonstrated",
+      "material_family": "stillwater-garden",
+      "is_demo": true,
+      "model_claimed": "GPT-6.2 Sol",
+      "prompt": null,
+      "root_media": [
+        {
+          "id": "2119473584762396672",
+          "type": "video",
+          "attachment_permalink": "https://x.com/vikktorrrre/status/2119473712751649201/video/1",
+          "image_or_poster_url": "https://pbs.twimg.com/amplify_video_thumb/2119473584762396672/img/lnAT6YCtSxqTjDkn.jpg",
+          "playback_source_url": "https://video.twimg.com/amplify_video/2119473584762396672/vid/avc1/1920x736/30QQ12ofGVvS6RSP.mp4?tag=29"
+        }
+      ],
+      "title": "A stillwater garden comparison",
+      "takeaway": "Compare the landscaping and water treatment on a shared garden task.",
+      "body_notes": "The author shows two takes on a pond garden and reports 20 minutes and $9 versus one hour and $20 for the respective runs.",
+      "number": 21,
+      "anchor": "case-21",
+      "category": "three",
+      "type": "Evaluation",
+      "attribution": "Creator statement. Underlying model unverified.",
+      "display_media": [
+        {
+          "case_number": 21,
+          "media_id": "2119473584762396672",
+          "visual": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-21/2119473584762396672-poster-7a0d4ba33d4950366036.jpg",
+          "playback": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119473584762396672-106a151b52cb169e2c2c.mp4"
+        }
+      ]
+    },
+    {
+      "source_url": "https://x.com/pankajkumar_dev/status/2119469657291997366",
+      "author_handle": "pankajkumar_dev",
+      "author_url": "https://x.com/pankajkumar_dev",
+      "date": "2026-11-08",
+      "dedup_key": "x:2119469657291997366",
+      "task_status": "demonstrated",
+      "material_family": null,
+      "is_demo": true,
+      "model_claimed": "GPT-6.2 Sol",
+      "prompt": null,
+      "root_media": [
+        {
+          "id": "2119468024617160704",
+          "type": "video",
+          "attachment_permalink": "https://x.com/pankajkumar_dev/status/2119469657291997366/video/1",
+          "image_or_poster_url": "https://pbs.twimg.com/amplify_video_thumb/2119468024617160704/img/cCAWrs6LweOR2fYT.jpg",
+          "playback_source_url": "https://video.twimg.com/amplify_video/2119468024617160704/vid/avc1/3840x2160/J--8AendXv0Of1Hw.mp4?tag=29"
+        }
+      ],
+      "title": "A black hole with a glowing accretion disk",
+      "takeaway": "Inspect a simulation's camera views, particles, and lighting.",
+      "body_notes": "The clip shows a black hole and its luminous disk from several angles. The author describes the code and says it uses no external assets.",
+      "number": 24,
+      "anchor": "case-24",
+      "category": "three",
+      "type": "Demo",
+      "attribution": "Creator statement. Underlying model unverified.",
+      "display_media": [
+        {
+          "case_number": 24,
+          "media_id": "2119468024617160704",
+          "visual": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-24/2119468024617160704-poster-9ac25331c401e957fc81.jpg",
+          "playback": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119468024617160704-bfc0fbb47f7d3c7694cf.mp4"
+        }
+      ]
+    },
+    {
+      "source_url": "https://x.com/pankajkumar_dev/status/2119465155109196254",
+      "author_handle": "pankajkumar_dev",
+      "author_url": "https://x.com/pankajkumar_dev",
+      "date": "2026-11-08",
+      "dedup_key": "x:2119465155109196254",
+      "task_status": "demonstrated",
+      "material_family": null,
+      "is_demo": true,
+      "model_claimed": "GPT-6.2 Sol",
+      "prompt": null,
+      "root_media": [
+        {
+          "id": "2119464782411780096",
+          "type": "video",
+          "attachment_permalink": "https://x.com/pankajkumar_dev/status/2119465155109196254/video/1",
+          "image_or_poster_url": "https://pbs.twimg.com/amplify_video_thumb/2119464782411780096/img/6Oce_2WAtZ9DVeIg.jpg",
+          "playback_source_url": "https://video.twimg.com/amplify_video/2119464782411780096/vid/avc1/1920x1080/YUPcMmmIRHgVKncl.mp4?tag=29"
+        }
+      ],
+      "title": "A star exploding into a supernova",
+      "takeaway": "Track a visual effect from its initial star to the shock wave.",
+      "body_notes": "The clip shows a luminous star, red and blue plasma, and an expanding shock wave. It captures the appearance of the simulation.",
+      "number": 26,
+      "anchor": "case-26",
+      "category": "three",
+      "type": "Demo",
+      "attribution": "Creator statement. Underlying model unverified.",
+      "display_media": [
+        {
+          "case_number": 26,
+          "media_id": "2119464782411780096",
+          "visual": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-26/2119464782411780096-poster-83e58d5fd87089919ef5.jpg",
+          "playback": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119464782411780096-387c3d42a21af2cb937f.mp4"
+        }
+      ]
+    },
+    {
+      "source_url": "https://x.com/Mr_Salio/status/2119464940964593751",
+      "author_handle": "Mr_Salio",
+      "author_url": "https://x.com/Mr_Salio",
+      "date": "2026-11-08",
+      "dedup_key": "x:2119464940964593751",
+      "task_status": "demonstrated",
+      "material_family": null,
+      "is_demo": true,
+      "model_claimed": "GPT-6.2 Sol",
+      "prompt": null,
+      "root_media": [
+        {
+          "id": "2119464564764913664",
+          "type": "video",
+          "attachment_permalink": "https://x.com/Mr_Salio/status/2119464940964593751/video/1",
+          "image_or_poster_url": "https://pbs.twimg.com/amplify_video_thumb/2119464564764913664/img/_LzQaPJ_Lq4zHDW3.jpg",
+          "playback_source_url": "https://video.twimg.com/amplify_video/2119464564764913664/vid/avc1/1920x1080/MMMkeIhjP33_0Lgr.mp4?tag=29"
+        }
+      ],
+      "title": "Ocean waves and a lighthouse at dusk",
+      "takeaway": "Compare how light and color change across an ocean scene.",
+      "body_notes": "The clip shows waves, a lighthouse under moonlight, and a sunset palette. The source text also describes sound.",
+      "number": 27,
+      "anchor": "case-27",
+      "category": "three",
+      "type": "Demo",
+      "attribution": "Creator statement. Underlying model unverified.",
+      "display_media": [
+        {
+          "case_number": 27,
+          "media_id": "2119464564764913664",
+          "visual": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-27/2119464564764913664-poster-79cdd1e25017c48eb939.jpg",
+          "playback": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119464564764913664-797c1ea0854763829f67.mp4"
+        }
+      ]
+    },
+    {
+      "source_url": "https://x.com/Cayden970207/status/2119464819229344113",
+      "author_handle": "Cayden970207",
+      "author_url": "https://x.com/Cayden970207",
+      "date": "2026-11-08",
+      "dedup_key": "x:2119464819229344113",
+      "task_status": "demonstrated",
+      "material_family": null,
+      "is_demo": true,
+      "model_claimed": "GPT-6.2 Sol",
+      "prompt": "生成一个画面非常逼真的龙卷风 ，要在threejs 场景里面可以互动",
+      "root_media": [
+        {
+          "id": "2119464225299152896",
+          "type": "video",
+          "attachment_permalink": "https://x.com/Cayden970207/status/2119464819229344113/video/1",
+          "image_or_poster_url": "https://pbs.twimg.com/amplify_video_thumb/2119464225299152896/img/ZysGDL457Z-2Myr9.jpg",
+          "playback_source_url": "https://video.twimg.com/amplify_video/2119464225299152896/vid/avc1/2784x1524/8O5iOPv5nZQ4H54Q.mp4?tag=29"
+        }
+      ],
+      "title": "A browser tornado simulation",
+      "takeaway": "Inspect how a scene combines rotation, clouds, and ground debris.",
+      "body_notes": "The clip shows the tornado from several angles. The author reports a 22-minute run and provides the short prompt.",
+      "number": 28,
+      "anchor": "case-28",
+      "category": "three",
+      "type": "Demo",
+      "attribution": "Creator statement. Underlying model unverified.",
+      "display_media": [
+        {
+          "case_number": 28,
+          "media_id": "2119464225299152896",
+          "visual": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-28/2119464225299152896-poster-ce3fad26759899389fec.jpg",
+          "playback": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119464225299152896-e1c4fd72c33b93d86e9f.mp4"
+        }
+      ]
+    },
+    {
+      "source_url": "https://x.com/HarshithLucky3/status/2119453449423323141",
+      "author_handle": "HarshithLucky3",
+      "author_url": "https://x.com/HarshithLucky3",
+      "date": "2026-11-08",
+      "dedup_key": "x:2119453449423323141",
+      "task_status": "demonstrated",
+      "material_family": null,
+      "is_demo": true,
+      "model_claimed": "GPT-6.2 Sol",
+      "prompt": "Bamboo sanctuary in the middle of beautiful forest using three js",
+      "root_media": [
+        {
+          "id": "2119453077665423360",
+          "type": "video",
+          "attachment_permalink": "https://x.com/HarshithLucky3/status/2119453449423323141/video/1",
+          "image_or_poster_url": "https://pbs.twimg.com/amplify_video_thumb/2119453077665423360/img/DKXYZUITOSB2pIQT.jpg",
+          "playback_source_url": "https://video.twimg.com/amplify_video/2119453077665423360/vid/avc1/1920x1080/l65Ahx9kInq69642.mp4?tag=29"
+        }
+      ],
+      "title": "A bamboo sanctuary with a red bridge",
+      "takeaway": "Use several camera angles to examine a layered 3D scene.",
+      "body_notes": "The clip shows pavilions, a red bridge, rocks, flowers, and waterfalls. The source includes its prompt.",
+      "number": 33,
+      "anchor": "case-33",
+      "category": "three",
+      "type": "Demo",
+      "attribution": "Creator statement. Underlying model unverified.",
+      "display_media": [
+        {
+          "case_number": 33,
+          "media_id": "2119453077665423360",
+          "visual": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-33/2119453077665423360-poster-1711535c6895a7010577.jpg",
+          "playback": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119453077665423360-a208c63131dd89043dd8.mp4"
+        }
+      ]
+    },
+    {
+      "source_url": "https://x.com/TokenGremlin/status/2119443826674749609",
+      "author_handle": "TokenGremlin",
+      "author_url": "https://x.com/TokenGremlin",
+      "date": "2026-11-08",
+      "dedup_key": "x:2119443826674749609",
+      "task_status": "demonstrated",
+      "material_family": null,
+      "is_demo": true,
+      "model_claimed": "GPT-6.2 Sol",
+      "prompt": null,
+      "root_media": [
+        {
+          "id": "2119443779702628352",
+          "type": "video",
+          "attachment_permalink": "https://x.com/TokenGremlin/status/2119443826674749609/video/1",
+          "image_or_poster_url": "https://pbs.twimg.com/amplify_video_thumb/2119443779702628352/img/3Whi9cqn7B9dbRzm.jpg",
+          "playback_source_url": "https://video-s.twimg.com/amplify_video/2119443779702628352/vid/avc1/1920x1080/ueElbWkLkM4HOcon.mp4?tag=29"
+        },
+        {
+          "id": "2119443814934851584",
+          "type": "photo",
+          "attachment_permalink": "https://x.com/TokenGremlin/status/2119443826674749609/video/1",
+          "image_or_poster_url": "https://pbs.twimg.com/media/HWnG656XMAAd6fo.jpg",
+          "playback_source_url": null
+        }
+      ],
+      "title": "A walkable Three.js wave painting",
+      "takeaway": "Explore what changes when a painting becomes a navigable scene.",
+      "body_notes": "The post pairs a reference image with a scene that the camera can move through. The author describes it as a single HTML file without external assets.",
+      "number": 34,
+      "anchor": "case-34",
+      "category": "three",
+      "type": "Demo",
+      "attribution": "Creator statement. Underlying model unverified.",
+      "display_media": [
+        {
+          "case_number": 34,
+          "media_id": "2119443779702628352",
+          "visual": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-34/2119443779702628352-poster-7c67dab031b1f7e6770a.jpg",
+          "playback": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119443779702628352-c8ae18612dedfbd4291a.mp4"
+        },
+        {
+          "case_number": 34,
+          "media_id": "2119443814934851584",
+          "visual": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-34/2119443814934851584-c1bc6009a5d9a1dd22c7.jpg",
+          "playback": null
+        }
+      ]
+    },
+    {
+      "source_url": "https://x.com/maxt3chno/status/2119440388876321209",
+      "author_handle": "maxt3chno",
+      "author_url": "https://x.com/maxt3chno",
+      "date": "2026-11-08",
+      "dedup_key": "x:2119440388876321209",
+      "task_status": "demonstrated",
+      "material_family": null,
+      "is_demo": true,
+      "model_claimed": "GPT-6.2 Sol",
+      "prompt": null,
+      "root_media": [
+        {
+          "id": "2119439156862472192",
+          "type": "video",
+          "attachment_permalink": "https://x.com/maxt3chno/status/2119440388876321209/video/1",
+          "image_or_poster_url": "https://pbs.twimg.com/amplify_video_thumb/2119439156862472192/img/y8d_mruLK-HWTeDY.jpg",
+          "playback_source_url": "https://video-s.twimg.com/amplify_video/2119439156862472192/vid/avc1/3006x1440/ODRuenM_h4y0wV_M.mp4?tag=29"
+        }
+      ],
+      "title": "A monster house modeled in Blender",
+      "takeaway": "Compare geometry and silhouettes across three labeled Blender views.",
+      "body_notes": "The panels are labeled Astra, routed GPT Sol 6.2, and Opus 5.5. They show the monster house from different angles.",
+      "number": 37,
+      "anchor": "case-37",
+      "category": "three",
+      "type": "Evaluation",
+      "attribution": "Creator statement. Underlying model unverified.",
+      "display_media": [
+        {
+          "case_number": 37,
+          "media_id": "2119439156862472192",
+          "visual": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-37/2119439156862472192-poster-60c3b1403ff3d2354053.jpg",
+          "playback": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119439156862472192-769177330371f94ec66f.mp4"
+        }
+      ]
+    },
+    {
+      "source_url": "https://x.com/karanC_12/status/2119438098438504502",
+      "author_handle": "karanC_12",
+      "author_url": "https://x.com/karanC_12",
+      "date": "2026-11-08",
+      "dedup_key": "x:2119438098438504502",
+      "task_status": "secondhand",
+      "material_family": "sailing-ship-original",
+      "is_demo": true,
+      "model_claimed": "GPT-6.2 Sol",
+      "prompt": null,
+      "root_media": [
+        {
+          "id": "2119436763835854848",
+          "type": "video",
+          "attachment_permalink": "https://x.com/marcthecreatorr/status/2119437126194335764/video/1",
+          "image_or_poster_url": "https://pbs.twimg.com/amplify_video_thumb/2119436763835854848/img/KsFMXlW6f3Tq1QSc.jpg",
+          "playback_source_url": "https://video-s.twimg.com/amplify_video/2119436763835854848/vid/avc1/1920x910/iDdFz93ka9yleZgl.mp4?tag=29"
+        }
+      ],
+      "title": "A Three.js sailing ship shared by karanC_12",
+      "takeaway": "Follow the repost to see a ship built for a browser scene.",
+      "body_notes": "The post shares footage from the same sailing ship material as the author's original demonstration.",
+      "number": 38,
+      "anchor": "case-38",
+      "category": "three",
+      "type": "Demo",
+      "attribution": "Creator statement. Underlying model unverified.",
+      "display_media": [
+        {
+          "case_number": 38,
+          "media_id": "2119436763835854848",
+          "visual": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-38/2119436763835854848-poster-426019e1b44be6bbbaf8.jpg",
+          "playback": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119436763835854848-c880c3e4797b29bb5bc2.mp4"
+        }
+      ]
+    },
+    {
+      "source_url": "https://x.com/Mr_Salio/status/2119437812604838342",
+      "author_handle": "Mr_Salio",
+      "author_url": "https://x.com/Mr_Salio",
+      "date": "2026-11-08",
+      "dedup_key": "x:2119437812604838342",
+      "task_status": "demonstrated",
+      "material_family": "aetheria-floating-islands",
+      "is_demo": true,
+      "model_claimed": "GPT-6.2 Sol",
+      "prompt": null,
+      "root_media": [
+        {
+          "id": "2119437684120707072",
+          "type": "video",
+          "attachment_permalink": "https://x.com/Mr_Salio/status/2119437812604838342/video/1",
+          "image_or_poster_url": "https://pbs.twimg.com/amplify_video_thumb/2119437684120707072/img/hWdo-zoXb1i1TRWG.jpg",
+          "playback_source_url": "https://video-s.twimg.com/amplify_video/2119437684120707072/vid/avc1/1920x1080/E6EVXLDH8i3q7-xC.mp4?tag=29"
+        }
+      ],
+      "title": "AETHERIA floating islands by Mr_Salio",
+      "takeaway": "Use a camera fly-through to examine a scene's scale and depth.",
+      "body_notes": "The clip shows clouds, floating islands, a temple, and waterfalls. EnvolDev's post shares matching footage.",
+      "number": 39,
+      "anchor": "case-39",
+      "category": "three",
+      "type": "Demo",
+      "attribution": "Creator statement. Underlying model unverified.",
+      "display_media": [
+        {
+          "case_number": 39,
+          "media_id": "2119437684120707072",
+          "visual": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-39/2119437684120707072-poster-633f997463e30650c978.jpg",
+          "playback": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119437684120707072-bd2ec92a5b611ac8fbd3.mp4"
+        }
+      ]
+    },
+    {
+      "source_url": "https://x.com/marcthecreatorr/status/2119437126194335764",
+      "author_handle": "marcthecreatorr",
+      "author_url": "https://x.com/marcthecreatorr",
+      "date": "2026-11-08",
+      "dedup_key": "x:2119437126194335764",
+      "task_status": "demonstrated",
+      "material_family": "sailing-ship-original",
+      "is_demo": true,
+      "model_claimed": "GPT-6.2 Sol",
+      "prompt": null,
+      "root_media": [
+        {
+          "id": "2119436763835854848",
+          "type": "video",
+          "attachment_permalink": "https://x.com/marcthecreatorr/status/2119437126194335764/video/1",
+          "image_or_poster_url": "https://pbs.twimg.com/amplify_video_thumb/2119436763835854848/img/KsFMXlW6f3Tq1QSc.jpg",
+          "playback_source_url": "https://video-s.twimg.com/amplify_video/2119436763835854848/vid/avc1/1920x910/iDdFz93ka9yleZgl.mp4?tag=29"
+        }
+      ],
+      "title": "An interactive sailing ship in one HTML file",
+      "takeaway": "Use rigging, sails, and a moving viewpoint to inspect a browser model.",
+      "body_notes": "The author presents a detailed Three.js ship and describes it as a single HTML file. Another post in the collection shares the same footage.",
+      "number": 40,
+      "anchor": "case-40",
+      "category": "three",
+      "type": "Demo",
+      "attribution": "Creator statement. Underlying model unverified.",
+      "display_media": [
+        {
+          "case_number": 40,
+          "media_id": "2119436763835854848",
+          "visual": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-40/2119436763835854848-poster-426019e1b44be6bbbaf8.jpg",
+          "playback": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119436763835854848-c880c3e4797b29bb5bc2.mp4"
+        }
+      ]
+    },
+    {
+      "source_url": "https://x.com/kdnbmb/status/2119431894412476609",
+      "author_handle": "kdnbmb",
+      "author_url": "https://x.com/kdnbmb",
+      "date": "2026-11-08",
+      "dedup_key": "x:2119431894412476609",
+      "task_status": "demonstrated",
+      "material_family": null,
+      "is_demo": true,
+      "model_claimed": "GPT-6.2 Sol",
+      "prompt": null,
+      "root_media": [
+        {
+          "id": "2119431646592069633",
+          "type": "photo",
+          "attachment_permalink": "https://x.com/kdnbmb/status/2119431894412476609/photo/1",
+          "image_or_poster_url": "https://pbs.twimg.com/media/HWm72nTXcAEDVxv.jpg",
+          "playback_source_url": null
+        }
+      ],
+      "title": "Garden of Five Eaves voxel courtyard",
+      "takeaway": "Inspect composition and layering in a compact voxel environment.",
+      "body_notes": "The still shows a tiered tower, cherry trees, an arched bridge, and a pond. Swimming fish are described by the author.",
+      "number": 42,
+      "anchor": "case-42",
+      "category": "three",
+      "type": "Demo",
+      "attribution": "Creator statement. Underlying model unverified.",
+      "display_media": [
+        {
+          "case_number": 42,
+          "media_id": "2119431646592069633",
+          "visual": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-42/2119431646592069633-57818fd711183654054f.jpg",
+          "playback": null
+        }
+      ]
+    },
+    {
+      "source_url": "https://x.com/VraserX/status/2119424978747842791",
+      "author_handle": "VraserX",
+      "author_url": "https://x.com/VraserX",
+      "date": "2026-11-08",
+      "dedup_key": "x:2119424978747842791",
+      "task_status": "secondhand",
+      "material_family": "black-hole-comparison",
+      "is_demo": true,
+      "model_claimed": "GPT-6.2 Sol",
+      "prompt": null,
+      "root_media": [
+        {
+          "id": "2119423566944854016",
+          "type": "video",
+          "attachment_permalink": "https://x.com/TokenGremlin/status/2119423600692166703/video/1",
+          "image_or_poster_url": "https://pbs.twimg.com/amplify_video_thumb/2119423566944854016/img/RX0joNUoH2bqKqYB.jpg",
+          "playback_source_url": "https://video-s.twimg.com/amplify_video/2119423566944854016/vid/avc1/1080x1512/SmakZiDI1kezcyGo.mp4?tag=29"
+        }
+      ],
+      "title": "A Three.js black hole comparison shared by VraserX",
+      "takeaway": "Inspect the paired black hole scenes in the shared clip.",
+      "body_notes": "The repost shares the same comparison material as other entries. The media shows the two results as presented in the post.",
+      "number": 44,
+      "anchor": "case-44",
+      "category": "three",
+      "type": "Evaluation",
+      "attribution": "Creator statement. Underlying model unverified.",
+      "display_media": [
+        {
+          "case_number": 44,
+          "media_id": "2119423566944854016",
+          "visual": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-44/2119423566944854016-poster-f1b3ec251b11ad98c812.jpg",
+          "playback": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119423566944854016-8c4caf17341d8a78d874.mp4"
+        }
+      ]
+    },
+    {
+      "source_url": "https://x.com/jessexai_/status/2119424781367881920",
+      "author_handle": "jessexai_",
+      "author_url": "https://x.com/jessexai_",
+      "date": "2026-11-08",
+      "dedup_key": "x:2119424781367881920",
+      "task_status": "secondhand",
+      "material_family": "sakura-village",
+      "is_demo": true,
+      "model_claimed": "GPT-6.2 Sol",
+      "prompt": null,
+      "root_media": [
+        {
+          "id": "2119409755286384640",
+          "type": "video",
+          "attachment_permalink": "https://x.com/TokenGremlin/status/2119409785900552548/video/1",
+          "image_or_poster_url": "https://pbs.twimg.com/amplify_video_thumb/2119409755286384640/img/FUyYzAl2XbSN0HDB.jpg",
+          "playback_source_url": "https://video.twimg.com/amplify_video/2119409755286384640/vid/avc1/1920x1080/FElS2aX5NYSCF8Cs.mp4?tag=29"
+        }
+      ],
+      "title": "A Sakura village day and night demo shared by jessexai_",
+      "takeaway": "Inspect the effect of switching the scene between day and night.",
+      "body_notes": "The post shares a Three.js village recording that appears in other entries.",
+      "number": 45,
+      "anchor": "case-45",
+      "category": "three",
+      "type": "Demo",
+      "attribution": "Creator statement. Underlying model unverified.",
+      "display_media": [
+        {
+          "case_number": 45,
+          "media_id": "2119409755286384640",
+          "visual": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-45/2119409755286384640-poster-f4e8ce732e65c67f2e4c.jpg",
+          "playback": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119409755286384640-c9f151ea8d8c1145a64f.mp4"
+        }
+      ]
+    },
+    {
+      "source_url": "https://x.com/theaidesk_/status/2119424068298625344",
+      "author_handle": "theaidesk_",
+      "author_url": "https://x.com/theaidesk_",
+      "date": "2026-11-08",
+      "dedup_key": "x:2119424068298625344",
+      "task_status": "demonstrated",
+      "material_family": "colosseum-original",
+      "is_demo": true,
+      "model_claimed": "GPT-6.2 Sol",
+      "prompt": null,
+      "root_media": [
+        {
+          "id": "2119424041870065664",
+          "type": "video",
+          "attachment_permalink": "https://x.com/theaidesk_/status/2119424068298625344/video/1",
+          "image_or_poster_url": "https://pbs.twimg.com/amplify_video_thumb/2119424041870065664/img/UAfZ-bSfgYFXVfa6.jpg",
+          "playback_source_url": "https://video-s.twimg.com/amplify_video/2119424041870065664/vid/avc1/1280x802/cvzkvC1dEeQtiUjj.mp4?tag=29"
+        }
+      ],
+      "title": "A ruined Colosseum exterior and interior",
+      "takeaway": "Follow a camera through the building to see which details are visible.",
+      "body_notes": "The clip covers the exterior, interior, and an overhead angle. Its structure matches the upper result in the comparison entry.",
+      "number": 47,
+      "anchor": "case-47",
+      "category": "three",
+      "type": "Demo",
+      "attribution": "Creator statement. Underlying model unverified.",
+      "display_media": [
+        {
+          "case_number": 47,
+          "media_id": "2119424041870065664",
+          "visual": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-47/2119424041870065664-poster-fc51687c2ad9f59e9e63.jpg",
+          "playback": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119424041870065664-5940ed4a62430aeee154.mp4"
+        }
+      ]
+    },
+    {
+      "source_url": "https://x.com/TokenGremlin/status/2119423600692166703",
+      "author_handle": "TokenGremlin",
+      "author_url": "https://x.com/TokenGremlin",
+      "date": "2026-11-08",
+      "dedup_key": "x:2119423600692166703",
+      "task_status": "demonstrated",
+      "material_family": "black-hole-comparison",
+      "is_demo": true,
+      "model_claimed": "GPT-6.2 Sol",
+      "prompt": null,
+      "root_media": [
+        {
+          "id": "2119423566944854016",
+          "type": "video",
+          "attachment_permalink": "https://x.com/TokenGremlin/status/2119423600692166703/video/1",
+          "image_or_poster_url": "https://pbs.twimg.com/amplify_video_thumb/2119423566944854016/img/RX0joNUoH2bqKqYB.jpg",
+          "playback_source_url": "https://video-s.twimg.com/amplify_video/2119423566944854016/vid/avc1/1080x1512/SmakZiDI1kezcyGo.mp4?tag=29"
+        }
+      ],
+      "title": "A Three.js black hole comparison by TokenGremlin",
+      "takeaway": "Compare camera movement and lighting in two black hole outputs.",
+      "body_notes": "The clip pairs the Three.js scene with an Opus comparison. Other creators share this material in separate posts.",
+      "number": 48,
+      "anchor": "case-48",
+      "category": "three",
+      "type": "Evaluation",
+      "attribution": "Creator statement. Underlying model unverified.",
+      "display_media": [
+        {
+          "case_number": 48,
+          "media_id": "2119423566944854016",
+          "visual": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-48/2119423566944854016-poster-f1b3ec251b11ad98c812.jpg",
+          "playback": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119423566944854016-8c4caf17341d8a78d874.mp4"
+        }
+      ]
+    },
+    {
+      "source_url": "https://x.com/kdnbmb/status/2119421877160456664",
+      "author_handle": "kdnbmb",
+      "author_url": "https://x.com/kdnbmb",
+      "date": "2026-11-08",
+      "dedup_key": "x:2119421877160456664",
+      "task_status": "demonstrated",
+      "material_family": null,
+      "is_demo": true,
+      "model_claimed": "GPT-6.2 Sol",
+      "prompt": null,
+      "root_media": [
+        {
+          "id": "2119421806884872192",
+          "type": "photo",
+          "attachment_permalink": "https://x.com/kdnbmb/status/2119421877160456664/photo/1",
+          "image_or_poster_url": "https://pbs.twimg.com/media/HWmy53iW4AAVt2D.jpg",
+          "playback_source_url": null
+        },
+        {
+          "id": "2119421844998549504",
+          "type": "photo",
+          "attachment_permalink": "https://x.com/kdnbmb/status/2119421877160456664/photo/1",
+          "image_or_poster_url": "https://pbs.twimg.com/media/HWmy8FhXcAA2TV2.jpg",
+          "playback_source_url": null
+        }
+      ],
+      "title": "Sakura courtyard and Wonder Atlas previews",
+      "takeaway": "Inspect how two web scenes handle architecture and depth.",
+      "body_notes": "One still shows a Sakura voxel courtyard. The other shows Petra in Wonder Atlas.",
+      "number": 49,
+      "anchor": "case-49",
+      "category": "three",
+      "type": "Demo",
+      "attribution": "Creator statement. Underlying model unverified.",
+      "display_media": [
+        {
+          "case_number": 49,
+          "media_id": "2119421806884872192",
+          "visual": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-49/2119421806884872192-b4a23bb6a9e591b16af5.jpg",
+          "playback": null
+        },
+        {
+          "case_number": 49,
+          "media_id": "2119421844998549504",
+          "visual": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-49/2119421844998549504-3b77677048389bb1f0db.jpg",
+          "playback": null
+        }
+      ]
+    },
+    {
+      "source_url": "https://x.com/gadi_neelesh/status/2119421520040894709",
+      "author_handle": "gadi_neelesh",
+      "author_url": "https://x.com/gadi_neelesh",
+      "date": "2026-11-08",
+      "dedup_key": "x:2119421520040894709",
+      "task_status": "demonstrated",
+      "material_family": null,
+      "is_demo": true,
+      "model_claimed": "GPT-6.2 Sol",
+      "prompt": null,
+      "root_media": [
+        {
+          "id": "2119420776025862144",
+          "type": "video",
+          "attachment_permalink": "https://x.com/gadi_neelesh/status/2119421520040894709/video/1",
+          "image_or_poster_url": "https://pbs.twimg.com/amplify_video_thumb/2119420776025862144/img/eSw4_92cEqJR2AB2.jpg",
+          "playback_source_url": "https://video.twimg.com/amplify_video/2119420776025862144/vid/avc1/1920x1080/JotvsTNXsOROisF5.mp4?tag=29"
+        }
+      ],
+      "title": "A reconstructed Tesla Roadster",
+      "takeaway": "Use a familiar car as a shape and detail reference.",
+      "body_notes": "The clip shows a reconstructed Tesla Roadster. The author leaves open whether the output came from GPT-6.1 Sol.",
+      "number": 50,
+      "anchor": "case-50",
+      "category": "three",
+      "type": "Demo",
+      "attribution": "Creator statement. Underlying model unverified.",
+      "display_media": [
+        {
+          "case_number": 50,
+          "media_id": "2119420776025862144",
+          "visual": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-50/2119420776025862144-poster-740ec7cd066be6b76cd5.jpg",
+          "playback": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119420776025862144-34cfb4f66073bab24c47.mp4"
+        }
+      ]
+    },
+    {
+      "source_url": "https://x.com/Haleeeemahh/status/2119413889649746386",
+      "author_handle": "Haleeeemahh",
+      "author_url": "https://x.com/Haleeeemahh",
+      "date": "2026-11-08",
+      "dedup_key": "x:2119413889649746386",
+      "task_status": "secondhand",
+      "material_family": "sakura-village",
+      "is_demo": true,
+      "model_claimed": "GPT-6.2 Sol",
+      "prompt": null,
+      "root_media": [
+        {
+          "id": "2119409755286384640",
+          "type": "video",
+          "attachment_permalink": "https://x.com/TokenGremlin/status/2119409785900552548/video/1",
+          "image_or_poster_url": "https://pbs.twimg.com/amplify_video_thumb/2119409755286384640/img/FUyYzAl2XbSN0HDB.jpg",
+          "playback_source_url": "https://video.twimg.com/amplify_video/2119409755286384640/vid/avc1/1920x1080/FElS2aX5NYSCF8Cs.mp4?tag=29"
+        }
+      ],
+      "title": "A Sakura village day and night demo shared by Haleeeemahh",
+      "takeaway": "Compare how the same village reads in daylight and darkness.",
+      "body_notes": "The post shares the Three.js village footage from the Sakura material family.",
+      "number": 53,
+      "anchor": "case-53",
+      "category": "three",
+      "type": "Demo",
+      "attribution": "Creator statement. Underlying model unverified.",
+      "display_media": [
+        {
+          "case_number": 53,
+          "media_id": "2119409755286384640",
+          "visual": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-53/2119409755286384640-poster-f4e8ce732e65c67f2e4c.jpg",
+          "playback": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119409755286384640-c9f151ea8d8c1145a64f.mp4"
+        }
+      ]
+    },
+    {
+      "source_url": "https://x.com/VraserX/status/2119413032157843780",
+      "author_handle": "VraserX",
+      "author_url": "https://x.com/VraserX",
+      "date": "2026-11-08",
+      "dedup_key": "x:2119413032157843780",
+      "task_status": "secondhand",
+      "material_family": "sakura-village",
+      "is_demo": true,
+      "model_claimed": "GPT-6.2 Sol",
+      "prompt": null,
+      "root_media": [
+        {
+          "id": "2119409755286384640",
+          "type": "video",
+          "attachment_permalink": "https://x.com/TokenGremlin/status/2119409785900552548/video/1",
+          "image_or_poster_url": "https://pbs.twimg.com/amplify_video_thumb/2119409755286384640/img/FUyYzAl2XbSN0HDB.jpg",
+          "playback_source_url": "https://video.twimg.com/amplify_video/2119409755286384640/vid/avc1/1920x1080/FElS2aX5NYSCF8Cs.mp4?tag=29"
+        }
+      ],
+      "title": "A Sakura village day and night demo shared by VraserX",
+      "takeaway": "Use the paired lighting states to inspect a single environment.",
+      "body_notes": "The clip is another post sharing the Sakura village footage.",
+      "number": 54,
+      "anchor": "case-54",
+      "category": "three",
+      "type": "Demo",
+      "attribution": "Creator statement. Underlying model unverified.",
+      "display_media": [
+        {
+          "case_number": 54,
+          "media_id": "2119409755286384640",
+          "visual": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-54/2119409755286384640-poster-f4e8ce732e65c67f2e4c.jpg",
+          "playback": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119409755286384640-c9f151ea8d8c1145a64f.mp4"
+        }
+      ]
+    },
+    {
+      "source_url": "https://x.com/TokenGremlin/status/2119409785900552548",
+      "author_handle": "TokenGremlin",
+      "author_url": "https://x.com/TokenGremlin",
+      "date": "2026-11-08",
+      "dedup_key": "x:2119409785900552548",
+      "task_status": "demonstrated",
+      "material_family": "sakura-village",
+      "is_demo": true,
+      "model_claimed": "GPT-6.2 Sol",
+      "prompt": null,
+      "root_media": [
+        {
+          "id": "2119409755286384640",
+          "type": "video",
+          "attachment_permalink": "https://x.com/TokenGremlin/status/2119409785900552548/video/1",
+          "image_or_poster_url": "https://pbs.twimg.com/amplify_video_thumb/2119409755286384640/img/FUyYzAl2XbSN0HDB.jpg",
+          "playback_source_url": "https://video.twimg.com/amplify_video/2119409755286384640/vid/avc1/1920x1080/FElS2aX5NYSCF8Cs.mp4?tag=29"
+        }
+      ],
+      "title": "A Sakura village day and night demo by TokenGremlin",
+      "takeaway": "Use a lighting toggle to compare one village in two states.",
+      "body_notes": "The recording shows the Three.js village by day and night. Several other posts share the same footage.",
+      "number": 56,
+      "anchor": "case-56",
+      "category": "three",
+      "type": "Demo",
+      "attribution": "Creator statement. Underlying model unverified.",
+      "display_media": [
+        {
+          "case_number": 56,
+          "media_id": "2119409755286384640",
+          "visual": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-56/2119409755286384640-poster-f4e8ce732e65c67f2e4c.jpg",
+          "playback": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119409755286384640-c9f151ea8d8c1145a64f.mp4"
+        }
+      ]
+    },
+    {
+      "source_url": "https://x.com/SPAC89/status/2119404108675215871",
+      "author_handle": "SPAC89",
+      "author_url": "https://x.com/SPAC89",
+      "date": "2026-11-08",
+      "dedup_key": "x:2119404108675215871",
+      "task_status": "demonstrated",
+      "material_family": null,
+      "is_demo": true,
+      "model_claimed": "GPT-6.2 Sol",
+      "prompt": null,
+      "root_media": [
+        {
+          "id": "2119403044274114560",
+          "type": "video",
+          "attachment_permalink": "https://x.com/SPAC89/status/2119404108675215871/video/1",
+          "image_or_poster_url": "https://pbs.twimg.com/amplify_video_thumb/2119403044274114560/img/1HyhSxKljCNbZei2.jpg",
+          "playback_source_url": "https://video.twimg.com/amplify_video/2119403044274114560/vid/avc1/1920x1080/Tg8P6EFNjQpwoi4X.mp4?tag=29"
+        }
+      ],
+      "title": "A house with interior and aerial views",
+      "takeaway": "Inspect whether a 3D building stays coherent across interior and exterior views.",
+      "body_notes": "The attachment shows the house, living room, bedroom, terrace, and an aerial view. The author gives a mixed assessment of the xhigh test.",
+      "number": 57,
+      "anchor": "case-57",
+      "category": "three",
+      "type": "Demo",
+      "attribution": "Creator statement. Underlying model unverified.",
+      "display_media": [
+        {
+          "case_number": 57,
+          "media_id": "2119403044274114560",
+          "visual": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-57/2119403044274114560-poster-d67aab45193acc82e42a.jpg",
+          "playback": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119403044274114560-550bb6f548146e501c0d.mp4"
+        }
+      ]
+    },
+    {
+      "source_url": "https://x.com/TokenGremlin/status/2119395930805879165",
+      "author_handle": "TokenGremlin",
+      "author_url": "https://x.com/TokenGremlin",
+      "date": "2026-11-08",
+      "dedup_key": "x:2119395930805879165",
+      "task_status": "demonstrated",
+      "material_family": "black-hole-original",
+      "is_demo": true,
+      "model_claimed": "GPT-6.2 Sol",
+      "prompt": null,
+      "root_media": [
+        {
+          "id": "2119394874591944704",
+          "type": "video",
+          "attachment_permalink": "https://x.com/TokenGremlin/status/2119395930805879165/video/1",
+          "image_or_poster_url": "https://pbs.twimg.com/amplify_video_thumb/2119394874591944704/img/F0D_beICGEBB-esh.jpg",
+          "playback_source_url": "https://video.twimg.com/amplify_video/2119394874591944704/vid/avc1/1920x1080/8ZppmN9N4dxoBRDT.mp4?tag=29"
+        },
+        {
+          "id": "2119395920999497728",
+          "type": "photo",
+          "attachment_permalink": "https://x.com/TokenGremlin/status/2119395930805879165/video/1",
+          "image_or_poster_url": "https://pbs.twimg.com/media/HWmbXHGWQAAuobC.jpg",
+          "playback_source_url": null
+        },
+        {
+          "id": "2119395925982355456",
+          "type": "photo",
+          "attachment_permalink": "https://x.com/TokenGremlin/status/2119395930805879165/video/1",
+          "image_or_poster_url": "https://pbs.twimg.com/media/HWmbXZqWoAATpMr.jpg",
+          "playback_source_url": null
+        }
+      ],
+      "title": "A single-HTML Three.js black hole",
+      "takeaway": "Use the clip and stills to inspect how one scene handles several viewpoints.",
+      "body_notes": "The author describes the result as a single HTML file. The post also reports a knowledge probe, which concerns a different kind of evidence from the rendered scene.",
+      "number": 58,
+      "anchor": "case-58",
+      "category": "three",
+      "type": "Demo",
+      "attribution": "Creator statement. Underlying model unverified.",
+      "display_media": [
+        {
+          "case_number": 58,
+          "media_id": "2119394874591944704",
+          "visual": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-58/2119394874591944704-poster-604b07cc348c3f438afe.jpg",
+          "playback": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119394874591944704-eb5a8d946e5f40a8212d.mp4"
+        },
+        {
+          "case_number": 58,
+          "media_id": "2119395920999497728",
+          "visual": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-58/2119395920999497728-91692619ab6baecef6db.jpg",
+          "playback": null
+        },
+        {
+          "case_number": 58,
+          "media_id": "2119395925982355456",
+          "visual": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-58/2119395925982355456-9154ce589ec778c4ee10.jpg",
+          "playback": null
+        }
+      ]
+    },
+    {
+      "source_url": "https://x.com/TokenGremlin/status/2119371334878744648",
+      "author_handle": "TokenGremlin",
+      "author_url": "https://x.com/TokenGremlin",
+      "date": "2026-11-08",
+      "dedup_key": "x:2119371334878744648",
+      "task_status": "demonstrated",
+      "material_family": "floating-palace",
+      "is_demo": true,
+      "model_claimed": "GPT-6.2 Sol",
+      "prompt": null,
+      "root_media": [
+        {
+          "id": "2119371292654653440",
+          "type": "video",
+          "attachment_permalink": "https://x.com/TokenGremlin/status/2119371334878744648/video/1",
+          "image_or_poster_url": "https://pbs.twimg.com/amplify_video_thumb/2119371292654653440/img/dmoCx4RO8lnEQtbn.jpg",
+          "playback_source_url": "https://video.twimg.com/amplify_video/2119371292654653440/vid/avc1/1920x1080/RwAWP52ODCc4bTdg.mp4?tag=29"
+        },
+        {
+          "id": "2119371325634433025",
+          "type": "photo",
+          "attachment_permalink": "https://x.com/TokenGremlin/status/2119371334878744648/video/1",
+          "image_or_poster_url": "https://pbs.twimg.com/media/HWmE_eOW0AENJdI.jpg",
+          "playback_source_url": null
+        },
+        {
+          "id": "2119371330516566016",
+          "type": "photo",
+          "attachment_permalink": "https://x.com/TokenGremlin/status/2119371334878744648/video/1",
+          "image_or_poster_url": "https://pbs.twimg.com/media/HWmE_waWQAArRjG.jpg",
+          "playback_source_url": null
+        }
+      ],
+      "title": "A floating Three.js palace",
+      "takeaway": "Inspect the scale and presentation of a suspended palace from several angles.",
+      "body_notes": "The source shows a floating palace in a Three.js scene and speculates about the model used.",
+      "number": 59,
+      "anchor": "case-59",
+      "category": "three",
+      "type": "Demo",
+      "attribution": "Creator statement. Underlying model unverified.",
+      "display_media": [
+        {
+          "case_number": 59,
+          "media_id": "2119371292654653440",
+          "visual": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-59/2119371292654653440-poster-a972ea05e9def1fc1fe3.jpg",
+          "playback": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119371292654653440-a83394c3789cf19b3193.mp4"
+        },
+        {
+          "case_number": 59,
+          "media_id": "2119371325634433025",
+          "visual": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-59/2119371325634433025-5b751df2d6a45b82b403.jpg",
+          "playback": null
+        },
+        {
+          "case_number": 59,
+          "media_id": "2119371330516566016",
+          "visual": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-59/2119371330516566016-b39d93dfe248ca1a9f0f.jpg",
+          "playback": null
+        }
+      ]
+    },
+    {
+      "source_url": "https://x.com/imjustnewatai/status/2119518062034792958",
+      "author_handle": "imjustnewatai",
+      "author_url": "https://x.com/imjustnewatai",
+      "date": "2026-11-08",
+      "dedup_key": "x:2119518062034792958",
+      "task_status": "demonstrated",
+      "material_family": null,
+      "is_demo": true,
+      "model_claimed": "GPT-6.2 Sol",
+      "prompt": "Create a cinematic 3D animation telling humanity’s story, from the age of Neanderthals through our greatest advances and the rise of AI. Then imagine a future where AI achieves recursive self-improvement in 2027, and progress doubles or triples every year, transforming Earth in increasingly astonishing ways. Come up with your own scenes and transitions, connecting everything into one compelling story.",
+      "root_media": [
+        {
+          "id": "2119517968493113344",
+          "type": "video",
+          "attachment_permalink": "https://x.com/imjustnewatai/status/2119518062034792958/video/1",
+          "image_or_poster_url": "https://pbs.twimg.com/amplify_video_thumb/2119517968493113344/img/3zvhSqkCDxuWLtg2.jpg",
+          "playback_source_url": "https://video-s.twimg.com/amplify_video/2119517968493113344/vid/avc1/1920x1080/8Yycl4YMkQdCSntt.mp4?tag=29"
+        }
+      ],
+      "title": "Human history and the AI future in 3D",
+      "takeaway": "Turn a narrative brief into a sequence of animated scenes.",
+      "body_notes": "The recording shows a multi-scene 3D animation. The author's public prompt moves from Neanderthals through the rise of AI to an imagined future.",
+      "number": 3,
+      "anchor": "case-3",
+      "category": "graphics",
+      "type": "Demo",
+      "attribution": "Creator statement. Underlying model unverified.",
+      "display_media": [
+        {
+          "case_number": 3,
+          "media_id": "2119517968493113344",
+          "visual": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-03/2119517968493113344-poster-62d6ae1e6365eb443bd6.jpg",
+          "playback": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119517968493113344-17865404f54bd3f80fbd.mp4"
+        }
+      ]
+    },
+    {
+      "source_url": "https://x.com/Mr_Salio/status/2119499550373425297",
+      "author_handle": "Mr_Salio",
+      "author_url": "https://x.com/Mr_Salio",
+      "date": "2026-11-08",
+      "dedup_key": "x:2119499550373425297",
+      "task_status": "demonstrated",
+      "material_family": "portrait-tibo",
+      "is_demo": true,
+      "model_claimed": "GPT-6.2 Sol",
+      "prompt": null,
+      "root_media": [
+        {
+          "id": "2119499524137697280",
+          "type": "video",
+          "attachment_permalink": "https://x.com/Mr_Salio/status/2119499550373425297/video/1",
+          "image_or_poster_url": "https://pbs.twimg.com/amplify_video_thumb/2119499524137697280/img/CDfdmWjfwMiHHKQs.jpg",
+          "playback_source_url": "https://video-s.twimg.com/amplify_video/2119499524137697280/vid/avc1/1080x1080/RyqhMs48h3n3webB.mp4?tag=29"
+        }
+      ],
+      "title": "Tibo portrait in a browser painting studio",
+      "takeaway": "Inspect the stages of a portrait as the page builds it up.",
+      "body_notes": "The Portrait Studio page develops a portrait of Tibo from broad color blocks beside a reference photo. The clip shows the page animation.",
+      "number": 8,
+      "anchor": "case-8",
+      "category": "graphics",
+      "type": "Demo",
+      "attribution": "Creator statement. Underlying model unverified.",
+      "display_media": [
+        {
+          "case_number": 8,
+          "media_id": "2119499524137697280",
+          "visual": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-08/2119499524137697280-poster-669f62240a226482c71b.jpg",
+          "playback": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119499524137697280-bf003228060e83ba80ee.mp4"
+        }
+      ]
+    },
+    {
+      "source_url": "https://x.com/0x0SojalSec/status/2119489612876026325",
+      "author_handle": "0x0SojalSec",
+      "author_url": "https://x.com/0x0SojalSec",
+      "date": "2026-11-08",
+      "dedup_key": "x:2119489612876026325",
+      "task_status": "secondhand",
+      "material_family": "sam-altman-paint",
+      "is_demo": true,
+      "model_claimed": "GPT-6.2 Sol",
+      "prompt": null,
+      "root_media": [
+        {
+          "id": "2119471570100113408",
+          "type": "video",
+          "attachment_permalink": "https://x.com/Ananth7e/status/2119471963790065987/video/1",
+          "image_or_poster_url": "https://pbs.twimg.com/amplify_video_thumb/2119471570100113408/img/fozT2Bh7cobCx57_.jpg",
+          "playback_source_url": "https://video-s.twimg.com/amplify_video/2119471570100113408/vid/avc1/1160x1200/8Wb4yMH3rI9egwL6.mp4?tag=29"
+        }
+      ],
+      "title": "Sam Altman portrait painting shared by 0x0SojalSec",
+      "takeaway": "Follow the transition from rough shapes to a finished portrait.",
+      "body_notes": "This post shares the Sam Altman painting clip. Other posts in the collection share the same material.",
+      "number": 10,
+      "anchor": "case-10",
+      "category": "graphics",
+      "type": "Demo",
+      "attribution": "Creator statement. Underlying model unverified.",
+      "display_media": [
+        {
+          "case_number": 10,
+          "media_id": "2119471570100113408",
+          "visual": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-10/2119471570100113408-poster-4fa1b097dbe57a86b319.jpg",
+          "playback": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119471570100113408-6537886f519fcb2581ca.mp4"
+        }
+      ]
+    },
+    {
+      "source_url": "https://x.com/Avenoxai/status/2119489025484419304",
+      "author_handle": "Avenoxai",
+      "author_url": "https://x.com/Avenoxai",
+      "date": "2026-11-08",
+      "dedup_key": "x:2119489025484419304",
+      "task_status": "secondhand",
+      "material_family": "sam-altman-paint",
+      "is_demo": true,
+      "model_claimed": "GPT-6.2 Sol",
+      "prompt": null,
+      "root_media": [
+        {
+          "id": "2119481355943948288",
+          "type": "video",
+          "attachment_permalink": "https://x.com/Ananth7e/status/2119482362614677566/video/1",
+          "image_or_poster_url": "https://pbs.twimg.com/amplify_video_thumb/2119481355943948288/img/sV7ysxkDvmJAnUcU.jpg",
+          "playback_source_url": "https://video-s.twimg.com/amplify_video/2119481355943948288/vid/avc1/928x960/n-9MdJOVc9HDYKDe.mp4?tag=29"
+        }
+      ],
+      "title": "Sam Altman portrait painting shared by Avenoxai",
+      "takeaway": "See how the browser demonstration stages the portrait.",
+      "body_notes": "The post shares the same progressive Sam Altman portrait shown elsewhere in the collection.",
+      "number": 11,
+      "anchor": "case-11",
+      "category": "graphics",
+      "type": "Demo",
+      "attribution": "Creator statement. Underlying model unverified.",
+      "display_media": [
+        {
+          "case_number": 11,
+          "media_id": "2119481355943948288",
+          "visual": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-11/2119481355943948288-poster-b169fc202c4358aef6ab.jpg",
+          "playback": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119481355943948288-d9ec44b4a8efb666f3fe.mp4"
+        }
+      ]
+    },
+    {
+      "source_url": "https://x.com/pengsonal/status/2119487069500456985",
+      "author_handle": "pengsonal",
+      "author_url": "https://x.com/pengsonal",
+      "date": "2026-11-08",
+      "dedup_key": "x:2119487069500456985",
+      "task_status": "secondhand",
+      "material_family": "sam-altman-paint",
+      "is_demo": true,
+      "model_claimed": "GPT-6.2 Sol",
+      "prompt": null,
+      "root_media": [
+        {
+          "id": "2119471570100113408",
+          "type": "video",
+          "attachment_permalink": "https://x.com/Ananth7e/status/2119471963790065987/video/1",
+          "image_or_poster_url": "https://pbs.twimg.com/amplify_video_thumb/2119471570100113408/img/fozT2Bh7cobCx57_.jpg",
+          "playback_source_url": "https://video-s.twimg.com/amplify_video/2119471570100113408/vid/avc1/1160x1200/8Wb4yMH3rI9egwL6.mp4?tag=29"
+        }
+      ],
+      "title": "Sam Altman portrait painting shared by pengsonal",
+      "takeaway": "Examine the order in which the browser scene adds portrait detail.",
+      "body_notes": "The clip belongs to the same Sam Altman painting family as the other posts that share this material.",
+      "number": 12,
+      "anchor": "case-12",
+      "category": "graphics",
+      "type": "Demo",
+      "attribution": "Creator statement. Underlying model unverified.",
+      "display_media": [
+        {
+          "case_number": 12,
+          "media_id": "2119471570100113408",
+          "visual": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-12/2119471570100113408-poster-4fa1b097dbe57a86b319.jpg",
+          "playback": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119471570100113408-6537886f519fcb2581ca.mp4"
+        }
+      ]
+    },
+    {
+      "source_url": "https://x.com/GeekCatX/status/2119482381375815956",
+      "author_handle": "GeekCatX",
+      "author_url": "https://x.com/GeekCatX",
+      "date": "2026-11-08",
+      "dedup_key": "x:2119482381375815956",
+      "task_status": "secondhand",
+      "material_family": "sam-altman-paint",
+      "is_demo": true,
+      "model_claimed": "GPT-6.2 Sol",
+      "prompt": null,
+      "root_media": [
+        {
+          "id": "2119471570100113408",
+          "type": "video",
+          "attachment_permalink": "https://x.com/Ananth7e/status/2119471963790065987/video/1",
+          "image_or_poster_url": "https://pbs.twimg.com/amplify_video_thumb/2119471570100113408/img/fozT2Bh7cobCx57_.jpg",
+          "playback_source_url": "https://video-s.twimg.com/amplify_video/2119471570100113408/vid/avc1/1160x1200/8Wb4yMH3rI9egwL6.mp4?tag=29"
+        }
+      ],
+      "title": "Sam Altman portrait painting shared by GeekCatX",
+      "takeaway": "Use the clip to compare the initial composition with the finished image.",
+      "body_notes": "The post shares the progressive Sam Altman portrait from the same media family as other entries.",
+      "number": 13,
+      "anchor": "case-13",
+      "category": "graphics",
+      "type": "Demo",
+      "attribution": "Creator statement. Underlying model unverified.",
+      "display_media": [
+        {
+          "case_number": 13,
+          "media_id": "2119471570100113408",
+          "visual": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-13/2119471570100113408-poster-4fa1b097dbe57a86b319.jpg",
+          "playback": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119471570100113408-6537886f519fcb2581ca.mp4"
+        }
+      ]
+    },
+    {
+      "source_url": "https://x.com/Ananth7e/status/2119482362614677566",
+      "author_handle": "Ananth7e",
+      "author_url": "https://x.com/Ananth7e",
+      "date": "2026-11-08",
+      "dedup_key": "x:2119482362614677566",
+      "task_status": "demonstrated",
+      "material_family": "sam-altman-paint",
+      "is_demo": true,
+      "model_claimed": "GPT-6.2 Sol",
+      "prompt": null,
+      "root_media": [
+        {
+          "id": "2119481355943948288",
+          "type": "video",
+          "attachment_permalink": "https://x.com/Ananth7e/status/2119482362614677566/video/1",
+          "image_or_poster_url": "https://pbs.twimg.com/amplify_video_thumb/2119481355943948288/img/sV7ysxkDvmJAnUcU.jpg",
+          "playback_source_url": "https://video.twimg.com/amplify_video/2119481355943948288/vid/avc1/928x960/n-9MdJOVc9HDYKDe.mp4?tag=29"
+        }
+      ],
+      "title": "Sam Altman portrait in a browser painting canvas",
+      "takeaway": "Watch the portrait develop from blocked-in colors to finer features.",
+      "body_notes": "The author presents a browser painting demo of Sam Altman. The same recording appears in several other posts.",
+      "number": 14,
+      "anchor": "case-14",
+      "category": "graphics",
+      "type": "Demo",
+      "attribution": "Creator statement. Underlying model unverified.",
+      "display_media": [
+        {
+          "case_number": 14,
+          "media_id": "2119481355943948288",
+          "visual": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-14/2119481355943948288-poster-b169fc202c4358aef6ab.jpg",
+          "playback": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119481355943948288-d9ec44b4a8efb666f3fe.mp4"
+        }
+      ]
+    },
+    {
+      "source_url": "https://x.com/Ananth7e/status/2119475282528932231",
+      "author_handle": "Ananth7e",
+      "author_url": "https://x.com/Ananth7e",
+      "date": "2026-11-08",
+      "dedup_key": "x:2119475282528932231",
+      "task_status": "demonstrated",
+      "material_family": "dario-paint",
+      "is_demo": true,
+      "model_claimed": "GPT-6.2 Sol",
+      "prompt": null,
+      "root_media": [
+        {
+          "id": "2119474852453306369",
+          "type": "video",
+          "attachment_permalink": "https://x.com/Ananth7e/status/2119475282528932231/video/1",
+          "image_or_poster_url": "https://pbs.twimg.com/amplify_video_thumb/2119474852453306369/img/LqKKrUBqII1yzvnt.jpg",
+          "playback_source_url": "https://video.twimg.com/amplify_video/2119474852453306369/vid/avc1/1160x1200/wslIhwEH3sjnvGNn.mp4?tag=29"
+        }
+      ],
+      "title": "Dario Amodei portrait in a browser painting canvas",
+      "takeaway": "Watch a reference image guide a staged portrait.",
+      "body_notes": "The browser demo develops a Dario Amodei portrait next to a photograph. The recording shows the painting sequence.",
+      "number": 19,
+      "anchor": "case-19",
+      "category": "graphics",
+      "type": "Demo",
+      "attribution": "Creator statement. Underlying model unverified.",
+      "display_media": [
+        {
+          "case_number": 19,
+          "media_id": "2119474852453306369",
+          "visual": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-19/2119474852453306369-poster-16fd35c8363e7611ce48.jpg",
+          "playback": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119474852453306369-dc2f6dd1c623765520a2.mp4"
+        }
+      ]
+    },
+    {
+      "source_url": "https://x.com/Ananth7e/status/2119473497504428334",
+      "author_handle": "Ananth7e",
+      "author_url": "https://x.com/Ananth7e",
+      "date": "2026-11-08",
+      "dedup_key": "x:2119473497504428334",
+      "task_status": "demonstrated",
+      "material_family": null,
+      "is_demo": true,
+      "model_claimed": "GPT-6.2 Sol",
+      "prompt": null,
+      "root_media": [
+        {
+          "id": "2119472766353313794",
+          "type": "video",
+          "attachment_permalink": "https://x.com/Ananth7e/status/2119473497504428334/video/1",
+          "image_or_poster_url": "https://pbs.twimg.com/amplify_video_thumb/2119472766353313794/img/gh9t1WaYqYWa0fYz.jpg",
+          "playback_source_url": "https://video.twimg.com/amplify_video/2119472766353313794/vid/avc1/3840x2160/OoVGWs_8OuqBJUQU.mp4?tag=29"
+        }
+      ],
+      "title": "Four SVG animation comparisons with Opus 5.5",
+      "takeaway": "Compare motion and detail across several SVG subjects.",
+      "body_notes": "The labeled comparison includes a space delivery, coffee machine, record player, and greenhouse. The observed scenes come from samples of the longer clip.",
+      "number": 22,
+      "anchor": "case-22",
+      "category": "graphics",
+      "type": "Evaluation",
+      "attribution": "Creator statement. Underlying model unverified.",
+      "display_media": [
+        {
+          "case_number": 22,
+          "media_id": "2119472766353313794",
+          "visual": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-22/2119472766353313794-poster-81c1db39bbb46647fee0.jpg",
+          "playback": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119472766353313794-9e720b31f2e3325a6830.mp4"
+        }
+      ]
+    },
+    {
+      "source_url": "https://x.com/Ananth7e/status/2119471963790065987",
+      "author_handle": "Ananth7e",
+      "author_url": "https://x.com/Ananth7e",
+      "date": "2026-11-08",
+      "dedup_key": "x:2119471963790065987",
+      "task_status": "demonstrated",
+      "material_family": "sam-altman-paint",
+      "is_demo": true,
+      "model_claimed": "GPT-6.2 Sol",
+      "prompt": null,
+      "root_media": [
+        {
+          "id": "2119471570100113408",
+          "type": "video",
+          "attachment_permalink": "https://x.com/Ananth7e/status/2119471963790065987/video/1",
+          "image_or_poster_url": "https://pbs.twimg.com/amplify_video_thumb/2119471570100113408/img/fozT2Bh7cobCx57_.jpg",
+          "playback_source_url": "https://video.twimg.com/amplify_video/2119471570100113408/vid/avc1/1160x1200/8Wb4yMH3rI9egwL6.mp4?tag=29"
+        }
+      ],
+      "title": "Another Sam Altman portrait painting post by Ananth7e",
+      "takeaway": "Use the shared recording to inspect how a browser portrait takes shape.",
+      "body_notes": "This post points to the same progressive painting material as the other Sam Altman entries.",
+      "number": 23,
+      "anchor": "case-23",
+      "category": "graphics",
+      "type": "Demo",
+      "attribution": "Creator statement. Underlying model unverified.",
+      "display_media": [
+        {
+          "case_number": 23,
+          "media_id": "2119471570100113408",
+          "visual": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-23/2119471570100113408-poster-4fa1b097dbe57a86b319.jpg",
+          "playback": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119471570100113408-6537886f519fcb2581ca.mp4"
+        }
+      ]
+    },
+    {
+      "source_url": "https://x.com/marcthecreatorr/status/2119466616693850352",
+      "author_handle": "marcthecreatorr",
+      "author_url": "https://x.com/marcthecreatorr",
+      "date": "2026-11-08",
+      "dedup_key": "x:2119466616693850352",
+      "task_status": "demonstrated",
+      "material_family": null,
+      "is_demo": true,
+      "model_claimed": "GPT-6.2 Sol",
+      "prompt": "generate an SVG of Ana de Armas and Sam Altman\n(do not cheat)",
+      "root_media": [
+        {
+          "id": "2119466601804132352",
+          "type": "photo",
+          "attachment_permalink": "https://x.com/marcthecreatorr/status/2119466616693850352/photo/1",
+          "image_or_poster_url": "https://pbs.twimg.com/media/HWnbpRnW8AAmOqJ.jpg",
+          "playback_source_url": null
+        },
+        {
+          "id": "2119466601816666112",
+          "type": "photo",
+          "attachment_permalink": "https://x.com/marcthecreatorr/status/2119466616693850352/photo/1",
+          "image_or_poster_url": "https://pbs.twimg.com/media/HWnbpRqWMAARQUV.jpg",
+          "playback_source_url": null
+        }
+      ],
+      "title": "Two portrait illustrations described as code-only SVGs",
+      "takeaway": "Compare the rendered portraits before judging how they were produced.",
+      "body_notes": "The post contains two portrait images. The author describes them as code-only SVG outputs.",
+      "number": 25,
+      "anchor": "case-25",
+      "category": "graphics",
+      "type": "Demo",
+      "attribution": "Creator statement. Underlying model unverified.",
+      "display_media": [
+        {
+          "case_number": 25,
+          "media_id": "2119466601804132352",
+          "visual": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-25/2119466601804132352-31318df37f6caba7293c.jpg",
+          "playback": null
+        },
+        {
+          "case_number": 25,
+          "media_id": "2119466601816666112",
+          "visual": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-25/2119466601816666112-8e9d5270da1add44ca55.jpg",
+          "playback": null
+        }
+      ]
+    },
+    {
+      "source_url": "https://x.com/SahilPanhotra/status/2119461852426219747",
+      "author_handle": "SahilPanhotra",
+      "author_url": "https://x.com/SahilPanhotra",
+      "date": "2026-11-08",
+      "dedup_key": "x:2119461852426219747",
+      "task_status": "demonstrated",
+      "material_family": null,
+      "is_demo": true,
+      "model_claimed": "GPT-6.2 Sol",
+      "prompt": null,
+      "root_media": [
+        {
+          "id": "2119461819278602240",
+          "type": "animated_gif",
+          "attachment_permalink": "https://x.com/SahilPanhotra/status/2119461852426219747/photo/1",
+          "image_or_poster_url": "https://pbs.twimg.com/tweet_video_thumb/HWnXS5UasAA-ZuN.jpg",
+          "playback_source_url": "https://video.twimg.com/tweet_video/HWnXS5UasAA-ZuN.mp4"
+        }
+      ],
+      "title": "A pixel-art Japanese town by moonlight",
+      "takeaway": "Use a compact animated scene to inspect lighting and detail.",
+      "body_notes": "The GIF shows cherry blossoms, a tower, a bridge, reflections, and a small boat.",
+      "number": 29,
+      "anchor": "case-29",
+      "category": "graphics",
+      "type": "Demo",
+      "attribution": "Creator statement. Underlying model unverified.",
+      "display_media": [
+        {
+          "case_number": 29,
+          "media_id": "2119461819278602240",
+          "visual": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-29/2119461819278602240-poster-0df42c94083b4c7a1d00.jpg",
+          "playback": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119461819278602240-92e36b249f95f46fbbc1.mp4"
+        }
+      ]
+    },
+    {
+      "source_url": "https://x.com/SahilPanhotra/status/2119458278115835912",
+      "author_handle": "SahilPanhotra",
+      "author_url": "https://x.com/SahilPanhotra",
+      "date": "2026-11-08",
+      "dedup_key": "x:2119458278115835912",
+      "task_status": "demonstrated",
+      "material_family": null,
+      "is_demo": true,
+      "model_claimed": "GPT-6.2 Sol",
+      "prompt": null,
+      "root_media": [
+        {
+          "id": "2119458208041574400",
+          "type": "video",
+          "attachment_permalink": "https://x.com/SahilPanhotra/status/2119458278115835912/video/1",
+          "image_or_poster_url": "https://pbs.twimg.com/amplify_video_thumb/2119458208041574400/img/Bd6ESUNUIcU-hf0L.jpg",
+          "playback_source_url": "https://video.twimg.com/amplify_video/2119458208041574400/vid/avc1/1920x1080/bnOYe6Xqoe2zMDBv.mp4?tag=29"
+        }
+      ],
+      "title": "A lion juggling while riding BMX",
+      "takeaway": "Test coordinated motion against changing seasonal backgrounds.",
+      "body_notes": "The animation shows a lion riding and throwing balls. The sampled frames show changes in pose and background.",
+      "number": 30,
+      "anchor": "case-30",
+      "category": "graphics",
+      "type": "Demo",
+      "attribution": "Creator statement. Underlying model unverified.",
+      "display_media": [
+        {
+          "case_number": 30,
+          "media_id": "2119458208041574400",
+          "visual": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-30/2119458208041574400-poster-43c1f3849344f031dd3f.jpg",
+          "playback": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119458208041574400-65d9c5f9e0c9dae6a35f.mp4"
+        }
+      ]
+    },
+    {
+      "source_url": "https://x.com/HarshithLucky3/status/2119458168338301327",
+      "author_handle": "HarshithLucky3",
+      "author_url": "https://x.com/HarshithLucky3",
+      "date": "2026-11-08",
+      "dedup_key": "x:2119458168338301327",
+      "task_status": "demonstrated",
+      "material_family": null,
+      "is_demo": true,
+      "model_claimed": "GPT-6.2 Sol",
+      "prompt": "Horse running in side view",
+      "root_media": [
+        {
+          "id": "2119457903589646336",
+          "type": "video",
+          "attachment_permalink": "https://x.com/HarshithLucky3/status/2119458168338301327/video/1",
+          "image_or_poster_url": "https://pbs.twimg.com/amplify_video_thumb/2119457903589646336/img/J7nI3iPUse6R6_Lm.jpg",
+          "playback_source_url": "https://video.twimg.com/amplify_video/2119457903589646336/vid/avc1/1920x1080/uGjKxcqDr82nqY0h.mp4?tag=29"
+        }
+      ],
+      "title": "A side-view galloping horse",
+      "takeaway": "Inspect the legs and tail through a simple motion cycle.",
+      "body_notes": "The sampled frames show a galloping horse from the side with changing limb positions.",
+      "number": 31,
+      "anchor": "case-31",
+      "category": "graphics",
+      "type": "Demo",
+      "attribution": "Creator statement. Underlying model unverified.",
+      "display_media": [
+        {
+          "case_number": 31,
+          "media_id": "2119457903589646336",
+          "visual": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-31/2119457903589646336-poster-2e4c31974841a99a4465.jpg",
+          "playback": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119457903589646336-6fe234afbdb557492d14.mp4"
+        }
+      ]
+    },
+    {
+      "source_url": "https://x.com/SahilPanhotra/status/2119453829632868388",
+      "author_handle": "SahilPanhotra",
+      "author_url": "https://x.com/SahilPanhotra",
+      "date": "2026-11-08",
+      "dedup_key": "x:2119453829632868388",
+      "task_status": "demonstrated",
+      "material_family": null,
+      "is_demo": true,
+      "model_claimed": "GPT-6.2 Sol",
+      "prompt": null,
+      "root_media": [
+        {
+          "id": "2119453646454964224",
+          "type": "video",
+          "attachment_permalink": "https://x.com/SahilPanhotra/status/2119453829632868388/video/1",
+          "image_or_poster_url": "https://pbs.twimg.com/amplify_video_thumb/2119453646454964224/img/iuG6_NdUtqCq8AIS.jpg",
+          "playback_source_url": "https://video.twimg.com/amplify_video/2119453646454964224/vid/avc1/1920x1080/NbnrYRV5R_IngbuZ.mp4?tag=29"
+        }
+      ],
+      "title": "A peacock riding BMX through bamboo",
+      "takeaway": "Compare wheel motion with the movement of a detailed character.",
+      "body_notes": "The clip shows a peacock riding with its tail spread against a bamboo forest.",
+      "number": 32,
+      "anchor": "case-32",
+      "category": "graphics",
+      "type": "Demo",
+      "attribution": "Creator statement. Underlying model unverified.",
+      "display_media": [
+        {
+          "case_number": 32,
+          "media_id": "2119453646454964224",
+          "visual": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-32/2119453646454964224-poster-0dd6b3fd00fa99aa9b94.jpg",
+          "playback": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119453646454964224-3614c844c591897f7cb8.mp4"
+        }
+      ]
+    },
+    {
+      "source_url": "https://x.com/SadAlbert10/status/2119443244509802679",
+      "author_handle": "SadAlbert10",
+      "author_url": "https://x.com/SadAlbert10",
+      "date": "2026-11-08",
+      "dedup_key": "x:2119443244509802679",
+      "task_status": "demonstrated",
+      "material_family": null,
+      "is_demo": true,
+      "model_claimed": "GPT-6.2 Sol",
+      "prompt": null,
+      "root_media": [
+        {
+          "id": "2119443020227727360",
+          "type": "photo",
+          "attachment_permalink": "https://x.com/SadAlbert10/status/2119443244509802679/photo/1",
+          "image_or_poster_url": "https://pbs.twimg.com/media/HWnGMpZa0AAV9zv.jpg",
+          "playback_source_url": null
+        }
+      ],
+      "title": "A photorealistic portrait preview",
+      "takeaway": "Inspect the visible result and record how the author describes it.",
+      "body_notes": "The image shows a detailed portrait. The preview provides visual evidence of the output.",
+      "number": 35,
+      "anchor": "case-35",
+      "category": "graphics",
+      "type": "Demo",
+      "attribution": "Creator statement. Underlying model unverified.",
+      "display_media": [
+        {
+          "case_number": 35,
+          "media_id": "2119443020227727360",
+          "visual": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-35/2119443020227727360-71913855e02651437cb9.jpg",
+          "playback": null
+        }
+      ]
+    },
+    {
+      "source_url": "https://x.com/SadAlbert10/status/2119440420682011095",
+      "author_handle": "SadAlbert10",
+      "author_url": "https://x.com/SadAlbert10",
+      "date": "2026-11-08",
+      "dedup_key": "x:2119440420682011095",
+      "task_status": "demonstrated",
+      "material_family": "sydney-vectorization",
+      "is_demo": true,
+      "model_claimed": "GPT-6.2 Sol",
+      "prompt": "make an ultra realistic SVG of Sydney Sweeny",
+      "root_media": [
+        {
+          "id": "2119439861157707776",
+          "type": "photo",
+          "attachment_permalink": "https://x.com/SadAlbert10/status/2119440420682011095/photo/1",
+          "image_or_poster_url": "https://pbs.twimg.com/media/HWnDUw8bwAA4M_k.png",
+          "playback_source_url": null
+        },
+        {
+          "id": "2119440248157683712",
+          "type": "photo",
+          "attachment_permalink": "https://x.com/SadAlbert10/status/2119440420682011095/photo/1",
+          "image_or_poster_url": "https://pbs.twimg.com/media/HWnDrSoawAAlwuK.jpg",
+          "playback_source_url": null
+        }
+      ],
+      "title": "Sydney Sweeney portrait vectorization",
+      "takeaway": "Track the intermediate image when evaluating a vector workflow.",
+      "body_notes": "The screenshot shows PNG inputs and a vectorization call. The second attachment shows the portrait produced by that workflow.",
+      "number": 36,
+      "anchor": "case-36",
+      "category": "graphics",
+      "type": "Demo",
+      "attribution": "Creator statement. Underlying model unverified.",
+      "display_media": [
+        {
+          "case_number": 36,
+          "media_id": "2119439861157707776",
+          "visual": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-36/2119439861157707776-69b2db4eca9eb1493e6b.png",
+          "playback": null
+        },
+        {
+          "case_number": 36,
+          "media_id": "2119440248157683712",
+          "visual": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-36/2119440248157683712-d00b68e7e2aa37f8ec7b.jpg",
+          "playback": null
+        }
+      ]
+    },
+    {
+      "source_url": "https://x.com/HarshithLucky3/status/2119424342773866559",
+      "author_handle": "HarshithLucky3",
+      "author_url": "https://x.com/HarshithLucky3",
+      "date": "2026-11-08",
+      "dedup_key": "x:2119424342773866559",
+      "task_status": "demonstrated",
+      "material_family": null,
+      "is_demo": true,
+      "model_claimed": "GPT-6.2 Sol",
+      "prompt": null,
+      "root_media": [
+        {
+          "id": "2119424200662556672",
+          "type": "video",
+          "attachment_permalink": "https://x.com/HarshithLucky3/status/2119424342773866559/video/1",
+          "image_or_poster_url": "https://pbs.twimg.com/amplify_video_thumb/2119424200662556672/img/F88nVhePriAP2wcO.jpg",
+          "playback_source_url": "https://video-s.twimg.com/amplify_video/2119424200662556672/vid/avc1/1920x1080/8hc5GbaKF5_C6PsR.mp4?tag=29"
+        }
+      ],
+      "title": "A side-view running cheetah",
+      "takeaway": "Use a fixed profile view to compare gait and body motion.",
+      "body_notes": "The clip shows the cheetah in several positions during the run. The author reports preferring the Opus result.",
+      "number": 46,
+      "anchor": "case-46",
+      "category": "graphics",
+      "type": "Demo",
+      "attribution": "Creator statement. Underlying model unverified.",
+      "display_media": [
+        {
+          "case_number": 46,
+          "media_id": "2119424200662556672",
+          "visual": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-46/2119424200662556672-poster-f977110905db5bd671d8.jpg",
+          "playback": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119424200662556672-37c18d0191bd9b6c27aa.mp4"
+        }
+      ]
+    },
+    {
+      "source_url": "https://x.com/HarshithLucky3/status/2119418918616150080",
+      "author_handle": "HarshithLucky3",
+      "author_url": "https://x.com/HarshithLucky3",
+      "date": "2026-11-08",
+      "dedup_key": "x:2119418918616150080",
+      "task_status": "demonstrated",
+      "material_family": null,
+      "is_demo": true,
+      "model_claimed": "GPT-6.2 Sol",
+      "prompt": "SVG animation of pelican and 2 crabs riding bicycles side view",
+      "root_media": [
+        {
+          "id": "2119418838148366336",
+          "type": "video",
+          "attachment_permalink": "https://x.com/HarshithLucky3/status/2119418918616150080/video/1",
+          "image_or_poster_url": "https://pbs.twimg.com/amplify_video_thumb/2119418838148366336/img/ljpKgHmMjNklKEvi.jpg",
+          "playback_source_url": "https://video.twimg.com/amplify_video/2119418838148366336/vid/avc1/1920x1080/pYGomdD9sJnnjgPt.mp4?tag=29"
+        }
+      ],
+      "title": "A pelican and two crabs riding bicycles",
+      "takeaway": "Inspect timing across several animated characters in one shot.",
+      "body_notes": "The sampled side-view frames show moving wheels, limbs, and camera position.",
+      "number": 51,
+      "anchor": "case-51",
+      "category": "graphics",
+      "type": "Demo",
+      "attribution": "Creator statement. Underlying model unverified.",
+      "display_media": [
+        {
+          "case_number": 51,
+          "media_id": "2119418838148366336",
+          "visual": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-51/2119418838148366336-poster-753362afc6ea3f66a03f.jpg",
+          "playback": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119418838148366336-495e5e6b9a3a4f396f52.mp4"
+        }
+      ]
+    },
+    {
+      "source_url": "https://x.com/marcthecreatorr/status/2119417283328000436",
+      "author_handle": "marcthecreatorr",
+      "author_url": "https://x.com/marcthecreatorr",
+      "date": "2026-11-08",
+      "dedup_key": "x:2119417283328000436",
+      "task_status": "demonstrated",
+      "material_family": null,
+      "is_demo": true,
+      "model_claimed": "GPT-6.2 Sol",
+      "prompt": null,
+      "root_media": [
+        {
+          "id": "2119417273249095680",
+          "type": "photo",
+          "attachment_permalink": "https://x.com/marcthecreatorr/status/2119417283328000436/photo/1",
+          "image_or_poster_url": "https://pbs.twimg.com/media/HWmux-bW4AAK2Wz.jpg",
+          "playback_source_url": null
+        }
+      ],
+      "title": "A PS5 controller comparison across Sol settings",
+      "takeaway": "Use a familiar product to compare contours and shading.",
+      "body_notes": "The two controller images are labeled GPT-6.1 Sol MAX routing and basic. The post shows rendered images.",
+      "number": 52,
+      "anchor": "case-52",
+      "category": "graphics",
+      "type": "Evaluation",
+      "attribution": "Creator statement. Underlying model unverified.",
+      "display_media": [
+        {
+          "case_number": 52,
+          "media_id": "2119417273249095680",
+          "visual": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-52/2119417273249095680-f0fea371a0a411ae9aef.jpg",
+          "playback": null
+        }
+      ]
+    },
+    {
+      "source_url": "https://x.com/HarshithLucky3/status/2119412698119373104",
+      "author_handle": "HarshithLucky3",
+      "author_url": "https://x.com/HarshithLucky3",
+      "date": "2026-11-08",
+      "dedup_key": "x:2119412698119373104",
+      "task_status": "demonstrated",
+      "material_family": null,
+      "is_demo": true,
+      "model_claimed": "GPT-6.2 Sol",
+      "prompt": "SVG of BMW M4 CS side view",
+      "root_media": [
+        {
+          "id": "2119412669946204160",
+          "type": "photo",
+          "attachment_permalink": "https://x.com/HarshithLucky3/status/2119412698119373104/photo/1",
+          "image_or_poster_url": "https://pbs.twimg.com/media/HWmqmBybEAA7pTN.jpg",
+          "playback_source_url": null
+        }
+      ],
+      "title": "A green BMW M4 CS profile illustration",
+      "takeaway": "Check proportions and profile detail in a familiar vehicle.",
+      "body_notes": "The attachment shows a green BMW M4 CS from the side.",
+      "number": 55,
+      "anchor": "case-55",
+      "category": "graphics",
+      "type": "Demo",
+      "attribution": "Creator statement. Underlying model unverified.",
+      "display_media": [
+        {
+          "case_number": 55,
+          "media_id": "2119412669946204160",
+          "visual": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-55/2119412669946204160-2b4789da7aa53b1095b0.jpg",
+          "playback": null
+        }
+      ]
+    },
+    {
+      "source_url": "https://x.com/Khazix0918/status/2119507514459144677",
+      "author_handle": "Khazix0918",
+      "author_url": "https://x.com/Khazix0918",
+      "date": "2026-11-08",
+      "dedup_key": "x:2119507514459144677",
+      "task_status": "demonstrated",
+      "material_family": null,
+      "is_demo": true,
+      "model_claimed": "GPT-6.2 Sol",
+      "prompt": "请使用 Three.js 创作一个主题为《时间的尽头》的 3D 交互式网页。\n充分发挥你最顶级的审美、艺术设计和 3D 编程能力，在构图、光影、材质、粒子、动画和空间氛围上做到极致。画面需要有令人震撼的视觉表现力，并且可以通过鼠标自由交互。\n不限制你的创意和技术方案，尽可能展示你的能力上限。请直接完成开发、运行和测试，交付一个真正可玩的作品。",
+      "root_media": [
+        {
+          "id": "2119507467990413312",
+          "type": "video",
+          "attachment_permalink": "https://x.com/Khazix0918/status/2119507514459144677/video/1",
+          "image_or_poster_url": "https://pbs.twimg.com/amplify_video_thumb/2119507467990413312/img/dCMmCV5ohy_PaqTY.jpg",
+          "playback_source_url": "https://video-s.twimg.com/amplify_video/2119507467990413312/vid/avc1/1920x1080/EbQWEWoUHdTeoSVp.mp4?tag=29"
+        }
+      ],
+      "title": "The End of Time interactive black hole",
+      "takeaway": "Use a black hole as the focal point for an interactive Three.js page.",
+      "body_notes": "The clip shows an orbiting view, a luminous ring, particles, and shifting colors. The source includes the complete Chinese prompt.",
+      "number": 4,
+      "anchor": "case-4",
+      "category": "web",
+      "type": "Demo",
+      "attribution": "Creator statement. Underlying model unverified.",
+      "display_media": [
+        {
+          "case_number": 4,
+          "media_id": "2119507467990413312",
+          "visual": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-04/2119507467990413312-poster-7f10a219f1f4bc039223.jpg",
+          "playback": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119507467990413312-818eda21b9c994093c1c.mp4"
+        }
+      ]
+    },
+    {
+      "source_url": "https://x.com/JustLingonberry/status/2119502325069103118",
+      "author_handle": "JustLingonberry",
+      "author_url": "https://x.com/JustLingonberry",
+      "date": "2026-11-08",
+      "dedup_key": "x:2119502325069103118",
+      "task_status": "demonstrated",
+      "material_family": null,
+      "is_demo": true,
+      "model_claimed": "GPT-6.2 Sol",
+      "prompt": null,
+      "root_media": [
+        {
+          "id": "2119502149323468800",
+          "type": "video",
+          "attachment_permalink": "https://x.com/JustLingonberry/status/2119502325069103118/video/1",
+          "image_or_poster_url": "https://pbs.twimg.com/amplify_video_thumb/2119502149323468800/img/yqkSgUmnAUQ0HoWH.jpg",
+          "playback_source_url": "https://video-s.twimg.com/amplify_video/2119502149323468800/vid/avc1/1600x878/70x4fWQQD3HJB9-4.mp4?tag=29"
+        }
+      ],
+      "title": "Island Atlas with a day and night toggle",
+      "takeaway": "Use a compact 3D island to test lighting states in a web interface.",
+      "body_notes": "The screen recording shows Island Atlas and Kame House, a day and night switch, and a conversation panel on the left.",
+      "number": 7,
+      "anchor": "case-7",
+      "category": "web",
+      "type": "Demo",
+      "attribution": "Creator statement. Underlying model unverified.",
+      "display_media": [
+        {
+          "case_number": 7,
+          "media_id": "2119502149323468800",
+          "visual": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-07/2119502149323468800-poster-d546d522a8a5c3325b43.jpg",
+          "playback": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119502149323468800-f9cdb706db0b977af9fb.mp4"
+        }
+      ]
+    },
+    {
+      "source_url": "https://x.com/JustinGorya/status/2119433734059401260",
+      "author_handle": "JustinGorya",
+      "author_url": "https://x.com/JustinGorya",
+      "date": "2026-11-08",
+      "dedup_key": "x:2119433734059401260",
+      "task_status": "demonstrated",
+      "material_family": null,
+      "is_demo": true,
+      "model_claimed": "GPT-6.2 Sol",
+      "prompt": null,
+      "root_media": [
+        {
+          "id": "2119433659820265472",
+          "type": "video",
+          "attachment_permalink": "https://x.com/JustinGorya/status/2119433734059401260/video/1",
+          "image_or_poster_url": "https://pbs.twimg.com/amplify_video_thumb/2119433659820265472/img/uMKSF9wIr6HkygjV.jpg",
+          "playback_source_url": "https://video-s.twimg.com/amplify_video/2119433659820265472/vid/avc1/1920x2160/fsUlxN9evieNf6Jl.mp4?tag=29"
+        }
+      ],
+      "title": "Reference-image tests in Codex and the API",
+      "takeaway": "Compare what two outputs do with the same reference before attributing the difference.",
+      "body_notes": "The clip includes an interface and 3D output. The author explicitly says the difference does not establish the backend model.",
+      "number": 41,
+      "anchor": "case-41",
+      "category": "web",
+      "type": "Evaluation",
+      "attribution": "Creator statement. Underlying model unverified.",
+      "display_media": [
+        {
+          "case_number": 41,
+          "media_id": "2119433659820265472",
+          "visual": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-41/2119433659820265472-poster-b2e0a738009479a562c2.jpg",
+          "playback": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119433659820265472-dc037578c6e914ded9aa.mp4"
+        }
+      ]
+    },
+    {
+      "source_url": "https://x.com/Ananth7e/status/2119479157633786246",
+      "author_handle": "Ananth7e",
+      "author_url": "https://x.com/Ananth7e",
+      "date": "2026-11-08",
+      "dedup_key": "x:2119479157633786246",
+      "task_status": "demonstrated",
+      "material_family": null,
+      "is_demo": true,
+      "model_claimed": "GPT-6.2 Sol",
+      "prompt": null,
+      "root_media": [
+        {
+          "id": "2119478839500013568",
+          "type": "video",
+          "attachment_permalink": "https://x.com/Ananth7e/status/2119479157633786246/video/1",
+          "image_or_poster_url": "https://pbs.twimg.com/amplify_video_thumb/2119478839500013568/img/WWEZ3jEVYDkvNCyH.jpg",
+          "playback_source_url": "https://video.twimg.com/amplify_video/2119478839500013568/vid/avc1/1920x1080/qFDxi0CC11gbQjox.mp4?tag=29"
+        }
+      ],
+      "title": "PELICAN PANIC voxel chase game",
+      "takeaway": "Use a short chase game to inspect controls, feedback, and the ending state.",
+      "body_notes": "The clip shows a rider escaping a potato monster on a pelican. A score and an Escaped screen are visible.",
+      "number": 17,
+      "anchor": "case-17",
+      "category": "game",
+      "type": "Demo",
+      "attribution": "Creator statement. Underlying model unverified.",
+      "display_media": [
+        {
+          "case_number": 17,
+          "media_id": "2119478839500013568",
+          "visual": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-17/2119478839500013568-poster-3716db2a9abc6cf0e264.jpg",
+          "playback": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119478839500013568-2ec29cee42e54d0bf9c5.mp4"
+        }
+      ]
+    },
+    {
+      "source_url": "https://x.com/Avenoxai/status/2119569440681464296",
+      "author_handle": "Avenoxai",
+      "author_url": "https://x.com/Avenoxai",
+      "date": "2026-11-08",
+      "dedup_key": "x:2119569440681464296",
+      "task_status": "demonstrated",
+      "material_family": null,
+      "is_demo": true,
+      "model_claimed": "GPT-6.2 Sol",
+      "prompt": null,
+      "root_media": [
+        {
+          "id": "2119569353834180609",
+          "type": "photo",
+          "attachment_permalink": "https://x.com/Avenoxai/status/2119569440681464296/photo/1",
+          "image_or_poster_url": "https://pbs.twimg.com/media/HWo5GOwXMAEf5DB.jpg",
+          "playback_source_url": null
+        }
+      ],
+      "title": "Freddie Mercury in MS Paint",
+      "takeaway": "Use a portrait to inspect what a desktop drawing attempt produces.",
+      "body_notes": "The screenshot shows a Codex conversation beside a Freddie Mercury portrait in MS Paint. The author describes a computer-use test. The screenshot captures the result and a portion of the conversation.",
+      "number": 1,
+      "anchor": "case-1",
+      "category": "painting",
+      "type": "Demo",
+      "attribution": "Creator statement. Underlying model unverified.",
+      "display_media": [
+        {
+          "case_number": 1,
+          "media_id": "2119569353834180609",
+          "visual": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-01/2119569353834180609-7032bb605e364515b8ca.jpg",
+          "playback": null
+        }
+      ]
+    },
+    {
+      "source_url": "https://x.com/SadAlbert10/status/2119428297092460613",
+      "author_handle": "SadAlbert10",
+      "author_url": "https://x.com/SadAlbert10",
+      "date": "2026-11-08",
+      "dedup_key": "x:2119428297092460613",
+      "task_status": "attempted_failed",
+      "material_family": null,
+      "is_demo": false,
+      "model_claimed": "GPT-6.2 Sol",
+      "prompt": null,
+      "root_media": [
+        {
+          "id": "2119428121711775744",
+          "type": "photo",
+          "attachment_permalink": "https://x.com/SadAlbert10/status/2119428297092460613/photo/1",
+          "image_or_poster_url": "https://pbs.twimg.com/media/HWm4pcGakAAUW-J.jpg",
+          "playback_source_url": null
+        },
+        {
+          "id": "2119428270945140736",
+          "type": "photo",
+          "attachment_permalink": "https://x.com/SadAlbert10/status/2119428297092460613/photo/1",
+          "image_or_poster_url": "https://pbs.twimg.com/media/HWm4yICbAAABW8V.jpg",
+          "playback_source_url": null
+        }
+      ],
+      "title": "An unfinished attempt to relay a message",
+      "takeaway": "Use the attempt to see where a desktop workflow stopped.",
+      "body_notes": "The screenshots show an attempt to find the recipient after a request to pass on a message. The task ended before a message was sent.",
+      "number": 43,
+      "anchor": "case-43",
+      "category": "communication",
+      "type": "Limit",
+      "attribution": "Creator statement. Underlying model unverified.",
+      "display_media": [
+        {
+          "case_number": 43,
+          "media_id": "2119428121711775744",
+          "visual": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-43/2119428121711775744-8419b4e0c62aa252d1dc.jpg",
+          "playback": null
+        },
+        {
+          "case_number": 43,
+          "media_id": "2119428270945140736",
+          "visual": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-43/2119428270945140736-f9662043dadb9a6e4b1b.jpg",
+          "playback": null
+        }
+      ]
+    }
+  ]
+}

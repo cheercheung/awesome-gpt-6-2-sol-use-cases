@@ -1,0 +1,42 @@
+{
+  "namespace": {
+    "heading_prefix": "Case",
+    "localized_heading_prefixes": {
+      "README_es.md": "Caso",
+      "README_pt.md": "Caso",
+      "README_ja.md": "ケース",
+      "README_ko.md": "사례",
+      "README_de.md": "Fall",
+      "README_fr.md": "Cas",
+      "README_tr.md": "Örnek",
+      "README_zh-TW.md": "案例",
+      "README_zh-CN.md": "案例",
+      "README_ru.md": "Пример"
+    },
+    "anchor_prefix": "case",
+    "menu_policy": "per-case",
+    "category_anchors": [
+      "painting",
+      "three",
+      "graphics",
+      "web",
+      "game",
+      "communication"
+    ],
+    "numbering_order": "set-contiguous"
+  },
+  "structured_data": {
+    "path": "data/gpt-6-2-sol-usecase-curated.json",
+    "items_key": "cases"
+  },
+  "requirements": {
+    "allowed_types": [
+      "Demo",
+      "Tutorial",
+      "Evaluation",
+      "Integration",
+      "Benchmark",
+      "Limit"
+    ]
+  }
+}

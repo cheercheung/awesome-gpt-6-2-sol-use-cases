@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="420" viewBox="0 0 1440 420" role="img" aria-labelledby="cover-title cover-description">
+  <title id="cover-title">GPT-6.2 Sol</title>
+  <desc id="cover-description">Community demos and use cases, illustrated by an orbital wireframe and a layered landscape.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#07162b"/>
+      <stop offset="1" stop-color="#16313b"/>
+    </linearGradient>
+    <radialGradient id="halo">
+      <stop stop-color="#79f8d3" stop-opacity=".26"/>
+      <stop offset="1" stop-color="#79f8d3" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="land" x1="0" x2="1" y1="1" y2="0">
+      <stop stop-color="#143b43"/>
+      <stop offset="1" stop-color="#286f72"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#91d2e9" stroke-opacity=".12"/>
+    </pattern>
+  </defs>
+  <rect width="1440" height="420" rx="28" fill="url(#bg)"/>
+  <rect x="700" y="1" width="711" height="418" fill="url(#grid)"/>
+  <circle cx="1085" cy="205" r="213" fill="url(#halo)"/>
+  <path d="M745 302L893 229L1040 290L1231 215L1379 276L1216 371L1023 337L922 379Z" fill="url(#land)" stroke="#75b9bb" stroke-opacity=".52" stroke-width="2"/>
+  <path d="M745 302L922 344L1023 310L1216 337L1379 276M893 229L922 344L922 379M1040 290L1023 310L1023 337M1231 215L1216 337L1216 371" fill="none" stroke="#87ced1" stroke-opacity=".36" stroke-width="2"/>
+  <g fill="none" stroke="#91f3d9" stroke-width="2" stroke-opacity=".66">
+    <circle cx="1085" cy="177" r="101"/>
+    <ellipse cx="1085" cy="177" rx="101" ry="39"/>
+    <ellipse cx="1085" cy="177" rx="47" ry="101"/>
+    <ellipse cx="1085" cy="177" rx="137" ry="54" transform="rotate(-29 1085 177)"/>
+  </g>
+  <circle cx="1183" cy="109" r="8" fill="#f4cf8f"/>
+  <circle cx="970" cy="223" r="5" fill="#a4f7e5"/>
+  <path d="M82 94H127" stroke="#a4f7e5" stroke-width="4" stroke-linecap="round"/>
+  <text x="143" y="101" fill="#a4f7e5" font-size="20" font-weight="700" letter-spacing="3" font-family="Arial, sans-serif">COMMUNITY COLLECTION</text>
+  <text x="76" y="222" fill="#f4fbff" font-size="94" font-weight="700" letter-spacing="-5" font-family="Arial, sans-serif">GPT-6.2 Sol</text>
+  <text x="82" y="286" fill="#d3e5f2" font-size="40" font-weight="400" font-family="Arial, sans-serif">Demos &amp; use cases</text>
+  <text x="82" y="351" fill="#a4f7e5" font-size="20" font-weight="700" letter-spacing="2" font-family="Arial, sans-serif">59 SOURCE POSTS</text>
+</svg>
