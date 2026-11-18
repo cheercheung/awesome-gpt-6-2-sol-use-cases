@@ -2,9 +2,9 @@
 
 <h1>GPT-6.2 Sol · Demos und Anwendungsfälle</h1>
 
-<a href="https://evolink.ai/?utm_source=github&utm_medium=banner&utm_campaign=gpt-6-2-sol-usecases&utm_content=readme_banner"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/covers/cover-1c4c7490be0406351b48.svg" width="760" alt="GPT-6.2 Sol community demos and use cases"></a>
+<a href="https://evolink.ai/gpt-6-2-sol?utm_source=github&utm_medium=banner&utm_campaign=gpt-6-2-sol-usecases&utm_content=readme_banner"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/covers/cover-1c4c7490be0406351b48.svg" width="760" alt="GPT-6.2 Sol community demos and use cases"></a>
 
-[![License](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey)](LICENSE) [![Browse EvoLink models](https://img.shields.io/badge/Browse_models-EvoLink-111111)](https://evolink.ai/models?utm_source=github&utm_medium=badge&utm_campaign=gpt-6-2-sol-usecases&utm_content=model_catalog)
+[![License](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey)](LICENSE)
 
 [![English](https://img.shields.io/badge/English-2563eb)](README.md) [![Español](https://img.shields.io/badge/Espa%C3%B1ol-2563eb)](README_es.md) [![Português](https://img.shields.io/badge/Portugu%C3%AAs-2563eb)](README_pt.md) [![日本語](https://img.shields.io/badge/%E6%97%A5%E6%9C%AC%E8%AA%9E-2563eb)](README_ja.md) [![한국어](https://img.shields.io/badge/%ED%95%9C%EA%B5%AD%EC%96%B4-2563eb)](README_ko.md) [![Deutsch](https://img.shields.io/badge/Deutsch-2563eb)](README_de.md) [![Français](https://img.shields.io/badge/Fran%C3%A7ais-2563eb)](README_fr.md) [![Türkçe](https://img.shields.io/badge/T%C3%BCrk%C3%A7e-2563eb)](README_tr.md) [![繁體中文](https://img.shields.io/badge/%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87-2563eb)](README_zh-TW.md) [![简体中文](https://img.shields.io/badge/%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87-2563eb)](README_zh-CN.md) [![Русский](https://img.shields.io/badge/%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9-2563eb)](README_ru.md)
 
@@ -33,7 +33,7 @@
 2. Öffnen Sie eine Vorschau, um die Quellmedien anzuzeigen, und lesen Sie dann den Originalbeitrag, um den Kontext zu erfahren.
 3. Verwenden Sie die öffentliche Eingabeaufforderung, sofern verfügbar. Behalten Sie beim Vergleich der Ergebnisse die ursprüngliche Eingabe bei.
 
-[Modellübersicht von OpenAI ansehen](https://developers.openai.com/api/docs/models)
+[GPT-6.2 Sol auf EvoLink ansehen](https://evolink.ai/gpt-6-2-sol?utm_source=github&utm_medium=readme&utm_campaign=gpt-6-2-sol-usecases&utm_content=landing_overview)
 
 <a id="menu"></a>
 ## 📑 Menü
