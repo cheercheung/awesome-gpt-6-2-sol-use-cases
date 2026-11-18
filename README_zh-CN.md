@@ -18,7 +18,7 @@
 <a id="overview"></a>
 ## 📊 概述
 
-- **69 条使用案例 · GPT-6.2 Sol**. 共收录 69 条原帖，其中 68 条展示了任务成果，1 条记录了未完成的尝试。11 条附有作者公开的原文提示词。
+- **79 条使用案例 · GPT-6.2 Sol**. 共收录 79 条原帖，其中 77 条展示成果，2 条记录未完成的尝试。12 条附有作者公开的原文提示词。
 - 3D 场景与建模 · 创意图形与动画 · 网站和界面 · 游戏开发 · 电脑使用与绘画 · 电脑操作与沟通
 - 每条都附有原帖、作者、日期、证据类型和可见成果。
 - 如有公开提示词，可按原文复试。对比时请使用相同输入。
@@ -81,6 +81,11 @@
 | [案例 65. Three.js 锦鲤庭院](#case-65) | [3D 场景与建模](#category-three) | 跟着锦鲤观察水面运动和倒影。 | Demo |
 | [案例 66. 停车场上空的龙卷风](#case-66) | [3D 场景与建模](#category-three) | 观察风暴模拟如何带动停车场里的碎片。 | Demo |
 | [案例 68. 交互式波音 787-9 模型](#case-68) | [3D 场景与建模](#category-three) | 用视图控件查看飞机外部和发动机。 | Demo |
+| [案例 70. VoxelBench 2 的生成错误](#case-70) | [3D 场景与建模](#category-three) | 先确认生成的体素代码能运行，再给渲染结果打分。 | Benchmark |
+| [案例 71. 受梵高启发的高斯泼溅场景](#case-71) | [3D 场景与建模](#category-three) | 对照两个可漫游场景对同一构图的处理。 | Evaluation |
+| [案例 72. 使用生成式背景的气球小屋](#case-72) | [3D 场景与建模](#category-three) | 如果任务要求用 Three.js 搭建背景，检查交付物中的场景素材。 | Limit |
+| [案例 73. HTML 鲁布·戈德堡装置模拟器](#case-73) | [3D 场景与建模](#category-three) | 观察连锁反应的各个环节如何衔接。 | Demo |
+| [案例 76. 并排对照机械蜜蜂模型](#case-76) | [3D 场景与建模](#category-three) | 分别评估活动部件和界面布局。 | Evaluation |
 | [案例 3. 3D 人类历史和人工智能未来](#case-3) | [创意图形与动画](#category-graphics) | 将叙事简报变成一系列动画场景。 | Demo |
 | [案例 8. Tibo 浏览器绘画工作室中的肖像](#case-8) | [创意图形与动画](#category-graphics) | 在页面构建时检查肖像的各个阶段。 | Demo |
 | [案例 10. 0x0SojalSec分享的Sam Altman肖像画](#case-10) | [创意图形与动画](#category-graphics) | 遵循从粗糙形状到完成肖像的过渡。 | Demo |
@@ -103,14 +108,19 @@
 | [案例 52. PS5 控制器在 Sol 设置之间的比较](#case-52) | [创意图形与动画](#category-graphics) | 使用熟悉的产品来比较轮廓和阴影。 | Evaluation |
 | [案例 55. 绿色 BMW M4 CS 轮廓图](#case-55) | [创意图形与动画](#category-graphics) | 检查熟悉车辆的比例和轮廓细节。 | Demo |
 | [案例 60. 孙悟空大闹天宫 SVG 对比](#case-60) | [创意图形与动画](#category-graphics) | 比较三个系统如何构图，表现同一个大闹天宫场景。 | Evaluation |
+| [案例 74. 用代码生成火焰与声音](#case-74) | [创意图形与动画](#category-graphics) | 比较动态作品时，同时记录成片时长、成本和生成时间。 | Evaluation |
+| [案例 79. 一份 15 秒动态设计任务](#case-79) | [创意图形与动画](#category-graphics) | 给两个模型相同的任务，比较字体、转场和动态表现。 | Evaluation |
 | [案例 4. 《时间的尽头》交互式黑洞网页](#case-4) | [网站和界面](#category-web) | 用黑洞作为 Three.js 交互网页的视觉中心，观察视角与光效如何变化。 | Demo |
 | [案例 7. Island Atlas 带昼夜切换](#case-7) | [网站和界面](#category-web) | 使用紧凑的 3D 岛来测试 Web 界面中的照明状态。 | Demo |
 | [案例 41. Codex 和 API 中的参考图像测试](#case-41) | [网站和界面](#category-web) | 在归因差异之前，比较两个输出对相同参考的作用。 | Evaluation |
 | [案例 61. 旋转七边形里的重力小球](#case-61) | [网站和界面](#category-web) | 观察容器旋转时小球如何移动。 | Demo |
 | [案例 69. 布加迪 Chiron 360 度配置器](#case-69) | [网站和界面](#category-web) | 在镜头绕车移动时比较不同漆面。 | Demo |
+| [案例 75. 用浏览器定位 GeoGuessr 地点](#case-75) | [网站和界面](#category-web) | 横评时固定起点、限时和距离阈值。 | Benchmark |
+| [案例 77. 用 Blender 模型搭建蝴蝶展厅](#case-77) | [网站和界面](#category-web) | 给可旋转的标本配上局部观察视图与观察笔记。 | Demo |
 | [案例 17. PELICAN PANIC 体素追逐游戏](#case-17) | [游戏开发](#category-game) | 使用短追逐游戏来检查控制、反馈和结束状态。 | Demo |
 | [案例 62. 浏览器里的三维魔方](#case-62) | [游戏开发](#category-game) | 从预览中检查魔方的旋转和贴纸位置。 | Demo |
 | [案例 67. 海岸赛车游戏原型](#case-67) | [游戏开发](#category-game) | 检查比赛中倒计时、车速读数和赛道地图是否清楚易读。 | Demo |
+| [案例 78. 通关推箱子房间测试集](#case-78) | [游戏开发](#category-game) | 记录通关房间数，并回放操作以定位卡关处。 | Benchmark |
 | [案例 1. MS Paint 中的 Freddie Mercury 肖像](#case-1) | [电脑使用与绘画](#category-painting) | 使用肖像来检查桌面绘图尝试产生的效果。 | Demo |
 | [案例 43. 未完成的消息转发尝试](#case-43) | [电脑操作与沟通](#category-communication) | 通过尝试查看桌面工作流程停止的位置。 | Limit |
 
@@ -726,6 +736,79 @@ Type: Demo | Date: 2026-11-09
 
 ---
 
+<a id="case-70"></a>
+### 案例 70: [VoxelBench 2 的生成错误](https://x.com/voxelbench/status/2122778737959969177) (作者 [@voxelbench](https://x.com/voxelbench))
+
+**先确认生成的体素代码能运行，再给渲染结果打分。**
+
+VoxelBench 报告称，在这套测试中 GPT-6.2 Sol 出现 62 次错误，GPT-6.2 Astra 出现 19 次。维护者将失败归因于语法错误、缺少定义等问题。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-70/2122777747541868545-95f3c71b7db391dfffcd.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-70/2122777747541868545-95f3c71b7db391dfffcd.jpg" width="640" alt="原始素材预览 1 · VoxelBench 2 的生成错误"></a>
+
+Type: Benchmark | Date: 2026-11-17
+
+---
+
+<a id="case-71"></a>
+### 案例 71: [受梵高启发的高斯泼溅场景](https://x.com/sshayahmet/status/2122778769597554693) (作者 [@sshayahmet](https://x.com/sshayahmet))
+
+**对照两个可漫游场景对同一构图的处理。**
+
+作者并排展示了 Sol 和 Opus 5.5 的场景。按作者报告，Sol 耗时约 1 小时、花费 5.45 美元，Opus 耗时 53 分钟、花费 12.14 美元。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122778178783752192-8bc5b1a659aaf321bca3.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-71/2122778178783752192-poster-0bc27584cc18b44c255a.jpg" width="640" alt="原始素材预览 1 · 受梵高启发的高斯泼溅场景"></a>
+
+[播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122778178783752192-8bc5b1a659aaf321bca3.mp4)
+
+Type: Evaluation | Date: 2026-11-17
+
+---
+
+<a id="case-72"></a>
+### 案例 72: [使用生成式背景的气球小屋](https://x.com/TimJayas/status/2122780669973787008) (作者 [@TimJayas](https://x.com/TimJayas))
+
+**如果任务要求用 Three.js 搭建背景，检查交付物中的场景素材。**
+
+视频从多个角度展示了气球小屋。作者称，Sol 用图像生成模型制作了远景，没有用代码搭建背景。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122779173106364417-ce071a2bea10e55854ce.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-72/2122779173106364417-poster-c3a6e52c7e7cc9a4c981.jpg" width="640" alt="原始素材预览 1 · 使用生成式背景的气球小屋"></a>
+
+[播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122779173106364417-ce071a2bea10e55854ce.mp4)
+
+Type: Limit | Date: 2026-11-17
+
+---
+
+<a id="case-73"></a>
+### 案例 73: [HTML 鲁布·戈德堡装置模拟器](https://x.com/lucian__03/status/2122782073102663874) (作者 [@lucian__03](https://x.com/lucian__03))
+
+**观察连锁反应的各个环节如何衔接。**
+
+作者称以 Max 强度运行 GPT-6.2 Sol，只提交了一次提示。视频跟随钢珠经过轨道和齿轮，以及依次倒下的多米诺骨牌。作者报告制作约耗时 25 分钟、花费 3.03 美元。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122772945982660608-a1e7d3419ebbeb4c61bb.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-73/2122772945982660608-poster-c2517a3063d7ae324d03.jpg" width="640" alt="原始素材预览 1 · HTML 鲁布·戈德堡装置模拟器"></a>
+
+[播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122772945982660608-a1e7d3419ebbeb4c61bb.mp4)
+
+Type: Demo | Date: 2026-11-17
+
+---
+
+<a id="case-76"></a>
+### 案例 76: [并排对照机械蜜蜂模型](https://x.com/thtbee_/status/2122810531669311645) (作者 [@thtbee_](https://x.com/thtbee_))
+
+**分别评估活动部件和界面布局。**
+
+视频并排展示两只机械蜜蜂及其控件。作者更认可 Astra 的部件位置，也指出两个界面都存在布局问题，并报告 Sol 耗时 43 分钟、花费 3.84 美元。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122803167826219008-c7328affdb02e5aa7e77.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-76/2122803167826219008-poster-11682fb3b82ccdb1450c.jpg" width="640" alt="原始素材预览 1 · 并排对照机械蜜蜂模型"></a>
+
+[播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122803167826219008-c7328affdb02e5aa7e77.mp4)
+
+Type: Evaluation | Date: 2026-11-17
+
+---
+
 <a id="category-graphics"></a>
 ## 🎨 创意图形与动画
 
@@ -1114,6 +1197,46 @@ Type: Evaluation | Date: 2026-11-09
 
 ---
 
+<a id="case-74"></a>
+### 案例 74: [用代码生成火焰与声音](https://x.com/camperaigg/status/2122794828266377538) (作者 [@camperaigg](https://x.com/camperaigg))
+
+**比较动态作品时，同时记录成片时长、成本和生成时间。**
+
+作者比较了两次 xhigh 运行，画面与音效均用代码生成。按作者报告，Sol 运行 12 分钟、花费 0.73 美元，得到 12 秒视频。Opus 5.5 运行 85 分钟、花费 18.40 美元，得到 24 秒视频。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122794767960752128-e2e19e403efea0d778cc.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-74/2122794767960752128-poster-5dc5e43235499f8378cf.jpg" width="640" alt="原始素材预览 1 · 用代码生成火焰与声音"></a>
+
+[播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122794767960752128-e2e19e403efea0d778cc.mp4)
+
+Type: Evaluation | Date: 2026-11-17
+
+---
+
+<a id="case-79"></a>
+### 案例 79: [一份 15 秒动态设计任务](https://x.com/Leviwoyun/status/2122846422676701267) (作者 [@Leviwoyun](https://x.com/Leviwoyun))
+
+**给两个模型相同的任务，比较字体、转场和动态表现。**
+
+作者公开了两段视频和原始提示词。一段以旋转的折纸形态为主，另一段从信号界面过渡到紫色几何形态。
+
+**提示词:**
+
+```
+制作一段 15 秒的动态图形视频，展示你是一位多么出色的动态设计师，就像是你简历上的作品集一样，使用任何你认为能产出最佳效果的工具或技术。你拥有完全的创作自由，优先追求卓越的视觉设计、大胆的艺术指导、引人注目的构图和富有力量的动态表现，让每一秒都有价值。全力以赴。
+```
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122845749499310081-01cb8b6073d8916e9b09.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-79/2122845749499310081-poster-1159d01955e99da02391.jpg" width="640" alt="原始素材预览 1 · 一份 15 秒动态设计任务"></a>
+
+[播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122845749499310081-01cb8b6073d8916e9b09.mp4)
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122846110117183488-30f1277d34e59656f484.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-79/2122846110117183488-poster-7b07819920bd6a3fe88d.jpg" width="640" alt="原始素材预览 2 · 一份 15 秒动态设计任务"></a>
+
+[播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122846110117183488-30f1277d34e59656f484.mp4)
+
+Type: Evaluation | Date: 2026-11-18
+
+---
+
 <a id="category-web"></a>
 ## 🌐 网站和界面
 
@@ -1203,6 +1326,36 @@ Type: Demo | Date: 2026-11-09
 
 ---
 
+<a id="case-75"></a>
+### 案例 75: [用浏览器定位 GeoGuessr 地点](https://x.com/nickbaumann_/status/2122805861093417220) (作者 [@nickbaumann_](https://x.com/nickbaumann_))
+
+**横评时固定起点、限时和距离阈值。**
+
+测试者为所有模型提供同样的 100 个起点，每个地点限时 5 分钟，落点需在目标 1 公里内。Sol 和 Astra 均达标 77 次，测试者报告 Sol 用时更短。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122751536778387456-4ba9a30b51fd04a352fb.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-75/2122751536778387456-poster-499c7bb9670c1315b38e.jpg" width="640" alt="原始素材预览 1 · 用浏览器定位 GeoGuessr 地点"></a>
+
+[播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122751536778387456-4ba9a30b51fd04a352fb.mp4)
+
+Type: Benchmark | Date: 2026-11-17
+
+---
+
+<a id="case-77"></a>
+### 案例 77: [用 Blender 模型搭建蝴蝶展厅](https://x.com/DeryaTR_/status/2122814594737684568) (作者 [@DeryaTR_](https://x.com/DeryaTR_))
+
+**给可旋转的标本配上局部观察视图与观察笔记。**
+
+作者称用 Sol 和 Blender 制作了网站。演示展示了多种带动画的蝴蝶、用于查看翅膀细节的放大镜，以及栖息地、分类和生长阶段面板。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122813839481663488-e921dcc4253d7432553d.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-77/2122813839481663488-poster-2f054c454b8ad5768090.jpg" width="640" alt="原始素材预览 1 · 用 Blender 模型搭建蝴蝶展厅"></a>
+
+[播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122813839481663488-e921dcc4253d7432553d.mp4)
+
+Type: Demo | Date: 2026-11-17
+
+---
+
 <a id="category-game"></a>
 ## 🎮 游戏开发
 
@@ -1252,6 +1405,21 @@ Type: Demo | Date: 2026-11-09
 
 ---
 
+<a id="case-78"></a>
+### 案例 78: [通关推箱子房间测试集](https://x.com/banteg/status/2122826622638137666) (作者 [@banteg](https://x.com/banteg))
+
+**记录通关房间数，并回放操作以定位卡关处。**
+
+作者以 medium 强度测试 Sol 和 Astra。本次两者均通关全部 66 个房间，发帖时在作者的榜单上分别排第二和第三。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122826155086512128-d2a8456da3a5a99263f5.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-78/2122826155086512128-poster-4a2c4bee2b8d9510e347.jpg" width="640" alt="原始素材预览 1 · 通关推箱子房间测试集"></a>
+
+[播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122826155086512128-d2a8456da3a5a99263f5.mp4)
+
+Type: Benchmark | Date: 2026-11-17
+
+---
+
 <a id="category-painting"></a>
 ## 🖌️ 电脑使用与绘画
 
@@ -1296,6 +1464,6 @@ Type: Limit | Date: 2026-11-08
 
 感谢分享这些实验的创作者。链接的作品和媒体属于其各自的创作者。
 
-[@Avenoxai](https://x.com/Avenoxai), [@kimmonismus](https://x.com/kimmonismus), [@imjustnewatai](https://x.com/imjustnewatai), [@Khazix0918](https://x.com/Khazix0918), [@marcthecreatorr](https://x.com/marcthecreatorr), [@Bhavani_00007](https://x.com/Bhavani_00007), [@JustLingonberry](https://x.com/JustLingonberry), [@Mr_Salio](https://x.com/Mr_Salio), [@aGim_asf](https://x.com/aGim_asf), [@0x0SojalSec](https://x.com/0x0SojalSec), [@pengsonal](https://x.com/pengsonal), [@GeekCatX](https://x.com/GeekCatX), [@Ananth7e](https://x.com/Ananth7e), [@EnvolDev](https://x.com/EnvolDev), [@xbquan](https://x.com/xbquan), [@SahilPanhotra](https://x.com/SahilPanhotra), [@rubenssoto_ai](https://x.com/rubenssoto_ai), [@vikktorrrre](https://x.com/vikktorrrre), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@Cayden970207](https://x.com/Cayden970207), [@HarshithLucky3](https://x.com/HarshithLucky3), [@TokenGremlin](https://x.com/TokenGremlin), [@SadAlbert10](https://x.com/SadAlbert10), [@maxt3chno](https://x.com/maxt3chno), [@karanC_12](https://x.com/karanC_12), [@JustinGorya](https://x.com/JustinGorya), [@kdnbmb](https://x.com/kdnbmb), [@VraserX](https://x.com/VraserX), [@jessexai_](https://x.com/jessexai_), [@theaidesk_](https://x.com/theaidesk_), [@gadi_neelesh](https://x.com/gadi_neelesh), [@Haleeeemahh](https://x.com/Haleeeemahh), [@SPAC89](https://x.com/SPAC89), [@VeknQAQ](https://x.com/VeknQAQ), [@Aurora0x3f](https://x.com/Aurora0x3f), [@bei351009016](https://x.com/bei351009016), [@Stargridcompass](https://x.com/Stargridcompass), [@iamtheQwen](https://x.com/iamtheQwen)
+[@Avenoxai](https://x.com/Avenoxai), [@kimmonismus](https://x.com/kimmonismus), [@imjustnewatai](https://x.com/imjustnewatai), [@Khazix0918](https://x.com/Khazix0918), [@marcthecreatorr](https://x.com/marcthecreatorr), [@Bhavani_00007](https://x.com/Bhavani_00007), [@JustLingonberry](https://x.com/JustLingonberry), [@Mr_Salio](https://x.com/Mr_Salio), [@aGim_asf](https://x.com/aGim_asf), [@0x0SojalSec](https://x.com/0x0SojalSec), [@pengsonal](https://x.com/pengsonal), [@GeekCatX](https://x.com/GeekCatX), [@Ananth7e](https://x.com/Ananth7e), [@EnvolDev](https://x.com/EnvolDev), [@xbquan](https://x.com/xbquan), [@SahilPanhotra](https://x.com/SahilPanhotra), [@rubenssoto_ai](https://x.com/rubenssoto_ai), [@vikktorrrre](https://x.com/vikktorrrre), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@Cayden970207](https://x.com/Cayden970207), [@HarshithLucky3](https://x.com/HarshithLucky3), [@TokenGremlin](https://x.com/TokenGremlin), [@SadAlbert10](https://x.com/SadAlbert10), [@maxt3chno](https://x.com/maxt3chno), [@karanC_12](https://x.com/karanC_12), [@JustinGorya](https://x.com/JustinGorya), [@kdnbmb](https://x.com/kdnbmb), [@VraserX](https://x.com/VraserX), [@jessexai_](https://x.com/jessexai_), [@theaidesk_](https://x.com/theaidesk_), [@gadi_neelesh](https://x.com/gadi_neelesh), [@Haleeeemahh](https://x.com/Haleeeemahh), [@SPAC89](https://x.com/SPAC89), [@VeknQAQ](https://x.com/VeknQAQ), [@Aurora0x3f](https://x.com/Aurora0x3f), [@bei351009016](https://x.com/bei351009016), [@Stargridcompass](https://x.com/Stargridcompass), [@iamtheQwen](https://x.com/iamtheQwen), [@voxelbench](https://x.com/voxelbench), [@sshayahmet](https://x.com/sshayahmet), [@TimJayas](https://x.com/TimJayas), [@lucian__03](https://x.com/lucian__03), [@camperaigg](https://x.com/camperaigg), [@nickbaumann_](https://x.com/nickbaumann_), [@thtbee_](https://x.com/thtbee_), [@DeryaTR_](https://x.com/DeryaTR_), [@banteg](https://x.com/banteg), [@Leviwoyun](https://x.com/Leviwoyun)
 
 *如需更正署名或移除素材，请提交来源更正 issue。*

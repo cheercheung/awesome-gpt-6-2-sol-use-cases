@@ -18,7 +18,7 @@
 <a id="overview"></a>
 ## 📊 Genel Bakış
 
-- **69 kullanım örneği · GPT-6.2 Sol**. Derleme 69 kaynak gönderiyi içerir. Bunların 68’i bir sonuç gösterir, biri tamamlanmamış bir denemeyi kaydeder. On bir gönderide istemin özgün dildeki tam metni yer alır.
+- **79 kullanım örneği · GPT-6.2 Sol**. Derleme 79 kaynak gönderiyi içerir. Bunların 77’si sonuçları gösterir, ikisi tamamlanmamış denemeleri kaydeder. On iki gönderide istemin özgün dildeki tam metni yer alır.
 - 3 boyutlu sahneler ve modelleme · Yaratıcı grafikler ve animasyon · Web siteleri ve arayüzler · Oyun geliştirme · Bilgisayar kullanımı ve boyama · Bilgisayar kullanımı ve iletişim
 - Her örnekte özgün gönderi, içerik sahibi, tarih, kanıt türü ve görülen sonuç yer alır.
 - Mümkün olduğunda genel istemi kullanın. Sonuçları karşılaştırırken orijinal girişi koruyun.
@@ -81,6 +81,11 @@
 | [Örnek 65. Three.js ile yapılan koi avlusu](#case-65) | [3 boyutlu sahneler ve modelleme](#category-three) | Koi balıklarını takip ederek suyun hareketini ve yansımaları inceleyin. | Demo |
 | [Örnek 66. Otoparkın üzerinden geçen hortum](#case-66) | [3 boyutlu sahneler ve modelleme](#category-three) | Fırtına simülasyonunun otoparktaki enkazı nasıl hareket ettirdiğini izleyin. | Demo |
 | [Örnek 68. Etkileşimli Boeing 787-9 modeli](#case-68) | [3 boyutlu sahneler ve modelleme](#category-three) | Görünüm kontrolleriyle uçağın dışını ve motoru inceleyin. | Demo |
+| [Örnek 70. VoxelBench 2’de üretim hataları](#case-70) | [3 boyutlu sahneler ve modelleme](#category-three) | Sahneyi puanlamadan önce üretilen voksel kodunun çalıştığını doğrulayın. | Benchmark |
+| [Örnek 71. Van Gogh esintili bir Gauss sıçratma dünyası](#case-71) | [3 boyutlu sahneler ve modelleme](#category-three) | Aynı kompozisyonun gezilebilen iki sahnede nasıl işlendiğini karşılaştırın. | Evaluation |
+| [Örnek 72. Üretilmiş manzarası olan balonlu ev](#case-72) | [3 boyutlu sahneler ve modelleme](#category-three) | İstek Three.js ile bir arka plan oluşturmayı gerektiriyorsa sahnede hangi varlıkların kullanıldığını inceleyin. | Limit |
+| [Örnek 73. HTML ile bir Rube Goldberg simülatörü](#case-73) | [3 boyutlu sahneler ve modelleme](#category-three) | Zincirleme tepkide hareketin bir aşamadan diğerine nasıl aktarıldığını izleyin. | Demo |
+| [Örnek 76. İki mekanik arı modelinin karşılaştırması](#case-76) | [3 boyutlu sahneler ve modelleme](#category-three) | Hareketli parçaları ve arayüz düzenini ayrı ayrı değerlendirin. | Evaluation |
 | [Örnek 3. 3D'de insanlık tarihi ve yapay zekanın geleceği](#case-3) | [Yaratıcı grafikler ve animasyon](#category-graphics) | Bir anlatım özetini bir dizi animasyonlu sahneye dönüştürün. | Demo |
 | [Örnek 8. Bir tarayıcı boyama stüdyosunda Tibo portresi](#case-8) | [Yaratıcı grafikler ve animasyon](#category-graphics) | Sayfa onu oluştururken bir portrenin aşamalarını inceleyin. | Demo |
 | [Örnek 10. 0x0SojalSec tarafından paylaşılan Sam Altman portre resmi](#case-10) | [Yaratıcı grafikler ve animasyon](#category-graphics) | Kaba şekillerden bitmiş bir portreye geçişi takip edin. | Demo |
@@ -103,14 +108,19 @@
 | [Örnek 52. Sol ayarlarında PS5 kontrol cihazı karşılaştırması](#case-52) | [Yaratıcı grafikler ve animasyon](#category-graphics) | Konturları ve gölgelemeyi karşılaştırmak için tanıdık bir ürün kullanın. | Evaluation |
 | [Örnek 55. Yeşil bir BMW M4 CS profil resmi](#case-55) | [Yaratıcı grafikler ve animasyon](#category-graphics) | Tanıdık bir araçta oranları ve profil ayrıntılarını kontrol edin. | Demo |
 | [Örnek 60. Maymun Kral SVG karşılaştırması](#case-60) | [Yaratıcı grafikler ve animasyon](#category-graphics) | Üç sistemin aynı Maymun Kral sahnesini nasıl kurguladığını karşılaştırın. | Evaluation |
+| [Örnek 74. Kodla üretilen ateş ve ses](#case-74) | [Yaratıcı grafikler ve animasyon](#category-graphics) | Hareketli çalışmaları karşılaştırırken maliyet ve üretim süresinin yanında videonun uzunluğunu da kaydedin. | Evaluation |
+| [Örnek 79. 15 saniyelik bir hareketli tasarım görevi](#case-79) | [Yaratıcı grafikler ve animasyon](#category-graphics) | İki modele aynı görevi verip tipografiyi, geçişleri ve hareketi karşılaştırın. | Evaluation |
 | [Örnek 4. Zamanın Sonu etkileşimli kara delik](#case-4) | [Web siteleri ve arayüzler](#category-web) | Etkileşimli bir Three.js sayfası için odak noktası olarak bir kara delik kullanın. | Demo |
 | [Örnek 7. Gündüz ve gece geçişli Island Atlas](#case-7) | [Web siteleri ve arayüzler](#category-web) | Bir web arayüzünde aydınlatma durumlarını test etmek için kompakt bir 3B ada kullanın. | Demo |
 | [Örnek 41. Codex ve API'de referans görüntü testleri](#case-41) | [Web siteleri ve arayüzler](#category-web) | Farkı atfetmeden önce iki çıkışın aynı referansla ne yaptığını karşılaştırın. | Evaluation |
 | [Örnek 61. Dönen yedigen içinde yerçekimiyle hareket eden toplar](#case-61) | [Web siteleri ve arayüzler](#category-web) | Kap dönerken topların nasıl hareket ettiğini inceleyin. | Demo |
 | [Örnek 69. Bugatti Chiron için 360 derece yapılandırıcı](#case-69) | [Web siteleri ve arayüzler](#category-web) | Kamera aracın etrafında dolaşırken boya seçeneklerini karşılaştırın. | Demo |
+| [Örnek 75. Tarayıcıyla GeoGuessr konumlarını bulmak](#case-75) | [Web siteleri ve arayüzler](#category-web) | Modelleri karşılaştırırken başlangıç noktalarını, süre sınırını ve mesafe eşiğini sabit tutun. | Benchmark |
+| [Örnek 77. Blender modelleriyle bir kelebek galerisi](#case-77) | [Web siteleri ve arayüzler](#category-web) | Döndürülebilen bir örneği yakınlaştırılmış görünümler ve gözlem notlarıyla birleştirin. | Demo |
 | [Örnek 17. PELICAN PANIC voksel kovalamaca oyunu](#case-17) | [Oyun geliştirme](#category-game) | Kontrolleri, geri bildirimi ve bitiş durumunu incelemek için kısa bir takip oyunu kullanın. | Demo |
 | [Örnek 62. Tarayıcıda Rubik Küpü](#case-62) | [Oyun geliştirme](#category-game) | Önizlemede küpün dönüşlerini ve çıkartmaların yerlerini inceleyin. | Demo |
 | [Örnek 67. Sahil pistinde yarış oyunu prototipi](#case-67) | [Oyun geliştirme](#category-game) | Yarış sırasında geri sayımın, hız göstergesinin ve pist haritasının okunaklı olup olmadığını kontrol edin. | Demo |
+| [Örnek 78. Sokoban oda testini tamamlamak](#case-78) | [Oyun geliştirme](#category-game) | Tamamlanan odaları sayın ve ajanın takıldığı yerleri tekrar oynatın. | Benchmark |
 | [Örnek 1. MS Paint'deki Freddie Mercury](#case-1) | [Bilgisayar kullanımı ve boyama](#category-painting) | Bir masaüstü çizim girişiminin ne ürettiğini incelemek için bir portre kullanın. | Demo |
 | [Örnek 43. Bir mesajı iletmek için tamamlanmamış bir girişim](#case-43) | [Bilgisayar kullanımı ve iletişim](#category-communication) | Masaüstü iş akışının nerede durduğunu görme girişimini kullanın. | Limit |
 
@@ -726,6 +736,79 @@ Type: Demo | Date: 2026-11-09
 
 ---
 
+<a id="case-70"></a>
+### Örnek 70: [VoxelBench 2’de üretim hataları](https://x.com/voxelbench/status/2122778737959969177) (yazan [@voxelbench](https://x.com/voxelbench))
+
+**Sahneyi puanlamadan önce üretilen voksel kodunun çalıştığını doğrulayın.**
+
+VoxelBench, bu test dizisinde GPT-6.2 Sol için 62, GPT-6.2 Astra için 19 hata bildirdi. Testin geliştiricisi, sözdizimi hataları ve eksik tanımlar gibi sorunlara işaret etti.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-70/2122777747541868545-95f3c71b7db391dfffcd.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-70/2122777747541868545-95f3c71b7db391dfffcd.jpg" width="640" alt="Kaynak önizlemesi 1 · VoxelBench 2’de üretim hataları"></a>
+
+Type: Benchmark | Date: 2026-11-17
+
+---
+
+<a id="case-71"></a>
+### Örnek 71: [Van Gogh esintili bir Gauss sıçratma dünyası](https://x.com/sshayahmet/status/2122778769597554693) (yazan [@sshayahmet](https://x.com/sshayahmet))
+
+**Aynı kompozisyonun gezilebilen iki sahnede nasıl işlendiğini karşılaştırın.**
+
+Geliştirici, Sol ve Opus 5.5 sahnelerini yan yana gösterdi. Sol için yaklaşık bir saat ve 5,45 dolar, Opus için 53 dakika ve 12,14 dolar bildirdi.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122778178783752192-8bc5b1a659aaf321bca3.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-71/2122778178783752192-poster-0bc27584cc18b44c255a.jpg" width="640" alt="Kaynak önizlemesi 1 · Van Gogh esintili bir Gauss sıçratma dünyası"></a>
+
+[Demo videosunu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122778178783752192-8bc5b1a659aaf321bca3.mp4)
+
+Type: Evaluation | Date: 2026-11-17
+
+---
+
+<a id="case-72"></a>
+### Örnek 72: [Üretilmiş manzarası olan balonlu ev](https://x.com/TimJayas/status/2122780669973787008) (yazan [@TimJayas](https://x.com/TimJayas))
+
+**İstek Three.js ile bir arka plan oluşturmayı gerektiriyorsa sahnede hangi varlıkların kullanıldığını inceleyin.**
+
+Video balonlu evi birkaç açıdan gösteriyor. Geliştirici, kodla oluşturulması istenen manzara için Sol’un bir görüntü üretim modeli kullandığını bildirdi.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122779173106364417-ce071a2bea10e55854ce.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-72/2122779173106364417-poster-c3a6e52c7e7cc9a4c981.jpg" width="640" alt="Kaynak önizlemesi 1 · Üretilmiş manzarası olan balonlu ev"></a>
+
+[Demo videosunu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122779173106364417-ce071a2bea10e55854ce.mp4)
+
+Type: Limit | Date: 2026-11-17
+
+---
+
+<a id="case-73"></a>
+### Örnek 73: [HTML ile bir Rube Goldberg simülatörü](https://x.com/lucian__03/status/2122782073102663874) (yazan [@lucian__03](https://x.com/lucian__03))
+
+**Zincirleme tepkide hareketin bir aşamadan diğerine nasıl aktarıldığını izleyin.**
+
+Geliştirici, GPT-6.2 Sol’u Max ayarında tek istemle çalıştırdığını belirtti. Kayıt, raylardan ve dişlilerden geçen çelik bilyeyi ve devrilen dominoları gösteriyor. Geliştirici yaklaşık 25 dakika ve 3,03 dolar bildirdi.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122772945982660608-a1e7d3419ebbeb4c61bb.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-73/2122772945982660608-poster-c2517a3063d7ae324d03.jpg" width="640" alt="Kaynak önizlemesi 1 · HTML ile bir Rube Goldberg simülatörü"></a>
+
+[Demo videosunu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122772945982660608-a1e7d3419ebbeb4c61bb.mp4)
+
+Type: Demo | Date: 2026-11-17
+
+---
+
+<a id="case-76"></a>
+### Örnek 76: [İki mekanik arı modelinin karşılaştırması](https://x.com/thtbee_/status/2122810531669311645) (yazan [@thtbee_](https://x.com/thtbee_))
+
+**Hareketli parçaları ve arayüz düzenini ayrı ayrı değerlendirin.**
+
+Videoda mekanik arılar ve kontrolleri yan yana gösteriliyor. Geliştirici Astra’nın parça yerleşimini tercih etti, iki arayüzde de düzen sorunları gördü ve Sol için 43 dakika ile 3,84 dolar bildirdi.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122803167826219008-c7328affdb02e5aa7e77.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-76/2122803167826219008-poster-11682fb3b82ccdb1450c.jpg" width="640" alt="Kaynak önizlemesi 1 · İki mekanik arı modelinin karşılaştırması"></a>
+
+[Demo videosunu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122803167826219008-c7328affdb02e5aa7e77.mp4)
+
+Type: Evaluation | Date: 2026-11-17
+
+---
+
 <a id="category-graphics"></a>
 ## 🎨 Yaratıcı grafikler ve animasyon
 
@@ -1114,6 +1197,46 @@ Type: Evaluation | Date: 2026-11-09
 
 ---
 
+<a id="case-74"></a>
+### Örnek 74: [Kodla üretilen ateş ve ses](https://x.com/camperaigg/status/2122794828266377538) (yazan [@camperaigg](https://x.com/camperaigg))
+
+**Hareketli çalışmaları karşılaştırırken maliyet ve üretim süresinin yanında videonun uzunluğunu da kaydedin.**
+
+Geliştirici, görüntü ve sesin kodla üretildiği iki xhigh çalışmasını karşılaştırdı. Sol’un 12 dakikada 0,73 dolara 12 saniye, Opus 5.5’in 85 dakikada 18,40 dolara 24 saniye video ürettiğini bildirdi.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122794767960752128-e2e19e403efea0d778cc.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-74/2122794767960752128-poster-5dc5e43235499f8378cf.jpg" width="640" alt="Kaynak önizlemesi 1 · Kodla üretilen ateş ve ses"></a>
+
+[Demo videosunu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122794767960752128-e2e19e403efea0d778cc.mp4)
+
+Type: Evaluation | Date: 2026-11-17
+
+---
+
+<a id="case-79"></a>
+### Örnek 79: [15 saniyelik bir hareketli tasarım görevi](https://x.com/Leviwoyun/status/2122846422676701267) (yazan [@Leviwoyun](https://x.com/Leviwoyun))
+
+**İki modele aynı görevi verip tipografiyi, geçişleri ve hareketi karşılaştırın.**
+
+Geliştirici iki video ve özgün istemi paylaştı. Bir video dönen bir katlanmış kâğıt biçimi etrafında ilerliyor. Diğeri sinyal ekranından mor bir geometrik şekle geçiyor.
+
+**İstem:**
+
+```
+制作一段 15 秒的动态图形视频，展示你是一位多么出色的动态设计师，就像是你简历上的作品集一样，使用任何你认为能产出最佳效果的工具或技术。你拥有完全的创作自由，优先追求卓越的视觉设计、大胆的艺术指导、引人注目的构图和富有力量的动态表现，让每一秒都有价值。全力以赴。
+```
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122845749499310081-01cb8b6073d8916e9b09.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-79/2122845749499310081-poster-1159d01955e99da02391.jpg" width="640" alt="Kaynak önizlemesi 1 · 15 saniyelik bir hareketli tasarım görevi"></a>
+
+[Demo videosunu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122845749499310081-01cb8b6073d8916e9b09.mp4)
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122846110117183488-30f1277d34e59656f484.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-79/2122846110117183488-poster-7b07819920bd6a3fe88d.jpg" width="640" alt="Kaynak önizlemesi 2 · 15 saniyelik bir hareketli tasarım görevi"></a>
+
+[Demo videosunu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122846110117183488-30f1277d34e59656f484.mp4)
+
+Type: Evaluation | Date: 2026-11-18
+
+---
+
 <a id="category-web"></a>
 ## 🌐 Web siteleri ve arayüzler
 
@@ -1203,6 +1326,36 @@ Type: Demo | Date: 2026-11-09
 
 ---
 
+<a id="case-75"></a>
+### Örnek 75: [Tarayıcıyla GeoGuessr konumlarını bulmak](https://x.com/nickbaumann_/status/2122805861093417220) (yazan [@nickbaumann_](https://x.com/nickbaumann_))
+
+**Modelleri karşılaştırırken başlangıç noktalarını, süre sınırını ve mesafe eşiğini sabit tutun.**
+
+Testi yapan kişi, her modele aynı 100 başlangıcı ve hedefin 1 km yakınına işaret koyması için konum başına beş dakika verdi. Sol ve Astra 77’şer kez başarılı oldu. Testi yapan kişi Sol’un daha hızlı olduğunu bildirdi.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122751536778387456-4ba9a30b51fd04a352fb.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-75/2122751536778387456-poster-499c7bb9670c1315b38e.jpg" width="640" alt="Kaynak önizlemesi 1 · Tarayıcıyla GeoGuessr konumlarını bulmak"></a>
+
+[Demo videosunu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122751536778387456-4ba9a30b51fd04a352fb.mp4)
+
+Type: Benchmark | Date: 2026-11-17
+
+---
+
+<a id="case-77"></a>
+### Örnek 77: [Blender modelleriyle bir kelebek galerisi](https://x.com/DeryaTR_/status/2122814594737684568) (yazan [@DeryaTR_](https://x.com/DeryaTR_))
+
+**Döndürülebilen bir örneği yakınlaştırılmış görünümler ve gözlem notlarıyla birleştirin.**
+
+Geliştirici siteyi Sol ve Blender ile hazırladığını belirtti. Tanıtımda hareketli kelebekler, kanat ayrıntılarını gösteren bir büyüteç ve yaşam alanı, sınıflandırma ve yaşam evresi panelleri yer alıyor.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122813839481663488-e921dcc4253d7432553d.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-77/2122813839481663488-poster-2f054c454b8ad5768090.jpg" width="640" alt="Kaynak önizlemesi 1 · Blender modelleriyle bir kelebek galerisi"></a>
+
+[Demo videosunu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122813839481663488-e921dcc4253d7432553d.mp4)
+
+Type: Demo | Date: 2026-11-17
+
+---
+
 <a id="category-game"></a>
 ## 🎮 Oyun geliştirme
 
@@ -1252,6 +1405,21 @@ Type: Demo | Date: 2026-11-09
 
 ---
 
+<a id="case-78"></a>
+### Örnek 78: [Sokoban oda testini tamamlamak](https://x.com/banteg/status/2122826622638137666) (yazan [@banteg](https://x.com/banteg))
+
+**Tamamlanan odaları sayın ve ajanın takıldığı yerleri tekrar oynatın.**
+
+Yazar Sol ve Astra’yı medium ayarında denedi. İkisi de 66 odanın tümünü tamamladı. Gönderi yayımlandığında, yazarın sıralamasında Sol ikinci, Astra üçüncüydü.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122826155086512128-d2a8456da3a5a99263f5.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-78/2122826155086512128-poster-4a2c4bee2b8d9510e347.jpg" width="640" alt="Kaynak önizlemesi 1 · Sokoban oda testini tamamlamak"></a>
+
+[Demo videosunu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122826155086512128-d2a8456da3a5a99263f5.mp4)
+
+Type: Benchmark | Date: 2026-11-17
+
+---
+
 <a id="category-painting"></a>
 ## 🖌️ Bilgisayar kullanımı ve boyama
 
@@ -1296,6 +1464,6 @@ Type: Limit | Date: 2026-11-08
 
 Bu deneyleri paylaşan yaratıcılara teşekkürler. Bağlantılı çalışma ve medya, ilgili yaratıcılarına aittir.
 
-[@Avenoxai](https://x.com/Avenoxai), [@kimmonismus](https://x.com/kimmonismus), [@imjustnewatai](https://x.com/imjustnewatai), [@Khazix0918](https://x.com/Khazix0918), [@marcthecreatorr](https://x.com/marcthecreatorr), [@Bhavani_00007](https://x.com/Bhavani_00007), [@JustLingonberry](https://x.com/JustLingonberry), [@Mr_Salio](https://x.com/Mr_Salio), [@aGim_asf](https://x.com/aGim_asf), [@0x0SojalSec](https://x.com/0x0SojalSec), [@pengsonal](https://x.com/pengsonal), [@GeekCatX](https://x.com/GeekCatX), [@Ananth7e](https://x.com/Ananth7e), [@EnvolDev](https://x.com/EnvolDev), [@xbquan](https://x.com/xbquan), [@SahilPanhotra](https://x.com/SahilPanhotra), [@rubenssoto_ai](https://x.com/rubenssoto_ai), [@vikktorrrre](https://x.com/vikktorrrre), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@Cayden970207](https://x.com/Cayden970207), [@HarshithLucky3](https://x.com/HarshithLucky3), [@TokenGremlin](https://x.com/TokenGremlin), [@SadAlbert10](https://x.com/SadAlbert10), [@maxt3chno](https://x.com/maxt3chno), [@karanC_12](https://x.com/karanC_12), [@JustinGorya](https://x.com/JustinGorya), [@kdnbmb](https://x.com/kdnbmb), [@VraserX](https://x.com/VraserX), [@jessexai_](https://x.com/jessexai_), [@theaidesk_](https://x.com/theaidesk_), [@gadi_neelesh](https://x.com/gadi_neelesh), [@Haleeeemahh](https://x.com/Haleeeemahh), [@SPAC89](https://x.com/SPAC89), [@VeknQAQ](https://x.com/VeknQAQ), [@Aurora0x3f](https://x.com/Aurora0x3f), [@bei351009016](https://x.com/bei351009016), [@Stargridcompass](https://x.com/Stargridcompass), [@iamtheQwen](https://x.com/iamtheQwen)
+[@Avenoxai](https://x.com/Avenoxai), [@kimmonismus](https://x.com/kimmonismus), [@imjustnewatai](https://x.com/imjustnewatai), [@Khazix0918](https://x.com/Khazix0918), [@marcthecreatorr](https://x.com/marcthecreatorr), [@Bhavani_00007](https://x.com/Bhavani_00007), [@JustLingonberry](https://x.com/JustLingonberry), [@Mr_Salio](https://x.com/Mr_Salio), [@aGim_asf](https://x.com/aGim_asf), [@0x0SojalSec](https://x.com/0x0SojalSec), [@pengsonal](https://x.com/pengsonal), [@GeekCatX](https://x.com/GeekCatX), [@Ananth7e](https://x.com/Ananth7e), [@EnvolDev](https://x.com/EnvolDev), [@xbquan](https://x.com/xbquan), [@SahilPanhotra](https://x.com/SahilPanhotra), [@rubenssoto_ai](https://x.com/rubenssoto_ai), [@vikktorrrre](https://x.com/vikktorrrre), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@Cayden970207](https://x.com/Cayden970207), [@HarshithLucky3](https://x.com/HarshithLucky3), [@TokenGremlin](https://x.com/TokenGremlin), [@SadAlbert10](https://x.com/SadAlbert10), [@maxt3chno](https://x.com/maxt3chno), [@karanC_12](https://x.com/karanC_12), [@JustinGorya](https://x.com/JustinGorya), [@kdnbmb](https://x.com/kdnbmb), [@VraserX](https://x.com/VraserX), [@jessexai_](https://x.com/jessexai_), [@theaidesk_](https://x.com/theaidesk_), [@gadi_neelesh](https://x.com/gadi_neelesh), [@Haleeeemahh](https://x.com/Haleeeemahh), [@SPAC89](https://x.com/SPAC89), [@VeknQAQ](https://x.com/VeknQAQ), [@Aurora0x3f](https://x.com/Aurora0x3f), [@bei351009016](https://x.com/bei351009016), [@Stargridcompass](https://x.com/Stargridcompass), [@iamtheQwen](https://x.com/iamtheQwen), [@voxelbench](https://x.com/voxelbench), [@sshayahmet](https://x.com/sshayahmet), [@TimJayas](https://x.com/TimJayas), [@lucian__03](https://x.com/lucian__03), [@camperaigg](https://x.com/camperaigg), [@nickbaumann_](https://x.com/nickbaumann_), [@thtbee_](https://x.com/thtbee_), [@DeryaTR_](https://x.com/DeryaTR_), [@banteg](https://x.com/banteg), [@Leviwoyun](https://x.com/Leviwoyun)
 
 *Atıf veya kaldırma istekleri için lütfen kaynak düzeltme konusu açın.*

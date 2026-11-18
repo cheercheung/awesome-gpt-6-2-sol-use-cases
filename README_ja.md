@@ -18,7 +18,7 @@
 <a id="overview"></a>
 ## 📊 概要
 
-- **69 件のユースケース · GPT-6.2 Sol**. 元の投稿を69件収録しています。68件は成果物を示し、1件は未完了の試行を記録しています。11件では原文のプロンプトを確認できます。
+- **79 件のユースケース · GPT-6.2 Sol**. 元の投稿を79件収録しています。77件は成果を示し、2件は未完了の試行を記録しています。12件では原文のプロンプトを確認できます。
 - 3D シーンとモデリング · クリエイティブなグラフィックとアニメーション · ウェブサイトとインターフェース · ゲーム開発 · パソコンの使用と絵を描くこと · コンピュータの使用とコミュニケーション
 - 各事例には、元の投稿、投稿者、日付、証拠の種類、確認できる結果を掲載しています。
 - 利用可能な場合はパブリック プロンプトを使用します。結果を比較するときは、元の入力を保持します。
@@ -81,6 +81,11 @@
 | [ケース 65. Three.jsで作った錦鯉の中庭](#case-65) | [3D シーンとモデリング](#category-three) | 錦鯉の動きを追い、水面の揺れや反射を観察します。 | Demo |
 | [ケース 66. 駐車場を通過する竜巻](#case-66) | [3D シーンとモデリング](#category-three) | 嵐のシミュレーションで駐車場の破片がどう動くか確認します。 | Demo |
 | [ケース 68. 操作できるボーイング787-9の模型](#case-68) | [3D シーンとモデリング](#category-three) | 表示を切り替えながら機体外部とエンジンを確認します。 | Demo |
+| [ケース 70. VoxelBench 2での生成エラー](#case-70) | [3D シーンとモデリング](#category-three) | 描画結果を採点する前に、生成されたボクセル用コードが動作するか確かめる。 | Benchmark |
+| [ケース 71. ゴッホ風の世界を描くガウシアンスプラッティング](#case-71) | [3D シーンとモデリング](#category-three) | 同じ構図を、移動できる2つのシーンがどう表現するか比べる。 | Evaluation |
+| [ケース 72. 生成した背景を使った風船の家](#case-72) | [3D シーンとモデリング](#category-three) | Three.jsで背景を作る指定がある場合は、シーンの素材まで確認する。 | Limit |
+| [ケース 73. HTMLで再現したルーブ・ゴールドバーグ装置](#case-73) | [3D シーンとモデリング](#category-three) | 連鎖反応で次の仕掛けにどう動きが伝わるかを見る。 | Demo |
+| [ケース 76. 機械仕掛けのハチを並べて比較](#case-76) | [3D シーンとモデリング](#category-three) | 可動部の仕上がりと操作画面の構成を別々に評価する。 | Evaluation |
 | [ケース 3. 3D で見る人類の歴史と AI の未来](#case-3) | [クリエイティブなグラフィックとアニメーション](#category-graphics) | 物語の概要を一連のアニメーション シーンに変換します。 | Demo |
 | [ケース 8. ブラウザペイントスタジオのTiboポートレート](#case-8) | [クリエイティブなグラフィックとアニメーション](#category-graphics) | ページがポートレートを構築する際に、ポートレートの段階を検査します。 | Demo |
 | [ケース 10. 0x0SojalSec が共有する Sam Altman の肖像画](#case-10) | [クリエイティブなグラフィックとアニメーション](#category-graphics) | 大まかな形状から完成したポートレートへの移行を追跡します。 | Demo |
@@ -103,14 +108,19 @@
 | [ケース 52. Sol 設定間の PS5 コントローラーの比較](#case-52) | [クリエイティブなグラフィックとアニメーション](#category-graphics) | 使い慣れた製品を使用して、輪郭と陰影を比較します。 | Evaluation |
 | [ケース 55. 緑色のBMW M4 CSのプロフィールイラスト](#case-55) | [クリエイティブなグラフィックとアニメーション](#category-graphics) | 見慣れた車両でプロポーションやプロフィールのディテールを確認してください。 | Demo |
 | [ケース 60. 孫悟空「大鬧天宮」のSVG比較](#case-60) | [クリエイティブなグラフィックとアニメーション](#category-graphics) | 同じ孫悟空の場面を3つのシステムがどう構成したか比べます。 | Evaluation |
+| [ケース 74. コードで作った炎と音](#case-74) | [クリエイティブなグラフィックとアニメーション](#category-graphics) | モーション作品を比較するときは費用と生成時間に加えて映像の尺も記録する。 | Evaluation |
+| [ケース 79. 15秒のモーションデザイン課題](#case-79) | [クリエイティブなグラフィックとアニメーション](#category-graphics) | 同じ課題を与え、文字組み、場面転換、動きの表現を比較する。 | Evaluation |
 | [ケース 4. 時間の終わりのインタラクティブ ブラック ホール](#case-4) | [ウェブサイトとインターフェース](#category-web) | インタラクティブな Three.js ページの焦点としてブラック ホールを使用します。 | Demo |
 | [ケース 7. Island Atlas 昼夜切り替え付き](#case-7) | [ウェブサイトとインターフェース](#category-web) | コンパクトな 3D アイランドを使用して、Web インターフェイスで照明状態をテストします。 | Demo |
 | [ケース 41. Codex および API での参照イメージのテスト](#case-41) | [ウェブサイトとインターフェース](#category-web) | 違いを特定する前に、同じリファレンスを使用して 2 つの出力が何を行うかを比較してください。 | Evaluation |
 | [ケース 61. 回転する七角形の中の重力ボール](#case-61) | [ウェブサイトとインターフェース](#category-web) | 容器が回転するとボールがどう動くか確認します。 | Demo |
 | [ケース 69. ブガッティ・シロンの360度コンフィギュレーター](#case-69) | [ウェブサイトとインターフェース](#category-web) | カメラが車の周りを移動する様子を見ながら、塗装の仕上がりを比べます。 | Demo |
+| [ケース 75. ブラウザー操作でGeoGuessrの場所を特定](#case-75) | [ウェブサイトとインターフェース](#category-web) | モデル間で開始地点、制限時間、距離の基準をそろえる。 | Benchmark |
+| [ケース 77. Blenderのモデルを使ったチョウの展示サイト](#case-77) | [ウェブサイトとインターフェース](#category-web) | 回転できる標本に拡大表示と観察情報を組み合わせる。 | Demo |
 | [ケース 17. PELICAN PANIC ボクセルチェイスゲーム](#case-17) | [ゲーム開発](#category-game) | 短い追跡ゲームを使用して、コントロール、フィードバック、および終了状態を検査します。 | Demo |
 | [ケース 62. ブラウザーで動くルービックキューブ](#case-62) | [ゲーム開発](#category-game) | プレビューでキューブの回転とステッカーの配置を確認します。 | Demo |
 | [ケース 67. 海岸沿いのレースゲームの試作](#case-67) | [ゲーム開発](#category-game) | レース中にカウントダウン、速度表示、コースマップが読み取りやすいか確認します。 | Demo |
+| [ケース 78. 倉庫番の問題セットを全問クリア](#case-78) | [ゲーム開発](#category-game) | クリアした部屋数を記録し、手順を再生して行き詰まる場面を確認する。 | Benchmark |
 | [ケース 1. Freddie Mercury の MS Paint](#case-1) | [パソコンの使用と絵を描くこと](#category-painting) | ポートレートを使用して、デスクトップ描画の試行によって何が生成されるかを検査します。 | Demo |
 | [ケース 43. メッセージを中継する未完了の試み](#case-43) | [コンピュータの使用とコミュニケーション](#category-communication) | この試みを使用して、デスクトップ ワークフローがどこで停止したかを確認します。 | Limit |
 
@@ -726,6 +736,79 @@ Type: Demo | Date: 2026-11-09
 
 ---
 
+<a id="case-70"></a>
+### ケース 70: [VoxelBench 2での生成エラー](https://x.com/voxelbench/status/2122778737959969177) (投稿者 [@voxelbench](https://x.com/voxelbench))
+
+**描画結果を採点する前に、生成されたボクセル用コードが動作するか確かめる。**
+
+VoxelBenchによると、このテストではGPT-6.2 Solで62件、GPT-6.2 Astraで19件のエラーが発生した。運営者は構文エラーや定義漏れなどを原因に挙げている。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-70/2122777747541868545-95f3c71b7db391dfffcd.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-70/2122777747541868545-95f3c71b7db391dfffcd.jpg" width="640" alt="ソースプレビュー 1 · VoxelBench 2での生成エラー"></a>
+
+Type: Benchmark | Date: 2026-11-17
+
+---
+
+<a id="case-71"></a>
+### ケース 71: [ゴッホ風の世界を描くガウシアンスプラッティング](https://x.com/sshayahmet/status/2122778769597554693) (投稿者 [@sshayahmet](https://x.com/sshayahmet))
+
+**同じ構図を、移動できる2つのシーンがどう表現するか比べる。**
+
+作者はSolとOpus 5.5のシーンを並べて公開した。報告ではSolは約1時間で5.45ドル、Opusは53分で12.14ドルだった。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122778178783752192-8bc5b1a659aaf321bca3.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-71/2122778178783752192-poster-0bc27584cc18b44c255a.jpg" width="640" alt="ソースプレビュー 1 · ゴッホ風の世界を描くガウシアンスプラッティング"></a>
+
+[デモ動画を再生](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122778178783752192-8bc5b1a659aaf321bca3.mp4)
+
+Type: Evaluation | Date: 2026-11-17
+
+---
+
+<a id="case-72"></a>
+### ケース 72: [生成した背景を使った風船の家](https://x.com/TimJayas/status/2122780669973787008) (投稿者 [@TimJayas](https://x.com/TimJayas))
+
+**Three.jsで背景を作る指定がある場合は、シーンの素材まで確認する。**
+
+映像では風船で浮く家を複数の角度から確認できる。作者によると、Solは背景をコードで組まず、画像生成モデルで遠景を作った。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122779173106364417-ce071a2bea10e55854ce.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-72/2122779173106364417-poster-c3a6e52c7e7cc9a4c981.jpg" width="640" alt="ソースプレビュー 1 · 生成した背景を使った風船の家"></a>
+
+[デモ動画を再生](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122779173106364417-ce071a2bea10e55854ce.mp4)
+
+Type: Limit | Date: 2026-11-17
+
+---
+
+<a id="case-73"></a>
+### ケース 73: [HTMLで再現したルーブ・ゴールドバーグ装置](https://x.com/lucian__03/status/2122782073102663874) (投稿者 [@lucian__03](https://x.com/lucian__03))
+
+**連鎖反応で次の仕掛けにどう動きが伝わるかを見る。**
+
+作者はGPT-6.2 SolをMaxで使い、指示は1回だったと報告した。映像には鋼球が通るレールや歯車、連続して倒れるドミノが映る。作者によると制作は約25分、費用は3.03ドルだった。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122772945982660608-a1e7d3419ebbeb4c61bb.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-73/2122772945982660608-poster-c2517a3063d7ae324d03.jpg" width="640" alt="ソースプレビュー 1 · HTMLで再現したルーブ・ゴールドバーグ装置"></a>
+
+[デモ動画を再生](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122772945982660608-a1e7d3419ebbeb4c61bb.mp4)
+
+Type: Demo | Date: 2026-11-17
+
+---
+
+<a id="case-76"></a>
+### ケース 76: [機械仕掛けのハチを並べて比較](https://x.com/thtbee_/status/2122810531669311645) (投稿者 [@thtbee_](https://x.com/thtbee_))
+
+**可動部の仕上がりと操作画面の構成を別々に評価する。**
+
+映像では2つの機械仕掛けのハチと操作画面を並べて確認できる。作者はAstraの部品配置を評価し、両方の画面にレイアウト上の課題があったと述べた。Solは43分で3.84ドルだったという。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122803167826219008-c7328affdb02e5aa7e77.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-76/2122803167826219008-poster-11682fb3b82ccdb1450c.jpg" width="640" alt="ソースプレビュー 1 · 機械仕掛けのハチを並べて比較"></a>
+
+[デモ動画を再生](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122803167826219008-c7328affdb02e5aa7e77.mp4)
+
+Type: Evaluation | Date: 2026-11-17
+
+---
+
 <a id="category-graphics"></a>
 ## 🎨 クリエイティブなグラフィックとアニメーション
 
@@ -1114,6 +1197,46 @@ Type: Evaluation | Date: 2026-11-09
 
 ---
 
+<a id="case-74"></a>
+### ケース 74: [コードで作った炎と音](https://x.com/camperaigg/status/2122794828266377538) (投稿者 [@camperaigg](https://x.com/camperaigg))
+
+**モーション作品を比較するときは費用と生成時間に加えて映像の尺も記録する。**
+
+作者は映像と音をコードで作るxhighの実行を2件比較した。報告ではSolは12分・0.73ドルで12秒、Opus 5.5は85分・18.40ドルで24秒の映像を出力した。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122794767960752128-e2e19e403efea0d778cc.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-74/2122794767960752128-poster-5dc5e43235499f8378cf.jpg" width="640" alt="ソースプレビュー 1 · コードで作った炎と音"></a>
+
+[デモ動画を再生](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122794767960752128-e2e19e403efea0d778cc.mp4)
+
+Type: Evaluation | Date: 2026-11-17
+
+---
+
+<a id="case-79"></a>
+### ケース 79: [15秒のモーションデザイン課題](https://x.com/Leviwoyun/status/2122846422676701267) (投稿者 [@Leviwoyun](https://x.com/Leviwoyun))
+
+**同じ課題を与え、文字組み、場面転換、動きの表現を比較する。**
+
+作者は2本の映像と元のプロンプトを公開した。一方は折り紙のような形の回転が中心で、もう一方は信号の表示から紫の幾何学的な形へ展開する。
+
+**プロンプト:**
+
+```
+制作一段 15 秒的动态图形视频，展示你是一位多么出色的动态设计师，就像是你简历上的作品集一样，使用任何你认为能产出最佳效果的工具或技术。你拥有完全的创作自由，优先追求卓越的视觉设计、大胆的艺术指导、引人注目的构图和富有力量的动态表现，让每一秒都有价值。全力以赴。
+```
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122845749499310081-01cb8b6073d8916e9b09.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-79/2122845749499310081-poster-1159d01955e99da02391.jpg" width="640" alt="ソースプレビュー 1 · 15秒のモーションデザイン課題"></a>
+
+[デモ動画を再生](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122845749499310081-01cb8b6073d8916e9b09.mp4)
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122846110117183488-30f1277d34e59656f484.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-79/2122846110117183488-poster-7b07819920bd6a3fe88d.jpg" width="640" alt="ソースプレビュー 2 · 15秒のモーションデザイン課題"></a>
+
+[デモ動画を再生](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122846110117183488-30f1277d34e59656f484.mp4)
+
+Type: Evaluation | Date: 2026-11-18
+
+---
+
 <a id="category-web"></a>
 ## 🌐 ウェブサイトとインターフェース
 
@@ -1203,6 +1326,36 @@ Type: Demo | Date: 2026-11-09
 
 ---
 
+<a id="case-75"></a>
+### ケース 75: [ブラウザー操作でGeoGuessrの場所を特定](https://x.com/nickbaumann_/status/2122805861093417220) (投稿者 [@nickbaumann_](https://x.com/nickbaumann_))
+
+**モデル間で開始地点、制限時間、距離の基準をそろえる。**
+
+試験者は同じ100地点を使い、各地点で5分以内に1 km圏内へピンを置くよう求めた。SolとAstraはいずれも77回成功し、試験者によるとSolの方が速かった。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122751536778387456-4ba9a30b51fd04a352fb.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-75/2122751536778387456-poster-499c7bb9670c1315b38e.jpg" width="640" alt="ソースプレビュー 1 · ブラウザー操作でGeoGuessrの場所を特定"></a>
+
+[デモ動画を再生](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122751536778387456-4ba9a30b51fd04a352fb.mp4)
+
+Type: Benchmark | Date: 2026-11-17
+
+---
+
+<a id="case-77"></a>
+### ケース 77: [Blenderのモデルを使ったチョウの展示サイト](https://x.com/DeryaTR_/status/2122814594737684568) (投稿者 [@DeryaTR_](https://x.com/DeryaTR_))
+
+**回転できる標本に拡大表示と観察情報を組み合わせる。**
+
+作者はSolとBlenderでサイトを制作したと報告した。映像では動きのある複数のチョウ、翅の拡大表示、生息地・分類・成長段階の情報欄を確認できる。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122813839481663488-e921dcc4253d7432553d.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-77/2122813839481663488-poster-2f054c454b8ad5768090.jpg" width="640" alt="ソースプレビュー 1 · Blenderのモデルを使ったチョウの展示サイト"></a>
+
+[デモ動画を再生](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122813839481663488-e921dcc4253d7432553d.mp4)
+
+Type: Demo | Date: 2026-11-17
+
+---
+
 <a id="category-game"></a>
 ## 🎮 ゲーム開発
 
@@ -1252,6 +1405,21 @@ Type: Demo | Date: 2026-11-09
 
 ---
 
+<a id="case-78"></a>
+### ケース 78: [倉庫番の問題セットを全問クリア](https://x.com/banteg/status/2122826622638137666) (投稿者 [@banteg](https://x.com/banteg))
+
+**クリアした部屋数を記録し、手順を再生して行き詰まる場面を確認する。**
+
+作者はSolとAstraをmediumで試した。今回はどちらも全66部屋をクリアし、投稿時点の作者のランキングでSolは2位、Astraは3位だった。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122826155086512128-d2a8456da3a5a99263f5.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-78/2122826155086512128-poster-4a2c4bee2b8d9510e347.jpg" width="640" alt="ソースプレビュー 1 · 倉庫番の問題セットを全問クリア"></a>
+
+[デモ動画を再生](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122826155086512128-d2a8456da3a5a99263f5.mp4)
+
+Type: Benchmark | Date: 2026-11-17
+
+---
+
 <a id="category-painting"></a>
 ## 🖌️ パソコンの使用と絵を描くこと
 
@@ -1296,6 +1464,6 @@ Type: Limit | Date: 2026-11-08
 
 これらの実験を共有してくれたクリエイターに感謝します。リンクされた作品およびメディアは、それぞれの作成者に帰属します。
 
-[@Avenoxai](https://x.com/Avenoxai), [@kimmonismus](https://x.com/kimmonismus), [@imjustnewatai](https://x.com/imjustnewatai), [@Khazix0918](https://x.com/Khazix0918), [@marcthecreatorr](https://x.com/marcthecreatorr), [@Bhavani_00007](https://x.com/Bhavani_00007), [@JustLingonberry](https://x.com/JustLingonberry), [@Mr_Salio](https://x.com/Mr_Salio), [@aGim_asf](https://x.com/aGim_asf), [@0x0SojalSec](https://x.com/0x0SojalSec), [@pengsonal](https://x.com/pengsonal), [@GeekCatX](https://x.com/GeekCatX), [@Ananth7e](https://x.com/Ananth7e), [@EnvolDev](https://x.com/EnvolDev), [@xbquan](https://x.com/xbquan), [@SahilPanhotra](https://x.com/SahilPanhotra), [@rubenssoto_ai](https://x.com/rubenssoto_ai), [@vikktorrrre](https://x.com/vikktorrrre), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@Cayden970207](https://x.com/Cayden970207), [@HarshithLucky3](https://x.com/HarshithLucky3), [@TokenGremlin](https://x.com/TokenGremlin), [@SadAlbert10](https://x.com/SadAlbert10), [@maxt3chno](https://x.com/maxt3chno), [@karanC_12](https://x.com/karanC_12), [@JustinGorya](https://x.com/JustinGorya), [@kdnbmb](https://x.com/kdnbmb), [@VraserX](https://x.com/VraserX), [@jessexai_](https://x.com/jessexai_), [@theaidesk_](https://x.com/theaidesk_), [@gadi_neelesh](https://x.com/gadi_neelesh), [@Haleeeemahh](https://x.com/Haleeeemahh), [@SPAC89](https://x.com/SPAC89), [@VeknQAQ](https://x.com/VeknQAQ), [@Aurora0x3f](https://x.com/Aurora0x3f), [@bei351009016](https://x.com/bei351009016), [@Stargridcompass](https://x.com/Stargridcompass), [@iamtheQwen](https://x.com/iamtheQwen)
+[@Avenoxai](https://x.com/Avenoxai), [@kimmonismus](https://x.com/kimmonismus), [@imjustnewatai](https://x.com/imjustnewatai), [@Khazix0918](https://x.com/Khazix0918), [@marcthecreatorr](https://x.com/marcthecreatorr), [@Bhavani_00007](https://x.com/Bhavani_00007), [@JustLingonberry](https://x.com/JustLingonberry), [@Mr_Salio](https://x.com/Mr_Salio), [@aGim_asf](https://x.com/aGim_asf), [@0x0SojalSec](https://x.com/0x0SojalSec), [@pengsonal](https://x.com/pengsonal), [@GeekCatX](https://x.com/GeekCatX), [@Ananth7e](https://x.com/Ananth7e), [@EnvolDev](https://x.com/EnvolDev), [@xbquan](https://x.com/xbquan), [@SahilPanhotra](https://x.com/SahilPanhotra), [@rubenssoto_ai](https://x.com/rubenssoto_ai), [@vikktorrrre](https://x.com/vikktorrrre), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@Cayden970207](https://x.com/Cayden970207), [@HarshithLucky3](https://x.com/HarshithLucky3), [@TokenGremlin](https://x.com/TokenGremlin), [@SadAlbert10](https://x.com/SadAlbert10), [@maxt3chno](https://x.com/maxt3chno), [@karanC_12](https://x.com/karanC_12), [@JustinGorya](https://x.com/JustinGorya), [@kdnbmb](https://x.com/kdnbmb), [@VraserX](https://x.com/VraserX), [@jessexai_](https://x.com/jessexai_), [@theaidesk_](https://x.com/theaidesk_), [@gadi_neelesh](https://x.com/gadi_neelesh), [@Haleeeemahh](https://x.com/Haleeeemahh), [@SPAC89](https://x.com/SPAC89), [@VeknQAQ](https://x.com/VeknQAQ), [@Aurora0x3f](https://x.com/Aurora0x3f), [@bei351009016](https://x.com/bei351009016), [@Stargridcompass](https://x.com/Stargridcompass), [@iamtheQwen](https://x.com/iamtheQwen), [@voxelbench](https://x.com/voxelbench), [@sshayahmet](https://x.com/sshayahmet), [@TimJayas](https://x.com/TimJayas), [@lucian__03](https://x.com/lucian__03), [@camperaigg](https://x.com/camperaigg), [@nickbaumann_](https://x.com/nickbaumann_), [@thtbee_](https://x.com/thtbee_), [@DeryaTR_](https://x.com/DeryaTR_), [@banteg](https://x.com/banteg), [@Leviwoyun](https://x.com/Leviwoyun)
 
 *帰属または削除リクエストについては、ソース修正の問題を開いてください。*

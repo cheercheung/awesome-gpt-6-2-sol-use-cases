@@ -1,14 +1,14 @@
 {
   "model": "GPT-6.2 Sol",
   "scope": "Community attribution; model identities remain unverified.",
-  "total_cases": 69,
-  "visible_demos": 68,
+  "total_cases": 79,
+  "visible_demos": 77,
   "counts_by_category": {
     "painting": 1,
-    "three": 37,
-    "graphics": 22,
-    "web": 5,
-    "game": 3,
+    "three": 42,
+    "graphics": 24,
+    "web": 7,
+    "game": 4,
     "communication": 1
   },
   "cases": [
@@ -1512,6 +1512,191 @@
       ]
     },
     {
+      "source_url": "https://x.com/voxelbench/status/2122778737959969177",
+      "author_handle": "voxelbench",
+      "author_url": "https://x.com/voxelbench",
+      "date": "2026-11-17",
+      "dedup_key": "x:2122778737959969177",
+      "task_status": "demonstrated",
+      "material_family": null,
+      "is_demo": true,
+      "model_claimed": "GPT-6.2 Sol",
+      "prompt": null,
+      "root_media": [
+        {
+          "id": "2122777747541868545",
+          "type": "photo",
+          "attachment_permalink": "https://x.com/voxelbench/status/2122778737959969177/photo/1",
+          "image_or_poster_url": "https://pbs.twimg.com/media/HXWfHUtWQAEpHKk.jpg",
+          "playback_source_url": null
+        }
+      ],
+      "title": "VoxelBench 2 generation errors",
+      "takeaway": "Check whether generated voxel code runs before scoring the rendered scene.",
+      "body_notes": "VoxelBench reported 62 errors for GPT-6.2 Sol and 19 for GPT-6.2 Astra on its suite. The maintainer attributed the failures to issues such as syntax errors and missing definitions.",
+      "number": 70,
+      "anchor": "case-70",
+      "category": "three",
+      "type": "Benchmark",
+      "attribution": "Creator statement. Underlying model unverified.",
+      "display_media": [
+        {
+          "case_number": 70,
+          "media_id": "2122777747541868545",
+          "visual": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-70/2122777747541868545-95f3c71b7db391dfffcd.jpg",
+          "playback": null
+        }
+      ]
+    },
+    {
+      "source_url": "https://x.com/sshayahmet/status/2122778769597554693",
+      "author_handle": "sshayahmet",
+      "author_url": "https://x.com/sshayahmet",
+      "date": "2026-11-17",
+      "dedup_key": "x:2122778769597554693",
+      "task_status": "demonstrated",
+      "material_family": null,
+      "is_demo": true,
+      "model_claimed": "GPT-6.2 Sol",
+      "prompt": null,
+      "root_media": [
+        {
+          "id": "2122778178783752192",
+          "type": "video",
+          "attachment_permalink": "https://x.com/sshayahmet/status/2122778769597554693/video/1",
+          "image_or_poster_url": "https://pbs.twimg.com/amplify_video_thumb/2122778178783752192/img/SpeQ_YC1rbkH7M0k.jpg",
+          "playback_source_url": "https://video.twimg.com/amplify_video/2122778178783752192/vid/avc1/1080x1918/cViMZ-7lhbGRcoYE.mp4?tag=29"
+        }
+      ],
+      "title": "A Van Gogh-inspired Gaussian splat world",
+      "takeaway": "Compare how two navigable scenes handle the same composition.",
+      "body_notes": "The creator showed the Sol and Opus 5.5 scenes side by side. They reported about one hour and $5.45 for Sol, and 53 minutes and $12.14 for Opus.",
+      "number": 71,
+      "anchor": "case-71",
+      "category": "three",
+      "type": "Evaluation",
+      "attribution": "Creator statement. Underlying model unverified.",
+      "display_media": [
+        {
+          "case_number": 71,
+          "media_id": "2122778178783752192",
+          "visual": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-71/2122778178783752192-poster-0bc27584cc18b44c255a.jpg",
+          "playback": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122778178783752192-8bc5b1a659aaf321bca3.mp4"
+        }
+      ]
+    },
+    {
+      "source_url": "https://x.com/TimJayas/status/2122780669973787008",
+      "author_handle": "TimJayas",
+      "author_url": "https://x.com/TimJayas",
+      "date": "2026-11-17",
+      "dedup_key": "x:2122780669973787008",
+      "task_status": "attempted_failed",
+      "material_family": null,
+      "is_demo": false,
+      "model_claimed": "GPT-6.2 Sol",
+      "prompt": null,
+      "root_media": [
+        {
+          "id": "2122779173106364417",
+          "type": "video",
+          "attachment_permalink": "https://x.com/TimJayas/status/2122780669973787008/video/1",
+          "image_or_poster_url": "https://pbs.twimg.com/amplify_video_thumb/2122779173106364417/img/fMhq4_tTq_szFBuR.jpg",
+          "playback_source_url": "https://video.twimg.com/amplify_video/2122779173106364417/vid/avc1/1920x1080/uR984vQRhsCo0V_Q.mp4?tag=29"
+        }
+      ],
+      "title": "A balloon house with a generated backdrop",
+      "takeaway": "Inspect the scene assets when the brief calls for a background built in Three.js.",
+      "body_notes": "The clip shows the balloon house from several angles. The creator reported that Sol used an image-generation model for the landscape instead of building the background in code.",
+      "number": 72,
+      "anchor": "case-72",
+      "category": "three",
+      "type": "Limit",
+      "attribution": "Creator statement. Underlying model unverified.",
+      "display_media": [
+        {
+          "case_number": 72,
+          "media_id": "2122779173106364417",
+          "visual": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-72/2122779173106364417-poster-c3a6e52c7e7cc9a4c981.jpg",
+          "playback": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122779173106364417-ce071a2bea10e55854ce.mp4"
+        }
+      ]
+    },
+    {
+      "source_url": "https://x.com/lucian__03/status/2122782073102663874",
+      "author_handle": "lucian__03",
+      "author_url": "https://x.com/lucian__03",
+      "date": "2026-11-17",
+      "dedup_key": "x:2122782073102663874",
+      "task_status": "demonstrated",
+      "material_family": null,
+      "is_demo": true,
+      "model_claimed": "GPT-6.2 Sol",
+      "prompt": null,
+      "root_media": [
+        {
+          "id": "2122772945982660608",
+          "type": "video",
+          "attachment_permalink": "https://x.com/lucian__03/status/2122782073102663874/video/1",
+          "image_or_poster_url": "https://pbs.twimg.com/amplify_video_thumb/2122772945982660608/img/KxnTiMTWewszgT7u.jpg",
+          "playback_source_url": "https://video.twimg.com/amplify_video/2122772945982660608/vid/avc1/1920x1080/u13drlE7sNm5D3bW.mp4?tag=29"
+        }
+      ],
+      "title": "A Rube Goldberg simulator in HTML",
+      "takeaway": "Follow the handoff between each stage of a chain reaction.",
+      "body_notes": "The creator reported using one prompt on GPT-6.2 Sol at Max effort. The recording follows a steel ball through tracks, gears and falling dominoes. The creator reported a build time of about 25 minutes and a cost of $3.03.",
+      "number": 73,
+      "anchor": "case-73",
+      "category": "three",
+      "type": "Demo",
+      "attribution": "Creator statement. Underlying model unverified.",
+      "display_media": [
+        {
+          "case_number": 73,
+          "media_id": "2122772945982660608",
+          "visual": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-73/2122772945982660608-poster-c2517a3063d7ae324d03.jpg",
+          "playback": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122772945982660608-a1e7d3419ebbeb4c61bb.mp4"
+        }
+      ]
+    },
+    {
+      "source_url": "https://x.com/thtbee_/status/2122810531669311645",
+      "author_handle": "thtbee_",
+      "author_url": "https://x.com/thtbee_",
+      "date": "2026-11-17",
+      "dedup_key": "x:2122810531669311645",
+      "task_status": "demonstrated",
+      "material_family": null,
+      "is_demo": true,
+      "model_claimed": "GPT-6.2 Sol",
+      "prompt": null,
+      "root_media": [
+        {
+          "id": "2122803167826219008",
+          "type": "video",
+          "attachment_permalink": "https://x.com/thtbee_/status/2122810531669311645/video/1",
+          "image_or_poster_url": "https://pbs.twimg.com/amplify_video_thumb/2122803167826219008/img/gsVdAt8PFHRk7Z6h.jpg",
+          "playback_source_url": "https://video.twimg.com/amplify_video/2122803167826219008/vid/avc1/1920x1080/yV_j8NU8WM5YrunH.mp4?tag=29"
+        }
+      ],
+      "title": "A side-by-side mechanical bee model",
+      "takeaway": "Compare moving parts and interface layout as separate outcomes.",
+      "body_notes": "The video shows mechanical bees and their controls side by side. The creator preferred Astra’s part placement, identified layout issues in both interfaces, and reported 43 minutes and $3.84 for the Sol run.",
+      "number": 76,
+      "anchor": "case-76",
+      "category": "three",
+      "type": "Evaluation",
+      "attribution": "Creator statement. Underlying model unverified.",
+      "display_media": [
+        {
+          "case_number": 76,
+          "media_id": "2122803167826219008",
+          "visual": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-76/2122803167826219008-poster-11682fb3b82ccdb1450c.jpg",
+          "playback": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122803167826219008-c7328affdb02e5aa7e77.mp4"
+        }
+      ]
+    },
+    {
       "source_url": "https://x.com/imjustnewatai/status/2119518062034792958",
       "author_handle": "imjustnewatai",
       "author_url": "https://x.com/imjustnewatai",
@@ -2379,6 +2564,93 @@
       "prompt_source_url": "https://x.com/xbquan/status/2119582058922316169"
     },
     {
+      "source_url": "https://x.com/camperaigg/status/2122794828266377538",
+      "author_handle": "camperaigg",
+      "author_url": "https://x.com/camperaigg",
+      "date": "2026-11-17",
+      "dedup_key": "x:2122794828266377538",
+      "task_status": "demonstrated",
+      "material_family": null,
+      "is_demo": true,
+      "model_claimed": "GPT-6.2 Sol",
+      "prompt": null,
+      "root_media": [
+        {
+          "id": "2122794767960752128",
+          "type": "video",
+          "attachment_permalink": "https://x.com/camperaigg/status/2122794828266377538/video/1",
+          "image_or_poster_url": "https://pbs.twimg.com/amplify_video_thumb/2122794767960752128/img/aNAMzj8oR3DXdJRh.jpg",
+          "playback_source_url": "https://video.twimg.com/amplify_video/2122794767960752128/vid/avc1/1080x1350/l_tVWv8Dt9yHTobs.mp4?tag=29"
+        }
+      ],
+      "title": "Fire and sound generated in code",
+      "takeaway": "Record output duration alongside cost and generation time in a motion comparison.",
+      "body_notes": "The creator compared two xhigh runs using code for the visuals and audio. They reported a 12-second Sol clip from a 12-minute run at $0.73 and a 24-second Opus 5.5 clip from an 85-minute run at $18.40.",
+      "number": 74,
+      "anchor": "case-74",
+      "category": "graphics",
+      "type": "Evaluation",
+      "attribution": "Creator statement. Underlying model unverified.",
+      "display_media": [
+        {
+          "case_number": 74,
+          "media_id": "2122794767960752128",
+          "visual": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-74/2122794767960752128-poster-5dc5e43235499f8378cf.jpg",
+          "playback": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122794767960752128-e2e19e403efea0d778cc.mp4"
+        }
+      ]
+    },
+    {
+      "source_url": "https://x.com/Leviwoyun/status/2122846422676701267",
+      "author_handle": "Leviwoyun",
+      "author_url": "https://x.com/Leviwoyun",
+      "date": "2026-11-18",
+      "dedup_key": "x:2122846422676701267",
+      "task_status": "demonstrated",
+      "material_family": null,
+      "is_demo": true,
+      "model_claimed": "GPT-6.2 Sol",
+      "prompt": "制作一段 15 秒的动态图形视频，展示你是一位多么出色的动态设计师，就像是你简历上的作品集一样，使用任何你认为能产出最佳效果的工具或技术。你拥有完全的创作自由，优先追求卓越的视觉设计、大胆的艺术指导、引人注目的构图和富有力量的动态表现，让每一秒都有价值。全力以赴。",
+      "root_media": [
+        {
+          "id": "2122845749499310081",
+          "type": "video",
+          "attachment_permalink": "https://x.com/Leviwoyun/status/2122846422676701267/video/1",
+          "image_or_poster_url": "https://pbs.twimg.com/amplify_video_thumb/2122845749499310081/img/dDYCPDj1p8xnhpIV.jpg",
+          "playback_source_url": "https://video.twimg.com/amplify_video/2122845749499310081/vid/avc1/1920x1080/R2otqH37dyUAOYPb.mp4?tag=29"
+        },
+        {
+          "id": "2122846110117183488",
+          "type": "video",
+          "attachment_permalink": "https://x.com/Leviwoyun/status/2122846422676701267/video/2",
+          "image_or_poster_url": "https://pbs.twimg.com/amplify_video_thumb/2122846110117183488/img/gC8DTm6NiWwuUEr_.jpg",
+          "playback_source_url": "https://video.twimg.com/amplify_video/2122846110117183488/vid/avc1/1920x1080/4ZXSjMKmEr3rKh5j.mp4?tag=29"
+        }
+      ],
+      "title": "A 15-second motion design brief",
+      "takeaway": "Give both models the same brief and compare typography, transitions and motion.",
+      "body_notes": "The creator shared two videos and the original prompt. One centers on a rotating folded-paper form, and the other moves from a signal display to a purple geometric form.",
+      "number": 79,
+      "anchor": "case-79",
+      "category": "graphics",
+      "type": "Evaluation",
+      "attribution": "Creator statement. Underlying model unverified.",
+      "display_media": [
+        {
+          "case_number": 79,
+          "media_id": "2122845749499310081",
+          "visual": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-79/2122845749499310081-poster-1159d01955e99da02391.jpg",
+          "playback": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122845749499310081-01cb8b6073d8916e9b09.mp4"
+        },
+        {
+          "case_number": 79,
+          "media_id": "2122846110117183488",
+          "visual": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-79/2122846110117183488-poster-7b07819920bd6a3fe88d.jpg",
+          "playback": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122846110117183488-30f1277d34e59656f484.mp4"
+        }
+      ]
+    },
+    {
       "source_url": "https://x.com/Khazix0918/status/2119507514459144677",
       "author_handle": "Khazix0918",
       "author_url": "https://x.com/Khazix0918",
@@ -2564,6 +2836,80 @@
       ]
     },
     {
+      "source_url": "https://x.com/nickbaumann_/status/2122805861093417220",
+      "author_handle": "nickbaumann_",
+      "author_url": "https://x.com/nickbaumann_",
+      "date": "2026-11-17",
+      "dedup_key": "x:2122805861093417220",
+      "task_status": "demonstrated",
+      "material_family": null,
+      "is_demo": true,
+      "model_claimed": "GPT-6.2 Sol",
+      "prompt": null,
+      "root_media": [
+        {
+          "id": "2122751536778387456",
+          "type": "video",
+          "attachment_permalink": "https://x.com/nickbaumann_/status/2122805861093417220/video/1",
+          "image_or_poster_url": "https://pbs.twimg.com/amplify_video_thumb/2122751536778387456/img/14MxW6KyJK_Bq94V.jpg",
+          "playback_source_url": "https://video.twimg.com/amplify_video/2122751536778387456/vid/avc1/1400x812/1jJKgnNlXVmWYgTB.mp4?tag=29"
+        }
+      ],
+      "title": "Finding GeoGuessr locations with browser controls",
+      "takeaway": "Keep starting locations, the time limit and the distance threshold fixed across models.",
+      "body_notes": "The tester gave each model the same 100 starts and five minutes per location to place a pin within 1 km. Sol and Astra both met the threshold 77 times. The tester reported Sol was the faster of the two.",
+      "number": 75,
+      "anchor": "case-75",
+      "category": "web",
+      "type": "Benchmark",
+      "attribution": "Creator statement. Underlying model unverified.",
+      "display_media": [
+        {
+          "case_number": 75,
+          "media_id": "2122751536778387456",
+          "visual": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-75/2122751536778387456-poster-499c7bb9670c1315b38e.jpg",
+          "playback": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122751536778387456-4ba9a30b51fd04a352fb.mp4"
+        }
+      ]
+    },
+    {
+      "source_url": "https://x.com/DeryaTR_/status/2122814594737684568",
+      "author_handle": "DeryaTR_",
+      "author_url": "https://x.com/DeryaTR_",
+      "date": "2026-11-17",
+      "dedup_key": "x:2122814594737684568",
+      "task_status": "demonstrated",
+      "material_family": null,
+      "is_demo": true,
+      "model_claimed": "GPT-6.2 Sol",
+      "prompt": null,
+      "root_media": [
+        {
+          "id": "2122813839481663488",
+          "type": "video",
+          "attachment_permalink": "https://x.com/DeryaTR_/status/2122814594737684568/video/1",
+          "image_or_poster_url": "https://pbs.twimg.com/amplify_video_thumb/2122813839481663488/img/_wodu8_rFqn-DZnU.jpg",
+          "playback_source_url": "https://video.twimg.com/amplify_video/2122813839481663488/vid/avc1/1920x1080/djjqj0m7SHekZ0Jl.mp4?tag=29"
+        }
+      ],
+      "title": "A butterfly gallery with Blender models",
+      "takeaway": "Combine a rotatable specimen with views for close inspection and field notes.",
+      "body_notes": "The creator attributed the site to Sol and Blender. The walkthrough shows a selection of animated butterflies, a magnifier for wing details, and panels for habitat, taxonomy and life stages.",
+      "number": 77,
+      "anchor": "case-77",
+      "category": "web",
+      "type": "Demo",
+      "attribution": "Creator statement. Underlying model unverified.",
+      "display_media": [
+        {
+          "case_number": 77,
+          "media_id": "2122813839481663488",
+          "visual": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-77/2122813839481663488-poster-2f054c454b8ad5768090.jpg",
+          "playback": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122813839481663488-e921dcc4253d7432553d.mp4"
+        }
+      ]
+    },
+    {
       "source_url": "https://x.com/Ananth7e/status/2119479157633786246",
       "author_handle": "Ananth7e",
       "author_url": "https://x.com/Ananth7e",
@@ -2671,6 +3017,43 @@
           "media_id": "2119682250472112128",
           "visual": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-67/2119682250472112128-poster-526c85969a54c7f93833.jpg",
           "playback": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119682250472112128-81f053c6ffe2a4aae055.mp4"
+        }
+      ]
+    },
+    {
+      "source_url": "https://x.com/banteg/status/2122826622638137666",
+      "author_handle": "banteg",
+      "author_url": "https://x.com/banteg",
+      "date": "2026-11-17",
+      "dedup_key": "x:2122826622638137666",
+      "task_status": "demonstrated",
+      "material_family": null,
+      "is_demo": true,
+      "model_claimed": "GPT-6.2 Sol",
+      "prompt": null,
+      "root_media": [
+        {
+          "id": "2122826155086512128",
+          "type": "video",
+          "attachment_permalink": "https://x.com/banteg/status/2122826622638137666/video/1",
+          "image_or_poster_url": "https://pbs.twimg.com/amplify_video_thumb/2122826155086512128/img/WKYeJ_ZRhFriVB6v.jpg",
+          "playback_source_url": "https://video.twimg.com/amplify_video/2122826155086512128/vid/avc1/1920x1080/6-lo92sarcLKaJen.mp4?tag=29"
+        }
+      ],
+      "title": "Clearing a Sokoban room suite",
+      "takeaway": "Track rooms cleared and replay the moves to see where a game agent stalls.",
+      "body_notes": "The author tested Sol and Astra at medium effort. Both cleared all 66 rooms in this run. Sol finished second and Astra third on the author's leaderboard at the time of the post.",
+      "number": 78,
+      "anchor": "case-78",
+      "category": "game",
+      "type": "Benchmark",
+      "attribution": "Creator statement. Underlying model unverified.",
+      "display_media": [
+        {
+          "case_number": 78,
+          "media_id": "2122826155086512128",
+          "visual": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-78/2122826155086512128-poster-4a2c4bee2b8d9510e347.jpg",
+          "playback": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122826155086512128-d2a8456da3a5a99263f5.mp4"
         }
       ]
     },
