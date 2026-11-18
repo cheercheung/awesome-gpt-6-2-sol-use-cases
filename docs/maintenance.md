@@ -7,7 +7,7 @@ The [curated data](../data/gpt-6-2-sol-usecase-curated.json) records the numbere
 1. Record the original post, author, date, task, and visible outcome. Keep the creator's model claim separate from verified model identity.
 2. Preserve all source media and identify footage reused across posts in the data. Label unfinished attempts as limits.
 3. Write a source-linked case heading, a practical takeaway, evidence notes, and the type and date. Include the prompt when the creator published it verbatim.
-4. Update the centralized menu, totals, curated data, and ten translated READMEs. Keep the prompts in their original language.
+4. Sort the centralized menu by source publication time, newest first. In the case sections, use the same order within each topic and place the topic with the newest case first. Update totals and keep the curated data in case-section order. Use the same ordering in all eleven READMEs and keep the prompts in their original language.
 5. Compare the source, prompt, and media set against all eleven README files. Inspect the desktop and narrow render.
 
 ## Checks before publication
