@@ -1804,11 +1804,13 @@ Type: Demo | Date: 2026-11-10
 Generate an SVG of a pelican riding a bicycle
 ```
 
-[Pelican SVG comparison](https://static.simonwillison.net/static/2026/openai-pelicans-november-2026.html)
+[Полная таблица сравнения SVG](https://static.simonwillison.net/static/2026/openai-pelicans-november-2026.html)
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-123/50535742-grid-7d953958cc033d468770.webp"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-123/50535742-grid-7d953958cc033d468770.webp" width="640" alt="Предварительный просмотр исходного кода 1 · SVG-изображения пеликанов на разных уровнях рассуждения"></a>
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-123/50535742-astra-3d77dc7c6001b9a03061.webp"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-123/50535742-astra-3d77dc7c6001b9a03061.webp" width="640" alt="Предварительный просмотр исходного кода 2 · SVG-изображения пеликанов на разных уровнях рассуждения"></a>
+
+*Результат GPT-6.2 Astra в режиме Max*
 
 Type: Evaluation | Date: 2026-11-17
 

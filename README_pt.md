@@ -1804,11 +1804,13 @@ Simon Willison publicou uma grade identificada com o mesmo prompt de SVG em seis
 Generate an SVG of a pelican riding a bicycle
 ```
 
-[Pelican SVG comparison](https://static.simonwillison.net/static/2026/openai-pelicans-november-2026.html)
+[Comparação completa de SVG](https://static.simonwillison.net/static/2026/openai-pelicans-november-2026.html)
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-123/50535742-grid-7d953958cc033d468770.webp"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-123/50535742-grid-7d953958cc033d468770.webp" width="640" alt="Visualização da fonte 1 · Pelicanos em SVG com diferentes níveis de raciocínio"></a>
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-123/50535742-astra-3d77dc7c6001b9a03061.webp"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-123/50535742-astra-3d77dc7c6001b9a03061.webp" width="640" alt="Visualização da fonte 2 · Pelicanos em SVG com diferentes níveis de raciocínio"></a>
+
+*GPT-6.2 Astra em Max*
 
 Type: Evaluation | Date: 2026-11-17
 

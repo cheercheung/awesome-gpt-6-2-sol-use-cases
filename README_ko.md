@@ -1804,11 +1804,13 @@ Simon Willison은 동일한 SVG 제작 프롬프트를 여섯 모델과 여러 �
 Generate an SVG of a pelican riding a bicycle
 ```
 
-[Pelican SVG comparison](https://static.simonwillison.net/static/2026/openai-pelicans-november-2026.html)
+[전체 SVG 비교표](https://static.simonwillison.net/static/2026/openai-pelicans-november-2026.html)
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-123/50535742-grid-7d953958cc033d468770.webp"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-123/50535742-grid-7d953958cc033d468770.webp" width="640" alt="소스 미리보기 1 · 추론 강도별 펠리컨 SVG"></a>
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-123/50535742-astra-3d77dc7c6001b9a03061.webp"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-123/50535742-astra-3d77dc7c6001b9a03061.webp" width="640" alt="소스 미리보기 2 · 추론 강도별 펠리컨 SVG"></a>
+
+*Max에서 생성한 GPT-6.2 Astra 결과*
 
 Type: Evaluation | Date: 2026-11-17
 
