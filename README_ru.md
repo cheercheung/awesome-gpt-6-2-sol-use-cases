@@ -33,7 +33,7 @@
 2. Откройте предварительный просмотр, чтобы увидеть исходный медиафайл, а затем прочитайте исходное сообщение для контекста.
 3. Используйте общедоступную подсказку, если она доступна. Сохраняйте исходные данные при сравнении результатов.
 
-[Посмотреть GPT-6.2 Sol на EvoLink](https://evolink.ai/gpt-6-2-sol?utm_source=github&utm_medium=readme&utm_campaign=gpt-6-2-sol-usecases&utm_content=landing_overview)
+[Посмотреть GPT-6.2 Sol на EvoLink](https://evolink.ai/gpt-6-2-sol?utm_source=github&utm_medium=quickstart&utm_campaign=gpt-6-2-sol-usecases&utm_content=browser_try)
 
 <a id="menu"></a>
 ## 📑 Меню

@@ -33,7 +33,7 @@
 2. Ouvrez un aperçu pour voir le média source, puis lisez le message original pour connaître le contexte.
 3. Utilisez l’invite publique lorsqu’elle est disponible. Conservez l’entrée d’origine lors de la comparaison des résultats.
 
-[Voir GPT-6.2 Sol sur EvoLink](https://evolink.ai/gpt-6-2-sol?utm_source=github&utm_medium=readme&utm_campaign=gpt-6-2-sol-usecases&utm_content=landing_overview)
+[Voir GPT-6.2 Sol sur EvoLink](https://evolink.ai/gpt-6-2-sol?utm_source=github&utm_medium=quickstart&utm_campaign=gpt-6-2-sol-usecases&utm_content=browser_try)
 
 <a id="menu"></a>
 ## 📑 Menus
