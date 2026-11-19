@@ -33,7 +33,7 @@
 2. Abra una vista previa para ver los medios de origen, luego lea la publicación original para conocer el contexto.
 3. Utilice el mensaje público cuando esté disponible. Conserve la entrada original al comparar resultados.
 
-[Ver GPT-6.2 Sol en EvoLink](https://evolink.ai/gpt-6-2-sol?utm_source=github&utm_medium=readme&utm_campaign=gpt-6-2-sol-usecases&utm_content=landing_overview)
+[Ver GPT-6.2 Sol en EvoLink](https://evolink.ai/gpt-6-2-sol?utm_source=github&utm_medium=quickstart&utm_campaign=gpt-6-2-sol-usecases&utm_content=browser_try)
 
 <a id="menu"></a>
 ## 📑 Menú

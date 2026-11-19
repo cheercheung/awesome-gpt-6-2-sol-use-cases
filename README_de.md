@@ -33,7 +33,7 @@
 2. Öffnen Sie eine Vorschau, um die Quellmedien anzuzeigen, und lesen Sie dann den Originalbeitrag, um den Kontext zu erfahren.
 3. Verwenden Sie die öffentliche Eingabeaufforderung, sofern verfügbar. Behalten Sie beim Vergleich der Ergebnisse die ursprüngliche Eingabe bei.
 
-[GPT-6.2 Sol auf EvoLink ansehen](https://evolink.ai/gpt-6-2-sol?utm_source=github&utm_medium=readme&utm_campaign=gpt-6-2-sol-usecases&utm_content=landing_overview)
+[GPT-6.2 Sol auf EvoLink ansehen](https://evolink.ai/gpt-6-2-sol?utm_source=github&utm_medium=quickstart&utm_campaign=gpt-6-2-sol-usecases&utm_content=browser_try)
 
 <a id="menu"></a>
 ## 📑 Menü

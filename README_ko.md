@@ -33,7 +33,7 @@
 2. 미리보기를 열어 소스 미디어를 확인한 다음 원본 게시물을 읽어 맥락을 알아보세요.
 3. 가능한 경우 공개 프롬프트를 사용하세요. 결과를 비교할 때 원래 입력을 유지하세요.
 
-[EvoLink에서 GPT-6.2 Sol 모델 정보 보기](https://evolink.ai/gpt-6-2-sol?utm_source=github&utm_medium=readme&utm_campaign=gpt-6-2-sol-usecases&utm_content=landing_overview)
+[EvoLink에서 GPT-6.2 Sol 모델 정보 보기](https://evolink.ai/gpt-6-2-sol?utm_source=github&utm_medium=quickstart&utm_campaign=gpt-6-2-sol-usecases&utm_content=browser_try)
 
 <a id="menu"></a>
 ## 📑 메뉴

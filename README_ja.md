@@ -33,7 +33,7 @@
 2. プレビューを開いてソース メディアを確認し、元の投稿を読んでコンテキストを確認します。
 3. 利用可能な場合はパブリック プロンプトを使用します。結果を比較するときは、元の入力を保持します。
 
-[EvoLinkでGPT-6.2 Solの詳細を見る](https://evolink.ai/gpt-6-2-sol?utm_source=github&utm_medium=readme&utm_campaign=gpt-6-2-sol-usecases&utm_content=landing_overview)
+[EvoLinkでGPT-6.2 Solの詳細を見る](https://evolink.ai/gpt-6-2-sol?utm_source=github&utm_medium=quickstart&utm_campaign=gpt-6-2-sol-usecases&utm_content=browser_try)
 
 <a id="menu"></a>
 ## 📑 メニュー

@@ -33,7 +33,7 @@
 2. 打開預覽以查看來源媒體，然後閱讀原始貼文以了解上下文。
 3. 盡可能使用公共提示。比較結果時保留原始輸入。
 
-[在 EvoLink 查看 GPT-6.2 Sol](https://evolink.ai/gpt-6-2-sol?utm_source=github&utm_medium=readme&utm_campaign=gpt-6-2-sol-usecases&utm_content=landing_overview)
+[在 EvoLink 查看 GPT-6.2 Sol](https://evolink.ai/gpt-6-2-sol?utm_source=github&utm_medium=quickstart&utm_campaign=gpt-6-2-sol-usecases&utm_content=browser_try)
 
 <a id="menu"></a>
 ## 📑 選單

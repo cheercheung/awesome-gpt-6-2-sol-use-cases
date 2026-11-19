@@ -33,7 +33,7 @@
 2. 点击预览查看图片或播放视频，再打开原帖了解过程。
 3. 如有公开提示词，可按原文复试。对比时请使用相同输入。
 
-[在 EvoLink 查看 GPT-6.2 Sol](https://evolink.ai/gpt-6-2-sol?utm_source=github&utm_medium=readme&utm_campaign=gpt-6-2-sol-usecases&utm_content=landing_overview)
+[在 EvoLink 查看 GPT-6.2 Sol](https://evolink.ai/gpt-6-2-sol?utm_source=github&utm_medium=quickstart&utm_campaign=gpt-6-2-sol-usecases&utm_content=browser_try)
 
 <a id="menu"></a>
 ## 📑 菜单

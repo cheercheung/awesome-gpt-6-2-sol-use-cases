@@ -33,7 +33,7 @@
 2. Kaynak medyayı görmek için bir önizleme açın, ardından bağlam için orijinal gönderiyi okuyun.
 3. Mümkün olduğunda genel istemi kullanın. Sonuçları karşılaştırırken orijinal girişi koruyun.
 
-[EvoLink’te GPT-6.2 Sol’u inceleyin](https://evolink.ai/gpt-6-2-sol?utm_source=github&utm_medium=readme&utm_campaign=gpt-6-2-sol-usecases&utm_content=landing_overview)
+[EvoLink’te GPT-6.2 Sol’u inceleyin](https://evolink.ai/gpt-6-2-sol?utm_source=github&utm_medium=quickstart&utm_campaign=gpt-6-2-sol-usecases&utm_content=browser_try)
 
 <a id="menu"></a>
 ## 📑 Menü

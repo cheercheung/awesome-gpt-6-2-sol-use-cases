@@ -33,7 +33,7 @@
 2. Open a preview to see the source media, then read the original post for context.
 3. Use the public prompt where available. Preserve the original input when comparing results.
 
-[View GPT-6.2 Sol on EvoLink](https://evolink.ai/gpt-6-2-sol?utm_source=github&utm_medium=readme&utm_campaign=gpt-6-2-sol-usecases&utm_content=landing_overview)
+[View GPT-6.2 Sol on EvoLink](https://evolink.ai/gpt-6-2-sol?utm_source=github&utm_medium=quickstart&utm_campaign=gpt-6-2-sol-usecases&utm_content=browser_try)
 
 <a id="menu"></a>
 ## 📑 Menu
