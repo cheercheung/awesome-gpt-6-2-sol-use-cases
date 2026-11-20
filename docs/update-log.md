@@ -6,3 +6,4 @@
 - 2026-11-18. Added Cases 80–123 after reviewing the full supplied source archives. The update adds 43 X cases and one Hacker News case, with three verbatim prompts.
 - 2026-11-18. Sorted the case menu by source publication time and put the newest cases first within each topic.
 - 2026-11-19. Added Cases 124–158 from the scheduled review of 155 X posts and 17 Hacker News results. All 35 additions are from X. Five include exact prompts.
+- 2026-11-20. Added Cases 159–175 from the scheduled review of 38 X posts and six Hacker News results. All 17 additions are from X. Two include exact prompts.

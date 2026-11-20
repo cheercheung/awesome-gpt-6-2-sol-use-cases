@@ -18,7 +18,7 @@
 <a id="overview"></a>
 ## 📊 개요
 
-- **158 개 활용 사례 · GPT-6.2 Sol**. 원본 게시물 158건을 모았습니다. 155건은 작업 결과를 보여 주고, 3건은 완료하지 못한 시도를 기록합니다. 20건에는 원문 프롬프트가 포함됩니다.
+- **175 개 활용 사례 · GPT-6.2 Sol**. 원본 게시물 175건을 모았습니다. 172건은 작업 결과를 보여 주고, 3건은 완료하지 못한 시도를 기록합니다. 22건에는 원문 프롬프트가 포함됩니다.
 - 3D 장면 및 모델링 · 창의적인 그래픽과 애니메이션 · 웹사이트 및 인터페이스 · 게임 개발 · 컴퓨터 사용 및 페인팅 · 컴퓨터 사용 및 통신
 - 각 사례에는 원본 게시물, 제작자, 날짜, 증거 유형, 화면에서 확인한 결과를 담았습니다.
 - 가능한 경우 공개 프롬프트를 사용하세요. 결과를 비교할 때 원래 입력을 유지하세요.
@@ -44,6 +44,23 @@
 | [빠른 시작](#quick-start) | 탐색 | 빠른 시작 | — |
 | [관련 저장소](#related-repositories) | 탐색 | 관련 저장소 | — |
 | [감사의 말](#acknowledge) | 탐색 | 감사의 말 | — |
+| [사례 159. 정지 프레임에서 완성 영상까지](#case-159) | [창의적인 그래픽과 애니메이션](#category-graphics) | 편집 타임라인을 따라 여러 도구를 쓰는 작업의 어느 단계에서 생성한 프레임이 들어가는지 확인한다. | Demo |
+| [사례 160. Codex로 만든 1인칭 게임 프로토타입 두 개](#case-160) | [게임 개발](#category-game) | 레벨 구성과 플레이 경험을 기록된 비용과 함께 비교한다. | Evaluation |
+| [사례 161. Blender 에셋으로 만든 아늑한 마을 게임](#case-161) | [게임 개발](#category-game) | 모델링한 오브젝트와 애니메이션이 게임 장면에서 어떻게 어우러지는지 살핀다. | Demo |
+| [사례 162. 실내 사진으로 아파트 평면도 만들기](#case-162) | [3D 장면 및 모델링](#category-three) | 에이전트가 사진을 보고 방 배치를 추론할 수 있는지 측정한다. | Benchmark |
+| [사례 163. 말하는 인물이 나오는 영상에서 발화 구간 편집](#case-163) | [창의적인 그래픽과 애니메이션](#category-graphics) | 편집 시간, 종합 점수, 실패한 컷의 유형을 비교한다. | Benchmark |
+| [사례 164. 본사 건물 디자인 두 가지](#case-164) | [3D 장면 및 모델링](#category-three) | 같은 개방형 설계 지시로 나온 건물과 카메라 시점을 비교한다. | Evaluation |
+| [사례 165. Crusader Bench에서 정착지 운영하기](#case-165) | [게임 개발](#category-game) | 채점 대상 지도와 게임 조건을 동일하게 두고 에이전트의 플레이를 비교한다. | Benchmark |
+| [사례 166. Legora의 11월 법률 문서 벤치마크](#case-166) | [컴퓨터 사용 및 통신](#category-communication) | 같은 실무 과제에서 결과의 품질과 건당 비용을 비교한다. | Benchmark |
+| [사례 167. Xplore의 엔지니어링 설계 벤치마크에서 Sol 평가](#case-167) | [3D 장면 및 모델링](#category-three) | CAD 작업이 포함된 평가 세트에서 작업 점수와 실행당 비용을 비교한다. | Benchmark |
+| [사례 168. Ruby Ascent 발사대 장면](#case-168) | [3D 장면 및 모델링](#category-three) | 동일한 발사대를 묘사한 네 결과에서 장면의 디테일과 제작 시간을 비교한다. | Evaluation |
+| [사례 169. MazeBench에서 공간 탐색](#case-169) | [게임 개발](#category-game) | 같은 공개 벤치마크에서 미로 완료율을 비교한다. | Benchmark |
+| [사례 170. AI Village에서 각자 답한 프로필 질문](#case-170) | [컴퓨터 사용 및 통신](#category-communication) | 두 에이전트가 같은 프로필 질문지에 독립적으로 어떻게 답하는지 비교한다. | Integration |
+| [사례 171. 같은 원본 영상으로 만든 3D 애니메이션](#case-171) | [3D 장면 및 모델링](#category-three) | 정해진 스타일에서 다섯 모델이 동일한 구간을 어떻게 영상으로 표현하는지 비교한다. | Evaluation |
+| [사례 172. 부르즈 할리파 꼭대기를 한 바퀴 도는 영상](#case-172) | [3D 장면 및 모델링](#category-three) | 모델마다 탑 상부의 단차와 정상부를 어떻게 구현하는지 살핀다. | Evaluation |
+| [사례 173. 짧은 영상을 화이트보드 애니메이션으로](#case-173) | [창의적인 그래픽과 애니메이션](#category-graphics) | 같은 입력 영상을 바탕으로 시각적 전달 방식과 비용을 비교한다. | Evaluation |
+| [사례 174. 바위 해안의 등대를 담은 웹페이지](#case-174) | [웹사이트 및 인터페이스](#category-web) | 제작 지시와 추론 강도를 맞추고 한 번의 응답으로 만든 웹페이지 두 개를 비교한다. | Evaluation |
+| [사례 175. 도구 없이 치른 체스 다섯 경기](#case-175) | [게임 개발](#category-game) | 같은 대결에서 점수, 경기별 결과, 보고된 비용을 비교한다. | Benchmark |
 | [사례 124. 저장소 지침을 놓친 풀 리퀘스트 상태 보고서](#case-124) | [컴퓨터 사용 및 통신](#category-communication) | 짧은 상태 보고 요청에 대한 답변의 구체성과 구성을 비교한다. | Limit |
 | [사례 125. Arena의 Astra와 Sol 비교 영상](#case-125) | [3D 장면 및 모델링](#category-three) | 영상의 챕터를 따라 장면, 게임, 인터페이스를 비교한다. | Evaluation |
 | [사례 126. 흡혈귀가 나오는 으스스한 대성당](#case-126) | [3D 장면 및 모델링](#category-three) | 같은 고딕 건축물 제작 지시를 두 모델이 어떻게 해석하는지 비교한다. | Evaluation |
@@ -203,74 +220,1067 @@
 | [사례 58. 단일 HTML Three.js 블랙홀](#case-58) | [3D 장면 및 모델링](#category-three) | 클립과 스틸을 사용하여 한 장면이 여러 시점을 처리하는 방법을 검사합니다. | Demo |
 | [사례 59. 떠다니는 Three.js 궁전](#case-59) | [3D 장면 및 모델링](#category-three) | 여러 각도에서 매달린 궁전의 규모와 모습을 살펴보세요. | Demo |
 
-<a id="category-communication"></a>
-## 💬 컴퓨터 사용 및 통신
+<a id="category-graphics"></a>
+## 🎨 창의적인 그래픽과 애니메이션
 
-<a id="case-124"></a>
-### 사례 124: [저장소 지침을 놓친 풀 리퀘스트 상태 보고서](https://x.com/Fei2411/status/2123354076771692631) (작성자 [@Fei2411](https://x.com/Fei2411))
+<a id="case-159"></a>
+### 사례 159: [정지 프레임에서 완성 영상까지](https://x.com/0xkhalid7/status/2123661187376451845) (작성자 [@0xkhalid7](https://x.com/0xkhalid7))
 
-**짧은 상태 보고 요청에 대한 답변의 구체성과 구성을 비교한다.**
+**편집 타임라인을 따라 여러 도구를 쓰는 작업의 어느 단계에서 생성한 프레임이 들어가는지 확인한다.**
 
-작성자는 Sol과 Gemini 4 Neon에 같은 풀 리퀘스트 보고를 요청했다. Sol의 요약이 지나치게 간략했고 AGENTS.md의 지침도 따르지 않았다고 밝혔다.
+제작자는 대본에 ChatGPT를, 프레임 제작에 Sol을 사용했다. Google Vids에서 프레임에 움직임을 주고 CapCut에서 편집했으며, 전체 작업에 약 4시간이 걸렸다고 보고했다.
 
-**프롬프트:**
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123660882249175040-7f5a38c954cd6232ce0b.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-159/2123660882249175040-poster-6036fd4b16ea350bc22d.jpg" width="640" alt="소스 미리보기 1 · 정지 프레임에서 완성 영상까지"></a>
 
-```
-现在有哪些pr
-```
+[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123660882249175040-7f5a38c954cd6232ce0b.mp4)
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-124/2123354068013993984-19d626fb5c30bc9b2a19.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-124/2123354068013993984-19d626fb5c30bc9b2a19.jpg" width="640" alt="소스 미리보기 1 · 저장소 지침을 놓친 풀 리퀘스트 상태 보고서"></a>
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-124/2123354067988824064-5ec42709de761e85172e.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-124/2123354067988824064-5ec42709de761e85172e.jpg" width="640" alt="소스 미리보기 2 · 저장소 지침을 놓친 풀 리퀘스트 상태 보고서"></a>
-
-Type: Limit | Date: 2026-11-19
+Type: Demo | Date: 2026-11-20
 
 ---
 
-<a id="case-141"></a>
-### 사례 141: [AITuber OnAir에서 캐릭터와 대화](https://x.com/shinshin86/status/2123040784710869031) (작성자 [@shinshin86](https://x.com/shinshin86))
+<a id="case-163"></a>
+### 사례 163: [말하는 인물이 나오는 영상에서 발화 구간 편집](https://x.com/MatthewBerman/status/2123546744759984513) (작성자 [@MatthewBerman](https://x.com/MatthewBerman))
 
-**실시간 캐릭터 대화에서 추론 강도를 조절해 본다.**
+**편집 시간, 종합 점수, 실패한 컷의 유형을 비교한다.**
 
-개발자는 AITuber OnAir에 Sol을 추가하고 대화를 시연했다. 대화 속도를 고려해 기본 추론 강도는 low이며 사용자가 이를 조절할 수 있다.
+제작자가 20분짜리 영상으로 모델별로 두 차례 실행한 평균을 보면 Sol은 64.5%를 기록하고 편집에 11.7분이 걸렸다. Gemini 4 Neon은 67.9%를 기록하고 7.7분이 걸렸다.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123040557064966144-63e1c247fbe9574434f1.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-141/2123040557064966144-poster-096943e3ee853b4f4a62.jpg" width="640" alt="소스 미리보기 1 · AITuber OnAir에서 캐릭터와 대화"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-163/2123546497111482368-6e88a30728efbca29854.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-163/2123546497111482368-6e88a30728efbca29854.jpg" width="640" alt="소스 미리보기 1 · 말하는 인물이 나오는 영상에서 발화 구간 편집"></a>
 
-[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123040557064966144-63e1c247fbe9574434f1.mp4)
-
-Type: Integration | Date: 2026-11-18
+Type: Benchmark | Date: 2026-11-19
 
 ---
 
-<a id="case-155"></a>
-### 사례 155: [FrontDesk-Bench의 모의 병원 전화 응대](https://x.com/muratcan/status/2122914581454487838) (작성자 [@muratcan](https://x.com/muratcan))
+<a id="case-173"></a>
+### 사례 173: [짧은 영상을 화이트보드 애니메이션으로](https://x.com/erhanmeydan/status/2123414880300490868) (작성자 [@erhanmeydan](https://x.com/erhanmeydan))
 
-**안전하지 않은 조치와 정당한 요청에 대한 거절을 따로 집계한다.**
+**같은 입력 영상을 바탕으로 시각적 전달 방식과 비용을 비교한다.**
 
-벤치마크 개발자는 모의 접수 테스트에서 Sol의 안전하지 않은 응대가 16건에서 9건으로 줄었다고 보고했다. 신형 모델에서 정당한 요청을 거절한 사례도 늘었다고 밝혔다.
+제작자는 동일한 11초짜리 영상을 입력으로 사용해 Kilnframe의 Whiteboard 스타일과 Auto 모드에서 네 모델을 실행했다. Sol 실행은 1.7분이 걸렸으며 비용은 0.18달러였다.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-155/2122905857700585472-c7658e9ed55fe97f9cbb.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-155/2122905857700585472-c7658e9ed55fe97f9cbb.jpg" width="640" alt="소스 미리보기 1 · FrontDesk-Bench의 모의 병원 전화 응대"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123414708459855872-abcd21a1ca31fae0de50.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-173/2123414708459855872-poster-693b12b8cd00ed30b115.jpg" width="640" alt="소스 미리보기 1 · 짧은 영상을 화이트보드 애니메이션으로"></a>
+
+[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123414708459855872-abcd21a1ca31fae0de50.mp4)
+
+Type: Evaluation | Date: 2026-11-19
+
+---
+
+<a id="case-130"></a>
+### 사례 130: [3분 만에 만든 사실적인 낙엽](https://x.com/RezAIT00/status/2123121274431897803) (작성자 [@RezAIT00](https://x.com/RezAIT00))
+
+**제한 시간 안에 모델이 소재와 코드를 어떻게 결합하는지 확인한다.**
+
+제작자는 Sol xhigh Ultrafast가 온라인에서 소재를 찾고, 이미지를 생성하고, 코드를 작성해 낙엽이 떨어지는 애니메이션을 만들었다고 설명했다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123120923666423808-a00f9b04f9a3d9061acf.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-130/2123120923666423808-poster-97ccbaaf84c4bcfaee1b.jpg" width="640" alt="소스 미리보기 1 · 3분 만에 만든 사실적인 낙엽"></a>
+
+[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123120923666423808-a00f9b04f9a3d9061acf.mp4)
+
+Type: Demo | Date: 2026-11-18
+
+---
+
+<a id="case-134"></a>
+### 사례 134: [반복 재생되는 픽셀 아트 러너](https://x.com/rotejin/status/2123099481101205676) (작성자 [@rotejin](https://x.com/rotejin))
+
+**흘러가는 배경을 두고 캐릭터의 달리기 동작이 끊김 없이 반복되는지 살핀다.**
+
+제작자는 Sol에 움직이는 픽셀 아트를 요청했다. 첨부한 반복 영상에는 해 질 녘을 배경으로 캐릭터가 실루엣을 드러내며 달리는 모습이 담겼다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123098773459283968-5897570c940b051711a4.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-134/2123098773459283968-poster-e96bd6c94b068883b1a1.jpg" width="640" alt="소스 미리보기 1 · 반복 재생되는 픽셀 아트 러너"></a>
+
+[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123098773459283968-5897570c940b051711a4.mp4)
+
+Type: Demo | Date: 2026-11-18
+
+---
+
+<a id="case-145"></a>
+### 사례 145: [2인승 자전거를 그린 SVG 애니메이션](https://x.com/marcthecreatorr/status/2123004538974294470) (작성자 [@marcthecreatorr](https://x.com/marcthecreatorr))
+
+**두 코딩 도구가 같은 SVG 소재를 어떻게 그리고 움직이게 하는지 비교한다.**
+
+제작자에 따르면 Codex CLI에서 실행한 Sol은 약 46분과 1.90달러, Claude Code에서 실행한 Opus 5.5는 약 1시간과 18달러가 들었다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123002351422181377-2a6725e05299e1972940.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-145/2123002351422181377-poster-c6f5ed83f95c549068d4.jpg" width="640" alt="소스 미리보기 1 · 2인승 자전거를 그린 SVG 애니메이션"></a>
+
+[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123002351422181377-2a6725e05299e1972940.mp4)
+
+Type: Evaluation | Date: 2026-11-18
+
+---
+
+<a id="case-152"></a>
+### 사례 152: [Ultrafast 영상 편집 시간 측정](https://x.com/op7418/status/2122925281514303836) (작성자 [@op7418](https://x.com/op7418))
+
+**편집 전체의 경과 시간과 모델 응답 시간을 구분해 기록한다.**
+
+제작자는 8분 분량의 영상 편집에 총 27분이 걸렸고, 그중 Sol의 응답 시간은 약 14분이었다고 보고했다. 첨부 이미지에서 측정 결과를 확인할 수 있다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-152/2122925011057209345-502d3dadda839363aabd.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-152/2122925011057209345-502d3dadda839363aabd.jpg" width="640" alt="소스 미리보기 1 · Ultrafast 영상 편집 시간 측정"></a>
 
 Type: Benchmark | Date: 2026-11-18
 
 ---
 
-<a id="case-43"></a>
-### 사례 43: [메시지를 전달하려는 아직 끝나지 않은 시도](https://x.com/SadAlbert10/status/2119428297092460613) (작성자 [@SadAlbert10](https://x.com/SadAlbert10))
+<a id="case-153"></a>
+### 사례 153: [Remotion으로 만든 손글씨 서명 애니메이션](https://x.com/aura_uniiiii/status/2122915684086849611) (작성자 [@aura_uniiiii](https://x.com/aura_uniiiii))
 
-**데스크톱 워크플로가 중지된 위치를 확인하는 시도를 사용하세요.**
+**Max로 실행한 두 모델이 같은 개인 서명을 어떻게 움직이게 하는지 비교한다.**
 
-스크린샷은 메시지 전달 요청 후 수신자를 찾으려는 시도를 보여줍니다. 메시지가 전송되기 전에 작업이 종료되었습니다.
+제작자는 Sol과 Astra에 자신의 서명을 Remotion 영상으로 만들어 달라고 요청했다. 두 결과 영상을 함께 공개했다.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-43/2119428121711775744-8419b4e0c62aa252d1dc.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-43/2119428121711775744-8419b4e0c62aa252d1dc.jpg" width="640" alt="소스 미리보기 1 · 메시지를 전달하려는 아직 끝나지 않은 시도"></a>
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-43/2119428270945140736-f9662043dadb9a6e4b1b.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-43/2119428270945140736-f9662043dadb9a6e4b1b.jpg" width="640" alt="소스 미리보기 2 · 메시지를 전달하려는 아직 끝나지 않은 시도"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122913982898143232-edb073cf9b2bb51a5faf.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-153/2122913982898143232-poster-d1cd5c4dd99e8cdeb3c4.jpg" width="640" alt="소스 미리보기 1 · Remotion으로 만든 손글씨 서명 애니메이션"></a>
 
-Type: Limit | Date: 2026-11-08
+[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122913982898143232-edb073cf9b2bb51a5faf.mp4)
+
+Type: Evaluation | Date: 2026-11-18
+
+---
+
+<a id="case-79"></a>
+### 사례 79: [15초 모션 디자인 과제](https://x.com/Leviwoyun/status/2122846422676701267) (작성자 [@Leviwoyun](https://x.com/Leviwoyun))
+
+**두 모델에 같은 과제를 주고 타이포그래피, 전환과 움직임을 비교한다.**
+
+제작자는 영상 두 편과 원본 프롬프트를 공개했다. 하나는 회전하는 접힌 종이 형태를 중심으로 하고, 다른 하나는 신호 표시에서 보라색 기하학 형태로 전환된다.
+
+**프롬프트:**
+
+```
+制作一段 15 秒的动态图形视频，展示你是一位多么出色的动态设计师，就像是你简历上的作品集一样，使用任何你认为能产出最佳效果的工具或技术。你拥有完全的创作自由，优先追求卓越的视觉设计、大胆的艺术指导、引人注目的构图和富有力量的动态表现，让每一秒都有价值。全力以赴。
+```
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122845749499310081-01cb8b6073d8916e9b09.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-79/2122845749499310081-poster-1159d01955e99da02391.jpg" width="640" alt="소스 미리보기 1 · 15초 모션 디자인 과제"></a>
+
+[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122845749499310081-01cb8b6073d8916e9b09.mp4)
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122846110117183488-30f1277d34e59656f484.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-79/2122846110117183488-poster-7b07819920bd6a3fe88d.jpg" width="640" alt="소스 미리보기 2 · 15초 모션 디자인 과제"></a>
+
+[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122846110117183488-30f1277d34e59656f484.mp4)
+
+Type: Evaluation | Date: 2026-11-18
+
+---
+
+<a id="case-88"></a>
+### 사례 88: [두 모델로 표현한 질주하는 말](https://x.com/jony_palino/status/2122796926961647919) (작성자 [@jony_palino](https://x.com/jony_palino))
+
+**반복 동작 한 주기를 보며 다리 움직임과 보폭을 비교한다.**
+
+영상은 Astra와 Sol이 만든 말에 모델명을 붙이고, 두 말이 달리는 모습을 나란히 보여 준다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122781224338939905-9fac5a374f5ddc54f8a8.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-88/2122781224338939905-poster-b06065421603cc7f6f6c.jpg" width="640" alt="소스 미리보기 1 · 두 모델로 표현한 질주하는 말"></a>
+
+[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122781224338939905-9fac5a374f5ddc54f8a8.mp4)
+
+Type: Evaluation | Date: 2026-11-17
+
+---
+
+<a id="case-74"></a>
+### 사례 74: [코드로 만든 불과 소리](https://x.com/camperaigg/status/2122794828266377538) (작성자 [@camperaigg](https://x.com/camperaigg))
+
+**모션 결과물을 비교할 때 비용, 생성 시간과 함께 결과물 길이도 기록한다.**
+
+제작자는 영상과 소리를 코드로 생성한 xhigh 실행 두 건을 비교했다. Sol은 12분과 0.73달러를 들여 12초 영상을, Opus 5.5는 85분과 18.40달러를 들여 24초 영상을 만들었다고 한다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122794767960752128-e2e19e403efea0d778cc.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-74/2122794767960752128-poster-5dc5e43235499f8378cf.jpg" width="640" alt="소스 미리보기 1 · 코드로 만든 불과 소리"></a>
+
+[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122794767960752128-e2e19e403efea0d778cc.mp4)
+
+Type: Evaluation | Date: 2026-11-17
+
+---
+
+<a id="case-94"></a>
+### 사례 94: [코드로 만든 900프레임 애니메이션](https://x.com/morsenxxx/status/2122771021828948464) (작성자 [@morsenxxx](https://x.com/morsenxxx))
+
+**캐릭터, 움직임, 사운드가 최종 결과물에 어떻게 반영되는지 살핀다.**
+
+제작자는 캐릭터, 애니메이션, 사운드트랙을 코드로 생성했다고 보고했다. 공개된 결과물의 길이는 30초다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122768959980118016-519fd034e8c095b6bc01.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-94/2122768959980118016-poster-ef4789678264a50b8b9f.jpg" width="640" alt="소스 미리보기 1 · 코드로 만든 900프레임 애니메이션"></a>
+
+[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122768959980118016-519fd034e8c095b6bc01.mp4)
+
+Type: Demo | Date: 2026-11-17
+
+---
+
+<a id="case-98"></a>
+### 사례 98: [움직이는 바나나 일러스트](https://x.com/AdamHoltererer/status/2122765119835029581) (작성자 [@AdamHoltererer](https://x.com/AdamHoltererer))
+
+**단순한 소재로 모델이 움직임과 캐릭터를 어떻게 더하는지 살핀다.**
+
+제작자가 공유한 Sol의 바나나 테스트에서는 그림 속 바나나가 캐릭터가 움직이는 장면의 일부가 된다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122765018739441664-63474f1acf4d1d5e18b1.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-98/2122765018739441664-poster-a235f39f622e3848c495.jpg" width="640" alt="소스 미리보기 1 · 움직이는 바나나 일러스트"></a>
+
+[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122765018739441664-63474f1acf4d1d5e18b1.mp4)
+
+Type: Demo | Date: 2026-11-17
+
+---
+
+<a id="case-101"></a>
+### 사례 101: [단일 HTML 파일에 담은 자전거 타는 펠리컨](https://x.com/Super_Nius/status/2122760765174391124) (작성자 [@Super_Nius](https://x.com/Super_Nius))
+
+**같은 SVG 제작 지시로 만든 결과의 새와 자전거 움직임을 나란히 살핀다.**
+
+제작자는 프롬프트를 공개하고 6.2와 6.1의 결과를 비교했다. Sol의 표현은 소폭 달라졌다고 보고했다.
+
+**프롬프트:**
+
+```
+创建一个HTML文件，使用SVG绘制一只鹈鹕3D骑自行车的动画。输出单文件HTML。
+```
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122760254945673216-c6b375b036ac15cc3a2b.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-101/2122760254945673216-poster-d0903f87dd4ac9dee18a.jpg" width="640" alt="소스 미리보기 1 · 단일 HTML 파일에 담은 자전거 타는 펠리컨"></a>
+
+[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122760254945673216-c6b375b036ac15cc3a2b.mp4)
+
+Type: Evaluation | Date: 2026-11-17
+
+---
+
+<a id="case-103"></a>
+### 사례 103: [Ultra 강도로 만든 두 편의 막대인간 애니메이션](https://x.com/DanielZambrini/status/2122759375337214121) (작성자 [@DanielZambrini](https://x.com/DanielZambrini))
+
+**같은 애니메이션 제작 지시를 반복해 실행 간 차이를 살핀다.**
+
+제작자는 Ultra로 설정한 Sol의 실행 결과 두 개를 공개하고 각각 13분과 12분이 걸렸다고 보고했다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122758829104328704-4fe90331a8b43e8cc76c.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-103/2122758829104328704-poster-2e025ca80aa35e6c9676.jpg" width="640" alt="소스 미리보기 1 · Ultra 강도로 만든 두 편의 막대인간 애니메이션"></a>
+
+[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122758829104328704-4fe90331a8b43e8cc76c.mp4)
+
+Type: Evaluation | Date: 2026-11-17
+
+---
+
+<a id="case-123"></a>
+### 사례 123: [추론 강도별 펠리컨 SVG](https://news.ycombinator.com/item?id=50535742) (작성자 [@simonw](https://news.ycombinator.com/user?id=simonw))
+
+**추론 강도에 따라 페달, 발, 자전거 프레임의 위치가 어떻게 맞물리는지 확인한다.**
+
+Simon Willison은 동일한 SVG 제작 프롬프트를 여섯 모델과 여러 추론 강도에서 실행하고 결과를 표로 공개했다. 토론에서는 Sol의 Max 결과에서 다리가 체인과 겹치는 점이 지적됐다.
+
+**프롬프트:**
+
+```
+Generate an SVG of a pelican riding a bicycle
+```
+
+[전체 SVG 비교표](https://static.simonwillison.net/static/2026/openai-pelicans-november-2026.html)
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-123/50535742-grid-7d953958cc033d468770.webp"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-123/50535742-grid-7d953958cc033d468770.webp" width="640" alt="소스 미리보기 1 · 추론 강도별 펠리컨 SVG"></a>
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-123/50535742-astra-3d77dc7c6001b9a03061.webp"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-123/50535742-astra-3d77dc7c6001b9a03061.webp" width="640" alt="소스 미리보기 2 · 추론 강도별 펠리컨 SVG"></a>
+
+*Max에서 생성한 GPT-6.2 Astra 결과*
+
+Type: Evaluation | Date: 2026-11-17
+
+---
+
+<a id="case-110"></a>
+### 사례 110: [Sol, Opus, Qwen으로 구현한 빗속의 자전거 배달](https://x.com/Stargridcompass/status/2122184571269853307) (작성자 [@Stargridcompass](https://x.com/Stargridcompass))
+
+**세 결과의 야경과 자전거 움직임을 비교한다.**
+
+제작자는 펠리컨 배달원을 그린 결과 세 개에 모델명을 붙여 공개했다. 이 비교에서는 Opus 5.5 결과를 선호했다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122183328228909056-562a9b17b2bc7222fb58.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-110/2122183328228909056-poster-9550a8f62aa13cde8a3a.jpg" width="640" alt="소스 미리보기 1 · Sol, Opus, Qwen으로 구현한 빗속의 자전거 배달"></a>
+
+[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122183328228909056-562a9b17b2bc7222fb58.mp4)
+
+Type: Evaluation | Date: 2026-11-16
+
+---
+
+<a id="case-112"></a>
+### 사례 112: [빗속에서 자전거로 음식을 배달하는 펠리컨](https://x.com/Stargridcompass/status/2121543669882745007) (작성자 [@Stargridcompass](https://x.com/Stargridcompass))
+
+**반사, 웅덩이, 도로 시설물, 움직이는 배경을 각각 확인한다.**
+
+제작자는 비 오는 날의 배달 장면에서 Sol과 Fable 5.2를 비교했다. 웅덩이와 반사 표현은 Sol 버전을 더 선호했다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2121535105013334016-7271e00bcbdb0a0caf42.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-112/2121535105013334016-poster-4a1d19351363ee575584.jpg" width="640" alt="소스 미리보기 1 · 빗속에서 자전거로 음식을 배달하는 펠리컨"></a>
+
+[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2121535105013334016-7271e00bcbdb0a0caf42.mp4)
+
+Type: Evaluation | Date: 2026-11-14
+
+---
+
+<a id="case-114"></a>
+### 사례 114: [한낮에 자전거를 타는 펠리컨의 두 가지 결과](https://x.com/Stargridcompass/status/2121505035976597773) (작성자 [@Stargridcompass](https://x.com/Stargridcompass))
+
+**동작의 품질과 실행 시간을 함께 비교한다.**
+
+제작자는 같은 지시를 받은 Sol과 Gemini 4 Hydrogen의 결과를 공개했다. 실행 시간은 Sol이 13분, Hydrogen이 3분이었다고 보고했다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2121503397702459392-e951142e407012e2ef01.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-114/2121503397702459392-poster-2f40d730171de43b3581.jpg" width="640" alt="소스 미리보기 1 · 한낮에 자전거를 타는 펠리컨의 두 가지 결과"></a>
+
+[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2121503397702459392-e951142e407012e2ef01.mp4)
+
+Type: Evaluation | Date: 2026-11-14
+
+---
+
+<a id="case-118"></a>
+### 사례 118: [SVG로 움직이는 검술 결투](https://x.com/kdnbmb/status/2120537324488450050) (작성자 [@kdnbmb](https://x.com/kdnbmb))
+
+**동작 타이밍과 윤곽이 벡터 애니메이션에 어떻게 생동감을 주는지 확인한다.**
+
+제작자는 코드로 만든 애니메이션을 Sol을 한 번 실행해 얻었으며 약 18분이 걸렸다고 보고했다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2120537298286608384-168cc4ec913763fba163.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-118/2120537298286608384-poster-7749116f725da65b0420.jpg" width="640" alt="소스 미리보기 1 · SVG로 움직이는 검술 결투"></a>
+
+[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2120537298286608384-168cc4ec913763fba163.mp4)
+
+Type: Demo | Date: 2026-11-11
+
+---
+
+<a id="case-120"></a>
+### 사례 120: [SVG로 그린 사진 같은 풍경](https://x.com/kdnbmb/status/2120193707987317053) (작성자 [@kdnbmb](https://x.com/kdnbmb))
+
+**자연 풍경을 벡터로 그렸을 때 어떤 세부 표현이 남는지 살핀다.**
+
+제작자는 Max로 설정한 Sol에 사진처럼 보이는 자연 풍경 SVG를 요청하고 렌더링 결과를 공유했다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-120/2120193470002241536-2e471c1c74dabf15e6eb.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-120/2120193470002241536-2e471c1c74dabf15e6eb.jpg" width="640" alt="소스 미리보기 1 · SVG로 그린 사진 같은 풍경"></a>
+
+Type: Demo | Date: 2026-11-10
+
+---
+
+<a id="case-60"></a>
+### 사례 60: [손오공의 대요천궁 SVG 비교](https://x.com/xbquan/status/2119581984989364514) (작성자 [@xbquan](https://x.com/xbquan))
+
+**같은 손오공 장면을 세 시스템이 어떻게 구성했는지 비교해 보세요.**
+
+작성자는 세 이미지를 최고 설정의 GPT-6.2 Sol, Qoder의 QoDuck, WorkBuddy의 HY4 순으로 표시했습니다. 작성자가 답글에 공개한 프롬프트는 SVG 한 버전만 만들고 스크린샷으로 확인하지 말라고 요구합니다.
+
+[원문 프롬프트를 공개한 작성자 답글](https://x.com/xbquan/status/2119582058922316169)
+
+**프롬프트:**
+
+```
+用尽你的一切能力，用代码画一张孙悟空的大闹天宫名场面的svg图片，我想要尽可能的还原，只能画一版，不准截图检查。
+```
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-60/2119580835200516096-1e4e7a136e429b696a7a.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-60/2119580835200516096-1e4e7a136e429b696a7a.jpg" width="640" alt="소스 미리보기 1 · 손오공의 대요천궁 SVG 비교"></a>
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-60/2119581876805640192-01552031d537dc13d897.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-60/2119581876805640192-01552031d537dc13d897.jpg" width="640" alt="소스 미리보기 2 · 손오공의 대요천궁 SVG 비교"></a>
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-60/2119581974092546048-c61fe179e1741227a187.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-60/2119581974092546048-c61fe179e1741227a187.png" width="640" alt="소스 미리보기 3 · 손오공의 대요천궁 SVG 비교"></a>
+
+Type: Evaluation | Date: 2026-11-09
+
+---
+
+<a id="case-3"></a>
+### 사례 3: [3D로 보는 인류 역사와 AI의 미래](https://x.com/imjustnewatai/status/2119518062034792958) (작성자 [@imjustnewatai](https://x.com/imjustnewatai))
+
+**내러티브 브리핑을 일련의 애니메이션 장면으로 바꿔보세요.**
+
+녹화 내용은 다중 장면 3D 애니메이션을 보여줍니다. 저자의 대중적 메시지는 네안데르탈인에서 AI의 부상을 거쳐 상상의 미래로 이동합니다.
+
+**프롬프트:**
+
+```
+Create a cinematic 3D animation telling humanity’s story, from the age of Neanderthals through our greatest advances and the rise of AI. Then imagine a future where AI achieves recursive self-improvement in 2027, and progress doubles or triples every year, transforming Earth in increasingly astonishing ways. Come up with your own scenes and transitions, connecting everything into one compelling story.
+```
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119517968493113344-17865404f54bd3f80fbd.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-03/2119517968493113344-poster-62d6ae1e6365eb443bd6.jpg" width="640" alt="소스 미리보기 1 · 3D로 보는 인류 역사와 AI의 미래"></a>
+
+[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119517968493113344-17865404f54bd3f80fbd.mp4)
+
+
+Type: Demo | Date: 2026-11-08
+
+---
+
+<a id="case-8"></a>
+### 사례 8: [브라우저 페인팅 스튜디오의 Tibo 초상화](https://x.com/Mr_Salio/status/2119499550373425297) (작성자 [@Mr_Salio](https://x.com/Mr_Salio))
+
+**페이지가 구성되는 초상화의 단계를 살펴보세요.**
+
+인물 사진 스튜디오 페이지에서는 참조 사진 옆에 있는 다양한 색상 블록으로 Tibo의 인물 사진을 개발합니다. 클립은 페이지 애니메이션을 보여줍니다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119499524137697280-bf003228060e83ba80ee.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-08/2119499524137697280-poster-669f62240a226482c71b.jpg" width="640" alt="소스 미리보기 1 · 브라우저 페인팅 스튜디오의 Tibo 초상화"></a>
+
+[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119499524137697280-bf003228060e83ba80ee.mp4)
+
+
+Type: Demo | Date: 2026-11-08
+
+---
+
+<a id="case-10"></a>
+### 사례 10: [0x0SojalSec가 공유한 Sam Altman 초상화 그림](https://x.com/0x0SojalSec/status/2119489612876026325) (작성자 [@0x0SojalSec](https://x.com/0x0SojalSec))
+
+**대략적인 모양에서 완성된 초상화로의 전환을 따라가보세요.**
+
+이번 포스팅은 Sam Altman 페인팅 클립을 공유합니다. 컬렉션의 다른 게시물도 동일한 자료를 공유합니다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119471570100113408-6537886f519fcb2581ca.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-10/2119471570100113408-poster-4fa1b097dbe57a86b319.jpg" width="640" alt="소스 미리보기 1 · 0x0SojalSec가 공유한 Sam Altman 초상화 그림"></a>
+
+[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119471570100113408-6537886f519fcb2581ca.mp4)
+
+
+Type: Demo | Date: 2026-11-08
+
+---
+
+<a id="case-11"></a>
+### 사례 11: [Avenoxai가 공유한 Sam Altman 초상화 그림](https://x.com/Avenoxai/status/2119489025484419304) (작성자 [@Avenoxai](https://x.com/Avenoxai))
+
+**브라우저 데모가 초상화를 어떻게 연출하는지 살펴보세요.**
+
+해당 게시물은 컬렉션의 다른 곳에 표시된 것과 동일한 진보적인 Sam Altman 초상화를 공유합니다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119481355943948288-d9ec44b4a8efb666f3fe.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-11/2119481355943948288-poster-b169fc202c4358aef6ab.jpg" width="640" alt="소스 미리보기 1 · Avenoxai가 공유한 Sam Altman 초상화 그림"></a>
+
+[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119481355943948288-d9ec44b4a8efb666f3fe.mp4)
+
+
+Type: Demo | Date: 2026-11-08
+
+---
+
+<a id="case-12"></a>
+### 사례 12: [pengsonal가 공유한 Sam Altman 초상화 그림](https://x.com/pengsonal/status/2119487069500456985) (작성자 [@pengsonal](https://x.com/pengsonal))
+
+**브라우저 장면에서 인물 사진 세부정보를 추가하는 순서를 살펴보세요.**
+
+클립은 이 자료를 공유하는 다른 게시물과 동일한 Sam Altman 그림 계열에 속합니다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119471570100113408-6537886f519fcb2581ca.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-12/2119471570100113408-poster-4fa1b097dbe57a86b319.jpg" width="640" alt="소스 미리보기 1 · pengsonal가 공유한 Sam Altman 초상화 그림"></a>
+
+[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119471570100113408-6537886f519fcb2581ca.mp4)
+
+
+Type: Demo | Date: 2026-11-08
+
+---
+
+<a id="case-13"></a>
+### 사례 13: [GeekCatX가 공유한 Sam Altman 초상화 그림](https://x.com/GeekCatX/status/2119482381375815956) (작성자 [@GeekCatX](https://x.com/GeekCatX))
+
+**클립을 사용하여 초기 구성과 완성된 이미지를 비교하세요.**
+
+이 게시물은 다른 항목과 동일한 미디어 계열의 진보적인 Sam Altman 초상화를 공유합니다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119471570100113408-6537886f519fcb2581ca.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-13/2119471570100113408-poster-4fa1b097dbe57a86b319.jpg" width="640" alt="소스 미리보기 1 · GeekCatX가 공유한 Sam Altman 초상화 그림"></a>
+
+[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119471570100113408-6537886f519fcb2581ca.mp4)
+
+
+Type: Demo | Date: 2026-11-08
+
+---
+
+<a id="case-14"></a>
+### 사례 14: [브라우저 페인팅 캔버스의 Sam Altman 초상화](https://x.com/Ananth7e/status/2119482362614677566) (작성자 [@Ananth7e](https://x.com/Ananth7e))
+
+**인물 사진이 가려진 색상에서 미세한 특징으로 발전하는 것을 지켜보세요.**
+
+저자는 Sam Altman의 브라우저 페인팅 데모를 제시합니다. 동일한 녹음이 여러 다른 게시물에 나타납니다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119481355943948288-d9ec44b4a8efb666f3fe.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-14/2119481355943948288-poster-b169fc202c4358aef6ab.jpg" width="640" alt="소스 미리보기 1 · 브라우저 페인팅 캔버스의 Sam Altman 초상화"></a>
+
+[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119481355943948288-d9ec44b4a8efb666f3fe.mp4)
+
+
+Type: Demo | Date: 2026-11-08
+
+---
+
+<a id="case-19"></a>
+### 사례 19: [브라우저 페인팅 캔버스의 Dario Amodei 초상화](https://x.com/Ananth7e/status/2119475282528932231) (작성자 [@Ananth7e](https://x.com/Ananth7e))
+
+**연출된 인물 사진을 안내하는 참조 이미지를 시청하세요.**
+
+브라우저 데모에서는 사진 옆에 Dario Amodei 인물 사진이 표시됩니다. 화면 녹화는 페인팅 순서를 보여줍니다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119474852453306369-dc2f6dd1c623765520a2.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-19/2119474852453306369-poster-16fd35c8363e7611ce48.jpg" width="640" alt="소스 미리보기 1 · 브라우저 페인팅 캔버스의 Dario Amodei 초상화"></a>
+
+[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119474852453306369-dc2f6dd1c623765520a2.mp4)
+
+
+Type: Demo | Date: 2026-11-08
+
+---
+
+<a id="case-22"></a>
+### 사례 22: [Opus 5.5와 4개의 SVG 애니메이션 비교](https://x.com/Ananth7e/status/2119473497504428334) (작성자 [@Ananth7e](https://x.com/Ananth7e))
+
+**여러 SVG 피사체의 움직임과 디테일을 비교해보세요.**
+
+표시된 비교에는 우주 배송, 커피 머신, 레코드 플레이어 및 온실이 포함됩니다. 관찰된 장면은 더 긴 클립의 샘플에서 나온 것입니다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119472766353313794-9e720b31f2e3325a6830.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-22/2119472766353313794-poster-81c1db39bbb46647fee0.jpg" width="640" alt="소스 미리보기 1 · Opus 5.5와 4개의 SVG 애니메이션 비교"></a>
+
+[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119472766353313794-9e720b31f2e3325a6830.mp4)
+
+
+Type: Evaluation | Date: 2026-11-08
+
+---
+
+<a id="case-23"></a>
+### 사례 23: [Ananth7e의 또 다른 Sam Altman 초상화 그림 게시물](https://x.com/Ananth7e/status/2119471963790065987) (작성자 [@Ananth7e](https://x.com/Ananth7e))
+
+**공유 녹음을 사용하여 브라우저 초상화가 어떻게 형성되는지 검사하세요.**
+
+이 게시물은 다른 Sam Altman 항목과 동일한 프로그레시브 페인팅 재료를 가리킵니다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119471570100113408-6537886f519fcb2581ca.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-23/2119471570100113408-poster-4fa1b097dbe57a86b319.jpg" width="640" alt="소스 미리보기 1 · Ananth7e의 또 다른 Sam Altman 초상화 그림 게시물"></a>
+
+[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119471570100113408-6537886f519fcb2581ca.mp4)
+
+
+Type: Demo | Date: 2026-11-08
+
+---
+
+<a id="case-25"></a>
+### 사례 25: [코드 전용 SVG로 설명된 두 개의 세로 그림](https://x.com/marcthecreatorr/status/2119466616693850352) (작성자 [@marcthecreatorr](https://x.com/marcthecreatorr))
+
+**렌더링된 초상화를 비교한 후 어떻게 제작되었는지 판단하세요.**
+
+게시물에는 두 개의 인물 이미지가 포함되어 있습니다. 저자는 이를 코드 전용 SVG 출력으로 설명합니다.
+
+**프롬프트:**
+
+```
+generate an SVG of Ana de Armas and Sam Altman
+(do not cheat)
+```
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-25/2119466601804132352-31318df37f6caba7293c.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-25/2119466601804132352-31318df37f6caba7293c.jpg" width="640" alt="소스 미리보기 1 · 코드 전용 SVG로 설명된 두 개의 세로 그림"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-25/2119466601816666112-8e9d5270da1add44ca55.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-25/2119466601816666112-8e9d5270da1add44ca55.jpg" width="640" alt="소스 미리보기 2 · 코드 전용 SVG로 설명된 두 개의 세로 그림"></a>
+
+Type: Demo | Date: 2026-11-08
+
+---
+
+<a id="case-29"></a>
+### 사례 29: [달빛 아래 픽셀 아트로 표현된 일본 마을](https://x.com/SahilPanhotra/status/2119461852426219747) (작성자 [@SahilPanhotra](https://x.com/SahilPanhotra))
+
+**조명과 세부 사항을 검사하려면 컴팩트한 애니메이션 장면을 사용하세요.**
+
+GIF에는 벚꽃, 탑, 다리, 반사 및 작은 보트가 표시됩니다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119461819278602240-92e36b249f95f46fbbc1.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-29/2119461819278602240-poster-0df42c94083b4c7a1d00.jpg" width="640" alt="소스 미리보기 1 · 달빛 아래 픽셀 아트로 표현된 일본 마을"></a>
+
+[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119461819278602240-92e36b249f95f46fbbc1.mp4)
+
+
+Type: Demo | Date: 2026-11-08
+
+---
+
+<a id="case-30"></a>
+### 사례 30: [BMX를 타고 저글링을 하는 사자](https://x.com/SahilPanhotra/status/2119458278115835912) (작성자 [@SahilPanhotra](https://x.com/SahilPanhotra))
+
+**변화하는 계절적 배경에 맞춰 조정된 동작을 테스트합니다.**
+
+애니메이션에서는 사자가 타고 공을 던지는 모습을 보여줍니다. 샘플링된 프레임에는 포즈와 배경의 변화가 표시됩니다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119458208041574400-65d9c5f9e0c9dae6a35f.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-30/2119458208041574400-poster-43c1f3849344f031dd3f.jpg" width="640" alt="소스 미리보기 1 · BMX를 타고 저글링을 하는 사자"></a>
+
+[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119458208041574400-65d9c5f9e0c9dae6a35f.mp4)
+
+
+Type: Demo | Date: 2026-11-08
+
+---
+
+<a id="case-31"></a>
+### 사례 31: [측면보기 질주하는 말](https://x.com/HarshithLucky3/status/2119458168338301327) (작성자 [@HarshithLucky3](https://x.com/HarshithLucky3))
+
+**간단한 동작 주기를 통해 다리와 꼬리를 검사합니다.**
+
+샘플링된 프레임에는 팔다리 위치가 바뀌면서 옆에서 질주하는 말이 표시됩니다.
+
+**프롬프트:**
+
+```
+Horse running in side view
+```
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119457903589646336-6fe234afbdb557492d14.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-31/2119457903589646336-poster-2e4c31974841a99a4465.jpg" width="640" alt="소스 미리보기 1 · 측면보기 질주하는 말"></a>
+
+[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119457903589646336-6fe234afbdb557492d14.mp4)
+
+
+Type: Demo | Date: 2026-11-08
+
+---
+
+<a id="case-32"></a>
+### 사례 32: [대나무 사이로 BMX를 타고 있는 공작](https://x.com/SahilPanhotra/status/2119453829632868388) (작성자 [@SahilPanhotra](https://x.com/SahilPanhotra))
+
+**바퀴의 움직임을 디테일한 캐릭터의 움직임과 비교해 보세요.**
+
+영상에는 꼬리깃을 펼친 공작이 BMX를 타고 대나무 숲을 지나가는 모습이 나옵니다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119453646454964224-3614c844c591897f7cb8.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-32/2119453646454964224-poster-0dd6b3fd00fa99aa9b94.jpg" width="640" alt="소스 미리보기 1 · 대나무 사이로 BMX를 타고 있는 공작"></a>
+
+[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119453646454964224-3614c844c591897f7cb8.mp4)
+
+
+Type: Demo | Date: 2026-11-08
+
+---
+
+<a id="case-35"></a>
+### 사례 35: [사실적인 인물 사진 미리보기](https://x.com/SadAlbert10/status/2119443244509802679) (작성자 [@SadAlbert10](https://x.com/SadAlbert10))
+
+**눈에 보이는 결과를 검사하고 저자가 이를 어떻게 설명하는지 기록하세요.**
+
+이미지는 상세한 초상화를 보여줍니다. 미리보기는 출력의 시각적 증거를 제공합니다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-35/2119443020227727360-71913855e02651437cb9.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-35/2119443020227727360-71913855e02651437cb9.jpg" width="640" alt="소스 미리보기 1 · 사실적인 인물 사진 미리보기"></a>
+
+Type: Demo | Date: 2026-11-08
+
+---
+
+<a id="case-36"></a>
+### 사례 36: [Sydney Sweeney 세로 벡터화](https://x.com/SadAlbert10/status/2119440420682011095) (작성자 [@SadAlbert10](https://x.com/SadAlbert10))
+
+**벡터 작업 흐름을 평가할 때 중간 이미지를 추적합니다.**
+
+스크린샷은 PNG 입력과 벡터화 호출을 보여줍니다. 두 번째 첨부 파일은 해당 워크플로에서 생성된 초상화를 보여줍니다.
+
+**프롬프트:**
+
+```
+make an ultra realistic SVG of Sydney Sweeny
+```
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-36/2119439861157707776-69b2db4eca9eb1493e6b.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-36/2119439861157707776-69b2db4eca9eb1493e6b.png" width="640" alt="소스 미리보기 1 · Sydney Sweeney 세로 벡터화"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-36/2119440248157683712-d00b68e7e2aa37f8ec7b.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-36/2119440248157683712-d00b68e7e2aa37f8ec7b.jpg" width="640" alt="소스 미리보기 2 · Sydney Sweeney 세로 벡터화"></a>
+
+Type: Demo | Date: 2026-11-08
+
+---
+
+<a id="case-46"></a>
+### 사례 46: [측면 보기 실행 중인 치타](https://x.com/HarshithLucky3/status/2119424342773866559) (작성자 [@HarshithLucky3](https://x.com/HarshithLucky3))
+
+**고정 프로필 보기를 사용하여 보행과 신체 동작을 비교합니다.**
+
+클립은 달리는 동안 여러 위치에 있는 치타를 보여줍니다. 저자는 Opus 결과를 선호한다고 보고합니다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119424200662556672-37c18d0191bd9b6c27aa.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-46/2119424200662556672-poster-f977110905db5bd671d8.jpg" width="640" alt="소스 미리보기 1 · 측면 보기 실행 중인 치타"></a>
+
+[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119424200662556672-37c18d0191bd9b6c27aa.mp4)
+
+
+Type: Demo | Date: 2026-11-08
+
+---
+
+<a id="case-51"></a>
+### 사례 51: [자전거를 타고 있는 펠리컨과 게 두 마리](https://x.com/HarshithLucky3/status/2119418918616150080) (작성자 [@HarshithLucky3](https://x.com/HarshithLucky3))
+
+**한 장면에서 여러 애니메이션 캐릭터의 타이밍을 검사합니다.**
+
+샘플링된 측면 뷰 프레임에는 움직이는 바퀴, 팔다리 및 카메라 위치가 표시됩니다.
+
+**프롬프트:**
+
+```
+SVG animation of pelican and 2 crabs riding bicycles side view
+```
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119418838148366336-495e5e6b9a3a4f396f52.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-51/2119418838148366336-poster-753362afc6ea3f66a03f.jpg" width="640" alt="소스 미리보기 1 · 자전거를 타고 있는 펠리컨과 게 두 마리"></a>
+
+[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119418838148366336-495e5e6b9a3a4f396f52.mp4)
+
+
+Type: Demo | Date: 2026-11-08
+
+---
+
+<a id="case-52"></a>
+### 사례 52: [Sol 설정 전반에 걸친 PS5 컨트롤러 비교](https://x.com/marcthecreatorr/status/2119417283328000436) (작성자 [@marcthecreatorr](https://x.com/marcthecreatorr))
+
+**익숙한 제품을 사용하여 윤곽선과 음영을 비교하세요.**
+
+두 컨트롤러 이미지에는 GPT-6.1 Sol MAX 라우팅 및 기본이라는 레이블이 지정되어 있습니다. 게시물에는 렌더링된 이미지가 표시됩니다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-52/2119417273249095680-f0fea371a0a411ae9aef.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-52/2119417273249095680-f0fea371a0a411ae9aef.jpg" width="640" alt="소스 미리보기 1 · Sol 설정 전반에 걸친 PS5 컨트롤러 비교"></a>
+
+Type: Evaluation | Date: 2026-11-08
+
+---
+
+<a id="case-55"></a>
+### 사례 55: [녹색 BMW M4 CS 프로필 그림](https://x.com/HarshithLucky3/status/2119412698119373104) (작성자 [@HarshithLucky3](https://x.com/HarshithLucky3))
+
+**익숙한 차량에서 비율과 프로필 디테일을 확인하세요.**
+
+부착물은 측면에서 녹색 BMW M4 CS를 보여줍니다.
+
+**프롬프트:**
+
+```
+SVG of BMW M4 CS side view
+```
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-55/2119412669946204160-2b4789da7aa53b1095b0.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-55/2119412669946204160-2b4789da7aa53b1095b0.jpg" width="640" alt="소스 미리보기 1 · 녹색 BMW M4 CS 프로필 그림"></a>
+
+Type: Demo | Date: 2026-11-08
+
+---
+
+<a id="category-game"></a>
+## 🎮 게임 개발
+
+<a id="case-160"></a>
+### 사례 160: [Codex로 만든 1인칭 게임 프로토타입 두 개](https://x.com/shownotover/status/2123599696526717303) (작성자 [@shownotover](https://x.com/shownotover))
+
+**레벨 구성과 플레이 경험을 기록된 비용과 함께 비교한다.**
+
+제작자는 Sol과 Astra에 같은 과제를 주고 두 프로토타입을 공개했다. Sol Max 실행은 42분이 걸렸으며 제작자 추정 API 사용 비용은 2.42달러였다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123599517236817921-3ec7dd5b18f3301d8be3.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-160/2123599517236817921-poster-c1f1354e1c265c950177.jpg" width="640" alt="소스 미리보기 1 · Codex로 만든 1인칭 게임 프로토타입 두 개"></a>
+
+[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123599517236817921-3ec7dd5b18f3301d8be3.mp4)
+
+Type: Evaluation | Date: 2026-11-20
+
+---
+
+<a id="case-161"></a>
+### 사례 161: [Blender 에셋으로 만든 아늑한 마을 게임](https://x.com/TokenGremlin/status/2123574805723058647) (작성자 [@TokenGremlin](https://x.com/TokenGremlin))
+
+**모델링한 오브젝트와 애니메이션이 게임 장면에서 어떻게 어우러지는지 살핀다.**
+
+제작자는 Sol을 Ultrafast 모드로 실행해 게임을 만들고 Blender로 모델링과 애니메이션을 작업했다. 영상에는 마을을 돌아다니는 캐릭터들이 나온다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123574639729238016-d185275dff479ab97456.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-161/2123574639729238016-poster-ab2ca719508bdf4d61d7.jpg" width="640" alt="소스 미리보기 1 · Blender 에셋으로 만든 아늑한 마을 게임"></a>
+
+[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123574639729238016-d185275dff479ab97456.mp4)
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-165"></a>
+### 사례 165: [Crusader Bench에서 정착지 운영하기](https://x.com/Hesamation/status/2123528773140197579) (작성자 [@Hesamation](https://x.com/Hesamation))
+
+**채점 대상 지도와 게임 조건을 동일하게 두고 에이전트의 플레이를 비교한다.**
+
+벤치마크 제작자는 순위표 스냅샷과 플레이 영상을 공개했다. 상세 순위표에서는 추론 강도 medium의 Sol이 세 지도 전체에서 79.5점을 기록했다.
+
+[벤치마크 상세 정보](https://crusbench.com/)
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-165/2123528764608909312-da8dce5fbd2110f3efd7.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-165/2123528764608909312-da8dce5fbd2110f3efd7.jpg" width="640" alt="소스 미리보기 1 · Crusader Bench에서 정착지 운영하기"></a>
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-165/2123528764613091328-7c18d649149711d41faa.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-165/2123528764613091328-7c18d649149711d41faa.jpg" width="640" alt="소스 미리보기 2 · Crusader Bench에서 정착지 운영하기"></a>
+
+Type: Benchmark | Date: 2026-11-19
+
+---
+
+<a id="case-169"></a>
+### 사례 169: [MazeBench에서 공간 탐색](https://x.com/patience_cave/status/2123446669643849993) (작성자 [@patience_cave](https://x.com/patience_cave))
+
+**같은 공개 벤치마크에서 미로 완료율을 비교한다.**
+
+벤치마크 제작자는 Sol이 14%, Astra가 16%, Gemini 4 Neon이 10%를 기록했다고 보고했다. 첨부한 차트에 사용한 설정이 표시되어 있다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-169/2123446665696993280-3509529d630c29cd9ac5.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-169/2123446665696993280-3509529d630c29cd9ac5.jpg" width="640" alt="소스 미리보기 1 · MazeBench에서 공간 탐색"></a>
+
+Type: Benchmark | Date: 2026-11-19
+
+---
+
+<a id="case-175"></a>
+### 사례 175: [도구 없이 치른 체스 다섯 경기](https://x.com/argofowl/status/2123389829438406999) (작성자 [@argofowl](https://x.com/argofowl))
+
+**같은 대결에서 점수, 경기별 결과, 보고된 비용을 비교한다.**
+
+제작자는 두 모델을 모두 xhigh에서 실행했다. Sol이 3승 2무로 승점 4 대 1을 기록했다고 보고했다. 비용은 Sol이 24.39달러, Opus 5.5가 75.80달러였다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123389747536207872-d38127bbf7f2c4de454f.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-175/2123389747536207872-poster-f2422d640187db52b79e.jpg" width="640" alt="소스 미리보기 1 · 도구 없이 치른 체스 다섯 경기"></a>
+
+[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123389747536207872-d38127bbf7f2c4de454f.mp4)
+
+Type: Benchmark | Date: 2026-11-19
+
+---
+
+<a id="case-138"></a>
+### 사례 138: [포켓몬 파이어레드에서 챔피언까지](https://x.com/Clad3815/status/2123064135164576107) (작성자 [@Clad3815](https://x.com/Clad3815))
+
+**입력 방식과 추론 설정을 명시하고 게임 완료 시간을 비교한다.**
+
+제작자는 스크린샷을 입력으로 사용하고 추론 강도를 high로 설정해 Sol을 Ultrafast 모드로 실행했다. 챔피언에 도달하기까지 11시간 40분이 걸렸다고 보고했다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-138/2123061539183726592-707694197c25ed18a424.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-138/2123061539183726592-707694197c25ed18a424.png" width="640" alt="소스 미리보기 1 · 포켓몬 파이어레드에서 챔피언까지"></a>
+
+Type: Benchmark | Date: 2026-11-18
+
+---
+
+<a id="case-146"></a>
+### 사례 146: [래그돌 물리를 적용한 3D 공룡 러너](https://x.com/noclipepe/status/2122989930699792818) (작성자 [@noclipepe](https://x.com/noclipepe))
+
+**네 게임 프로토타입의 시각적 스타일과 충돌 반응을 비교한다.**
+
+제작자는 3D와 래그돌 물리를 포함한 동일한 지시를 네 모델에 전달했다. 제작자가 기록한 Sol 실행은 20분이 걸렸고 비용은 1.68달러였다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122985283993907201-9750e48cc454af4480fd.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-146/2122985283993907201-poster-afcb4c84030cd6876301.jpg" width="640" alt="소스 미리보기 1 · 래그돌 물리를 적용한 3D 공룡 러너"></a>
+
+[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122985283993907201-9750e48cc454af4480fd.mp4)
+
+Type: Evaluation | Date: 2026-11-18
+
+---
+
+<a id="case-158"></a>
+### 사례 158: [가짜 게임 광고에서 착안해 만든 플레이 가능한 게임](https://x.com/noclipepe/status/2122885577137598800) (작성자 [@noclipepe](https://x.com/noclipepe))
+
+**하나의 게임 레벨 제작 지시를 네 모델이 어떻게 구현했는지 플레이하며 비교한다.**
+
+제작자는 네 모델에 같은 프롬프트를 전달했으며 플레이어가 패배할 수도 있음을 보여 줬다. Sol 실행은 21분이 걸렸고 비용은 1.04달러였다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122882602663124992-7fe424c3649edbe814fc.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-158/2122882602663124992-poster-65013bb3e5cef1833a1e.jpg" width="640" alt="소스 미리보기 1 · 가짜 게임 광고에서 착안해 만든 플레이 가능한 게임"></a>
+
+[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122882602663124992-7fe424c3649edbe814fc.mp4)
+
+Type: Evaluation | Date: 2026-11-18
+
+---
+
+<a id="case-78"></a>
+### 사례 78: [소코반 방 테스트 세트 완주](https://x.com/banteg/status/2122826622638137666) (작성자 [@banteg](https://x.com/banteg))
+
+**통과한 방 수를 기록하고 플레이를 돌려 보며 막히는 구간을 찾는다.**
+
+작성자는 Sol과 Astra를 medium으로 테스트했다. 두 모델 모두 이번에 66개 방을 모두 통과했으며, 게시 당시 작성자 순위표에서 Sol은 2위, Astra는 3위였다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122826155086512128-d2a8456da3a5a99263f5.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-78/2122826155086512128-poster-4a2c4bee2b8d9510e347.jpg" width="640" alt="소스 미리보기 1 · 소코반 방 테스트 세트 완주"></a>
+
+[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122826155086512128-d2a8456da3a5a99263f5.mp4)
+
+Type: Benchmark | Date: 2026-11-17
+
+---
+
+<a id="case-93"></a>
+### 사례 93: [RuneScape 퀘스트 두 개 완료](https://x.com/maxbittker/status/2122783334216466487) (작성자 [@maxbittker](https://x.com/maxbittker))
+
+**에이전트가 고른 퀘스트와 수령한 보상을 확인한다.**
+
+벤치마크 관리자는 Sol과 Astra가 각각 한 번의 실행에서 퀘스트 두 개에 도전하고 양쪽 보상을 수령했다고 보고했다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-93/2122782503542960128-31be885019f467cb7472.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-93/2122782503542960128-31be885019f467cb7472.jpg" width="640" alt="소스 미리보기 1 · RuneScape 퀘스트 두 개 완료"></a>
+
+Type: Benchmark | Date: 2026-11-17
+
+---
+
+<a id="case-95"></a>
+### 사례 95: [터치 조작을 지원하는 멀티플레이어 브라우저 게임](https://x.com/VraserX/status/2122770481975837145) (작성자 [@VraserX](https://x.com/VraserX))
+
+**새 빌드를 플레이하며 조작 방식의 개선점을 구체적으로 전달한다.**
+
+개발자는 터치 조작을 포함해 빌드를 테스트하면서 Sol을 사용해 16대16 프로토타입을 구현하고 디버깅하고 수정했다고 보고했다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122770342842077184-c89268a9c06156333c45.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-95/2122770342842077184-poster-c5a1ebf986d6362bd35d.jpg" width="640" alt="소스 미리보기 1 · 터치 조작을 지원하는 멀티플레이어 브라우저 게임"></a>
+
+[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122770342842077184-c89268a9c06156333c45.mp4)
+
+Type: Demo | Date: 2026-11-17
+
+---
+
+<a id="case-97"></a>
+### 사례 97: [마을을 건설하는 브라우저 게임 Lanternkeep](https://x.com/AdamHoltererer/status/2122766741881413818) (작성자 [@AdamHoltererer](https://x.com/AdamHoltererer))
+
+**지도와 목표 패널이 마을을 건설하는 과정에 어떻게 쓰이는지 확인한다.**
+
+제작자는 Sol로 게임을 만들었다고 밝혔다. 녹화에는 조작할 수 있는 마을 지도와 목표 패널이 나온다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122766701477367808-c628e4fc3e8c14dc15d8.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-97/2122766701477367808-poster-50e4bfea19c965f6d231.jpg" width="640" alt="소스 미리보기 1 · 마을을 건설하는 브라우저 게임 Lanternkeep"></a>
+
+[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122766701477367808-c628e4fc3e8c14dc15d8.mp4)
+
+Type: Demo | Date: 2026-11-17
+
+---
+
+<a id="case-99"></a>
+### 사례 99: [스크린샷만으로 포켓몬 파이어레드 플레이](https://x.com/Clad3815/status/2122763941675995209) (작성자 [@Clad3815](https://x.com/Clad3815))
+
+**게임 에이전트의 주요 진행 지점과 완료 시간을 기록한다.**
+
+테스트 담당자는 스크린샷을 입력으로 사용하고 추론 강도를 high로 설정했다고 보고했다. 이 테스트에서 Sol은 15시간 34분이 걸렸으며 첫 체육관 관장에게 Astra보다 먼저 도달했다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-99/2122763933345890304-ffe6b4053f347b1d4d5f.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-99/2122763933345890304-ffe6b4053f347b1d4d5f.jpg" width="640" alt="소스 미리보기 1 · 스크린샷만으로 포켓몬 파이어레드 플레이"></a>
+
+Type: Benchmark | Date: 2026-11-17
+
+---
+
+<a id="case-67"></a>
+### 사례 67: [해안 도로 레이싱 게임 시제품](https://x.com/Stargridcompass/status/2119683294220390638) (작성자 [@Stargridcompass](https://x.com/Stargridcompass))
+
+**경주 중 카운트다운, 속도 표시, 코스 지도를 읽기 쉬운지 확인해 보세요.**
+
+녹화에는 출발 대열과 경주 중인 모습이 나옵니다. 작성자는 제작에 16분이 걸렸다고 밝혔습니다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119682250472112128-81f053c6ffe2a4aae055.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-67/2119682250472112128-poster-526c85969a54c7f93833.jpg" width="640" alt="소스 미리보기 1 · 해안 도로 레이싱 게임 시제품"></a>
+
+[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119682250472112128-81f053c6ffe2a4aae055.mp4)
+
+Type: Demo | Date: 2026-11-09
+
+---
+
+<a id="case-62"></a>
+### 사례 62: [브라우저 속 루빅스 큐브](https://x.com/VeknQAQ/status/2119633751173173475) (작성자 [@VeknQAQ](https://x.com/VeknQAQ))
+
+**미리보기에서 큐브의 회전과 스티커 배치를 확인해 보세요.**
+
+녹화에는 맞춰진 상태와 뒤섞인 상태의 3D 큐브, 브라우저 조작 버튼이 나옵니다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119633608680124416-44e5b8b00d129caeba34.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-62/2119633608680124416-poster-1ea9e2acda539d582293.jpg" width="640" alt="소스 미리보기 1 · 브라우저 속 루빅스 큐브"></a>
+
+[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119633608680124416-44e5b8b00d129caeba34.mp4)
+
+Type: Demo | Date: 2026-11-09
+
+---
+
+<a id="case-17"></a>
+### 사례 17: [PELICAN PANIC 복셀 추격 게임](https://x.com/Ananth7e/status/2119479157633786246) (작성자 [@Ananth7e](https://x.com/Ananth7e))
+
+**컨트롤, 피드백, 종료 상태를 검사하려면 짧은 추격 게임을 사용하세요.**
+
+영상에는 펠리컨을 타고 감자 괴물을 피해 탈출하는 라이더의 모습이 담겨 있습니다. 점수와 탈출 완료 화면 「Escaped」이 표시됩니다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119478839500013568-2ec29cee42e54d0bf9c5.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-17/2119478839500013568-poster-3716db2a9abc6cf0e264.jpg" width="640" alt="소스 미리보기 1 · PELICAN PANIC 복셀 추격 게임"></a>
+
+[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119478839500013568-2ec29cee42e54d0bf9c5.mp4)
+
+
+Type: Demo | Date: 2026-11-08
 
 ---
 
 <a id="category-three"></a>
 ## 🧊 3D 장면 및 모델링
+
+<a id="case-162"></a>
+### 사례 162: [실내 사진으로 아파트 평면도 만들기](https://x.com/andonlabs/status/2123570732575989832) (작성자 [@andonlabs](https://x.com/andonlabs))
+
+**에이전트가 사진을 보고 방 배치를 추론할 수 있는지 측정한다.**
+
+Andon Labs는 Blueprint-Bench 2에서 Sol이 정규화 점수 0.570을 기록했다고 보고했다. 공개 당시 차트에 나온 모델 중 Sol은 3위였다.
+
+[벤치마크 상세 정보](https://andonlabs.com/evals/blueprint-bench-2)
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-162/2123570697356390400-74a2a8af091dad776138.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-162/2123570697356390400-74a2a8af091dad776138.jpg" width="640" alt="소스 미리보기 1 · 실내 사진으로 아파트 평면도 만들기"></a>
+
+Type: Benchmark | Date: 2026-11-20
+
+---
+
+<a id="case-164"></a>
+### 사례 164: [본사 건물 디자인 두 가지](https://x.com/jan_volad/status/2123529633844879477) (작성자 [@jan_volad](https://x.com/jan_volad))
+
+**같은 개방형 설계 지시로 나온 건물과 카메라 시점을 비교한다.**
+
+모델명이 표시된 영상에서 두 가지 본사 건물 디자인을 볼 수 있다. 제작자는 Gemini 4 Neon의 외관을 선호했고, 비용은 Sol이 1.19달러, Neon이 2.61달러였다고 보고했다.
+
+**프롬프트:**
+
+```
+Build your own headquarters
+```
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123523468025069568-e5f5716ef9794c04b495.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-164/2123523468025069568-poster-35221930908b5b178e94.jpg" width="640" alt="소스 미리보기 1 · 본사 건물 디자인 두 가지"></a>
+
+[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123523468025069568-e5f5716ef9794c04b495.mp4)
+
+Type: Evaluation | Date: 2026-11-19
+
+---
+
+<a id="case-167"></a>
+### 사례 167: [Xplore의 엔지니어링 설계 벤치마크에서 Sol 평가](https://x.com/XploreAi/status/2123456169788555422) (작성자 [@XploreAi](https://x.com/XploreAi))
+
+**CAD 작업이 포함된 평가 세트에서 작업 점수와 실행당 비용을 비교한다.**
+
+Xplore는 GPT-6.2 Sol이 30%, GPT-6.1 Sol이 25%를 기록했다고 보고했다. 최신 Sol의 실행당 비용은 이전 모델의 40%였다.
+
+[벤치마크 상세 정보](https://xplore.ai/rwe-bench)
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123454467416748032-0542ed2a155c44a57654.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-167/2123454467416748032-poster-6de6e49c380dfa06ad2c.jpg" width="640" alt="소스 미리보기 1 · Xplore의 엔지니어링 설계 벤치마크에서 Sol 평가"></a>
+
+[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123454467416748032-0542ed2a155c44a57654.mp4)
+
+Type: Benchmark | Date: 2026-11-19
+
+---
+
+<a id="case-168"></a>
+### 사례 168: [Ruby Ascent 발사대 장면](https://x.com/EnvolDev/status/2123453245548794030) (작성자 [@EnvolDev](https://x.com/EnvolDev))
+
+**동일한 발사대를 묘사한 네 결과에서 장면의 디테일과 제작 시간을 비교한다.**
+
+제작자는 가상의 발사 장면 네 개를 공개했다. Sol은 48분 27초와 3.01달러가 들었으며 Astra 실행은 41분 09초가 걸렸다고 보고했다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123312658019667970-026b844d7ffb2853eec4.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-168/2123312658019667970-poster-ccc5a8cfadb2acebbe33.jpg" width="640" alt="소스 미리보기 1 · Ruby Ascent 발사대 장면"></a>
+
+[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123312658019667970-026b844d7ffb2853eec4.mp4)
+
+Type: Evaluation | Date: 2026-11-19
+
+---
+
+<a id="case-171"></a>
+### 사례 171: [같은 원본 영상으로 만든 3D 애니메이션](https://x.com/erhanmeydan/status/2123435530033447405) (작성자 [@erhanmeydan](https://x.com/erhanmeydan))
+
+**정해진 스타일에서 다섯 모델이 동일한 구간을 어떻게 영상으로 표현하는지 비교한다.**
+
+제작자는 Kilnframe에서 동일한 14초짜리 영상으로 다섯 모델을 테스트했다. Sol은 3.8분에 0.35달러로 3D 장면을 만들었다. 제작자는 이 결과를 다섯 개 중 가장 낮게 평가했다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123434213122711552-8660e900d89ad65142bf.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-171/2123434213122711552-poster-381090e34216e2c00c2e.jpg" width="640" alt="소스 미리보기 1 · 같은 원본 영상으로 만든 3D 애니메이션"></a>
+
+[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123434213122711552-8660e900d89ad65142bf.mp4)
+
+Type: Evaluation | Date: 2026-11-19
+
+---
+
+<a id="case-172"></a>
+### 사례 172: [부르즈 할리파 꼭대기를 한 바퀴 도는 영상](https://x.com/teddyaisi/status/2123423017015652426) (작성자 [@teddyaisi](https://x.com/teddyaisi))
+
+**모델마다 탑 상부의 단차와 정상부를 어떻게 구현하는지 살핀다.**
+
+제작자는 세 모델에 같은 Three.js 과제를 주고 360도 회전 영상을 녹화했다. 가운데 패널이 Sol의 결과이며 제작에 1시간 16분 44초가 걸렸다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123422807560429568-534d2b71e433fc51c70b.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-172/2123422807560429568-poster-9bf3e668ad3e737314f2.jpg" width="640" alt="소스 미리보기 1 · 부르즈 할리파 꼭대기를 한 바퀴 도는 영상"></a>
+
+[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123422807560429568-534d2b71e433fc51c70b.mp4)
+
+Type: Evaluation | Date: 2026-11-19
+
+---
 
 <a id="case-125"></a>
 ### 사례 125: [Arena의 Astra와 Sol 비교 영상](https://x.com/arena/status/2123221208619769903) (작성자 [@arena](https://x.com/arena))
@@ -1619,8 +2629,125 @@ Type: Demo | Date: 2026-11-08
 
 ---
 
+<a id="category-communication"></a>
+## 💬 컴퓨터 사용 및 통신
+
+<a id="case-166"></a>
+### 사례 166: [Legora의 11월 법률 문서 벤치마크](https://x.com/WeAreLegora/status/2123460359017144769) (작성자 [@WeAreLegora](https://x.com/WeAreLegora))
+
+**같은 실무 과제에서 결과의 품질과 건당 비용을 비교한다.**
+
+Legora는 Sol의 품질이 평균을 넘었으며 건당 비용은 11월 모델 평균보다 78% 낮았다고 보고했다. 차트에서 모델별 결과를 비교할 수 있다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123460256260870144-6da8a1113b471ce42386.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-166/2123460256260870144-poster-5c1a0e947f184ffb782e.jpg" width="640" alt="소스 미리보기 1 · Legora의 11월 법률 문서 벤치마크"></a>
+
+[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123460256260870144-6da8a1113b471ce42386.mp4)
+
+Type: Benchmark | Date: 2026-11-19
+
+---
+
+<a id="case-170"></a>
+### 사례 170: [AI Village에서 각자 답한 프로필 질문](https://x.com/aidigest_/status/2123446497442447399) (작성자 [@aidigest_](https://x.com/aidigest_))
+
+**두 에이전트가 같은 프로필 질문지에 독립적으로 어떻게 답하는지 비교한다.**
+
+AI Digest는 AI Village에 Sol과 Astra를 추가하고 15개 질문에 대한 답을 공개했다. 둘 다 Tampopo, Onitsuka Tiger 신발, 파를 넣은 팬케이크를 골랐다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-170/2123446488605114368-ecc6833b877fae0e1433.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-170/2123446488605114368-ecc6833b877fae0e1433.jpg" width="640" alt="소스 미리보기 1 · AI Village에서 각자 답한 프로필 질문"></a>
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-170/2123446492765798400-c64a85a5d0d85d04cf39.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-170/2123446492765798400-c64a85a5d0d85d04cf39.jpg" width="640" alt="소스 미리보기 2 · AI Village에서 각자 답한 프로필 질문"></a>
+
+Type: Integration | Date: 2026-11-19
+
+---
+
+<a id="case-124"></a>
+### 사례 124: [저장소 지침을 놓친 풀 리퀘스트 상태 보고서](https://x.com/Fei2411/status/2123354076771692631) (작성자 [@Fei2411](https://x.com/Fei2411))
+
+**짧은 상태 보고 요청에 대한 답변의 구체성과 구성을 비교한다.**
+
+작성자는 Sol과 Gemini 4 Neon에 같은 풀 리퀘스트 보고를 요청했다. Sol의 요약이 지나치게 간략했고 AGENTS.md의 지침도 따르지 않았다고 밝혔다.
+
+**프롬프트:**
+
+```
+现在有哪些pr
+```
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-124/2123354068013993984-19d626fb5c30bc9b2a19.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-124/2123354068013993984-19d626fb5c30bc9b2a19.jpg" width="640" alt="소스 미리보기 1 · 저장소 지침을 놓친 풀 리퀘스트 상태 보고서"></a>
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-124/2123354067988824064-5ec42709de761e85172e.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-124/2123354067988824064-5ec42709de761e85172e.jpg" width="640" alt="소스 미리보기 2 · 저장소 지침을 놓친 풀 리퀘스트 상태 보고서"></a>
+
+Type: Limit | Date: 2026-11-19
+
+---
+
+<a id="case-141"></a>
+### 사례 141: [AITuber OnAir에서 캐릭터와 대화](https://x.com/shinshin86/status/2123040784710869031) (작성자 [@shinshin86](https://x.com/shinshin86))
+
+**실시간 캐릭터 대화에서 추론 강도를 조절해 본다.**
+
+개발자는 AITuber OnAir에 Sol을 추가하고 대화를 시연했다. 대화 속도를 고려해 기본 추론 강도는 low이며 사용자가 이를 조절할 수 있다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123040557064966144-63e1c247fbe9574434f1.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-141/2123040557064966144-poster-096943e3ee853b4f4a62.jpg" width="640" alt="소스 미리보기 1 · AITuber OnAir에서 캐릭터와 대화"></a>
+
+[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123040557064966144-63e1c247fbe9574434f1.mp4)
+
+Type: Integration | Date: 2026-11-18
+
+---
+
+<a id="case-155"></a>
+### 사례 155: [FrontDesk-Bench의 모의 병원 전화 응대](https://x.com/muratcan/status/2122914581454487838) (작성자 [@muratcan](https://x.com/muratcan))
+
+**안전하지 않은 조치와 정당한 요청에 대한 거절을 따로 집계한다.**
+
+벤치마크 개발자는 모의 접수 테스트에서 Sol의 안전하지 않은 응대가 16건에서 9건으로 줄었다고 보고했다. 신형 모델에서 정당한 요청을 거절한 사례도 늘었다고 밝혔다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-155/2122905857700585472-c7658e9ed55fe97f9cbb.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-155/2122905857700585472-c7658e9ed55fe97f9cbb.jpg" width="640" alt="소스 미리보기 1 · FrontDesk-Bench의 모의 병원 전화 응대"></a>
+
+Type: Benchmark | Date: 2026-11-18
+
+---
+
+<a id="case-43"></a>
+### 사례 43: [메시지를 전달하려는 아직 끝나지 않은 시도](https://x.com/SadAlbert10/status/2119428297092460613) (작성자 [@SadAlbert10](https://x.com/SadAlbert10))
+
+**데스크톱 워크플로가 중지된 위치를 확인하는 시도를 사용하세요.**
+
+스크린샷은 메시지 전달 요청 후 수신자를 찾으려는 시도를 보여줍니다. 메시지가 전송되기 전에 작업이 종료되었습니다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-43/2119428121711775744-8419b4e0c62aa252d1dc.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-43/2119428121711775744-8419b4e0c62aa252d1dc.jpg" width="640" alt="소스 미리보기 1 · 메시지를 전달하려는 아직 끝나지 않은 시도"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-43/2119428270945140736-f9662043dadb9a6e4b1b.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-43/2119428270945140736-f9662043dadb9a6e4b1b.jpg" width="640" alt="소스 미리보기 2 · 메시지를 전달하려는 아직 끝나지 않은 시도"></a>
+
+Type: Limit | Date: 2026-11-08
+
+---
+
 <a id="category-web"></a>
 ## 🌐 웹사이트 및 인터페이스
+
+<a id="case-174"></a>
+### 사례 174: [바위 해안의 등대를 담은 웹페이지](https://x.com/aapakari/status/2123407849829404984) (작성자 [@aapakari](https://x.com/aapakari))
+
+**제작 지시와 추론 강도를 맞추고 한 번의 응답으로 만든 웹페이지 두 개를 비교한다.**
+
+제작자는 추론 강도를 high로 설정해 얻은 두 결과를 편집 없이 공개했다. Sol은 4분 3초, Gemini 4 Neon은 3분 38초가 걸렸다.
+
+**프롬프트:**
+
+```
+a lighthouse on a rocky coast at night
+```
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123407701489115136-64e4f54ea3929e2715d5.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-174/2123407701489115136-poster-f4e964cd56cbdeae0d6d.jpg" width="640" alt="소스 미리보기 1 · 바위 해안의 등대를 담은 웹페이지"></a>
+
+[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123407701489115136-64e4f54ea3929e2715d5.mp4)
+
+Type: Evaluation | Date: 2026-11-19
+
+---
 
 <a id="case-128"></a>
 ### 사례 128: [뉴욕 피자 가게의 랜딩 페이지](https://x.com/eliadele/status/2123162596790718674) (작성자 [@eliadele](https://x.com/eliadele))
@@ -1879,849 +3006,6 @@ Type: Evaluation | Date: 2026-11-08
 
 ---
 
-<a id="category-graphics"></a>
-## 🎨 창의적인 그래픽과 애니메이션
-
-<a id="case-130"></a>
-### 사례 130: [3분 만에 만든 사실적인 낙엽](https://x.com/RezAIT00/status/2123121274431897803) (작성자 [@RezAIT00](https://x.com/RezAIT00))
-
-**제한 시간 안에 모델이 소재와 코드를 어떻게 결합하는지 확인한다.**
-
-제작자는 Sol xhigh Ultrafast가 온라인에서 소재를 찾고, 이미지를 생성하고, 코드를 작성해 낙엽이 떨어지는 애니메이션을 만들었다고 설명했다.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123120923666423808-a00f9b04f9a3d9061acf.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-130/2123120923666423808-poster-97ccbaaf84c4bcfaee1b.jpg" width="640" alt="소스 미리보기 1 · 3분 만에 만든 사실적인 낙엽"></a>
-
-[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123120923666423808-a00f9b04f9a3d9061acf.mp4)
-
-Type: Demo | Date: 2026-11-18
-
----
-
-<a id="case-134"></a>
-### 사례 134: [반복 재생되는 픽셀 아트 러너](https://x.com/rotejin/status/2123099481101205676) (작성자 [@rotejin](https://x.com/rotejin))
-
-**흘러가는 배경을 두고 캐릭터의 달리기 동작이 끊김 없이 반복되는지 살핀다.**
-
-제작자는 Sol에 움직이는 픽셀 아트를 요청했다. 첨부한 반복 영상에는 해 질 녘을 배경으로 캐릭터가 실루엣을 드러내며 달리는 모습이 담겼다.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123098773459283968-5897570c940b051711a4.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-134/2123098773459283968-poster-e96bd6c94b068883b1a1.jpg" width="640" alt="소스 미리보기 1 · 반복 재생되는 픽셀 아트 러너"></a>
-
-[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123098773459283968-5897570c940b051711a4.mp4)
-
-Type: Demo | Date: 2026-11-18
-
----
-
-<a id="case-145"></a>
-### 사례 145: [2인승 자전거를 그린 SVG 애니메이션](https://x.com/marcthecreatorr/status/2123004538974294470) (작성자 [@marcthecreatorr](https://x.com/marcthecreatorr))
-
-**두 코딩 도구가 같은 SVG 소재를 어떻게 그리고 움직이게 하는지 비교한다.**
-
-제작자에 따르면 Codex CLI에서 실행한 Sol은 약 46분과 1.90달러, Claude Code에서 실행한 Opus 5.5는 약 1시간과 18달러가 들었다.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123002351422181377-2a6725e05299e1972940.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-145/2123002351422181377-poster-c6f5ed83f95c549068d4.jpg" width="640" alt="소스 미리보기 1 · 2인승 자전거를 그린 SVG 애니메이션"></a>
-
-[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123002351422181377-2a6725e05299e1972940.mp4)
-
-Type: Evaluation | Date: 2026-11-18
-
----
-
-<a id="case-152"></a>
-### 사례 152: [Ultrafast 영상 편집 시간 측정](https://x.com/op7418/status/2122925281514303836) (작성자 [@op7418](https://x.com/op7418))
-
-**편집 전체의 경과 시간과 모델 응답 시간을 구분해 기록한다.**
-
-제작자는 8분 분량의 영상 편집에 총 27분이 걸렸고, 그중 Sol의 응답 시간은 약 14분이었다고 보고했다. 첨부 이미지에서 측정 결과를 확인할 수 있다.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-152/2122925011057209345-502d3dadda839363aabd.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-152/2122925011057209345-502d3dadda839363aabd.jpg" width="640" alt="소스 미리보기 1 · Ultrafast 영상 편집 시간 측정"></a>
-
-Type: Benchmark | Date: 2026-11-18
-
----
-
-<a id="case-153"></a>
-### 사례 153: [Remotion으로 만든 손글씨 서명 애니메이션](https://x.com/aura_uniiiii/status/2122915684086849611) (작성자 [@aura_uniiiii](https://x.com/aura_uniiiii))
-
-**Max로 실행한 두 모델이 같은 개인 서명을 어떻게 움직이게 하는지 비교한다.**
-
-제작자는 Sol과 Astra에 자신의 서명을 Remotion 영상으로 만들어 달라고 요청했다. 두 결과 영상을 함께 공개했다.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122913982898143232-edb073cf9b2bb51a5faf.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-153/2122913982898143232-poster-d1cd5c4dd99e8cdeb3c4.jpg" width="640" alt="소스 미리보기 1 · Remotion으로 만든 손글씨 서명 애니메이션"></a>
-
-[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122913982898143232-edb073cf9b2bb51a5faf.mp4)
-
-Type: Evaluation | Date: 2026-11-18
-
----
-
-<a id="case-79"></a>
-### 사례 79: [15초 모션 디자인 과제](https://x.com/Leviwoyun/status/2122846422676701267) (작성자 [@Leviwoyun](https://x.com/Leviwoyun))
-
-**두 모델에 같은 과제를 주고 타이포그래피, 전환과 움직임을 비교한다.**
-
-제작자는 영상 두 편과 원본 프롬프트를 공개했다. 하나는 회전하는 접힌 종이 형태를 중심으로 하고, 다른 하나는 신호 표시에서 보라색 기하학 형태로 전환된다.
-
-**프롬프트:**
-
-```
-制作一段 15 秒的动态图形视频，展示你是一位多么出色的动态设计师，就像是你简历上的作品集一样，使用任何你认为能产出最佳效果的工具或技术。你拥有完全的创作自由，优先追求卓越的视觉设计、大胆的艺术指导、引人注目的构图和富有力量的动态表现，让每一秒都有价值。全力以赴。
-```
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122845749499310081-01cb8b6073d8916e9b09.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-79/2122845749499310081-poster-1159d01955e99da02391.jpg" width="640" alt="소스 미리보기 1 · 15초 모션 디자인 과제"></a>
-
-[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122845749499310081-01cb8b6073d8916e9b09.mp4)
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122846110117183488-30f1277d34e59656f484.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-79/2122846110117183488-poster-7b07819920bd6a3fe88d.jpg" width="640" alt="소스 미리보기 2 · 15초 모션 디자인 과제"></a>
-
-[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122846110117183488-30f1277d34e59656f484.mp4)
-
-Type: Evaluation | Date: 2026-11-18
-
----
-
-<a id="case-88"></a>
-### 사례 88: [두 모델로 표현한 질주하는 말](https://x.com/jony_palino/status/2122796926961647919) (작성자 [@jony_palino](https://x.com/jony_palino))
-
-**반복 동작 한 주기를 보며 다리 움직임과 보폭을 비교한다.**
-
-영상은 Astra와 Sol이 만든 말에 모델명을 붙이고, 두 말이 달리는 모습을 나란히 보여 준다.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122781224338939905-9fac5a374f5ddc54f8a8.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-88/2122781224338939905-poster-b06065421603cc7f6f6c.jpg" width="640" alt="소스 미리보기 1 · 두 모델로 표현한 질주하는 말"></a>
-
-[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122781224338939905-9fac5a374f5ddc54f8a8.mp4)
-
-Type: Evaluation | Date: 2026-11-17
-
----
-
-<a id="case-74"></a>
-### 사례 74: [코드로 만든 불과 소리](https://x.com/camperaigg/status/2122794828266377538) (작성자 [@camperaigg](https://x.com/camperaigg))
-
-**모션 결과물을 비교할 때 비용, 생성 시간과 함께 결과물 길이도 기록한다.**
-
-제작자는 영상과 소리를 코드로 생성한 xhigh 실행 두 건을 비교했다. Sol은 12분과 0.73달러를 들여 12초 영상을, Opus 5.5는 85분과 18.40달러를 들여 24초 영상을 만들었다고 한다.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122794767960752128-e2e19e403efea0d778cc.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-74/2122794767960752128-poster-5dc5e43235499f8378cf.jpg" width="640" alt="소스 미리보기 1 · 코드로 만든 불과 소리"></a>
-
-[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122794767960752128-e2e19e403efea0d778cc.mp4)
-
-Type: Evaluation | Date: 2026-11-17
-
----
-
-<a id="case-94"></a>
-### 사례 94: [코드로 만든 900프레임 애니메이션](https://x.com/morsenxxx/status/2122771021828948464) (작성자 [@morsenxxx](https://x.com/morsenxxx))
-
-**캐릭터, 움직임, 사운드가 최종 결과물에 어떻게 반영되는지 살핀다.**
-
-제작자는 캐릭터, 애니메이션, 사운드트랙을 코드로 생성했다고 보고했다. 공개된 결과물의 길이는 30초다.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122768959980118016-519fd034e8c095b6bc01.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-94/2122768959980118016-poster-ef4789678264a50b8b9f.jpg" width="640" alt="소스 미리보기 1 · 코드로 만든 900프레임 애니메이션"></a>
-
-[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122768959980118016-519fd034e8c095b6bc01.mp4)
-
-Type: Demo | Date: 2026-11-17
-
----
-
-<a id="case-98"></a>
-### 사례 98: [움직이는 바나나 일러스트](https://x.com/AdamHoltererer/status/2122765119835029581) (작성자 [@AdamHoltererer](https://x.com/AdamHoltererer))
-
-**단순한 소재로 모델이 움직임과 캐릭터를 어떻게 더하는지 살핀다.**
-
-제작자가 공유한 Sol의 바나나 테스트에서는 그림 속 바나나가 캐릭터가 움직이는 장면의 일부가 된다.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122765018739441664-63474f1acf4d1d5e18b1.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-98/2122765018739441664-poster-a235f39f622e3848c495.jpg" width="640" alt="소스 미리보기 1 · 움직이는 바나나 일러스트"></a>
-
-[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122765018739441664-63474f1acf4d1d5e18b1.mp4)
-
-Type: Demo | Date: 2026-11-17
-
----
-
-<a id="case-101"></a>
-### 사례 101: [단일 HTML 파일에 담은 자전거 타는 펠리컨](https://x.com/Super_Nius/status/2122760765174391124) (작성자 [@Super_Nius](https://x.com/Super_Nius))
-
-**같은 SVG 제작 지시로 만든 결과의 새와 자전거 움직임을 나란히 살핀다.**
-
-제작자는 프롬프트를 공개하고 6.2와 6.1의 결과를 비교했다. Sol의 표현은 소폭 달라졌다고 보고했다.
-
-**프롬프트:**
-
-```
-创建一个HTML文件，使用SVG绘制一只鹈鹕3D骑自行车的动画。输出单文件HTML。
-```
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122760254945673216-c6b375b036ac15cc3a2b.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-101/2122760254945673216-poster-d0903f87dd4ac9dee18a.jpg" width="640" alt="소스 미리보기 1 · 단일 HTML 파일에 담은 자전거 타는 펠리컨"></a>
-
-[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122760254945673216-c6b375b036ac15cc3a2b.mp4)
-
-Type: Evaluation | Date: 2026-11-17
-
----
-
-<a id="case-103"></a>
-### 사례 103: [Ultra 강도로 만든 두 편의 막대인간 애니메이션](https://x.com/DanielZambrini/status/2122759375337214121) (작성자 [@DanielZambrini](https://x.com/DanielZambrini))
-
-**같은 애니메이션 제작 지시를 반복해 실행 간 차이를 살핀다.**
-
-제작자는 Ultra로 설정한 Sol의 실행 결과 두 개를 공개하고 각각 13분과 12분이 걸렸다고 보고했다.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122758829104328704-4fe90331a8b43e8cc76c.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-103/2122758829104328704-poster-2e025ca80aa35e6c9676.jpg" width="640" alt="소스 미리보기 1 · Ultra 강도로 만든 두 편의 막대인간 애니메이션"></a>
-
-[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122758829104328704-4fe90331a8b43e8cc76c.mp4)
-
-Type: Evaluation | Date: 2026-11-17
-
----
-
-<a id="case-123"></a>
-### 사례 123: [추론 강도별 펠리컨 SVG](https://news.ycombinator.com/item?id=50535742) (작성자 [@simonw](https://news.ycombinator.com/user?id=simonw))
-
-**추론 강도에 따라 페달, 발, 자전거 프레임의 위치가 어떻게 맞물리는지 확인한다.**
-
-Simon Willison은 동일한 SVG 제작 프롬프트를 여섯 모델과 여러 추론 강도에서 실행하고 결과를 표로 공개했다. 토론에서는 Sol의 Max 결과에서 다리가 체인과 겹치는 점이 지적됐다.
-
-**프롬프트:**
-
-```
-Generate an SVG of a pelican riding a bicycle
-```
-
-[전체 SVG 비교표](https://static.simonwillison.net/static/2026/openai-pelicans-november-2026.html)
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-123/50535742-grid-7d953958cc033d468770.webp"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-123/50535742-grid-7d953958cc033d468770.webp" width="640" alt="소스 미리보기 1 · 추론 강도별 펠리컨 SVG"></a>
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-123/50535742-astra-3d77dc7c6001b9a03061.webp"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-123/50535742-astra-3d77dc7c6001b9a03061.webp" width="640" alt="소스 미리보기 2 · 추론 강도별 펠리컨 SVG"></a>
-
-*Max에서 생성한 GPT-6.2 Astra 결과*
-
-Type: Evaluation | Date: 2026-11-17
-
----
-
-<a id="case-110"></a>
-### 사례 110: [Sol, Opus, Qwen으로 구현한 빗속의 자전거 배달](https://x.com/Stargridcompass/status/2122184571269853307) (작성자 [@Stargridcompass](https://x.com/Stargridcompass))
-
-**세 결과의 야경과 자전거 움직임을 비교한다.**
-
-제작자는 펠리컨 배달원을 그린 결과 세 개에 모델명을 붙여 공개했다. 이 비교에서는 Opus 5.5 결과를 선호했다.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122183328228909056-562a9b17b2bc7222fb58.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-110/2122183328228909056-poster-9550a8f62aa13cde8a3a.jpg" width="640" alt="소스 미리보기 1 · Sol, Opus, Qwen으로 구현한 빗속의 자전거 배달"></a>
-
-[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122183328228909056-562a9b17b2bc7222fb58.mp4)
-
-Type: Evaluation | Date: 2026-11-16
-
----
-
-<a id="case-112"></a>
-### 사례 112: [빗속에서 자전거로 음식을 배달하는 펠리컨](https://x.com/Stargridcompass/status/2121543669882745007) (작성자 [@Stargridcompass](https://x.com/Stargridcompass))
-
-**반사, 웅덩이, 도로 시설물, 움직이는 배경을 각각 확인한다.**
-
-제작자는 비 오는 날의 배달 장면에서 Sol과 Fable 5.2를 비교했다. 웅덩이와 반사 표현은 Sol 버전을 더 선호했다.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2121535105013334016-7271e00bcbdb0a0caf42.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-112/2121535105013334016-poster-4a1d19351363ee575584.jpg" width="640" alt="소스 미리보기 1 · 빗속에서 자전거로 음식을 배달하는 펠리컨"></a>
-
-[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2121535105013334016-7271e00bcbdb0a0caf42.mp4)
-
-Type: Evaluation | Date: 2026-11-14
-
----
-
-<a id="case-114"></a>
-### 사례 114: [한낮에 자전거를 타는 펠리컨의 두 가지 결과](https://x.com/Stargridcompass/status/2121505035976597773) (작성자 [@Stargridcompass](https://x.com/Stargridcompass))
-
-**동작의 품질과 실행 시간을 함께 비교한다.**
-
-제작자는 같은 지시를 받은 Sol과 Gemini 4 Hydrogen의 결과를 공개했다. 실행 시간은 Sol이 13분, Hydrogen이 3분이었다고 보고했다.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2121503397702459392-e951142e407012e2ef01.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-114/2121503397702459392-poster-2f40d730171de43b3581.jpg" width="640" alt="소스 미리보기 1 · 한낮에 자전거를 타는 펠리컨의 두 가지 결과"></a>
-
-[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2121503397702459392-e951142e407012e2ef01.mp4)
-
-Type: Evaluation | Date: 2026-11-14
-
----
-
-<a id="case-118"></a>
-### 사례 118: [SVG로 움직이는 검술 결투](https://x.com/kdnbmb/status/2120537324488450050) (작성자 [@kdnbmb](https://x.com/kdnbmb))
-
-**동작 타이밍과 윤곽이 벡터 애니메이션에 어떻게 생동감을 주는지 확인한다.**
-
-제작자는 코드로 만든 애니메이션을 Sol을 한 번 실행해 얻었으며 약 18분이 걸렸다고 보고했다.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2120537298286608384-168cc4ec913763fba163.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-118/2120537298286608384-poster-7749116f725da65b0420.jpg" width="640" alt="소스 미리보기 1 · SVG로 움직이는 검술 결투"></a>
-
-[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2120537298286608384-168cc4ec913763fba163.mp4)
-
-Type: Demo | Date: 2026-11-11
-
----
-
-<a id="case-120"></a>
-### 사례 120: [SVG로 그린 사진 같은 풍경](https://x.com/kdnbmb/status/2120193707987317053) (작성자 [@kdnbmb](https://x.com/kdnbmb))
-
-**자연 풍경을 벡터로 그렸을 때 어떤 세부 표현이 남는지 살핀다.**
-
-제작자는 Max로 설정한 Sol에 사진처럼 보이는 자연 풍경 SVG를 요청하고 렌더링 결과를 공유했다.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-120/2120193470002241536-2e471c1c74dabf15e6eb.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-120/2120193470002241536-2e471c1c74dabf15e6eb.jpg" width="640" alt="소스 미리보기 1 · SVG로 그린 사진 같은 풍경"></a>
-
-Type: Demo | Date: 2026-11-10
-
----
-
-<a id="case-60"></a>
-### 사례 60: [손오공의 대요천궁 SVG 비교](https://x.com/xbquan/status/2119581984989364514) (작성자 [@xbquan](https://x.com/xbquan))
-
-**같은 손오공 장면을 세 시스템이 어떻게 구성했는지 비교해 보세요.**
-
-작성자는 세 이미지를 최고 설정의 GPT-6.2 Sol, Qoder의 QoDuck, WorkBuddy의 HY4 순으로 표시했습니다. 작성자가 답글에 공개한 프롬프트는 SVG 한 버전만 만들고 스크린샷으로 확인하지 말라고 요구합니다.
-
-[원문 프롬프트를 공개한 작성자 답글](https://x.com/xbquan/status/2119582058922316169)
-
-**프롬프트:**
-
-```
-用尽你的一切能力，用代码画一张孙悟空的大闹天宫名场面的svg图片，我想要尽可能的还原，只能画一版，不准截图检查。
-```
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-60/2119580835200516096-1e4e7a136e429b696a7a.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-60/2119580835200516096-1e4e7a136e429b696a7a.jpg" width="640" alt="소스 미리보기 1 · 손오공의 대요천궁 SVG 비교"></a>
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-60/2119581876805640192-01552031d537dc13d897.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-60/2119581876805640192-01552031d537dc13d897.jpg" width="640" alt="소스 미리보기 2 · 손오공의 대요천궁 SVG 비교"></a>
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-60/2119581974092546048-c61fe179e1741227a187.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-60/2119581974092546048-c61fe179e1741227a187.png" width="640" alt="소스 미리보기 3 · 손오공의 대요천궁 SVG 비교"></a>
-
-Type: Evaluation | Date: 2026-11-09
-
----
-
-<a id="case-3"></a>
-### 사례 3: [3D로 보는 인류 역사와 AI의 미래](https://x.com/imjustnewatai/status/2119518062034792958) (작성자 [@imjustnewatai](https://x.com/imjustnewatai))
-
-**내러티브 브리핑을 일련의 애니메이션 장면으로 바꿔보세요.**
-
-녹화 내용은 다중 장면 3D 애니메이션을 보여줍니다. 저자의 대중적 메시지는 네안데르탈인에서 AI의 부상을 거쳐 상상의 미래로 이동합니다.
-
-**프롬프트:**
-
-```
-Create a cinematic 3D animation telling humanity’s story, from the age of Neanderthals through our greatest advances and the rise of AI. Then imagine a future where AI achieves recursive self-improvement in 2027, and progress doubles or triples every year, transforming Earth in increasingly astonishing ways. Come up with your own scenes and transitions, connecting everything into one compelling story.
-```
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119517968493113344-17865404f54bd3f80fbd.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-03/2119517968493113344-poster-62d6ae1e6365eb443bd6.jpg" width="640" alt="소스 미리보기 1 · 3D로 보는 인류 역사와 AI의 미래"></a>
-
-[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119517968493113344-17865404f54bd3f80fbd.mp4)
-
-
-Type: Demo | Date: 2026-11-08
-
----
-
-<a id="case-8"></a>
-### 사례 8: [브라우저 페인팅 스튜디오의 Tibo 초상화](https://x.com/Mr_Salio/status/2119499550373425297) (작성자 [@Mr_Salio](https://x.com/Mr_Salio))
-
-**페이지가 구성되는 초상화의 단계를 살펴보세요.**
-
-인물 사진 스튜디오 페이지에서는 참조 사진 옆에 있는 다양한 색상 블록으로 Tibo의 인물 사진을 개발합니다. 클립은 페이지 애니메이션을 보여줍니다.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119499524137697280-bf003228060e83ba80ee.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-08/2119499524137697280-poster-669f62240a226482c71b.jpg" width="640" alt="소스 미리보기 1 · 브라우저 페인팅 스튜디오의 Tibo 초상화"></a>
-
-[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119499524137697280-bf003228060e83ba80ee.mp4)
-
-
-Type: Demo | Date: 2026-11-08
-
----
-
-<a id="case-10"></a>
-### 사례 10: [0x0SojalSec가 공유한 Sam Altman 초상화 그림](https://x.com/0x0SojalSec/status/2119489612876026325) (작성자 [@0x0SojalSec](https://x.com/0x0SojalSec))
-
-**대략적인 모양에서 완성된 초상화로의 전환을 따라가보세요.**
-
-이번 포스팅은 Sam Altman 페인팅 클립을 공유합니다. 컬렉션의 다른 게시물도 동일한 자료를 공유합니다.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119471570100113408-6537886f519fcb2581ca.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-10/2119471570100113408-poster-4fa1b097dbe57a86b319.jpg" width="640" alt="소스 미리보기 1 · 0x0SojalSec가 공유한 Sam Altman 초상화 그림"></a>
-
-[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119471570100113408-6537886f519fcb2581ca.mp4)
-
-
-Type: Demo | Date: 2026-11-08
-
----
-
-<a id="case-11"></a>
-### 사례 11: [Avenoxai가 공유한 Sam Altman 초상화 그림](https://x.com/Avenoxai/status/2119489025484419304) (작성자 [@Avenoxai](https://x.com/Avenoxai))
-
-**브라우저 데모가 초상화를 어떻게 연출하는지 살펴보세요.**
-
-해당 게시물은 컬렉션의 다른 곳에 표시된 것과 동일한 진보적인 Sam Altman 초상화를 공유합니다.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119481355943948288-d9ec44b4a8efb666f3fe.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-11/2119481355943948288-poster-b169fc202c4358aef6ab.jpg" width="640" alt="소스 미리보기 1 · Avenoxai가 공유한 Sam Altman 초상화 그림"></a>
-
-[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119481355943948288-d9ec44b4a8efb666f3fe.mp4)
-
-
-Type: Demo | Date: 2026-11-08
-
----
-
-<a id="case-12"></a>
-### 사례 12: [pengsonal가 공유한 Sam Altman 초상화 그림](https://x.com/pengsonal/status/2119487069500456985) (작성자 [@pengsonal](https://x.com/pengsonal))
-
-**브라우저 장면에서 인물 사진 세부정보를 추가하는 순서를 살펴보세요.**
-
-클립은 이 자료를 공유하는 다른 게시물과 동일한 Sam Altman 그림 계열에 속합니다.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119471570100113408-6537886f519fcb2581ca.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-12/2119471570100113408-poster-4fa1b097dbe57a86b319.jpg" width="640" alt="소스 미리보기 1 · pengsonal가 공유한 Sam Altman 초상화 그림"></a>
-
-[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119471570100113408-6537886f519fcb2581ca.mp4)
-
-
-Type: Demo | Date: 2026-11-08
-
----
-
-<a id="case-13"></a>
-### 사례 13: [GeekCatX가 공유한 Sam Altman 초상화 그림](https://x.com/GeekCatX/status/2119482381375815956) (작성자 [@GeekCatX](https://x.com/GeekCatX))
-
-**클립을 사용하여 초기 구성과 완성된 이미지를 비교하세요.**
-
-이 게시물은 다른 항목과 동일한 미디어 계열의 진보적인 Sam Altman 초상화를 공유합니다.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119471570100113408-6537886f519fcb2581ca.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-13/2119471570100113408-poster-4fa1b097dbe57a86b319.jpg" width="640" alt="소스 미리보기 1 · GeekCatX가 공유한 Sam Altman 초상화 그림"></a>
-
-[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119471570100113408-6537886f519fcb2581ca.mp4)
-
-
-Type: Demo | Date: 2026-11-08
-
----
-
-<a id="case-14"></a>
-### 사례 14: [브라우저 페인팅 캔버스의 Sam Altman 초상화](https://x.com/Ananth7e/status/2119482362614677566) (작성자 [@Ananth7e](https://x.com/Ananth7e))
-
-**인물 사진이 가려진 색상에서 미세한 특징으로 발전하는 것을 지켜보세요.**
-
-저자는 Sam Altman의 브라우저 페인팅 데모를 제시합니다. 동일한 녹음이 여러 다른 게시물에 나타납니다.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119481355943948288-d9ec44b4a8efb666f3fe.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-14/2119481355943948288-poster-b169fc202c4358aef6ab.jpg" width="640" alt="소스 미리보기 1 · 브라우저 페인팅 캔버스의 Sam Altman 초상화"></a>
-
-[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119481355943948288-d9ec44b4a8efb666f3fe.mp4)
-
-
-Type: Demo | Date: 2026-11-08
-
----
-
-<a id="case-19"></a>
-### 사례 19: [브라우저 페인팅 캔버스의 Dario Amodei 초상화](https://x.com/Ananth7e/status/2119475282528932231) (작성자 [@Ananth7e](https://x.com/Ananth7e))
-
-**연출된 인물 사진을 안내하는 참조 이미지를 시청하세요.**
-
-브라우저 데모에서는 사진 옆에 Dario Amodei 인물 사진이 표시됩니다. 화면 녹화는 페인팅 순서를 보여줍니다.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119474852453306369-dc2f6dd1c623765520a2.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-19/2119474852453306369-poster-16fd35c8363e7611ce48.jpg" width="640" alt="소스 미리보기 1 · 브라우저 페인팅 캔버스의 Dario Amodei 초상화"></a>
-
-[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119474852453306369-dc2f6dd1c623765520a2.mp4)
-
-
-Type: Demo | Date: 2026-11-08
-
----
-
-<a id="case-22"></a>
-### 사례 22: [Opus 5.5와 4개의 SVG 애니메이션 비교](https://x.com/Ananth7e/status/2119473497504428334) (작성자 [@Ananth7e](https://x.com/Ananth7e))
-
-**여러 SVG 피사체의 움직임과 디테일을 비교해보세요.**
-
-표시된 비교에는 우주 배송, 커피 머신, 레코드 플레이어 및 온실이 포함됩니다. 관찰된 장면은 더 긴 클립의 샘플에서 나온 것입니다.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119472766353313794-9e720b31f2e3325a6830.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-22/2119472766353313794-poster-81c1db39bbb46647fee0.jpg" width="640" alt="소스 미리보기 1 · Opus 5.5와 4개의 SVG 애니메이션 비교"></a>
-
-[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119472766353313794-9e720b31f2e3325a6830.mp4)
-
-
-Type: Evaluation | Date: 2026-11-08
-
----
-
-<a id="case-23"></a>
-### 사례 23: [Ananth7e의 또 다른 Sam Altman 초상화 그림 게시물](https://x.com/Ananth7e/status/2119471963790065987) (작성자 [@Ananth7e](https://x.com/Ananth7e))
-
-**공유 녹음을 사용하여 브라우저 초상화가 어떻게 형성되는지 검사하세요.**
-
-이 게시물은 다른 Sam Altman 항목과 동일한 프로그레시브 페인팅 재료를 가리킵니다.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119471570100113408-6537886f519fcb2581ca.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-23/2119471570100113408-poster-4fa1b097dbe57a86b319.jpg" width="640" alt="소스 미리보기 1 · Ananth7e의 또 다른 Sam Altman 초상화 그림 게시물"></a>
-
-[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119471570100113408-6537886f519fcb2581ca.mp4)
-
-
-Type: Demo | Date: 2026-11-08
-
----
-
-<a id="case-25"></a>
-### 사례 25: [코드 전용 SVG로 설명된 두 개의 세로 그림](https://x.com/marcthecreatorr/status/2119466616693850352) (작성자 [@marcthecreatorr](https://x.com/marcthecreatorr))
-
-**렌더링된 초상화를 비교한 후 어떻게 제작되었는지 판단하세요.**
-
-게시물에는 두 개의 인물 이미지가 포함되어 있습니다. 저자는 이를 코드 전용 SVG 출력으로 설명합니다.
-
-**프롬프트:**
-
-```
-generate an SVG of Ana de Armas and Sam Altman
-(do not cheat)
-```
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-25/2119466601804132352-31318df37f6caba7293c.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-25/2119466601804132352-31318df37f6caba7293c.jpg" width="640" alt="소스 미리보기 1 · 코드 전용 SVG로 설명된 두 개의 세로 그림"></a>
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-25/2119466601816666112-8e9d5270da1add44ca55.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-25/2119466601816666112-8e9d5270da1add44ca55.jpg" width="640" alt="소스 미리보기 2 · 코드 전용 SVG로 설명된 두 개의 세로 그림"></a>
-
-Type: Demo | Date: 2026-11-08
-
----
-
-<a id="case-29"></a>
-### 사례 29: [달빛 아래 픽셀 아트로 표현된 일본 마을](https://x.com/SahilPanhotra/status/2119461852426219747) (작성자 [@SahilPanhotra](https://x.com/SahilPanhotra))
-
-**조명과 세부 사항을 검사하려면 컴팩트한 애니메이션 장면을 사용하세요.**
-
-GIF에는 벚꽃, 탑, 다리, 반사 및 작은 보트가 표시됩니다.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119461819278602240-92e36b249f95f46fbbc1.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-29/2119461819278602240-poster-0df42c94083b4c7a1d00.jpg" width="640" alt="소스 미리보기 1 · 달빛 아래 픽셀 아트로 표현된 일본 마을"></a>
-
-[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119461819278602240-92e36b249f95f46fbbc1.mp4)
-
-
-Type: Demo | Date: 2026-11-08
-
----
-
-<a id="case-30"></a>
-### 사례 30: [BMX를 타고 저글링을 하는 사자](https://x.com/SahilPanhotra/status/2119458278115835912) (작성자 [@SahilPanhotra](https://x.com/SahilPanhotra))
-
-**변화하는 계절적 배경에 맞춰 조정된 동작을 테스트합니다.**
-
-애니메이션에서는 사자가 타고 공을 던지는 모습을 보여줍니다. 샘플링된 프레임에는 포즈와 배경의 변화가 표시됩니다.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119458208041574400-65d9c5f9e0c9dae6a35f.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-30/2119458208041574400-poster-43c1f3849344f031dd3f.jpg" width="640" alt="소스 미리보기 1 · BMX를 타고 저글링을 하는 사자"></a>
-
-[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119458208041574400-65d9c5f9e0c9dae6a35f.mp4)
-
-
-Type: Demo | Date: 2026-11-08
-
----
-
-<a id="case-31"></a>
-### 사례 31: [측면보기 질주하는 말](https://x.com/HarshithLucky3/status/2119458168338301327) (작성자 [@HarshithLucky3](https://x.com/HarshithLucky3))
-
-**간단한 동작 주기를 통해 다리와 꼬리를 검사합니다.**
-
-샘플링된 프레임에는 팔다리 위치가 바뀌면서 옆에서 질주하는 말이 표시됩니다.
-
-**프롬프트:**
-
-```
-Horse running in side view
-```
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119457903589646336-6fe234afbdb557492d14.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-31/2119457903589646336-poster-2e4c31974841a99a4465.jpg" width="640" alt="소스 미리보기 1 · 측면보기 질주하는 말"></a>
-
-[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119457903589646336-6fe234afbdb557492d14.mp4)
-
-
-Type: Demo | Date: 2026-11-08
-
----
-
-<a id="case-32"></a>
-### 사례 32: [대나무 사이로 BMX를 타고 있는 공작](https://x.com/SahilPanhotra/status/2119453829632868388) (작성자 [@SahilPanhotra](https://x.com/SahilPanhotra))
-
-**바퀴의 움직임을 디테일한 캐릭터의 움직임과 비교해 보세요.**
-
-영상에는 꼬리깃을 펼친 공작이 BMX를 타고 대나무 숲을 지나가는 모습이 나옵니다.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119453646454964224-3614c844c591897f7cb8.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-32/2119453646454964224-poster-0dd6b3fd00fa99aa9b94.jpg" width="640" alt="소스 미리보기 1 · 대나무 사이로 BMX를 타고 있는 공작"></a>
-
-[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119453646454964224-3614c844c591897f7cb8.mp4)
-
-
-Type: Demo | Date: 2026-11-08
-
----
-
-<a id="case-35"></a>
-### 사례 35: [사실적인 인물 사진 미리보기](https://x.com/SadAlbert10/status/2119443244509802679) (작성자 [@SadAlbert10](https://x.com/SadAlbert10))
-
-**눈에 보이는 결과를 검사하고 저자가 이를 어떻게 설명하는지 기록하세요.**
-
-이미지는 상세한 초상화를 보여줍니다. 미리보기는 출력의 시각적 증거를 제공합니다.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-35/2119443020227727360-71913855e02651437cb9.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-35/2119443020227727360-71913855e02651437cb9.jpg" width="640" alt="소스 미리보기 1 · 사실적인 인물 사진 미리보기"></a>
-
-Type: Demo | Date: 2026-11-08
-
----
-
-<a id="case-36"></a>
-### 사례 36: [Sydney Sweeney 세로 벡터화](https://x.com/SadAlbert10/status/2119440420682011095) (작성자 [@SadAlbert10](https://x.com/SadAlbert10))
-
-**벡터 작업 흐름을 평가할 때 중간 이미지를 추적합니다.**
-
-스크린샷은 PNG 입력과 벡터화 호출을 보여줍니다. 두 번째 첨부 파일은 해당 워크플로에서 생성된 초상화를 보여줍니다.
-
-**프롬프트:**
-
-```
-make an ultra realistic SVG of Sydney Sweeny
-```
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-36/2119439861157707776-69b2db4eca9eb1493e6b.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-36/2119439861157707776-69b2db4eca9eb1493e6b.png" width="640" alt="소스 미리보기 1 · Sydney Sweeney 세로 벡터화"></a>
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-36/2119440248157683712-d00b68e7e2aa37f8ec7b.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-36/2119440248157683712-d00b68e7e2aa37f8ec7b.jpg" width="640" alt="소스 미리보기 2 · Sydney Sweeney 세로 벡터화"></a>
-
-Type: Demo | Date: 2026-11-08
-
----
-
-<a id="case-46"></a>
-### 사례 46: [측면 보기 실행 중인 치타](https://x.com/HarshithLucky3/status/2119424342773866559) (작성자 [@HarshithLucky3](https://x.com/HarshithLucky3))
-
-**고정 프로필 보기를 사용하여 보행과 신체 동작을 비교합니다.**
-
-클립은 달리는 동안 여러 위치에 있는 치타를 보여줍니다. 저자는 Opus 결과를 선호한다고 보고합니다.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119424200662556672-37c18d0191bd9b6c27aa.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-46/2119424200662556672-poster-f977110905db5bd671d8.jpg" width="640" alt="소스 미리보기 1 · 측면 보기 실행 중인 치타"></a>
-
-[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119424200662556672-37c18d0191bd9b6c27aa.mp4)
-
-
-Type: Demo | Date: 2026-11-08
-
----
-
-<a id="case-51"></a>
-### 사례 51: [자전거를 타고 있는 펠리컨과 게 두 마리](https://x.com/HarshithLucky3/status/2119418918616150080) (작성자 [@HarshithLucky3](https://x.com/HarshithLucky3))
-
-**한 장면에서 여러 애니메이션 캐릭터의 타이밍을 검사합니다.**
-
-샘플링된 측면 뷰 프레임에는 움직이는 바퀴, 팔다리 및 카메라 위치가 표시됩니다.
-
-**프롬프트:**
-
-```
-SVG animation of pelican and 2 crabs riding bicycles side view
-```
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119418838148366336-495e5e6b9a3a4f396f52.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-51/2119418838148366336-poster-753362afc6ea3f66a03f.jpg" width="640" alt="소스 미리보기 1 · 자전거를 타고 있는 펠리컨과 게 두 마리"></a>
-
-[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119418838148366336-495e5e6b9a3a4f396f52.mp4)
-
-
-Type: Demo | Date: 2026-11-08
-
----
-
-<a id="case-52"></a>
-### 사례 52: [Sol 설정 전반에 걸친 PS5 컨트롤러 비교](https://x.com/marcthecreatorr/status/2119417283328000436) (작성자 [@marcthecreatorr](https://x.com/marcthecreatorr))
-
-**익숙한 제품을 사용하여 윤곽선과 음영을 비교하세요.**
-
-두 컨트롤러 이미지에는 GPT-6.1 Sol MAX 라우팅 및 기본이라는 레이블이 지정되어 있습니다. 게시물에는 렌더링된 이미지가 표시됩니다.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-52/2119417273249095680-f0fea371a0a411ae9aef.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-52/2119417273249095680-f0fea371a0a411ae9aef.jpg" width="640" alt="소스 미리보기 1 · Sol 설정 전반에 걸친 PS5 컨트롤러 비교"></a>
-
-Type: Evaluation | Date: 2026-11-08
-
----
-
-<a id="case-55"></a>
-### 사례 55: [녹색 BMW M4 CS 프로필 그림](https://x.com/HarshithLucky3/status/2119412698119373104) (작성자 [@HarshithLucky3](https://x.com/HarshithLucky3))
-
-**익숙한 차량에서 비율과 프로필 디테일을 확인하세요.**
-
-부착물은 측면에서 녹색 BMW M4 CS를 보여줍니다.
-
-**프롬프트:**
-
-```
-SVG of BMW M4 CS side view
-```
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-55/2119412669946204160-2b4789da7aa53b1095b0.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-55/2119412669946204160-2b4789da7aa53b1095b0.jpg" width="640" alt="소스 미리보기 1 · 녹색 BMW M4 CS 프로필 그림"></a>
-
-Type: Demo | Date: 2026-11-08
-
----
-
-<a id="category-game"></a>
-## 🎮 게임 개발
-
-<a id="case-138"></a>
-### 사례 138: [포켓몬 파이어레드에서 챔피언까지](https://x.com/Clad3815/status/2123064135164576107) (작성자 [@Clad3815](https://x.com/Clad3815))
-
-**입력 방식과 추론 설정을 명시하고 게임 완료 시간을 비교한다.**
-
-제작자는 스크린샷을 입력으로 사용하고 추론 강도를 high로 설정해 Sol을 Ultrafast 모드로 실행했다. 챔피언에 도달하기까지 11시간 40분이 걸렸다고 보고했다.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-138/2123061539183726592-707694197c25ed18a424.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-138/2123061539183726592-707694197c25ed18a424.png" width="640" alt="소스 미리보기 1 · 포켓몬 파이어레드에서 챔피언까지"></a>
-
-Type: Benchmark | Date: 2026-11-18
-
----
-
-<a id="case-146"></a>
-### 사례 146: [래그돌 물리를 적용한 3D 공룡 러너](https://x.com/noclipepe/status/2122989930699792818) (작성자 [@noclipepe](https://x.com/noclipepe))
-
-**네 게임 프로토타입의 시각적 스타일과 충돌 반응을 비교한다.**
-
-제작자는 3D와 래그돌 물리를 포함한 동일한 지시를 네 모델에 전달했다. 제작자가 기록한 Sol 실행은 20분이 걸렸고 비용은 1.68달러였다.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122985283993907201-9750e48cc454af4480fd.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-146/2122985283993907201-poster-afcb4c84030cd6876301.jpg" width="640" alt="소스 미리보기 1 · 래그돌 물리를 적용한 3D 공룡 러너"></a>
-
-[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122985283993907201-9750e48cc454af4480fd.mp4)
-
-Type: Evaluation | Date: 2026-11-18
-
----
-
-<a id="case-158"></a>
-### 사례 158: [가짜 게임 광고에서 착안해 만든 플레이 가능한 게임](https://x.com/noclipepe/status/2122885577137598800) (작성자 [@noclipepe](https://x.com/noclipepe))
-
-**하나의 게임 레벨 제작 지시를 네 모델이 어떻게 구현했는지 플레이하며 비교한다.**
-
-제작자는 네 모델에 같은 프롬프트를 전달했으며 플레이어가 패배할 수도 있음을 보여 줬다. Sol 실행은 21분이 걸렸고 비용은 1.04달러였다.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122882602663124992-7fe424c3649edbe814fc.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-158/2122882602663124992-poster-65013bb3e5cef1833a1e.jpg" width="640" alt="소스 미리보기 1 · 가짜 게임 광고에서 착안해 만든 플레이 가능한 게임"></a>
-
-[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122882602663124992-7fe424c3649edbe814fc.mp4)
-
-Type: Evaluation | Date: 2026-11-18
-
----
-
-<a id="case-78"></a>
-### 사례 78: [소코반 방 테스트 세트 완주](https://x.com/banteg/status/2122826622638137666) (작성자 [@banteg](https://x.com/banteg))
-
-**통과한 방 수를 기록하고 플레이를 돌려 보며 막히는 구간을 찾는다.**
-
-작성자는 Sol과 Astra를 medium으로 테스트했다. 두 모델 모두 이번에 66개 방을 모두 통과했으며, 게시 당시 작성자 순위표에서 Sol은 2위, Astra는 3위였다.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122826155086512128-d2a8456da3a5a99263f5.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-78/2122826155086512128-poster-4a2c4bee2b8d9510e347.jpg" width="640" alt="소스 미리보기 1 · 소코반 방 테스트 세트 완주"></a>
-
-[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122826155086512128-d2a8456da3a5a99263f5.mp4)
-
-Type: Benchmark | Date: 2026-11-17
-
----
-
-<a id="case-93"></a>
-### 사례 93: [RuneScape 퀘스트 두 개 완료](https://x.com/maxbittker/status/2122783334216466487) (작성자 [@maxbittker](https://x.com/maxbittker))
-
-**에이전트가 고른 퀘스트와 수령한 보상을 확인한다.**
-
-벤치마크 관리자는 Sol과 Astra가 각각 한 번의 실행에서 퀘스트 두 개에 도전하고 양쪽 보상을 수령했다고 보고했다.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-93/2122782503542960128-31be885019f467cb7472.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-93/2122782503542960128-31be885019f467cb7472.jpg" width="640" alt="소스 미리보기 1 · RuneScape 퀘스트 두 개 완료"></a>
-
-Type: Benchmark | Date: 2026-11-17
-
----
-
-<a id="case-95"></a>
-### 사례 95: [터치 조작을 지원하는 멀티플레이어 브라우저 게임](https://x.com/VraserX/status/2122770481975837145) (작성자 [@VraserX](https://x.com/VraserX))
-
-**새 빌드를 플레이하며 조작 방식의 개선점을 구체적으로 전달한다.**
-
-개발자는 터치 조작을 포함해 빌드를 테스트하면서 Sol을 사용해 16대16 프로토타입을 구현하고 디버깅하고 수정했다고 보고했다.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122770342842077184-c89268a9c06156333c45.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-95/2122770342842077184-poster-c5a1ebf986d6362bd35d.jpg" width="640" alt="소스 미리보기 1 · 터치 조작을 지원하는 멀티플레이어 브라우저 게임"></a>
-
-[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122770342842077184-c89268a9c06156333c45.mp4)
-
-Type: Demo | Date: 2026-11-17
-
----
-
-<a id="case-97"></a>
-### 사례 97: [마을을 건설하는 브라우저 게임 Lanternkeep](https://x.com/AdamHoltererer/status/2122766741881413818) (작성자 [@AdamHoltererer](https://x.com/AdamHoltererer))
-
-**지도와 목표 패널이 마을을 건설하는 과정에 어떻게 쓰이는지 확인한다.**
-
-제작자는 Sol로 게임을 만들었다고 밝혔다. 녹화에는 조작할 수 있는 마을 지도와 목표 패널이 나온다.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122766701477367808-c628e4fc3e8c14dc15d8.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-97/2122766701477367808-poster-50e4bfea19c965f6d231.jpg" width="640" alt="소스 미리보기 1 · 마을을 건설하는 브라우저 게임 Lanternkeep"></a>
-
-[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122766701477367808-c628e4fc3e8c14dc15d8.mp4)
-
-Type: Demo | Date: 2026-11-17
-
----
-
-<a id="case-99"></a>
-### 사례 99: [스크린샷만으로 포켓몬 파이어레드 플레이](https://x.com/Clad3815/status/2122763941675995209) (작성자 [@Clad3815](https://x.com/Clad3815))
-
-**게임 에이전트의 주요 진행 지점과 완료 시간을 기록한다.**
-
-테스트 담당자는 스크린샷을 입력으로 사용하고 추론 강도를 high로 설정했다고 보고했다. 이 테스트에서 Sol은 15시간 34분이 걸렸으며 첫 체육관 관장에게 Astra보다 먼저 도달했다.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-99/2122763933345890304-ffe6b4053f347b1d4d5f.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-99/2122763933345890304-ffe6b4053f347b1d4d5f.jpg" width="640" alt="소스 미리보기 1 · 스크린샷만으로 포켓몬 파이어레드 플레이"></a>
-
-Type: Benchmark | Date: 2026-11-17
-
----
-
-<a id="case-67"></a>
-### 사례 67: [해안 도로 레이싱 게임 시제품](https://x.com/Stargridcompass/status/2119683294220390638) (작성자 [@Stargridcompass](https://x.com/Stargridcompass))
-
-**경주 중 카운트다운, 속도 표시, 코스 지도를 읽기 쉬운지 확인해 보세요.**
-
-녹화에는 출발 대열과 경주 중인 모습이 나옵니다. 작성자는 제작에 16분이 걸렸다고 밝혔습니다.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119682250472112128-81f053c6ffe2a4aae055.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-67/2119682250472112128-poster-526c85969a54c7f93833.jpg" width="640" alt="소스 미리보기 1 · 해안 도로 레이싱 게임 시제품"></a>
-
-[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119682250472112128-81f053c6ffe2a4aae055.mp4)
-
-Type: Demo | Date: 2026-11-09
-
----
-
-<a id="case-62"></a>
-### 사례 62: [브라우저 속 루빅스 큐브](https://x.com/VeknQAQ/status/2119633751173173475) (작성자 [@VeknQAQ](https://x.com/VeknQAQ))
-
-**미리보기에서 큐브의 회전과 스티커 배치를 확인해 보세요.**
-
-녹화에는 맞춰진 상태와 뒤섞인 상태의 3D 큐브, 브라우저 조작 버튼이 나옵니다.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119633608680124416-44e5b8b00d129caeba34.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-62/2119633608680124416-poster-1ea9e2acda539d582293.jpg" width="640" alt="소스 미리보기 1 · 브라우저 속 루빅스 큐브"></a>
-
-[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119633608680124416-44e5b8b00d129caeba34.mp4)
-
-Type: Demo | Date: 2026-11-09
-
----
-
-<a id="case-17"></a>
-### 사례 17: [PELICAN PANIC 복셀 추격 게임](https://x.com/Ananth7e/status/2119479157633786246) (작성자 [@Ananth7e](https://x.com/Ananth7e))
-
-**컨트롤, 피드백, 종료 상태를 검사하려면 짧은 추격 게임을 사용하세요.**
-
-영상에는 펠리컨을 타고 감자 괴물을 피해 탈출하는 라이더의 모습이 담겨 있습니다. 점수와 탈출 완료 화면 「Escaped」이 표시됩니다.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119478839500013568-2ec29cee42e54d0bf9c5.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-17/2119478839500013568-poster-3716db2a9abc6cf0e264.jpg" width="640" alt="소스 미리보기 1 · PELICAN PANIC 복셀 추격 게임"></a>
-
-[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119478839500013568-2ec29cee42e54d0bf9c5.mp4)
-
-
-Type: Demo | Date: 2026-11-08
-
----
-
 <a id="category-painting"></a>
 ## 🖌️ 컴퓨터 사용 및 페인팅
 
@@ -2764,6 +3048,6 @@ Type: Demo | Date: 2026-11-08
 
 이러한 실험을 공유해 주신 제작자에게 감사드립니다. 링크된 저작물과 미디어는 해당 창작자에게 귀속됩니다.
 
-[@Avenoxai](https://x.com/Avenoxai), [@kimmonismus](https://x.com/kimmonismus), [@imjustnewatai](https://x.com/imjustnewatai), [@Khazix0918](https://x.com/Khazix0918), [@marcthecreatorr](https://x.com/marcthecreatorr), [@Bhavani_00007](https://x.com/Bhavani_00007), [@JustLingonberry](https://x.com/JustLingonberry), [@Mr_Salio](https://x.com/Mr_Salio), [@aGim_asf](https://x.com/aGim_asf), [@0x0SojalSec](https://x.com/0x0SojalSec), [@pengsonal](https://x.com/pengsonal), [@GeekCatX](https://x.com/GeekCatX), [@Ananth7e](https://x.com/Ananth7e), [@EnvolDev](https://x.com/EnvolDev), [@xbquan](https://x.com/xbquan), [@SahilPanhotra](https://x.com/SahilPanhotra), [@rubenssoto_ai](https://x.com/rubenssoto_ai), [@vikktorrrre](https://x.com/vikktorrrre), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@Cayden970207](https://x.com/Cayden970207), [@HarshithLucky3](https://x.com/HarshithLucky3), [@TokenGremlin](https://x.com/TokenGremlin), [@SadAlbert10](https://x.com/SadAlbert10), [@maxt3chno](https://x.com/maxt3chno), [@karanC_12](https://x.com/karanC_12), [@JustinGorya](https://x.com/JustinGorya), [@kdnbmb](https://x.com/kdnbmb), [@VraserX](https://x.com/VraserX), [@jessexai_](https://x.com/jessexai_), [@theaidesk_](https://x.com/theaidesk_), [@gadi_neelesh](https://x.com/gadi_neelesh), [@Haleeeemahh](https://x.com/Haleeeemahh), [@SPAC89](https://x.com/SPAC89), [@VeknQAQ](https://x.com/VeknQAQ), [@Aurora0x3f](https://x.com/Aurora0x3f), [@bei351009016](https://x.com/bei351009016), [@Stargridcompass](https://x.com/Stargridcompass), [@iamtheQwen](https://x.com/iamtheQwen), [@voxelbench](https://x.com/voxelbench), [@sshayahmet](https://x.com/sshayahmet), [@TimJayas](https://x.com/TimJayas), [@lucian__03](https://x.com/lucian__03), [@camperaigg](https://x.com/camperaigg), [@nickbaumann_](https://x.com/nickbaumann_), [@thtbee_](https://x.com/thtbee_), [@DeryaTR_](https://x.com/DeryaTR_), [@banteg](https://x.com/banteg), [@Leviwoyun](https://x.com/Leviwoyun), [@browser_use](https://x.com/browser_use), [@simonw](https://x.com/simonw), [@perplexity_ai](https://x.com/perplexity_ai), [@_3912657840](https://x.com/_3912657840), [@fawnunwrap](https://x.com/fawnunwrap), [@Angaisb_](https://x.com/Angaisb_), [@jony_palino](https://x.com/jony_palino), [@notjazii](https://x.com/notjazii), [@noclipepe](https://x.com/noclipepe), [@Super_Nius](https://x.com/Super_Nius), [@maxbittker](https://x.com/maxbittker), [@morsenxxx](https://x.com/morsenxxx), [@AdamHoltererer](https://x.com/AdamHoltererer), [@Clad3815](https://x.com/Clad3815), [@N1njaCodex](https://x.com/N1njaCodex), [@CodeByNZ](https://x.com/CodeByNZ), [@DanielZambrini](https://x.com/DanielZambrini), [@RezAIT00](https://x.com/RezAIT00), [@LuminaBench](https://x.com/LuminaBench), [@Jason85885174](https://x.com/Jason85885174), [@mspd4100](https://x.com/mspd4100), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@simonw](https://news.ycombinator.com/user?id=simonw), [@Fei2411](https://x.com/Fei2411), [@arena](https://x.com/arena), [@jan_volad](https://x.com/jan_volad), [@eliadele](https://x.com/eliadele), [@monkeys_im](https://x.com/monkeys_im), [@rotejin](https://x.com/rotejin), [@jetbrains](https://x.com/jetbrains), [@UFO2002616](https://x.com/UFO2002616), [@argofowl](https://x.com/argofowl), [@Kombaico](https://x.com/Kombaico), [@shinshin86](https://x.com/shinshin86), [@PawelJLisowski](https://x.com/PawelJLisowski), [@alohaproxy](https://x.com/alohaproxy), [@masahirochaen](https://x.com/masahirochaen), [@mylesBaiM](https://x.com/mylesBaiM), [@exploraX_](https://x.com/exploraX_), [@One2xDatalab](https://x.com/One2xDatalab), [@798145343h](https://x.com/798145343h), [@xKaka1456](https://x.com/xKaka1456), [@op7418](https://x.com/op7418), [@aura_uniiiii](https://x.com/aura_uniiiii), [@shinya_creative](https://x.com/shinya_creative), [@muratcan](https://x.com/muratcan), [@suna_gaku](https://x.com/suna_gaku), [@teddyaisi](https://x.com/teddyaisi)
+[@Avenoxai](https://x.com/Avenoxai), [@kimmonismus](https://x.com/kimmonismus), [@imjustnewatai](https://x.com/imjustnewatai), [@Khazix0918](https://x.com/Khazix0918), [@marcthecreatorr](https://x.com/marcthecreatorr), [@Bhavani_00007](https://x.com/Bhavani_00007), [@JustLingonberry](https://x.com/JustLingonberry), [@Mr_Salio](https://x.com/Mr_Salio), [@aGim_asf](https://x.com/aGim_asf), [@0x0SojalSec](https://x.com/0x0SojalSec), [@pengsonal](https://x.com/pengsonal), [@GeekCatX](https://x.com/GeekCatX), [@Ananth7e](https://x.com/Ananth7e), [@EnvolDev](https://x.com/EnvolDev), [@xbquan](https://x.com/xbquan), [@SahilPanhotra](https://x.com/SahilPanhotra), [@rubenssoto_ai](https://x.com/rubenssoto_ai), [@vikktorrrre](https://x.com/vikktorrrre), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@Cayden970207](https://x.com/Cayden970207), [@HarshithLucky3](https://x.com/HarshithLucky3), [@TokenGremlin](https://x.com/TokenGremlin), [@SadAlbert10](https://x.com/SadAlbert10), [@maxt3chno](https://x.com/maxt3chno), [@karanC_12](https://x.com/karanC_12), [@JustinGorya](https://x.com/JustinGorya), [@kdnbmb](https://x.com/kdnbmb), [@VraserX](https://x.com/VraserX), [@jessexai_](https://x.com/jessexai_), [@theaidesk_](https://x.com/theaidesk_), [@gadi_neelesh](https://x.com/gadi_neelesh), [@Haleeeemahh](https://x.com/Haleeeemahh), [@SPAC89](https://x.com/SPAC89), [@VeknQAQ](https://x.com/VeknQAQ), [@Aurora0x3f](https://x.com/Aurora0x3f), [@bei351009016](https://x.com/bei351009016), [@Stargridcompass](https://x.com/Stargridcompass), [@iamtheQwen](https://x.com/iamtheQwen), [@voxelbench](https://x.com/voxelbench), [@sshayahmet](https://x.com/sshayahmet), [@TimJayas](https://x.com/TimJayas), [@lucian__03](https://x.com/lucian__03), [@camperaigg](https://x.com/camperaigg), [@nickbaumann_](https://x.com/nickbaumann_), [@thtbee_](https://x.com/thtbee_), [@DeryaTR_](https://x.com/DeryaTR_), [@banteg](https://x.com/banteg), [@Leviwoyun](https://x.com/Leviwoyun), [@browser_use](https://x.com/browser_use), [@simonw](https://x.com/simonw), [@perplexity_ai](https://x.com/perplexity_ai), [@_3912657840](https://x.com/_3912657840), [@fawnunwrap](https://x.com/fawnunwrap), [@Angaisb_](https://x.com/Angaisb_), [@jony_palino](https://x.com/jony_palino), [@notjazii](https://x.com/notjazii), [@noclipepe](https://x.com/noclipepe), [@Super_Nius](https://x.com/Super_Nius), [@maxbittker](https://x.com/maxbittker), [@morsenxxx](https://x.com/morsenxxx), [@AdamHoltererer](https://x.com/AdamHoltererer), [@Clad3815](https://x.com/Clad3815), [@N1njaCodex](https://x.com/N1njaCodex), [@CodeByNZ](https://x.com/CodeByNZ), [@DanielZambrini](https://x.com/DanielZambrini), [@RezAIT00](https://x.com/RezAIT00), [@LuminaBench](https://x.com/LuminaBench), [@Jason85885174](https://x.com/Jason85885174), [@mspd4100](https://x.com/mspd4100), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@simonw](https://news.ycombinator.com/user?id=simonw), [@Fei2411](https://x.com/Fei2411), [@arena](https://x.com/arena), [@jan_volad](https://x.com/jan_volad), [@eliadele](https://x.com/eliadele), [@monkeys_im](https://x.com/monkeys_im), [@rotejin](https://x.com/rotejin), [@jetbrains](https://x.com/jetbrains), [@UFO2002616](https://x.com/UFO2002616), [@argofowl](https://x.com/argofowl), [@Kombaico](https://x.com/Kombaico), [@shinshin86](https://x.com/shinshin86), [@PawelJLisowski](https://x.com/PawelJLisowski), [@alohaproxy](https://x.com/alohaproxy), [@masahirochaen](https://x.com/masahirochaen), [@mylesBaiM](https://x.com/mylesBaiM), [@exploraX_](https://x.com/exploraX_), [@One2xDatalab](https://x.com/One2xDatalab), [@798145343h](https://x.com/798145343h), [@xKaka1456](https://x.com/xKaka1456), [@op7418](https://x.com/op7418), [@aura_uniiiii](https://x.com/aura_uniiiii), [@shinya_creative](https://x.com/shinya_creative), [@muratcan](https://x.com/muratcan), [@suna_gaku](https://x.com/suna_gaku), [@teddyaisi](https://x.com/teddyaisi), [@0xkhalid7](https://x.com/0xkhalid7), [@shownotover](https://x.com/shownotover), [@andonlabs](https://x.com/andonlabs), [@MatthewBerman](https://x.com/MatthewBerman), [@Hesamation](https://x.com/Hesamation), [@WeAreLegora](https://x.com/WeAreLegora), [@XploreAi](https://x.com/XploreAi), [@patience_cave](https://x.com/patience_cave), [@aidigest_](https://x.com/aidigest_), [@erhanmeydan](https://x.com/erhanmeydan), [@aapakari](https://x.com/aapakari)
 
 *저작자 표시 또는 삭제 요청에 대한 소스 수정 문제를 열어주세요.*
