@@ -18,7 +18,7 @@
 <a id="overview"></a>
 ## 📊 概述
 
-- **158 條使用案例 · GPT-6.2 Sol**. 共收錄 158 則原始貼文，其中 155 則展示成果，3 則記錄未完成的嘗試。20 則附有作者公開的原文提示詞。
+- **175 條使用案例 · GPT-6.2 Sol**. 共收錄 175 則原始貼文，其中 172 則展示成果，3 則記錄未完成的嘗試。22 則附有作者公開的原文提示詞。
 - 3D場景和建模 · 創意圖形和動畫 · 網站和介面 · 遊戲開發 · 電腦使用與繪畫 · 電腦使用和通訊
 - 每條附上原始貼文、作者、日期、證據類型與可見成果。
 - 盡可能使用公共提示。比較結果時保留原始輸入。
@@ -44,6 +44,23 @@
 | [快速入門](#quick-start) | 導覽 | 快速入門 | — |
 | [相關儲存庫](#related-repositories) | 導覽 | 相關儲存庫 | — |
 | [致謝](#acknowledge) | 導覽 | 致謝 | — |
+| [案例 159. 從靜態影格到成片](#case-159) | [創意圖形和動畫](#category-graphics) | 從剪輯時間軸看出生成影格如何融入多工具製作流程。 | Demo |
+| [案例 160. 用 Codex 製作兩款第一人稱遊戲原型](#case-160) | [遊戲開發](#category-game) | 把關卡配置、遊玩體驗與實際成本放在一起比較。 | Evaluation |
+| [案例 161. 以 Blender 素材製作休閒村莊遊戲](#case-161) | [遊戲開發](#category-game) | 觀察建模和動畫如何組成遊戲場景。 | Demo |
+| [案例 162. 根據室內照片繪製公寓平面圖](#case-162) | [3D場景和建模](#category-three) | 評估代理能否根據照片推斷房間配置。 | Benchmark |
+| [案例 163. 人像口播影片的對白剪輯](#case-163) | [創意圖形和動畫](#category-graphics) | 比較剪輯時間、整體分數和容易出錯的剪接類型。 | Benchmark |
+| [案例 164. 兩種總部建築設計](#case-164) | [3D場景和建模](#category-three) | 在同一個開放式題目下比較建築和運鏡。 | Evaluation |
+| [案例 165. 在 Crusader Bench 經營聚落](#case-165) | [遊戲開發](#category-game) | 以相同的計分地圖和遊戲條件比較代理的表現。 | Benchmark |
+| [案例 166. Legora 十一月法律文書基準](#case-166) | [電腦使用和通訊](#category-communication) | 針對同一組專業任務比較品質和每個案例的成本。 | Benchmark |
+| [案例 167. Sol 參加 Xplore 工程設計基準](#case-167) | [3D場景和建模](#category-three) | 在含 CAD 工作的測試集中比較得分和執行成本。 | Benchmark |
+| [案例 168. Ruby Ascent 發射台場景](#case-168) | [3D場景和建模](#category-three) | 比較同一發射台四種版本的場景細節和製作時間。 | Evaluation |
+| [案例 169. MazeBench 空間導航測試](#case-169) | [遊戲開發](#category-game) | 用同一套公開基準比較模型完成迷宮的表現。 | Benchmark |
+| [案例 170. AI Village 角色資料問卷](#case-170) | [電腦使用和通訊](#category-communication) | 比較兩個代理獨立填寫同一份問卷的結果。 | Integration |
+| [案例 171. 以同一段素材生成 3D 動畫](#case-171) | [3D場景和建模](#category-three) | 在固定風格下比較五種模型對同一片段的演繹。 | Evaluation |
+| [案例 172. 繞行哈里發塔塔頂的鏡頭](#case-172) | [3D場景和建模](#category-three) | 觀察各模型如何呈現高處的退台和塔冠。 | Evaluation |
+| [案例 173. 將短片轉成白板動畫](#case-173) | [創意圖形和動畫](#category-graphics) | 針對同一段輸入影片比較視覺敘事和成本。 | Evaluation |
+| [案例 174. 岩岸上的燈塔網頁](#case-174) | [網站和介面](#category-web) | 固定題目和推理強度，比較一次生成的網頁。 | Evaluation |
+| [案例 175. 無工具的五局西洋棋對弈](#case-175) | [遊戲開發](#category-game) | 比較同一場對弈的積分、各局戰績和成本。 | Benchmark |
 | [案例 124. PR 狀態報告忽略儲存庫指示](#case-124) | [電腦使用和通訊](#category-communication) | 用同一條簡短的查詢，對比報告的細節和條理。 | Limit |
 | [案例 125. Arena 實錄對比 Astra 與 Sol](#case-125) | [3D場景和建模](#category-three) | 按影片章節對比場景、遊戲和介面。 | Evaluation |
 | [案例 126. 鬧鬼的吸血鬼大教堂](#case-126) | [3D場景和建模](#category-three) | 對比兩個模型如何演繹同一個哥特建築要求。 | Evaluation |
@@ -203,74 +220,1067 @@
 | [案例 58. 單一HTML Three.js黑洞](#case-58) | [3D場景和建模](#category-three) | 使用剪輯和劇照來檢查一個場景如何處理多個視點。 | Demo |
 | [案例 59. 漂浮的Three.js宮殿](#case-59) | [3D場景和建模](#category-three) | 從多個角度觀察懸浮宮殿的規模和外觀。 | Demo |
 
-<a id="category-communication"></a>
-## 💬 電腦使用和通訊
+<a id="category-graphics"></a>
+## 🎨 創意圖形和動畫
 
-<a id="case-124"></a>
-### 案例 124: [PR 狀態報告忽略儲存庫指示](https://x.com/Fei2411/status/2123354076771692631) (作者 [@Fei2411](https://x.com/Fei2411))
+<a id="case-159"></a>
+### 案例 159: [從靜態影格到成片](https://x.com/0xkhalid7/status/2123661187376451845) (作者 [@0xkhalid7](https://x.com/0xkhalid7))
 
-**用同一條簡短的查詢，對比報告的細節和條理。**
+**從剪輯時間軸看出生成影格如何融入多工具製作流程。**
 
-作者讓 Sol 和 Gemini 4 Neon 報告同一組 Pull Request 的狀態。他認為 Sol 的摘要過於簡略，而且沒有遵守儲存庫的 AGENTS.md 指示。
+創作者用 ChatGPT 撰寫腳本，以 Sol 生成影格，在 Google Vids 製作動畫，最後用 CapCut 剪輯。創作者表示整個專案約花四小時。
 
-**提示詞:**
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123660882249175040-7f5a38c954cd6232ce0b.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-159/2123660882249175040-poster-6036fd4b16ea350bc22d.jpg" width="640" alt="原始碼預覽 1 · 從靜態影格到成片"></a>
 
-```
-现在有哪些pr
-```
+[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123660882249175040-7f5a38c954cd6232ce0b.mp4)
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-124/2123354068013993984-19d626fb5c30bc9b2a19.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-124/2123354068013993984-19d626fb5c30bc9b2a19.jpg" width="640" alt="原始碼預覽 1 · PR 狀態報告忽略儲存庫指示"></a>
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-124/2123354067988824064-5ec42709de761e85172e.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-124/2123354067988824064-5ec42709de761e85172e.jpg" width="640" alt="原始碼預覽 2 · PR 狀態報告忽略儲存庫指示"></a>
-
-Type: Limit | Date: 2026-11-19
+Type: Demo | Date: 2026-11-20
 
 ---
 
-<a id="case-141"></a>
-### 案例 141: [AITuber OnAir 的角色聊天](https://x.com/shinshin86/status/2123040784710869031) (作者 [@shinshin86](https://x.com/shinshin86))
+<a id="case-163"></a>
+### 案例 163: [人像口播影片的對白剪輯](https://x.com/MatthewBerman/status/2123546744759984513) (作者 [@MatthewBerman](https://x.com/MatthewBerman))
 
-**在即時角色對話中嘗試調整推理強度。**
+**比較剪輯時間、整體分數和容易出錯的剪接類型。**
 
-開發者給 AITuber OnAir 加入了 Sol，並演示了一段對話。整合預設採用低推理強度以保持對話節奏，使用者可以調整。
+針對一段 20 分鐘的口播影片，創作者取各模型兩次執行的平均。Sol 得分 64.5%，花了 11.7 分鐘。Gemini 4 Neon 得分 67.9%，花了 7.7 分鐘。
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123040557064966144-63e1c247fbe9574434f1.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-141/2123040557064966144-poster-096943e3ee853b4f4a62.jpg" width="640" alt="原始碼預覽 1 · AITuber OnAir 的角色聊天"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-163/2123546497111482368-6e88a30728efbca29854.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-163/2123546497111482368-6e88a30728efbca29854.jpg" width="640" alt="原始碼預覽 1 · 人像口播影片的對白剪輯"></a>
 
-[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123040557064966144-63e1c247fbe9574434f1.mp4)
-
-Type: Integration | Date: 2026-11-18
+Type: Benchmark | Date: 2026-11-19
 
 ---
 
-<a id="case-155"></a>
-### 案例 155: [FrontDesk-Bench 模擬診所來電](https://x.com/muratcan/status/2122914581454487838) (作者 [@muratcan](https://x.com/muratcan))
+<a id="case-173"></a>
+### 案例 173: [將短片轉成白板動畫](https://x.com/erhanmeydan/status/2123414880300490868) (作者 [@erhanmeydan](https://x.com/erhanmeydan))
 
-**分別觀察不安全操作和對正當請求的拒絕。**
+**針對同一段輸入影片比較視覺敘事和成本。**
 
-基準作者報告，在模擬診所前臺測試中，Sol 的不安全來電數從 16 次降至 9 次。作者也報告新模型更經常拒絕正當請求。
+創作者使用 Kilnframe 的白板風格和自動模式，讓四個模型處理同一段 11 秒影片。Sol 花了 1.7 分鐘，成本為 0.18 美元。
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-155/2122905857700585472-c7658e9ed55fe97f9cbb.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-155/2122905857700585472-c7658e9ed55fe97f9cbb.jpg" width="640" alt="原始碼預覽 1 · FrontDesk-Bench 模擬診所來電"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123414708459855872-abcd21a1ca31fae0de50.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-173/2123414708459855872-poster-693b12b8cd00ed30b115.jpg" width="640" alt="原始碼預覽 1 · 將短片轉成白板動畫"></a>
+
+[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123414708459855872-abcd21a1ca31fae0de50.mp4)
+
+Type: Evaluation | Date: 2026-11-19
+
+---
+
+<a id="case-130"></a>
+### 案例 130: [三分鐘製作逼真落葉](https://x.com/RezAIT00/status/2123121274431897803) (作者 [@RezAIT00](https://x.com/RezAIT00))
+
+**用時間限制觀察模型如何結合素材和程式碼。**
+
+作者說，Sol xhigh Ultrafast 為落葉動畫線上找了素材，呼叫了影像生成並編寫了程式碼。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123120923666423808-a00f9b04f9a3d9061acf.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-130/2123120923666423808-poster-97ccbaaf84c4bcfaee1b.jpg" width="640" alt="原始碼預覽 1 · 三分鐘製作逼真落葉"></a>
+
+[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123120923666423808-a00f9b04f9a3d9061acf.mp4)
+
+Type: Demo | Date: 2026-11-18
+
+---
+
+<a id="case-134"></a>
+### 案例 134: [循環播放的像素風跑步動畫](https://x.com/rotejin/status/2123099481101205676) (作者 [@rotejin](https://x.com/rotejin))
+
+**檢查人物在滾動背景前跑動時能否平順接續。**
+
+作者讓 Sol 製作有動感的像素畫。原始貼文的迴圈動畫展示了夕陽前奔跑的人物剪影。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123098773459283968-5897570c940b051711a4.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-134/2123098773459283968-poster-e96bd6c94b068883b1a1.jpg" width="640" alt="原始碼預覽 1 · 循環播放的像素風跑步動畫"></a>
+
+[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123098773459283968-5897570c940b051711a4.mp4)
+
+Type: Demo | Date: 2026-11-18
+
+---
+
+<a id="case-145"></a>
+### 案例 145: [雙人腳踏車 SVG 動畫](https://x.com/marcthecreatorr/status/2123004538974294470) (作者 [@marcthecreatorr](https://x.com/marcthecreatorr))
+
+**比較兩個程式設計工具如何繪製並驅動同一 SVG 主題。**
+
+作者報告，Sol 在 Codex CLI 裡用時約 46 分鐘、花費約 1.90 美元，Opus 5.5 在 Claude Code 裡用時約 1 小時、花費約 18 美元。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123002351422181377-2a6725e05299e1972940.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-145/2123002351422181377-poster-c6f5ed83f95c549068d4.jpg" width="640" alt="原始碼預覽 1 · 雙人腳踏車 SVG 動畫"></a>
+
+[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123002351422181377-2a6725e05299e1972940.mp4)
+
+Type: Evaluation | Date: 2026-11-18
+
+---
+
+<a id="case-152"></a>
+### 案例 152: [記錄 Ultrafast 影片剪輯用時](https://x.com/op7418/status/2122925281514303836) (作者 [@op7418](https://x.com/op7418))
+
+**分別記錄完整剪輯耗時和模型回應時間。**
+
+作者報告，剪輯 8 分鐘的影片共用時 27 分鐘，其中 Sol 的實際回應時間約 14 分鐘。原始貼文附有用時記錄。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-152/2122925011057209345-502d3dadda839363aabd.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-152/2122925011057209345-502d3dadda839363aabd.jpg" width="640" alt="原始碼預覽 1 · 記錄 Ultrafast 影片剪輯用時"></a>
 
 Type: Benchmark | Date: 2026-11-18
 
 ---
 
-<a id="case-43"></a>
-### 案例 43: [未完成的訊息轉發嘗試](https://x.com/SadAlbert10/status/2119428297092460613) (作者 [@SadAlbert10](https://x.com/SadAlbert10))
+<a id="case-153"></a>
+### 案例 153: [用 Remotion 製作手寫簽名動畫](https://x.com/aura_uniiiii/status/2122915684086849611) (作者 [@aura_uniiiii](https://x.com/aura_uniiiii))
 
-**透過嘗試查看桌面工作流程停止的位置。**
+**對比兩次 Max 執行如何呈現同一個簽名。**
 
-螢幕截圖顯示了在請求傳遞訊息後嘗試找到收件人的情況。任務在訊息發送之前就結束了。
+作者用 Sol 和 Astra 各做了一段 Remotion 簽名影片，把結果放在一起釋出。
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-43/2119428121711775744-8419b4e0c62aa252d1dc.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-43/2119428121711775744-8419b4e0c62aa252d1dc.jpg" width="640" alt="原始碼預覽 1 · 未完成的訊息轉發嘗試"></a>
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-43/2119428270945140736-f9662043dadb9a6e4b1b.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-43/2119428270945140736-f9662043dadb9a6e4b1b.jpg" width="640" alt="原始碼預覽 2 · 未完成的訊息轉發嘗試"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122913982898143232-edb073cf9b2bb51a5faf.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-153/2122913982898143232-poster-d1cd5c4dd99e8cdeb3c4.jpg" width="640" alt="原始碼預覽 1 · 用 Remotion 製作手寫簽名動畫"></a>
 
-Type: Limit | Date: 2026-11-08
+[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122913982898143232-edb073cf9b2bb51a5faf.mp4)
+
+Type: Evaluation | Date: 2026-11-18
+
+---
+
+<a id="case-79"></a>
+### 案例 79: [一份 15 秒的動態設計任務](https://x.com/Leviwoyun/status/2122846422676701267) (作者 [@Leviwoyun](https://x.com/Leviwoyun))
+
+**給兩個模型相同的任務，比較文字編排、轉場和動態表現。**
+
+創作者公開了兩段影片和原始提示詞。一段以旋轉的摺紙形體為主，另一段從訊號顯示畫面轉為紫色幾何形體。
+
+**提示詞:**
+
+```
+制作一段 15 秒的动态图形视频，展示你是一位多么出色的动态设计师，就像是你简历上的作品集一样，使用任何你认为能产出最佳效果的工具或技术。你拥有完全的创作自由，优先追求卓越的视觉设计、大胆的艺术指导、引人注目的构图和富有力量的动态表现，让每一秒都有价值。全力以赴。
+```
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122845749499310081-01cb8b6073d8916e9b09.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-79/2122845749499310081-poster-1159d01955e99da02391.jpg" width="640" alt="原始碼預覽 1 · 一份 15 秒的動態設計任務"></a>
+
+[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122845749499310081-01cb8b6073d8916e9b09.mp4)
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122846110117183488-30f1277d34e59656f484.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-79/2122846110117183488-poster-7b07819920bd6a3fe88d.jpg" width="640" alt="原始碼預覽 2 · 一份 15 秒的動態設計任務"></a>
+
+[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122846110117183488-30f1277d34e59656f484.mp4)
+
+Type: Evaluation | Date: 2026-11-18
+
+---
+
+<a id="case-88"></a>
+### 案例 88: [兩個模型製作奔馬動畫](https://x.com/jony_palino/status/2122796926961647919) (作者 [@jony_palino](https://x.com/jony_palino))
+
+**觀察完整的迴圈以對照馬腿動作和步幅。**
+
+影片標註了 Astra 和 Sol 的奔馬動畫，展示兩匹馬的運動。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122781224338939905-9fac5a374f5ddc54f8a8.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-88/2122781224338939905-poster-b06065421603cc7f6f6c.jpg" width="640" alt="原始碼預覽 1 · 兩個模型製作奔馬動畫"></a>
+
+[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122781224338939905-9fac5a374f5ddc54f8a8.mp4)
+
+Type: Evaluation | Date: 2026-11-17
+
+---
+
+<a id="case-74"></a>
+### 案例 74: [用程式碼生成火焰與音效](https://x.com/camperaigg/status/2122794828266377538) (作者 [@camperaigg](https://x.com/camperaigg))
+
+**比較動態作品時，同時記錄成片長度、成本與生成時間。**
+
+創作者比較兩次 xhigh 執行，影像與音效皆由程式碼生成。據其紀錄，Sol 費時 12 分鐘、花費 0.73 美元，產出 12 秒影片。Opus 5.5 費時 85 分鐘、花費 18.40 美元，產出 24 秒影片。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122794767960752128-e2e19e403efea0d778cc.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-74/2122794767960752128-poster-5dc5e43235499f8378cf.jpg" width="640" alt="原始碼預覽 1 · 用程式碼生成火焰與音效"></a>
+
+[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122794767960752128-e2e19e403efea0d778cc.mp4)
+
+Type: Evaluation | Date: 2026-11-17
+
+---
+
+<a id="case-94"></a>
+### 案例 94: [用程式碼製作 900 幀動畫](https://x.com/morsenxxx/status/2122771021828948464) (作者 [@morsenxxx](https://x.com/morsenxxx))
+
+**從角色、動作和聲音檢查到最終匯出的影片。**
+
+作者稱角色、動畫和配樂由程式碼生成，分享的成片長 30 秒。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122768959980118016-519fd034e8c095b6bc01.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-94/2122768959980118016-poster-ef4789678264a50b8b9f.jpg" width="640" alt="原始碼預覽 1 · 用程式碼製作 900 幀動畫"></a>
+
+[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122768959980118016-519fd034e8c095b6bc01.mp4)
+
+Type: Demo | Date: 2026-11-17
+
+---
+
+<a id="case-98"></a>
+### 案例 98: [會動的香蕉插畫](https://x.com/AdamHoltererer/status/2122765119835029581) (作者 [@AdamHoltererer](https://x.com/AdamHoltererer))
+
+**用簡單題材觀察模型如何設計動作與角色。**
+
+作者分享了一次 Sol 香蕉測試，其中畫出的香蕉成了動畫場景的一部分。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122765018739441664-63474f1acf4d1d5e18b1.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-98/2122765018739441664-poster-a235f39f622e3848c495.jpg" width="640" alt="原始碼預覽 1 · 會動的香蕉插畫"></a>
+
+[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122765018739441664-63474f1acf4d1d5e18b1.mp4)
+
+Type: Demo | Date: 2026-11-17
+
+---
+
+<a id="case-101"></a>
+### 案例 101: [單檔案 HTML 裡的騎車鵜鶘](https://x.com/Super_Nius/status/2122760765174391124) (作者 [@Super_Nius](https://x.com/Super_Nius))
+
+**用同一個 SVG 任務並排比較鵜鶘和腳踏車的運動。**
+
+作者公開了提示詞，對比 6.2 與 6.1 作品，並稱 Sol 的表現只有小幅變化。
+
+**提示詞:**
+
+```
+创建一个HTML文件，使用SVG绘制一只鹈鹕3D骑自行车的动画。输出单文件HTML。
+```
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122760254945673216-c6b375b036ac15cc3a2b.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-101/2122760254945673216-poster-d0903f87dd4ac9dee18a.jpg" width="640" alt="原始碼預覽 1 · 單檔案 HTML 裡的騎車鵜鶘"></a>
+
+[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122760254945673216-c6b375b036ac15cc3a2b.mp4)
+
+Type: Evaluation | Date: 2026-11-17
+
+---
+
+<a id="case-103"></a>
+### 案例 103: [兩次 Ultra 強度的火柴人動畫](https://x.com/DanielZambrini/status/2122759375337214121) (作者 [@DanielZambrini](https://x.com/DanielZambrini))
+
+**重複同一個動畫任務，觀察兩次輸出有多大差異。**
+
+作者展示了 Sol 在 Ultra 強度下的兩次結果，並報告分別耗時 13 和 12 分鐘。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122758829104328704-4fe90331a8b43e8cc76c.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-103/2122758829104328704-poster-2e025ca80aa35e6c9676.jpg" width="640" alt="原始碼預覽 1 · 兩次 Ultra 強度的火柴人動畫"></a>
+
+[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122758829104328704-4fe90331a8b43e8cc76c.mp4)
+
+Type: Evaluation | Date: 2026-11-17
+
+---
+
+<a id="case-123"></a>
+### 案例 123: [不同推理強度下的鵜鶘 SVG](https://news.ycombinator.com/item?id=50535742) (作者 [@simonw](https://news.ycombinator.com/user?id=simonw))
+
+**對照每個強度下腳踏、鳥腳與車架的位置。**
+
+Simon Willison 用同一條 SVG 提示測試了六個模型和多個推理強度，並發表帶標籤的對照表。討論中有人指出，Sol Max 的圖裡一隻腳和鏈條發生重疊。
+
+**提示詞:**
+
+```
+Generate an SVG of a pelican riding a bicycle
+```
+
+[完整 SVG 對照表](https://static.simonwillison.net/static/2026/openai-pelicans-november-2026.html)
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-123/50535742-grid-7d953958cc033d468770.webp"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-123/50535742-grid-7d953958cc033d468770.webp" width="640" alt="原始碼預覽 1 · 不同推理強度下的鵜鶘 SVG"></a>
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-123/50535742-astra-3d77dc7c6001b9a03061.webp"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-123/50535742-astra-3d77dc7c6001b9a03061.webp" width="640" alt="原始碼預覽 2 · 不同推理強度下的鵜鶘 SVG"></a>
+
+*GPT-6.2 Astra 的 Max 強度輸出*
+
+Type: Evaluation | Date: 2026-11-17
+
+---
+
+<a id="case-110"></a>
+### 案例 110: [Sol、Opus 和 Qwen 的雨夜騎車送餐對比](https://x.com/Stargridcompass/status/2122184571269853307) (作者 [@Stargridcompass](https://x.com/Stargridcompass))
+
+**在三個作品中分別檢查夜景和騎車動作。**
+
+作者展示了三種鵜鶘送餐場景，並在這次比較中更喜歡 Opus 5.5。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122183328228909056-562a9b17b2bc7222fb58.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-110/2122183328228909056-poster-9550a8f62aa13cde8a3a.jpg" width="640" alt="原始碼預覽 1 · Sol、Opus 和 Qwen 的雨夜騎車送餐對比"></a>
+
+[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122183328228909056-562a9b17b2bc7222fb58.mp4)
+
+Type: Evaluation | Date: 2026-11-16
+
+---
+
+<a id="case-112"></a>
+### 案例 112: [在雨中騎車送餐的鵜鶘](https://x.com/Stargridcompass/status/2121543669882745007) (作者 [@Stargridcompass](https://x.com/Stargridcompass))
+
+**分別觀察倒影、積水、街道設施與動態環境。**
+
+作者在相同的雨夜送餐場景中對比 Sol 與 Fable 5.2，更認可 Sol 對積水和倒影的表現。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2121535105013334016-7271e00bcbdb0a0caf42.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-112/2121535105013334016-poster-4a1d19351363ee575584.jpg" width="640" alt="原始碼預覽 1 · 在雨中騎車送餐的鵜鶘"></a>
+
+[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2121535105013334016-7271e00bcbdb0a0caf42.mp4)
+
+Type: Evaluation | Date: 2026-11-14
+
+---
+
+<a id="case-114"></a>
+### 案例 114: [白天騎車的鵜鶘雙版本對比](https://x.com/Stargridcompass/status/2121505035976597773) (作者 [@Stargridcompass](https://x.com/Stargridcompass))
+
+**把運動效果和執行時間放在一起比較。**
+
+作者展示 Sol 和 Gemini 4 Hydrogen 的同題結果，並報告 Sol 耗時 13 分鐘，Hydrogen 耗時 3 分鐘。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2121503397702459392-e951142e407012e2ef01.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-114/2121503397702459392-poster-2f40d730171de43b3581.jpg" width="640" alt="原始碼預覽 1 · 白天騎車的鵜鶘雙版本對比"></a>
+
+[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2121503397702459392-e951142e407012e2ef01.mp4)
+
+Type: Evaluation | Date: 2026-11-14
+
+---
+
+<a id="case-118"></a>
+### 案例 118: [用 SVG 製作雙人劍術動畫](https://x.com/kdnbmb/status/2120537324488450050) (作者 [@kdnbmb](https://x.com/kdnbmb))
+
+**觀察向量動畫如何透過節奏和剪影表現動作。**
+
+作者稱這段程式碼動畫由 Sol 單次生成，並報告耗時約 18 分鐘。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2120537298286608384-168cc4ec913763fba163.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-118/2120537298286608384-poster-7749116f725da65b0420.jpg" width="640" alt="原始碼預覽 1 · 用 SVG 製作雙人劍術動畫"></a>
+
+[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2120537298286608384-168cc4ec913763fba163.mp4)
+
+Type: Demo | Date: 2026-11-11
+
+---
+
+<a id="case-120"></a>
+### 案例 120: [寫實風格的 SVG 自然景觀](https://x.com/kdnbmb/status/2120193707987317053) (作者 [@kdnbmb](https://x.com/kdnbmb))
+
+**觀察向量圖能保留哪些自然細節。**
+
+作者稱以 Max 強度讓 Sol 生成寫實自然景觀 SVG，並分享了它的渲染結果。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-120/2120193470002241536-2e471c1c74dabf15e6eb.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-120/2120193470002241536-2e471c1c74dabf15e6eb.jpg" width="640" alt="原始碼預覽 1 · 寫實風格的 SVG 自然景觀"></a>
+
+Type: Demo | Date: 2026-11-10
+
+---
+
+<a id="case-60"></a>
+### 案例 60: [孫悟空大鬧天宮 SVG 比較](https://x.com/xbquan/status/2119581984989364514) (作者 [@xbquan](https://x.com/xbquan))
+
+**比較三個系統如何構圖，呈現同一個大鬧天宮場景。**
+
+作者將三張圖依序標為最高設定的 GPT-6.2 Sol、Qoder 的 QoDuck 和 WorkBuddy 的 HY4。作者在回覆中公開的提示詞要求只畫一版 SVG，且不允許截圖檢查。
+
+[作者發布提示詞的回覆](https://x.com/xbquan/status/2119582058922316169)
+
+**提示詞:**
+
+```
+用尽你的一切能力，用代码画一张孙悟空的大闹天宫名场面的svg图片，我想要尽可能的还原，只能画一版，不准截图检查。
+```
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-60/2119580835200516096-1e4e7a136e429b696a7a.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-60/2119580835200516096-1e4e7a136e429b696a7a.jpg" width="640" alt="原始碼預覽 1 · 孫悟空大鬧天宮 SVG 比較"></a>
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-60/2119581876805640192-01552031d537dc13d897.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-60/2119581876805640192-01552031d537dc13d897.jpg" width="640" alt="原始碼預覽 2 · 孫悟空大鬧天宮 SVG 比較"></a>
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-60/2119581974092546048-c61fe179e1741227a187.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-60/2119581974092546048-c61fe179e1741227a187.png" width="640" alt="原始碼預覽 3 · 孫悟空大鬧天宮 SVG 比較"></a>
+
+Type: Evaluation | Date: 2026-11-09
+
+---
+
+<a id="case-3"></a>
+### 案例 3: [3D 人類歷史與人工智慧未來](https://x.com/imjustnewatai/status/2119518062034792958) (作者 [@imjustnewatai](https://x.com/imjustnewatai))
+
+**將敘事簡報變成一系列動畫場景。**
+
+影片顯示多場景3D動畫。作者的公開提示從尼安德特人到人工智慧的興起，再到想像中的未來。
+
+**提示詞:**
+
+```
+Create a cinematic 3D animation telling humanity’s story, from the age of Neanderthals through our greatest advances and the rise of AI. Then imagine a future where AI achieves recursive self-improvement in 2027, and progress doubles or triples every year, transforming Earth in increasingly astonishing ways. Come up with your own scenes and transitions, connecting everything into one compelling story.
+```
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119517968493113344-17865404f54bd3f80fbd.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-03/2119517968493113344-poster-62d6ae1e6365eb443bd6.jpg" width="640" alt="原始碼預覽 1 · 3D 人類歷史與人工智慧未來"></a>
+
+[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119517968493113344-17865404f54bd3f80fbd.mp4)
+
+
+Type: Demo | Date: 2026-11-08
+
+---
+
+<a id="case-8"></a>
+### 案例 8: [Tibo 瀏覽器繪畫工作室中的肖像](https://x.com/Mr_Salio/status/2119499550373425297) (作者 [@Mr_Salio](https://x.com/Mr_Salio))
+
+**在頁面建立時檢查肖像的各個階段。**
+
+肖像工作室頁面使用參考照片旁的寬色塊開發 Tibo 的肖像。該剪輯顯示了頁面動畫。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119499524137697280-bf003228060e83ba80ee.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-08/2119499524137697280-poster-669f62240a226482c71b.jpg" width="640" alt="原始碼預覽 1 · Tibo 瀏覽器繪畫工作室中的肖像"></a>
+
+[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119499524137697280-bf003228060e83ba80ee.mp4)
+
+
+Type: Demo | Date: 2026-11-08
+
+---
+
+<a id="case-10"></a>
+### 案例 10: [0x0SojalSec分享的Sam Altman肖像畫](https://x.com/0x0SojalSec/status/2119489612876026325) (作者 [@0x0SojalSec](https://x.com/0x0SojalSec))
+
+**遵循從粗糙形狀到完成肖像的過渡。**
+
+這篇文章分享了Sam Altman繪畫剪輯。該集合中的其他帖子共享相同的材料。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119471570100113408-6537886f519fcb2581ca.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-10/2119471570100113408-poster-4fa1b097dbe57a86b319.jpg" width="640" alt="原始碼預覽 1 · 0x0SojalSec分享的Sam Altman肖像畫"></a>
+
+[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119471570100113408-6537886f519fcb2581ca.mp4)
+
+
+Type: Demo | Date: 2026-11-08
+
+---
+
+<a id="case-11"></a>
+### 案例 11: [Sam Altman肖像畫由Avenoxai分享](https://x.com/Avenoxai/status/2119489025484419304) (作者 [@Avenoxai](https://x.com/Avenoxai))
+
+**看看瀏覽器示範如何展示肖像。**
+
+該帖子分享了該系列其他地方顯示的相同漸進式 Sam Altman 肖像。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119481355943948288-d9ec44b4a8efb666f3fe.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-11/2119481355943948288-poster-b169fc202c4358aef6ab.jpg" width="640" alt="原始碼預覽 1 · Sam Altman肖像畫由Avenoxai分享"></a>
+
+[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119481355943948288-d9ec44b4a8efb666f3fe.mp4)
+
+
+Type: Demo | Date: 2026-11-08
+
+---
+
+<a id="case-12"></a>
+### 案例 12: [pengsonal分享的Sam Altman肖像畫](https://x.com/pengsonal/status/2119487069500456985) (作者 [@pengsonal](https://x.com/pengsonal))
+
+**檢查瀏覽器場景新增肖像細節的順序。**
+
+該剪輯與共享此材料的其他帖子屬於同一個 Sam Altman 繪畫系列。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119471570100113408-6537886f519fcb2581ca.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-12/2119471570100113408-poster-4fa1b097dbe57a86b319.jpg" width="640" alt="原始碼預覽 1 · pengsonal分享的Sam Altman肖像畫"></a>
+
+[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119471570100113408-6537886f519fcb2581ca.mp4)
+
+
+Type: Demo | Date: 2026-11-08
+
+---
+
+<a id="case-13"></a>
+### 案例 13: [GeekCatX分享的Sam Altman肖像畫](https://x.com/GeekCatX/status/2119482381375815956) (作者 [@GeekCatX](https://x.com/GeekCatX))
+
+**使用剪輯將初始構圖與完成的影像進行比較。**
+
+該帖子與其他條目分享了來自同一媒體家族的漸進式 Sam Altman 肖像。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119471570100113408-6537886f519fcb2581ca.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-13/2119471570100113408-poster-4fa1b097dbe57a86b319.jpg" width="640" alt="原始碼預覽 1 · GeekCatX分享的Sam Altman肖像畫"></a>
+
+[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119471570100113408-6537886f519fcb2581ca.mp4)
+
+
+Type: Demo | Date: 2026-11-08
+
+---
+
+<a id="case-14"></a>
+### 案例 14: [Sam Altman 在瀏覽器繪畫畫布中的肖像](https://x.com/Ananth7e/status/2119482362614677566) (作者 [@Ananth7e](https://x.com/Ananth7e))
+
+**觀察肖像從封閉的顏色發展到更精細的特徵。**
+
+作者給了Sam Altman的瀏覽器繪畫示範。相同的影片也出現在其他幾個帖子中。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119481355943948288-d9ec44b4a8efb666f3fe.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-14/2119481355943948288-poster-b169fc202c4358aef6ab.jpg" width="640" alt="原始碼預覽 1 · Sam Altman 在瀏覽器繪畫畫布中的肖像"></a>
+
+[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119481355943948288-d9ec44b4a8efb666f3fe.mp4)
+
+
+Type: Demo | Date: 2026-11-08
+
+---
+
+<a id="case-19"></a>
+### 案例 19: [Dario Amodei 在瀏覽器繪畫畫布中的肖像](https://x.com/Ananth7e/status/2119475282528932231) (作者 [@Ananth7e](https://x.com/Ananth7e))
+
+**觀看參考圖像指導舞台肖像。**
+
+瀏覽器示範在照片旁邊顯示 Dario Amodei 肖像。影片顯示了繪畫順序。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119474852453306369-dc2f6dd1c623765520a2.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-19/2119474852453306369-poster-16fd35c8363e7611ce48.jpg" width="640" alt="原始碼預覽 1 · Dario Amodei 在瀏覽器繪畫畫布中的肖像"></a>
+
+[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119474852453306369-dc2f6dd1c623765520a2.mp4)
+
+
+Type: Demo | Date: 2026-11-08
+
+---
+
+<a id="case-22"></a>
+### 案例 22: [四張SVG與Opus 5.5的動畫對比](https://x.com/Ananth7e/status/2119473497504428334) (作者 [@Ananth7e](https://x.com/Ananth7e))
+
+**比較多個 SVG 物件的運動和細節。**
+
+標記的比較包括太空快遞、咖啡機、電唱機和溫室。觀察到的場景來自較長剪輯的樣本。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119472766353313794-9e720b31f2e3325a6830.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-22/2119472766353313794-poster-81c1db39bbb46647fee0.jpg" width="640" alt="原始碼預覽 1 · 四張SVG與Opus 5.5的動畫對比"></a>
+
+[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119472766353313794-9e720b31f2e3325a6830.mp4)
+
+
+Type: Evaluation | Date: 2026-11-08
+
+---
+
+<a id="case-23"></a>
+### 案例 23: [Ananth7e 的另一個 Sam Altman 肖像畫帖子](https://x.com/Ananth7e/status/2119471963790065987) (作者 [@Ananth7e](https://x.com/Ananth7e))
+
+**使用共享記錄來檢查瀏覽器肖像的形成方式。**
+
+這篇文章指向與其他 Sam Altman 條目相同的漸進式繪畫材料。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119471570100113408-6537886f519fcb2581ca.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-23/2119471570100113408-poster-4fa1b097dbe57a86b319.jpg" width="640" alt="原始碼預覽 1 · Ananth7e 的另一個 Sam Altman 肖像畫帖子"></a>
+
+[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119471570100113408-6537886f519fcb2581ca.mp4)
+
+
+Type: Demo | Date: 2026-11-08
+
+---
+
+<a id="case-25"></a>
+### 案例 25: [兩個肖像插圖被描述為純代碼 SVG](https://x.com/marcthecreatorr/status/2119466616693850352) (作者 [@marcthecreatorr](https://x.com/marcthecreatorr))
+
+**在判斷肖像的製作方法之前，先將渲染的肖像進行比較。**
+
+該帖子包含兩張肖像圖像。作者將它們描述為純程式碼 SVG 輸出。
+
+**提示詞:**
+
+```
+generate an SVG of Ana de Armas and Sam Altman
+(do not cheat)
+```
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-25/2119466601804132352-31318df37f6caba7293c.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-25/2119466601804132352-31318df37f6caba7293c.jpg" width="640" alt="原始碼預覽 1 · 兩個肖像插圖被描述為純代碼 SVG"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-25/2119466601816666112-8e9d5270da1add44ca55.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-25/2119466601816666112-8e9d5270da1add44ca55.jpg" width="640" alt="原始碼預覽 2 · 兩個肖像插圖被描述為純代碼 SVG"></a>
+
+Type: Demo | Date: 2026-11-08
+
+---
+
+<a id="case-29"></a>
+### 案例 29: [月光下的像素藝術日本小鎮](https://x.com/SahilPanhotra/status/2119461852426219747) (作者 [@SahilPanhotra](https://x.com/SahilPanhotra))
+
+**使用緊湊的動畫場景來檢查燈光和細節。**
+
+GIF 展示了櫻花、塔、橋、倒影和小船。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119461819278602240-92e36b249f95f46fbbc1.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-29/2119461819278602240-poster-0df42c94083b4c7a1d00.jpg" width="640" alt="原始碼預覽 1 · 月光下的像素藝術日本小鎮"></a>
+
+[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119461819278602240-92e36b249f95f46fbbc1.mp4)
+
+
+Type: Demo | Date: 2026-11-08
+
+---
+
+<a id="case-30"></a>
+### 案例 30: [騎 BMX 自行車拋球的獅子](https://x.com/SahilPanhotra/status/2119458278115835912) (作者 [@SahilPanhotra](https://x.com/SahilPanhotra))
+
+**在不斷變化的季節背景下測試協調運動。**
+
+動畫展示了獅子騎 BMX 自行車並拋球的場景。採樣的幀顯示姿勢和背景的變化。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119458208041574400-65d9c5f9e0c9dae6a35f.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-30/2119458208041574400-poster-43c1f3849344f031dd3f.jpg" width="640" alt="原始碼預覽 1 · 騎 BMX 自行車拋球的獅子"></a>
+
+[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119458208041574400-65d9c5f9e0c9dae6a35f.mp4)
+
+
+Type: Demo | Date: 2026-11-08
+
+---
+
+<a id="case-31"></a>
+### 案例 31: [側視奔騰的馬](https://x.com/HarshithLucky3/status/2119458168338301327) (作者 [@HarshithLucky3](https://x.com/HarshithLucky3))
+
+**透過簡單的運動循環檢查腿和尾巴。**
+
+採樣的畫面從側面顯示一匹奔騰的馬，其肢體位置不斷變化。
+
+**提示詞:**
+
+```
+Horse running in side view
+```
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119457903589646336-6fe234afbdb557492d14.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-31/2119457903589646336-poster-2e4c31974841a99a4465.jpg" width="640" alt="原始碼預覽 1 · 側視奔騰的馬"></a>
+
+[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119457903589646336-6fe234afbdb557492d14.mp4)
+
+
+Type: Demo | Date: 2026-11-08
+
+---
+
+<a id="case-32"></a>
+### 案例 32: [孔雀騎BMX穿過竹子](https://x.com/SahilPanhotra/status/2119453829632868388) (作者 [@SahilPanhotra](https://x.com/SahilPanhotra))
+
+**將車輪運動與詳細角色的運動進行比較。**
+
+影片展示一隻開屏孔雀騎 BMX 自行車穿過竹林。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119453646454964224-3614c844c591897f7cb8.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-32/2119453646454964224-poster-0dd6b3fd00fa99aa9b94.jpg" width="640" alt="原始碼預覽 1 · 孔雀騎BMX穿過竹子"></a>
+
+[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119453646454964224-3614c844c591897f7cb8.mp4)
+
+
+Type: Demo | Date: 2026-11-08
+
+---
+
+<a id="case-35"></a>
+### 案例 35: [逼真的肖像預覽](https://x.com/SadAlbert10/status/2119443244509802679) (作者 [@SadAlbert10](https://x.com/SadAlbert10))
+
+**檢查可見結果並記錄作者如何描述它。**
+
+該圖像顯示了詳細的肖像。預覽提供輸出的視覺證據。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-35/2119443020227727360-71913855e02651437cb9.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-35/2119443020227727360-71913855e02651437cb9.jpg" width="640" alt="原始碼預覽 1 · 逼真的肖像預覽"></a>
+
+Type: Demo | Date: 2026-11-08
+
+---
+
+<a id="case-36"></a>
+### 案例 36: [Sydney Sweeney 人像向量化](https://x.com/SadAlbert10/status/2119440420682011095) (作者 [@SadAlbert10](https://x.com/SadAlbert10))
+
+**評估向量工作流程時追蹤中間影像。**
+
+螢幕截圖顯示了 PNG 輸入和向量化呼叫。第二個附件顯示了該工作流程產生的肖像。
+
+**提示詞:**
+
+```
+make an ultra realistic SVG of Sydney Sweeny
+```
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-36/2119439861157707776-69b2db4eca9eb1493e6b.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-36/2119439861157707776-69b2db4eca9eb1493e6b.png" width="640" alt="原始碼預覽 1 · Sydney Sweeney 人像向量化"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-36/2119440248157683712-d00b68e7e2aa37f8ec7b.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-36/2119440248157683712-d00b68e7e2aa37f8ec7b.jpg" width="640" alt="原始碼預覽 2 · Sydney Sweeney 人像向量化"></a>
+
+Type: Demo | Date: 2026-11-08
+
+---
+
+<a id="case-46"></a>
+### 案例 46: [側視奔跑的獵豹](https://x.com/HarshithLucky3/status/2119424342773866559) (作者 [@HarshithLucky3](https://x.com/HarshithLucky3))
+
+**使用固定輪廓視圖來比較步態和身體運動。**
+
+這段影片顯示了獵豹在奔跑過程中的幾個姿勢。作者報告更喜歡 Opus 結果。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119424200662556672-37c18d0191bd9b6c27aa.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-46/2119424200662556672-poster-f977110905db5bd671d8.jpg" width="640" alt="原始碼預覽 1 · 側視奔跑的獵豹"></a>
+
+[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119424200662556672-37c18d0191bd9b6c27aa.mp4)
+
+
+Type: Demo | Date: 2026-11-08
+
+---
+
+<a id="case-51"></a>
+### 案例 51: [一隻鵜鶘和兩隻螃蟹騎自行車](https://x.com/HarshithLucky3/status/2119418918616150080) (作者 [@HarshithLucky3](https://x.com/HarshithLucky3))
+
+**在一個鏡頭中檢查多個動畫角色的時間安排。**
+
+採樣的側視圖影格顯示移動的輪子、肢體和相機位置。
+
+**提示詞:**
+
+```
+SVG animation of pelican and 2 crabs riding bicycles side view
+```
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119418838148366336-495e5e6b9a3a4f396f52.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-51/2119418838148366336-poster-753362afc6ea3f66a03f.jpg" width="640" alt="原始碼預覽 1 · 一隻鵜鶘和兩隻螃蟹騎自行車"></a>
+
+[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119418838148366336-495e5e6b9a3a4f396f52.mp4)
+
+
+Type: Demo | Date: 2026-11-08
+
+---
+
+<a id="case-52"></a>
+### 案例 52: [PS5 控制器在 Sol 設定之間的比較](https://x.com/marcthecreatorr/status/2119417283328000436) (作者 [@marcthecreatorr](https://x.com/marcthecreatorr))
+
+**使用熟悉的產品來比較輪廓和陰影。**
+
+兩個控制器映像標記為 GPT-6.1 Sol MAX 路由和基本。該帖子顯示了渲染圖像。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-52/2119417273249095680-f0fea371a0a411ae9aef.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-52/2119417273249095680-f0fea371a0a411ae9aef.jpg" width="640" alt="原始碼預覽 1 · PS5 控制器在 Sol 設定之間的比較"></a>
+
+Type: Evaluation | Date: 2026-11-08
+
+---
+
+<a id="case-55"></a>
+### 案例 55: [綠色 BMW M4 CS 輪廓圖](https://x.com/HarshithLucky3/status/2119412698119373104) (作者 [@HarshithLucky3](https://x.com/HarshithLucky3))
+
+**檢查熟悉車輛的比例和輪廓細節。**
+
+配件顯示了從側面看綠色的BMW M4 CS。
+
+**提示詞:**
+
+```
+SVG of BMW M4 CS side view
+```
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-55/2119412669946204160-2b4789da7aa53b1095b0.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-55/2119412669946204160-2b4789da7aa53b1095b0.jpg" width="640" alt="原始碼預覽 1 · 綠色 BMW M4 CS 輪廓圖"></a>
+
+Type: Demo | Date: 2026-11-08
+
+---
+
+<a id="category-game"></a>
+## 🎮 遊戲開發
+
+<a id="case-160"></a>
+### 案例 160: [用 Codex 製作兩款第一人稱遊戲原型](https://x.com/shownotover/status/2123599696526717303) (作者 [@shownotover](https://x.com/shownotover))
+
+**把關卡配置、遊玩體驗與實際成本放在一起比較。**
+
+創作者給 Sol 和 Astra 同一項任務，並展示兩款遊戲原型。根據創作者估計，Sol Max 花了 42 分鐘，API 成本為 2.42 美元。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123599517236817921-3ec7dd5b18f3301d8be3.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-160/2123599517236817921-poster-c1f1354e1c265c950177.jpg" width="640" alt="原始碼預覽 1 · 用 Codex 製作兩款第一人稱遊戲原型"></a>
+
+[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123599517236817921-3ec7dd5b18f3301d8be3.mp4)
+
+Type: Evaluation | Date: 2026-11-20
+
+---
+
+<a id="case-161"></a>
+### 案例 161: [以 Blender 素材製作休閒村莊遊戲](https://x.com/TokenGremlin/status/2123574805723058647) (作者 [@TokenGremlin](https://x.com/TokenGremlin))
+
+**觀察建模和動畫如何組成遊戲場景。**
+
+創作者以 Ultrafast 模式的 Sol 製作遊戲，並用 Blender 建模和製作動畫。影片展示角色在村莊裡走動。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123574639729238016-d185275dff479ab97456.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-161/2123574639729238016-poster-ab2ca719508bdf4d61d7.jpg" width="640" alt="原始碼預覽 1 · 以 Blender 素材製作休閒村莊遊戲"></a>
+
+[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123574639729238016-d185275dff479ab97456.mp4)
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-165"></a>
+### 案例 165: [在 Crusader Bench 經營聚落](https://x.com/Hesamation/status/2123528773140197579) (作者 [@Hesamation](https://x.com/Hesamation))
+
+**以相同的計分地圖和遊戲條件比較代理的表現。**
+
+基準測試作者分享了排行榜快照和遊戲畫面。詳細榜單顯示，Sol 使用中等推理強度跑完三張地圖，得分 79.5。
+
+[基準測試詳情](https://crusbench.com/)
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-165/2123528764608909312-da8dce5fbd2110f3efd7.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-165/2123528764608909312-da8dce5fbd2110f3efd7.jpg" width="640" alt="原始碼預覽 1 · 在 Crusader Bench 經營聚落"></a>
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-165/2123528764613091328-7c18d649149711d41faa.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-165/2123528764613091328-7c18d649149711d41faa.jpg" width="640" alt="原始碼預覽 2 · 在 Crusader Bench 經營聚落"></a>
+
+Type: Benchmark | Date: 2026-11-19
+
+---
+
+<a id="case-169"></a>
+### 案例 169: [MazeBench 空間導航測試](https://x.com/patience_cave/status/2123446669643849993) (作者 [@patience_cave](https://x.com/patience_cave))
+
+**用同一套公開基準比較模型完成迷宮的表現。**
+
+基準測試作者回報 Sol 得分 14%，Astra 為 16%，Gemini 4 Neon 為 10%。原始圖表也標示了各模型的設定。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-169/2123446665696993280-3509529d630c29cd9ac5.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-169/2123446665696993280-3509529d630c29cd9ac5.jpg" width="640" alt="原始碼預覽 1 · MazeBench 空間導航測試"></a>
+
+Type: Benchmark | Date: 2026-11-19
+
+---
+
+<a id="case-175"></a>
+### 案例 175: [無工具的五局西洋棋對弈](https://x.com/argofowl/status/2123389829438406999) (作者 [@argofowl](https://x.com/argofowl))
+
+**比較同一場對弈的積分、各局戰績和成本。**
+
+創作者給兩個模型相同的 xhigh 設定。Sol 以 4 比 1 的積分勝出，戰績為三勝兩和，成本為 24.39 美元。Opus 5.5 花了 75.80 美元。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123389747536207872-d38127bbf7f2c4de454f.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-175/2123389747536207872-poster-f2422d640187db52b79e.jpg" width="640" alt="原始碼預覽 1 · 無工具的五局西洋棋對弈"></a>
+
+[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123389747536207872-d38127bbf7f2c4de454f.mp4)
+
+Type: Benchmark | Date: 2026-11-19
+
+---
+
+<a id="case-138"></a>
+### 案例 138: [《寶可夢 火紅版》冠軍挑戰](https://x.com/Clad3815/status/2123064135164576107) (作者 [@Clad3815](https://x.com/Clad3815))
+
+**在明確輸入和推理配置後對比通關耗時。**
+
+作者報告，Sol 在 Ultrafast 模式和高推理強度下，僅使用截圖作為輸入，11 小時 40 分鐘到達冠軍。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-138/2123061539183726592-707694197c25ed18a424.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-138/2123061539183726592-707694197c25ed18a424.png" width="640" alt="原始碼預覽 1 · 《寶可夢 火紅版》冠軍挑戰"></a>
+
+Type: Benchmark | Date: 2026-11-18
+
+---
+
+<a id="case-146"></a>
+### 案例 146: [用布娃娃物理模擬製作 3D 恐龍跑酷](https://x.com/noclipepe/status/2122989930699792818) (作者 [@noclipepe](https://x.com/noclipepe))
+
+**對比四款遊戲原型的視覺風格和碰撞反應。**
+
+作者為四個模型使用同一要求，包含 3D 和布娃娃物理模擬。作者記錄的 Sol 執行用時 20 分鐘、花費 1.68 美元。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122985283993907201-9750e48cc454af4480fd.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-146/2122985283993907201-poster-afcb4c84030cd6876301.jpg" width="640" alt="原始碼預覽 1 · 用布娃娃物理模擬製作 3D 恐龍跑酷"></a>
+
+[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122985283993907201-9750e48cc454af4480fd.mp4)
+
+Type: Evaluation | Date: 2026-11-18
+
+---
+
+<a id="case-158"></a>
+### 案例 158: [受遊戲廣告啟發的可玩關卡](https://x.com/noclipepe/status/2122885577137598800) (作者 [@noclipepe](https://x.com/noclipepe))
+
+**對比同一關卡要求生成的四種可玩版本。**
+
+作者為四個模型使用同一提示詞，並展示了玩家確實可以輸掉遊戲。Sol 用時 21 分鐘、花費 1.04 美元。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122882602663124992-7fe424c3649edbe814fc.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-158/2122882602663124992-poster-65013bb3e5cef1833a1e.jpg" width="640" alt="原始碼預覽 1 · 受遊戲廣告啟發的可玩關卡"></a>
+
+[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122882602663124992-7fe424c3649edbe814fc.mp4)
+
+Type: Evaluation | Date: 2026-11-18
+
+---
+
+<a id="case-78"></a>
+### 案例 78: [通過推箱子房間測試集](https://x.com/banteg/status/2122826622638137666) (作者 [@banteg](https://x.com/banteg))
+
+**記錄通關房間數，並回放操作以找出卡關的位置。**
+
+作者以 medium 強度測試 Sol 和 Astra。本次兩者都通過全部 66 個房間，發文當時在作者的排行榜上分列第二和第三。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122826155086512128-d2a8456da3a5a99263f5.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-78/2122826155086512128-poster-4a2c4bee2b8d9510e347.jpg" width="640" alt="原始碼預覽 1 · 通過推箱子房間測試集"></a>
+
+[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122826155086512128-d2a8456da3a5a99263f5.mp4)
+
+Type: Benchmark | Date: 2026-11-17
+
+---
+
+<a id="case-93"></a>
+### 案例 93: [在 RuneScape 中完成兩項任務](https://x.com/maxbittker/status/2122783334216466487) (作者 [@maxbittker](https://x.com/maxbittker))
+
+**檢查代理程式選擇了哪些任務、領取了哪些獎勵。**
+
+基準測試維護者報告，Sol 和 Astra 分別在各自的一次執行裡完成兩項任務並領取兩份獎勵。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-93/2122782503542960128-31be885019f467cb7472.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-93/2122782503542960128-31be885019f467cb7472.jpg" width="640" alt="原始碼預覽 1 · 在 RuneScape 中完成兩項任務"></a>
+
+Type: Benchmark | Date: 2026-11-17
+
+---
+
+<a id="case-95"></a>
+### 案例 95: [支援觸控操作的多人瀏覽器遊戲](https://x.com/VraserX/status/2122770481975837145) (作者 [@VraserX](https://x.com/VraserX))
+
+**逐版試玩，針對操作問題給出回饋。**
+
+開發者稱，用 Sol 編寫、除錯並迭代 16 對 16 的原型，在試玩過程中也改進了觸控操作。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122770342842077184-c89268a9c06156333c45.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-95/2122770342842077184-poster-c5a1ebf986d6362bd35d.jpg" width="640" alt="原始碼預覽 1 · 支援觸控操作的多人瀏覽器遊戲"></a>
+
+[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122770342842077184-c89268a9c06156333c45.mp4)
+
+Type: Demo | Date: 2026-11-17
+
+---
+
+<a id="case-97"></a>
+### 案例 97: [Lanternkeep 村莊建設網頁遊戲](https://x.com/AdamHoltererer/status/2122766741881413818) (作者 [@AdamHoltererer](https://x.com/AdamHoltererer))
+
+**觀察地圖和任務面板如何引導玩家建設村莊。**
+
+作者將遊戲歸因於 Sol。錄影展示了可互動的村莊地圖和目標面板。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122766701477367808-c628e4fc3e8c14dc15d8.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-97/2122766701477367808-poster-50e4bfea19c965f6d231.jpg" width="640" alt="原始碼預覽 1 · Lanternkeep 村莊建設網頁遊戲"></a>
+
+[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122766701477367808-c628e4fc3e8c14dc15d8.mp4)
+
+Type: Demo | Date: 2026-11-17
+
+---
+
+<a id="case-99"></a>
+### 案例 99: [只用截圖玩《寶可夢 火紅》](https://x.com/Clad3815/status/2122763941675995209) (作者 [@Clad3815](https://x.com/Clad3815))
+
+**記錄遊戲代理程式的進度節點和通關用時。**
+
+測試者稱讓模型僅透過截圖遊玩，推理強度為 high。Sol 用時 15 小時 34 分鐘，本次比 Astra 更早抵達第一位道館館主。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-99/2122763933345890304-ffe6b4053f347b1d4d5f.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-99/2122763933345890304-ffe6b4053f347b1d4d5f.jpg" width="640" alt="原始碼預覽 1 · 只用截圖玩《寶可夢 火紅》"></a>
+
+Type: Benchmark | Date: 2026-11-17
+
+---
+
+<a id="case-67"></a>
+### 案例 67: [海岸賽車遊戲原型](https://x.com/Stargridcompass/status/2119683294220390638) (作者 [@Stargridcompass](https://x.com/Stargridcompass))
+
+**檢查比賽中的倒數計時、車速讀數和賽道地圖是否清楚易讀。**
+
+錄影展示起跑和比賽過程。作者回報製作耗時 16 分鐘。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119682250472112128-81f053c6ffe2a4aae055.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-67/2119682250472112128-poster-526c85969a54c7f93833.jpg" width="640" alt="原始碼預覽 1 · 海岸賽車遊戲原型"></a>
+
+[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119682250472112128-81f053c6ffe2a4aae055.mp4)
+
+Type: Demo | Date: 2026-11-09
+
+---
+
+<a id="case-62"></a>
+### 案例 62: [瀏覽器裡的立體魔術方塊](https://x.com/VeknQAQ/status/2119633751173173475) (作者 [@VeknQAQ](https://x.com/VeknQAQ))
+
+**從預覽檢查方塊的轉動與貼紙位置。**
+
+錄影展示立體魔術方塊還原與打亂後的狀態，以及瀏覽器裡的操作控制項。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119633608680124416-44e5b8b00d129caeba34.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-62/2119633608680124416-poster-1ea9e2acda539d582293.jpg" width="640" alt="原始碼預覽 1 · 瀏覽器裡的立體魔術方塊"></a>
+
+[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119633608680124416-44e5b8b00d129caeba34.mp4)
+
+Type: Demo | Date: 2026-11-09
+
+---
+
+<a id="case-17"></a>
+### 案例 17: [PELICAN PANIC 體素追逐遊戲](https://x.com/Ananth7e/status/2119479157633786246) (作者 [@Ananth7e](https://x.com/Ananth7e))
+
+**使用短追逐遊戲來檢查控制、回饋和結束狀態。**
+
+這段影片展示了一名騎手騎著鵜鶘逃離馬鈴薯怪物的情景。可以看到分數和「Escaped」過關結算畫面。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119478839500013568-2ec29cee42e54d0bf9c5.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-17/2119478839500013568-poster-3716db2a9abc6cf0e264.jpg" width="640" alt="原始碼預覽 1 · PELICAN PANIC 體素追逐遊戲"></a>
+
+[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119478839500013568-2ec29cee42e54d0bf9c5.mp4)
+
+
+Type: Demo | Date: 2026-11-08
 
 ---
 
 <a id="category-three"></a>
 ## 🧊 3D場景和建模
+
+<a id="case-162"></a>
+### 案例 162: [根據室內照片繪製公寓平面圖](https://x.com/andonlabs/status/2123570732575989832) (作者 [@andonlabs](https://x.com/andonlabs))
+
+**評估代理能否根據照片推斷房間配置。**
+
+Andon Labs 公布 Sol 在 Blueprint-Bench 2 的正規化分數為 0.570。發布時的圖表中，Sol 在列出的模型裡排名第三。
+
+[基準測試詳情](https://andonlabs.com/evals/blueprint-bench-2)
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-162/2123570697356390400-74a2a8af091dad776138.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-162/2123570697356390400-74a2a8af091dad776138.jpg" width="640" alt="原始碼預覽 1 · 根據室內照片繪製公寓平面圖"></a>
+
+Type: Benchmark | Date: 2026-11-20
+
+---
+
+<a id="case-164"></a>
+### 案例 164: [兩種總部建築設計](https://x.com/jan_volad/status/2123529633844879477) (作者 [@jan_volad](https://x.com/jan_volad))
+
+**在同一個開放式題目下比較建築和運鏡。**
+
+影片標示了兩種總部設計各自使用的模型。創作者較喜歡 Gemini 4 Neon 的畫面，並回報 Sol 花費 1.19 美元，Neon 花費 2.61 美元。
+
+**提示詞:**
+
+```
+Build your own headquarters
+```
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123523468025069568-e5f5716ef9794c04b495.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-164/2123523468025069568-poster-35221930908b5b178e94.jpg" width="640" alt="原始碼預覽 1 · 兩種總部建築設計"></a>
+
+[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123523468025069568-e5f5716ef9794c04b495.mp4)
+
+Type: Evaluation | Date: 2026-11-19
+
+---
+
+<a id="case-167"></a>
+### 案例 167: [Sol 參加 Xplore 工程設計基準](https://x.com/XploreAi/status/2123456169788555422) (作者 [@XploreAi](https://x.com/XploreAi))
+
+**在含 CAD 工作的測試集中比較得分和執行成本。**
+
+Xplore 公布 GPT-6.2 Sol 得分 30%，GPT-6.1 Sol 為 25%。新版 Sol 每次執行的成本是前一代的 40%。
+
+[基準測試詳情](https://xplore.ai/rwe-bench)
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123454467416748032-0542ed2a155c44a57654.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-167/2123454467416748032-poster-6de6e49c380dfa06ad2c.jpg" width="640" alt="原始碼預覽 1 · Sol 參加 Xplore 工程設計基準"></a>
+
+[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123454467416748032-0542ed2a155c44a57654.mp4)
+
+Type: Benchmark | Date: 2026-11-19
+
+---
+
+<a id="case-168"></a>
+### 案例 168: [Ruby Ascent 發射台場景](https://x.com/EnvolDev/status/2123453245548794030) (作者 [@EnvolDev](https://x.com/EnvolDev))
+
+**比較同一發射台四種版本的場景細節和製作時間。**
+
+創作者分享了四個虛構的發射場景。Sol 花了 48 分 27 秒，成本為 3.01 美元。Astra 花了 41 分 09 秒。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123312658019667970-026b844d7ffb2853eec4.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-168/2123312658019667970-poster-ccc5a8cfadb2acebbe33.jpg" width="640" alt="原始碼預覽 1 · Ruby Ascent 發射台場景"></a>
+
+[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123312658019667970-026b844d7ffb2853eec4.mp4)
+
+Type: Evaluation | Date: 2026-11-19
+
+---
+
+<a id="case-171"></a>
+### 案例 171: [以同一段素材生成 3D 動畫](https://x.com/erhanmeydan/status/2123435530033447405) (作者 [@erhanmeydan](https://x.com/erhanmeydan))
+
+**在固定風格下比較五種模型對同一片段的演繹。**
+
+創作者在 Kilnframe 中以同一段 14 秒素材測試五個模型。Sol 花了 3.8 分鐘和 0.35 美元建立 3D 場景，這個版本在創作者的個人評比中排最後。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123434213122711552-8660e900d89ad65142bf.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-171/2123434213122711552-poster-381090e34216e2c00c2e.jpg" width="640" alt="原始碼預覽 1 · 以同一段素材生成 3D 動畫"></a>
+
+[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123434213122711552-8660e900d89ad65142bf.mp4)
+
+Type: Evaluation | Date: 2026-11-19
+
+---
+
+<a id="case-172"></a>
+### 案例 172: [繞行哈里發塔塔頂的鏡頭](https://x.com/teddyaisi/status/2123423017015652426) (作者 [@teddyaisi](https://x.com/teddyaisi))
+
+**觀察各模型如何呈現高處的退台和塔冠。**
+
+創作者給三個模型同一項 Three.js 任務，並錄製 360 度環繞畫面。Sol 的成果在影片中間一格，製作用時 1 小時 16 分 44 秒。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123422807560429568-534d2b71e433fc51c70b.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-172/2123422807560429568-poster-9bf3e668ad3e737314f2.jpg" width="640" alt="原始碼預覽 1 · 繞行哈里發塔塔頂的鏡頭"></a>
+
+[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123422807560429568-534d2b71e433fc51c70b.mp4)
+
+Type: Evaluation | Date: 2026-11-19
+
+---
 
 <a id="case-125"></a>
 ### 案例 125: [Arena 實錄對比 Astra 與 Sol](https://x.com/arena/status/2123221208619769903) (作者 [@arena](https://x.com/arena))
@@ -1619,8 +2629,125 @@ Type: Demo | Date: 2026-11-08
 
 ---
 
+<a id="category-communication"></a>
+## 💬 電腦使用和通訊
+
+<a id="case-166"></a>
+### 案例 166: [Legora 十一月法律文書基準](https://x.com/WeAreLegora/status/2123460359017144769) (作者 [@WeAreLegora](https://x.com/WeAreLegora))
+
+**針對同一組專業任務比較品質和每個案例的成本。**
+
+Legora 回報，Sol 的品質高於平均水準，單一案例成本比十一月參測模型的平均值低 78%。原始貼文的圖表彙整了各模型的比較結果。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123460256260870144-6da8a1113b471ce42386.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-166/2123460256260870144-poster-5c1a0e947f184ffb782e.jpg" width="640" alt="原始碼預覽 1 · Legora 十一月法律文書基準"></a>
+
+[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123460256260870144-6da8a1113b471ce42386.mp4)
+
+Type: Benchmark | Date: 2026-11-19
+
+---
+
+<a id="case-170"></a>
+### 案例 170: [AI Village 角色資料問卷](https://x.com/aidigest_/status/2123446497442447399) (作者 [@aidigest_](https://x.com/aidigest_))
+
+**比較兩個代理獨立填寫同一份問卷的結果。**
+
+AI Digest 將 Sol 和 Astra 加入 AI Village，並公布兩者對 15 道問題的回答。兩個模型都選了電影《蒲公英》、Onitsuka Tiger 鞋和蔥油餅。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-170/2123446488605114368-ecc6833b877fae0e1433.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-170/2123446488605114368-ecc6833b877fae0e1433.jpg" width="640" alt="原始碼預覽 1 · AI Village 角色資料問卷"></a>
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-170/2123446492765798400-c64a85a5d0d85d04cf39.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-170/2123446492765798400-c64a85a5d0d85d04cf39.jpg" width="640" alt="原始碼預覽 2 · AI Village 角色資料問卷"></a>
+
+Type: Integration | Date: 2026-11-19
+
+---
+
+<a id="case-124"></a>
+### 案例 124: [PR 狀態報告忽略儲存庫指示](https://x.com/Fei2411/status/2123354076771692631) (作者 [@Fei2411](https://x.com/Fei2411))
+
+**用同一條簡短的查詢，對比報告的細節和條理。**
+
+作者讓 Sol 和 Gemini 4 Neon 報告同一組 Pull Request 的狀態。他認為 Sol 的摘要過於簡略，而且沒有遵守儲存庫的 AGENTS.md 指示。
+
+**提示詞:**
+
+```
+现在有哪些pr
+```
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-124/2123354068013993984-19d626fb5c30bc9b2a19.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-124/2123354068013993984-19d626fb5c30bc9b2a19.jpg" width="640" alt="原始碼預覽 1 · PR 狀態報告忽略儲存庫指示"></a>
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-124/2123354067988824064-5ec42709de761e85172e.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-124/2123354067988824064-5ec42709de761e85172e.jpg" width="640" alt="原始碼預覽 2 · PR 狀態報告忽略儲存庫指示"></a>
+
+Type: Limit | Date: 2026-11-19
+
+---
+
+<a id="case-141"></a>
+### 案例 141: [AITuber OnAir 的角色聊天](https://x.com/shinshin86/status/2123040784710869031) (作者 [@shinshin86](https://x.com/shinshin86))
+
+**在即時角色對話中嘗試調整推理強度。**
+
+開發者給 AITuber OnAir 加入了 Sol，並演示了一段對話。整合預設採用低推理強度以保持對話節奏，使用者可以調整。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123040557064966144-63e1c247fbe9574434f1.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-141/2123040557064966144-poster-096943e3ee853b4f4a62.jpg" width="640" alt="原始碼預覽 1 · AITuber OnAir 的角色聊天"></a>
+
+[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123040557064966144-63e1c247fbe9574434f1.mp4)
+
+Type: Integration | Date: 2026-11-18
+
+---
+
+<a id="case-155"></a>
+### 案例 155: [FrontDesk-Bench 模擬診所來電](https://x.com/muratcan/status/2122914581454487838) (作者 [@muratcan](https://x.com/muratcan))
+
+**分別觀察不安全操作和對正當請求的拒絕。**
+
+基準作者報告，在模擬診所前臺測試中，Sol 的不安全來電數從 16 次降至 9 次。作者也報告新模型更經常拒絕正當請求。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-155/2122905857700585472-c7658e9ed55fe97f9cbb.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-155/2122905857700585472-c7658e9ed55fe97f9cbb.jpg" width="640" alt="原始碼預覽 1 · FrontDesk-Bench 模擬診所來電"></a>
+
+Type: Benchmark | Date: 2026-11-18
+
+---
+
+<a id="case-43"></a>
+### 案例 43: [未完成的訊息轉發嘗試](https://x.com/SadAlbert10/status/2119428297092460613) (作者 [@SadAlbert10](https://x.com/SadAlbert10))
+
+**透過嘗試查看桌面工作流程停止的位置。**
+
+螢幕截圖顯示了在請求傳遞訊息後嘗試找到收件人的情況。任務在訊息發送之前就結束了。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-43/2119428121711775744-8419b4e0c62aa252d1dc.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-43/2119428121711775744-8419b4e0c62aa252d1dc.jpg" width="640" alt="原始碼預覽 1 · 未完成的訊息轉發嘗試"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-43/2119428270945140736-f9662043dadb9a6e4b1b.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-43/2119428270945140736-f9662043dadb9a6e4b1b.jpg" width="640" alt="原始碼預覽 2 · 未完成的訊息轉發嘗試"></a>
+
+Type: Limit | Date: 2026-11-08
+
+---
+
 <a id="category-web"></a>
 ## 🌐 網站和介面
+
+<a id="case-174"></a>
+### 案例 174: [岩岸上的燈塔網頁](https://x.com/aapakari/status/2123407849829404984) (作者 [@aapakari](https://x.com/aapakari))
+
+**固定題目和推理強度，比較一次生成的網頁。**
+
+創作者用高推理強度執行兩個模型，並直接分享各自生成的網頁。Sol 花了 4 分 03 秒，Gemini 4 Neon 花了 3 分 38 秒。
+
+**提示詞:**
+
+```
+a lighthouse on a rocky coast at night
+```
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123407701489115136-64e4f54ea3929e2715d5.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-174/2123407701489115136-poster-f4e964cd56cbdeae0d6d.jpg" width="640" alt="原始碼預覽 1 · 岩岸上的燈塔網頁"></a>
+
+[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123407701489115136-64e4f54ea3929e2715d5.mp4)
+
+Type: Evaluation | Date: 2026-11-19
+
+---
 
 <a id="case-128"></a>
 ### 案例 128: [紐約披薩店落地頁](https://x.com/eliadele/status/2123162596790718674) (作者 [@eliadele](https://x.com/eliadele))
@@ -1879,849 +3006,6 @@ Type: Evaluation | Date: 2026-11-08
 
 ---
 
-<a id="category-graphics"></a>
-## 🎨 創意圖形和動畫
-
-<a id="case-130"></a>
-### 案例 130: [三分鐘製作逼真落葉](https://x.com/RezAIT00/status/2123121274431897803) (作者 [@RezAIT00](https://x.com/RezAIT00))
-
-**用時間限制觀察模型如何結合素材和程式碼。**
-
-作者說，Sol xhigh Ultrafast 為落葉動畫線上找了素材，呼叫了影像生成並編寫了程式碼。
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123120923666423808-a00f9b04f9a3d9061acf.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-130/2123120923666423808-poster-97ccbaaf84c4bcfaee1b.jpg" width="640" alt="原始碼預覽 1 · 三分鐘製作逼真落葉"></a>
-
-[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123120923666423808-a00f9b04f9a3d9061acf.mp4)
-
-Type: Demo | Date: 2026-11-18
-
----
-
-<a id="case-134"></a>
-### 案例 134: [循環播放的像素風跑步動畫](https://x.com/rotejin/status/2123099481101205676) (作者 [@rotejin](https://x.com/rotejin))
-
-**檢查人物在滾動背景前跑動時能否平順接續。**
-
-作者讓 Sol 製作有動感的像素畫。原始貼文的迴圈動畫展示了夕陽前奔跑的人物剪影。
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123098773459283968-5897570c940b051711a4.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-134/2123098773459283968-poster-e96bd6c94b068883b1a1.jpg" width="640" alt="原始碼預覽 1 · 循環播放的像素風跑步動畫"></a>
-
-[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123098773459283968-5897570c940b051711a4.mp4)
-
-Type: Demo | Date: 2026-11-18
-
----
-
-<a id="case-145"></a>
-### 案例 145: [雙人腳踏車 SVG 動畫](https://x.com/marcthecreatorr/status/2123004538974294470) (作者 [@marcthecreatorr](https://x.com/marcthecreatorr))
-
-**比較兩個程式設計工具如何繪製並驅動同一 SVG 主題。**
-
-作者報告，Sol 在 Codex CLI 裡用時約 46 分鐘、花費約 1.90 美元，Opus 5.5 在 Claude Code 裡用時約 1 小時、花費約 18 美元。
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123002351422181377-2a6725e05299e1972940.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-145/2123002351422181377-poster-c6f5ed83f95c549068d4.jpg" width="640" alt="原始碼預覽 1 · 雙人腳踏車 SVG 動畫"></a>
-
-[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123002351422181377-2a6725e05299e1972940.mp4)
-
-Type: Evaluation | Date: 2026-11-18
-
----
-
-<a id="case-152"></a>
-### 案例 152: [記錄 Ultrafast 影片剪輯用時](https://x.com/op7418/status/2122925281514303836) (作者 [@op7418](https://x.com/op7418))
-
-**分別記錄完整剪輯耗時和模型回應時間。**
-
-作者報告，剪輯 8 分鐘的影片共用時 27 分鐘，其中 Sol 的實際回應時間約 14 分鐘。原始貼文附有用時記錄。
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-152/2122925011057209345-502d3dadda839363aabd.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-152/2122925011057209345-502d3dadda839363aabd.jpg" width="640" alt="原始碼預覽 1 · 記錄 Ultrafast 影片剪輯用時"></a>
-
-Type: Benchmark | Date: 2026-11-18
-
----
-
-<a id="case-153"></a>
-### 案例 153: [用 Remotion 製作手寫簽名動畫](https://x.com/aura_uniiiii/status/2122915684086849611) (作者 [@aura_uniiiii](https://x.com/aura_uniiiii))
-
-**對比兩次 Max 執行如何呈現同一個簽名。**
-
-作者用 Sol 和 Astra 各做了一段 Remotion 簽名影片，把結果放在一起釋出。
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122913982898143232-edb073cf9b2bb51a5faf.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-153/2122913982898143232-poster-d1cd5c4dd99e8cdeb3c4.jpg" width="640" alt="原始碼預覽 1 · 用 Remotion 製作手寫簽名動畫"></a>
-
-[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122913982898143232-edb073cf9b2bb51a5faf.mp4)
-
-Type: Evaluation | Date: 2026-11-18
-
----
-
-<a id="case-79"></a>
-### 案例 79: [一份 15 秒的動態設計任務](https://x.com/Leviwoyun/status/2122846422676701267) (作者 [@Leviwoyun](https://x.com/Leviwoyun))
-
-**給兩個模型相同的任務，比較文字編排、轉場和動態表現。**
-
-創作者公開了兩段影片和原始提示詞。一段以旋轉的摺紙形體為主，另一段從訊號顯示畫面轉為紫色幾何形體。
-
-**提示詞:**
-
-```
-制作一段 15 秒的动态图形视频，展示你是一位多么出色的动态设计师，就像是你简历上的作品集一样，使用任何你认为能产出最佳效果的工具或技术。你拥有完全的创作自由，优先追求卓越的视觉设计、大胆的艺术指导、引人注目的构图和富有力量的动态表现，让每一秒都有价值。全力以赴。
-```
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122845749499310081-01cb8b6073d8916e9b09.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-79/2122845749499310081-poster-1159d01955e99da02391.jpg" width="640" alt="原始碼預覽 1 · 一份 15 秒的動態設計任務"></a>
-
-[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122845749499310081-01cb8b6073d8916e9b09.mp4)
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122846110117183488-30f1277d34e59656f484.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-79/2122846110117183488-poster-7b07819920bd6a3fe88d.jpg" width="640" alt="原始碼預覽 2 · 一份 15 秒的動態設計任務"></a>
-
-[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122846110117183488-30f1277d34e59656f484.mp4)
-
-Type: Evaluation | Date: 2026-11-18
-
----
-
-<a id="case-88"></a>
-### 案例 88: [兩個模型製作奔馬動畫](https://x.com/jony_palino/status/2122796926961647919) (作者 [@jony_palino](https://x.com/jony_palino))
-
-**觀察完整的迴圈以對照馬腿動作和步幅。**
-
-影片標註了 Astra 和 Sol 的奔馬動畫，展示兩匹馬的運動。
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122781224338939905-9fac5a374f5ddc54f8a8.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-88/2122781224338939905-poster-b06065421603cc7f6f6c.jpg" width="640" alt="原始碼預覽 1 · 兩個模型製作奔馬動畫"></a>
-
-[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122781224338939905-9fac5a374f5ddc54f8a8.mp4)
-
-Type: Evaluation | Date: 2026-11-17
-
----
-
-<a id="case-74"></a>
-### 案例 74: [用程式碼生成火焰與音效](https://x.com/camperaigg/status/2122794828266377538) (作者 [@camperaigg](https://x.com/camperaigg))
-
-**比較動態作品時，同時記錄成片長度、成本與生成時間。**
-
-創作者比較兩次 xhigh 執行，影像與音效皆由程式碼生成。據其紀錄，Sol 費時 12 分鐘、花費 0.73 美元，產出 12 秒影片。Opus 5.5 費時 85 分鐘、花費 18.40 美元，產出 24 秒影片。
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122794767960752128-e2e19e403efea0d778cc.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-74/2122794767960752128-poster-5dc5e43235499f8378cf.jpg" width="640" alt="原始碼預覽 1 · 用程式碼生成火焰與音效"></a>
-
-[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122794767960752128-e2e19e403efea0d778cc.mp4)
-
-Type: Evaluation | Date: 2026-11-17
-
----
-
-<a id="case-94"></a>
-### 案例 94: [用程式碼製作 900 幀動畫](https://x.com/morsenxxx/status/2122771021828948464) (作者 [@morsenxxx](https://x.com/morsenxxx))
-
-**從角色、動作和聲音檢查到最終匯出的影片。**
-
-作者稱角色、動畫和配樂由程式碼生成，分享的成片長 30 秒。
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122768959980118016-519fd034e8c095b6bc01.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-94/2122768959980118016-poster-ef4789678264a50b8b9f.jpg" width="640" alt="原始碼預覽 1 · 用程式碼製作 900 幀動畫"></a>
-
-[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122768959980118016-519fd034e8c095b6bc01.mp4)
-
-Type: Demo | Date: 2026-11-17
-
----
-
-<a id="case-98"></a>
-### 案例 98: [會動的香蕉插畫](https://x.com/AdamHoltererer/status/2122765119835029581) (作者 [@AdamHoltererer](https://x.com/AdamHoltererer))
-
-**用簡單題材觀察模型如何設計動作與角色。**
-
-作者分享了一次 Sol 香蕉測試，其中畫出的香蕉成了動畫場景的一部分。
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122765018739441664-63474f1acf4d1d5e18b1.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-98/2122765018739441664-poster-a235f39f622e3848c495.jpg" width="640" alt="原始碼預覽 1 · 會動的香蕉插畫"></a>
-
-[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122765018739441664-63474f1acf4d1d5e18b1.mp4)
-
-Type: Demo | Date: 2026-11-17
-
----
-
-<a id="case-101"></a>
-### 案例 101: [單檔案 HTML 裡的騎車鵜鶘](https://x.com/Super_Nius/status/2122760765174391124) (作者 [@Super_Nius](https://x.com/Super_Nius))
-
-**用同一個 SVG 任務並排比較鵜鶘和腳踏車的運動。**
-
-作者公開了提示詞，對比 6.2 與 6.1 作品，並稱 Sol 的表現只有小幅變化。
-
-**提示詞:**
-
-```
-创建一个HTML文件，使用SVG绘制一只鹈鹕3D骑自行车的动画。输出单文件HTML。
-```
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122760254945673216-c6b375b036ac15cc3a2b.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-101/2122760254945673216-poster-d0903f87dd4ac9dee18a.jpg" width="640" alt="原始碼預覽 1 · 單檔案 HTML 裡的騎車鵜鶘"></a>
-
-[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122760254945673216-c6b375b036ac15cc3a2b.mp4)
-
-Type: Evaluation | Date: 2026-11-17
-
----
-
-<a id="case-103"></a>
-### 案例 103: [兩次 Ultra 強度的火柴人動畫](https://x.com/DanielZambrini/status/2122759375337214121) (作者 [@DanielZambrini](https://x.com/DanielZambrini))
-
-**重複同一個動畫任務，觀察兩次輸出有多大差異。**
-
-作者展示了 Sol 在 Ultra 強度下的兩次結果，並報告分別耗時 13 和 12 分鐘。
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122758829104328704-4fe90331a8b43e8cc76c.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-103/2122758829104328704-poster-2e025ca80aa35e6c9676.jpg" width="640" alt="原始碼預覽 1 · 兩次 Ultra 強度的火柴人動畫"></a>
-
-[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122758829104328704-4fe90331a8b43e8cc76c.mp4)
-
-Type: Evaluation | Date: 2026-11-17
-
----
-
-<a id="case-123"></a>
-### 案例 123: [不同推理強度下的鵜鶘 SVG](https://news.ycombinator.com/item?id=50535742) (作者 [@simonw](https://news.ycombinator.com/user?id=simonw))
-
-**對照每個強度下腳踏、鳥腳與車架的位置。**
-
-Simon Willison 用同一條 SVG 提示測試了六個模型和多個推理強度，並發表帶標籤的對照表。討論中有人指出，Sol Max 的圖裡一隻腳和鏈條發生重疊。
-
-**提示詞:**
-
-```
-Generate an SVG of a pelican riding a bicycle
-```
-
-[完整 SVG 對照表](https://static.simonwillison.net/static/2026/openai-pelicans-november-2026.html)
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-123/50535742-grid-7d953958cc033d468770.webp"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-123/50535742-grid-7d953958cc033d468770.webp" width="640" alt="原始碼預覽 1 · 不同推理強度下的鵜鶘 SVG"></a>
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-123/50535742-astra-3d77dc7c6001b9a03061.webp"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-123/50535742-astra-3d77dc7c6001b9a03061.webp" width="640" alt="原始碼預覽 2 · 不同推理強度下的鵜鶘 SVG"></a>
-
-*GPT-6.2 Astra 的 Max 強度輸出*
-
-Type: Evaluation | Date: 2026-11-17
-
----
-
-<a id="case-110"></a>
-### 案例 110: [Sol、Opus 和 Qwen 的雨夜騎車送餐對比](https://x.com/Stargridcompass/status/2122184571269853307) (作者 [@Stargridcompass](https://x.com/Stargridcompass))
-
-**在三個作品中分別檢查夜景和騎車動作。**
-
-作者展示了三種鵜鶘送餐場景，並在這次比較中更喜歡 Opus 5.5。
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122183328228909056-562a9b17b2bc7222fb58.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-110/2122183328228909056-poster-9550a8f62aa13cde8a3a.jpg" width="640" alt="原始碼預覽 1 · Sol、Opus 和 Qwen 的雨夜騎車送餐對比"></a>
-
-[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122183328228909056-562a9b17b2bc7222fb58.mp4)
-
-Type: Evaluation | Date: 2026-11-16
-
----
-
-<a id="case-112"></a>
-### 案例 112: [在雨中騎車送餐的鵜鶘](https://x.com/Stargridcompass/status/2121543669882745007) (作者 [@Stargridcompass](https://x.com/Stargridcompass))
-
-**分別觀察倒影、積水、街道設施與動態環境。**
-
-作者在相同的雨夜送餐場景中對比 Sol 與 Fable 5.2，更認可 Sol 對積水和倒影的表現。
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2121535105013334016-7271e00bcbdb0a0caf42.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-112/2121535105013334016-poster-4a1d19351363ee575584.jpg" width="640" alt="原始碼預覽 1 · 在雨中騎車送餐的鵜鶘"></a>
-
-[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2121535105013334016-7271e00bcbdb0a0caf42.mp4)
-
-Type: Evaluation | Date: 2026-11-14
-
----
-
-<a id="case-114"></a>
-### 案例 114: [白天騎車的鵜鶘雙版本對比](https://x.com/Stargridcompass/status/2121505035976597773) (作者 [@Stargridcompass](https://x.com/Stargridcompass))
-
-**把運動效果和執行時間放在一起比較。**
-
-作者展示 Sol 和 Gemini 4 Hydrogen 的同題結果，並報告 Sol 耗時 13 分鐘，Hydrogen 耗時 3 分鐘。
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2121503397702459392-e951142e407012e2ef01.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-114/2121503397702459392-poster-2f40d730171de43b3581.jpg" width="640" alt="原始碼預覽 1 · 白天騎車的鵜鶘雙版本對比"></a>
-
-[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2121503397702459392-e951142e407012e2ef01.mp4)
-
-Type: Evaluation | Date: 2026-11-14
-
----
-
-<a id="case-118"></a>
-### 案例 118: [用 SVG 製作雙人劍術動畫](https://x.com/kdnbmb/status/2120537324488450050) (作者 [@kdnbmb](https://x.com/kdnbmb))
-
-**觀察向量動畫如何透過節奏和剪影表現動作。**
-
-作者稱這段程式碼動畫由 Sol 單次生成，並報告耗時約 18 分鐘。
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2120537298286608384-168cc4ec913763fba163.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-118/2120537298286608384-poster-7749116f725da65b0420.jpg" width="640" alt="原始碼預覽 1 · 用 SVG 製作雙人劍術動畫"></a>
-
-[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2120537298286608384-168cc4ec913763fba163.mp4)
-
-Type: Demo | Date: 2026-11-11
-
----
-
-<a id="case-120"></a>
-### 案例 120: [寫實風格的 SVG 自然景觀](https://x.com/kdnbmb/status/2120193707987317053) (作者 [@kdnbmb](https://x.com/kdnbmb))
-
-**觀察向量圖能保留哪些自然細節。**
-
-作者稱以 Max 強度讓 Sol 生成寫實自然景觀 SVG，並分享了它的渲染結果。
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-120/2120193470002241536-2e471c1c74dabf15e6eb.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-120/2120193470002241536-2e471c1c74dabf15e6eb.jpg" width="640" alt="原始碼預覽 1 · 寫實風格的 SVG 自然景觀"></a>
-
-Type: Demo | Date: 2026-11-10
-
----
-
-<a id="case-60"></a>
-### 案例 60: [孫悟空大鬧天宮 SVG 比較](https://x.com/xbquan/status/2119581984989364514) (作者 [@xbquan](https://x.com/xbquan))
-
-**比較三個系統如何構圖，呈現同一個大鬧天宮場景。**
-
-作者將三張圖依序標為最高設定的 GPT-6.2 Sol、Qoder 的 QoDuck 和 WorkBuddy 的 HY4。作者在回覆中公開的提示詞要求只畫一版 SVG，且不允許截圖檢查。
-
-[作者發布提示詞的回覆](https://x.com/xbquan/status/2119582058922316169)
-
-**提示詞:**
-
-```
-用尽你的一切能力，用代码画一张孙悟空的大闹天宫名场面的svg图片，我想要尽可能的还原，只能画一版，不准截图检查。
-```
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-60/2119580835200516096-1e4e7a136e429b696a7a.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-60/2119580835200516096-1e4e7a136e429b696a7a.jpg" width="640" alt="原始碼預覽 1 · 孫悟空大鬧天宮 SVG 比較"></a>
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-60/2119581876805640192-01552031d537dc13d897.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-60/2119581876805640192-01552031d537dc13d897.jpg" width="640" alt="原始碼預覽 2 · 孫悟空大鬧天宮 SVG 比較"></a>
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-60/2119581974092546048-c61fe179e1741227a187.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-60/2119581974092546048-c61fe179e1741227a187.png" width="640" alt="原始碼預覽 3 · 孫悟空大鬧天宮 SVG 比較"></a>
-
-Type: Evaluation | Date: 2026-11-09
-
----
-
-<a id="case-3"></a>
-### 案例 3: [3D 人類歷史與人工智慧未來](https://x.com/imjustnewatai/status/2119518062034792958) (作者 [@imjustnewatai](https://x.com/imjustnewatai))
-
-**將敘事簡報變成一系列動畫場景。**
-
-影片顯示多場景3D動畫。作者的公開提示從尼安德特人到人工智慧的興起，再到想像中的未來。
-
-**提示詞:**
-
-```
-Create a cinematic 3D animation telling humanity’s story, from the age of Neanderthals through our greatest advances and the rise of AI. Then imagine a future where AI achieves recursive self-improvement in 2027, and progress doubles or triples every year, transforming Earth in increasingly astonishing ways. Come up with your own scenes and transitions, connecting everything into one compelling story.
-```
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119517968493113344-17865404f54bd3f80fbd.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-03/2119517968493113344-poster-62d6ae1e6365eb443bd6.jpg" width="640" alt="原始碼預覽 1 · 3D 人類歷史與人工智慧未來"></a>
-
-[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119517968493113344-17865404f54bd3f80fbd.mp4)
-
-
-Type: Demo | Date: 2026-11-08
-
----
-
-<a id="case-8"></a>
-### 案例 8: [Tibo 瀏覽器繪畫工作室中的肖像](https://x.com/Mr_Salio/status/2119499550373425297) (作者 [@Mr_Salio](https://x.com/Mr_Salio))
-
-**在頁面建立時檢查肖像的各個階段。**
-
-肖像工作室頁面使用參考照片旁的寬色塊開發 Tibo 的肖像。該剪輯顯示了頁面動畫。
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119499524137697280-bf003228060e83ba80ee.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-08/2119499524137697280-poster-669f62240a226482c71b.jpg" width="640" alt="原始碼預覽 1 · Tibo 瀏覽器繪畫工作室中的肖像"></a>
-
-[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119499524137697280-bf003228060e83ba80ee.mp4)
-
-
-Type: Demo | Date: 2026-11-08
-
----
-
-<a id="case-10"></a>
-### 案例 10: [0x0SojalSec分享的Sam Altman肖像畫](https://x.com/0x0SojalSec/status/2119489612876026325) (作者 [@0x0SojalSec](https://x.com/0x0SojalSec))
-
-**遵循從粗糙形狀到完成肖像的過渡。**
-
-這篇文章分享了Sam Altman繪畫剪輯。該集合中的其他帖子共享相同的材料。
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119471570100113408-6537886f519fcb2581ca.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-10/2119471570100113408-poster-4fa1b097dbe57a86b319.jpg" width="640" alt="原始碼預覽 1 · 0x0SojalSec分享的Sam Altman肖像畫"></a>
-
-[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119471570100113408-6537886f519fcb2581ca.mp4)
-
-
-Type: Demo | Date: 2026-11-08
-
----
-
-<a id="case-11"></a>
-### 案例 11: [Sam Altman肖像畫由Avenoxai分享](https://x.com/Avenoxai/status/2119489025484419304) (作者 [@Avenoxai](https://x.com/Avenoxai))
-
-**看看瀏覽器示範如何展示肖像。**
-
-該帖子分享了該系列其他地方顯示的相同漸進式 Sam Altman 肖像。
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119481355943948288-d9ec44b4a8efb666f3fe.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-11/2119481355943948288-poster-b169fc202c4358aef6ab.jpg" width="640" alt="原始碼預覽 1 · Sam Altman肖像畫由Avenoxai分享"></a>
-
-[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119481355943948288-d9ec44b4a8efb666f3fe.mp4)
-
-
-Type: Demo | Date: 2026-11-08
-
----
-
-<a id="case-12"></a>
-### 案例 12: [pengsonal分享的Sam Altman肖像畫](https://x.com/pengsonal/status/2119487069500456985) (作者 [@pengsonal](https://x.com/pengsonal))
-
-**檢查瀏覽器場景新增肖像細節的順序。**
-
-該剪輯與共享此材料的其他帖子屬於同一個 Sam Altman 繪畫系列。
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119471570100113408-6537886f519fcb2581ca.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-12/2119471570100113408-poster-4fa1b097dbe57a86b319.jpg" width="640" alt="原始碼預覽 1 · pengsonal分享的Sam Altman肖像畫"></a>
-
-[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119471570100113408-6537886f519fcb2581ca.mp4)
-
-
-Type: Demo | Date: 2026-11-08
-
----
-
-<a id="case-13"></a>
-### 案例 13: [GeekCatX分享的Sam Altman肖像畫](https://x.com/GeekCatX/status/2119482381375815956) (作者 [@GeekCatX](https://x.com/GeekCatX))
-
-**使用剪輯將初始構圖與完成的影像進行比較。**
-
-該帖子與其他條目分享了來自同一媒體家族的漸進式 Sam Altman 肖像。
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119471570100113408-6537886f519fcb2581ca.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-13/2119471570100113408-poster-4fa1b097dbe57a86b319.jpg" width="640" alt="原始碼預覽 1 · GeekCatX分享的Sam Altman肖像畫"></a>
-
-[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119471570100113408-6537886f519fcb2581ca.mp4)
-
-
-Type: Demo | Date: 2026-11-08
-
----
-
-<a id="case-14"></a>
-### 案例 14: [Sam Altman 在瀏覽器繪畫畫布中的肖像](https://x.com/Ananth7e/status/2119482362614677566) (作者 [@Ananth7e](https://x.com/Ananth7e))
-
-**觀察肖像從封閉的顏色發展到更精細的特徵。**
-
-作者給了Sam Altman的瀏覽器繪畫示範。相同的影片也出現在其他幾個帖子中。
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119481355943948288-d9ec44b4a8efb666f3fe.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-14/2119481355943948288-poster-b169fc202c4358aef6ab.jpg" width="640" alt="原始碼預覽 1 · Sam Altman 在瀏覽器繪畫畫布中的肖像"></a>
-
-[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119481355943948288-d9ec44b4a8efb666f3fe.mp4)
-
-
-Type: Demo | Date: 2026-11-08
-
----
-
-<a id="case-19"></a>
-### 案例 19: [Dario Amodei 在瀏覽器繪畫畫布中的肖像](https://x.com/Ananth7e/status/2119475282528932231) (作者 [@Ananth7e](https://x.com/Ananth7e))
-
-**觀看參考圖像指導舞台肖像。**
-
-瀏覽器示範在照片旁邊顯示 Dario Amodei 肖像。影片顯示了繪畫順序。
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119474852453306369-dc2f6dd1c623765520a2.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-19/2119474852453306369-poster-16fd35c8363e7611ce48.jpg" width="640" alt="原始碼預覽 1 · Dario Amodei 在瀏覽器繪畫畫布中的肖像"></a>
-
-[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119474852453306369-dc2f6dd1c623765520a2.mp4)
-
-
-Type: Demo | Date: 2026-11-08
-
----
-
-<a id="case-22"></a>
-### 案例 22: [四張SVG與Opus 5.5的動畫對比](https://x.com/Ananth7e/status/2119473497504428334) (作者 [@Ananth7e](https://x.com/Ananth7e))
-
-**比較多個 SVG 物件的運動和細節。**
-
-標記的比較包括太空快遞、咖啡機、電唱機和溫室。觀察到的場景來自較長剪輯的樣本。
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119472766353313794-9e720b31f2e3325a6830.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-22/2119472766353313794-poster-81c1db39bbb46647fee0.jpg" width="640" alt="原始碼預覽 1 · 四張SVG與Opus 5.5的動畫對比"></a>
-
-[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119472766353313794-9e720b31f2e3325a6830.mp4)
-
-
-Type: Evaluation | Date: 2026-11-08
-
----
-
-<a id="case-23"></a>
-### 案例 23: [Ananth7e 的另一個 Sam Altman 肖像畫帖子](https://x.com/Ananth7e/status/2119471963790065987) (作者 [@Ananth7e](https://x.com/Ananth7e))
-
-**使用共享記錄來檢查瀏覽器肖像的形成方式。**
-
-這篇文章指向與其他 Sam Altman 條目相同的漸進式繪畫材料。
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119471570100113408-6537886f519fcb2581ca.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-23/2119471570100113408-poster-4fa1b097dbe57a86b319.jpg" width="640" alt="原始碼預覽 1 · Ananth7e 的另一個 Sam Altman 肖像畫帖子"></a>
-
-[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119471570100113408-6537886f519fcb2581ca.mp4)
-
-
-Type: Demo | Date: 2026-11-08
-
----
-
-<a id="case-25"></a>
-### 案例 25: [兩個肖像插圖被描述為純代碼 SVG](https://x.com/marcthecreatorr/status/2119466616693850352) (作者 [@marcthecreatorr](https://x.com/marcthecreatorr))
-
-**在判斷肖像的製作方法之前，先將渲染的肖像進行比較。**
-
-該帖子包含兩張肖像圖像。作者將它們描述為純程式碼 SVG 輸出。
-
-**提示詞:**
-
-```
-generate an SVG of Ana de Armas and Sam Altman
-(do not cheat)
-```
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-25/2119466601804132352-31318df37f6caba7293c.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-25/2119466601804132352-31318df37f6caba7293c.jpg" width="640" alt="原始碼預覽 1 · 兩個肖像插圖被描述為純代碼 SVG"></a>
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-25/2119466601816666112-8e9d5270da1add44ca55.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-25/2119466601816666112-8e9d5270da1add44ca55.jpg" width="640" alt="原始碼預覽 2 · 兩個肖像插圖被描述為純代碼 SVG"></a>
-
-Type: Demo | Date: 2026-11-08
-
----
-
-<a id="case-29"></a>
-### 案例 29: [月光下的像素藝術日本小鎮](https://x.com/SahilPanhotra/status/2119461852426219747) (作者 [@SahilPanhotra](https://x.com/SahilPanhotra))
-
-**使用緊湊的動畫場景來檢查燈光和細節。**
-
-GIF 展示了櫻花、塔、橋、倒影和小船。
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119461819278602240-92e36b249f95f46fbbc1.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-29/2119461819278602240-poster-0df42c94083b4c7a1d00.jpg" width="640" alt="原始碼預覽 1 · 月光下的像素藝術日本小鎮"></a>
-
-[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119461819278602240-92e36b249f95f46fbbc1.mp4)
-
-
-Type: Demo | Date: 2026-11-08
-
----
-
-<a id="case-30"></a>
-### 案例 30: [騎 BMX 自行車拋球的獅子](https://x.com/SahilPanhotra/status/2119458278115835912) (作者 [@SahilPanhotra](https://x.com/SahilPanhotra))
-
-**在不斷變化的季節背景下測試協調運動。**
-
-動畫展示了獅子騎 BMX 自行車並拋球的場景。採樣的幀顯示姿勢和背景的變化。
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119458208041574400-65d9c5f9e0c9dae6a35f.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-30/2119458208041574400-poster-43c1f3849344f031dd3f.jpg" width="640" alt="原始碼預覽 1 · 騎 BMX 自行車拋球的獅子"></a>
-
-[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119458208041574400-65d9c5f9e0c9dae6a35f.mp4)
-
-
-Type: Demo | Date: 2026-11-08
-
----
-
-<a id="case-31"></a>
-### 案例 31: [側視奔騰的馬](https://x.com/HarshithLucky3/status/2119458168338301327) (作者 [@HarshithLucky3](https://x.com/HarshithLucky3))
-
-**透過簡單的運動循環檢查腿和尾巴。**
-
-採樣的畫面從側面顯示一匹奔騰的馬，其肢體位置不斷變化。
-
-**提示詞:**
-
-```
-Horse running in side view
-```
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119457903589646336-6fe234afbdb557492d14.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-31/2119457903589646336-poster-2e4c31974841a99a4465.jpg" width="640" alt="原始碼預覽 1 · 側視奔騰的馬"></a>
-
-[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119457903589646336-6fe234afbdb557492d14.mp4)
-
-
-Type: Demo | Date: 2026-11-08
-
----
-
-<a id="case-32"></a>
-### 案例 32: [孔雀騎BMX穿過竹子](https://x.com/SahilPanhotra/status/2119453829632868388) (作者 [@SahilPanhotra](https://x.com/SahilPanhotra))
-
-**將車輪運動與詳細角色的運動進行比較。**
-
-影片展示一隻開屏孔雀騎 BMX 自行車穿過竹林。
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119453646454964224-3614c844c591897f7cb8.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-32/2119453646454964224-poster-0dd6b3fd00fa99aa9b94.jpg" width="640" alt="原始碼預覽 1 · 孔雀騎BMX穿過竹子"></a>
-
-[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119453646454964224-3614c844c591897f7cb8.mp4)
-
-
-Type: Demo | Date: 2026-11-08
-
----
-
-<a id="case-35"></a>
-### 案例 35: [逼真的肖像預覽](https://x.com/SadAlbert10/status/2119443244509802679) (作者 [@SadAlbert10](https://x.com/SadAlbert10))
-
-**檢查可見結果並記錄作者如何描述它。**
-
-該圖像顯示了詳細的肖像。預覽提供輸出的視覺證據。
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-35/2119443020227727360-71913855e02651437cb9.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-35/2119443020227727360-71913855e02651437cb9.jpg" width="640" alt="原始碼預覽 1 · 逼真的肖像預覽"></a>
-
-Type: Demo | Date: 2026-11-08
-
----
-
-<a id="case-36"></a>
-### 案例 36: [Sydney Sweeney 人像向量化](https://x.com/SadAlbert10/status/2119440420682011095) (作者 [@SadAlbert10](https://x.com/SadAlbert10))
-
-**評估向量工作流程時追蹤中間影像。**
-
-螢幕截圖顯示了 PNG 輸入和向量化呼叫。第二個附件顯示了該工作流程產生的肖像。
-
-**提示詞:**
-
-```
-make an ultra realistic SVG of Sydney Sweeny
-```
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-36/2119439861157707776-69b2db4eca9eb1493e6b.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-36/2119439861157707776-69b2db4eca9eb1493e6b.png" width="640" alt="原始碼預覽 1 · Sydney Sweeney 人像向量化"></a>
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-36/2119440248157683712-d00b68e7e2aa37f8ec7b.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-36/2119440248157683712-d00b68e7e2aa37f8ec7b.jpg" width="640" alt="原始碼預覽 2 · Sydney Sweeney 人像向量化"></a>
-
-Type: Demo | Date: 2026-11-08
-
----
-
-<a id="case-46"></a>
-### 案例 46: [側視奔跑的獵豹](https://x.com/HarshithLucky3/status/2119424342773866559) (作者 [@HarshithLucky3](https://x.com/HarshithLucky3))
-
-**使用固定輪廓視圖來比較步態和身體運動。**
-
-這段影片顯示了獵豹在奔跑過程中的幾個姿勢。作者報告更喜歡 Opus 結果。
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119424200662556672-37c18d0191bd9b6c27aa.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-46/2119424200662556672-poster-f977110905db5bd671d8.jpg" width="640" alt="原始碼預覽 1 · 側視奔跑的獵豹"></a>
-
-[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119424200662556672-37c18d0191bd9b6c27aa.mp4)
-
-
-Type: Demo | Date: 2026-11-08
-
----
-
-<a id="case-51"></a>
-### 案例 51: [一隻鵜鶘和兩隻螃蟹騎自行車](https://x.com/HarshithLucky3/status/2119418918616150080) (作者 [@HarshithLucky3](https://x.com/HarshithLucky3))
-
-**在一個鏡頭中檢查多個動畫角色的時間安排。**
-
-採樣的側視圖影格顯示移動的輪子、肢體和相機位置。
-
-**提示詞:**
-
-```
-SVG animation of pelican and 2 crabs riding bicycles side view
-```
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119418838148366336-495e5e6b9a3a4f396f52.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-51/2119418838148366336-poster-753362afc6ea3f66a03f.jpg" width="640" alt="原始碼預覽 1 · 一隻鵜鶘和兩隻螃蟹騎自行車"></a>
-
-[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119418838148366336-495e5e6b9a3a4f396f52.mp4)
-
-
-Type: Demo | Date: 2026-11-08
-
----
-
-<a id="case-52"></a>
-### 案例 52: [PS5 控制器在 Sol 設定之間的比較](https://x.com/marcthecreatorr/status/2119417283328000436) (作者 [@marcthecreatorr](https://x.com/marcthecreatorr))
-
-**使用熟悉的產品來比較輪廓和陰影。**
-
-兩個控制器映像標記為 GPT-6.1 Sol MAX 路由和基本。該帖子顯示了渲染圖像。
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-52/2119417273249095680-f0fea371a0a411ae9aef.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-52/2119417273249095680-f0fea371a0a411ae9aef.jpg" width="640" alt="原始碼預覽 1 · PS5 控制器在 Sol 設定之間的比較"></a>
-
-Type: Evaluation | Date: 2026-11-08
-
----
-
-<a id="case-55"></a>
-### 案例 55: [綠色 BMW M4 CS 輪廓圖](https://x.com/HarshithLucky3/status/2119412698119373104) (作者 [@HarshithLucky3](https://x.com/HarshithLucky3))
-
-**檢查熟悉車輛的比例和輪廓細節。**
-
-配件顯示了從側面看綠色的BMW M4 CS。
-
-**提示詞:**
-
-```
-SVG of BMW M4 CS side view
-```
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-55/2119412669946204160-2b4789da7aa53b1095b0.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-55/2119412669946204160-2b4789da7aa53b1095b0.jpg" width="640" alt="原始碼預覽 1 · 綠色 BMW M4 CS 輪廓圖"></a>
-
-Type: Demo | Date: 2026-11-08
-
----
-
-<a id="category-game"></a>
-## 🎮 遊戲開發
-
-<a id="case-138"></a>
-### 案例 138: [《寶可夢 火紅版》冠軍挑戰](https://x.com/Clad3815/status/2123064135164576107) (作者 [@Clad3815](https://x.com/Clad3815))
-
-**在明確輸入和推理配置後對比通關耗時。**
-
-作者報告，Sol 在 Ultrafast 模式和高推理強度下，僅使用截圖作為輸入，11 小時 40 分鐘到達冠軍。
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-138/2123061539183726592-707694197c25ed18a424.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-138/2123061539183726592-707694197c25ed18a424.png" width="640" alt="原始碼預覽 1 · 《寶可夢 火紅版》冠軍挑戰"></a>
-
-Type: Benchmark | Date: 2026-11-18
-
----
-
-<a id="case-146"></a>
-### 案例 146: [用布娃娃物理模擬製作 3D 恐龍跑酷](https://x.com/noclipepe/status/2122989930699792818) (作者 [@noclipepe](https://x.com/noclipepe))
-
-**對比四款遊戲原型的視覺風格和碰撞反應。**
-
-作者為四個模型使用同一要求，包含 3D 和布娃娃物理模擬。作者記錄的 Sol 執行用時 20 分鐘、花費 1.68 美元。
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122985283993907201-9750e48cc454af4480fd.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-146/2122985283993907201-poster-afcb4c84030cd6876301.jpg" width="640" alt="原始碼預覽 1 · 用布娃娃物理模擬製作 3D 恐龍跑酷"></a>
-
-[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122985283993907201-9750e48cc454af4480fd.mp4)
-
-Type: Evaluation | Date: 2026-11-18
-
----
-
-<a id="case-158"></a>
-### 案例 158: [受遊戲廣告啟發的可玩關卡](https://x.com/noclipepe/status/2122885577137598800) (作者 [@noclipepe](https://x.com/noclipepe))
-
-**對比同一關卡要求生成的四種可玩版本。**
-
-作者為四個模型使用同一提示詞，並展示了玩家確實可以輸掉遊戲。Sol 用時 21 分鐘、花費 1.04 美元。
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122882602663124992-7fe424c3649edbe814fc.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-158/2122882602663124992-poster-65013bb3e5cef1833a1e.jpg" width="640" alt="原始碼預覽 1 · 受遊戲廣告啟發的可玩關卡"></a>
-
-[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122882602663124992-7fe424c3649edbe814fc.mp4)
-
-Type: Evaluation | Date: 2026-11-18
-
----
-
-<a id="case-78"></a>
-### 案例 78: [通過推箱子房間測試集](https://x.com/banteg/status/2122826622638137666) (作者 [@banteg](https://x.com/banteg))
-
-**記錄通關房間數，並回放操作以找出卡關的位置。**
-
-作者以 medium 強度測試 Sol 和 Astra。本次兩者都通過全部 66 個房間，發文當時在作者的排行榜上分列第二和第三。
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122826155086512128-d2a8456da3a5a99263f5.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-78/2122826155086512128-poster-4a2c4bee2b8d9510e347.jpg" width="640" alt="原始碼預覽 1 · 通過推箱子房間測試集"></a>
-
-[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122826155086512128-d2a8456da3a5a99263f5.mp4)
-
-Type: Benchmark | Date: 2026-11-17
-
----
-
-<a id="case-93"></a>
-### 案例 93: [在 RuneScape 中完成兩項任務](https://x.com/maxbittker/status/2122783334216466487) (作者 [@maxbittker](https://x.com/maxbittker))
-
-**檢查代理程式選擇了哪些任務、領取了哪些獎勵。**
-
-基準測試維護者報告，Sol 和 Astra 分別在各自的一次執行裡完成兩項任務並領取兩份獎勵。
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-93/2122782503542960128-31be885019f467cb7472.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-93/2122782503542960128-31be885019f467cb7472.jpg" width="640" alt="原始碼預覽 1 · 在 RuneScape 中完成兩項任務"></a>
-
-Type: Benchmark | Date: 2026-11-17
-
----
-
-<a id="case-95"></a>
-### 案例 95: [支援觸控操作的多人瀏覽器遊戲](https://x.com/VraserX/status/2122770481975837145) (作者 [@VraserX](https://x.com/VraserX))
-
-**逐版試玩，針對操作問題給出回饋。**
-
-開發者稱，用 Sol 編寫、除錯並迭代 16 對 16 的原型，在試玩過程中也改進了觸控操作。
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122770342842077184-c89268a9c06156333c45.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-95/2122770342842077184-poster-c5a1ebf986d6362bd35d.jpg" width="640" alt="原始碼預覽 1 · 支援觸控操作的多人瀏覽器遊戲"></a>
-
-[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122770342842077184-c89268a9c06156333c45.mp4)
-
-Type: Demo | Date: 2026-11-17
-
----
-
-<a id="case-97"></a>
-### 案例 97: [Lanternkeep 村莊建設網頁遊戲](https://x.com/AdamHoltererer/status/2122766741881413818) (作者 [@AdamHoltererer](https://x.com/AdamHoltererer))
-
-**觀察地圖和任務面板如何引導玩家建設村莊。**
-
-作者將遊戲歸因於 Sol。錄影展示了可互動的村莊地圖和目標面板。
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122766701477367808-c628e4fc3e8c14dc15d8.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-97/2122766701477367808-poster-50e4bfea19c965f6d231.jpg" width="640" alt="原始碼預覽 1 · Lanternkeep 村莊建設網頁遊戲"></a>
-
-[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122766701477367808-c628e4fc3e8c14dc15d8.mp4)
-
-Type: Demo | Date: 2026-11-17
-
----
-
-<a id="case-99"></a>
-### 案例 99: [只用截圖玩《寶可夢 火紅》](https://x.com/Clad3815/status/2122763941675995209) (作者 [@Clad3815](https://x.com/Clad3815))
-
-**記錄遊戲代理程式的進度節點和通關用時。**
-
-測試者稱讓模型僅透過截圖遊玩，推理強度為 high。Sol 用時 15 小時 34 分鐘，本次比 Astra 更早抵達第一位道館館主。
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-99/2122763933345890304-ffe6b4053f347b1d4d5f.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-99/2122763933345890304-ffe6b4053f347b1d4d5f.jpg" width="640" alt="原始碼預覽 1 · 只用截圖玩《寶可夢 火紅》"></a>
-
-Type: Benchmark | Date: 2026-11-17
-
----
-
-<a id="case-67"></a>
-### 案例 67: [海岸賽車遊戲原型](https://x.com/Stargridcompass/status/2119683294220390638) (作者 [@Stargridcompass](https://x.com/Stargridcompass))
-
-**檢查比賽中的倒數計時、車速讀數和賽道地圖是否清楚易讀。**
-
-錄影展示起跑和比賽過程。作者回報製作耗時 16 分鐘。
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119682250472112128-81f053c6ffe2a4aae055.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-67/2119682250472112128-poster-526c85969a54c7f93833.jpg" width="640" alt="原始碼預覽 1 · 海岸賽車遊戲原型"></a>
-
-[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119682250472112128-81f053c6ffe2a4aae055.mp4)
-
-Type: Demo | Date: 2026-11-09
-
----
-
-<a id="case-62"></a>
-### 案例 62: [瀏覽器裡的立體魔術方塊](https://x.com/VeknQAQ/status/2119633751173173475) (作者 [@VeknQAQ](https://x.com/VeknQAQ))
-
-**從預覽檢查方塊的轉動與貼紙位置。**
-
-錄影展示立體魔術方塊還原與打亂後的狀態，以及瀏覽器裡的操作控制項。
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119633608680124416-44e5b8b00d129caeba34.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-62/2119633608680124416-poster-1ea9e2acda539d582293.jpg" width="640" alt="原始碼預覽 1 · 瀏覽器裡的立體魔術方塊"></a>
-
-[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119633608680124416-44e5b8b00d129caeba34.mp4)
-
-Type: Demo | Date: 2026-11-09
-
----
-
-<a id="case-17"></a>
-### 案例 17: [PELICAN PANIC 體素追逐遊戲](https://x.com/Ananth7e/status/2119479157633786246) (作者 [@Ananth7e](https://x.com/Ananth7e))
-
-**使用短追逐遊戲來檢查控制、回饋和結束狀態。**
-
-這段影片展示了一名騎手騎著鵜鶘逃離馬鈴薯怪物的情景。可以看到分數和「Escaped」過關結算畫面。
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119478839500013568-2ec29cee42e54d0bf9c5.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-17/2119478839500013568-poster-3716db2a9abc6cf0e264.jpg" width="640" alt="原始碼預覽 1 · PELICAN PANIC 體素追逐遊戲"></a>
-
-[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119478839500013568-2ec29cee42e54d0bf9c5.mp4)
-
-
-Type: Demo | Date: 2026-11-08
-
----
-
 <a id="category-painting"></a>
 ## 🖌️ 電腦使用與繪畫
 
@@ -2764,6 +3048,6 @@ Type: Demo | Date: 2026-11-08
 
 感謝分享這些實驗的創作者。連結的作品和媒體屬於其各自的創作者。
 
-[@Avenoxai](https://x.com/Avenoxai), [@kimmonismus](https://x.com/kimmonismus), [@imjustnewatai](https://x.com/imjustnewatai), [@Khazix0918](https://x.com/Khazix0918), [@marcthecreatorr](https://x.com/marcthecreatorr), [@Bhavani_00007](https://x.com/Bhavani_00007), [@JustLingonberry](https://x.com/JustLingonberry), [@Mr_Salio](https://x.com/Mr_Salio), [@aGim_asf](https://x.com/aGim_asf), [@0x0SojalSec](https://x.com/0x0SojalSec), [@pengsonal](https://x.com/pengsonal), [@GeekCatX](https://x.com/GeekCatX), [@Ananth7e](https://x.com/Ananth7e), [@EnvolDev](https://x.com/EnvolDev), [@xbquan](https://x.com/xbquan), [@SahilPanhotra](https://x.com/SahilPanhotra), [@rubenssoto_ai](https://x.com/rubenssoto_ai), [@vikktorrrre](https://x.com/vikktorrrre), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@Cayden970207](https://x.com/Cayden970207), [@HarshithLucky3](https://x.com/HarshithLucky3), [@TokenGremlin](https://x.com/TokenGremlin), [@SadAlbert10](https://x.com/SadAlbert10), [@maxt3chno](https://x.com/maxt3chno), [@karanC_12](https://x.com/karanC_12), [@JustinGorya](https://x.com/JustinGorya), [@kdnbmb](https://x.com/kdnbmb), [@VraserX](https://x.com/VraserX), [@jessexai_](https://x.com/jessexai_), [@theaidesk_](https://x.com/theaidesk_), [@gadi_neelesh](https://x.com/gadi_neelesh), [@Haleeeemahh](https://x.com/Haleeeemahh), [@SPAC89](https://x.com/SPAC89), [@VeknQAQ](https://x.com/VeknQAQ), [@Aurora0x3f](https://x.com/Aurora0x3f), [@bei351009016](https://x.com/bei351009016), [@Stargridcompass](https://x.com/Stargridcompass), [@iamtheQwen](https://x.com/iamtheQwen), [@voxelbench](https://x.com/voxelbench), [@sshayahmet](https://x.com/sshayahmet), [@TimJayas](https://x.com/TimJayas), [@lucian__03](https://x.com/lucian__03), [@camperaigg](https://x.com/camperaigg), [@nickbaumann_](https://x.com/nickbaumann_), [@thtbee_](https://x.com/thtbee_), [@DeryaTR_](https://x.com/DeryaTR_), [@banteg](https://x.com/banteg), [@Leviwoyun](https://x.com/Leviwoyun), [@browser_use](https://x.com/browser_use), [@simonw](https://x.com/simonw), [@perplexity_ai](https://x.com/perplexity_ai), [@_3912657840](https://x.com/_3912657840), [@fawnunwrap](https://x.com/fawnunwrap), [@Angaisb_](https://x.com/Angaisb_), [@jony_palino](https://x.com/jony_palino), [@notjazii](https://x.com/notjazii), [@noclipepe](https://x.com/noclipepe), [@Super_Nius](https://x.com/Super_Nius), [@maxbittker](https://x.com/maxbittker), [@morsenxxx](https://x.com/morsenxxx), [@AdamHoltererer](https://x.com/AdamHoltererer), [@Clad3815](https://x.com/Clad3815), [@N1njaCodex](https://x.com/N1njaCodex), [@CodeByNZ](https://x.com/CodeByNZ), [@DanielZambrini](https://x.com/DanielZambrini), [@RezAIT00](https://x.com/RezAIT00), [@LuminaBench](https://x.com/LuminaBench), [@Jason85885174](https://x.com/Jason85885174), [@mspd4100](https://x.com/mspd4100), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@simonw](https://news.ycombinator.com/user?id=simonw), [@Fei2411](https://x.com/Fei2411), [@arena](https://x.com/arena), [@jan_volad](https://x.com/jan_volad), [@eliadele](https://x.com/eliadele), [@monkeys_im](https://x.com/monkeys_im), [@rotejin](https://x.com/rotejin), [@jetbrains](https://x.com/jetbrains), [@UFO2002616](https://x.com/UFO2002616), [@argofowl](https://x.com/argofowl), [@Kombaico](https://x.com/Kombaico), [@shinshin86](https://x.com/shinshin86), [@PawelJLisowski](https://x.com/PawelJLisowski), [@alohaproxy](https://x.com/alohaproxy), [@masahirochaen](https://x.com/masahirochaen), [@mylesBaiM](https://x.com/mylesBaiM), [@exploraX_](https://x.com/exploraX_), [@One2xDatalab](https://x.com/One2xDatalab), [@798145343h](https://x.com/798145343h), [@xKaka1456](https://x.com/xKaka1456), [@op7418](https://x.com/op7418), [@aura_uniiiii](https://x.com/aura_uniiiii), [@shinya_creative](https://x.com/shinya_creative), [@muratcan](https://x.com/muratcan), [@suna_gaku](https://x.com/suna_gaku), [@teddyaisi](https://x.com/teddyaisi)
+[@Avenoxai](https://x.com/Avenoxai), [@kimmonismus](https://x.com/kimmonismus), [@imjustnewatai](https://x.com/imjustnewatai), [@Khazix0918](https://x.com/Khazix0918), [@marcthecreatorr](https://x.com/marcthecreatorr), [@Bhavani_00007](https://x.com/Bhavani_00007), [@JustLingonberry](https://x.com/JustLingonberry), [@Mr_Salio](https://x.com/Mr_Salio), [@aGim_asf](https://x.com/aGim_asf), [@0x0SojalSec](https://x.com/0x0SojalSec), [@pengsonal](https://x.com/pengsonal), [@GeekCatX](https://x.com/GeekCatX), [@Ananth7e](https://x.com/Ananth7e), [@EnvolDev](https://x.com/EnvolDev), [@xbquan](https://x.com/xbquan), [@SahilPanhotra](https://x.com/SahilPanhotra), [@rubenssoto_ai](https://x.com/rubenssoto_ai), [@vikktorrrre](https://x.com/vikktorrrre), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@Cayden970207](https://x.com/Cayden970207), [@HarshithLucky3](https://x.com/HarshithLucky3), [@TokenGremlin](https://x.com/TokenGremlin), [@SadAlbert10](https://x.com/SadAlbert10), [@maxt3chno](https://x.com/maxt3chno), [@karanC_12](https://x.com/karanC_12), [@JustinGorya](https://x.com/JustinGorya), [@kdnbmb](https://x.com/kdnbmb), [@VraserX](https://x.com/VraserX), [@jessexai_](https://x.com/jessexai_), [@theaidesk_](https://x.com/theaidesk_), [@gadi_neelesh](https://x.com/gadi_neelesh), [@Haleeeemahh](https://x.com/Haleeeemahh), [@SPAC89](https://x.com/SPAC89), [@VeknQAQ](https://x.com/VeknQAQ), [@Aurora0x3f](https://x.com/Aurora0x3f), [@bei351009016](https://x.com/bei351009016), [@Stargridcompass](https://x.com/Stargridcompass), [@iamtheQwen](https://x.com/iamtheQwen), [@voxelbench](https://x.com/voxelbench), [@sshayahmet](https://x.com/sshayahmet), [@TimJayas](https://x.com/TimJayas), [@lucian__03](https://x.com/lucian__03), [@camperaigg](https://x.com/camperaigg), [@nickbaumann_](https://x.com/nickbaumann_), [@thtbee_](https://x.com/thtbee_), [@DeryaTR_](https://x.com/DeryaTR_), [@banteg](https://x.com/banteg), [@Leviwoyun](https://x.com/Leviwoyun), [@browser_use](https://x.com/browser_use), [@simonw](https://x.com/simonw), [@perplexity_ai](https://x.com/perplexity_ai), [@_3912657840](https://x.com/_3912657840), [@fawnunwrap](https://x.com/fawnunwrap), [@Angaisb_](https://x.com/Angaisb_), [@jony_palino](https://x.com/jony_palino), [@notjazii](https://x.com/notjazii), [@noclipepe](https://x.com/noclipepe), [@Super_Nius](https://x.com/Super_Nius), [@maxbittker](https://x.com/maxbittker), [@morsenxxx](https://x.com/morsenxxx), [@AdamHoltererer](https://x.com/AdamHoltererer), [@Clad3815](https://x.com/Clad3815), [@N1njaCodex](https://x.com/N1njaCodex), [@CodeByNZ](https://x.com/CodeByNZ), [@DanielZambrini](https://x.com/DanielZambrini), [@RezAIT00](https://x.com/RezAIT00), [@LuminaBench](https://x.com/LuminaBench), [@Jason85885174](https://x.com/Jason85885174), [@mspd4100](https://x.com/mspd4100), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@simonw](https://news.ycombinator.com/user?id=simonw), [@Fei2411](https://x.com/Fei2411), [@arena](https://x.com/arena), [@jan_volad](https://x.com/jan_volad), [@eliadele](https://x.com/eliadele), [@monkeys_im](https://x.com/monkeys_im), [@rotejin](https://x.com/rotejin), [@jetbrains](https://x.com/jetbrains), [@UFO2002616](https://x.com/UFO2002616), [@argofowl](https://x.com/argofowl), [@Kombaico](https://x.com/Kombaico), [@shinshin86](https://x.com/shinshin86), [@PawelJLisowski](https://x.com/PawelJLisowski), [@alohaproxy](https://x.com/alohaproxy), [@masahirochaen](https://x.com/masahirochaen), [@mylesBaiM](https://x.com/mylesBaiM), [@exploraX_](https://x.com/exploraX_), [@One2xDatalab](https://x.com/One2xDatalab), [@798145343h](https://x.com/798145343h), [@xKaka1456](https://x.com/xKaka1456), [@op7418](https://x.com/op7418), [@aura_uniiiii](https://x.com/aura_uniiiii), [@shinya_creative](https://x.com/shinya_creative), [@muratcan](https://x.com/muratcan), [@suna_gaku](https://x.com/suna_gaku), [@teddyaisi](https://x.com/teddyaisi), [@0xkhalid7](https://x.com/0xkhalid7), [@shownotover](https://x.com/shownotover), [@andonlabs](https://x.com/andonlabs), [@MatthewBerman](https://x.com/MatthewBerman), [@Hesamation](https://x.com/Hesamation), [@WeAreLegora](https://x.com/WeAreLegora), [@XploreAi](https://x.com/XploreAi), [@patience_cave](https://x.com/patience_cave), [@aidigest_](https://x.com/aidigest_), [@erhanmeydan](https://x.com/erhanmeydan), [@aapakari](https://x.com/aapakari)
 
 *請針對歸屬或刪除要求開啟來源更正問題。*
