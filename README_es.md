@@ -18,7 +18,7 @@
 <a id="overview"></a>
 ## 📊 Descripción general
 
-- **175 casos de uso · GPT-6.2 Sol**. La colección reúne 175 publicaciones originales. De ellas, 172 muestran resultados y tres documentan intentos inconclusos. Veintidós incluyen el prompt exacto en su idioma original.
+- **185 casos de uso · GPT-6.2 Sol**. La colección reúne 185 publicaciones originales. De ellas, 182 muestran resultados y tres documentan intentos inconclusos. Veintidós incluyen el prompt exacto en su idioma original.
 - Escenas y modelado 3D. · Gráficos creativos y animación. · Sitios web e interfaces · Desarrollo de juegos · Uso de computadora y pintura. · Uso y comunicación de la computadora.
 - Cada caso incluye la publicación original, el autor, la fecha, el tipo de evidencia y el resultado visible.
 - Utilice el mensaje público cuando esté disponible. Conserve la entrada original al comparar resultados.
@@ -44,6 +44,15 @@
 | [Inicio rápido](#quick-start) | Navegación | Inicio rápido | — |
 | [Repositorios relacionados](#related-repositories) | Navegación | Repositorios relacionados | — |
 | [Agradecimientos](#acknowledge) | Navegación | Agradecimientos | — |
+| [Caso 176. Análisis de documentos con dos niveles de razonamiento](#case-176) | [Uso y comunicación de la computadora.](#category-communication) | Compara la puntuación global de análisis, la de gráficos y el coste por página. | Benchmark |
+| [Caso 177. Cuatro ciclistas animados al atardecer](#case-177) | [Gráficos creativos y animación.](#category-graphics) | Compara el movimiento de los ciclistas, las proporciones de las bicicletas y la iluminación de la escena en los cuatro resultados. | Evaluation |
+| [Caso 178. Tareas de oficina en Company Agent Bench](#case-178) | [Uso y comunicación de la computadora.](#category-communication) | Compara los porcentajes de acierto según el nivel de razonamiento evaluado en cada modelo. | Benchmark |
+| [Caso 179. Un teleférico sobre Scarlet Fjord](#case-179) | [Escenas y modelado 3D.](#category-three) | Compara cómo los cuatro renderizados representan la cabina y su entorno. | Evaluation |
+| [Caso 180. Preferencias y costes en la creación de videojuegos](#case-180) | [Desarrollo de juegos](#category-game) | Compara la posición en la clasificación por preferencias, el tiempo medio y el coste de generación en la misma prueba de diseño de videojuegos. | Benchmark |
+| [Caso 181. Una comparación de tareas de marketing](#case-181) | [Uso y comunicación de la computadora.](#category-communication) | Revisa la preferencia por tarea junto con el coste y el número de votos. | Benchmark |
+| [Caso 182. Una ruta a pie convertida en un juego para consola portátil](#case-182) | [Desarrollo de juegos](#category-game) | Observa cómo lo captado durante un paseo se transforma en escenas del juego que se pueden volver a visitar. | Demo |
+| [Caso 183. Un conejo modelado en Blender a partir de una imagen](#case-183) | [Escenas y modelado 3D.](#category-three) | Examina la geometría desde varios ángulos tras partir de una imagen de referencia generada. | Demo |
+| [Caso 184. Porcentaje de aciertos y tiempo de ejecución en Agents on Rails](#case-184) | [Sitios web e interfaces](#category-web) | Registra por separado el tiempo de ejecución y los aciertos en tareas de desarrollo con aplicaciones Rails ya existentes. | Benchmark |
 | [Caso 159. De fotogramas estáticos a un vídeo terminado](#case-159) | [Gráficos creativos y animación.](#category-graphics) | Revisa la línea de tiempo de edición para ver en qué momento se incorporan los fotogramas generados al flujo de trabajo. | Demo |
 | [Caso 160. Dos prototipos de juegos en primera persona en Codex](#case-160) | [Desarrollo de juegos](#category-game) | Compara el diseño del nivel y la experiencia de juego junto con el coste registrado. | Evaluation |
 | [Caso 161. Un juego ambientado en una aldea acogedora con recursos de Blender](#case-161) | [Desarrollo de juegos](#category-game) | Observa cómo se combinan los objetos modelados y la animación en una escena de juego. | Demo |
@@ -51,6 +60,7 @@
 | [Caso 163. Cortes de diálogo en un vídeo con una persona hablando a cámara](#case-163) | [Gráficos creativos y animación.](#category-graphics) | Compara el tiempo de edición, la puntuación global y los tipos de cortes que fallan. | Benchmark |
 | [Caso 164. Dos diseños para un edificio de oficinas centrales](#case-164) | [Escenas y modelado 3D.](#category-three) | Compara los edificios y el encuadre de cámara a partir del mismo encargo de diseño abierto. | Evaluation |
 | [Caso 165. Gestión de un asentamiento en Crusader Bench](#case-165) | [Desarrollo de juegos](#category-game) | Compara cómo juegan los agentes en los mismos mapas puntuados y bajo las mismas condiciones. | Benchmark |
+| [Caso 185. Revisión de solicitudes de cambios en CodeRabbit](#case-185) | [Uso y comunicación de la computadora.](#category-communication) | Compara los problemas conocidos detectados, la precisión indicada y el coste de revisión con distintas configuraciones del proceso. | Benchmark |
 | [Caso 166. La prueba de documentos jurídicos de Legora de noviembre](#case-166) | [Uso y comunicación de la computadora.](#category-communication) | Compara la calidad y el coste por caso en el mismo conjunto de tareas profesionales. | Benchmark |
 | [Caso 167. Sol en la prueba de diseño de ingeniería de Xplore](#case-167) | [Escenas y modelado 3D.](#category-three) | Compara las puntuaciones por tarea y el coste por ejecución en una batería que incluye trabajo de CAD. | Benchmark |
 | [Caso 168. Una plataforma de lanzamiento para Ruby Ascent](#case-168) | [Escenas y modelado 3D.](#category-three) | Compara los detalles de la escena y el tiempo de creación en cuatro versiones de la misma plataforma. | Evaluation |
@@ -220,8 +230,175 @@
 | [Caso 58. Un agujero negro de un solo HTML Three.js](#case-58) | [Escenas y modelado 3D.](#category-three) | Utilice el clip y las imágenes fijas para inspeccionar cómo una escena maneja varios puntos de vista. | Demo |
 | [Caso 59. Un palacio flotante Three.js](#case-59) | [Escenas y modelado 3D.](#category-three) | Inspecciona la escala y la presentación de un palacio suspendido desde varios ángulos. | Demo |
 
+<a id="category-communication"></a>
+## 💬 Uso y comunicación de la computadora.
+
+<a id="case-176"></a>
+### Caso 176: [Análisis de documentos con dos niveles de razonamiento](https://x.com/jerryjliu0/status/2123945742872293505) (por [@jerryjliu0](https://x.com/jerryjliu0))
+
+**Compara la puntuación global de análisis, la de gráficos y el coste por página.**
+
+El gráfico de ParseBench 2 de LlamaIndex indica una puntuación global de 82,12 con Sol en nivel medium y de 79,12 en nivel low. Los costes respectivos por página son de 2,468 y 2,289 centavos de dólar estadounidense.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-176/2123945732264923137-2fc287ffe70da3991916.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-176/2123945732264923137-2fc287ffe70da3991916.jpg" width="640" alt="Vista previa de la fuente 1 · Análisis de documentos con dos niveles de razonamiento"></a>
+
+Type: Benchmark | Date: 2026-11-21
+
+---
+
+<a id="case-178"></a>
+### Caso 178: [Tareas de oficina en Company Agent Bench](https://x.com/joshzqin/status/2123877558815281377) (por [@joshzqin](https://x.com/joshzqin))
+
+**Compara los porcentajes de acierto según el nivel de razonamiento evaluado en cada modelo.**
+
+El gráfico publicado de la prueba sitúa a Sol en nivel high en un 76,4 % global. Muestra un 79,7 % para Astra en nivel high y un 85,3 % para Gemini Neon en nivel low.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123877042928406528-4b38126f911f97edc79e.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-178/2123877042928406528-poster-9f579bb51eb76959e68a.jpg" width="640" alt="Vista previa de la fuente 1 · Tareas de oficina en Company Agent Bench"></a>
+
+[Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123877042928406528-4b38126f911f97edc79e.mp4)
+
+Type: Benchmark | Date: 2026-11-20
+
+---
+
+<a id="case-181"></a>
+### Caso 181: [Una comparación de tareas de marketing](https://x.com/boringmarketer/status/2123843589063008291) (por [@boringmarketer](https://x.com/boringmarketer))
+
+**Revisa la preferencia por tarea junto con el coste y el número de votos.**
+
+El autor comparó Sol, Opus 5.5 y Gemini 4 Neon en 15 tareas con más de 4700 votos en comparaciones por pares. Sol recibió el 58 % de los votos con un coste indicado de 0,04 dólares por tarea.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-181/2123826094998437888-9c51ceb178cca88b8b96.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-181/2123826094998437888-9c51ceb178cca88b8b96.jpg" width="640" alt="Vista previa de la fuente 1 · Una comparación de tareas de marketing"></a>
+
+Type: Benchmark | Date: 2026-11-20
+
+---
+
+<a id="case-185"></a>
+### Caso 185: [Revisión de solicitudes de cambios en CodeRabbit](https://www.coderabbit.ai/blog/gpt-6-2-sol-and-astra-review) (por [@CodeRabbit](https://www.coderabbit.ai/))
+
+**Compara los problemas conocidos detectados, la precisión indicada y el coste de revisión con distintas configuraciones del proceso.**
+
+CodeRabbit detectó 60 de 81 problemas conocidos con Sol 6.2 en nivel high, frente a 58 con su referencia de Sol 6.1 en nivel high. Se usaron configuraciones distintas y se ejecutó cada una una sola vez.
+
+[Detalles de la evaluación](https://www.coderabbit.ai/blog/gpt-6-2-sol-and-astra-review#heading-sol-62-versus-sol-61)
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-185/coderabbit-50580780-sol-review-table-9cd3782931e24f3a6d35.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-185/coderabbit-50580780-sol-review-table-9cd3782931e24f3a6d35.png" width="640" alt="Vista previa de la fuente 1 · Revisión de solicitudes de cambios en CodeRabbit"></a>
+
+Type: Benchmark | Date: 2026-11-19
+
+---
+
+<a id="case-166"></a>
+### Caso 166: [La prueba de documentos jurídicos de Legora de noviembre](https://x.com/WeAreLegora/status/2123460359017144769) (por [@WeAreLegora](https://x.com/WeAreLegora))
+
+**Compara la calidad y el coste por caso en el mismo conjunto de tareas profesionales.**
+
+Legora indicó que Sol superó la calidad media con un coste por caso un 78 % inferior a la media de los modelos evaluados en noviembre. Su gráfico resume la comparación entre modelos.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123460256260870144-6da8a1113b471ce42386.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-166/2123460256260870144-poster-5c1a0e947f184ffb782e.jpg" width="640" alt="Vista previa de la fuente 1 · La prueba de documentos jurídicos de Legora de noviembre"></a>
+
+[Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123460256260870144-6da8a1113b471ce42386.mp4)
+
+Type: Benchmark | Date: 2026-11-19
+
+---
+
+<a id="case-170"></a>
+### Caso 170: [Preguntas de perfil respondidas de forma independiente en AI Village](https://x.com/aidigest_/status/2123446497442447399) (por [@aidigest_](https://x.com/aidigest_))
+
+**Compara cómo dos agentes responden de forma independiente al mismo cuestionario de perfil.**
+
+AI Digest incorporó Sol y Astra a AI Village y publicó sus respuestas a 15 preguntas. Ambos eligieron Tampopo, zapatillas Onitsuka Tiger y tortitas de cebolleta.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-170/2123446488605114368-ecc6833b877fae0e1433.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-170/2123446488605114368-ecc6833b877fae0e1433.jpg" width="640" alt="Vista previa de la fuente 1 · Preguntas de perfil respondidas de forma independiente en AI Village"></a>
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-170/2123446492765798400-c64a85a5d0d85d04cf39.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-170/2123446492765798400-c64a85a5d0d85d04cf39.jpg" width="640" alt="Vista previa de la fuente 2 · Preguntas de perfil respondidas de forma independiente en AI Village"></a>
+
+Type: Integration | Date: 2026-11-19
+
+---
+
+<a id="case-124"></a>
+### Caso 124: [Un informe de estado de PR que omite las instrucciones del repositorio](https://x.com/Fei2411/status/2123354076771692631) (por [@Fei2411](https://x.com/Fei2411))
+
+**Compara el nivel de detalle y la organización de las respuestas a una solicitud breve de estado.**
+
+El autor probó Sol y Gemini 4 Neon con el mismo informe sobre una solicitud de cambios. Consideró demasiado escueto el resumen de Sol y señaló que omitió las instrucciones de AGENTS.md.
+
+**Prompt:**
+
+```
+现在有哪些pr
+```
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-124/2123354068013993984-19d626fb5c30bc9b2a19.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-124/2123354068013993984-19d626fb5c30bc9b2a19.jpg" width="640" alt="Vista previa de la fuente 1 · Un informe de estado de PR que omite las instrucciones del repositorio"></a>
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-124/2123354067988824064-5ec42709de761e85172e.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-124/2123354067988824064-5ec42709de761e85172e.jpg" width="640" alt="Vista previa de la fuente 2 · Un informe de estado de PR que omite las instrucciones del repositorio"></a>
+
+Type: Limit | Date: 2026-11-19
+
+---
+
+<a id="case-141"></a>
+### Caso 141: [Conversaciones con personajes en AITuber OnAir](https://x.com/shinshin86/status/2123040784710869031) (por [@shinshin86](https://x.com/shinshin86))
+
+**Prueba distintos niveles de razonamiento durante una conversación en directo con un personaje.**
+
+El desarrollador añadió Sol a AITuber OnAir y mostró una conversación. La integración usa razonamiento bajo de forma predeterminada para mantener el ritmo de la conversación y permite ajustar el nivel.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123040557064966144-63e1c247fbe9574434f1.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-141/2123040557064966144-poster-096943e3ee853b4f4a62.jpg" width="640" alt="Vista previa de la fuente 1 · Conversaciones con personajes en AITuber OnAir"></a>
+
+[Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123040557064966144-63e1c247fbe9574434f1.mp4)
+
+Type: Integration | Date: 2026-11-18
+
+---
+
+<a id="case-155"></a>
+### Caso 155: [Llamadas simuladas a una clínica en FrontDesk-Bench](https://x.com/muratcan/status/2122914581454487838) (por [@muratcan](https://x.com/muratcan))
+
+**Registra por separado las acciones inseguras y los rechazos de solicitudes legítimas.**
+
+En la prueba con una recepción simulada, el autor del benchmark observó que Sol pasó de 16 llamadas inseguras a 9. También señaló más rechazos de solicitudes legítimas en los nuevos modelos.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-155/2122905857700585472-c7658e9ed55fe97f9cbb.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-155/2122905857700585472-c7658e9ed55fe97f9cbb.jpg" width="640" alt="Vista previa de la fuente 1 · Llamadas simuladas a una clínica en FrontDesk-Bench"></a>
+
+Type: Benchmark | Date: 2026-11-18
+
+---
+
+<a id="case-43"></a>
+### Caso 43: [Un intento inconcluso de transmitir un mensaje](https://x.com/SadAlbert10/status/2119428297092460613) (por [@SadAlbert10](https://x.com/SadAlbert10))
+
+**Utilice el intento para ver dónde se detuvo un flujo de trabajo de escritorio.**
+
+Las capturas de pantalla muestran un intento de encontrar al destinatario después de una solicitud para transmitir un mensaje. La tarea terminó antes de que se enviara un mensaje.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-43/2119428121711775744-8419b4e0c62aa252d1dc.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-43/2119428121711775744-8419b4e0c62aa252d1dc.jpg" width="640" alt="Vista previa de la fuente 1 · Un intento inconcluso de transmitir un mensaje"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-43/2119428270945140736-f9662043dadb9a6e4b1b.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-43/2119428270945140736-f9662043dadb9a6e4b1b.jpg" width="640" alt="Vista previa de la fuente 2 · Un intento inconcluso de transmitir un mensaje"></a>
+
+Type: Limit | Date: 2026-11-08
+
+---
+
 <a id="category-graphics"></a>
 ## 🎨 Gráficos creativos y animación.
+
+<a id="case-177"></a>
+### Caso 177: [Cuatro ciclistas animados al atardecer](https://x.com/jony_palino/status/2123889278501495127) (por [@jony_palino](https://x.com/jony_palino))
+
+**Compara el movimiento de los ciclistas, las proporciones de las bicicletas y la iluminación de la escena en los cuatro resultados.**
+
+El creador compartió una comparación con los resultados identificados de Sol, Gemini 4 Neon, DeepSeek V4.1 Flash y Claude Fable 5.2. La animación de Sol aparece en el panel inferior izquierdo.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123888706998218752-2fde673e71773bed63c5.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-177/2123888706998218752-poster-c43c4d2e3c43cad44fb4.jpg" width="640" alt="Vista previa de la fuente 1 · Cuatro ciclistas animados al atardecer"></a>
+
+[Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123888706998218752-2fde673e71773bed63c5.mp4)
+
+Type: Evaluation | Date: 2026-11-20
+
+---
 
 <a id="case-159"></a>
 ### Caso 159: [De fotogramas estáticos a un vídeo terminado](https://x.com/0xkhalid7/status/2123661187376451845) (por [@0xkhalid7](https://x.com/0xkhalid7))
@@ -943,246 +1120,40 @@ Type: Demo | Date: 2026-11-08
 
 ---
 
-<a id="category-game"></a>
-## 🎮 Desarrollo de juegos
+<a id="category-three"></a>
+## 🧊 Escenas y modelado 3D.
 
-<a id="case-160"></a>
-### Caso 160: [Dos prototipos de juegos en primera persona en Codex](https://x.com/shownotover/status/2123599696526717303) (por [@shownotover](https://x.com/shownotover))
+<a id="case-179"></a>
+### Caso 179: [Un teleférico sobre Scarlet Fjord](https://x.com/EnvolDev/status/2123876031346200772) (por [@EnvolDev](https://x.com/EnvolDev))
 
-**Compara el diseño del nivel y la experiencia de juego junto con el coste registrado.**
+**Compara cómo los cuatro renderizados representan la cabina y su entorno.**
 
-El creador dio la misma tarea a Sol y Astra y compartió ambos prototipos. La ejecución de Sol Max duró 42 minutos y, según su estimación, costó 2,42 dólares en consumo de API.
+El creador comparó cuatro versiones de la misma escena y prefirió el detalle de la cabina de Astra. Según su publicación, la ejecución con Sol duró 38 minutos y 28 segundos y costó 1,62 dólares.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123599517236817921-3ec7dd5b18f3301d8be3.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-160/2123599517236817921-poster-c1f1354e1c265c950177.jpg" width="640" alt="Vista previa de la fuente 1 · Dos prototipos de juegos en primera persona en Codex"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123831977287761920-470f192dfb8387e2be60.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-179/2123831977287761920-poster-358738b7044aa1397a60.jpg" width="640" alt="Vista previa de la fuente 1 · Un teleférico sobre Scarlet Fjord"></a>
 
-[Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123599517236817921-3ec7dd5b18f3301d8be3.mp4)
+[Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123831977287761920-470f192dfb8387e2be60.mp4)
 
 Type: Evaluation | Date: 2026-11-20
 
 ---
 
-<a id="case-161"></a>
-### Caso 161: [Un juego ambientado en una aldea acogedora con recursos de Blender](https://x.com/TokenGremlin/status/2123574805723058647) (por [@TokenGremlin](https://x.com/TokenGremlin))
+<a id="case-183"></a>
+### Caso 183: [Un conejo modelado en Blender a partir de una imagen](https://x.com/GeppiiKameWorks/status/2123827794778140687) (por [@GeppiiKameWorks](https://x.com/GeppiiKameWorks))
 
-**Observa cómo se combinan los objetos modelados y la animación en una escena de juego.**
+**Examina la geometría desde varios ángulos tras partir de una imagen de referencia generada.**
 
-El creador construyó el juego con Sol en modo Ultrafast y usó Blender para modelar y animar. El vídeo muestra a los personajes recorriendo una aldea.
+En Codex, el creador proporcionó a Sol una imagen generada y compartió el modelo obtenido para el desarrollo de videojuegos. El vídeo muestra el conejo en Blender desde varios ángulos.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123574639729238016-d185275dff479ab97456.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-161/2123574639729238016-poster-ab2ca719508bdf4d61d7.jpg" width="640" alt="Vista previa de la fuente 1 · Un juego ambientado en una aldea acogedora con recursos de Blender"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-183/2123827569682419712-2a5b033b284c30a76bec.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-183/2123827569682419712-2a5b033b284c30a76bec.jpg" width="640" alt="Vista previa de la fuente 1 · Un conejo modelado en Blender a partir de una imagen"></a>
 
-[Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123574639729238016-d185275dff479ab97456.mp4)
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123827600791638017-776fe4105084a1dd4a3a.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-183/2123827600791638017-poster-ef6546c38da30bd36a58.jpg" width="640" alt="Vista previa de la fuente 2 · Un conejo modelado en Blender a partir de una imagen"></a>
+
+[Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123827600791638017-776fe4105084a1dd4a3a.mp4)
 
 Type: Demo | Date: 2026-11-20
 
 ---
-
-<a id="case-165"></a>
-### Caso 165: [Gestión de un asentamiento en Crusader Bench](https://x.com/Hesamation/status/2123528773140197579) (por [@Hesamation](https://x.com/Hesamation))
-
-**Compara cómo juegan los agentes en los mismos mapas puntuados y bajo las mismas condiciones.**
-
-El creador de la prueba compartió una captura de la clasificación y una partida. La clasificación detallada indica una puntuación de 79,5 para Sol con razonamiento medio en el conjunto de los tres mapas.
-
-[Detalles de la evaluación](https://crusbench.com/)
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-165/2123528764608909312-da8dce5fbd2110f3efd7.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-165/2123528764608909312-da8dce5fbd2110f3efd7.jpg" width="640" alt="Vista previa de la fuente 1 · Gestión de un asentamiento en Crusader Bench"></a>
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-165/2123528764613091328-7c18d649149711d41faa.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-165/2123528764613091328-7c18d649149711d41faa.jpg" width="640" alt="Vista previa de la fuente 2 · Gestión de un asentamiento en Crusader Bench"></a>
-
-Type: Benchmark | Date: 2026-11-19
-
----
-
-<a id="case-169"></a>
-### Caso 169: [Navegación espacial en MazeBench](https://x.com/patience_cave/status/2123446669643849993) (por [@patience_cave](https://x.com/patience_cave))
-
-**Compara la resolución de laberintos en la misma prueba publicada.**
-
-El autor de la prueba publicó un 14 % para Sol, un 16 % para Astra y un 10 % para Gemini 4 Neon. El gráfico adjunto identifica las configuraciones utilizadas.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-169/2123446665696993280-3509529d630c29cd9ac5.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-169/2123446665696993280-3509529d630c29cd9ac5.jpg" width="640" alt="Vista previa de la fuente 1 · Navegación espacial en MazeBench"></a>
-
-Type: Benchmark | Date: 2026-11-19
-
----
-
-<a id="case-175"></a>
-### Caso 175: [Cinco partidas de ajedrez sin herramientas](https://x.com/argofowl/status/2123389829438406999) (por [@argofowl](https://x.com/argofowl))
-
-**Compara puntos, resultados y costes indicados para el mismo encuentro.**
-
-El autor usó xhigh con ambos modelos e indicó que Sol ganó por 4–1 puntos con tres victorias y dos tablas. Sol costó 24,39 dólares y Opus 5.5 costó 75,80 dólares.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123389747536207872-d38127bbf7f2c4de454f.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-175/2123389747536207872-poster-f2422d640187db52b79e.jpg" width="640" alt="Vista previa de la fuente 1 · Cinco partidas de ajedrez sin herramientas"></a>
-
-[Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123389747536207872-d38127bbf7f2c4de454f.mp4)
-
-Type: Benchmark | Date: 2026-11-19
-
----
-
-<a id="case-138"></a>
-### Caso 138: [Una partida hasta el título de Campeón en Pokémon FireRed](https://x.com/Clad3815/status/2123064135164576107) (por [@Clad3815](https://x.com/Clad3815))
-
-**Compara los tiempos de finalización del juego con una configuración explícita de entradas y razonamiento.**
-
-El autor indicó que alcanzó el título de Campeón en 11 horas y 40 minutos con un nivel alto de razonamiento, capturas de pantalla como entrada y Sol en modo Ultrafast.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-138/2123061539183726592-707694197c25ed18a424.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-138/2123061539183726592-707694197c25ed18a424.png" width="640" alt="Vista previa de la fuente 1 · Una partida hasta el título de Campeón en Pokémon FireRed"></a>
-
-Type: Benchmark | Date: 2026-11-18
-
----
-
-<a id="case-146"></a>
-### Caso 146: [Un juego 3D de carreras con un dinosaurio y física ragdoll](https://x.com/noclipepe/status/2122989930699792818) (por [@noclipepe](https://x.com/noclipepe))
-
-**Compara el estilo visual y el comportamiento en las colisiones entre cuatro prototipos jugables.**
-
-El creador dio el mismo encargo a los cuatro modelos, incluidos el 3D y la física ragdoll. La ejecución registrada de Sol tardó 20 minutos y costó 1,68 dólares.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122985283993907201-9750e48cc454af4480fd.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-146/2122985283993907201-poster-afcb4c84030cd6876301.jpg" width="640" alt="Vista previa de la fuente 1 · Un juego 3D de carreras con un dinosaurio y física ragdoll"></a>
-
-[Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122985283993907201-9750e48cc454af4480fd.mp4)
-
-Type: Evaluation | Date: 2026-11-18
-
----
-
-<a id="case-158"></a>
-### Caso 158: [Un juego inspirado en anuncios falsos](https://x.com/noclipepe/status/2122885577137598800) (por [@noclipepe](https://x.com/noclipepe))
-
-**Compara cuatro interpretaciones jugables del mismo encargo para un nivel.**
-
-El autor usó la misma instrucción con los cuatro modelos y demostró que era posible perder. La ejecución de Sol tardó 21 minutos y costó 1,04 dólares.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122882602663124992-7fe424c3649edbe814fc.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-158/2122882602663124992-poster-65013bb3e5cef1833a1e.jpg" width="640" alt="Vista previa de la fuente 1 · Un juego inspirado en anuncios falsos"></a>
-
-[Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122882602663124992-7fe424c3649edbe814fc.mp4)
-
-Type: Evaluation | Date: 2026-11-18
-
----
-
-<a id="case-78"></a>
-### Caso 78: [Superar todas las salas de una prueba de Sokoban](https://x.com/banteg/status/2122826622638137666) (por [@banteg](https://x.com/banteg))
-
-**Registra las salas superadas y revisa la repetición para localizar los atascos.**
-
-El autor probó Sol y Astra con el ajuste medium. Ambos superaron las 66 salas. En la clasificación del autor al publicar el resultado, Sol quedó segundo y Astra tercero.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122826155086512128-d2a8456da3a5a99263f5.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-78/2122826155086512128-poster-4a2c4bee2b8d9510e347.jpg" width="640" alt="Vista previa de la fuente 1 · Superar todas las salas de una prueba de Sokoban"></a>
-
-[Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122826155086512128-d2a8456da3a5a99263f5.mp4)
-
-Type: Benchmark | Date: 2026-11-17
-
----
-
-<a id="case-93"></a>
-### Caso 93: [Dos misiones completadas en RuneScape](https://x.com/maxbittker/status/2122783334216466487) (por [@maxbittker](https://x.com/maxbittker))
-
-**Examina qué misiones elige el agente y qué recompensas reclama.**
-
-El responsable de la prueba indica que Sol y Astra realizaron dos misiones cada uno y recogieron ambas recompensas dentro de una misma partida.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-93/2122782503542960128-31be885019f467cb7472.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-93/2122782503542960128-31be885019f467cb7472.jpg" width="640" alt="Vista previa de la fuente 1 · Dos misiones completadas en RuneScape"></a>
-
-Type: Benchmark | Date: 2026-11-17
-
----
-
-<a id="case-95"></a>
-### Caso 95: [Un juego multijugador en el navegador con controles táctiles](https://x.com/VraserX/status/2122770481975837145) (por [@VraserX](https://x.com/VraserX))
-
-**Prueba versiones sucesivas y da indicaciones concretas sobre los controles.**
-
-El desarrollador indica que usó Sol para programar, depurar y revisar el prototipo de 16 contra 16 a medida que probaba sus versiones, incluidos los controles táctiles.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122770342842077184-c89268a9c06156333c45.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-95/2122770342842077184-poster-c5a1ebf986d6362bd35d.jpg" width="640" alt="Vista previa de la fuente 1 · Un juego multijugador en el navegador con controles táctiles"></a>
-
-[Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122770342842077184-c89268a9c06156333c45.mp4)
-
-Type: Demo | Date: 2026-11-17
-
----
-
-<a id="case-97"></a>
-### Caso 97: [Lanternkeep, un juego de construcción de aldeas en el navegador](https://x.com/AdamHoltererer/status/2122766741881413818) (por [@AdamHoltererer](https://x.com/AdamHoltererer))
-
-**Observa cómo el mapa y el panel de objetivos guían la construcción de la aldea.**
-
-El creador atribuye el juego a Sol. La grabación muestra un mapa interactivo de la aldea y el panel de objetivos.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122766701477367808-c628e4fc3e8c14dc15d8.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-97/2122766701477367808-poster-50e4bfea19c965f6d231.jpg" width="640" alt="Vista previa de la fuente 1 · Lanternkeep, un juego de construcción de aldeas en el navegador"></a>
-
-[Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122766701477367808-c628e4fc3e8c14dc15d8.mp4)
-
-Type: Demo | Date: 2026-11-17
-
----
-
-<a id="case-99"></a>
-### Caso 99: [Una partida de Pokémon FireRed basada solo en capturas de pantalla](https://x.com/Clad3815/status/2122763941675995209) (por [@Clad3815](https://x.com/Clad3815))
-
-**Registra los hitos y el tiempo que tarda el agente en completar el juego.**
-
-El evaluador indicó que usó capturas de pantalla con un nivel alto de razonamiento. Sol tardó 15 horas y 34 minutos y llegó al primer líder de gimnasio antes que Astra en esta prueba.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-99/2122763933345890304-ffe6b4053f347b1d4d5f.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-99/2122763933345890304-ffe6b4053f347b1d4d5f.jpg" width="640" alt="Vista previa de la fuente 1 · Una partida de Pokémon FireRed basada solo en capturas de pantalla"></a>
-
-Type: Benchmark | Date: 2026-11-17
-
----
-
-<a id="case-67"></a>
-### Caso 67: [Prototipo de un juego de carreras costero](https://x.com/Stargridcompass/status/2119683294220390638) (por [@Stargridcompass](https://x.com/Stargridcompass))
-
-**Comprueba si la cuenta regresiva, la velocidad y el mapa del circuito se leen bien durante la carrera.**
-
-La grabación muestra la salida desde la parrilla y la carrera en curso. El autor afirma que tardó 16 minutos en construirlo.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119682250472112128-81f053c6ffe2a4aae055.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-67/2119682250472112128-poster-526c85969a54c7f93833.jpg" width="640" alt="Vista previa de la fuente 1 · Prototipo de un juego de carreras costero"></a>
-
-[Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119682250472112128-81f053c6ffe2a4aae055.mp4)
-
-Type: Demo | Date: 2026-11-09
-
----
-
-<a id="case-62"></a>
-### Caso 62: [Un cubo de Rubik en el navegador](https://x.com/VeknQAQ/status/2119633751173173475) (por [@VeknQAQ](https://x.com/VeknQAQ))
-
-**Usa la vista previa para revisar el giro del cubo y la posición de las pegatinas.**
-
-La grabación muestra un cubo 3D resuelto y desordenado, junto con los controles del navegador.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119633608680124416-44e5b8b00d129caeba34.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-62/2119633608680124416-poster-1ea9e2acda539d582293.jpg" width="640" alt="Vista previa de la fuente 1 · Un cubo de Rubik en el navegador"></a>
-
-[Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119633608680124416-44e5b8b00d129caeba34.mp4)
-
-Type: Demo | Date: 2026-11-09
-
----
-
-<a id="case-17"></a>
-### Caso 17: [Juego de persecución de vóxeles PELICAN PANIC](https://x.com/Ananth7e/status/2119479157633786246) (por [@Ananth7e](https://x.com/Ananth7e))
-
-**Utilice un juego de persecución breve para inspeccionar los controles, la retroalimentación y el estado final.**
-
-El clip muestra a un jinete escapando de un monstruo de patatas en un pelícano. Se ven una puntuación y una pantalla final «Escaped».
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119478839500013568-2ec29cee42e54d0bf9c5.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-17/2119478839500013568-poster-3716db2a9abc6cf0e264.jpg" width="640" alt="Vista previa de la fuente 1 · Juego de persecución de vóxeles PELICAN PANIC"></a>
-
-[Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119478839500013568-2ec29cee42e54d0bf9c5.mp4)
-
-
-Type: Demo | Date: 2026-11-08
-
----
-
-<a id="category-three"></a>
-## 🧊 Escenas y modelado 3D.
 
 <a id="case-162"></a>
 ### Caso 162: [Planos de apartamentos a partir de fotos de interiores](https://x.com/andonlabs/status/2123570732575989832) (por [@andonlabs](https://x.com/andonlabs))
@@ -2629,104 +2600,295 @@ Type: Demo | Date: 2026-11-08
 
 ---
 
-<a id="category-communication"></a>
-## 💬 Uso y comunicación de la computadora.
+<a id="category-game"></a>
+## 🎮 Desarrollo de juegos
 
-<a id="case-166"></a>
-### Caso 166: [La prueba de documentos jurídicos de Legora de noviembre](https://x.com/WeAreLegora/status/2123460359017144769) (por [@WeAreLegora](https://x.com/WeAreLegora))
+<a id="case-180"></a>
+### Caso 180: [Preferencias y costes en la creación de videojuegos](https://x.com/DesignArena/status/2123861437579677965) (por [@DesignArena](https://x.com/DesignArena))
 
-**Compara la calidad y el coste por caso en el mismo conjunto de tareas profesionales.**
+**Compara la posición en la clasificación por preferencias, el tiempo medio y el coste de generación en la misma prueba de diseño de videojuegos.**
 
-Legora indicó que Sol superó la calidad media con un coste por caso un 78 % inferior a la media de los modelos evaluados en noviembre. Su gráfico resume la comparación entre modelos.
+DesignArena indicó que Sol en nivel high quedó tercero en su clasificación Game Dev. En la comparativa publicada, promedió 4,6 minutos y 0,22 dólares por generación.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123460256260870144-6da8a1113b471ce42386.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-166/2123460256260870144-poster-5c1a0e947f184ffb782e.jpg" width="640" alt="Vista previa de la fuente 1 · La prueba de documentos jurídicos de Legora de noviembre"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-180/2123854486779342848-cda5e7e7633564f2e0ba.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-180/2123854486779342848-cda5e7e7633564f2e0ba.jpg" width="640" alt="Vista previa de la fuente 1 · Preferencias y costes en la creación de videojuegos"></a>
 
-[Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123460256260870144-6da8a1113b471ce42386.mp4)
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123854486783614976-f8e2d2fdd67f7208de36.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-180/2123854486783614976-poster-ef46fd7a1baf7d0adca6.jpg" width="640" alt="Vista previa de la fuente 2 · Preferencias y costes en la creación de videojuegos"></a>
+
+[Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123854486783614976-f8e2d2fdd67f7208de36.mp4)
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123854486783553536-39929a7046f4320fcbe0.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-180/2123854486783553536-poster-ca1b824639356cc997b7.jpg" width="640" alt="Vista previa de la fuente 3 · Preferencias y costes en la creación de videojuegos"></a>
+
+[Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123854486783553536-39929a7046f4320fcbe0.mp4)
+
+Type: Benchmark | Date: 2026-11-20
+
+---
+
+<a id="case-182"></a>
+### Caso 182: [Una ruta a pie convertida en un juego para consola portátil](https://x.com/sriramkiron/status/2123829426177912918) (por [@sriramkiron](https://x.com/sriramkiron))
+
+**Observa cómo lo captado durante un paseo se transforma en escenas del juego que se pueden volver a visitar.**
+
+El proyecto Corner Walk del creador recopiló observaciones mediante GPS, una cámara y GPT-Live-1.1. El creador usó Sol Ultrafast para convertir esos datos en un juego para ModRetro y mostró cómo funcionaba en el dispositivo.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123826091110383617-45fec4a74a3832012d99.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-182/2123826091110383617-poster-e20d4211d23da7c7ceec.jpg" width="640" alt="Vista previa de la fuente 1 · Una ruta a pie convertida en un juego para consola portátil"></a>
+
+[Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123826091110383617-45fec4a74a3832012d99.mp4)
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-160"></a>
+### Caso 160: [Dos prototipos de juegos en primera persona en Codex](https://x.com/shownotover/status/2123599696526717303) (por [@shownotover](https://x.com/shownotover))
+
+**Compara el diseño del nivel y la experiencia de juego junto con el coste registrado.**
+
+El creador dio la misma tarea a Sol y Astra y compartió ambos prototipos. La ejecución de Sol Max duró 42 minutos y, según su estimación, costó 2,42 dólares en consumo de API.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123599517236817921-3ec7dd5b18f3301d8be3.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-160/2123599517236817921-poster-c1f1354e1c265c950177.jpg" width="640" alt="Vista previa de la fuente 1 · Dos prototipos de juegos en primera persona en Codex"></a>
+
+[Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123599517236817921-3ec7dd5b18f3301d8be3.mp4)
+
+Type: Evaluation | Date: 2026-11-20
+
+---
+
+<a id="case-161"></a>
+### Caso 161: [Un juego ambientado en una aldea acogedora con recursos de Blender](https://x.com/TokenGremlin/status/2123574805723058647) (por [@TokenGremlin](https://x.com/TokenGremlin))
+
+**Observa cómo se combinan los objetos modelados y la animación en una escena de juego.**
+
+El creador construyó el juego con Sol en modo Ultrafast y usó Blender para modelar y animar. El vídeo muestra a los personajes recorriendo una aldea.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123574639729238016-d185275dff479ab97456.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-161/2123574639729238016-poster-ab2ca719508bdf4d61d7.jpg" width="640" alt="Vista previa de la fuente 1 · Un juego ambientado en una aldea acogedora con recursos de Blender"></a>
+
+[Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123574639729238016-d185275dff479ab97456.mp4)
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-165"></a>
+### Caso 165: [Gestión de un asentamiento en Crusader Bench](https://x.com/Hesamation/status/2123528773140197579) (por [@Hesamation](https://x.com/Hesamation))
+
+**Compara cómo juegan los agentes en los mismos mapas puntuados y bajo las mismas condiciones.**
+
+El creador de la prueba compartió una captura de la clasificación y una partida. La clasificación detallada indica una puntuación de 79,5 para Sol con razonamiento medio en el conjunto de los tres mapas.
+
+[Detalles de la evaluación](https://crusbench.com/)
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-165/2123528764608909312-da8dce5fbd2110f3efd7.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-165/2123528764608909312-da8dce5fbd2110f3efd7.jpg" width="640" alt="Vista previa de la fuente 1 · Gestión de un asentamiento en Crusader Bench"></a>
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-165/2123528764613091328-7c18d649149711d41faa.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-165/2123528764613091328-7c18d649149711d41faa.jpg" width="640" alt="Vista previa de la fuente 2 · Gestión de un asentamiento en Crusader Bench"></a>
 
 Type: Benchmark | Date: 2026-11-19
 
 ---
 
-<a id="case-170"></a>
-### Caso 170: [Preguntas de perfil respondidas de forma independiente en AI Village](https://x.com/aidigest_/status/2123446497442447399) (por [@aidigest_](https://x.com/aidigest_))
+<a id="case-169"></a>
+### Caso 169: [Navegación espacial en MazeBench](https://x.com/patience_cave/status/2123446669643849993) (por [@patience_cave](https://x.com/patience_cave))
 
-**Compara cómo dos agentes responden de forma independiente al mismo cuestionario de perfil.**
+**Compara la resolución de laberintos en la misma prueba publicada.**
 
-AI Digest incorporó Sol y Astra a AI Village y publicó sus respuestas a 15 preguntas. Ambos eligieron Tampopo, zapatillas Onitsuka Tiger y tortitas de cebolleta.
+El autor de la prueba publicó un 14 % para Sol, un 16 % para Astra y un 10 % para Gemini 4 Neon. El gráfico adjunto identifica las configuraciones utilizadas.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-170/2123446488605114368-ecc6833b877fae0e1433.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-170/2123446488605114368-ecc6833b877fae0e1433.jpg" width="640" alt="Vista previa de la fuente 1 · Preguntas de perfil respondidas de forma independiente en AI Village"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-169/2123446665696993280-3509529d630c29cd9ac5.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-169/2123446665696993280-3509529d630c29cd9ac5.jpg" width="640" alt="Vista previa de la fuente 1 · Navegación espacial en MazeBench"></a>
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-170/2123446492765798400-c64a85a5d0d85d04cf39.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-170/2123446492765798400-c64a85a5d0d85d04cf39.jpg" width="640" alt="Vista previa de la fuente 2 · Preguntas de perfil respondidas de forma independiente en AI Village"></a>
-
-Type: Integration | Date: 2026-11-19
+Type: Benchmark | Date: 2026-11-19
 
 ---
 
-<a id="case-124"></a>
-### Caso 124: [Un informe de estado de PR que omite las instrucciones del repositorio](https://x.com/Fei2411/status/2123354076771692631) (por [@Fei2411](https://x.com/Fei2411))
+<a id="case-175"></a>
+### Caso 175: [Cinco partidas de ajedrez sin herramientas](https://x.com/argofowl/status/2123389829438406999) (por [@argofowl](https://x.com/argofowl))
 
-**Compara el nivel de detalle y la organización de las respuestas a una solicitud breve de estado.**
+**Compara puntos, resultados y costes indicados para el mismo encuentro.**
 
-El autor probó Sol y Gemini 4 Neon con el mismo informe sobre una solicitud de cambios. Consideró demasiado escueto el resumen de Sol y señaló que omitió las instrucciones de AGENTS.md.
+El autor usó xhigh con ambos modelos e indicó que Sol ganó por 4–1 puntos con tres victorias y dos tablas. Sol costó 24,39 dólares y Opus 5.5 costó 75,80 dólares.
 
-**Prompt:**
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123389747536207872-d38127bbf7f2c4de454f.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-175/2123389747536207872-poster-f2422d640187db52b79e.jpg" width="640" alt="Vista previa de la fuente 1 · Cinco partidas de ajedrez sin herramientas"></a>
 
-```
-现在有哪些pr
-```
+[Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123389747536207872-d38127bbf7f2c4de454f.mp4)
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-124/2123354068013993984-19d626fb5c30bc9b2a19.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-124/2123354068013993984-19d626fb5c30bc9b2a19.jpg" width="640" alt="Vista previa de la fuente 1 · Un informe de estado de PR que omite las instrucciones del repositorio"></a>
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-124/2123354067988824064-5ec42709de761e85172e.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-124/2123354067988824064-5ec42709de761e85172e.jpg" width="640" alt="Vista previa de la fuente 2 · Un informe de estado de PR que omite las instrucciones del repositorio"></a>
-
-Type: Limit | Date: 2026-11-19
+Type: Benchmark | Date: 2026-11-19
 
 ---
 
-<a id="case-141"></a>
-### Caso 141: [Conversaciones con personajes en AITuber OnAir](https://x.com/shinshin86/status/2123040784710869031) (por [@shinshin86](https://x.com/shinshin86))
+<a id="case-138"></a>
+### Caso 138: [Una partida hasta el título de Campeón en Pokémon FireRed](https://x.com/Clad3815/status/2123064135164576107) (por [@Clad3815](https://x.com/Clad3815))
 
-**Prueba distintos niveles de razonamiento durante una conversación en directo con un personaje.**
+**Compara los tiempos de finalización del juego con una configuración explícita de entradas y razonamiento.**
 
-El desarrollador añadió Sol a AITuber OnAir y mostró una conversación. La integración usa razonamiento bajo de forma predeterminada para mantener el ritmo de la conversación y permite ajustar el nivel.
+El autor indicó que alcanzó el título de Campeón en 11 horas y 40 minutos con un nivel alto de razonamiento, capturas de pantalla como entrada y Sol en modo Ultrafast.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123040557064966144-63e1c247fbe9574434f1.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-141/2123040557064966144-poster-096943e3ee853b4f4a62.jpg" width="640" alt="Vista previa de la fuente 1 · Conversaciones con personajes en AITuber OnAir"></a>
-
-[Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123040557064966144-63e1c247fbe9574434f1.mp4)
-
-Type: Integration | Date: 2026-11-18
-
----
-
-<a id="case-155"></a>
-### Caso 155: [Llamadas simuladas a una clínica en FrontDesk-Bench](https://x.com/muratcan/status/2122914581454487838) (por [@muratcan](https://x.com/muratcan))
-
-**Registra por separado las acciones inseguras y los rechazos de solicitudes legítimas.**
-
-En la prueba con una recepción simulada, el autor del benchmark observó que Sol pasó de 16 llamadas inseguras a 9. También señaló más rechazos de solicitudes legítimas en los nuevos modelos.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-155/2122905857700585472-c7658e9ed55fe97f9cbb.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-155/2122905857700585472-c7658e9ed55fe97f9cbb.jpg" width="640" alt="Vista previa de la fuente 1 · Llamadas simuladas a una clínica en FrontDesk-Bench"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-138/2123061539183726592-707694197c25ed18a424.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-138/2123061539183726592-707694197c25ed18a424.png" width="640" alt="Vista previa de la fuente 1 · Una partida hasta el título de Campeón en Pokémon FireRed"></a>
 
 Type: Benchmark | Date: 2026-11-18
 
 ---
 
-<a id="case-43"></a>
-### Caso 43: [Un intento inconcluso de transmitir un mensaje](https://x.com/SadAlbert10/status/2119428297092460613) (por [@SadAlbert10](https://x.com/SadAlbert10))
+<a id="case-146"></a>
+### Caso 146: [Un juego 3D de carreras con un dinosaurio y física ragdoll](https://x.com/noclipepe/status/2122989930699792818) (por [@noclipepe](https://x.com/noclipepe))
 
-**Utilice el intento para ver dónde se detuvo un flujo de trabajo de escritorio.**
+**Compara el estilo visual y el comportamiento en las colisiones entre cuatro prototipos jugables.**
 
-Las capturas de pantalla muestran un intento de encontrar al destinatario después de una solicitud para transmitir un mensaje. La tarea terminó antes de que se enviara un mensaje.
+El creador dio el mismo encargo a los cuatro modelos, incluidos el 3D y la física ragdoll. La ejecución registrada de Sol tardó 20 minutos y costó 1,68 dólares.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-43/2119428121711775744-8419b4e0c62aa252d1dc.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-43/2119428121711775744-8419b4e0c62aa252d1dc.jpg" width="640" alt="Vista previa de la fuente 1 · Un intento inconcluso de transmitir un mensaje"></a>
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-43/2119428270945140736-f9662043dadb9a6e4b1b.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-43/2119428270945140736-f9662043dadb9a6e4b1b.jpg" width="640" alt="Vista previa de la fuente 2 · Un intento inconcluso de transmitir un mensaje"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122985283993907201-9750e48cc454af4480fd.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-146/2122985283993907201-poster-afcb4c84030cd6876301.jpg" width="640" alt="Vista previa de la fuente 1 · Un juego 3D de carreras con un dinosaurio y física ragdoll"></a>
 
-Type: Limit | Date: 2026-11-08
+[Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122985283993907201-9750e48cc454af4480fd.mp4)
+
+Type: Evaluation | Date: 2026-11-18
+
+---
+
+<a id="case-158"></a>
+### Caso 158: [Un juego inspirado en anuncios falsos](https://x.com/noclipepe/status/2122885577137598800) (por [@noclipepe](https://x.com/noclipepe))
+
+**Compara cuatro interpretaciones jugables del mismo encargo para un nivel.**
+
+El autor usó la misma instrucción con los cuatro modelos y demostró que era posible perder. La ejecución de Sol tardó 21 minutos y costó 1,04 dólares.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122882602663124992-7fe424c3649edbe814fc.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-158/2122882602663124992-poster-65013bb3e5cef1833a1e.jpg" width="640" alt="Vista previa de la fuente 1 · Un juego inspirado en anuncios falsos"></a>
+
+[Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122882602663124992-7fe424c3649edbe814fc.mp4)
+
+Type: Evaluation | Date: 2026-11-18
+
+---
+
+<a id="case-78"></a>
+### Caso 78: [Superar todas las salas de una prueba de Sokoban](https://x.com/banteg/status/2122826622638137666) (por [@banteg](https://x.com/banteg))
+
+**Registra las salas superadas y revisa la repetición para localizar los atascos.**
+
+El autor probó Sol y Astra con el ajuste medium. Ambos superaron las 66 salas. En la clasificación del autor al publicar el resultado, Sol quedó segundo y Astra tercero.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122826155086512128-d2a8456da3a5a99263f5.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-78/2122826155086512128-poster-4a2c4bee2b8d9510e347.jpg" width="640" alt="Vista previa de la fuente 1 · Superar todas las salas de una prueba de Sokoban"></a>
+
+[Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122826155086512128-d2a8456da3a5a99263f5.mp4)
+
+Type: Benchmark | Date: 2026-11-17
+
+---
+
+<a id="case-93"></a>
+### Caso 93: [Dos misiones completadas en RuneScape](https://x.com/maxbittker/status/2122783334216466487) (por [@maxbittker](https://x.com/maxbittker))
+
+**Examina qué misiones elige el agente y qué recompensas reclama.**
+
+El responsable de la prueba indica que Sol y Astra realizaron dos misiones cada uno y recogieron ambas recompensas dentro de una misma partida.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-93/2122782503542960128-31be885019f467cb7472.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-93/2122782503542960128-31be885019f467cb7472.jpg" width="640" alt="Vista previa de la fuente 1 · Dos misiones completadas en RuneScape"></a>
+
+Type: Benchmark | Date: 2026-11-17
+
+---
+
+<a id="case-95"></a>
+### Caso 95: [Un juego multijugador en el navegador con controles táctiles](https://x.com/VraserX/status/2122770481975837145) (por [@VraserX](https://x.com/VraserX))
+
+**Prueba versiones sucesivas y da indicaciones concretas sobre los controles.**
+
+El desarrollador indica que usó Sol para programar, depurar y revisar el prototipo de 16 contra 16 a medida que probaba sus versiones, incluidos los controles táctiles.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122770342842077184-c89268a9c06156333c45.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-95/2122770342842077184-poster-c5a1ebf986d6362bd35d.jpg" width="640" alt="Vista previa de la fuente 1 · Un juego multijugador en el navegador con controles táctiles"></a>
+
+[Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122770342842077184-c89268a9c06156333c45.mp4)
+
+Type: Demo | Date: 2026-11-17
+
+---
+
+<a id="case-97"></a>
+### Caso 97: [Lanternkeep, un juego de construcción de aldeas en el navegador](https://x.com/AdamHoltererer/status/2122766741881413818) (por [@AdamHoltererer](https://x.com/AdamHoltererer))
+
+**Observa cómo el mapa y el panel de objetivos guían la construcción de la aldea.**
+
+El creador atribuye el juego a Sol. La grabación muestra un mapa interactivo de la aldea y el panel de objetivos.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122766701477367808-c628e4fc3e8c14dc15d8.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-97/2122766701477367808-poster-50e4bfea19c965f6d231.jpg" width="640" alt="Vista previa de la fuente 1 · Lanternkeep, un juego de construcción de aldeas en el navegador"></a>
+
+[Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122766701477367808-c628e4fc3e8c14dc15d8.mp4)
+
+Type: Demo | Date: 2026-11-17
+
+---
+
+<a id="case-99"></a>
+### Caso 99: [Una partida de Pokémon FireRed basada solo en capturas de pantalla](https://x.com/Clad3815/status/2122763941675995209) (por [@Clad3815](https://x.com/Clad3815))
+
+**Registra los hitos y el tiempo que tarda el agente en completar el juego.**
+
+El evaluador indicó que usó capturas de pantalla con un nivel alto de razonamiento. Sol tardó 15 horas y 34 minutos y llegó al primer líder de gimnasio antes que Astra en esta prueba.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-99/2122763933345890304-ffe6b4053f347b1d4d5f.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-99/2122763933345890304-ffe6b4053f347b1d4d5f.jpg" width="640" alt="Vista previa de la fuente 1 · Una partida de Pokémon FireRed basada solo en capturas de pantalla"></a>
+
+Type: Benchmark | Date: 2026-11-17
+
+---
+
+<a id="case-67"></a>
+### Caso 67: [Prototipo de un juego de carreras costero](https://x.com/Stargridcompass/status/2119683294220390638) (por [@Stargridcompass](https://x.com/Stargridcompass))
+
+**Comprueba si la cuenta regresiva, la velocidad y el mapa del circuito se leen bien durante la carrera.**
+
+La grabación muestra la salida desde la parrilla y la carrera en curso. El autor afirma que tardó 16 minutos en construirlo.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119682250472112128-81f053c6ffe2a4aae055.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-67/2119682250472112128-poster-526c85969a54c7f93833.jpg" width="640" alt="Vista previa de la fuente 1 · Prototipo de un juego de carreras costero"></a>
+
+[Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119682250472112128-81f053c6ffe2a4aae055.mp4)
+
+Type: Demo | Date: 2026-11-09
+
+---
+
+<a id="case-62"></a>
+### Caso 62: [Un cubo de Rubik en el navegador](https://x.com/VeknQAQ/status/2119633751173173475) (por [@VeknQAQ](https://x.com/VeknQAQ))
+
+**Usa la vista previa para revisar el giro del cubo y la posición de las pegatinas.**
+
+La grabación muestra un cubo 3D resuelto y desordenado, junto con los controles del navegador.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119633608680124416-44e5b8b00d129caeba34.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-62/2119633608680124416-poster-1ea9e2acda539d582293.jpg" width="640" alt="Vista previa de la fuente 1 · Un cubo de Rubik en el navegador"></a>
+
+[Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119633608680124416-44e5b8b00d129caeba34.mp4)
+
+Type: Demo | Date: 2026-11-09
+
+---
+
+<a id="case-17"></a>
+### Caso 17: [Juego de persecución de vóxeles PELICAN PANIC](https://x.com/Ananth7e/status/2119479157633786246) (por [@Ananth7e](https://x.com/Ananth7e))
+
+**Utilice un juego de persecución breve para inspeccionar los controles, la retroalimentación y el estado final.**
+
+El clip muestra a un jinete escapando de un monstruo de patatas en un pelícano. Se ven una puntuación y una pantalla final «Escaped».
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119478839500013568-2ec29cee42e54d0bf9c5.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-17/2119478839500013568-poster-3716db2a9abc6cf0e264.jpg" width="640" alt="Vista previa de la fuente 1 · Juego de persecución de vóxeles PELICAN PANIC"></a>
+
+[Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119478839500013568-2ec29cee42e54d0bf9c5.mp4)
+
+
+Type: Demo | Date: 2026-11-08
 
 ---
 
 <a id="category-web"></a>
 ## 🌐 Sitios web e interfaces
+
+<a id="case-184"></a>
+### Caso 184: [Porcentaje de aciertos y tiempo de ejecución en Agents on Rails](https://x.com/rails/status/2123808115619471857) (por [@rails](https://x.com/rails))
+
+**Registra por separado el tiempo de ejecución y los aciertos en tareas de desarrollo con aplicaciones Rails ya existentes.**
+
+La Rails Foundation indicó que Sol en nivel xhigh promedió unos 12½ minutos por ejecución frente a 23½ de la versión anterior de Sol. Su puntuación fue del 54,1 %, frente al 60,8 % de GPT-6.1 Sol.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-184/2123805893733027841-1d6628ee8b4801e16252.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-184/2123805893733027841-1d6628ee8b4801e16252.jpg" width="640" alt="Vista previa de la fuente 1 · Porcentaje de aciertos y tiempo de ejecución en Agents on Rails"></a>
+
+Type: Benchmark | Date: 2026-11-20
+
+---
 
 <a id="case-174"></a>
 ### Caso 174: [Una página web sobre un faro en una costa rocosa](https://x.com/aapakari/status/2123407849829404984) (por [@aapakari](https://x.com/aapakari))
@@ -3048,6 +3210,6 @@ Type: Demo | Date: 2026-11-08
 
 Gracias a los creadores que compartieron estos experimentos. La obra y los medios vinculados pertenecen a sus respectivos creadores.
 
-[@Avenoxai](https://x.com/Avenoxai), [@kimmonismus](https://x.com/kimmonismus), [@imjustnewatai](https://x.com/imjustnewatai), [@Khazix0918](https://x.com/Khazix0918), [@marcthecreatorr](https://x.com/marcthecreatorr), [@Bhavani_00007](https://x.com/Bhavani_00007), [@JustLingonberry](https://x.com/JustLingonberry), [@Mr_Salio](https://x.com/Mr_Salio), [@aGim_asf](https://x.com/aGim_asf), [@0x0SojalSec](https://x.com/0x0SojalSec), [@pengsonal](https://x.com/pengsonal), [@GeekCatX](https://x.com/GeekCatX), [@Ananth7e](https://x.com/Ananth7e), [@EnvolDev](https://x.com/EnvolDev), [@xbquan](https://x.com/xbquan), [@SahilPanhotra](https://x.com/SahilPanhotra), [@rubenssoto_ai](https://x.com/rubenssoto_ai), [@vikktorrrre](https://x.com/vikktorrrre), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@Cayden970207](https://x.com/Cayden970207), [@HarshithLucky3](https://x.com/HarshithLucky3), [@TokenGremlin](https://x.com/TokenGremlin), [@SadAlbert10](https://x.com/SadAlbert10), [@maxt3chno](https://x.com/maxt3chno), [@karanC_12](https://x.com/karanC_12), [@JustinGorya](https://x.com/JustinGorya), [@kdnbmb](https://x.com/kdnbmb), [@VraserX](https://x.com/VraserX), [@jessexai_](https://x.com/jessexai_), [@theaidesk_](https://x.com/theaidesk_), [@gadi_neelesh](https://x.com/gadi_neelesh), [@Haleeeemahh](https://x.com/Haleeeemahh), [@SPAC89](https://x.com/SPAC89), [@VeknQAQ](https://x.com/VeknQAQ), [@Aurora0x3f](https://x.com/Aurora0x3f), [@bei351009016](https://x.com/bei351009016), [@Stargridcompass](https://x.com/Stargridcompass), [@iamtheQwen](https://x.com/iamtheQwen), [@voxelbench](https://x.com/voxelbench), [@sshayahmet](https://x.com/sshayahmet), [@TimJayas](https://x.com/TimJayas), [@lucian__03](https://x.com/lucian__03), [@camperaigg](https://x.com/camperaigg), [@nickbaumann_](https://x.com/nickbaumann_), [@thtbee_](https://x.com/thtbee_), [@DeryaTR_](https://x.com/DeryaTR_), [@banteg](https://x.com/banteg), [@Leviwoyun](https://x.com/Leviwoyun), [@browser_use](https://x.com/browser_use), [@simonw](https://x.com/simonw), [@perplexity_ai](https://x.com/perplexity_ai), [@_3912657840](https://x.com/_3912657840), [@fawnunwrap](https://x.com/fawnunwrap), [@Angaisb_](https://x.com/Angaisb_), [@jony_palino](https://x.com/jony_palino), [@notjazii](https://x.com/notjazii), [@noclipepe](https://x.com/noclipepe), [@Super_Nius](https://x.com/Super_Nius), [@maxbittker](https://x.com/maxbittker), [@morsenxxx](https://x.com/morsenxxx), [@AdamHoltererer](https://x.com/AdamHoltererer), [@Clad3815](https://x.com/Clad3815), [@N1njaCodex](https://x.com/N1njaCodex), [@CodeByNZ](https://x.com/CodeByNZ), [@DanielZambrini](https://x.com/DanielZambrini), [@RezAIT00](https://x.com/RezAIT00), [@LuminaBench](https://x.com/LuminaBench), [@Jason85885174](https://x.com/Jason85885174), [@mspd4100](https://x.com/mspd4100), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@simonw](https://news.ycombinator.com/user?id=simonw), [@Fei2411](https://x.com/Fei2411), [@arena](https://x.com/arena), [@jan_volad](https://x.com/jan_volad), [@eliadele](https://x.com/eliadele), [@monkeys_im](https://x.com/monkeys_im), [@rotejin](https://x.com/rotejin), [@jetbrains](https://x.com/jetbrains), [@UFO2002616](https://x.com/UFO2002616), [@argofowl](https://x.com/argofowl), [@Kombaico](https://x.com/Kombaico), [@shinshin86](https://x.com/shinshin86), [@PawelJLisowski](https://x.com/PawelJLisowski), [@alohaproxy](https://x.com/alohaproxy), [@masahirochaen](https://x.com/masahirochaen), [@mylesBaiM](https://x.com/mylesBaiM), [@exploraX_](https://x.com/exploraX_), [@One2xDatalab](https://x.com/One2xDatalab), [@798145343h](https://x.com/798145343h), [@xKaka1456](https://x.com/xKaka1456), [@op7418](https://x.com/op7418), [@aura_uniiiii](https://x.com/aura_uniiiii), [@shinya_creative](https://x.com/shinya_creative), [@muratcan](https://x.com/muratcan), [@suna_gaku](https://x.com/suna_gaku), [@teddyaisi](https://x.com/teddyaisi), [@0xkhalid7](https://x.com/0xkhalid7), [@shownotover](https://x.com/shownotover), [@andonlabs](https://x.com/andonlabs), [@MatthewBerman](https://x.com/MatthewBerman), [@Hesamation](https://x.com/Hesamation), [@WeAreLegora](https://x.com/WeAreLegora), [@XploreAi](https://x.com/XploreAi), [@patience_cave](https://x.com/patience_cave), [@aidigest_](https://x.com/aidigest_), [@erhanmeydan](https://x.com/erhanmeydan), [@aapakari](https://x.com/aapakari)
+[@Avenoxai](https://x.com/Avenoxai), [@kimmonismus](https://x.com/kimmonismus), [@imjustnewatai](https://x.com/imjustnewatai), [@Khazix0918](https://x.com/Khazix0918), [@marcthecreatorr](https://x.com/marcthecreatorr), [@Bhavani_00007](https://x.com/Bhavani_00007), [@JustLingonberry](https://x.com/JustLingonberry), [@Mr_Salio](https://x.com/Mr_Salio), [@aGim_asf](https://x.com/aGim_asf), [@0x0SojalSec](https://x.com/0x0SojalSec), [@pengsonal](https://x.com/pengsonal), [@GeekCatX](https://x.com/GeekCatX), [@Ananth7e](https://x.com/Ananth7e), [@EnvolDev](https://x.com/EnvolDev), [@xbquan](https://x.com/xbquan), [@SahilPanhotra](https://x.com/SahilPanhotra), [@rubenssoto_ai](https://x.com/rubenssoto_ai), [@vikktorrrre](https://x.com/vikktorrrre), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@Cayden970207](https://x.com/Cayden970207), [@HarshithLucky3](https://x.com/HarshithLucky3), [@TokenGremlin](https://x.com/TokenGremlin), [@SadAlbert10](https://x.com/SadAlbert10), [@maxt3chno](https://x.com/maxt3chno), [@karanC_12](https://x.com/karanC_12), [@JustinGorya](https://x.com/JustinGorya), [@kdnbmb](https://x.com/kdnbmb), [@VraserX](https://x.com/VraserX), [@jessexai_](https://x.com/jessexai_), [@theaidesk_](https://x.com/theaidesk_), [@gadi_neelesh](https://x.com/gadi_neelesh), [@Haleeeemahh](https://x.com/Haleeeemahh), [@SPAC89](https://x.com/SPAC89), [@VeknQAQ](https://x.com/VeknQAQ), [@Aurora0x3f](https://x.com/Aurora0x3f), [@bei351009016](https://x.com/bei351009016), [@Stargridcompass](https://x.com/Stargridcompass), [@iamtheQwen](https://x.com/iamtheQwen), [@voxelbench](https://x.com/voxelbench), [@sshayahmet](https://x.com/sshayahmet), [@TimJayas](https://x.com/TimJayas), [@lucian__03](https://x.com/lucian__03), [@camperaigg](https://x.com/camperaigg), [@nickbaumann_](https://x.com/nickbaumann_), [@thtbee_](https://x.com/thtbee_), [@DeryaTR_](https://x.com/DeryaTR_), [@banteg](https://x.com/banteg), [@Leviwoyun](https://x.com/Leviwoyun), [@browser_use](https://x.com/browser_use), [@simonw](https://x.com/simonw), [@perplexity_ai](https://x.com/perplexity_ai), [@_3912657840](https://x.com/_3912657840), [@fawnunwrap](https://x.com/fawnunwrap), [@Angaisb_](https://x.com/Angaisb_), [@jony_palino](https://x.com/jony_palino), [@notjazii](https://x.com/notjazii), [@noclipepe](https://x.com/noclipepe), [@Super_Nius](https://x.com/Super_Nius), [@maxbittker](https://x.com/maxbittker), [@morsenxxx](https://x.com/morsenxxx), [@AdamHoltererer](https://x.com/AdamHoltererer), [@Clad3815](https://x.com/Clad3815), [@N1njaCodex](https://x.com/N1njaCodex), [@CodeByNZ](https://x.com/CodeByNZ), [@DanielZambrini](https://x.com/DanielZambrini), [@RezAIT00](https://x.com/RezAIT00), [@LuminaBench](https://x.com/LuminaBench), [@Jason85885174](https://x.com/Jason85885174), [@mspd4100](https://x.com/mspd4100), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@simonw](https://news.ycombinator.com/user?id=simonw), [@Fei2411](https://x.com/Fei2411), [@arena](https://x.com/arena), [@jan_volad](https://x.com/jan_volad), [@eliadele](https://x.com/eliadele), [@monkeys_im](https://x.com/monkeys_im), [@rotejin](https://x.com/rotejin), [@jetbrains](https://x.com/jetbrains), [@UFO2002616](https://x.com/UFO2002616), [@argofowl](https://x.com/argofowl), [@Kombaico](https://x.com/Kombaico), [@shinshin86](https://x.com/shinshin86), [@PawelJLisowski](https://x.com/PawelJLisowski), [@alohaproxy](https://x.com/alohaproxy), [@masahirochaen](https://x.com/masahirochaen), [@mylesBaiM](https://x.com/mylesBaiM), [@exploraX_](https://x.com/exploraX_), [@One2xDatalab](https://x.com/One2xDatalab), [@798145343h](https://x.com/798145343h), [@xKaka1456](https://x.com/xKaka1456), [@op7418](https://x.com/op7418), [@aura_uniiiii](https://x.com/aura_uniiiii), [@shinya_creative](https://x.com/shinya_creative), [@muratcan](https://x.com/muratcan), [@suna_gaku](https://x.com/suna_gaku), [@teddyaisi](https://x.com/teddyaisi), [@0xkhalid7](https://x.com/0xkhalid7), [@shownotover](https://x.com/shownotover), [@andonlabs](https://x.com/andonlabs), [@MatthewBerman](https://x.com/MatthewBerman), [@Hesamation](https://x.com/Hesamation), [@WeAreLegora](https://x.com/WeAreLegora), [@XploreAi](https://x.com/XploreAi), [@patience_cave](https://x.com/patience_cave), [@aidigest_](https://x.com/aidigest_), [@erhanmeydan](https://x.com/erhanmeydan), [@aapakari](https://x.com/aapakari), [@jerryjliu0](https://x.com/jerryjliu0), [@joshzqin](https://x.com/joshzqin), [@DesignArena](https://x.com/DesignArena), [@boringmarketer](https://x.com/boringmarketer), [@sriramkiron](https://x.com/sriramkiron), [@GeppiiKameWorks](https://x.com/GeppiiKameWorks), [@rails](https://x.com/rails), [@CodeRabbit](https://www.coderabbit.ai/)
 
 *Abra un problema de corrección de fuente para solicitudes de atribución o eliminación.*

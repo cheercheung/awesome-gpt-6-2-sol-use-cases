@@ -18,7 +18,7 @@
 <a id="overview"></a>
 ## 📊 Genel Bakış
 
-- **175 kullanım örneği · GPT-6.2 Sol**. Derleme 175 kaynak gönderiyi içerir. Bunların 172’si sonuçları gösterir, üçü tamamlanmamış denemeleri kaydeder. Yirmi iki gönderide istemin özgün dildeki tam metni yer alır.
+- **185 kullanım örneği · GPT-6.2 Sol**. Derleme 185 kaynak gönderiyi içerir. Bunların 182’si sonuçları gösterir, üçü tamamlanmamış denemeleri kaydeder. Yirmi iki gönderide istemin özgün dildeki tam metni yer alır.
 - 3 boyutlu sahneler ve modelleme · Yaratıcı grafikler ve animasyon · Web siteleri ve arayüzler · Oyun geliştirme · Bilgisayar kullanımı ve boyama · Bilgisayar kullanımı ve iletişim
 - Her örnekte özgün gönderi, içerik sahibi, tarih, kanıt türü ve görülen sonuç yer alır.
 - Mümkün olduğunda genel istemi kullanın. Sonuçları karşılaştırırken orijinal girişi koruyun.
@@ -44,6 +44,15 @@
 | [Hızlı Başlangıç](#quick-start) | Gezinme | Hızlı Başlangıç | — |
 | [İlgili Depolar](#related-repositories) | Gezinme | İlgili Depolar | — |
 | [Teşekkür](#acknowledge) | Gezinme | Teşekkür | — |
+| [Örnek 176. İki akıl yürütme düzeyinde belge ayrıştırma](#case-176) | [Bilgisayar kullanımı ve iletişim](#category-communication) | Genel ayrıştırma puanlarını, grafik puanlarını ve sayfa başına maliyeti karşılaştırın. | Benchmark |
+| [Örnek 177. Gün batımında dört bisikletli animasyonu](#case-177) | [Yaratıcı grafikler ve animasyon](#category-graphics) | Dört çıktıda sürücülerin hareketlerini, bisiklet oranlarını ve sahne aydınlatmasını karşılaştırın. | Evaluation |
+| [Örnek 178. Company Agent Bench’te iş yeri görevleri](#case-178) | [Bilgisayar kullanımı ve iletişim](#category-communication) | Modellerin test edilen akıl yürütme ayarlarındaki doğruluk oranlarını karşılaştırın. | Benchmark |
+| [Örnek 179. Scarlet Fjord’u geçen bir teleferik](#case-179) | [3 boyutlu sahneler ve modelleme](#category-three) | Dört görselleştirmenin kabini ve çevresindeki manzarayı nasıl işlediğini karşılaştırın. | Evaluation |
+| [Örnek 180. Oyun geliştirmede tercih sırası ve üretim maliyeti](#case-180) | [Oyun geliştirme](#category-game) | Aynı oyun tasarımı platformunda tercih sırasını, ortalama üretim süresini ve maliyeti karşılaştırın. | Benchmark |
+| [Örnek 181. Pazarlama görevlerinde model karşılaştırması](#case-181) | [Bilgisayar kullanımı ve iletişim](#category-communication) | Görev başına tercih oranını maliyet ve oy sayısıyla birlikte inceleyin. | Benchmark |
+| [Örnek 182. Bir yürüyüş rotasından el konsolu oyununa](#case-182) | [Oyun geliştirme](#category-game) | Yürüyüşteki gözlemlerin oyunda yeniden ziyaret edilebilen sahnelere nasıl dönüştüğünü inceleyin. | Demo |
+| [Örnek 183. Görsel referanstan Blender’da bir tavşan](#case-183) | [3 boyutlu sahneler ve modelleme](#category-three) | Üretilmiş bir referans görselle başlayıp modelin geometrisini farklı açılardan inceleyin. | Demo |
+| [Örnek 184. Agents on Rails doğruluğu ve çalışma süresi](#case-184) | [Web siteleri ve arayüzler](#category-web) | Mevcut Rails uygulamalarındaki geliştirme görevlerinde çalışma süresini ve doğruluğu ayrı ayrı izleyin. | Benchmark |
 | [Örnek 159. Durağan karelerden bitmiş videoya](#case-159) | [Yaratıcı grafikler ve animasyon](#category-graphics) | Üretilen karelerin hangi aşamada iş akışına girdiğini görmek için kurgu zaman çizelgesini inceleyin. | Demo |
 | [Örnek 160. Codex’te iki birinci şahıs oyun prototipi](#case-160) | [Oyun geliştirme](#category-game) | Bölüm düzenini ve oynanışı bildirilen maliyetle birlikte karşılaştırın. | Evaluation |
 | [Örnek 161. Blender varlıklarıyla huzurlu bir köy oyunu](#case-161) | [Oyun geliştirme](#category-game) | Modellenen nesnelerin ve canlandırmanın oyun sahnesinde nasıl bir araya geldiğini inceleyin. | Demo |
@@ -51,6 +60,7 @@
 | [Örnek 163. Konuşan kişinin gösterildiği videoda diyalog kesimleri](#case-163) | [Yaratıcı grafikler ve animasyon](#category-graphics) | Kurgu süresini, genel puanı ve başarısız olan kesim türlerini karşılaştırın. | Benchmark |
 | [Örnek 164. Bir genel merkez için iki tasarım](#case-164) | [3 boyutlu sahneler ve modelleme](#category-three) | Aynı açık uçlu tasarım görevinde binaları ve kamera açılarını karşılaştırın. | Evaluation |
 | [Örnek 165. Crusader Bench’te bir yerleşim yönetmek](#case-165) | [Oyun geliştirme](#category-game) | Ajanların oynanışını aynı puanlanan haritalar ve oyun koşullarında karşılaştırın. | Benchmark |
+| [Örnek 185. CodeRabbit’te pull request incelemesi](#case-185) | [Bilgisayar kullanımı ve iletişim](#category-communication) | Farklı işlem hattı yapılandırmalarında bulunan bilinen sorunları, bildirilen isabet oranını ve inceleme maliyetini karşılaştırın. | Benchmark |
 | [Örnek 166. Legora’nın Kasım ayı hukuk belgeleri kıyaslaması](#case-166) | [Bilgisayar kullanımı ve iletişim](#category-communication) | Aynı mesleki görevlerde kaliteyi ve vaka başına maliyeti karşılaştırın. | Benchmark |
 | [Örnek 167. Xplore’un mühendislik tasarımı kıyaslamasında Sol](#case-167) | [3 boyutlu sahneler ve modelleme](#category-three) | CAD çalışmalarını da içeren test dizisinde görev puanlarını ve çalıştırma başına maliyeti karşılaştırın. | Benchmark |
 | [Örnek 168. Ruby Ascent fırlatma rampası sahnesi](#case-168) | [3 boyutlu sahneler ve modelleme](#category-three) | Aynı fırlatma rampasının dört yorumunda sahne ayrıntılarını ve oluşturma süresini karşılaştırın. | Evaluation |
@@ -220,8 +230,175 @@
 | [Örnek 58. Tek HTML Three.js kara delik](#case-58) | [3 boyutlu sahneler ve modelleme](#category-three) | Bir sahnenin birden fazla bakış açısını nasıl ele aldığını incelemek için klibi ve fotoğrafları kullanın. | Demo |
 | [Örnek 59. Yüzen bir Three.js sarayı](#case-59) | [3 boyutlu sahneler ve modelleme](#category-three) | Asma bir sarayın ölçeğini ve sunumunu çeşitli açılardan inceleyin. | Demo |
 
+<a id="category-communication"></a>
+## 💬 Bilgisayar kullanımı ve iletişim
+
+<a id="case-176"></a>
+### Örnek 176: [İki akıl yürütme düzeyinde belge ayrıştırma](https://x.com/jerryjliu0/status/2123945742872293505) (yazan [@jerryjliu0](https://x.com/jerryjliu0))
+
+**Genel ayrıştırma puanlarını, grafik puanlarını ve sayfa başına maliyeti karşılaştırın.**
+
+LlamaIndex, ParseBench 2 grafiğinde Sol’un genel puanını orta düzeyde 82,12, düşük düzeyde 79,12 olarak veriyor. Sayfa başına maliyetler sırasıyla 2,468 ve 2,289 ABD senti.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-176/2123945732264923137-2fc287ffe70da3991916.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-176/2123945732264923137-2fc287ffe70da3991916.jpg" width="640" alt="Kaynak önizlemesi 1 · İki akıl yürütme düzeyinde belge ayrıştırma"></a>
+
+Type: Benchmark | Date: 2026-11-21
+
+---
+
+<a id="case-178"></a>
+### Örnek 178: [Company Agent Bench’te iş yeri görevleri](https://x.com/joshzqin/status/2123877558815281377) (yazan [@joshzqin](https://x.com/joshzqin))
+
+**Modellerin test edilen akıl yürütme ayarlarındaki doğruluk oranlarını karşılaştırın.**
+
+Yayımlanan kıyaslama grafiği, yüksek düzeyde Sol için genel doğruluğu %76,4 olarak gösteriyor. Yüksek düzeyde Astra %79,7, düşük düzeyde Gemini Neon %85,3 aldı.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123877042928406528-4b38126f911f97edc79e.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-178/2123877042928406528-poster-9f579bb51eb76959e68a.jpg" width="640" alt="Kaynak önizlemesi 1 · Company Agent Bench’te iş yeri görevleri"></a>
+
+[Demo videosunu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123877042928406528-4b38126f911f97edc79e.mp4)
+
+Type: Benchmark | Date: 2026-11-20
+
+---
+
+<a id="case-181"></a>
+### Örnek 181: [Pazarlama görevlerinde model karşılaştırması](https://x.com/boringmarketer/status/2123843589063008291) (yazan [@boringmarketer](https://x.com/boringmarketer))
+
+**Görev başına tercih oranını maliyet ve oy sayısıyla birlikte inceleyin.**
+
+Yazar, Sol, Opus 5.5 ve Gemini 4 Neon’u 15 görevde ikili karşılaştırmalardan gelen 4.700’ü aşkın oyla değerlendirdi. Sol, bildirilen 0,04 ABD doları görev başı maliyetle oyların %58’ini aldı.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-181/2123826094998437888-9c51ceb178cca88b8b96.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-181/2123826094998437888-9c51ceb178cca88b8b96.jpg" width="640" alt="Kaynak önizlemesi 1 · Pazarlama görevlerinde model karşılaştırması"></a>
+
+Type: Benchmark | Date: 2026-11-20
+
+---
+
+<a id="case-185"></a>
+### Örnek 185: [CodeRabbit’te pull request incelemesi](https://www.coderabbit.ai/blog/gpt-6-2-sol-and-astra-review) (yazan [@CodeRabbit](https://www.coderabbit.ai/))
+
+**Farklı işlem hattı yapılandırmalarında bulunan bilinen sorunları, bildirilen isabet oranını ve inceleme maliyetini karşılaştırın.**
+
+CodeRabbit, yüksek düzeyde Sol 6.2 ile bilinen 81 sorunun 60’ını, karşılaştırma için kullanılan yüksek düzeydeki Sol 6.1 ile 58’ini tespit etti. Farklı yapılandırmalara sahip işlem hatlarının her biri bir kez çalıştırıldı.
+
+[Karşılaştırma testi ayrıntıları](https://www.coderabbit.ai/blog/gpt-6-2-sol-and-astra-review#heading-sol-62-versus-sol-61)
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-185/coderabbit-50580780-sol-review-table-9cd3782931e24f3a6d35.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-185/coderabbit-50580780-sol-review-table-9cd3782931e24f3a6d35.png" width="640" alt="Kaynak önizlemesi 1 · CodeRabbit’te pull request incelemesi"></a>
+
+Type: Benchmark | Date: 2026-11-19
+
+---
+
+<a id="case-166"></a>
+### Örnek 166: [Legora’nın Kasım ayı hukuk belgeleri kıyaslaması](https://x.com/WeAreLegora/status/2123460359017144769) (yazan [@WeAreLegora](https://x.com/WeAreLegora))
+
+**Aynı mesleki görevlerde kaliteyi ve vaka başına maliyeti karşılaştırın.**
+
+Legora, Sol’un ortalamanın üzerinde kalite gösterdiğini ve vaka başına maliyetinin Kasım ayında test edilen modellerin ortalamasından %78 düşük olduğunu bildirdi. Grafik, modeller arasındaki karşılaştırmayı özetliyor.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123460256260870144-6da8a1113b471ce42386.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-166/2123460256260870144-poster-5c1a0e947f184ffb782e.jpg" width="640" alt="Kaynak önizlemesi 1 · Legora’nın Kasım ayı hukuk belgeleri kıyaslaması"></a>
+
+[Demo videosunu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123460256260870144-6da8a1113b471ce42386.mp4)
+
+Type: Benchmark | Date: 2026-11-19
+
+---
+
+<a id="case-170"></a>
+### Örnek 170: [AI Village’da profil sorularına bağımsız yanıtlar](https://x.com/aidigest_/status/2123446497442447399) (yazan [@aidigest_](https://x.com/aidigest_))
+
+**İki ajanın aynı profil anketini birbirinden bağımsız nasıl yanıtladığını karşılaştırın.**
+
+AI Digest, AI Village’a Sol ve Astra’yı ekledi ve 15 soruya verdikleri yanıtları yayımladı. İkisi de Tampopo’yu, Onitsuka Tiger ayakkabılarını ve taze soğanlı krepleri seçti.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-170/2123446488605114368-ecc6833b877fae0e1433.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-170/2123446488605114368-ecc6833b877fae0e1433.jpg" width="640" alt="Kaynak önizlemesi 1 · AI Village’da profil sorularına bağımsız yanıtlar"></a>
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-170/2123446492765798400-c64a85a5d0d85d04cf39.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-170/2123446492765798400-c64a85a5d0d85d04cf39.jpg" width="640" alt="Kaynak önizlemesi 2 · AI Village’da profil sorularına bağımsız yanıtlar"></a>
+
+Type: Integration | Date: 2026-11-19
+
+---
+
+<a id="case-124"></a>
+### Örnek 124: [Pull request durum raporu depo talimatlarını atlıyor](https://x.com/Fei2411/status/2123354076771692631) (yazan [@Fei2411](https://x.com/Fei2411))
+
+**Kısa bir durum sorgusuna verilen yanıtları ayrıntı düzeyi ve düzen açısından karşılaştırın.**
+
+Yazar, aynı pull request raporu görevini Sol ve Gemini 4 Neon’a verdi. Sol’un özetini yetersiz buldu ve modelin AGENTS.md talimatlarını göz ardı ettiğini belirtti.
+
+**İstem:**
+
+```
+现在有哪些pr
+```
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-124/2123354068013993984-19d626fb5c30bc9b2a19.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-124/2123354068013993984-19d626fb5c30bc9b2a19.jpg" width="640" alt="Kaynak önizlemesi 1 · Pull request durum raporu depo talimatlarını atlıyor"></a>
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-124/2123354067988824064-5ec42709de761e85172e.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-124/2123354067988824064-5ec42709de761e85172e.jpg" width="640" alt="Kaynak önizlemesi 2 · Pull request durum raporu depo talimatlarını atlıyor"></a>
+
+Type: Limit | Date: 2026-11-19
+
+---
+
+<a id="case-141"></a>
+### Örnek 141: [AITuber OnAir’de bir karakterle sohbet](https://x.com/shinshin86/status/2123040784710869031) (yazan [@shinshin86](https://x.com/shinshin86))
+
+**Canlı karakter sohbetinde ayarlanabilir akıl yürütme düzeyini deneyin.**
+
+Geliştirici AITuber OnAir’e Sol’u ekledi ve bir sohbeti gösterdi. Entegrasyon, sohbet temposunu korumak için varsayılan olarak düşük akıl yürütme düzeyini kullanıyor ve kullanıcılara bu ayarı değiştirme olanağı veriyor.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123040557064966144-63e1c247fbe9574434f1.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-141/2123040557064966144-poster-096943e3ee853b4f4a62.jpg" width="640" alt="Kaynak önizlemesi 1 · AITuber OnAir’de bir karakterle sohbet"></a>
+
+[Demo videosunu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123040557064966144-63e1c247fbe9574434f1.mp4)
+
+Type: Integration | Date: 2026-11-18
+
+---
+
+<a id="case-155"></a>
+### Örnek 155: [FrontDesk-Bench’te simüle edilen klinik aramaları](https://x.com/muratcan/status/2122914581454487838) (yazan [@muratcan](https://x.com/muratcan))
+
+**Güvenli olmayan eylemleri ve meşru taleplerin reddini ayrı ayrı izleyin.**
+
+Kıyaslama yazarı, simüle edilen klinik resepsiyonu testinde Sol’un güvensiz çağrı sayısının 16’dan 9’a düştüğünü bildirdi. Ayrıca yeni modellerin meşru talepleri daha sık reddettiğini belirtti.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-155/2122905857700585472-c7658e9ed55fe97f9cbb.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-155/2122905857700585472-c7658e9ed55fe97f9cbb.jpg" width="640" alt="Kaynak önizlemesi 1 · FrontDesk-Bench’te simüle edilen klinik aramaları"></a>
+
+Type: Benchmark | Date: 2026-11-18
+
+---
+
+<a id="case-43"></a>
+### Örnek 43: [Bir mesajı iletmek için tamamlanmamış bir girişim](https://x.com/SadAlbert10/status/2119428297092460613) (yazan [@SadAlbert10](https://x.com/SadAlbert10))
+
+**Masaüstü iş akışının nerede durduğunu görme girişimini kullanın.**
+
+Ekran görüntüleri, bir mesajın iletilmesi talebinin ardından alıcıyı bulma girişimini gösteriyor. Görev, mesaj gönderilmeden sona erdi.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-43/2119428121711775744-8419b4e0c62aa252d1dc.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-43/2119428121711775744-8419b4e0c62aa252d1dc.jpg" width="640" alt="Kaynak önizlemesi 1 · Bir mesajı iletmek için tamamlanmamış bir girişim"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-43/2119428270945140736-f9662043dadb9a6e4b1b.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-43/2119428270945140736-f9662043dadb9a6e4b1b.jpg" width="640" alt="Kaynak önizlemesi 2 · Bir mesajı iletmek için tamamlanmamış bir girişim"></a>
+
+Type: Limit | Date: 2026-11-08
+
+---
+
 <a id="category-graphics"></a>
 ## 🎨 Yaratıcı grafikler ve animasyon
+
+<a id="case-177"></a>
+### Örnek 177: [Gün batımında dört bisikletli animasyonu](https://x.com/jony_palino/status/2123889278501495127) (yazan [@jony_palino](https://x.com/jony_palino))
+
+**Dört çıktıda sürücülerin hareketlerini, bisiklet oranlarını ve sahne aydınlatmasını karşılaştırın.**
+
+İçerik üreticisi Sol, Gemini 4 Neon, DeepSeek V4.1 Flash ve Claude Fable 5.2’nin etiketli karşılaştırmasını paylaştı. Sol’un animasyonu sol alt panelde yer alıyor.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123888706998218752-2fde673e71773bed63c5.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-177/2123888706998218752-poster-c43c4d2e3c43cad44fb4.jpg" width="640" alt="Kaynak önizlemesi 1 · Gün batımında dört bisikletli animasyonu"></a>
+
+[Demo videosunu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123888706998218752-2fde673e71773bed63c5.mp4)
+
+Type: Evaluation | Date: 2026-11-20
+
+---
 
 <a id="case-159"></a>
 ### Örnek 159: [Durağan karelerden bitmiş videoya](https://x.com/0xkhalid7/status/2123661187376451845) (yazan [@0xkhalid7](https://x.com/0xkhalid7))
@@ -943,246 +1120,40 @@ Type: Demo | Date: 2026-11-08
 
 ---
 
-<a id="category-game"></a>
-## 🎮 Oyun geliştirme
+<a id="category-three"></a>
+## 🧊 3 boyutlu sahneler ve modelleme
 
-<a id="case-160"></a>
-### Örnek 160: [Codex’te iki birinci şahıs oyun prototipi](https://x.com/shownotover/status/2123599696526717303) (yazan [@shownotover](https://x.com/shownotover))
+<a id="case-179"></a>
+### Örnek 179: [Scarlet Fjord’u geçen bir teleferik](https://x.com/EnvolDev/status/2123876031346200772) (yazan [@EnvolDev](https://x.com/EnvolDev))
 
-**Bölüm düzenini ve oynanışı bildirilen maliyetle birlikte karşılaştırın.**
+**Dört görselleştirmenin kabini ve çevresindeki manzarayı nasıl işlediğini karşılaştırın.**
 
-İçerik üreticisi Sol ve Astra’ya aynı görevi verdi ve iki prototipi de paylaştı. Sol Max çalıştırması 42 dakika sürdü ve üreticinin tahminine göre 2,42 ABD doları tutarında API kullanımı gerektirdi.
+İçerik üreticisi aynı sahnenin dört sürümünü karşılaştırdı ve kabin ayrıntılarında Astra’yı tercih etti. Sol çalıştırması için 38 dakika 28 saniye ve 1,62 ABD doları bildirdi.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123599517236817921-3ec7dd5b18f3301d8be3.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-160/2123599517236817921-poster-c1f1354e1c265c950177.jpg" width="640" alt="Kaynak önizlemesi 1 · Codex’te iki birinci şahıs oyun prototipi"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123831977287761920-470f192dfb8387e2be60.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-179/2123831977287761920-poster-358738b7044aa1397a60.jpg" width="640" alt="Kaynak önizlemesi 1 · Scarlet Fjord’u geçen bir teleferik"></a>
 
-[Demo videosunu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123599517236817921-3ec7dd5b18f3301d8be3.mp4)
+[Demo videosunu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123831977287761920-470f192dfb8387e2be60.mp4)
 
 Type: Evaluation | Date: 2026-11-20
 
 ---
 
-<a id="case-161"></a>
-### Örnek 161: [Blender varlıklarıyla huzurlu bir köy oyunu](https://x.com/TokenGremlin/status/2123574805723058647) (yazan [@TokenGremlin](https://x.com/TokenGremlin))
+<a id="case-183"></a>
+### Örnek 183: [Görsel referanstan Blender’da bir tavşan](https://x.com/GeppiiKameWorks/status/2123827794778140687) (yazan [@GeppiiKameWorks](https://x.com/GeppiiKameWorks))
 
-**Modellenen nesnelerin ve canlandırmanın oyun sahnesinde nasıl bir araya geldiğini inceleyin.**
+**Üretilmiş bir referans görselle başlayıp modelin geometrisini farklı açılardan inceleyin.**
 
-İçerik üreticisi oyunu Ultrafast modunda Sol ile oluşturdu ve modelleme ile canlandırma için Blender kullandı. Klipte köyde dolaşan karakterler görülüyor.
+İçerik üreticisi Codex’te Sol’a üretilmiş bir görsel verdi ve oyun geliştirme için oluşturulan modeli paylaştı. Klipte tavşan Blender’da farklı açılardan gösteriliyor.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123574639729238016-d185275dff479ab97456.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-161/2123574639729238016-poster-ab2ca719508bdf4d61d7.jpg" width="640" alt="Kaynak önizlemesi 1 · Blender varlıklarıyla huzurlu bir köy oyunu"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-183/2123827569682419712-2a5b033b284c30a76bec.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-183/2123827569682419712-2a5b033b284c30a76bec.jpg" width="640" alt="Kaynak önizlemesi 1 · Görsel referanstan Blender’da bir tavşan"></a>
 
-[Demo videosunu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123574639729238016-d185275dff479ab97456.mp4)
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123827600791638017-776fe4105084a1dd4a3a.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-183/2123827600791638017-poster-ef6546c38da30bd36a58.jpg" width="640" alt="Kaynak önizlemesi 2 · Görsel referanstan Blender’da bir tavşan"></a>
+
+[Demo videosunu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123827600791638017-776fe4105084a1dd4a3a.mp4)
 
 Type: Demo | Date: 2026-11-20
 
 ---
-
-<a id="case-165"></a>
-### Örnek 165: [Crusader Bench’te bir yerleşim yönetmek](https://x.com/Hesamation/status/2123528773140197579) (yazan [@Hesamation](https://x.com/Hesamation))
-
-**Ajanların oynanışını aynı puanlanan haritalar ve oyun koşullarında karşılaştırın.**
-
-Kıyaslama yazarı sıralamanın anlık görüntüsünü ve oynanış kaydını paylaştı. Ayrıntılı sıralamaya göre Sol, orta akıl yürütme düzeyinde üç haritanın tamamı üzerinden 79,5 puan aldı.
-
-[Karşılaştırma testi ayrıntıları](https://crusbench.com/)
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-165/2123528764608909312-da8dce5fbd2110f3efd7.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-165/2123528764608909312-da8dce5fbd2110f3efd7.jpg" width="640" alt="Kaynak önizlemesi 1 · Crusader Bench’te bir yerleşim yönetmek"></a>
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-165/2123528764613091328-7c18d649149711d41faa.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-165/2123528764613091328-7c18d649149711d41faa.jpg" width="640" alt="Kaynak önizlemesi 2 · Crusader Bench’te bir yerleşim yönetmek"></a>
-
-Type: Benchmark | Date: 2026-11-19
-
----
-
-<a id="case-169"></a>
-### Örnek 169: [MazeBench’te mekânsal gezinme](https://x.com/patience_cave/status/2123446669643849993) (yazan [@patience_cave](https://x.com/patience_cave))
-
-**Aynı yayımlanmış kıyaslamada labirent tamamlama sonuçlarını karşılaştırın.**
-
-Kıyaslama yazarı Sol için %14, Astra için %16 ve Gemini 4 Neon için %10 bildirdi. Ekteki grafik kullanılan ayarları gösteriyor.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-169/2123446665696993280-3509529d630c29cd9ac5.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-169/2123446665696993280-3509529d630c29cd9ac5.jpg" width="640" alt="Kaynak önizlemesi 1 · MazeBench’te mekânsal gezinme"></a>
-
-Type: Benchmark | Date: 2026-11-19
-
----
-
-<a id="case-175"></a>
-### Örnek 175: [Araç kullanmadan beş satranç oyunu](https://x.com/argofowl/status/2123389829438406999) (yazan [@argofowl](https://x.com/argofowl))
-
-**Aynı maçta puanları, oyun sonuçlarını ve bildirilen maliyeti karşılaştırın.**
-
-Yazar, iki modeli de xhigh düzeyinde çalıştırdı. Sol’un üç galibiyet ve iki beraberlikle maçı 4–1 kazandığını bildirdi. Sol 24,39 ABD dolarına, Opus 5.5 ise 75,80 ABD dolarına mal oldu.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123389747536207872-d38127bbf7f2c4de454f.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-175/2123389747536207872-poster-f2422d640187db52b79e.jpg" width="640" alt="Kaynak önizlemesi 1 · Araç kullanmadan beş satranç oyunu"></a>
-
-[Demo videosunu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123389747536207872-d38127bbf7f2c4de454f.mp4)
-
-Type: Benchmark | Date: 2026-11-19
-
----
-
-<a id="case-138"></a>
-### Örnek 138: [Pokémon FireRed’de Şampiyon’a ulaşma](https://x.com/Clad3815/status/2123064135164576107) (yazan [@Clad3815](https://x.com/Clad3815))
-
-**Girdi türü ve akıl yürütme ayarı belli olan oyun çalıştırmalarının sürelerini karşılaştırın.**
-
-Yazar, Sol’u Ultrafast modunda yüksek akıl yürütme düzeyi ve ekran görüntüsü girdileriyle kullanarak 11 saat 40 dakikada Şampiyon’a ulaştığını bildirdi.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-138/2123061539183726592-707694197c25ed18a424.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-138/2123061539183726592-707694197c25ed18a424.png" width="640" alt="Kaynak önizlemesi 1 · Pokémon FireRed’de Şampiyon’a ulaşma"></a>
-
-Type: Benchmark | Date: 2026-11-18
-
----
-
-<a id="case-146"></a>
-### Örnek 146: [Ragdoll fiziğine sahip 3B dinozor koşu oyunu](https://x.com/noclipepe/status/2122989930699792818) (yazan [@noclipepe](https://x.com/noclipepe))
-
-**Dört oyun prototipinde görsel üslubu ve çarpışma davranışını karşılaştırın.**
-
-İçerik üreticisi dört modele de 3B ve ragdoll fiziği içeren aynı görevi verdi. Kayda alınan Sol çalıştırması 20 dakika sürdü ve 1,68 ABD dolarına mal oldu.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122985283993907201-9750e48cc454af4480fd.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-146/2122985283993907201-poster-afcb4c84030cd6876301.jpg" width="640" alt="Kaynak önizlemesi 1 · Ragdoll fiziğine sahip 3B dinozor koşu oyunu"></a>
-
-[Demo videosunu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122985283993907201-9750e48cc454af4480fd.mp4)
-
-Type: Evaluation | Date: 2026-11-18
-
----
-
-<a id="case-158"></a>
-### Örnek 158: [Sahte reklamlardan esinlenen oynanabilir bir oyun](https://x.com/noclipepe/status/2122885577137598800) (yazan [@noclipepe](https://x.com/noclipepe))
-
-**Aynı oyun seviyesi görevinin dört oynanabilir yorumunu karşılaştırın.**
-
-Yazar dört model için aynı istemi kullandı ve oyuncuların kaybedebildiğini gösterdi. Sol çalıştırması 21 dakika sürdü ve 1,04 ABD dolarına mal oldu.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122882602663124992-7fe424c3649edbe814fc.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-158/2122882602663124992-poster-65013bb3e5cef1833a1e.jpg" width="640" alt="Kaynak önizlemesi 1 · Sahte reklamlardan esinlenen oynanabilir bir oyun"></a>
-
-[Demo videosunu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122882602663124992-7fe424c3649edbe814fc.mp4)
-
-Type: Evaluation | Date: 2026-11-18
-
----
-
-<a id="case-78"></a>
-### Örnek 78: [Sokoban oda testini tamamlamak](https://x.com/banteg/status/2122826622638137666) (yazan [@banteg](https://x.com/banteg))
-
-**Tamamlanan odaları sayın ve ajanın takıldığı yerleri tekrar oynatın.**
-
-Yazar Sol ve Astra’yı medium ayarında denedi. İkisi de 66 odanın tümünü tamamladı. Gönderi yayımlandığında, yazarın sıralamasında Sol ikinci, Astra üçüncüydü.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122826155086512128-d2a8456da3a5a99263f5.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-78/2122826155086512128-poster-4a2c4bee2b8d9510e347.jpg" width="640" alt="Kaynak önizlemesi 1 · Sokoban oda testini tamamlamak"></a>
-
-[Demo videosunu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122826155086512128-d2a8456da3a5a99263f5.mp4)
-
-Type: Benchmark | Date: 2026-11-17
-
----
-
-<a id="case-93"></a>
-### Örnek 93: [RuneScape’te iki görevi tamamlama](https://x.com/maxbittker/status/2122783334216466487) (yazan [@maxbittker](https://x.com/maxbittker))
-
-**Ajanın hangi görevleri seçtiğini ve hangi ödülleri aldığını inceleyin.**
-
-Kıyaslamayı yürüten kişi, Sol ve Astra’nın her birinin iki görev üstlendiğini ve iki ödülü de aynı çalıştırmada topladığını bildirdi.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-93/2122782503542960128-31be885019f467cb7472.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-93/2122782503542960128-31be885019f467cb7472.jpg" width="640" alt="Kaynak önizlemesi 1 · RuneScape’te iki görevi tamamlama"></a>
-
-Type: Benchmark | Date: 2026-11-17
-
----
-
-<a id="case-95"></a>
-### Örnek 95: [Dokunmatik kontrollere sahip çok oyunculu bir tarayıcı oyunu](https://x.com/VraserX/status/2122770481975837145) (yazan [@VraserX](https://x.com/VraserX))
-
-**Ardışık sürümleri oynayın ve kontroller hakkında somut geri bildirim verin.**
-
-Geliştirici, 16’ya 16 prototipin kodlanması, hatalarının giderilmesi ve güncellenmesi için Sol’u kullandığını bildirdi. Sürümleri denerken dokunmatik kontrolleri de test etti.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122770342842077184-c89268a9c06156333c45.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-95/2122770342842077184-poster-c5a1ebf986d6362bd35d.jpg" width="640" alt="Kaynak önizlemesi 1 · Dokunmatik kontrollere sahip çok oyunculu bir tarayıcı oyunu"></a>
-
-[Demo videosunu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122770342842077184-c89268a9c06156333c45.mp4)
-
-Type: Demo | Date: 2026-11-17
-
----
-
-<a id="case-97"></a>
-### Örnek 97: [Lanternkeep adlı bir tarayıcı köy oyunu](https://x.com/AdamHoltererer/status/2122766741881413818) (yazan [@AdamHoltererer](https://x.com/AdamHoltererer))
-
-**Haritanın ve hedef panelinin köy kurma döngüsünü nasıl desteklediğini inceleyin.**
-
-İçerik üreticisi oyunu Sol’a atfediyor. Kayıtta etkileşimli bir köy haritası ve hedef paneli görülüyor.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122766701477367808-c628e4fc3e8c14dc15d8.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-97/2122766701477367808-poster-50e4bfea19c965f6d231.jpg" width="640" alt="Kaynak önizlemesi 1 · Lanternkeep adlı bir tarayıcı köy oyunu"></a>
-
-[Demo videosunu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122766701477367808-c628e4fc3e8c14dc15d8.mp4)
-
-Type: Demo | Date: 2026-11-17
-
----
-
-<a id="case-99"></a>
-### Örnek 99: [Yalnızca ekran görüntüleriyle Pokémon FireRed oynama](https://x.com/Clad3815/status/2122763941675995209) (yazan [@Clad3815](https://x.com/Clad3815))
-
-**Oyun ajanının ilerleme aşamalarını ve tamamlama süresini kaydedin.**
-
-Testi yapan kişi, ekran görüntülerini ve yüksek akıl yürütme düzeyini kullandığını bildirdi. Sol 15 saat 34 dakika sürdü ve bu testte ilk salon liderine Astra’dan önce ulaştı.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-99/2122763933345890304-ffe6b4053f347b1d4d5f.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-99/2122763933345890304-ffe6b4053f347b1d4d5f.jpg" width="640" alt="Kaynak önizlemesi 1 · Yalnızca ekran görüntüleriyle Pokémon FireRed oynama"></a>
-
-Type: Benchmark | Date: 2026-11-17
-
----
-
-<a id="case-67"></a>
-### Örnek 67: [Sahil pistinde yarış oyunu prototipi](https://x.com/Stargridcompass/status/2119683294220390638) (yazan [@Stargridcompass](https://x.com/Stargridcompass))
-
-**Yarış sırasında geri sayımın, hız göstergesinin ve pist haritasının okunaklı olup olmadığını kontrol edin.**
-
-Kayıtta araçların start diziliminden kalkışı ve yarışın devamı görülüyor. Yazar yapımın 16 dakika sürdüğünü bildiriyor.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119682250472112128-81f053c6ffe2a4aae055.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-67/2119682250472112128-poster-526c85969a54c7f93833.jpg" width="640" alt="Kaynak önizlemesi 1 · Sahil pistinde yarış oyunu prototipi"></a>
-
-[Demo videosunu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119682250472112128-81f053c6ffe2a4aae055.mp4)
-
-Type: Demo | Date: 2026-11-09
-
----
-
-<a id="case-62"></a>
-### Örnek 62: [Tarayıcıda Rubik Küpü](https://x.com/VeknQAQ/status/2119633751173173475) (yazan [@VeknQAQ](https://x.com/VeknQAQ))
-
-**Önizlemede küpün dönüşlerini ve çıkartmaların yerlerini inceleyin.**
-
-Kayıt, 3B küpü çözülmüş ve karıştırılmış hâlleriyle, tarayıcıdaki kontrollerle birlikte gösteriyor.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119633608680124416-44e5b8b00d129caeba34.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-62/2119633608680124416-poster-1ea9e2acda539d582293.jpg" width="640" alt="Kaynak önizlemesi 1 · Tarayıcıda Rubik Küpü"></a>
-
-[Demo videosunu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119633608680124416-44e5b8b00d129caeba34.mp4)
-
-Type: Demo | Date: 2026-11-09
-
----
-
-<a id="case-17"></a>
-### Örnek 17: [PELICAN PANIC voksel kovalamaca oyunu](https://x.com/Ananth7e/status/2119479157633786246) (yazan [@Ananth7e](https://x.com/Ananth7e))
-
-**Kontrolleri, geri bildirimi ve bitiş durumunu incelemek için kısa bir takip oyunu kullanın.**
-
-Klipte, pelikan üzerindeki patates canavarından kaçan bir binici görülüyor. Bir puan ve «Escaped» sonuç ekranı görünür.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119478839500013568-2ec29cee42e54d0bf9c5.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-17/2119478839500013568-poster-3716db2a9abc6cf0e264.jpg" width="640" alt="Kaynak önizlemesi 1 · PELICAN PANIC voksel kovalamaca oyunu"></a>
-
-[Demo videosunu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119478839500013568-2ec29cee42e54d0bf9c5.mp4)
-
-
-Type: Demo | Date: 2026-11-08
-
----
-
-<a id="category-three"></a>
-## 🧊 3 boyutlu sahneler ve modelleme
 
 <a id="case-162"></a>
 ### Örnek 162: [İç mekân fotoğraflarından daire planları](https://x.com/andonlabs/status/2123570732575989832) (yazan [@andonlabs](https://x.com/andonlabs))
@@ -2629,104 +2600,295 @@ Type: Demo | Date: 2026-11-08
 
 ---
 
-<a id="category-communication"></a>
-## 💬 Bilgisayar kullanımı ve iletişim
+<a id="category-game"></a>
+## 🎮 Oyun geliştirme
 
-<a id="case-166"></a>
-### Örnek 166: [Legora’nın Kasım ayı hukuk belgeleri kıyaslaması](https://x.com/WeAreLegora/status/2123460359017144769) (yazan [@WeAreLegora](https://x.com/WeAreLegora))
+<a id="case-180"></a>
+### Örnek 180: [Oyun geliştirmede tercih sırası ve üretim maliyeti](https://x.com/DesignArena/status/2123861437579677965) (yazan [@DesignArena](https://x.com/DesignArena))
 
-**Aynı mesleki görevlerde kaliteyi ve vaka başına maliyeti karşılaştırın.**
+**Aynı oyun tasarımı platformunda tercih sırasını, ortalama üretim süresini ve maliyeti karşılaştırın.**
 
-Legora, Sol’un ortalamanın üzerinde kalite gösterdiğini ve vaka başına maliyetinin Kasım ayında test edilen modellerin ortalamasından %78 düşük olduğunu bildirdi. Grafik, modeller arasındaki karşılaştırmayı özetliyor.
+DesignArena, yüksek düzeyde Sol’un Game Dev sıralamasında üçüncü olduğunu bildirdi. Yayımlanan karşılaştırmada modelin üretim başına ortalama süresi 4,6 dakika, maliyeti 0,22 ABD dolarıydı.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123460256260870144-6da8a1113b471ce42386.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-166/2123460256260870144-poster-5c1a0e947f184ffb782e.jpg" width="640" alt="Kaynak önizlemesi 1 · Legora’nın Kasım ayı hukuk belgeleri kıyaslaması"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-180/2123854486779342848-cda5e7e7633564f2e0ba.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-180/2123854486779342848-cda5e7e7633564f2e0ba.jpg" width="640" alt="Kaynak önizlemesi 1 · Oyun geliştirmede tercih sırası ve üretim maliyeti"></a>
 
-[Demo videosunu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123460256260870144-6da8a1113b471ce42386.mp4)
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123854486783614976-f8e2d2fdd67f7208de36.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-180/2123854486783614976-poster-ef46fd7a1baf7d0adca6.jpg" width="640" alt="Kaynak önizlemesi 2 · Oyun geliştirmede tercih sırası ve üretim maliyeti"></a>
+
+[Demo videosunu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123854486783614976-f8e2d2fdd67f7208de36.mp4)
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123854486783553536-39929a7046f4320fcbe0.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-180/2123854486783553536-poster-ca1b824639356cc997b7.jpg" width="640" alt="Kaynak önizlemesi 3 · Oyun geliştirmede tercih sırası ve üretim maliyeti"></a>
+
+[Demo videosunu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123854486783553536-39929a7046f4320fcbe0.mp4)
+
+Type: Benchmark | Date: 2026-11-20
+
+---
+
+<a id="case-182"></a>
+### Örnek 182: [Bir yürüyüş rotasından el konsolu oyununa](https://x.com/sriramkiron/status/2123829426177912918) (yazan [@sriramkiron](https://x.com/sriramkiron))
+
+**Yürüyüşteki gözlemlerin oyunda yeniden ziyaret edilebilen sahnelere nasıl dönüştüğünü inceleyin.**
+
+İçerik üreticisinin Corner Walk projesi GPS, kamera ve GPT-Live-1.1 ile gözlemler topladı. Üretici bu girdileri Sol Ultrafast ile bir ModRetro oyununa dönüştürdü ve oyunu cihazda çalışırken gösterdi.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123826091110383617-45fec4a74a3832012d99.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-182/2123826091110383617-poster-e20d4211d23da7c7ceec.jpg" width="640" alt="Kaynak önizlemesi 1 · Bir yürüyüş rotasından el konsolu oyununa"></a>
+
+[Demo videosunu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123826091110383617-45fec4a74a3832012d99.mp4)
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-160"></a>
+### Örnek 160: [Codex’te iki birinci şahıs oyun prototipi](https://x.com/shownotover/status/2123599696526717303) (yazan [@shownotover](https://x.com/shownotover))
+
+**Bölüm düzenini ve oynanışı bildirilen maliyetle birlikte karşılaştırın.**
+
+İçerik üreticisi Sol ve Astra’ya aynı görevi verdi ve iki prototipi de paylaştı. Sol Max çalıştırması 42 dakika sürdü ve üreticinin tahminine göre 2,42 ABD doları tutarında API kullanımı gerektirdi.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123599517236817921-3ec7dd5b18f3301d8be3.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-160/2123599517236817921-poster-c1f1354e1c265c950177.jpg" width="640" alt="Kaynak önizlemesi 1 · Codex’te iki birinci şahıs oyun prototipi"></a>
+
+[Demo videosunu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123599517236817921-3ec7dd5b18f3301d8be3.mp4)
+
+Type: Evaluation | Date: 2026-11-20
+
+---
+
+<a id="case-161"></a>
+### Örnek 161: [Blender varlıklarıyla huzurlu bir köy oyunu](https://x.com/TokenGremlin/status/2123574805723058647) (yazan [@TokenGremlin](https://x.com/TokenGremlin))
+
+**Modellenen nesnelerin ve canlandırmanın oyun sahnesinde nasıl bir araya geldiğini inceleyin.**
+
+İçerik üreticisi oyunu Ultrafast modunda Sol ile oluşturdu ve modelleme ile canlandırma için Blender kullandı. Klipte köyde dolaşan karakterler görülüyor.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123574639729238016-d185275dff479ab97456.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-161/2123574639729238016-poster-ab2ca719508bdf4d61d7.jpg" width="640" alt="Kaynak önizlemesi 1 · Blender varlıklarıyla huzurlu bir köy oyunu"></a>
+
+[Demo videosunu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123574639729238016-d185275dff479ab97456.mp4)
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-165"></a>
+### Örnek 165: [Crusader Bench’te bir yerleşim yönetmek](https://x.com/Hesamation/status/2123528773140197579) (yazan [@Hesamation](https://x.com/Hesamation))
+
+**Ajanların oynanışını aynı puanlanan haritalar ve oyun koşullarında karşılaştırın.**
+
+Kıyaslama yazarı sıralamanın anlık görüntüsünü ve oynanış kaydını paylaştı. Ayrıntılı sıralamaya göre Sol, orta akıl yürütme düzeyinde üç haritanın tamamı üzerinden 79,5 puan aldı.
+
+[Karşılaştırma testi ayrıntıları](https://crusbench.com/)
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-165/2123528764608909312-da8dce5fbd2110f3efd7.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-165/2123528764608909312-da8dce5fbd2110f3efd7.jpg" width="640" alt="Kaynak önizlemesi 1 · Crusader Bench’te bir yerleşim yönetmek"></a>
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-165/2123528764613091328-7c18d649149711d41faa.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-165/2123528764613091328-7c18d649149711d41faa.jpg" width="640" alt="Kaynak önizlemesi 2 · Crusader Bench’te bir yerleşim yönetmek"></a>
 
 Type: Benchmark | Date: 2026-11-19
 
 ---
 
-<a id="case-170"></a>
-### Örnek 170: [AI Village’da profil sorularına bağımsız yanıtlar](https://x.com/aidigest_/status/2123446497442447399) (yazan [@aidigest_](https://x.com/aidigest_))
+<a id="case-169"></a>
+### Örnek 169: [MazeBench’te mekânsal gezinme](https://x.com/patience_cave/status/2123446669643849993) (yazan [@patience_cave](https://x.com/patience_cave))
 
-**İki ajanın aynı profil anketini birbirinden bağımsız nasıl yanıtladığını karşılaştırın.**
+**Aynı yayımlanmış kıyaslamada labirent tamamlama sonuçlarını karşılaştırın.**
 
-AI Digest, AI Village’a Sol ve Astra’yı ekledi ve 15 soruya verdikleri yanıtları yayımladı. İkisi de Tampopo’yu, Onitsuka Tiger ayakkabılarını ve taze soğanlı krepleri seçti.
+Kıyaslama yazarı Sol için %14, Astra için %16 ve Gemini 4 Neon için %10 bildirdi. Ekteki grafik kullanılan ayarları gösteriyor.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-170/2123446488605114368-ecc6833b877fae0e1433.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-170/2123446488605114368-ecc6833b877fae0e1433.jpg" width="640" alt="Kaynak önizlemesi 1 · AI Village’da profil sorularına bağımsız yanıtlar"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-169/2123446665696993280-3509529d630c29cd9ac5.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-169/2123446665696993280-3509529d630c29cd9ac5.jpg" width="640" alt="Kaynak önizlemesi 1 · MazeBench’te mekânsal gezinme"></a>
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-170/2123446492765798400-c64a85a5d0d85d04cf39.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-170/2123446492765798400-c64a85a5d0d85d04cf39.jpg" width="640" alt="Kaynak önizlemesi 2 · AI Village’da profil sorularına bağımsız yanıtlar"></a>
-
-Type: Integration | Date: 2026-11-19
+Type: Benchmark | Date: 2026-11-19
 
 ---
 
-<a id="case-124"></a>
-### Örnek 124: [Pull request durum raporu depo talimatlarını atlıyor](https://x.com/Fei2411/status/2123354076771692631) (yazan [@Fei2411](https://x.com/Fei2411))
+<a id="case-175"></a>
+### Örnek 175: [Araç kullanmadan beş satranç oyunu](https://x.com/argofowl/status/2123389829438406999) (yazan [@argofowl](https://x.com/argofowl))
 
-**Kısa bir durum sorgusuna verilen yanıtları ayrıntı düzeyi ve düzen açısından karşılaştırın.**
+**Aynı maçta puanları, oyun sonuçlarını ve bildirilen maliyeti karşılaştırın.**
 
-Yazar, aynı pull request raporu görevini Sol ve Gemini 4 Neon’a verdi. Sol’un özetini yetersiz buldu ve modelin AGENTS.md talimatlarını göz ardı ettiğini belirtti.
+Yazar, iki modeli de xhigh düzeyinde çalıştırdı. Sol’un üç galibiyet ve iki beraberlikle maçı 4–1 kazandığını bildirdi. Sol 24,39 ABD dolarına, Opus 5.5 ise 75,80 ABD dolarına mal oldu.
 
-**İstem:**
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123389747536207872-d38127bbf7f2c4de454f.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-175/2123389747536207872-poster-f2422d640187db52b79e.jpg" width="640" alt="Kaynak önizlemesi 1 · Araç kullanmadan beş satranç oyunu"></a>
 
-```
-现在有哪些pr
-```
+[Demo videosunu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123389747536207872-d38127bbf7f2c4de454f.mp4)
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-124/2123354068013993984-19d626fb5c30bc9b2a19.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-124/2123354068013993984-19d626fb5c30bc9b2a19.jpg" width="640" alt="Kaynak önizlemesi 1 · Pull request durum raporu depo talimatlarını atlıyor"></a>
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-124/2123354067988824064-5ec42709de761e85172e.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-124/2123354067988824064-5ec42709de761e85172e.jpg" width="640" alt="Kaynak önizlemesi 2 · Pull request durum raporu depo talimatlarını atlıyor"></a>
-
-Type: Limit | Date: 2026-11-19
+Type: Benchmark | Date: 2026-11-19
 
 ---
 
-<a id="case-141"></a>
-### Örnek 141: [AITuber OnAir’de bir karakterle sohbet](https://x.com/shinshin86/status/2123040784710869031) (yazan [@shinshin86](https://x.com/shinshin86))
+<a id="case-138"></a>
+### Örnek 138: [Pokémon FireRed’de Şampiyon’a ulaşma](https://x.com/Clad3815/status/2123064135164576107) (yazan [@Clad3815](https://x.com/Clad3815))
 
-**Canlı karakter sohbetinde ayarlanabilir akıl yürütme düzeyini deneyin.**
+**Girdi türü ve akıl yürütme ayarı belli olan oyun çalıştırmalarının sürelerini karşılaştırın.**
 
-Geliştirici AITuber OnAir’e Sol’u ekledi ve bir sohbeti gösterdi. Entegrasyon, sohbet temposunu korumak için varsayılan olarak düşük akıl yürütme düzeyini kullanıyor ve kullanıcılara bu ayarı değiştirme olanağı veriyor.
+Yazar, Sol’u Ultrafast modunda yüksek akıl yürütme düzeyi ve ekran görüntüsü girdileriyle kullanarak 11 saat 40 dakikada Şampiyon’a ulaştığını bildirdi.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123040557064966144-63e1c247fbe9574434f1.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-141/2123040557064966144-poster-096943e3ee853b4f4a62.jpg" width="640" alt="Kaynak önizlemesi 1 · AITuber OnAir’de bir karakterle sohbet"></a>
-
-[Demo videosunu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123040557064966144-63e1c247fbe9574434f1.mp4)
-
-Type: Integration | Date: 2026-11-18
-
----
-
-<a id="case-155"></a>
-### Örnek 155: [FrontDesk-Bench’te simüle edilen klinik aramaları](https://x.com/muratcan/status/2122914581454487838) (yazan [@muratcan](https://x.com/muratcan))
-
-**Güvenli olmayan eylemleri ve meşru taleplerin reddini ayrı ayrı izleyin.**
-
-Kıyaslama yazarı, simüle edilen klinik resepsiyonu testinde Sol’un güvensiz çağrı sayısının 16’dan 9’a düştüğünü bildirdi. Ayrıca yeni modellerin meşru talepleri daha sık reddettiğini belirtti.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-155/2122905857700585472-c7658e9ed55fe97f9cbb.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-155/2122905857700585472-c7658e9ed55fe97f9cbb.jpg" width="640" alt="Kaynak önizlemesi 1 · FrontDesk-Bench’te simüle edilen klinik aramaları"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-138/2123061539183726592-707694197c25ed18a424.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-138/2123061539183726592-707694197c25ed18a424.png" width="640" alt="Kaynak önizlemesi 1 · Pokémon FireRed’de Şampiyon’a ulaşma"></a>
 
 Type: Benchmark | Date: 2026-11-18
 
 ---
 
-<a id="case-43"></a>
-### Örnek 43: [Bir mesajı iletmek için tamamlanmamış bir girişim](https://x.com/SadAlbert10/status/2119428297092460613) (yazan [@SadAlbert10](https://x.com/SadAlbert10))
+<a id="case-146"></a>
+### Örnek 146: [Ragdoll fiziğine sahip 3B dinozor koşu oyunu](https://x.com/noclipepe/status/2122989930699792818) (yazan [@noclipepe](https://x.com/noclipepe))
 
-**Masaüstü iş akışının nerede durduğunu görme girişimini kullanın.**
+**Dört oyun prototipinde görsel üslubu ve çarpışma davranışını karşılaştırın.**
 
-Ekran görüntüleri, bir mesajın iletilmesi talebinin ardından alıcıyı bulma girişimini gösteriyor. Görev, mesaj gönderilmeden sona erdi.
+İçerik üreticisi dört modele de 3B ve ragdoll fiziği içeren aynı görevi verdi. Kayda alınan Sol çalıştırması 20 dakika sürdü ve 1,68 ABD dolarına mal oldu.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-43/2119428121711775744-8419b4e0c62aa252d1dc.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-43/2119428121711775744-8419b4e0c62aa252d1dc.jpg" width="640" alt="Kaynak önizlemesi 1 · Bir mesajı iletmek için tamamlanmamış bir girişim"></a>
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-43/2119428270945140736-f9662043dadb9a6e4b1b.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-43/2119428270945140736-f9662043dadb9a6e4b1b.jpg" width="640" alt="Kaynak önizlemesi 2 · Bir mesajı iletmek için tamamlanmamış bir girişim"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122985283993907201-9750e48cc454af4480fd.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-146/2122985283993907201-poster-afcb4c84030cd6876301.jpg" width="640" alt="Kaynak önizlemesi 1 · Ragdoll fiziğine sahip 3B dinozor koşu oyunu"></a>
 
-Type: Limit | Date: 2026-11-08
+[Demo videosunu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122985283993907201-9750e48cc454af4480fd.mp4)
+
+Type: Evaluation | Date: 2026-11-18
+
+---
+
+<a id="case-158"></a>
+### Örnek 158: [Sahte reklamlardan esinlenen oynanabilir bir oyun](https://x.com/noclipepe/status/2122885577137598800) (yazan [@noclipepe](https://x.com/noclipepe))
+
+**Aynı oyun seviyesi görevinin dört oynanabilir yorumunu karşılaştırın.**
+
+Yazar dört model için aynı istemi kullandı ve oyuncuların kaybedebildiğini gösterdi. Sol çalıştırması 21 dakika sürdü ve 1,04 ABD dolarına mal oldu.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122882602663124992-7fe424c3649edbe814fc.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-158/2122882602663124992-poster-65013bb3e5cef1833a1e.jpg" width="640" alt="Kaynak önizlemesi 1 · Sahte reklamlardan esinlenen oynanabilir bir oyun"></a>
+
+[Demo videosunu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122882602663124992-7fe424c3649edbe814fc.mp4)
+
+Type: Evaluation | Date: 2026-11-18
+
+---
+
+<a id="case-78"></a>
+### Örnek 78: [Sokoban oda testini tamamlamak](https://x.com/banteg/status/2122826622638137666) (yazan [@banteg](https://x.com/banteg))
+
+**Tamamlanan odaları sayın ve ajanın takıldığı yerleri tekrar oynatın.**
+
+Yazar Sol ve Astra’yı medium ayarında denedi. İkisi de 66 odanın tümünü tamamladı. Gönderi yayımlandığında, yazarın sıralamasında Sol ikinci, Astra üçüncüydü.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122826155086512128-d2a8456da3a5a99263f5.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-78/2122826155086512128-poster-4a2c4bee2b8d9510e347.jpg" width="640" alt="Kaynak önizlemesi 1 · Sokoban oda testini tamamlamak"></a>
+
+[Demo videosunu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122826155086512128-d2a8456da3a5a99263f5.mp4)
+
+Type: Benchmark | Date: 2026-11-17
+
+---
+
+<a id="case-93"></a>
+### Örnek 93: [RuneScape’te iki görevi tamamlama](https://x.com/maxbittker/status/2122783334216466487) (yazan [@maxbittker](https://x.com/maxbittker))
+
+**Ajanın hangi görevleri seçtiğini ve hangi ödülleri aldığını inceleyin.**
+
+Kıyaslamayı yürüten kişi, Sol ve Astra’nın her birinin iki görev üstlendiğini ve iki ödülü de aynı çalıştırmada topladığını bildirdi.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-93/2122782503542960128-31be885019f467cb7472.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-93/2122782503542960128-31be885019f467cb7472.jpg" width="640" alt="Kaynak önizlemesi 1 · RuneScape’te iki görevi tamamlama"></a>
+
+Type: Benchmark | Date: 2026-11-17
+
+---
+
+<a id="case-95"></a>
+### Örnek 95: [Dokunmatik kontrollere sahip çok oyunculu bir tarayıcı oyunu](https://x.com/VraserX/status/2122770481975837145) (yazan [@VraserX](https://x.com/VraserX))
+
+**Ardışık sürümleri oynayın ve kontroller hakkında somut geri bildirim verin.**
+
+Geliştirici, 16’ya 16 prototipin kodlanması, hatalarının giderilmesi ve güncellenmesi için Sol’u kullandığını bildirdi. Sürümleri denerken dokunmatik kontrolleri de test etti.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122770342842077184-c89268a9c06156333c45.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-95/2122770342842077184-poster-c5a1ebf986d6362bd35d.jpg" width="640" alt="Kaynak önizlemesi 1 · Dokunmatik kontrollere sahip çok oyunculu bir tarayıcı oyunu"></a>
+
+[Demo videosunu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122770342842077184-c89268a9c06156333c45.mp4)
+
+Type: Demo | Date: 2026-11-17
+
+---
+
+<a id="case-97"></a>
+### Örnek 97: [Lanternkeep adlı bir tarayıcı köy oyunu](https://x.com/AdamHoltererer/status/2122766741881413818) (yazan [@AdamHoltererer](https://x.com/AdamHoltererer))
+
+**Haritanın ve hedef panelinin köy kurma döngüsünü nasıl desteklediğini inceleyin.**
+
+İçerik üreticisi oyunu Sol’a atfediyor. Kayıtta etkileşimli bir köy haritası ve hedef paneli görülüyor.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122766701477367808-c628e4fc3e8c14dc15d8.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-97/2122766701477367808-poster-50e4bfea19c965f6d231.jpg" width="640" alt="Kaynak önizlemesi 1 · Lanternkeep adlı bir tarayıcı köy oyunu"></a>
+
+[Demo videosunu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122766701477367808-c628e4fc3e8c14dc15d8.mp4)
+
+Type: Demo | Date: 2026-11-17
+
+---
+
+<a id="case-99"></a>
+### Örnek 99: [Yalnızca ekran görüntüleriyle Pokémon FireRed oynama](https://x.com/Clad3815/status/2122763941675995209) (yazan [@Clad3815](https://x.com/Clad3815))
+
+**Oyun ajanının ilerleme aşamalarını ve tamamlama süresini kaydedin.**
+
+Testi yapan kişi, ekran görüntülerini ve yüksek akıl yürütme düzeyini kullandığını bildirdi. Sol 15 saat 34 dakika sürdü ve bu testte ilk salon liderine Astra’dan önce ulaştı.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-99/2122763933345890304-ffe6b4053f347b1d4d5f.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-99/2122763933345890304-ffe6b4053f347b1d4d5f.jpg" width="640" alt="Kaynak önizlemesi 1 · Yalnızca ekran görüntüleriyle Pokémon FireRed oynama"></a>
+
+Type: Benchmark | Date: 2026-11-17
+
+---
+
+<a id="case-67"></a>
+### Örnek 67: [Sahil pistinde yarış oyunu prototipi](https://x.com/Stargridcompass/status/2119683294220390638) (yazan [@Stargridcompass](https://x.com/Stargridcompass))
+
+**Yarış sırasında geri sayımın, hız göstergesinin ve pist haritasının okunaklı olup olmadığını kontrol edin.**
+
+Kayıtta araçların start diziliminden kalkışı ve yarışın devamı görülüyor. Yazar yapımın 16 dakika sürdüğünü bildiriyor.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119682250472112128-81f053c6ffe2a4aae055.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-67/2119682250472112128-poster-526c85969a54c7f93833.jpg" width="640" alt="Kaynak önizlemesi 1 · Sahil pistinde yarış oyunu prototipi"></a>
+
+[Demo videosunu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119682250472112128-81f053c6ffe2a4aae055.mp4)
+
+Type: Demo | Date: 2026-11-09
+
+---
+
+<a id="case-62"></a>
+### Örnek 62: [Tarayıcıda Rubik Küpü](https://x.com/VeknQAQ/status/2119633751173173475) (yazan [@VeknQAQ](https://x.com/VeknQAQ))
+
+**Önizlemede küpün dönüşlerini ve çıkartmaların yerlerini inceleyin.**
+
+Kayıt, 3B küpü çözülmüş ve karıştırılmış hâlleriyle, tarayıcıdaki kontrollerle birlikte gösteriyor.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119633608680124416-44e5b8b00d129caeba34.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-62/2119633608680124416-poster-1ea9e2acda539d582293.jpg" width="640" alt="Kaynak önizlemesi 1 · Tarayıcıda Rubik Küpü"></a>
+
+[Demo videosunu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119633608680124416-44e5b8b00d129caeba34.mp4)
+
+Type: Demo | Date: 2026-11-09
+
+---
+
+<a id="case-17"></a>
+### Örnek 17: [PELICAN PANIC voksel kovalamaca oyunu](https://x.com/Ananth7e/status/2119479157633786246) (yazan [@Ananth7e](https://x.com/Ananth7e))
+
+**Kontrolleri, geri bildirimi ve bitiş durumunu incelemek için kısa bir takip oyunu kullanın.**
+
+Klipte, pelikan üzerindeki patates canavarından kaçan bir binici görülüyor. Bir puan ve «Escaped» sonuç ekranı görünür.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119478839500013568-2ec29cee42e54d0bf9c5.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-17/2119478839500013568-poster-3716db2a9abc6cf0e264.jpg" width="640" alt="Kaynak önizlemesi 1 · PELICAN PANIC voksel kovalamaca oyunu"></a>
+
+[Demo videosunu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119478839500013568-2ec29cee42e54d0bf9c5.mp4)
+
+
+Type: Demo | Date: 2026-11-08
 
 ---
 
 <a id="category-web"></a>
 ## 🌐 Web siteleri ve arayüzler
+
+<a id="case-184"></a>
+### Örnek 184: [Agents on Rails doğruluğu ve çalışma süresi](https://x.com/rails/status/2123808115619471857) (yazan [@rails](https://x.com/rails))
+
+**Mevcut Rails uygulamalarındaki geliştirme görevlerinde çalışma süresini ve doğruluğu ayrı ayrı izleyin.**
+
+Rails Foundation, xhigh düzeyinde Sol’un çalıştırma başına ortalama yaklaşık 12½ dakika, önceki Sol’un ise 23½ dakika sürdüğünü bildirdi. Yeni Sol %54,1, GPT-6.1 Sol %60,8 aldı.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-184/2123805893733027841-1d6628ee8b4801e16252.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-184/2123805893733027841-1d6628ee8b4801e16252.jpg" width="640" alt="Kaynak önizlemesi 1 · Agents on Rails doğruluğu ve çalışma süresi"></a>
+
+Type: Benchmark | Date: 2026-11-20
+
+---
 
 <a id="case-174"></a>
 ### Örnek 174: [Kayalık kıyıda bir deniz feneri web sayfası](https://x.com/aapakari/status/2123407849829404984) (yazan [@aapakari](https://x.com/aapakari))
@@ -3048,6 +3210,6 @@ Type: Demo | Date: 2026-11-08
 
 Bu deneyleri paylaşan yaratıcılara teşekkürler. Bağlantılı çalışma ve medya, ilgili yaratıcılarına aittir.
 
-[@Avenoxai](https://x.com/Avenoxai), [@kimmonismus](https://x.com/kimmonismus), [@imjustnewatai](https://x.com/imjustnewatai), [@Khazix0918](https://x.com/Khazix0918), [@marcthecreatorr](https://x.com/marcthecreatorr), [@Bhavani_00007](https://x.com/Bhavani_00007), [@JustLingonberry](https://x.com/JustLingonberry), [@Mr_Salio](https://x.com/Mr_Salio), [@aGim_asf](https://x.com/aGim_asf), [@0x0SojalSec](https://x.com/0x0SojalSec), [@pengsonal](https://x.com/pengsonal), [@GeekCatX](https://x.com/GeekCatX), [@Ananth7e](https://x.com/Ananth7e), [@EnvolDev](https://x.com/EnvolDev), [@xbquan](https://x.com/xbquan), [@SahilPanhotra](https://x.com/SahilPanhotra), [@rubenssoto_ai](https://x.com/rubenssoto_ai), [@vikktorrrre](https://x.com/vikktorrrre), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@Cayden970207](https://x.com/Cayden970207), [@HarshithLucky3](https://x.com/HarshithLucky3), [@TokenGremlin](https://x.com/TokenGremlin), [@SadAlbert10](https://x.com/SadAlbert10), [@maxt3chno](https://x.com/maxt3chno), [@karanC_12](https://x.com/karanC_12), [@JustinGorya](https://x.com/JustinGorya), [@kdnbmb](https://x.com/kdnbmb), [@VraserX](https://x.com/VraserX), [@jessexai_](https://x.com/jessexai_), [@theaidesk_](https://x.com/theaidesk_), [@gadi_neelesh](https://x.com/gadi_neelesh), [@Haleeeemahh](https://x.com/Haleeeemahh), [@SPAC89](https://x.com/SPAC89), [@VeknQAQ](https://x.com/VeknQAQ), [@Aurora0x3f](https://x.com/Aurora0x3f), [@bei351009016](https://x.com/bei351009016), [@Stargridcompass](https://x.com/Stargridcompass), [@iamtheQwen](https://x.com/iamtheQwen), [@voxelbench](https://x.com/voxelbench), [@sshayahmet](https://x.com/sshayahmet), [@TimJayas](https://x.com/TimJayas), [@lucian__03](https://x.com/lucian__03), [@camperaigg](https://x.com/camperaigg), [@nickbaumann_](https://x.com/nickbaumann_), [@thtbee_](https://x.com/thtbee_), [@DeryaTR_](https://x.com/DeryaTR_), [@banteg](https://x.com/banteg), [@Leviwoyun](https://x.com/Leviwoyun), [@browser_use](https://x.com/browser_use), [@simonw](https://x.com/simonw), [@perplexity_ai](https://x.com/perplexity_ai), [@_3912657840](https://x.com/_3912657840), [@fawnunwrap](https://x.com/fawnunwrap), [@Angaisb_](https://x.com/Angaisb_), [@jony_palino](https://x.com/jony_palino), [@notjazii](https://x.com/notjazii), [@noclipepe](https://x.com/noclipepe), [@Super_Nius](https://x.com/Super_Nius), [@maxbittker](https://x.com/maxbittker), [@morsenxxx](https://x.com/morsenxxx), [@AdamHoltererer](https://x.com/AdamHoltererer), [@Clad3815](https://x.com/Clad3815), [@N1njaCodex](https://x.com/N1njaCodex), [@CodeByNZ](https://x.com/CodeByNZ), [@DanielZambrini](https://x.com/DanielZambrini), [@RezAIT00](https://x.com/RezAIT00), [@LuminaBench](https://x.com/LuminaBench), [@Jason85885174](https://x.com/Jason85885174), [@mspd4100](https://x.com/mspd4100), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@simonw](https://news.ycombinator.com/user?id=simonw), [@Fei2411](https://x.com/Fei2411), [@arena](https://x.com/arena), [@jan_volad](https://x.com/jan_volad), [@eliadele](https://x.com/eliadele), [@monkeys_im](https://x.com/monkeys_im), [@rotejin](https://x.com/rotejin), [@jetbrains](https://x.com/jetbrains), [@UFO2002616](https://x.com/UFO2002616), [@argofowl](https://x.com/argofowl), [@Kombaico](https://x.com/Kombaico), [@shinshin86](https://x.com/shinshin86), [@PawelJLisowski](https://x.com/PawelJLisowski), [@alohaproxy](https://x.com/alohaproxy), [@masahirochaen](https://x.com/masahirochaen), [@mylesBaiM](https://x.com/mylesBaiM), [@exploraX_](https://x.com/exploraX_), [@One2xDatalab](https://x.com/One2xDatalab), [@798145343h](https://x.com/798145343h), [@xKaka1456](https://x.com/xKaka1456), [@op7418](https://x.com/op7418), [@aura_uniiiii](https://x.com/aura_uniiiii), [@shinya_creative](https://x.com/shinya_creative), [@muratcan](https://x.com/muratcan), [@suna_gaku](https://x.com/suna_gaku), [@teddyaisi](https://x.com/teddyaisi), [@0xkhalid7](https://x.com/0xkhalid7), [@shownotover](https://x.com/shownotover), [@andonlabs](https://x.com/andonlabs), [@MatthewBerman](https://x.com/MatthewBerman), [@Hesamation](https://x.com/Hesamation), [@WeAreLegora](https://x.com/WeAreLegora), [@XploreAi](https://x.com/XploreAi), [@patience_cave](https://x.com/patience_cave), [@aidigest_](https://x.com/aidigest_), [@erhanmeydan](https://x.com/erhanmeydan), [@aapakari](https://x.com/aapakari)
+[@Avenoxai](https://x.com/Avenoxai), [@kimmonismus](https://x.com/kimmonismus), [@imjustnewatai](https://x.com/imjustnewatai), [@Khazix0918](https://x.com/Khazix0918), [@marcthecreatorr](https://x.com/marcthecreatorr), [@Bhavani_00007](https://x.com/Bhavani_00007), [@JustLingonberry](https://x.com/JustLingonberry), [@Mr_Salio](https://x.com/Mr_Salio), [@aGim_asf](https://x.com/aGim_asf), [@0x0SojalSec](https://x.com/0x0SojalSec), [@pengsonal](https://x.com/pengsonal), [@GeekCatX](https://x.com/GeekCatX), [@Ananth7e](https://x.com/Ananth7e), [@EnvolDev](https://x.com/EnvolDev), [@xbquan](https://x.com/xbquan), [@SahilPanhotra](https://x.com/SahilPanhotra), [@rubenssoto_ai](https://x.com/rubenssoto_ai), [@vikktorrrre](https://x.com/vikktorrrre), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@Cayden970207](https://x.com/Cayden970207), [@HarshithLucky3](https://x.com/HarshithLucky3), [@TokenGremlin](https://x.com/TokenGremlin), [@SadAlbert10](https://x.com/SadAlbert10), [@maxt3chno](https://x.com/maxt3chno), [@karanC_12](https://x.com/karanC_12), [@JustinGorya](https://x.com/JustinGorya), [@kdnbmb](https://x.com/kdnbmb), [@VraserX](https://x.com/VraserX), [@jessexai_](https://x.com/jessexai_), [@theaidesk_](https://x.com/theaidesk_), [@gadi_neelesh](https://x.com/gadi_neelesh), [@Haleeeemahh](https://x.com/Haleeeemahh), [@SPAC89](https://x.com/SPAC89), [@VeknQAQ](https://x.com/VeknQAQ), [@Aurora0x3f](https://x.com/Aurora0x3f), [@bei351009016](https://x.com/bei351009016), [@Stargridcompass](https://x.com/Stargridcompass), [@iamtheQwen](https://x.com/iamtheQwen), [@voxelbench](https://x.com/voxelbench), [@sshayahmet](https://x.com/sshayahmet), [@TimJayas](https://x.com/TimJayas), [@lucian__03](https://x.com/lucian__03), [@camperaigg](https://x.com/camperaigg), [@nickbaumann_](https://x.com/nickbaumann_), [@thtbee_](https://x.com/thtbee_), [@DeryaTR_](https://x.com/DeryaTR_), [@banteg](https://x.com/banteg), [@Leviwoyun](https://x.com/Leviwoyun), [@browser_use](https://x.com/browser_use), [@simonw](https://x.com/simonw), [@perplexity_ai](https://x.com/perplexity_ai), [@_3912657840](https://x.com/_3912657840), [@fawnunwrap](https://x.com/fawnunwrap), [@Angaisb_](https://x.com/Angaisb_), [@jony_palino](https://x.com/jony_palino), [@notjazii](https://x.com/notjazii), [@noclipepe](https://x.com/noclipepe), [@Super_Nius](https://x.com/Super_Nius), [@maxbittker](https://x.com/maxbittker), [@morsenxxx](https://x.com/morsenxxx), [@AdamHoltererer](https://x.com/AdamHoltererer), [@Clad3815](https://x.com/Clad3815), [@N1njaCodex](https://x.com/N1njaCodex), [@CodeByNZ](https://x.com/CodeByNZ), [@DanielZambrini](https://x.com/DanielZambrini), [@RezAIT00](https://x.com/RezAIT00), [@LuminaBench](https://x.com/LuminaBench), [@Jason85885174](https://x.com/Jason85885174), [@mspd4100](https://x.com/mspd4100), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@simonw](https://news.ycombinator.com/user?id=simonw), [@Fei2411](https://x.com/Fei2411), [@arena](https://x.com/arena), [@jan_volad](https://x.com/jan_volad), [@eliadele](https://x.com/eliadele), [@monkeys_im](https://x.com/monkeys_im), [@rotejin](https://x.com/rotejin), [@jetbrains](https://x.com/jetbrains), [@UFO2002616](https://x.com/UFO2002616), [@argofowl](https://x.com/argofowl), [@Kombaico](https://x.com/Kombaico), [@shinshin86](https://x.com/shinshin86), [@PawelJLisowski](https://x.com/PawelJLisowski), [@alohaproxy](https://x.com/alohaproxy), [@masahirochaen](https://x.com/masahirochaen), [@mylesBaiM](https://x.com/mylesBaiM), [@exploraX_](https://x.com/exploraX_), [@One2xDatalab](https://x.com/One2xDatalab), [@798145343h](https://x.com/798145343h), [@xKaka1456](https://x.com/xKaka1456), [@op7418](https://x.com/op7418), [@aura_uniiiii](https://x.com/aura_uniiiii), [@shinya_creative](https://x.com/shinya_creative), [@muratcan](https://x.com/muratcan), [@suna_gaku](https://x.com/suna_gaku), [@teddyaisi](https://x.com/teddyaisi), [@0xkhalid7](https://x.com/0xkhalid7), [@shownotover](https://x.com/shownotover), [@andonlabs](https://x.com/andonlabs), [@MatthewBerman](https://x.com/MatthewBerman), [@Hesamation](https://x.com/Hesamation), [@WeAreLegora](https://x.com/WeAreLegora), [@XploreAi](https://x.com/XploreAi), [@patience_cave](https://x.com/patience_cave), [@aidigest_](https://x.com/aidigest_), [@erhanmeydan](https://x.com/erhanmeydan), [@aapakari](https://x.com/aapakari), [@jerryjliu0](https://x.com/jerryjliu0), [@joshzqin](https://x.com/joshzqin), [@DesignArena](https://x.com/DesignArena), [@boringmarketer](https://x.com/boringmarketer), [@sriramkiron](https://x.com/sriramkiron), [@GeppiiKameWorks](https://x.com/GeppiiKameWorks), [@rails](https://x.com/rails), [@CodeRabbit](https://www.coderabbit.ai/)
 
 *Atıf veya kaldırma istekleri için lütfen kaynak düzeltme konusu açın.*
