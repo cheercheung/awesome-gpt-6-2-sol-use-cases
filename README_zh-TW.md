@@ -18,7 +18,7 @@
 <a id="overview"></a>
 ## 📊 概述
 
-- **175 條使用案例 · GPT-6.2 Sol**. 共收錄 175 則原始貼文，其中 172 則展示成果，3 則記錄未完成的嘗試。22 則附有作者公開的原文提示詞。
+- **185 條使用案例 · GPT-6.2 Sol**. 共收錄 185 則原始貼文，其中 182 則展示成果，3 則記錄未完成的嘗試。22 則附有作者公開的原文提示詞。
 - 3D場景和建模 · 創意圖形和動畫 · 網站和介面 · 遊戲開發 · 電腦使用與繪畫 · 電腦使用和通訊
 - 每條附上原始貼文、作者、日期、證據類型與可見成果。
 - 盡可能使用公共提示。比較結果時保留原始輸入。
@@ -44,6 +44,15 @@
 | [快速入門](#quick-start) | 導覽 | 快速入門 | — |
 | [相關儲存庫](#related-repositories) | 導覽 | 相關儲存庫 | — |
 | [致謝](#acknowledge) | 導覽 | 致謝 | — |
+| [案例 176. 兩種推理強度的文件解析](#case-176) | [電腦使用和通訊](#category-communication) | 比較解析總分、圖表得分與每頁成本。 | Benchmark |
+| [案例 177. 夕陽下的四款騎車動畫](#case-177) | [創意圖形和動畫](#category-graphics) | 比較四個輸出的騎乘動作、單車比例與場景光線。 | Evaluation |
+| [案例 178. Company Agent Bench 的職場任務](#case-178) | [電腦使用和通訊](#category-communication) | 比較模型在各自受測推理設定下的準確率。 | Benchmark |
+| [案例 179. 橫越 Scarlet Fjord 的纜車](#case-179) | [3D場景和建模](#category-three) | 比較四個版本如何呈現車廂及周圍景觀。 | Evaluation |
+| [案例 180. 遊戲開發的偏好排名與生成成本](#case-180) | [遊戲開發](#category-game) | 在同一遊戲開發競技場比較偏好排名、平均生成時間和費用。 | Benchmark |
+| [案例 181. 行銷任務對照測試](#case-181) | [電腦使用和通訊](#category-communication) | 比對每項任務的偏好結果、費用和票數。 | Benchmark |
+| [案例 182. 把散步路線變成掌機遊戲](#case-182) | [遊戲開發](#category-game) | 觀察散步見聞如何變成能重新探索的遊戲場景。 | Demo |
+| [案例 183. 用參考圖製作 Blender 兔子模型](#case-183) | [3D場景和建模](#category-three) | 以生成的參考圖為起點，再從多個角度檢視模型形狀。 | Demo |
+| [案例 184. Agents on Rails 的準確率與執行時間](#case-184) | [網站和介面](#category-web) | 針對既有 Rails 應用程式的開發任務，分別記錄用時和準確率。 | Benchmark |
 | [案例 159. 從靜態影格到成片](#case-159) | [創意圖形和動畫](#category-graphics) | 從剪輯時間軸看出生成影格如何融入多工具製作流程。 | Demo |
 | [案例 160. 用 Codex 製作兩款第一人稱遊戲原型](#case-160) | [遊戲開發](#category-game) | 把關卡配置、遊玩體驗與實際成本放在一起比較。 | Evaluation |
 | [案例 161. 以 Blender 素材製作休閒村莊遊戲](#case-161) | [遊戲開發](#category-game) | 觀察建模和動畫如何組成遊戲場景。 | Demo |
@@ -51,6 +60,7 @@
 | [案例 163. 人像口播影片的對白剪輯](#case-163) | [創意圖形和動畫](#category-graphics) | 比較剪輯時間、整體分數和容易出錯的剪接類型。 | Benchmark |
 | [案例 164. 兩種總部建築設計](#case-164) | [3D場景和建模](#category-three) | 在同一個開放式題目下比較建築和運鏡。 | Evaluation |
 | [案例 165. 在 Crusader Bench 經營聚落](#case-165) | [遊戲開發](#category-game) | 以相同的計分地圖和遊戲條件比較代理的表現。 | Benchmark |
+| [案例 185. CodeRabbit 的 Pull Request 審查](#case-185) | [電腦使用和通訊](#category-communication) | 比較不同審查流程設定下找出的問題、公布的精確率和審查成本。 | Benchmark |
 | [案例 166. Legora 十一月法律文書基準](#case-166) | [電腦使用和通訊](#category-communication) | 針對同一組專業任務比較品質和每個案例的成本。 | Benchmark |
 | [案例 167. Sol 參加 Xplore 工程設計基準](#case-167) | [3D場景和建模](#category-three) | 在含 CAD 工作的測試集中比較得分和執行成本。 | Benchmark |
 | [案例 168. Ruby Ascent 發射台場景](#case-168) | [3D場景和建模](#category-three) | 比較同一發射台四種版本的場景細節和製作時間。 | Evaluation |
@@ -220,8 +230,175 @@
 | [案例 58. 單一HTML Three.js黑洞](#case-58) | [3D場景和建模](#category-three) | 使用剪輯和劇照來檢查一個場景如何處理多個視點。 | Demo |
 | [案例 59. 漂浮的Three.js宮殿](#case-59) | [3D場景和建模](#category-three) | 從多個角度觀察懸浮宮殿的規模和外觀。 | Demo |
 
+<a id="category-communication"></a>
+## 💬 電腦使用和通訊
+
+<a id="case-176"></a>
+### 案例 176: [兩種推理強度的文件解析](https://x.com/jerryjliu0/status/2123945742872293505) (作者 [@jerryjliu0](https://x.com/jerryjliu0))
+
+**比較解析總分、圖表得分與每頁成本。**
+
+LlamaIndex 的 ParseBench 2 圖表顯示，Sol 以中等推理強度取得 82.12 分，以低推理強度取得 79.12 分。每頁成本分別為 2.468 美分和 2.289 美分。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-176/2123945732264923137-2fc287ffe70da3991916.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-176/2123945732264923137-2fc287ffe70da3991916.jpg" width="640" alt="原始碼預覽 1 · 兩種推理強度的文件解析"></a>
+
+Type: Benchmark | Date: 2026-11-21
+
+---
+
+<a id="case-178"></a>
+### 案例 178: [Company Agent Bench 的職場任務](https://x.com/joshzqin/status/2123877558815281377) (作者 [@joshzqin](https://x.com/joshzqin))
+
+**比較模型在各自受測推理設定下的準確率。**
+
+基準測試的公開圖表顯示，Sol 高推理強度的整體準確率為 76.4%，Astra 高推理強度為 79.7%，Gemini Neon 低推理強度為 85.3%。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123877042928406528-4b38126f911f97edc79e.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-178/2123877042928406528-poster-9f579bb51eb76959e68a.jpg" width="640" alt="原始碼預覽 1 · Company Agent Bench 的職場任務"></a>
+
+[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123877042928406528-4b38126f911f97edc79e.mp4)
+
+Type: Benchmark | Date: 2026-11-20
+
+---
+
+<a id="case-181"></a>
+### 案例 181: [行銷任務對照測試](https://x.com/boringmarketer/status/2123843589063008291) (作者 [@boringmarketer](https://x.com/boringmarketer))
+
+**比對每項任務的偏好結果、費用和票數。**
+
+創作者用超過 4,700 次兩兩投票，比較 Sol、Opus 5.5 和 Gemini 4 Neon 在 15 項任務上的表現。Sol 獲得 58% 的票，回報的單項任務費用為 0.04 美元。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-181/2123826094998437888-9c51ceb178cca88b8b96.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-181/2123826094998437888-9c51ceb178cca88b8b96.jpg" width="640" alt="原始碼預覽 1 · 行銷任務對照測試"></a>
+
+Type: Benchmark | Date: 2026-11-20
+
+---
+
+<a id="case-185"></a>
+### 案例 185: [CodeRabbit 的 Pull Request 審查](https://www.coderabbit.ai/blog/gpt-6-2-sol-and-astra-review) (作者 [@CodeRabbit](https://www.coderabbit.ai/))
+
+**比較不同審查流程設定下找出的問題、公布的精確率和審查成本。**
+
+CodeRabbit 對 81 個已知問題進行測試，Sol 6.2 高推理強度的設定找出 60 個，Sol 6.1 高推理強度的基準設定找出 58 個。兩種流程設定不同，各執行了一次。
+
+[基準測試詳情](https://www.coderabbit.ai/blog/gpt-6-2-sol-and-astra-review#heading-sol-62-versus-sol-61)
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-185/coderabbit-50580780-sol-review-table-9cd3782931e24f3a6d35.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-185/coderabbit-50580780-sol-review-table-9cd3782931e24f3a6d35.png" width="640" alt="原始碼預覽 1 · CodeRabbit 的 Pull Request 審查"></a>
+
+Type: Benchmark | Date: 2026-11-19
+
+---
+
+<a id="case-166"></a>
+### 案例 166: [Legora 十一月法律文書基準](https://x.com/WeAreLegora/status/2123460359017144769) (作者 [@WeAreLegora](https://x.com/WeAreLegora))
+
+**針對同一組專業任務比較品質和每個案例的成本。**
+
+Legora 回報，Sol 的品質高於平均水準，單一案例成本比十一月參測模型的平均值低 78%。原始貼文的圖表彙整了各模型的比較結果。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123460256260870144-6da8a1113b471ce42386.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-166/2123460256260870144-poster-5c1a0e947f184ffb782e.jpg" width="640" alt="原始碼預覽 1 · Legora 十一月法律文書基準"></a>
+
+[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123460256260870144-6da8a1113b471ce42386.mp4)
+
+Type: Benchmark | Date: 2026-11-19
+
+---
+
+<a id="case-170"></a>
+### 案例 170: [AI Village 角色資料問卷](https://x.com/aidigest_/status/2123446497442447399) (作者 [@aidigest_](https://x.com/aidigest_))
+
+**比較兩個代理獨立填寫同一份問卷的結果。**
+
+AI Digest 將 Sol 和 Astra 加入 AI Village，並公布兩者對 15 道問題的回答。兩個模型都選了電影《蒲公英》、Onitsuka Tiger 鞋和蔥油餅。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-170/2123446488605114368-ecc6833b877fae0e1433.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-170/2123446488605114368-ecc6833b877fae0e1433.jpg" width="640" alt="原始碼預覽 1 · AI Village 角色資料問卷"></a>
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-170/2123446492765798400-c64a85a5d0d85d04cf39.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-170/2123446492765798400-c64a85a5d0d85d04cf39.jpg" width="640" alt="原始碼預覽 2 · AI Village 角色資料問卷"></a>
+
+Type: Integration | Date: 2026-11-19
+
+---
+
+<a id="case-124"></a>
+### 案例 124: [PR 狀態報告忽略儲存庫指示](https://x.com/Fei2411/status/2123354076771692631) (作者 [@Fei2411](https://x.com/Fei2411))
+
+**用同一條簡短的查詢，對比報告的細節和條理。**
+
+作者讓 Sol 和 Gemini 4 Neon 報告同一組 Pull Request 的狀態。他認為 Sol 的摘要過於簡略，而且沒有遵守儲存庫的 AGENTS.md 指示。
+
+**提示詞:**
+
+```
+现在有哪些pr
+```
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-124/2123354068013993984-19d626fb5c30bc9b2a19.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-124/2123354068013993984-19d626fb5c30bc9b2a19.jpg" width="640" alt="原始碼預覽 1 · PR 狀態報告忽略儲存庫指示"></a>
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-124/2123354067988824064-5ec42709de761e85172e.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-124/2123354067988824064-5ec42709de761e85172e.jpg" width="640" alt="原始碼預覽 2 · PR 狀態報告忽略儲存庫指示"></a>
+
+Type: Limit | Date: 2026-11-19
+
+---
+
+<a id="case-141"></a>
+### 案例 141: [AITuber OnAir 的角色聊天](https://x.com/shinshin86/status/2123040784710869031) (作者 [@shinshin86](https://x.com/shinshin86))
+
+**在即時角色對話中嘗試調整推理強度。**
+
+開發者給 AITuber OnAir 加入了 Sol，並演示了一段對話。整合預設採用低推理強度以保持對話節奏，使用者可以調整。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123040557064966144-63e1c247fbe9574434f1.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-141/2123040557064966144-poster-096943e3ee853b4f4a62.jpg" width="640" alt="原始碼預覽 1 · AITuber OnAir 的角色聊天"></a>
+
+[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123040557064966144-63e1c247fbe9574434f1.mp4)
+
+Type: Integration | Date: 2026-11-18
+
+---
+
+<a id="case-155"></a>
+### 案例 155: [FrontDesk-Bench 模擬診所來電](https://x.com/muratcan/status/2122914581454487838) (作者 [@muratcan](https://x.com/muratcan))
+
+**分別觀察不安全操作和對正當請求的拒絕。**
+
+基準作者報告，在模擬診所前臺測試中，Sol 的不安全來電數從 16 次降至 9 次。作者也報告新模型更經常拒絕正當請求。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-155/2122905857700585472-c7658e9ed55fe97f9cbb.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-155/2122905857700585472-c7658e9ed55fe97f9cbb.jpg" width="640" alt="原始碼預覽 1 · FrontDesk-Bench 模擬診所來電"></a>
+
+Type: Benchmark | Date: 2026-11-18
+
+---
+
+<a id="case-43"></a>
+### 案例 43: [未完成的訊息轉發嘗試](https://x.com/SadAlbert10/status/2119428297092460613) (作者 [@SadAlbert10](https://x.com/SadAlbert10))
+
+**透過嘗試查看桌面工作流程停止的位置。**
+
+螢幕截圖顯示了在請求傳遞訊息後嘗試找到收件人的情況。任務在訊息發送之前就結束了。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-43/2119428121711775744-8419b4e0c62aa252d1dc.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-43/2119428121711775744-8419b4e0c62aa252d1dc.jpg" width="640" alt="原始碼預覽 1 · 未完成的訊息轉發嘗試"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-43/2119428270945140736-f9662043dadb9a6e4b1b.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-43/2119428270945140736-f9662043dadb9a6e4b1b.jpg" width="640" alt="原始碼預覽 2 · 未完成的訊息轉發嘗試"></a>
+
+Type: Limit | Date: 2026-11-08
+
+---
+
 <a id="category-graphics"></a>
 ## 🎨 創意圖形和動畫
+
+<a id="case-177"></a>
+### 案例 177: [夕陽下的四款騎車動畫](https://x.com/jony_palino/status/2123889278501495127) (作者 [@jony_palino](https://x.com/jony_palino))
+
+**比較四個輸出的騎乘動作、單車比例與場景光線。**
+
+創作者分享 Sol、Gemini 4 Neon、DeepSeek V4.1 Flash 和 Claude Fable 5.2 的對照影片，Sol 的動畫在左下方。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123888706998218752-2fde673e71773bed63c5.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-177/2123888706998218752-poster-c43c4d2e3c43cad44fb4.jpg" width="640" alt="原始碼預覽 1 · 夕陽下的四款騎車動畫"></a>
+
+[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123888706998218752-2fde673e71773bed63c5.mp4)
+
+Type: Evaluation | Date: 2026-11-20
+
+---
 
 <a id="case-159"></a>
 ### 案例 159: [從靜態影格到成片](https://x.com/0xkhalid7/status/2123661187376451845) (作者 [@0xkhalid7](https://x.com/0xkhalid7))
@@ -943,246 +1120,40 @@ Type: Demo | Date: 2026-11-08
 
 ---
 
-<a id="category-game"></a>
-## 🎮 遊戲開發
+<a id="category-three"></a>
+## 🧊 3D場景和建模
 
-<a id="case-160"></a>
-### 案例 160: [用 Codex 製作兩款第一人稱遊戲原型](https://x.com/shownotover/status/2123599696526717303) (作者 [@shownotover](https://x.com/shownotover))
+<a id="case-179"></a>
+### 案例 179: [橫越 Scarlet Fjord 的纜車](https://x.com/EnvolDev/status/2123876031346200772) (作者 [@EnvolDev](https://x.com/EnvolDev))
 
-**把關卡配置、遊玩體驗與實際成本放在一起比較。**
+**比較四個版本如何呈現車廂及周圍景觀。**
 
-創作者給 Sol 和 Astra 同一項任務，並展示兩款遊戲原型。根據創作者估計，Sol Max 花了 42 分鐘，API 成本為 2.42 美元。
+創作者比較同一場景的四個版本，較喜歡 Astra 的車廂細節。他回報 Sol 花了 38 分 28 秒，成本為 1.62 美元。
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123599517236817921-3ec7dd5b18f3301d8be3.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-160/2123599517236817921-poster-c1f1354e1c265c950177.jpg" width="640" alt="原始碼預覽 1 · 用 Codex 製作兩款第一人稱遊戲原型"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123831977287761920-470f192dfb8387e2be60.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-179/2123831977287761920-poster-358738b7044aa1397a60.jpg" width="640" alt="原始碼預覽 1 · 橫越 Scarlet Fjord 的纜車"></a>
 
-[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123599517236817921-3ec7dd5b18f3301d8be3.mp4)
+[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123831977287761920-470f192dfb8387e2be60.mp4)
 
 Type: Evaluation | Date: 2026-11-20
 
 ---
 
-<a id="case-161"></a>
-### 案例 161: [以 Blender 素材製作休閒村莊遊戲](https://x.com/TokenGremlin/status/2123574805723058647) (作者 [@TokenGremlin](https://x.com/TokenGremlin))
+<a id="case-183"></a>
+### 案例 183: [用參考圖製作 Blender 兔子模型](https://x.com/GeppiiKameWorks/status/2123827794778140687) (作者 [@GeppiiKameWorks](https://x.com/GeppiiKameWorks))
 
-**觀察建模和動畫如何組成遊戲場景。**
+**以生成的參考圖為起點，再從多個角度檢視模型形狀。**
 
-創作者以 Ultrafast 模式的 Sol 製作遊戲，並用 Blender 建模和製作動畫。影片展示角色在村莊裡走動。
+創作者在 Codex 把一張生成圖交給 Sol，並分享用於遊戲開發的模型。影片展示 Blender 裡兔子模型的不同視角。
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123574639729238016-d185275dff479ab97456.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-161/2123574639729238016-poster-ab2ca719508bdf4d61d7.jpg" width="640" alt="原始碼預覽 1 · 以 Blender 素材製作休閒村莊遊戲"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-183/2123827569682419712-2a5b033b284c30a76bec.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-183/2123827569682419712-2a5b033b284c30a76bec.jpg" width="640" alt="原始碼預覽 1 · 用參考圖製作 Blender 兔子模型"></a>
 
-[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123574639729238016-d185275dff479ab97456.mp4)
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123827600791638017-776fe4105084a1dd4a3a.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-183/2123827600791638017-poster-ef6546c38da30bd36a58.jpg" width="640" alt="原始碼預覽 2 · 用參考圖製作 Blender 兔子模型"></a>
+
+[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123827600791638017-776fe4105084a1dd4a3a.mp4)
 
 Type: Demo | Date: 2026-11-20
 
 ---
-
-<a id="case-165"></a>
-### 案例 165: [在 Crusader Bench 經營聚落](https://x.com/Hesamation/status/2123528773140197579) (作者 [@Hesamation](https://x.com/Hesamation))
-
-**以相同的計分地圖和遊戲條件比較代理的表現。**
-
-基準測試作者分享了排行榜快照和遊戲畫面。詳細榜單顯示，Sol 使用中等推理強度跑完三張地圖，得分 79.5。
-
-[基準測試詳情](https://crusbench.com/)
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-165/2123528764608909312-da8dce5fbd2110f3efd7.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-165/2123528764608909312-da8dce5fbd2110f3efd7.jpg" width="640" alt="原始碼預覽 1 · 在 Crusader Bench 經營聚落"></a>
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-165/2123528764613091328-7c18d649149711d41faa.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-165/2123528764613091328-7c18d649149711d41faa.jpg" width="640" alt="原始碼預覽 2 · 在 Crusader Bench 經營聚落"></a>
-
-Type: Benchmark | Date: 2026-11-19
-
----
-
-<a id="case-169"></a>
-### 案例 169: [MazeBench 空間導航測試](https://x.com/patience_cave/status/2123446669643849993) (作者 [@patience_cave](https://x.com/patience_cave))
-
-**用同一套公開基準比較模型完成迷宮的表現。**
-
-基準測試作者回報 Sol 得分 14%，Astra 為 16%，Gemini 4 Neon 為 10%。原始圖表也標示了各模型的設定。
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-169/2123446665696993280-3509529d630c29cd9ac5.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-169/2123446665696993280-3509529d630c29cd9ac5.jpg" width="640" alt="原始碼預覽 1 · MazeBench 空間導航測試"></a>
-
-Type: Benchmark | Date: 2026-11-19
-
----
-
-<a id="case-175"></a>
-### 案例 175: [無工具的五局西洋棋對弈](https://x.com/argofowl/status/2123389829438406999) (作者 [@argofowl](https://x.com/argofowl))
-
-**比較同一場對弈的積分、各局戰績和成本。**
-
-創作者給兩個模型相同的 xhigh 設定。Sol 以 4 比 1 的積分勝出，戰績為三勝兩和，成本為 24.39 美元。Opus 5.5 花了 75.80 美元。
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123389747536207872-d38127bbf7f2c4de454f.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-175/2123389747536207872-poster-f2422d640187db52b79e.jpg" width="640" alt="原始碼預覽 1 · 無工具的五局西洋棋對弈"></a>
-
-[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123389747536207872-d38127bbf7f2c4de454f.mp4)
-
-Type: Benchmark | Date: 2026-11-19
-
----
-
-<a id="case-138"></a>
-### 案例 138: [《寶可夢 火紅版》冠軍挑戰](https://x.com/Clad3815/status/2123064135164576107) (作者 [@Clad3815](https://x.com/Clad3815))
-
-**在明確輸入和推理配置後對比通關耗時。**
-
-作者報告，Sol 在 Ultrafast 模式和高推理強度下，僅使用截圖作為輸入，11 小時 40 分鐘到達冠軍。
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-138/2123061539183726592-707694197c25ed18a424.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-138/2123061539183726592-707694197c25ed18a424.png" width="640" alt="原始碼預覽 1 · 《寶可夢 火紅版》冠軍挑戰"></a>
-
-Type: Benchmark | Date: 2026-11-18
-
----
-
-<a id="case-146"></a>
-### 案例 146: [用布娃娃物理模擬製作 3D 恐龍跑酷](https://x.com/noclipepe/status/2122989930699792818) (作者 [@noclipepe](https://x.com/noclipepe))
-
-**對比四款遊戲原型的視覺風格和碰撞反應。**
-
-作者為四個模型使用同一要求，包含 3D 和布娃娃物理模擬。作者記錄的 Sol 執行用時 20 分鐘、花費 1.68 美元。
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122985283993907201-9750e48cc454af4480fd.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-146/2122985283993907201-poster-afcb4c84030cd6876301.jpg" width="640" alt="原始碼預覽 1 · 用布娃娃物理模擬製作 3D 恐龍跑酷"></a>
-
-[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122985283993907201-9750e48cc454af4480fd.mp4)
-
-Type: Evaluation | Date: 2026-11-18
-
----
-
-<a id="case-158"></a>
-### 案例 158: [受遊戲廣告啟發的可玩關卡](https://x.com/noclipepe/status/2122885577137598800) (作者 [@noclipepe](https://x.com/noclipepe))
-
-**對比同一關卡要求生成的四種可玩版本。**
-
-作者為四個模型使用同一提示詞，並展示了玩家確實可以輸掉遊戲。Sol 用時 21 分鐘、花費 1.04 美元。
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122882602663124992-7fe424c3649edbe814fc.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-158/2122882602663124992-poster-65013bb3e5cef1833a1e.jpg" width="640" alt="原始碼預覽 1 · 受遊戲廣告啟發的可玩關卡"></a>
-
-[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122882602663124992-7fe424c3649edbe814fc.mp4)
-
-Type: Evaluation | Date: 2026-11-18
-
----
-
-<a id="case-78"></a>
-### 案例 78: [通過推箱子房間測試集](https://x.com/banteg/status/2122826622638137666) (作者 [@banteg](https://x.com/banteg))
-
-**記錄通關房間數，並回放操作以找出卡關的位置。**
-
-作者以 medium 強度測試 Sol 和 Astra。本次兩者都通過全部 66 個房間，發文當時在作者的排行榜上分列第二和第三。
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122826155086512128-d2a8456da3a5a99263f5.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-78/2122826155086512128-poster-4a2c4bee2b8d9510e347.jpg" width="640" alt="原始碼預覽 1 · 通過推箱子房間測試集"></a>
-
-[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122826155086512128-d2a8456da3a5a99263f5.mp4)
-
-Type: Benchmark | Date: 2026-11-17
-
----
-
-<a id="case-93"></a>
-### 案例 93: [在 RuneScape 中完成兩項任務](https://x.com/maxbittker/status/2122783334216466487) (作者 [@maxbittker](https://x.com/maxbittker))
-
-**檢查代理程式選擇了哪些任務、領取了哪些獎勵。**
-
-基準測試維護者報告，Sol 和 Astra 分別在各自的一次執行裡完成兩項任務並領取兩份獎勵。
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-93/2122782503542960128-31be885019f467cb7472.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-93/2122782503542960128-31be885019f467cb7472.jpg" width="640" alt="原始碼預覽 1 · 在 RuneScape 中完成兩項任務"></a>
-
-Type: Benchmark | Date: 2026-11-17
-
----
-
-<a id="case-95"></a>
-### 案例 95: [支援觸控操作的多人瀏覽器遊戲](https://x.com/VraserX/status/2122770481975837145) (作者 [@VraserX](https://x.com/VraserX))
-
-**逐版試玩，針對操作問題給出回饋。**
-
-開發者稱，用 Sol 編寫、除錯並迭代 16 對 16 的原型，在試玩過程中也改進了觸控操作。
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122770342842077184-c89268a9c06156333c45.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-95/2122770342842077184-poster-c5a1ebf986d6362bd35d.jpg" width="640" alt="原始碼預覽 1 · 支援觸控操作的多人瀏覽器遊戲"></a>
-
-[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122770342842077184-c89268a9c06156333c45.mp4)
-
-Type: Demo | Date: 2026-11-17
-
----
-
-<a id="case-97"></a>
-### 案例 97: [Lanternkeep 村莊建設網頁遊戲](https://x.com/AdamHoltererer/status/2122766741881413818) (作者 [@AdamHoltererer](https://x.com/AdamHoltererer))
-
-**觀察地圖和任務面板如何引導玩家建設村莊。**
-
-作者將遊戲歸因於 Sol。錄影展示了可互動的村莊地圖和目標面板。
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122766701477367808-c628e4fc3e8c14dc15d8.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-97/2122766701477367808-poster-50e4bfea19c965f6d231.jpg" width="640" alt="原始碼預覽 1 · Lanternkeep 村莊建設網頁遊戲"></a>
-
-[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122766701477367808-c628e4fc3e8c14dc15d8.mp4)
-
-Type: Demo | Date: 2026-11-17
-
----
-
-<a id="case-99"></a>
-### 案例 99: [只用截圖玩《寶可夢 火紅》](https://x.com/Clad3815/status/2122763941675995209) (作者 [@Clad3815](https://x.com/Clad3815))
-
-**記錄遊戲代理程式的進度節點和通關用時。**
-
-測試者稱讓模型僅透過截圖遊玩，推理強度為 high。Sol 用時 15 小時 34 分鐘，本次比 Astra 更早抵達第一位道館館主。
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-99/2122763933345890304-ffe6b4053f347b1d4d5f.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-99/2122763933345890304-ffe6b4053f347b1d4d5f.jpg" width="640" alt="原始碼預覽 1 · 只用截圖玩《寶可夢 火紅》"></a>
-
-Type: Benchmark | Date: 2026-11-17
-
----
-
-<a id="case-67"></a>
-### 案例 67: [海岸賽車遊戲原型](https://x.com/Stargridcompass/status/2119683294220390638) (作者 [@Stargridcompass](https://x.com/Stargridcompass))
-
-**檢查比賽中的倒數計時、車速讀數和賽道地圖是否清楚易讀。**
-
-錄影展示起跑和比賽過程。作者回報製作耗時 16 分鐘。
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119682250472112128-81f053c6ffe2a4aae055.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-67/2119682250472112128-poster-526c85969a54c7f93833.jpg" width="640" alt="原始碼預覽 1 · 海岸賽車遊戲原型"></a>
-
-[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119682250472112128-81f053c6ffe2a4aae055.mp4)
-
-Type: Demo | Date: 2026-11-09
-
----
-
-<a id="case-62"></a>
-### 案例 62: [瀏覽器裡的立體魔術方塊](https://x.com/VeknQAQ/status/2119633751173173475) (作者 [@VeknQAQ](https://x.com/VeknQAQ))
-
-**從預覽檢查方塊的轉動與貼紙位置。**
-
-錄影展示立體魔術方塊還原與打亂後的狀態，以及瀏覽器裡的操作控制項。
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119633608680124416-44e5b8b00d129caeba34.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-62/2119633608680124416-poster-1ea9e2acda539d582293.jpg" width="640" alt="原始碼預覽 1 · 瀏覽器裡的立體魔術方塊"></a>
-
-[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119633608680124416-44e5b8b00d129caeba34.mp4)
-
-Type: Demo | Date: 2026-11-09
-
----
-
-<a id="case-17"></a>
-### 案例 17: [PELICAN PANIC 體素追逐遊戲](https://x.com/Ananth7e/status/2119479157633786246) (作者 [@Ananth7e](https://x.com/Ananth7e))
-
-**使用短追逐遊戲來檢查控制、回饋和結束狀態。**
-
-這段影片展示了一名騎手騎著鵜鶘逃離馬鈴薯怪物的情景。可以看到分數和「Escaped」過關結算畫面。
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119478839500013568-2ec29cee42e54d0bf9c5.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-17/2119478839500013568-poster-3716db2a9abc6cf0e264.jpg" width="640" alt="原始碼預覽 1 · PELICAN PANIC 體素追逐遊戲"></a>
-
-[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119478839500013568-2ec29cee42e54d0bf9c5.mp4)
-
-
-Type: Demo | Date: 2026-11-08
-
----
-
-<a id="category-three"></a>
-## 🧊 3D場景和建模
 
 <a id="case-162"></a>
 ### 案例 162: [根據室內照片繪製公寓平面圖](https://x.com/andonlabs/status/2123570732575989832) (作者 [@andonlabs](https://x.com/andonlabs))
@@ -2629,104 +2600,295 @@ Type: Demo | Date: 2026-11-08
 
 ---
 
-<a id="category-communication"></a>
-## 💬 電腦使用和通訊
+<a id="category-game"></a>
+## 🎮 遊戲開發
 
-<a id="case-166"></a>
-### 案例 166: [Legora 十一月法律文書基準](https://x.com/WeAreLegora/status/2123460359017144769) (作者 [@WeAreLegora](https://x.com/WeAreLegora))
+<a id="case-180"></a>
+### 案例 180: [遊戲開發的偏好排名與生成成本](https://x.com/DesignArena/status/2123861437579677965) (作者 [@DesignArena](https://x.com/DesignArena))
 
-**針對同一組專業任務比較品質和每個案例的成本。**
+**在同一遊戲開發競技場比較偏好排名、平均生成時間和費用。**
 
-Legora 回報，Sol 的品質高於平均水準，單一案例成本比十一月參測模型的平均值低 78%。原始貼文的圖表彙整了各模型的比較結果。
+DesignArena 回報，Sol 高推理強度在 Game Dev 榜單排名第三。這次比較中，Sol 平均每次生成花 4.6 分鐘，成本為 0.22 美元。
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123460256260870144-6da8a1113b471ce42386.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-166/2123460256260870144-poster-5c1a0e947f184ffb782e.jpg" width="640" alt="原始碼預覽 1 · Legora 十一月法律文書基準"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-180/2123854486779342848-cda5e7e7633564f2e0ba.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-180/2123854486779342848-cda5e7e7633564f2e0ba.jpg" width="640" alt="原始碼預覽 1 · 遊戲開發的偏好排名與生成成本"></a>
 
-[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123460256260870144-6da8a1113b471ce42386.mp4)
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123854486783614976-f8e2d2fdd67f7208de36.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-180/2123854486783614976-poster-ef46fd7a1baf7d0adca6.jpg" width="640" alt="原始碼預覽 2 · 遊戲開發的偏好排名與生成成本"></a>
+
+[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123854486783614976-f8e2d2fdd67f7208de36.mp4)
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123854486783553536-39929a7046f4320fcbe0.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-180/2123854486783553536-poster-ca1b824639356cc997b7.jpg" width="640" alt="原始碼預覽 3 · 遊戲開發的偏好排名與生成成本"></a>
+
+[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123854486783553536-39929a7046f4320fcbe0.mp4)
+
+Type: Benchmark | Date: 2026-11-20
+
+---
+
+<a id="case-182"></a>
+### 案例 182: [把散步路線變成掌機遊戲](https://x.com/sriramkiron/status/2123829426177912918) (作者 [@sriramkiron](https://x.com/sriramkiron))
+
+**觀察散步見聞如何變成能重新探索的遊戲場景。**
+
+創作者用 GPS、相機和 GPT-Live-1.1 收集沿途見聞，並在 Corner Walk 專案用 Sol Ultrafast 將這些輸入製成 ModRetro 掌機遊戲。影片展示掌機執行遊戲的畫面。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123826091110383617-45fec4a74a3832012d99.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-182/2123826091110383617-poster-e20d4211d23da7c7ceec.jpg" width="640" alt="原始碼預覽 1 · 把散步路線變成掌機遊戲"></a>
+
+[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123826091110383617-45fec4a74a3832012d99.mp4)
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-160"></a>
+### 案例 160: [用 Codex 製作兩款第一人稱遊戲原型](https://x.com/shownotover/status/2123599696526717303) (作者 [@shownotover](https://x.com/shownotover))
+
+**把關卡配置、遊玩體驗與實際成本放在一起比較。**
+
+創作者給 Sol 和 Astra 同一項任務，並展示兩款遊戲原型。根據創作者估計，Sol Max 花了 42 分鐘，API 成本為 2.42 美元。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123599517236817921-3ec7dd5b18f3301d8be3.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-160/2123599517236817921-poster-c1f1354e1c265c950177.jpg" width="640" alt="原始碼預覽 1 · 用 Codex 製作兩款第一人稱遊戲原型"></a>
+
+[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123599517236817921-3ec7dd5b18f3301d8be3.mp4)
+
+Type: Evaluation | Date: 2026-11-20
+
+---
+
+<a id="case-161"></a>
+### 案例 161: [以 Blender 素材製作休閒村莊遊戲](https://x.com/TokenGremlin/status/2123574805723058647) (作者 [@TokenGremlin](https://x.com/TokenGremlin))
+
+**觀察建模和動畫如何組成遊戲場景。**
+
+創作者以 Ultrafast 模式的 Sol 製作遊戲，並用 Blender 建模和製作動畫。影片展示角色在村莊裡走動。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123574639729238016-d185275dff479ab97456.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-161/2123574639729238016-poster-ab2ca719508bdf4d61d7.jpg" width="640" alt="原始碼預覽 1 · 以 Blender 素材製作休閒村莊遊戲"></a>
+
+[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123574639729238016-d185275dff479ab97456.mp4)
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-165"></a>
+### 案例 165: [在 Crusader Bench 經營聚落](https://x.com/Hesamation/status/2123528773140197579) (作者 [@Hesamation](https://x.com/Hesamation))
+
+**以相同的計分地圖和遊戲條件比較代理的表現。**
+
+基準測試作者分享了排行榜快照和遊戲畫面。詳細榜單顯示，Sol 使用中等推理強度跑完三張地圖，得分 79.5。
+
+[基準測試詳情](https://crusbench.com/)
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-165/2123528764608909312-da8dce5fbd2110f3efd7.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-165/2123528764608909312-da8dce5fbd2110f3efd7.jpg" width="640" alt="原始碼預覽 1 · 在 Crusader Bench 經營聚落"></a>
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-165/2123528764613091328-7c18d649149711d41faa.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-165/2123528764613091328-7c18d649149711d41faa.jpg" width="640" alt="原始碼預覽 2 · 在 Crusader Bench 經營聚落"></a>
 
 Type: Benchmark | Date: 2026-11-19
 
 ---
 
-<a id="case-170"></a>
-### 案例 170: [AI Village 角色資料問卷](https://x.com/aidigest_/status/2123446497442447399) (作者 [@aidigest_](https://x.com/aidigest_))
+<a id="case-169"></a>
+### 案例 169: [MazeBench 空間導航測試](https://x.com/patience_cave/status/2123446669643849993) (作者 [@patience_cave](https://x.com/patience_cave))
 
-**比較兩個代理獨立填寫同一份問卷的結果。**
+**用同一套公開基準比較模型完成迷宮的表現。**
 
-AI Digest 將 Sol 和 Astra 加入 AI Village，並公布兩者對 15 道問題的回答。兩個模型都選了電影《蒲公英》、Onitsuka Tiger 鞋和蔥油餅。
+基準測試作者回報 Sol 得分 14%，Astra 為 16%，Gemini 4 Neon 為 10%。原始圖表也標示了各模型的設定。
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-170/2123446488605114368-ecc6833b877fae0e1433.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-170/2123446488605114368-ecc6833b877fae0e1433.jpg" width="640" alt="原始碼預覽 1 · AI Village 角色資料問卷"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-169/2123446665696993280-3509529d630c29cd9ac5.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-169/2123446665696993280-3509529d630c29cd9ac5.jpg" width="640" alt="原始碼預覽 1 · MazeBench 空間導航測試"></a>
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-170/2123446492765798400-c64a85a5d0d85d04cf39.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-170/2123446492765798400-c64a85a5d0d85d04cf39.jpg" width="640" alt="原始碼預覽 2 · AI Village 角色資料問卷"></a>
-
-Type: Integration | Date: 2026-11-19
+Type: Benchmark | Date: 2026-11-19
 
 ---
 
-<a id="case-124"></a>
-### 案例 124: [PR 狀態報告忽略儲存庫指示](https://x.com/Fei2411/status/2123354076771692631) (作者 [@Fei2411](https://x.com/Fei2411))
+<a id="case-175"></a>
+### 案例 175: [無工具的五局西洋棋對弈](https://x.com/argofowl/status/2123389829438406999) (作者 [@argofowl](https://x.com/argofowl))
 
-**用同一條簡短的查詢，對比報告的細節和條理。**
+**比較同一場對弈的積分、各局戰績和成本。**
 
-作者讓 Sol 和 Gemini 4 Neon 報告同一組 Pull Request 的狀態。他認為 Sol 的摘要過於簡略，而且沒有遵守儲存庫的 AGENTS.md 指示。
+創作者給兩個模型相同的 xhigh 設定。Sol 以 4 比 1 的積分勝出，戰績為三勝兩和，成本為 24.39 美元。Opus 5.5 花了 75.80 美元。
 
-**提示詞:**
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123389747536207872-d38127bbf7f2c4de454f.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-175/2123389747536207872-poster-f2422d640187db52b79e.jpg" width="640" alt="原始碼預覽 1 · 無工具的五局西洋棋對弈"></a>
 
-```
-现在有哪些pr
-```
+[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123389747536207872-d38127bbf7f2c4de454f.mp4)
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-124/2123354068013993984-19d626fb5c30bc9b2a19.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-124/2123354068013993984-19d626fb5c30bc9b2a19.jpg" width="640" alt="原始碼預覽 1 · PR 狀態報告忽略儲存庫指示"></a>
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-124/2123354067988824064-5ec42709de761e85172e.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-124/2123354067988824064-5ec42709de761e85172e.jpg" width="640" alt="原始碼預覽 2 · PR 狀態報告忽略儲存庫指示"></a>
-
-Type: Limit | Date: 2026-11-19
+Type: Benchmark | Date: 2026-11-19
 
 ---
 
-<a id="case-141"></a>
-### 案例 141: [AITuber OnAir 的角色聊天](https://x.com/shinshin86/status/2123040784710869031) (作者 [@shinshin86](https://x.com/shinshin86))
+<a id="case-138"></a>
+### 案例 138: [《寶可夢 火紅版》冠軍挑戰](https://x.com/Clad3815/status/2123064135164576107) (作者 [@Clad3815](https://x.com/Clad3815))
 
-**在即時角色對話中嘗試調整推理強度。**
+**在明確輸入和推理配置後對比通關耗時。**
 
-開發者給 AITuber OnAir 加入了 Sol，並演示了一段對話。整合預設採用低推理強度以保持對話節奏，使用者可以調整。
+作者報告，Sol 在 Ultrafast 模式和高推理強度下，僅使用截圖作為輸入，11 小時 40 分鐘到達冠軍。
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123040557064966144-63e1c247fbe9574434f1.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-141/2123040557064966144-poster-096943e3ee853b4f4a62.jpg" width="640" alt="原始碼預覽 1 · AITuber OnAir 的角色聊天"></a>
-
-[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123040557064966144-63e1c247fbe9574434f1.mp4)
-
-Type: Integration | Date: 2026-11-18
-
----
-
-<a id="case-155"></a>
-### 案例 155: [FrontDesk-Bench 模擬診所來電](https://x.com/muratcan/status/2122914581454487838) (作者 [@muratcan](https://x.com/muratcan))
-
-**分別觀察不安全操作和對正當請求的拒絕。**
-
-基準作者報告，在模擬診所前臺測試中，Sol 的不安全來電數從 16 次降至 9 次。作者也報告新模型更經常拒絕正當請求。
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-155/2122905857700585472-c7658e9ed55fe97f9cbb.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-155/2122905857700585472-c7658e9ed55fe97f9cbb.jpg" width="640" alt="原始碼預覽 1 · FrontDesk-Bench 模擬診所來電"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-138/2123061539183726592-707694197c25ed18a424.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-138/2123061539183726592-707694197c25ed18a424.png" width="640" alt="原始碼預覽 1 · 《寶可夢 火紅版》冠軍挑戰"></a>
 
 Type: Benchmark | Date: 2026-11-18
 
 ---
 
-<a id="case-43"></a>
-### 案例 43: [未完成的訊息轉發嘗試](https://x.com/SadAlbert10/status/2119428297092460613) (作者 [@SadAlbert10](https://x.com/SadAlbert10))
+<a id="case-146"></a>
+### 案例 146: [用布娃娃物理模擬製作 3D 恐龍跑酷](https://x.com/noclipepe/status/2122989930699792818) (作者 [@noclipepe](https://x.com/noclipepe))
 
-**透過嘗試查看桌面工作流程停止的位置。**
+**對比四款遊戲原型的視覺風格和碰撞反應。**
 
-螢幕截圖顯示了在請求傳遞訊息後嘗試找到收件人的情況。任務在訊息發送之前就結束了。
+作者為四個模型使用同一要求，包含 3D 和布娃娃物理模擬。作者記錄的 Sol 執行用時 20 分鐘、花費 1.68 美元。
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-43/2119428121711775744-8419b4e0c62aa252d1dc.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-43/2119428121711775744-8419b4e0c62aa252d1dc.jpg" width="640" alt="原始碼預覽 1 · 未完成的訊息轉發嘗試"></a>
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-43/2119428270945140736-f9662043dadb9a6e4b1b.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-43/2119428270945140736-f9662043dadb9a6e4b1b.jpg" width="640" alt="原始碼預覽 2 · 未完成的訊息轉發嘗試"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122985283993907201-9750e48cc454af4480fd.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-146/2122985283993907201-poster-afcb4c84030cd6876301.jpg" width="640" alt="原始碼預覽 1 · 用布娃娃物理模擬製作 3D 恐龍跑酷"></a>
 
-Type: Limit | Date: 2026-11-08
+[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122985283993907201-9750e48cc454af4480fd.mp4)
+
+Type: Evaluation | Date: 2026-11-18
+
+---
+
+<a id="case-158"></a>
+### 案例 158: [受遊戲廣告啟發的可玩關卡](https://x.com/noclipepe/status/2122885577137598800) (作者 [@noclipepe](https://x.com/noclipepe))
+
+**對比同一關卡要求生成的四種可玩版本。**
+
+作者為四個模型使用同一提示詞，並展示了玩家確實可以輸掉遊戲。Sol 用時 21 分鐘、花費 1.04 美元。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122882602663124992-7fe424c3649edbe814fc.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-158/2122882602663124992-poster-65013bb3e5cef1833a1e.jpg" width="640" alt="原始碼預覽 1 · 受遊戲廣告啟發的可玩關卡"></a>
+
+[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122882602663124992-7fe424c3649edbe814fc.mp4)
+
+Type: Evaluation | Date: 2026-11-18
+
+---
+
+<a id="case-78"></a>
+### 案例 78: [通過推箱子房間測試集](https://x.com/banteg/status/2122826622638137666) (作者 [@banteg](https://x.com/banteg))
+
+**記錄通關房間數，並回放操作以找出卡關的位置。**
+
+作者以 medium 強度測試 Sol 和 Astra。本次兩者都通過全部 66 個房間，發文當時在作者的排行榜上分列第二和第三。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122826155086512128-d2a8456da3a5a99263f5.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-78/2122826155086512128-poster-4a2c4bee2b8d9510e347.jpg" width="640" alt="原始碼預覽 1 · 通過推箱子房間測試集"></a>
+
+[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122826155086512128-d2a8456da3a5a99263f5.mp4)
+
+Type: Benchmark | Date: 2026-11-17
+
+---
+
+<a id="case-93"></a>
+### 案例 93: [在 RuneScape 中完成兩項任務](https://x.com/maxbittker/status/2122783334216466487) (作者 [@maxbittker](https://x.com/maxbittker))
+
+**檢查代理程式選擇了哪些任務、領取了哪些獎勵。**
+
+基準測試維護者報告，Sol 和 Astra 分別在各自的一次執行裡完成兩項任務並領取兩份獎勵。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-93/2122782503542960128-31be885019f467cb7472.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-93/2122782503542960128-31be885019f467cb7472.jpg" width="640" alt="原始碼預覽 1 · 在 RuneScape 中完成兩項任務"></a>
+
+Type: Benchmark | Date: 2026-11-17
+
+---
+
+<a id="case-95"></a>
+### 案例 95: [支援觸控操作的多人瀏覽器遊戲](https://x.com/VraserX/status/2122770481975837145) (作者 [@VraserX](https://x.com/VraserX))
+
+**逐版試玩，針對操作問題給出回饋。**
+
+開發者稱，用 Sol 編寫、除錯並迭代 16 對 16 的原型，在試玩過程中也改進了觸控操作。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122770342842077184-c89268a9c06156333c45.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-95/2122770342842077184-poster-c5a1ebf986d6362bd35d.jpg" width="640" alt="原始碼預覽 1 · 支援觸控操作的多人瀏覽器遊戲"></a>
+
+[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122770342842077184-c89268a9c06156333c45.mp4)
+
+Type: Demo | Date: 2026-11-17
+
+---
+
+<a id="case-97"></a>
+### 案例 97: [Lanternkeep 村莊建設網頁遊戲](https://x.com/AdamHoltererer/status/2122766741881413818) (作者 [@AdamHoltererer](https://x.com/AdamHoltererer))
+
+**觀察地圖和任務面板如何引導玩家建設村莊。**
+
+作者將遊戲歸因於 Sol。錄影展示了可互動的村莊地圖和目標面板。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122766701477367808-c628e4fc3e8c14dc15d8.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-97/2122766701477367808-poster-50e4bfea19c965f6d231.jpg" width="640" alt="原始碼預覽 1 · Lanternkeep 村莊建設網頁遊戲"></a>
+
+[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122766701477367808-c628e4fc3e8c14dc15d8.mp4)
+
+Type: Demo | Date: 2026-11-17
+
+---
+
+<a id="case-99"></a>
+### 案例 99: [只用截圖玩《寶可夢 火紅》](https://x.com/Clad3815/status/2122763941675995209) (作者 [@Clad3815](https://x.com/Clad3815))
+
+**記錄遊戲代理程式的進度節點和通關用時。**
+
+測試者稱讓模型僅透過截圖遊玩，推理強度為 high。Sol 用時 15 小時 34 分鐘，本次比 Astra 更早抵達第一位道館館主。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-99/2122763933345890304-ffe6b4053f347b1d4d5f.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-99/2122763933345890304-ffe6b4053f347b1d4d5f.jpg" width="640" alt="原始碼預覽 1 · 只用截圖玩《寶可夢 火紅》"></a>
+
+Type: Benchmark | Date: 2026-11-17
+
+---
+
+<a id="case-67"></a>
+### 案例 67: [海岸賽車遊戲原型](https://x.com/Stargridcompass/status/2119683294220390638) (作者 [@Stargridcompass](https://x.com/Stargridcompass))
+
+**檢查比賽中的倒數計時、車速讀數和賽道地圖是否清楚易讀。**
+
+錄影展示起跑和比賽過程。作者回報製作耗時 16 分鐘。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119682250472112128-81f053c6ffe2a4aae055.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-67/2119682250472112128-poster-526c85969a54c7f93833.jpg" width="640" alt="原始碼預覽 1 · 海岸賽車遊戲原型"></a>
+
+[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119682250472112128-81f053c6ffe2a4aae055.mp4)
+
+Type: Demo | Date: 2026-11-09
+
+---
+
+<a id="case-62"></a>
+### 案例 62: [瀏覽器裡的立體魔術方塊](https://x.com/VeknQAQ/status/2119633751173173475) (作者 [@VeknQAQ](https://x.com/VeknQAQ))
+
+**從預覽檢查方塊的轉動與貼紙位置。**
+
+錄影展示立體魔術方塊還原與打亂後的狀態，以及瀏覽器裡的操作控制項。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119633608680124416-44e5b8b00d129caeba34.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-62/2119633608680124416-poster-1ea9e2acda539d582293.jpg" width="640" alt="原始碼預覽 1 · 瀏覽器裡的立體魔術方塊"></a>
+
+[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119633608680124416-44e5b8b00d129caeba34.mp4)
+
+Type: Demo | Date: 2026-11-09
+
+---
+
+<a id="case-17"></a>
+### 案例 17: [PELICAN PANIC 體素追逐遊戲](https://x.com/Ananth7e/status/2119479157633786246) (作者 [@Ananth7e](https://x.com/Ananth7e))
+
+**使用短追逐遊戲來檢查控制、回饋和結束狀態。**
+
+這段影片展示了一名騎手騎著鵜鶘逃離馬鈴薯怪物的情景。可以看到分數和「Escaped」過關結算畫面。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119478839500013568-2ec29cee42e54d0bf9c5.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-17/2119478839500013568-poster-3716db2a9abc6cf0e264.jpg" width="640" alt="原始碼預覽 1 · PELICAN PANIC 體素追逐遊戲"></a>
+
+[播放展示影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119478839500013568-2ec29cee42e54d0bf9c5.mp4)
+
+
+Type: Demo | Date: 2026-11-08
 
 ---
 
 <a id="category-web"></a>
 ## 🌐 網站和介面
+
+<a id="case-184"></a>
+### 案例 184: [Agents on Rails 的準確率與執行時間](https://x.com/rails/status/2123808115619471857) (作者 [@rails](https://x.com/rails))
+
+**針對既有 Rails 應用程式的開發任務，分別記錄用時和準確率。**
+
+Rails Foundation 回報，Sol xhigh 每次平均約花 12 分半鐘，前一代 Sol 約花 23 分半鐘。新版得分 54.1%，GPT-6.1 Sol 為 60.8%。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-184/2123805893733027841-1d6628ee8b4801e16252.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-184/2123805893733027841-1d6628ee8b4801e16252.jpg" width="640" alt="原始碼預覽 1 · Agents on Rails 的準確率與執行時間"></a>
+
+Type: Benchmark | Date: 2026-11-20
+
+---
 
 <a id="case-174"></a>
 ### 案例 174: [岩岸上的燈塔網頁](https://x.com/aapakari/status/2123407849829404984) (作者 [@aapakari](https://x.com/aapakari))
@@ -3048,6 +3210,6 @@ Type: Demo | Date: 2026-11-08
 
 感謝分享這些實驗的創作者。連結的作品和媒體屬於其各自的創作者。
 
-[@Avenoxai](https://x.com/Avenoxai), [@kimmonismus](https://x.com/kimmonismus), [@imjustnewatai](https://x.com/imjustnewatai), [@Khazix0918](https://x.com/Khazix0918), [@marcthecreatorr](https://x.com/marcthecreatorr), [@Bhavani_00007](https://x.com/Bhavani_00007), [@JustLingonberry](https://x.com/JustLingonberry), [@Mr_Salio](https://x.com/Mr_Salio), [@aGim_asf](https://x.com/aGim_asf), [@0x0SojalSec](https://x.com/0x0SojalSec), [@pengsonal](https://x.com/pengsonal), [@GeekCatX](https://x.com/GeekCatX), [@Ananth7e](https://x.com/Ananth7e), [@EnvolDev](https://x.com/EnvolDev), [@xbquan](https://x.com/xbquan), [@SahilPanhotra](https://x.com/SahilPanhotra), [@rubenssoto_ai](https://x.com/rubenssoto_ai), [@vikktorrrre](https://x.com/vikktorrrre), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@Cayden970207](https://x.com/Cayden970207), [@HarshithLucky3](https://x.com/HarshithLucky3), [@TokenGremlin](https://x.com/TokenGremlin), [@SadAlbert10](https://x.com/SadAlbert10), [@maxt3chno](https://x.com/maxt3chno), [@karanC_12](https://x.com/karanC_12), [@JustinGorya](https://x.com/JustinGorya), [@kdnbmb](https://x.com/kdnbmb), [@VraserX](https://x.com/VraserX), [@jessexai_](https://x.com/jessexai_), [@theaidesk_](https://x.com/theaidesk_), [@gadi_neelesh](https://x.com/gadi_neelesh), [@Haleeeemahh](https://x.com/Haleeeemahh), [@SPAC89](https://x.com/SPAC89), [@VeknQAQ](https://x.com/VeknQAQ), [@Aurora0x3f](https://x.com/Aurora0x3f), [@bei351009016](https://x.com/bei351009016), [@Stargridcompass](https://x.com/Stargridcompass), [@iamtheQwen](https://x.com/iamtheQwen), [@voxelbench](https://x.com/voxelbench), [@sshayahmet](https://x.com/sshayahmet), [@TimJayas](https://x.com/TimJayas), [@lucian__03](https://x.com/lucian__03), [@camperaigg](https://x.com/camperaigg), [@nickbaumann_](https://x.com/nickbaumann_), [@thtbee_](https://x.com/thtbee_), [@DeryaTR_](https://x.com/DeryaTR_), [@banteg](https://x.com/banteg), [@Leviwoyun](https://x.com/Leviwoyun), [@browser_use](https://x.com/browser_use), [@simonw](https://x.com/simonw), [@perplexity_ai](https://x.com/perplexity_ai), [@_3912657840](https://x.com/_3912657840), [@fawnunwrap](https://x.com/fawnunwrap), [@Angaisb_](https://x.com/Angaisb_), [@jony_palino](https://x.com/jony_palino), [@notjazii](https://x.com/notjazii), [@noclipepe](https://x.com/noclipepe), [@Super_Nius](https://x.com/Super_Nius), [@maxbittker](https://x.com/maxbittker), [@morsenxxx](https://x.com/morsenxxx), [@AdamHoltererer](https://x.com/AdamHoltererer), [@Clad3815](https://x.com/Clad3815), [@N1njaCodex](https://x.com/N1njaCodex), [@CodeByNZ](https://x.com/CodeByNZ), [@DanielZambrini](https://x.com/DanielZambrini), [@RezAIT00](https://x.com/RezAIT00), [@LuminaBench](https://x.com/LuminaBench), [@Jason85885174](https://x.com/Jason85885174), [@mspd4100](https://x.com/mspd4100), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@simonw](https://news.ycombinator.com/user?id=simonw), [@Fei2411](https://x.com/Fei2411), [@arena](https://x.com/arena), [@jan_volad](https://x.com/jan_volad), [@eliadele](https://x.com/eliadele), [@monkeys_im](https://x.com/monkeys_im), [@rotejin](https://x.com/rotejin), [@jetbrains](https://x.com/jetbrains), [@UFO2002616](https://x.com/UFO2002616), [@argofowl](https://x.com/argofowl), [@Kombaico](https://x.com/Kombaico), [@shinshin86](https://x.com/shinshin86), [@PawelJLisowski](https://x.com/PawelJLisowski), [@alohaproxy](https://x.com/alohaproxy), [@masahirochaen](https://x.com/masahirochaen), [@mylesBaiM](https://x.com/mylesBaiM), [@exploraX_](https://x.com/exploraX_), [@One2xDatalab](https://x.com/One2xDatalab), [@798145343h](https://x.com/798145343h), [@xKaka1456](https://x.com/xKaka1456), [@op7418](https://x.com/op7418), [@aura_uniiiii](https://x.com/aura_uniiiii), [@shinya_creative](https://x.com/shinya_creative), [@muratcan](https://x.com/muratcan), [@suna_gaku](https://x.com/suna_gaku), [@teddyaisi](https://x.com/teddyaisi), [@0xkhalid7](https://x.com/0xkhalid7), [@shownotover](https://x.com/shownotover), [@andonlabs](https://x.com/andonlabs), [@MatthewBerman](https://x.com/MatthewBerman), [@Hesamation](https://x.com/Hesamation), [@WeAreLegora](https://x.com/WeAreLegora), [@XploreAi](https://x.com/XploreAi), [@patience_cave](https://x.com/patience_cave), [@aidigest_](https://x.com/aidigest_), [@erhanmeydan](https://x.com/erhanmeydan), [@aapakari](https://x.com/aapakari)
+[@Avenoxai](https://x.com/Avenoxai), [@kimmonismus](https://x.com/kimmonismus), [@imjustnewatai](https://x.com/imjustnewatai), [@Khazix0918](https://x.com/Khazix0918), [@marcthecreatorr](https://x.com/marcthecreatorr), [@Bhavani_00007](https://x.com/Bhavani_00007), [@JustLingonberry](https://x.com/JustLingonberry), [@Mr_Salio](https://x.com/Mr_Salio), [@aGim_asf](https://x.com/aGim_asf), [@0x0SojalSec](https://x.com/0x0SojalSec), [@pengsonal](https://x.com/pengsonal), [@GeekCatX](https://x.com/GeekCatX), [@Ananth7e](https://x.com/Ananth7e), [@EnvolDev](https://x.com/EnvolDev), [@xbquan](https://x.com/xbquan), [@SahilPanhotra](https://x.com/SahilPanhotra), [@rubenssoto_ai](https://x.com/rubenssoto_ai), [@vikktorrrre](https://x.com/vikktorrrre), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@Cayden970207](https://x.com/Cayden970207), [@HarshithLucky3](https://x.com/HarshithLucky3), [@TokenGremlin](https://x.com/TokenGremlin), [@SadAlbert10](https://x.com/SadAlbert10), [@maxt3chno](https://x.com/maxt3chno), [@karanC_12](https://x.com/karanC_12), [@JustinGorya](https://x.com/JustinGorya), [@kdnbmb](https://x.com/kdnbmb), [@VraserX](https://x.com/VraserX), [@jessexai_](https://x.com/jessexai_), [@theaidesk_](https://x.com/theaidesk_), [@gadi_neelesh](https://x.com/gadi_neelesh), [@Haleeeemahh](https://x.com/Haleeeemahh), [@SPAC89](https://x.com/SPAC89), [@VeknQAQ](https://x.com/VeknQAQ), [@Aurora0x3f](https://x.com/Aurora0x3f), [@bei351009016](https://x.com/bei351009016), [@Stargridcompass](https://x.com/Stargridcompass), [@iamtheQwen](https://x.com/iamtheQwen), [@voxelbench](https://x.com/voxelbench), [@sshayahmet](https://x.com/sshayahmet), [@TimJayas](https://x.com/TimJayas), [@lucian__03](https://x.com/lucian__03), [@camperaigg](https://x.com/camperaigg), [@nickbaumann_](https://x.com/nickbaumann_), [@thtbee_](https://x.com/thtbee_), [@DeryaTR_](https://x.com/DeryaTR_), [@banteg](https://x.com/banteg), [@Leviwoyun](https://x.com/Leviwoyun), [@browser_use](https://x.com/browser_use), [@simonw](https://x.com/simonw), [@perplexity_ai](https://x.com/perplexity_ai), [@_3912657840](https://x.com/_3912657840), [@fawnunwrap](https://x.com/fawnunwrap), [@Angaisb_](https://x.com/Angaisb_), [@jony_palino](https://x.com/jony_palino), [@notjazii](https://x.com/notjazii), [@noclipepe](https://x.com/noclipepe), [@Super_Nius](https://x.com/Super_Nius), [@maxbittker](https://x.com/maxbittker), [@morsenxxx](https://x.com/morsenxxx), [@AdamHoltererer](https://x.com/AdamHoltererer), [@Clad3815](https://x.com/Clad3815), [@N1njaCodex](https://x.com/N1njaCodex), [@CodeByNZ](https://x.com/CodeByNZ), [@DanielZambrini](https://x.com/DanielZambrini), [@RezAIT00](https://x.com/RezAIT00), [@LuminaBench](https://x.com/LuminaBench), [@Jason85885174](https://x.com/Jason85885174), [@mspd4100](https://x.com/mspd4100), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@simonw](https://news.ycombinator.com/user?id=simonw), [@Fei2411](https://x.com/Fei2411), [@arena](https://x.com/arena), [@jan_volad](https://x.com/jan_volad), [@eliadele](https://x.com/eliadele), [@monkeys_im](https://x.com/monkeys_im), [@rotejin](https://x.com/rotejin), [@jetbrains](https://x.com/jetbrains), [@UFO2002616](https://x.com/UFO2002616), [@argofowl](https://x.com/argofowl), [@Kombaico](https://x.com/Kombaico), [@shinshin86](https://x.com/shinshin86), [@PawelJLisowski](https://x.com/PawelJLisowski), [@alohaproxy](https://x.com/alohaproxy), [@masahirochaen](https://x.com/masahirochaen), [@mylesBaiM](https://x.com/mylesBaiM), [@exploraX_](https://x.com/exploraX_), [@One2xDatalab](https://x.com/One2xDatalab), [@798145343h](https://x.com/798145343h), [@xKaka1456](https://x.com/xKaka1456), [@op7418](https://x.com/op7418), [@aura_uniiiii](https://x.com/aura_uniiiii), [@shinya_creative](https://x.com/shinya_creative), [@muratcan](https://x.com/muratcan), [@suna_gaku](https://x.com/suna_gaku), [@teddyaisi](https://x.com/teddyaisi), [@0xkhalid7](https://x.com/0xkhalid7), [@shownotover](https://x.com/shownotover), [@andonlabs](https://x.com/andonlabs), [@MatthewBerman](https://x.com/MatthewBerman), [@Hesamation](https://x.com/Hesamation), [@WeAreLegora](https://x.com/WeAreLegora), [@XploreAi](https://x.com/XploreAi), [@patience_cave](https://x.com/patience_cave), [@aidigest_](https://x.com/aidigest_), [@erhanmeydan](https://x.com/erhanmeydan), [@aapakari](https://x.com/aapakari), [@jerryjliu0](https://x.com/jerryjliu0), [@joshzqin](https://x.com/joshzqin), [@DesignArena](https://x.com/DesignArena), [@boringmarketer](https://x.com/boringmarketer), [@sriramkiron](https://x.com/sriramkiron), [@GeppiiKameWorks](https://x.com/GeppiiKameWorks), [@rails](https://x.com/rails), [@CodeRabbit](https://www.coderabbit.ai/)
 
 *請針對歸屬或刪除要求開啟來源更正問題。*

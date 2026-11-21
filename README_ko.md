@@ -18,7 +18,7 @@
 <a id="overview"></a>
 ## 📊 개요
 
-- **175 개 활용 사례 · GPT-6.2 Sol**. 원본 게시물 175건을 모았습니다. 172건은 작업 결과를 보여 주고, 3건은 완료하지 못한 시도를 기록합니다. 22건에는 원문 프롬프트가 포함됩니다.
+- **185 개 활용 사례 · GPT-6.2 Sol**. 원본 게시물 185건을 모았습니다. 182건은 작업 결과를 보여 주고, 3건은 완료하지 못한 시도를 기록합니다. 22건에는 원문 프롬프트가 포함됩니다.
 - 3D 장면 및 모델링 · 창의적인 그래픽과 애니메이션 · 웹사이트 및 인터페이스 · 게임 개발 · 컴퓨터 사용 및 페인팅 · 컴퓨터 사용 및 통신
 - 각 사례에는 원본 게시물, 제작자, 날짜, 증거 유형, 화면에서 확인한 결과를 담았습니다.
 - 가능한 경우 공개 프롬프트를 사용하세요. 결과를 비교할 때 원래 입력을 유지하세요.
@@ -44,6 +44,15 @@
 | [빠른 시작](#quick-start) | 탐색 | 빠른 시작 | — |
 | [관련 저장소](#related-repositories) | 탐색 | 관련 저장소 | — |
 | [감사의 말](#acknowledge) | 탐색 | 감사의 말 | — |
+| [사례 176. 두 가지 추론 강도에서 문서 파싱 비교](#case-176) | [컴퓨터 사용 및 통신](#category-communication) | 문서 파싱 종합 점수, 차트 파싱 점수, 페이지당 비용을 비교한다. | Benchmark |
+| [사례 177. 해 질 녘 자전거를 타는 네 가지 애니메이션](#case-177) | [창의적인 그래픽과 애니메이션](#category-graphics) | 네 결과의 탑승자 움직임, 자전거 비율, 장면의 조명을 비교한다. | Evaluation |
+| [사례 178. Company Agent Bench의 직장 업무 과제](#case-178) | [컴퓨터 사용 및 통신](#category-communication) | 각 모델에 적용한 추론 설정을 확인하고 보고된 정확도를 비교한다. | Benchmark |
+| [사례 179. 스칼렛 피오르를 가로지르는 케이블카](#case-179) | [3D 장면 및 모델링](#category-three) | 네 렌더링에서 객실과 주변 풍경을 어떻게 구현했는지 비교한다. | Evaluation |
+| [사례 180. 게임 개발 결과물 선호도와 생성 비용](#case-180) | [게임 개발](#category-game) | 같은 게임 디자인 평가에서 선호도 순위, 평균 생성 시간, 비용을 비교한다. | Benchmark |
+| [사례 181. 마케팅 과제로 모델 비교](#case-181) | [컴퓨터 사용 및 통신](#category-communication) | 과제별 선호도를 비용과 투표 수와 함께 확인한다. | Benchmark |
+| [사례 182. 산책길을 휴대용 게임으로 구현](#case-182) | [게임 개발](#category-game) | 산책 중 관찰한 내용이 다시 둘러볼 수 있는 게임 장면으로 바뀌는 과정을 살핀다. | Demo |
+| [사례 183. 참조 이미지로 Blender에서 만든 토끼](#case-183) | [3D 장면 및 모델링](#category-three) | 생성된 참조 이미지에서 시작해 완성한 모델의 형태를 여러 각도에서 확인한다. | Demo |
+| [사례 184. Agents on Rails의 정확도와 실행 시간](#case-184) | [웹사이트 및 인터페이스](#category-web) | 기존 Rails 앱의 개발 과제에서 실행 시간과 정확도를 따로 기록한다. | Benchmark |
 | [사례 159. 정지 프레임에서 완성 영상까지](#case-159) | [창의적인 그래픽과 애니메이션](#category-graphics) | 편집 타임라인을 따라 여러 도구를 쓰는 작업의 어느 단계에서 생성한 프레임이 들어가는지 확인한다. | Demo |
 | [사례 160. Codex로 만든 1인칭 게임 프로토타입 두 개](#case-160) | [게임 개발](#category-game) | 레벨 구성과 플레이 경험을 기록된 비용과 함께 비교한다. | Evaluation |
 | [사례 161. Blender 에셋으로 만든 아늑한 마을 게임](#case-161) | [게임 개발](#category-game) | 모델링한 오브젝트와 애니메이션이 게임 장면에서 어떻게 어우러지는지 살핀다. | Demo |
@@ -51,6 +60,7 @@
 | [사례 163. 말하는 인물이 나오는 영상에서 발화 구간 편집](#case-163) | [창의적인 그래픽과 애니메이션](#category-graphics) | 편집 시간, 종합 점수, 실패한 컷의 유형을 비교한다. | Benchmark |
 | [사례 164. 본사 건물 디자인 두 가지](#case-164) | [3D 장면 및 모델링](#category-three) | 같은 개방형 설계 지시로 나온 건물과 카메라 시점을 비교한다. | Evaluation |
 | [사례 165. Crusader Bench에서 정착지 운영하기](#case-165) | [게임 개발](#category-game) | 채점 대상 지도와 게임 조건을 동일하게 두고 에이전트의 플레이를 비교한다. | Benchmark |
+| [사례 185. CodeRabbit으로 풀 리퀘스트 검토](#case-185) | [컴퓨터 사용 및 통신](#category-communication) | 파이프라인 설정별로 탐지한 알려진 문제, 보고된 정밀도, 검토 비용을 비교한다. | Benchmark |
 | [사례 166. Legora의 11월 법률 문서 벤치마크](#case-166) | [컴퓨터 사용 및 통신](#category-communication) | 같은 실무 과제에서 결과의 품질과 건당 비용을 비교한다. | Benchmark |
 | [사례 167. Xplore의 엔지니어링 설계 벤치마크에서 Sol 평가](#case-167) | [3D 장면 및 모델링](#category-three) | CAD 작업이 포함된 평가 세트에서 작업 점수와 실행당 비용을 비교한다. | Benchmark |
 | [사례 168. Ruby Ascent 발사대 장면](#case-168) | [3D 장면 및 모델링](#category-three) | 동일한 발사대를 묘사한 네 결과에서 장면의 디테일과 제작 시간을 비교한다. | Evaluation |
@@ -220,8 +230,175 @@
 | [사례 58. 단일 HTML Three.js 블랙홀](#case-58) | [3D 장면 및 모델링](#category-three) | 클립과 스틸을 사용하여 한 장면이 여러 시점을 처리하는 방법을 검사합니다. | Demo |
 | [사례 59. 떠다니는 Three.js 궁전](#case-59) | [3D 장면 및 모델링](#category-three) | 여러 각도에서 매달린 궁전의 규모와 모습을 살펴보세요. | Demo |
 
+<a id="category-communication"></a>
+## 💬 컴퓨터 사용 및 통신
+
+<a id="case-176"></a>
+### 사례 176: [두 가지 추론 강도에서 문서 파싱 비교](https://x.com/jerryjliu0/status/2123945742872293505) (작성자 [@jerryjliu0](https://x.com/jerryjliu0))
+
+**문서 파싱 종합 점수, 차트 파싱 점수, 페이지당 비용을 비교한다.**
+
+LlamaIndex의 ParseBench 2 차트에서 Sol의 종합 점수는 medium에서 82.12, low에서 79.12였다. 페이지당 비용은 각각 2.468센트와 2.289센트로, 미국 달러 기준이다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-176/2123945732264923137-2fc287ffe70da3991916.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-176/2123945732264923137-2fc287ffe70da3991916.jpg" width="640" alt="소스 미리보기 1 · 두 가지 추론 강도에서 문서 파싱 비교"></a>
+
+Type: Benchmark | Date: 2026-11-21
+
+---
+
+<a id="case-178"></a>
+### 사례 178: [Company Agent Bench의 직장 업무 과제](https://x.com/joshzqin/status/2123877558815281377) (작성자 [@joshzqin](https://x.com/joshzqin))
+
+**각 모델에 적용한 추론 설정을 확인하고 보고된 정확도를 비교한다.**
+
+벤치마크에서 공개한 차트에 따르면 종합 정확도는 Sol high가 76.4%, Astra high가 79.7%, Gemini Neon low가 85.3%였다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123877042928406528-4b38126f911f97edc79e.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-178/2123877042928406528-poster-9f579bb51eb76959e68a.jpg" width="640" alt="소스 미리보기 1 · Company Agent Bench의 직장 업무 과제"></a>
+
+[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123877042928406528-4b38126f911f97edc79e.mp4)
+
+Type: Benchmark | Date: 2026-11-20
+
+---
+
+<a id="case-181"></a>
+### 사례 181: [마케팅 과제로 모델 비교](https://x.com/boringmarketer/status/2123843589063008291) (작성자 [@boringmarketer](https://x.com/boringmarketer))
+
+**과제별 선호도를 비용과 투표 수와 함께 확인한다.**
+
+작성자는 15가지 과제에서 Sol, Opus 5.5, Gemini 4 Neon을 비교했다. 결과를 일대일로 비교하는 투표에 4,700표 넘게 모였다. Sol은 58%를 득표했고 보고된 과제당 비용은 0.04달러였다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-181/2123826094998437888-9c51ceb178cca88b8b96.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-181/2123826094998437888-9c51ceb178cca88b8b96.jpg" width="640" alt="소스 미리보기 1 · 마케팅 과제로 모델 비교"></a>
+
+Type: Benchmark | Date: 2026-11-20
+
+---
+
+<a id="case-185"></a>
+### 사례 185: [CodeRabbit으로 풀 리퀘스트 검토](https://www.coderabbit.ai/blog/gpt-6-2-sol-and-astra-review) (작성자 [@CodeRabbit](https://www.coderabbit.ai/))
+
+**파이프라인 설정별로 탐지한 알려진 문제, 보고된 정밀도, 검토 비용을 비교한다.**
+
+CodeRabbit은 알려진 문제 81개 중 Sol 6.2 high에서 60개를, 비교 기준인 6.1 high에서 58개를 탐지했다. 파이프라인 설정은 서로 달랐으며 각각 한 번씩 실행했다.
+
+[벤치마크 상세 정보](https://www.coderabbit.ai/blog/gpt-6-2-sol-and-astra-review#heading-sol-62-versus-sol-61)
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-185/coderabbit-50580780-sol-review-table-9cd3782931e24f3a6d35.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-185/coderabbit-50580780-sol-review-table-9cd3782931e24f3a6d35.png" width="640" alt="소스 미리보기 1 · CodeRabbit으로 풀 리퀘스트 검토"></a>
+
+Type: Benchmark | Date: 2026-11-19
+
+---
+
+<a id="case-166"></a>
+### 사례 166: [Legora의 11월 법률 문서 벤치마크](https://x.com/WeAreLegora/status/2123460359017144769) (작성자 [@WeAreLegora](https://x.com/WeAreLegora))
+
+**같은 실무 과제에서 결과의 품질과 건당 비용을 비교한다.**
+
+Legora는 Sol의 품질이 평균을 넘었으며 건당 비용은 11월 모델 평균보다 78% 낮았다고 보고했다. 차트에서 모델별 결과를 비교할 수 있다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123460256260870144-6da8a1113b471ce42386.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-166/2123460256260870144-poster-5c1a0e947f184ffb782e.jpg" width="640" alt="소스 미리보기 1 · Legora의 11월 법률 문서 벤치마크"></a>
+
+[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123460256260870144-6da8a1113b471ce42386.mp4)
+
+Type: Benchmark | Date: 2026-11-19
+
+---
+
+<a id="case-170"></a>
+### 사례 170: [AI Village에서 각자 답한 프로필 질문](https://x.com/aidigest_/status/2123446497442447399) (작성자 [@aidigest_](https://x.com/aidigest_))
+
+**두 에이전트가 같은 프로필 질문지에 독립적으로 어떻게 답하는지 비교한다.**
+
+AI Digest는 AI Village에 Sol과 Astra를 추가하고 15개 질문에 대한 답을 공개했다. 둘 다 Tampopo, Onitsuka Tiger 신발, 파를 넣은 팬케이크를 골랐다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-170/2123446488605114368-ecc6833b877fae0e1433.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-170/2123446488605114368-ecc6833b877fae0e1433.jpg" width="640" alt="소스 미리보기 1 · AI Village에서 각자 답한 프로필 질문"></a>
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-170/2123446492765798400-c64a85a5d0d85d04cf39.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-170/2123446492765798400-c64a85a5d0d85d04cf39.jpg" width="640" alt="소스 미리보기 2 · AI Village에서 각자 답한 프로필 질문"></a>
+
+Type: Integration | Date: 2026-11-19
+
+---
+
+<a id="case-124"></a>
+### 사례 124: [저장소 지침을 놓친 풀 리퀘스트 상태 보고서](https://x.com/Fei2411/status/2123354076771692631) (작성자 [@Fei2411](https://x.com/Fei2411))
+
+**짧은 상태 보고 요청에 대한 답변의 구체성과 구성을 비교한다.**
+
+작성자는 Sol과 Gemini 4 Neon에 같은 풀 리퀘스트 보고를 요청했다. Sol의 요약이 지나치게 간략했고 AGENTS.md의 지침도 따르지 않았다고 밝혔다.
+
+**프롬프트:**
+
+```
+现在有哪些pr
+```
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-124/2123354068013993984-19d626fb5c30bc9b2a19.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-124/2123354068013993984-19d626fb5c30bc9b2a19.jpg" width="640" alt="소스 미리보기 1 · 저장소 지침을 놓친 풀 리퀘스트 상태 보고서"></a>
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-124/2123354067988824064-5ec42709de761e85172e.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-124/2123354067988824064-5ec42709de761e85172e.jpg" width="640" alt="소스 미리보기 2 · 저장소 지침을 놓친 풀 리퀘스트 상태 보고서"></a>
+
+Type: Limit | Date: 2026-11-19
+
+---
+
+<a id="case-141"></a>
+### 사례 141: [AITuber OnAir에서 캐릭터와 대화](https://x.com/shinshin86/status/2123040784710869031) (작성자 [@shinshin86](https://x.com/shinshin86))
+
+**실시간 캐릭터 대화에서 추론 강도를 조절해 본다.**
+
+개발자는 AITuber OnAir에 Sol을 추가하고 대화를 시연했다. 대화 속도를 고려해 기본 추론 강도는 low이며 사용자가 이를 조절할 수 있다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123040557064966144-63e1c247fbe9574434f1.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-141/2123040557064966144-poster-096943e3ee853b4f4a62.jpg" width="640" alt="소스 미리보기 1 · AITuber OnAir에서 캐릭터와 대화"></a>
+
+[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123040557064966144-63e1c247fbe9574434f1.mp4)
+
+Type: Integration | Date: 2026-11-18
+
+---
+
+<a id="case-155"></a>
+### 사례 155: [FrontDesk-Bench의 모의 병원 전화 응대](https://x.com/muratcan/status/2122914581454487838) (작성자 [@muratcan](https://x.com/muratcan))
+
+**안전하지 않은 조치와 정당한 요청에 대한 거절을 따로 집계한다.**
+
+벤치마크 개발자는 모의 접수 테스트에서 Sol의 안전하지 않은 응대가 16건에서 9건으로 줄었다고 보고했다. 신형 모델에서 정당한 요청을 거절한 사례도 늘었다고 밝혔다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-155/2122905857700585472-c7658e9ed55fe97f9cbb.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-155/2122905857700585472-c7658e9ed55fe97f9cbb.jpg" width="640" alt="소스 미리보기 1 · FrontDesk-Bench의 모의 병원 전화 응대"></a>
+
+Type: Benchmark | Date: 2026-11-18
+
+---
+
+<a id="case-43"></a>
+### 사례 43: [메시지를 전달하려는 아직 끝나지 않은 시도](https://x.com/SadAlbert10/status/2119428297092460613) (작성자 [@SadAlbert10](https://x.com/SadAlbert10))
+
+**데스크톱 워크플로가 중지된 위치를 확인하는 시도를 사용하세요.**
+
+스크린샷은 메시지 전달 요청 후 수신자를 찾으려는 시도를 보여줍니다. 메시지가 전송되기 전에 작업이 종료되었습니다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-43/2119428121711775744-8419b4e0c62aa252d1dc.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-43/2119428121711775744-8419b4e0c62aa252d1dc.jpg" width="640" alt="소스 미리보기 1 · 메시지를 전달하려는 아직 끝나지 않은 시도"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-43/2119428270945140736-f9662043dadb9a6e4b1b.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-43/2119428270945140736-f9662043dadb9a6e4b1b.jpg" width="640" alt="소스 미리보기 2 · 메시지를 전달하려는 아직 끝나지 않은 시도"></a>
+
+Type: Limit | Date: 2026-11-08
+
+---
+
 <a id="category-graphics"></a>
 ## 🎨 창의적인 그래픽과 애니메이션
+
+<a id="case-177"></a>
+### 사례 177: [해 질 녘 자전거를 타는 네 가지 애니메이션](https://x.com/jony_palino/status/2123889278501495127) (작성자 [@jony_palino](https://x.com/jony_palino))
+
+**네 결과의 탑승자 움직임, 자전거 비율, 장면의 조명을 비교한다.**
+
+제작자는 Sol, Gemini 4 Neon, DeepSeek V4.1 Flash, Claude Fable 5.2의 결과에 모델명을 붙여 공개했다. Sol의 애니메이션은 왼쪽 아래에 배치됐다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123888706998218752-2fde673e71773bed63c5.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-177/2123888706998218752-poster-c43c4d2e3c43cad44fb4.jpg" width="640" alt="소스 미리보기 1 · 해 질 녘 자전거를 타는 네 가지 애니메이션"></a>
+
+[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123888706998218752-2fde673e71773bed63c5.mp4)
+
+Type: Evaluation | Date: 2026-11-20
+
+---
 
 <a id="case-159"></a>
 ### 사례 159: [정지 프레임에서 완성 영상까지](https://x.com/0xkhalid7/status/2123661187376451845) (작성자 [@0xkhalid7](https://x.com/0xkhalid7))
@@ -943,246 +1120,40 @@ Type: Demo | Date: 2026-11-08
 
 ---
 
-<a id="category-game"></a>
-## 🎮 게임 개발
+<a id="category-three"></a>
+## 🧊 3D 장면 및 모델링
 
-<a id="case-160"></a>
-### 사례 160: [Codex로 만든 1인칭 게임 프로토타입 두 개](https://x.com/shownotover/status/2123599696526717303) (작성자 [@shownotover](https://x.com/shownotover))
+<a id="case-179"></a>
+### 사례 179: [스칼렛 피오르를 가로지르는 케이블카](https://x.com/EnvolDev/status/2123876031346200772) (작성자 [@EnvolDev](https://x.com/EnvolDev))
 
-**레벨 구성과 플레이 경험을 기록된 비용과 함께 비교한다.**
+**네 렌더링에서 객실과 주변 풍경을 어떻게 구현했는지 비교한다.**
 
-제작자는 Sol과 Astra에 같은 과제를 주고 두 프로토타입을 공개했다. Sol Max 실행은 42분이 걸렸으며 제작자 추정 API 사용 비용은 2.42달러였다.
+제작자는 동일한 장면의 결과 네 개를 비교하고 객실의 세부 표현은 Astra를 선호했다. 보고된 Sol 실행 시간은 38분 28초였고 비용은 1.62달러였다.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123599517236817921-3ec7dd5b18f3301d8be3.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-160/2123599517236817921-poster-c1f1354e1c265c950177.jpg" width="640" alt="소스 미리보기 1 · Codex로 만든 1인칭 게임 프로토타입 두 개"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123831977287761920-470f192dfb8387e2be60.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-179/2123831977287761920-poster-358738b7044aa1397a60.jpg" width="640" alt="소스 미리보기 1 · 스칼렛 피오르를 가로지르는 케이블카"></a>
 
-[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123599517236817921-3ec7dd5b18f3301d8be3.mp4)
+[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123831977287761920-470f192dfb8387e2be60.mp4)
 
 Type: Evaluation | Date: 2026-11-20
 
 ---
 
-<a id="case-161"></a>
-### 사례 161: [Blender 에셋으로 만든 아늑한 마을 게임](https://x.com/TokenGremlin/status/2123574805723058647) (작성자 [@TokenGremlin](https://x.com/TokenGremlin))
+<a id="case-183"></a>
+### 사례 183: [참조 이미지로 Blender에서 만든 토끼](https://x.com/GeppiiKameWorks/status/2123827794778140687) (작성자 [@GeppiiKameWorks](https://x.com/GeppiiKameWorks))
 
-**모델링한 오브젝트와 애니메이션이 게임 장면에서 어떻게 어우러지는지 살핀다.**
+**생성된 참조 이미지에서 시작해 완성한 모델의 형태를 여러 각도에서 확인한다.**
 
-제작자는 Sol을 Ultrafast 모드로 실행해 게임을 만들고 Blender로 모델링과 애니메이션을 작업했다. 영상에는 마을을 돌아다니는 캐릭터들이 나온다.
+제작자는 Codex에서 Sol에 생성 이미지를 주고 게임 개발용으로 모델링한 결과를 공개했다. 영상에서 Blender로 만든 토끼를 여러 각도에서 볼 수 있다.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123574639729238016-d185275dff479ab97456.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-161/2123574639729238016-poster-ab2ca719508bdf4d61d7.jpg" width="640" alt="소스 미리보기 1 · Blender 에셋으로 만든 아늑한 마을 게임"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-183/2123827569682419712-2a5b033b284c30a76bec.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-183/2123827569682419712-2a5b033b284c30a76bec.jpg" width="640" alt="소스 미리보기 1 · 참조 이미지로 Blender에서 만든 토끼"></a>
 
-[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123574639729238016-d185275dff479ab97456.mp4)
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123827600791638017-776fe4105084a1dd4a3a.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-183/2123827600791638017-poster-ef6546c38da30bd36a58.jpg" width="640" alt="소스 미리보기 2 · 참조 이미지로 Blender에서 만든 토끼"></a>
+
+[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123827600791638017-776fe4105084a1dd4a3a.mp4)
 
 Type: Demo | Date: 2026-11-20
 
 ---
-
-<a id="case-165"></a>
-### 사례 165: [Crusader Bench에서 정착지 운영하기](https://x.com/Hesamation/status/2123528773140197579) (작성자 [@Hesamation](https://x.com/Hesamation))
-
-**채점 대상 지도와 게임 조건을 동일하게 두고 에이전트의 플레이를 비교한다.**
-
-벤치마크 제작자는 순위표 스냅샷과 플레이 영상을 공개했다. 상세 순위표에서는 추론 강도 medium의 Sol이 세 지도 전체에서 79.5점을 기록했다.
-
-[벤치마크 상세 정보](https://crusbench.com/)
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-165/2123528764608909312-da8dce5fbd2110f3efd7.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-165/2123528764608909312-da8dce5fbd2110f3efd7.jpg" width="640" alt="소스 미리보기 1 · Crusader Bench에서 정착지 운영하기"></a>
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-165/2123528764613091328-7c18d649149711d41faa.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-165/2123528764613091328-7c18d649149711d41faa.jpg" width="640" alt="소스 미리보기 2 · Crusader Bench에서 정착지 운영하기"></a>
-
-Type: Benchmark | Date: 2026-11-19
-
----
-
-<a id="case-169"></a>
-### 사례 169: [MazeBench에서 공간 탐색](https://x.com/patience_cave/status/2123446669643849993) (작성자 [@patience_cave](https://x.com/patience_cave))
-
-**같은 공개 벤치마크에서 미로 완료율을 비교한다.**
-
-벤치마크 제작자는 Sol이 14%, Astra가 16%, Gemini 4 Neon이 10%를 기록했다고 보고했다. 첨부한 차트에 사용한 설정이 표시되어 있다.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-169/2123446665696993280-3509529d630c29cd9ac5.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-169/2123446665696993280-3509529d630c29cd9ac5.jpg" width="640" alt="소스 미리보기 1 · MazeBench에서 공간 탐색"></a>
-
-Type: Benchmark | Date: 2026-11-19
-
----
-
-<a id="case-175"></a>
-### 사례 175: [도구 없이 치른 체스 다섯 경기](https://x.com/argofowl/status/2123389829438406999) (작성자 [@argofowl](https://x.com/argofowl))
-
-**같은 대결에서 점수, 경기별 결과, 보고된 비용을 비교한다.**
-
-제작자는 두 모델을 모두 xhigh에서 실행했다. Sol이 3승 2무로 승점 4 대 1을 기록했다고 보고했다. 비용은 Sol이 24.39달러, Opus 5.5가 75.80달러였다.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123389747536207872-d38127bbf7f2c4de454f.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-175/2123389747536207872-poster-f2422d640187db52b79e.jpg" width="640" alt="소스 미리보기 1 · 도구 없이 치른 체스 다섯 경기"></a>
-
-[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123389747536207872-d38127bbf7f2c4de454f.mp4)
-
-Type: Benchmark | Date: 2026-11-19
-
----
-
-<a id="case-138"></a>
-### 사례 138: [포켓몬 파이어레드에서 챔피언까지](https://x.com/Clad3815/status/2123064135164576107) (작성자 [@Clad3815](https://x.com/Clad3815))
-
-**입력 방식과 추론 설정을 명시하고 게임 완료 시간을 비교한다.**
-
-제작자는 스크린샷을 입력으로 사용하고 추론 강도를 high로 설정해 Sol을 Ultrafast 모드로 실행했다. 챔피언에 도달하기까지 11시간 40분이 걸렸다고 보고했다.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-138/2123061539183726592-707694197c25ed18a424.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-138/2123061539183726592-707694197c25ed18a424.png" width="640" alt="소스 미리보기 1 · 포켓몬 파이어레드에서 챔피언까지"></a>
-
-Type: Benchmark | Date: 2026-11-18
-
----
-
-<a id="case-146"></a>
-### 사례 146: [래그돌 물리를 적용한 3D 공룡 러너](https://x.com/noclipepe/status/2122989930699792818) (작성자 [@noclipepe](https://x.com/noclipepe))
-
-**네 게임 프로토타입의 시각적 스타일과 충돌 반응을 비교한다.**
-
-제작자는 3D와 래그돌 물리를 포함한 동일한 지시를 네 모델에 전달했다. 제작자가 기록한 Sol 실행은 20분이 걸렸고 비용은 1.68달러였다.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122985283993907201-9750e48cc454af4480fd.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-146/2122985283993907201-poster-afcb4c84030cd6876301.jpg" width="640" alt="소스 미리보기 1 · 래그돌 물리를 적용한 3D 공룡 러너"></a>
-
-[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122985283993907201-9750e48cc454af4480fd.mp4)
-
-Type: Evaluation | Date: 2026-11-18
-
----
-
-<a id="case-158"></a>
-### 사례 158: [가짜 게임 광고에서 착안해 만든 플레이 가능한 게임](https://x.com/noclipepe/status/2122885577137598800) (작성자 [@noclipepe](https://x.com/noclipepe))
-
-**하나의 게임 레벨 제작 지시를 네 모델이 어떻게 구현했는지 플레이하며 비교한다.**
-
-제작자는 네 모델에 같은 프롬프트를 전달했으며 플레이어가 패배할 수도 있음을 보여 줬다. Sol 실행은 21분이 걸렸고 비용은 1.04달러였다.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122882602663124992-7fe424c3649edbe814fc.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-158/2122882602663124992-poster-65013bb3e5cef1833a1e.jpg" width="640" alt="소스 미리보기 1 · 가짜 게임 광고에서 착안해 만든 플레이 가능한 게임"></a>
-
-[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122882602663124992-7fe424c3649edbe814fc.mp4)
-
-Type: Evaluation | Date: 2026-11-18
-
----
-
-<a id="case-78"></a>
-### 사례 78: [소코반 방 테스트 세트 완주](https://x.com/banteg/status/2122826622638137666) (작성자 [@banteg](https://x.com/banteg))
-
-**통과한 방 수를 기록하고 플레이를 돌려 보며 막히는 구간을 찾는다.**
-
-작성자는 Sol과 Astra를 medium으로 테스트했다. 두 모델 모두 이번에 66개 방을 모두 통과했으며, 게시 당시 작성자 순위표에서 Sol은 2위, Astra는 3위였다.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122826155086512128-d2a8456da3a5a99263f5.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-78/2122826155086512128-poster-4a2c4bee2b8d9510e347.jpg" width="640" alt="소스 미리보기 1 · 소코반 방 테스트 세트 완주"></a>
-
-[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122826155086512128-d2a8456da3a5a99263f5.mp4)
-
-Type: Benchmark | Date: 2026-11-17
-
----
-
-<a id="case-93"></a>
-### 사례 93: [RuneScape 퀘스트 두 개 완료](https://x.com/maxbittker/status/2122783334216466487) (작성자 [@maxbittker](https://x.com/maxbittker))
-
-**에이전트가 고른 퀘스트와 수령한 보상을 확인한다.**
-
-벤치마크 관리자는 Sol과 Astra가 각각 한 번의 실행에서 퀘스트 두 개에 도전하고 양쪽 보상을 수령했다고 보고했다.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-93/2122782503542960128-31be885019f467cb7472.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-93/2122782503542960128-31be885019f467cb7472.jpg" width="640" alt="소스 미리보기 1 · RuneScape 퀘스트 두 개 완료"></a>
-
-Type: Benchmark | Date: 2026-11-17
-
----
-
-<a id="case-95"></a>
-### 사례 95: [터치 조작을 지원하는 멀티플레이어 브라우저 게임](https://x.com/VraserX/status/2122770481975837145) (작성자 [@VraserX](https://x.com/VraserX))
-
-**새 빌드를 플레이하며 조작 방식의 개선점을 구체적으로 전달한다.**
-
-개발자는 터치 조작을 포함해 빌드를 테스트하면서 Sol을 사용해 16대16 프로토타입을 구현하고 디버깅하고 수정했다고 보고했다.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122770342842077184-c89268a9c06156333c45.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-95/2122770342842077184-poster-c5a1ebf986d6362bd35d.jpg" width="640" alt="소스 미리보기 1 · 터치 조작을 지원하는 멀티플레이어 브라우저 게임"></a>
-
-[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122770342842077184-c89268a9c06156333c45.mp4)
-
-Type: Demo | Date: 2026-11-17
-
----
-
-<a id="case-97"></a>
-### 사례 97: [마을을 건설하는 브라우저 게임 Lanternkeep](https://x.com/AdamHoltererer/status/2122766741881413818) (작성자 [@AdamHoltererer](https://x.com/AdamHoltererer))
-
-**지도와 목표 패널이 마을을 건설하는 과정에 어떻게 쓰이는지 확인한다.**
-
-제작자는 Sol로 게임을 만들었다고 밝혔다. 녹화에는 조작할 수 있는 마을 지도와 목표 패널이 나온다.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122766701477367808-c628e4fc3e8c14dc15d8.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-97/2122766701477367808-poster-50e4bfea19c965f6d231.jpg" width="640" alt="소스 미리보기 1 · 마을을 건설하는 브라우저 게임 Lanternkeep"></a>
-
-[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122766701477367808-c628e4fc3e8c14dc15d8.mp4)
-
-Type: Demo | Date: 2026-11-17
-
----
-
-<a id="case-99"></a>
-### 사례 99: [스크린샷만으로 포켓몬 파이어레드 플레이](https://x.com/Clad3815/status/2122763941675995209) (작성자 [@Clad3815](https://x.com/Clad3815))
-
-**게임 에이전트의 주요 진행 지점과 완료 시간을 기록한다.**
-
-테스트 담당자는 스크린샷을 입력으로 사용하고 추론 강도를 high로 설정했다고 보고했다. 이 테스트에서 Sol은 15시간 34분이 걸렸으며 첫 체육관 관장에게 Astra보다 먼저 도달했다.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-99/2122763933345890304-ffe6b4053f347b1d4d5f.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-99/2122763933345890304-ffe6b4053f347b1d4d5f.jpg" width="640" alt="소스 미리보기 1 · 스크린샷만으로 포켓몬 파이어레드 플레이"></a>
-
-Type: Benchmark | Date: 2026-11-17
-
----
-
-<a id="case-67"></a>
-### 사례 67: [해안 도로 레이싱 게임 시제품](https://x.com/Stargridcompass/status/2119683294220390638) (작성자 [@Stargridcompass](https://x.com/Stargridcompass))
-
-**경주 중 카운트다운, 속도 표시, 코스 지도를 읽기 쉬운지 확인해 보세요.**
-
-녹화에는 출발 대열과 경주 중인 모습이 나옵니다. 작성자는 제작에 16분이 걸렸다고 밝혔습니다.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119682250472112128-81f053c6ffe2a4aae055.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-67/2119682250472112128-poster-526c85969a54c7f93833.jpg" width="640" alt="소스 미리보기 1 · 해안 도로 레이싱 게임 시제품"></a>
-
-[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119682250472112128-81f053c6ffe2a4aae055.mp4)
-
-Type: Demo | Date: 2026-11-09
-
----
-
-<a id="case-62"></a>
-### 사례 62: [브라우저 속 루빅스 큐브](https://x.com/VeknQAQ/status/2119633751173173475) (작성자 [@VeknQAQ](https://x.com/VeknQAQ))
-
-**미리보기에서 큐브의 회전과 스티커 배치를 확인해 보세요.**
-
-녹화에는 맞춰진 상태와 뒤섞인 상태의 3D 큐브, 브라우저 조작 버튼이 나옵니다.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119633608680124416-44e5b8b00d129caeba34.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-62/2119633608680124416-poster-1ea9e2acda539d582293.jpg" width="640" alt="소스 미리보기 1 · 브라우저 속 루빅스 큐브"></a>
-
-[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119633608680124416-44e5b8b00d129caeba34.mp4)
-
-Type: Demo | Date: 2026-11-09
-
----
-
-<a id="case-17"></a>
-### 사례 17: [PELICAN PANIC 복셀 추격 게임](https://x.com/Ananth7e/status/2119479157633786246) (작성자 [@Ananth7e](https://x.com/Ananth7e))
-
-**컨트롤, 피드백, 종료 상태를 검사하려면 짧은 추격 게임을 사용하세요.**
-
-영상에는 펠리컨을 타고 감자 괴물을 피해 탈출하는 라이더의 모습이 담겨 있습니다. 점수와 탈출 완료 화면 「Escaped」이 표시됩니다.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119478839500013568-2ec29cee42e54d0bf9c5.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-17/2119478839500013568-poster-3716db2a9abc6cf0e264.jpg" width="640" alt="소스 미리보기 1 · PELICAN PANIC 복셀 추격 게임"></a>
-
-[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119478839500013568-2ec29cee42e54d0bf9c5.mp4)
-
-
-Type: Demo | Date: 2026-11-08
-
----
-
-<a id="category-three"></a>
-## 🧊 3D 장면 및 모델링
 
 <a id="case-162"></a>
 ### 사례 162: [실내 사진으로 아파트 평면도 만들기](https://x.com/andonlabs/status/2123570732575989832) (작성자 [@andonlabs](https://x.com/andonlabs))
@@ -2629,104 +2600,295 @@ Type: Demo | Date: 2026-11-08
 
 ---
 
-<a id="category-communication"></a>
-## 💬 컴퓨터 사용 및 통신
+<a id="category-game"></a>
+## 🎮 게임 개발
 
-<a id="case-166"></a>
-### 사례 166: [Legora의 11월 법률 문서 벤치마크](https://x.com/WeAreLegora/status/2123460359017144769) (작성자 [@WeAreLegora](https://x.com/WeAreLegora))
+<a id="case-180"></a>
+### 사례 180: [게임 개발 결과물 선호도와 생성 비용](https://x.com/DesignArena/status/2123861437579677965) (작성자 [@DesignArena](https://x.com/DesignArena))
 
-**같은 실무 과제에서 결과의 품질과 건당 비용을 비교한다.**
+**같은 게임 디자인 평가에서 선호도 순위, 평균 생성 시간, 비용을 비교한다.**
 
-Legora는 Sol의 품질이 평균을 넘었으며 건당 비용은 11월 모델 평균보다 78% 낮았다고 보고했다. 차트에서 모델별 결과를 비교할 수 있다.
+DesignArena에 따르면 Sol high는 Game Dev 순위표에서 3위였다. 공개된 비교 결과에서 한 번 생성하는 데 평균 4.6분과 0.22달러가 들었다.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123460256260870144-6da8a1113b471ce42386.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-166/2123460256260870144-poster-5c1a0e947f184ffb782e.jpg" width="640" alt="소스 미리보기 1 · Legora의 11월 법률 문서 벤치마크"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-180/2123854486779342848-cda5e7e7633564f2e0ba.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-180/2123854486779342848-cda5e7e7633564f2e0ba.jpg" width="640" alt="소스 미리보기 1 · 게임 개발 결과물 선호도와 생성 비용"></a>
 
-[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123460256260870144-6da8a1113b471ce42386.mp4)
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123854486783614976-f8e2d2fdd67f7208de36.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-180/2123854486783614976-poster-ef46fd7a1baf7d0adca6.jpg" width="640" alt="소스 미리보기 2 · 게임 개발 결과물 선호도와 생성 비용"></a>
+
+[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123854486783614976-f8e2d2fdd67f7208de36.mp4)
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123854486783553536-39929a7046f4320fcbe0.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-180/2123854486783553536-poster-ca1b824639356cc997b7.jpg" width="640" alt="소스 미리보기 3 · 게임 개발 결과물 선호도와 생성 비용"></a>
+
+[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123854486783553536-39929a7046f4320fcbe0.mp4)
+
+Type: Benchmark | Date: 2026-11-20
+
+---
+
+<a id="case-182"></a>
+### 사례 182: [산책길을 휴대용 게임으로 구현](https://x.com/sriramkiron/status/2123829426177912918) (작성자 [@sriramkiron](https://x.com/sriramkiron))
+
+**산책 중 관찰한 내용이 다시 둘러볼 수 있는 게임 장면으로 바뀌는 과정을 살핀다.**
+
+제작자는 Corner Walk 프로젝트에서 GPS, 카메라, GPT-Live-1.1로 산책 중 관찰한 내용을 기록했다. Sol Ultrafast로 이 입력을 ModRetro용 게임으로 만들고 실제 기기에서 실행하는 모습을 공개했다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123826091110383617-45fec4a74a3832012d99.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-182/2123826091110383617-poster-e20d4211d23da7c7ceec.jpg" width="640" alt="소스 미리보기 1 · 산책길을 휴대용 게임으로 구현"></a>
+
+[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123826091110383617-45fec4a74a3832012d99.mp4)
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-160"></a>
+### 사례 160: [Codex로 만든 1인칭 게임 프로토타입 두 개](https://x.com/shownotover/status/2123599696526717303) (작성자 [@shownotover](https://x.com/shownotover))
+
+**레벨 구성과 플레이 경험을 기록된 비용과 함께 비교한다.**
+
+제작자는 Sol과 Astra에 같은 과제를 주고 두 프로토타입을 공개했다. Sol Max 실행은 42분이 걸렸으며 제작자 추정 API 사용 비용은 2.42달러였다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123599517236817921-3ec7dd5b18f3301d8be3.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-160/2123599517236817921-poster-c1f1354e1c265c950177.jpg" width="640" alt="소스 미리보기 1 · Codex로 만든 1인칭 게임 프로토타입 두 개"></a>
+
+[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123599517236817921-3ec7dd5b18f3301d8be3.mp4)
+
+Type: Evaluation | Date: 2026-11-20
+
+---
+
+<a id="case-161"></a>
+### 사례 161: [Blender 에셋으로 만든 아늑한 마을 게임](https://x.com/TokenGremlin/status/2123574805723058647) (작성자 [@TokenGremlin](https://x.com/TokenGremlin))
+
+**모델링한 오브젝트와 애니메이션이 게임 장면에서 어떻게 어우러지는지 살핀다.**
+
+제작자는 Sol을 Ultrafast 모드로 실행해 게임을 만들고 Blender로 모델링과 애니메이션을 작업했다. 영상에는 마을을 돌아다니는 캐릭터들이 나온다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123574639729238016-d185275dff479ab97456.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-161/2123574639729238016-poster-ab2ca719508bdf4d61d7.jpg" width="640" alt="소스 미리보기 1 · Blender 에셋으로 만든 아늑한 마을 게임"></a>
+
+[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123574639729238016-d185275dff479ab97456.mp4)
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-165"></a>
+### 사례 165: [Crusader Bench에서 정착지 운영하기](https://x.com/Hesamation/status/2123528773140197579) (작성자 [@Hesamation](https://x.com/Hesamation))
+
+**채점 대상 지도와 게임 조건을 동일하게 두고 에이전트의 플레이를 비교한다.**
+
+벤치마크 제작자는 순위표 스냅샷과 플레이 영상을 공개했다. 상세 순위표에서는 추론 강도 medium의 Sol이 세 지도 전체에서 79.5점을 기록했다.
+
+[벤치마크 상세 정보](https://crusbench.com/)
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-165/2123528764608909312-da8dce5fbd2110f3efd7.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-165/2123528764608909312-da8dce5fbd2110f3efd7.jpg" width="640" alt="소스 미리보기 1 · Crusader Bench에서 정착지 운영하기"></a>
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-165/2123528764613091328-7c18d649149711d41faa.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-165/2123528764613091328-7c18d649149711d41faa.jpg" width="640" alt="소스 미리보기 2 · Crusader Bench에서 정착지 운영하기"></a>
 
 Type: Benchmark | Date: 2026-11-19
 
 ---
 
-<a id="case-170"></a>
-### 사례 170: [AI Village에서 각자 답한 프로필 질문](https://x.com/aidigest_/status/2123446497442447399) (작성자 [@aidigest_](https://x.com/aidigest_))
+<a id="case-169"></a>
+### 사례 169: [MazeBench에서 공간 탐색](https://x.com/patience_cave/status/2123446669643849993) (작성자 [@patience_cave](https://x.com/patience_cave))
 
-**두 에이전트가 같은 프로필 질문지에 독립적으로 어떻게 답하는지 비교한다.**
+**같은 공개 벤치마크에서 미로 완료율을 비교한다.**
 
-AI Digest는 AI Village에 Sol과 Astra를 추가하고 15개 질문에 대한 답을 공개했다. 둘 다 Tampopo, Onitsuka Tiger 신발, 파를 넣은 팬케이크를 골랐다.
+벤치마크 제작자는 Sol이 14%, Astra가 16%, Gemini 4 Neon이 10%를 기록했다고 보고했다. 첨부한 차트에 사용한 설정이 표시되어 있다.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-170/2123446488605114368-ecc6833b877fae0e1433.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-170/2123446488605114368-ecc6833b877fae0e1433.jpg" width="640" alt="소스 미리보기 1 · AI Village에서 각자 답한 프로필 질문"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-169/2123446665696993280-3509529d630c29cd9ac5.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-169/2123446665696993280-3509529d630c29cd9ac5.jpg" width="640" alt="소스 미리보기 1 · MazeBench에서 공간 탐색"></a>
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-170/2123446492765798400-c64a85a5d0d85d04cf39.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-170/2123446492765798400-c64a85a5d0d85d04cf39.jpg" width="640" alt="소스 미리보기 2 · AI Village에서 각자 답한 프로필 질문"></a>
-
-Type: Integration | Date: 2026-11-19
+Type: Benchmark | Date: 2026-11-19
 
 ---
 
-<a id="case-124"></a>
-### 사례 124: [저장소 지침을 놓친 풀 리퀘스트 상태 보고서](https://x.com/Fei2411/status/2123354076771692631) (작성자 [@Fei2411](https://x.com/Fei2411))
+<a id="case-175"></a>
+### 사례 175: [도구 없이 치른 체스 다섯 경기](https://x.com/argofowl/status/2123389829438406999) (작성자 [@argofowl](https://x.com/argofowl))
 
-**짧은 상태 보고 요청에 대한 답변의 구체성과 구성을 비교한다.**
+**같은 대결에서 점수, 경기별 결과, 보고된 비용을 비교한다.**
 
-작성자는 Sol과 Gemini 4 Neon에 같은 풀 리퀘스트 보고를 요청했다. Sol의 요약이 지나치게 간략했고 AGENTS.md의 지침도 따르지 않았다고 밝혔다.
+제작자는 두 모델을 모두 xhigh에서 실행했다. Sol이 3승 2무로 승점 4 대 1을 기록했다고 보고했다. 비용은 Sol이 24.39달러, Opus 5.5가 75.80달러였다.
 
-**프롬프트:**
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123389747536207872-d38127bbf7f2c4de454f.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-175/2123389747536207872-poster-f2422d640187db52b79e.jpg" width="640" alt="소스 미리보기 1 · 도구 없이 치른 체스 다섯 경기"></a>
 
-```
-现在有哪些pr
-```
+[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123389747536207872-d38127bbf7f2c4de454f.mp4)
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-124/2123354068013993984-19d626fb5c30bc9b2a19.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-124/2123354068013993984-19d626fb5c30bc9b2a19.jpg" width="640" alt="소스 미리보기 1 · 저장소 지침을 놓친 풀 리퀘스트 상태 보고서"></a>
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-124/2123354067988824064-5ec42709de761e85172e.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-124/2123354067988824064-5ec42709de761e85172e.jpg" width="640" alt="소스 미리보기 2 · 저장소 지침을 놓친 풀 리퀘스트 상태 보고서"></a>
-
-Type: Limit | Date: 2026-11-19
+Type: Benchmark | Date: 2026-11-19
 
 ---
 
-<a id="case-141"></a>
-### 사례 141: [AITuber OnAir에서 캐릭터와 대화](https://x.com/shinshin86/status/2123040784710869031) (작성자 [@shinshin86](https://x.com/shinshin86))
+<a id="case-138"></a>
+### 사례 138: [포켓몬 파이어레드에서 챔피언까지](https://x.com/Clad3815/status/2123064135164576107) (작성자 [@Clad3815](https://x.com/Clad3815))
 
-**실시간 캐릭터 대화에서 추론 강도를 조절해 본다.**
+**입력 방식과 추론 설정을 명시하고 게임 완료 시간을 비교한다.**
 
-개발자는 AITuber OnAir에 Sol을 추가하고 대화를 시연했다. 대화 속도를 고려해 기본 추론 강도는 low이며 사용자가 이를 조절할 수 있다.
+제작자는 스크린샷을 입력으로 사용하고 추론 강도를 high로 설정해 Sol을 Ultrafast 모드로 실행했다. 챔피언에 도달하기까지 11시간 40분이 걸렸다고 보고했다.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123040557064966144-63e1c247fbe9574434f1.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-141/2123040557064966144-poster-096943e3ee853b4f4a62.jpg" width="640" alt="소스 미리보기 1 · AITuber OnAir에서 캐릭터와 대화"></a>
-
-[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123040557064966144-63e1c247fbe9574434f1.mp4)
-
-Type: Integration | Date: 2026-11-18
-
----
-
-<a id="case-155"></a>
-### 사례 155: [FrontDesk-Bench의 모의 병원 전화 응대](https://x.com/muratcan/status/2122914581454487838) (작성자 [@muratcan](https://x.com/muratcan))
-
-**안전하지 않은 조치와 정당한 요청에 대한 거절을 따로 집계한다.**
-
-벤치마크 개발자는 모의 접수 테스트에서 Sol의 안전하지 않은 응대가 16건에서 9건으로 줄었다고 보고했다. 신형 모델에서 정당한 요청을 거절한 사례도 늘었다고 밝혔다.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-155/2122905857700585472-c7658e9ed55fe97f9cbb.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-155/2122905857700585472-c7658e9ed55fe97f9cbb.jpg" width="640" alt="소스 미리보기 1 · FrontDesk-Bench의 모의 병원 전화 응대"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-138/2123061539183726592-707694197c25ed18a424.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-138/2123061539183726592-707694197c25ed18a424.png" width="640" alt="소스 미리보기 1 · 포켓몬 파이어레드에서 챔피언까지"></a>
 
 Type: Benchmark | Date: 2026-11-18
 
 ---
 
-<a id="case-43"></a>
-### 사례 43: [메시지를 전달하려는 아직 끝나지 않은 시도](https://x.com/SadAlbert10/status/2119428297092460613) (작성자 [@SadAlbert10](https://x.com/SadAlbert10))
+<a id="case-146"></a>
+### 사례 146: [래그돌 물리를 적용한 3D 공룡 러너](https://x.com/noclipepe/status/2122989930699792818) (작성자 [@noclipepe](https://x.com/noclipepe))
 
-**데스크톱 워크플로가 중지된 위치를 확인하는 시도를 사용하세요.**
+**네 게임 프로토타입의 시각적 스타일과 충돌 반응을 비교한다.**
 
-스크린샷은 메시지 전달 요청 후 수신자를 찾으려는 시도를 보여줍니다. 메시지가 전송되기 전에 작업이 종료되었습니다.
+제작자는 3D와 래그돌 물리를 포함한 동일한 지시를 네 모델에 전달했다. 제작자가 기록한 Sol 실행은 20분이 걸렸고 비용은 1.68달러였다.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-43/2119428121711775744-8419b4e0c62aa252d1dc.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-43/2119428121711775744-8419b4e0c62aa252d1dc.jpg" width="640" alt="소스 미리보기 1 · 메시지를 전달하려는 아직 끝나지 않은 시도"></a>
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-43/2119428270945140736-f9662043dadb9a6e4b1b.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-43/2119428270945140736-f9662043dadb9a6e4b1b.jpg" width="640" alt="소스 미리보기 2 · 메시지를 전달하려는 아직 끝나지 않은 시도"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122985283993907201-9750e48cc454af4480fd.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-146/2122985283993907201-poster-afcb4c84030cd6876301.jpg" width="640" alt="소스 미리보기 1 · 래그돌 물리를 적용한 3D 공룡 러너"></a>
 
-Type: Limit | Date: 2026-11-08
+[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122985283993907201-9750e48cc454af4480fd.mp4)
+
+Type: Evaluation | Date: 2026-11-18
+
+---
+
+<a id="case-158"></a>
+### 사례 158: [가짜 게임 광고에서 착안해 만든 플레이 가능한 게임](https://x.com/noclipepe/status/2122885577137598800) (작성자 [@noclipepe](https://x.com/noclipepe))
+
+**하나의 게임 레벨 제작 지시를 네 모델이 어떻게 구현했는지 플레이하며 비교한다.**
+
+제작자는 네 모델에 같은 프롬프트를 전달했으며 플레이어가 패배할 수도 있음을 보여 줬다. Sol 실행은 21분이 걸렸고 비용은 1.04달러였다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122882602663124992-7fe424c3649edbe814fc.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-158/2122882602663124992-poster-65013bb3e5cef1833a1e.jpg" width="640" alt="소스 미리보기 1 · 가짜 게임 광고에서 착안해 만든 플레이 가능한 게임"></a>
+
+[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122882602663124992-7fe424c3649edbe814fc.mp4)
+
+Type: Evaluation | Date: 2026-11-18
+
+---
+
+<a id="case-78"></a>
+### 사례 78: [소코반 방 테스트 세트 완주](https://x.com/banteg/status/2122826622638137666) (작성자 [@banteg](https://x.com/banteg))
+
+**통과한 방 수를 기록하고 플레이를 돌려 보며 막히는 구간을 찾는다.**
+
+작성자는 Sol과 Astra를 medium으로 테스트했다. 두 모델 모두 이번에 66개 방을 모두 통과했으며, 게시 당시 작성자 순위표에서 Sol은 2위, Astra는 3위였다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122826155086512128-d2a8456da3a5a99263f5.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-78/2122826155086512128-poster-4a2c4bee2b8d9510e347.jpg" width="640" alt="소스 미리보기 1 · 소코반 방 테스트 세트 완주"></a>
+
+[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122826155086512128-d2a8456da3a5a99263f5.mp4)
+
+Type: Benchmark | Date: 2026-11-17
+
+---
+
+<a id="case-93"></a>
+### 사례 93: [RuneScape 퀘스트 두 개 완료](https://x.com/maxbittker/status/2122783334216466487) (작성자 [@maxbittker](https://x.com/maxbittker))
+
+**에이전트가 고른 퀘스트와 수령한 보상을 확인한다.**
+
+벤치마크 관리자는 Sol과 Astra가 각각 한 번의 실행에서 퀘스트 두 개에 도전하고 양쪽 보상을 수령했다고 보고했다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-93/2122782503542960128-31be885019f467cb7472.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-93/2122782503542960128-31be885019f467cb7472.jpg" width="640" alt="소스 미리보기 1 · RuneScape 퀘스트 두 개 완료"></a>
+
+Type: Benchmark | Date: 2026-11-17
+
+---
+
+<a id="case-95"></a>
+### 사례 95: [터치 조작을 지원하는 멀티플레이어 브라우저 게임](https://x.com/VraserX/status/2122770481975837145) (작성자 [@VraserX](https://x.com/VraserX))
+
+**새 빌드를 플레이하며 조작 방식의 개선점을 구체적으로 전달한다.**
+
+개발자는 터치 조작을 포함해 빌드를 테스트하면서 Sol을 사용해 16대16 프로토타입을 구현하고 디버깅하고 수정했다고 보고했다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122770342842077184-c89268a9c06156333c45.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-95/2122770342842077184-poster-c5a1ebf986d6362bd35d.jpg" width="640" alt="소스 미리보기 1 · 터치 조작을 지원하는 멀티플레이어 브라우저 게임"></a>
+
+[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122770342842077184-c89268a9c06156333c45.mp4)
+
+Type: Demo | Date: 2026-11-17
+
+---
+
+<a id="case-97"></a>
+### 사례 97: [마을을 건설하는 브라우저 게임 Lanternkeep](https://x.com/AdamHoltererer/status/2122766741881413818) (작성자 [@AdamHoltererer](https://x.com/AdamHoltererer))
+
+**지도와 목표 패널이 마을을 건설하는 과정에 어떻게 쓰이는지 확인한다.**
+
+제작자는 Sol로 게임을 만들었다고 밝혔다. 녹화에는 조작할 수 있는 마을 지도와 목표 패널이 나온다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122766701477367808-c628e4fc3e8c14dc15d8.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-97/2122766701477367808-poster-50e4bfea19c965f6d231.jpg" width="640" alt="소스 미리보기 1 · 마을을 건설하는 브라우저 게임 Lanternkeep"></a>
+
+[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122766701477367808-c628e4fc3e8c14dc15d8.mp4)
+
+Type: Demo | Date: 2026-11-17
+
+---
+
+<a id="case-99"></a>
+### 사례 99: [스크린샷만으로 포켓몬 파이어레드 플레이](https://x.com/Clad3815/status/2122763941675995209) (작성자 [@Clad3815](https://x.com/Clad3815))
+
+**게임 에이전트의 주요 진행 지점과 완료 시간을 기록한다.**
+
+테스트 담당자는 스크린샷을 입력으로 사용하고 추론 강도를 high로 설정했다고 보고했다. 이 테스트에서 Sol은 15시간 34분이 걸렸으며 첫 체육관 관장에게 Astra보다 먼저 도달했다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-99/2122763933345890304-ffe6b4053f347b1d4d5f.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-99/2122763933345890304-ffe6b4053f347b1d4d5f.jpg" width="640" alt="소스 미리보기 1 · 스크린샷만으로 포켓몬 파이어레드 플레이"></a>
+
+Type: Benchmark | Date: 2026-11-17
+
+---
+
+<a id="case-67"></a>
+### 사례 67: [해안 도로 레이싱 게임 시제품](https://x.com/Stargridcompass/status/2119683294220390638) (작성자 [@Stargridcompass](https://x.com/Stargridcompass))
+
+**경주 중 카운트다운, 속도 표시, 코스 지도를 읽기 쉬운지 확인해 보세요.**
+
+녹화에는 출발 대열과 경주 중인 모습이 나옵니다. 작성자는 제작에 16분이 걸렸다고 밝혔습니다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119682250472112128-81f053c6ffe2a4aae055.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-67/2119682250472112128-poster-526c85969a54c7f93833.jpg" width="640" alt="소스 미리보기 1 · 해안 도로 레이싱 게임 시제품"></a>
+
+[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119682250472112128-81f053c6ffe2a4aae055.mp4)
+
+Type: Demo | Date: 2026-11-09
+
+---
+
+<a id="case-62"></a>
+### 사례 62: [브라우저 속 루빅스 큐브](https://x.com/VeknQAQ/status/2119633751173173475) (작성자 [@VeknQAQ](https://x.com/VeknQAQ))
+
+**미리보기에서 큐브의 회전과 스티커 배치를 확인해 보세요.**
+
+녹화에는 맞춰진 상태와 뒤섞인 상태의 3D 큐브, 브라우저 조작 버튼이 나옵니다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119633608680124416-44e5b8b00d129caeba34.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-62/2119633608680124416-poster-1ea9e2acda539d582293.jpg" width="640" alt="소스 미리보기 1 · 브라우저 속 루빅스 큐브"></a>
+
+[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119633608680124416-44e5b8b00d129caeba34.mp4)
+
+Type: Demo | Date: 2026-11-09
+
+---
+
+<a id="case-17"></a>
+### 사례 17: [PELICAN PANIC 복셀 추격 게임](https://x.com/Ananth7e/status/2119479157633786246) (작성자 [@Ananth7e](https://x.com/Ananth7e))
+
+**컨트롤, 피드백, 종료 상태를 검사하려면 짧은 추격 게임을 사용하세요.**
+
+영상에는 펠리컨을 타고 감자 괴물을 피해 탈출하는 라이더의 모습이 담겨 있습니다. 점수와 탈출 완료 화면 「Escaped」이 표시됩니다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119478839500013568-2ec29cee42e54d0bf9c5.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-17/2119478839500013568-poster-3716db2a9abc6cf0e264.jpg" width="640" alt="소스 미리보기 1 · PELICAN PANIC 복셀 추격 게임"></a>
+
+[데모 영상 재생](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119478839500013568-2ec29cee42e54d0bf9c5.mp4)
+
+
+Type: Demo | Date: 2026-11-08
 
 ---
 
 <a id="category-web"></a>
 ## 🌐 웹사이트 및 인터페이스
+
+<a id="case-184"></a>
+### 사례 184: [Agents on Rails의 정확도와 실행 시간](https://x.com/rails/status/2123808115619471857) (작성자 [@rails](https://x.com/rails))
+
+**기존 Rails 앱의 개발 과제에서 실행 시간과 정확도를 따로 기록한다.**
+
+Rails Foundation에 따르면 Sol xhigh는 실행당 평균 약 12분 30초가 걸렸고 이전 Sol은 23분 30초가 걸렸다. 점수는 54.1%였고 GPT-6.1 Sol은 60.8%였다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-184/2123805893733027841-1d6628ee8b4801e16252.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-184/2123805893733027841-1d6628ee8b4801e16252.jpg" width="640" alt="소스 미리보기 1 · Agents on Rails의 정확도와 실행 시간"></a>
+
+Type: Benchmark | Date: 2026-11-20
+
+---
 
 <a id="case-174"></a>
 ### 사례 174: [바위 해안의 등대를 담은 웹페이지](https://x.com/aapakari/status/2123407849829404984) (작성자 [@aapakari](https://x.com/aapakari))
@@ -3048,6 +3210,6 @@ Type: Demo | Date: 2026-11-08
 
 이러한 실험을 공유해 주신 제작자에게 감사드립니다. 링크된 저작물과 미디어는 해당 창작자에게 귀속됩니다.
 
-[@Avenoxai](https://x.com/Avenoxai), [@kimmonismus](https://x.com/kimmonismus), [@imjustnewatai](https://x.com/imjustnewatai), [@Khazix0918](https://x.com/Khazix0918), [@marcthecreatorr](https://x.com/marcthecreatorr), [@Bhavani_00007](https://x.com/Bhavani_00007), [@JustLingonberry](https://x.com/JustLingonberry), [@Mr_Salio](https://x.com/Mr_Salio), [@aGim_asf](https://x.com/aGim_asf), [@0x0SojalSec](https://x.com/0x0SojalSec), [@pengsonal](https://x.com/pengsonal), [@GeekCatX](https://x.com/GeekCatX), [@Ananth7e](https://x.com/Ananth7e), [@EnvolDev](https://x.com/EnvolDev), [@xbquan](https://x.com/xbquan), [@SahilPanhotra](https://x.com/SahilPanhotra), [@rubenssoto_ai](https://x.com/rubenssoto_ai), [@vikktorrrre](https://x.com/vikktorrrre), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@Cayden970207](https://x.com/Cayden970207), [@HarshithLucky3](https://x.com/HarshithLucky3), [@TokenGremlin](https://x.com/TokenGremlin), [@SadAlbert10](https://x.com/SadAlbert10), [@maxt3chno](https://x.com/maxt3chno), [@karanC_12](https://x.com/karanC_12), [@JustinGorya](https://x.com/JustinGorya), [@kdnbmb](https://x.com/kdnbmb), [@VraserX](https://x.com/VraserX), [@jessexai_](https://x.com/jessexai_), [@theaidesk_](https://x.com/theaidesk_), [@gadi_neelesh](https://x.com/gadi_neelesh), [@Haleeeemahh](https://x.com/Haleeeemahh), [@SPAC89](https://x.com/SPAC89), [@VeknQAQ](https://x.com/VeknQAQ), [@Aurora0x3f](https://x.com/Aurora0x3f), [@bei351009016](https://x.com/bei351009016), [@Stargridcompass](https://x.com/Stargridcompass), [@iamtheQwen](https://x.com/iamtheQwen), [@voxelbench](https://x.com/voxelbench), [@sshayahmet](https://x.com/sshayahmet), [@TimJayas](https://x.com/TimJayas), [@lucian__03](https://x.com/lucian__03), [@camperaigg](https://x.com/camperaigg), [@nickbaumann_](https://x.com/nickbaumann_), [@thtbee_](https://x.com/thtbee_), [@DeryaTR_](https://x.com/DeryaTR_), [@banteg](https://x.com/banteg), [@Leviwoyun](https://x.com/Leviwoyun), [@browser_use](https://x.com/browser_use), [@simonw](https://x.com/simonw), [@perplexity_ai](https://x.com/perplexity_ai), [@_3912657840](https://x.com/_3912657840), [@fawnunwrap](https://x.com/fawnunwrap), [@Angaisb_](https://x.com/Angaisb_), [@jony_palino](https://x.com/jony_palino), [@notjazii](https://x.com/notjazii), [@noclipepe](https://x.com/noclipepe), [@Super_Nius](https://x.com/Super_Nius), [@maxbittker](https://x.com/maxbittker), [@morsenxxx](https://x.com/morsenxxx), [@AdamHoltererer](https://x.com/AdamHoltererer), [@Clad3815](https://x.com/Clad3815), [@N1njaCodex](https://x.com/N1njaCodex), [@CodeByNZ](https://x.com/CodeByNZ), [@DanielZambrini](https://x.com/DanielZambrini), [@RezAIT00](https://x.com/RezAIT00), [@LuminaBench](https://x.com/LuminaBench), [@Jason85885174](https://x.com/Jason85885174), [@mspd4100](https://x.com/mspd4100), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@simonw](https://news.ycombinator.com/user?id=simonw), [@Fei2411](https://x.com/Fei2411), [@arena](https://x.com/arena), [@jan_volad](https://x.com/jan_volad), [@eliadele](https://x.com/eliadele), [@monkeys_im](https://x.com/monkeys_im), [@rotejin](https://x.com/rotejin), [@jetbrains](https://x.com/jetbrains), [@UFO2002616](https://x.com/UFO2002616), [@argofowl](https://x.com/argofowl), [@Kombaico](https://x.com/Kombaico), [@shinshin86](https://x.com/shinshin86), [@PawelJLisowski](https://x.com/PawelJLisowski), [@alohaproxy](https://x.com/alohaproxy), [@masahirochaen](https://x.com/masahirochaen), [@mylesBaiM](https://x.com/mylesBaiM), [@exploraX_](https://x.com/exploraX_), [@One2xDatalab](https://x.com/One2xDatalab), [@798145343h](https://x.com/798145343h), [@xKaka1456](https://x.com/xKaka1456), [@op7418](https://x.com/op7418), [@aura_uniiiii](https://x.com/aura_uniiiii), [@shinya_creative](https://x.com/shinya_creative), [@muratcan](https://x.com/muratcan), [@suna_gaku](https://x.com/suna_gaku), [@teddyaisi](https://x.com/teddyaisi), [@0xkhalid7](https://x.com/0xkhalid7), [@shownotover](https://x.com/shownotover), [@andonlabs](https://x.com/andonlabs), [@MatthewBerman](https://x.com/MatthewBerman), [@Hesamation](https://x.com/Hesamation), [@WeAreLegora](https://x.com/WeAreLegora), [@XploreAi](https://x.com/XploreAi), [@patience_cave](https://x.com/patience_cave), [@aidigest_](https://x.com/aidigest_), [@erhanmeydan](https://x.com/erhanmeydan), [@aapakari](https://x.com/aapakari)
+[@Avenoxai](https://x.com/Avenoxai), [@kimmonismus](https://x.com/kimmonismus), [@imjustnewatai](https://x.com/imjustnewatai), [@Khazix0918](https://x.com/Khazix0918), [@marcthecreatorr](https://x.com/marcthecreatorr), [@Bhavani_00007](https://x.com/Bhavani_00007), [@JustLingonberry](https://x.com/JustLingonberry), [@Mr_Salio](https://x.com/Mr_Salio), [@aGim_asf](https://x.com/aGim_asf), [@0x0SojalSec](https://x.com/0x0SojalSec), [@pengsonal](https://x.com/pengsonal), [@GeekCatX](https://x.com/GeekCatX), [@Ananth7e](https://x.com/Ananth7e), [@EnvolDev](https://x.com/EnvolDev), [@xbquan](https://x.com/xbquan), [@SahilPanhotra](https://x.com/SahilPanhotra), [@rubenssoto_ai](https://x.com/rubenssoto_ai), [@vikktorrrre](https://x.com/vikktorrrre), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@Cayden970207](https://x.com/Cayden970207), [@HarshithLucky3](https://x.com/HarshithLucky3), [@TokenGremlin](https://x.com/TokenGremlin), [@SadAlbert10](https://x.com/SadAlbert10), [@maxt3chno](https://x.com/maxt3chno), [@karanC_12](https://x.com/karanC_12), [@JustinGorya](https://x.com/JustinGorya), [@kdnbmb](https://x.com/kdnbmb), [@VraserX](https://x.com/VraserX), [@jessexai_](https://x.com/jessexai_), [@theaidesk_](https://x.com/theaidesk_), [@gadi_neelesh](https://x.com/gadi_neelesh), [@Haleeeemahh](https://x.com/Haleeeemahh), [@SPAC89](https://x.com/SPAC89), [@VeknQAQ](https://x.com/VeknQAQ), [@Aurora0x3f](https://x.com/Aurora0x3f), [@bei351009016](https://x.com/bei351009016), [@Stargridcompass](https://x.com/Stargridcompass), [@iamtheQwen](https://x.com/iamtheQwen), [@voxelbench](https://x.com/voxelbench), [@sshayahmet](https://x.com/sshayahmet), [@TimJayas](https://x.com/TimJayas), [@lucian__03](https://x.com/lucian__03), [@camperaigg](https://x.com/camperaigg), [@nickbaumann_](https://x.com/nickbaumann_), [@thtbee_](https://x.com/thtbee_), [@DeryaTR_](https://x.com/DeryaTR_), [@banteg](https://x.com/banteg), [@Leviwoyun](https://x.com/Leviwoyun), [@browser_use](https://x.com/browser_use), [@simonw](https://x.com/simonw), [@perplexity_ai](https://x.com/perplexity_ai), [@_3912657840](https://x.com/_3912657840), [@fawnunwrap](https://x.com/fawnunwrap), [@Angaisb_](https://x.com/Angaisb_), [@jony_palino](https://x.com/jony_palino), [@notjazii](https://x.com/notjazii), [@noclipepe](https://x.com/noclipepe), [@Super_Nius](https://x.com/Super_Nius), [@maxbittker](https://x.com/maxbittker), [@morsenxxx](https://x.com/morsenxxx), [@AdamHoltererer](https://x.com/AdamHoltererer), [@Clad3815](https://x.com/Clad3815), [@N1njaCodex](https://x.com/N1njaCodex), [@CodeByNZ](https://x.com/CodeByNZ), [@DanielZambrini](https://x.com/DanielZambrini), [@RezAIT00](https://x.com/RezAIT00), [@LuminaBench](https://x.com/LuminaBench), [@Jason85885174](https://x.com/Jason85885174), [@mspd4100](https://x.com/mspd4100), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@simonw](https://news.ycombinator.com/user?id=simonw), [@Fei2411](https://x.com/Fei2411), [@arena](https://x.com/arena), [@jan_volad](https://x.com/jan_volad), [@eliadele](https://x.com/eliadele), [@monkeys_im](https://x.com/monkeys_im), [@rotejin](https://x.com/rotejin), [@jetbrains](https://x.com/jetbrains), [@UFO2002616](https://x.com/UFO2002616), [@argofowl](https://x.com/argofowl), [@Kombaico](https://x.com/Kombaico), [@shinshin86](https://x.com/shinshin86), [@PawelJLisowski](https://x.com/PawelJLisowski), [@alohaproxy](https://x.com/alohaproxy), [@masahirochaen](https://x.com/masahirochaen), [@mylesBaiM](https://x.com/mylesBaiM), [@exploraX_](https://x.com/exploraX_), [@One2xDatalab](https://x.com/One2xDatalab), [@798145343h](https://x.com/798145343h), [@xKaka1456](https://x.com/xKaka1456), [@op7418](https://x.com/op7418), [@aura_uniiiii](https://x.com/aura_uniiiii), [@shinya_creative](https://x.com/shinya_creative), [@muratcan](https://x.com/muratcan), [@suna_gaku](https://x.com/suna_gaku), [@teddyaisi](https://x.com/teddyaisi), [@0xkhalid7](https://x.com/0xkhalid7), [@shownotover](https://x.com/shownotover), [@andonlabs](https://x.com/andonlabs), [@MatthewBerman](https://x.com/MatthewBerman), [@Hesamation](https://x.com/Hesamation), [@WeAreLegora](https://x.com/WeAreLegora), [@XploreAi](https://x.com/XploreAi), [@patience_cave](https://x.com/patience_cave), [@aidigest_](https://x.com/aidigest_), [@erhanmeydan](https://x.com/erhanmeydan), [@aapakari](https://x.com/aapakari), [@jerryjliu0](https://x.com/jerryjliu0), [@joshzqin](https://x.com/joshzqin), [@DesignArena](https://x.com/DesignArena), [@boringmarketer](https://x.com/boringmarketer), [@sriramkiron](https://x.com/sriramkiron), [@GeppiiKameWorks](https://x.com/GeppiiKameWorks), [@rails](https://x.com/rails), [@CodeRabbit](https://www.coderabbit.ai/)
 
 *저작자 표시 또는 삭제 요청에 대한 소스 수정 문제를 열어주세요.*
