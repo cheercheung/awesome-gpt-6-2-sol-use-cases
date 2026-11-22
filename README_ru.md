@@ -18,7 +18,7 @@
 <a id="overview"></a>
 ## 📊 Обзор
 
-- **185 примеров применения · GPT-6.2 Sol**. В подборке 185 исходных публикаций. Из них 182 показывают результаты, а три описывают незавершённые попытки. В 22 публикациях приведён точный текст промпта на языке оригинала.
+- **202 примеров применения · GPT-6.2 Sol**. В подборке 202 исходные публикации. Из них 197 показывают результаты, а пять описывают ограничения. В 25 публикациях приведён точный текст промпта на языке оригинала.
 - 3D сцены и моделирование · Креативная графика и анимация · Веб-сайты и интерфейсы · Разработка игр · Использование компьютера и рисование · Использование компьютера и общение
 - В каждом примере указаны исходная публикация, автор, дата, тип доказательства и видимый результат.
 - Используйте общедоступную подсказку, если она доступна. Сохраняйте исходные данные при сравнении результатов.
@@ -44,7 +44,22 @@
 | [Быстрый старт](#quick-start) | Навигация | Быстрый старт | — |
 | [Связанные репозитории](#related-repositories) | Навигация | Связанные репозитории | — |
 | [Благодарности](#acknowledge) | Навигация | Благодарности | — |
+| [Пример 186. Долина с акведуком](#case-186) | [3D сцены и моделирование](#category-three) | Проследите, как большой ландшафт переносят из Blender в Three.js. | Demo |
+| [Пример 187. Генерация изображения при простом сложении](#case-187) | [Использование компьютера и общение](#category-communication) | Отдельно проверяйте неожиданные вызовы инструментов и правильность ответа. | Limit |
+| [Пример 188. Восемь телевизионных локаций, воссозданных в Minecraft](#case-188) | [Разработка игр](#category-game) | Сравните узнаваемость планировки и время постройки в двух версиях игровой сцены. | Evaluation |
+| [Пример 189. Интерактивная экспедиционная машина в Three.js](#case-189) | [3D сцены и моделирование](#category-three) | Рассмотрите детали модели, откидные панели и синтезированный звук в одном HTML-файле. | Demo |
+| [Пример 190. Видео о гипотезе Римана, созданное кодом](#case-190) | [Креативная графика и анимация](#category-graphics) | Соберите анимацию и звуковую дорожку в одном процессе с помощью локального кода. | Demo |
+| [Пример 191. Четыре визуализации Эйфелевой башни в Three.js](#case-191) | [3D сцены и моделирование](#category-three) | Сравните решётчатую конструкцию, пропорции и окружение в четырёх подписанных сценах. | Evaluation |
+| [Пример 192. Поиск известных ошибок при проверке базы данных](#case-192) | [Использование компьютера и общение](#category-communication) | Сравните число найденных известных ошибок и время выполнения одного и того же задания. | Benchmark |
+| [Пример 193. Руины из «Озимандии» в Minecraft](#case-193) | [Разработка игр](#category-game) | Сравните, как две модели воссоздают одну литературную сцену из блоков. | Evaluation |
+| [Пример 194. Предустановки Sol для агентов Hermes и Pi](#case-194) | [Использование компьютера и общение](#category-communication) | Посмотрите, как единая точка входа на компьютере помогает организовать ассистентов с разными ролями. | Integration |
+| [Пример 195. Шесть вариантов редизайна одного маркетингового сайта](#case-195) | [Веб-сайты и интерфейсы](#category-web) | Сравните, какие визуальные решения предлагают разные модели по одним и тем же требованиям. | Evaluation |
+| [Пример 196. Дождливая набережная в диораме по одному изображению](#case-196) | [3D сцены и моделирование](#category-three) | Сравните, как две модели превращают одно изображение в 2,5D-сцену для браузера. | Evaluation |
+| [Пример 197. В SolidWorks перепутаны вид спереди и вид сверху](#case-197) | [3D сцены и моделирование](#category-three) | Сверьте ориентацию видов на чертеже со сборкой перед приёмкой экспортированного файла. | Limit |
+| [Пример 198. Слепое сравнение коротких рассказов](#case-198) | [Использование компьютера и общение](#category-communication) | Сравните рассказы с общим сюжетом и уточните, какие элементы оформления добавил человек. | Evaluation |
+| [Пример 199. Кошка у окна во время дождя](#case-199) | [Креативная графика и анимация](#category-graphics) | Сравните, как четыре модели ставят одну и ту же сцену в HTML-анимации. | Evaluation |
 | [Пример 176. Разбор документов на двух уровнях рассуждения](#case-176) | [Использование компьютера и общение](#category-communication) | Сравните общую оценку разбора, оценку на диаграммах и стоимость обработки страницы. | Benchmark |
+| [Пример 200. Движение камеры для двенадцати моделей зданий](#case-200) | [3D сцены и моделирование](#category-three) | Используйте Blender MCP, чтобы создать движения камеры для набора импортированных моделей. | Demo |
 | [Пример 177. Четыре анимации велосипедистов на закате](#case-177) | [Креативная графика и анимация](#category-graphics) | Сравните движения велосипедистов, пропорции велосипедов и освещение в четырёх версиях. | Evaluation |
 | [Пример 178. Рабочие задачи в Company Agent Bench](#case-178) | [Использование компьютера и общение](#category-communication) | Сравните опубликованную точность моделей при тех уровнях рассуждения, которые использовались в тесте. | Benchmark |
 | [Пример 179. Канатная дорога через Скарлет-Фьорд](#case-179) | [3D сцены и моделирование](#category-three) | Сравните, как в четырёх визуализациях показаны кабина и окружающий пейзаж. | Evaluation |
@@ -53,6 +68,8 @@
 | [Пример 182. Пеший маршрут превратился в игру для портативной консоли](#case-182) | [Разработка игр](#category-game) | Посмотрите, как наблюдения с прогулки становятся игровыми сценами, к которым можно вернуться. | Demo |
 | [Пример 183. Кролик в Blender по исходному изображению](#case-183) | [3D сцены и моделирование](#category-three) | Начните со сгенерированного изображения в качестве образца и рассмотрите геометрию с нескольких ракурсов. | Demo |
 | [Пример 184. Точность и время работы в Agents on Rails](#case-184) | [Веб-сайты и интерфейсы](#category-web) | Отдельно фиксируйте время работы и точность на задачах разработки в существующих приложениях Rails. | Benchmark |
+| [Пример 201. Травяное поле в автономной HTML-сцене](#case-201) | [3D сцены и моделирование](#category-three) | Проследите путь ресурса из Blender в небольшой проект Three.js, работающий в браузере. | Demo |
+| [Пример 202. Итерации иллюстрации костюма в ChatGPT Work](#case-202) | [Креативная графика и анимация](#category-graphics) | Сравните изменения при повторном запуске подробного запроса об иллюстрации костюма. | Evaluation |
 | [Пример 159. От неподвижных кадров к готовому видео](#case-159) | [Креативная графика и анимация](#category-graphics) | По монтажной шкале проследите, на каком этапе в работу попадают сгенерированные кадры. | Demo |
 | [Пример 160. Два игровых прототипа от первого лица в Codex](#case-160) | [Разработка игр](#category-game) | Сопоставьте устройство уровня и впечатления от игры с указанной стоимостью. | Evaluation |
 | [Пример 161. Уютная деревенская игра с моделями из Blender](#case-161) | [Разработка игр](#category-game) | Посмотрите, как трёхмерные объекты и анимация сочетаются в игровой сцене. | Demo |
@@ -230,898 +247,110 @@
 | [Пример 58. Одиночная черная дыра HTML Three.js](#case-58) | [3D сцены и моделирование](#category-three) | Используйте клип и фотографии, чтобы проверить, как одна сцена обрабатывает несколько точек обзора. | Demo |
 | [Пример 59. Плавающий дворец Three.js](#case-59) | [3D сцены и моделирование](#category-three) | Осмотрите масштаб и внешний вид подвесного дворца с нескольких сторон. | Demo |
 
-<a id="category-communication"></a>
-## 💬 Использование компьютера и общение
-
-<a id="case-176"></a>
-### Пример 176: [Разбор документов на двух уровнях рассуждения](https://x.com/jerryjliu0/status/2123945742872293505) (автор [@jerryjliu0](https://x.com/jerryjliu0))
-
-**Сравните общую оценку разбора, оценку на диаграммах и стоимость обработки страницы.**
-
-На графике ParseBench 2 от LlamaIndex общая оценка Sol составляет 82,12 на среднем уровне и 79,12 на низком. Стоимость обработки страницы указана как 2,468 и 2,289 цента США соответственно.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-176/2123945732264923137-2fc287ffe70da3991916.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-176/2123945732264923137-2fc287ffe70da3991916.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Разбор документов на двух уровнях рассуждения"></a>
-
-Type: Benchmark | Date: 2026-11-21
-
----
-
-<a id="case-178"></a>
-### Пример 178: [Рабочие задачи в Company Agent Bench](https://x.com/joshzqin/status/2123877558815281377) (автор [@joshzqin](https://x.com/joshzqin))
-
-**Сравните опубликованную точность моделей при тех уровнях рассуждения, которые использовались в тесте.**
-
-На опубликованном графике бенчмарка общая точность Sol на высоком уровне составила 76,4 %. Для Astra на высоком уровне указано 79,7 %, для Gemini Neon на низком — 85,3 %.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123877042928406528-4b38126f911f97edc79e.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-178/2123877042928406528-poster-9f579bb51eb76959e68a.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Рабочие задачи в Company Agent Bench"></a>
-
-[Воспроизвести демонстрацию](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123877042928406528-4b38126f911f97edc79e.mp4)
-
-Type: Benchmark | Date: 2026-11-20
-
----
-
-<a id="case-181"></a>
-### Пример 181: [Сравнение моделей на маркетинговых задачах](https://x.com/boringmarketer/status/2123843589063008291) (автор [@boringmarketer](https://x.com/boringmarketer))
-
-**Сопоставьте предпочтения по каждой задаче со стоимостью и числом голосов.**
-
-Автор сравнил Sol, Opus 5.5 и Gemini 4 Neon на 15 задачах, используя более 4700 голосов в парных сравнениях. Sol получил 58 % голосов при заявленной стоимости 0,04 доллара США за задачу.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-181/2123826094998437888-9c51ceb178cca88b8b96.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-181/2123826094998437888-9c51ceb178cca88b8b96.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Сравнение моделей на маркетинговых задачах"></a>
-
-Type: Benchmark | Date: 2026-11-20
-
----
-
-<a id="case-185"></a>
-### Пример 185: [Проверка пул-реквестов в CodeRabbit](https://www.coderabbit.ai/blog/gpt-6-2-sol-and-astra-review) (автор [@CodeRabbit](https://www.coderabbit.ai/))
-
-**Сравните, сколько известных проблем нашла каждая конфигурация, а также заявленную точность и стоимость проверки.**
-
-CodeRabbit с Sol 6.2 на высоком уровне обнаружил 60 из 81 известной проблемы. Базовая версия с Sol 6.1 на высоком уровне нашла 58 проблем. Использовались разные конфигурации пайплайна, каждую запускали один раз.
-
-[Подробности теста](https://www.coderabbit.ai/blog/gpt-6-2-sol-and-astra-review#heading-sol-62-versus-sol-61)
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-185/coderabbit-50580780-sol-review-table-9cd3782931e24f3a6d35.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-185/coderabbit-50580780-sol-review-table-9cd3782931e24f3a6d35.png" width="640" alt="Предварительный просмотр исходного кода 1 · Проверка пул-реквестов в CodeRabbit"></a>
-
-Type: Benchmark | Date: 2026-11-19
-
----
-
-<a id="case-166"></a>
-### Пример 166: [Ноябрьский бенчмарк Legora для юридических документов](https://x.com/WeAreLegora/status/2123460359017144769) (автор [@WeAreLegora](https://x.com/WeAreLegora))
-
-**Сравните качество и стоимость одного дела на одинаковом наборе профессиональных задач.**
-
-Legora сообщила, что Sol показал качество выше среднего, а стоимость одного дела была на 78 % ниже среднего показателя моделей за ноябрь. График сводит результаты сравнения моделей.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123460256260870144-6da8a1113b471ce42386.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-166/2123460256260870144-poster-5c1a0e947f184ffb782e.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Ноябрьский бенчмарк Legora для юридических документов"></a>
-
-[Воспроизвести демонстрацию](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123460256260870144-6da8a1113b471ce42386.mp4)
-
-Type: Benchmark | Date: 2026-11-19
-
----
-
-<a id="case-170"></a>
-### Пример 170: [Независимые ответы на вопросы профиля в AI Village](https://x.com/aidigest_/status/2123446497442447399) (автор [@aidigest_](https://x.com/aidigest_))
-
-**Сравните, как два агента независимо отвечают на одну и ту же анкету.**
-
-AI Digest добавил Sol и Astra в AI Village и опубликовал их ответы на 15 вопросов. Оба выбрали Tampopo, обувь Onitsuka Tiger и лепёшки с зелёным луком.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-170/2123446488605114368-ecc6833b877fae0e1433.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-170/2123446488605114368-ecc6833b877fae0e1433.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Независимые ответы на вопросы профиля в AI Village"></a>
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-170/2123446492765798400-c64a85a5d0d85d04cf39.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-170/2123446492765798400-c64a85a5d0d85d04cf39.jpg" width="640" alt="Предварительный просмотр исходного кода 2 · Независимые ответы на вопросы профиля в AI Village"></a>
-
-Type: Integration | Date: 2026-11-19
-
----
-
-<a id="case-124"></a>
-### Пример 124: [Отчёт о статусе пул-реквеста пропускает инструкции репозитория](https://x.com/Fei2411/status/2123354076771692631) (автор [@Fei2411](https://x.com/Fei2411))
-
-**Сравните подробность и структуру ответов на короткий запрос о статусе.**
-
-Автор дал Sol и Gemini 4 Neon одно и то же задание на отчёт по пул-реквесту. Он посчитал сводку Sol слишком краткой и сообщил, что модель проигнорировала его инструкции в AGENTS.md.
-
-**Промпт:**
-
-```
-现在有哪些pr
-```
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-124/2123354068013993984-19d626fb5c30bc9b2a19.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-124/2123354068013993984-19d626fb5c30bc9b2a19.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Отчёт о статусе пул-реквеста пропускает инструкции репозитория"></a>
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-124/2123354067988824064-5ec42709de761e85172e.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-124/2123354067988824064-5ec42709de761e85172e.jpg" width="640" alt="Предварительный просмотр исходного кода 2 · Отчёт о статусе пул-реквеста пропускает инструкции репозитория"></a>
-
-Type: Limit | Date: 2026-11-19
-
----
-
-<a id="case-141"></a>
-### Пример 141: [Разговор с персонажем в AITuber OnAir](https://x.com/shinshin86/status/2123040784710869031) (автор [@shinshin86](https://x.com/shinshin86))
-
-**Испытайте настройку уровня рассуждения в живом разговоре с персонажем.**
-
-Разработчик добавил Sol в AITuber OnAir и показал разговор. Для поддержания темпа по умолчанию выставлен низкий уровень рассуждения, который пользователи могут изменить.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123040557064966144-63e1c247fbe9574434f1.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-141/2123040557064966144-poster-096943e3ee853b4f4a62.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Разговор с персонажем в AITuber OnAir"></a>
-
-[Воспроизвести демонстрацию](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123040557064966144-63e1c247fbe9574434f1.mp4)
-
-Type: Integration | Date: 2026-11-18
-
----
-
-<a id="case-155"></a>
-### Пример 155: [Имитированные звонки в клинику в FrontDesk-Bench](https://x.com/muratcan/status/2122914581454487838) (автор [@muratcan](https://x.com/muratcan))
-
-**Учитывайте небезопасные действия и отказы на обоснованные просьбы отдельно.**
-
-Автор бенчмарка сообщил, что в имитации работы администратора число звонков с небезопасными действиями у Sol снизилось с 16 до 9. Он также отметил, что новые модели чаще отказывали в обоснованных просьбах.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-155/2122905857700585472-c7658e9ed55fe97f9cbb.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-155/2122905857700585472-c7658e9ed55fe97f9cbb.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Имитированные звонки в клинику в FrontDesk-Bench"></a>
-
-Type: Benchmark | Date: 2026-11-18
-
----
-
-<a id="case-43"></a>
-### Пример 43: [Незавершенная попытка передать сообщение](https://x.com/SadAlbert10/status/2119428297092460613) (автор [@SadAlbert10](https://x.com/SadAlbert10))
-
-**Используйте попытку увидеть, где остановился рабочий процесс рабочего стола.**
-
-На скриншотах представлена ​​попытка найти получателя после запроса на передачу сообщения. Задача завершилась до того, как было отправлено сообщение.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-43/2119428121711775744-8419b4e0c62aa252d1dc.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-43/2119428121711775744-8419b4e0c62aa252d1dc.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Незавершенная попытка передать сообщение"></a>
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-43/2119428270945140736-f9662043dadb9a6e4b1b.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-43/2119428270945140736-f9662043dadb9a6e4b1b.jpg" width="640" alt="Предварительный просмотр исходного кода 2 · Незавершенная попытка передать сообщение"></a>
-
-Type: Limit | Date: 2026-11-08
-
----
-
-<a id="category-graphics"></a>
-## 🎨 Креативная графика и анимация
-
-<a id="case-177"></a>
-### Пример 177: [Четыре анимации велосипедистов на закате](https://x.com/jony_palino/status/2123889278501495127) (автор [@jony_palino](https://x.com/jony_palino))
-
-**Сравните движения велосипедистов, пропорции велосипедов и освещение в четырёх версиях.**
-
-Автор опубликовал подписанное сравнение Sol, Gemini 4 Neon, DeepSeek V4.1 Flash и Claude Fable 5.2. Анимация Sol показана в нижнем левом углу.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123888706998218752-2fde673e71773bed63c5.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-177/2123888706998218752-poster-c43c4d2e3c43cad44fb4.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Четыре анимации велосипедистов на закате"></a>
-
-[Воспроизвести демонстрацию](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123888706998218752-2fde673e71773bed63c5.mp4)
-
-Type: Evaluation | Date: 2026-11-20
-
----
-
-<a id="case-159"></a>
-### Пример 159: [От неподвижных кадров к готовому видео](https://x.com/0xkhalid7/status/2123661187376451845) (автор [@0xkhalid7](https://x.com/0xkhalid7))
-
-**По монтажной шкале проследите, на каком этапе в работу попадают сгенерированные кадры.**
-
-Автор указал, что сценарий подготовил ChatGPT, а кадры — Sol. Кадры он оживил в Google Vids, смонтировал ролик в CapCut и сообщил, что весь проект занял около четырёх часов.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123660882249175040-7f5a38c954cd6232ce0b.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-159/2123660882249175040-poster-6036fd4b16ea350bc22d.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · От неподвижных кадров к готовому видео"></a>
-
-[Воспроизвести демонстрацию](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123660882249175040-7f5a38c954cd6232ce0b.mp4)
-
-Type: Demo | Date: 2026-11-20
-
----
-
-<a id="case-163"></a>
-### Пример 163: [Монтаж диалога в видео с говорящим человеком](https://x.com/MatthewBerman/status/2123546744759984513) (автор [@MatthewBerman](https://x.com/MatthewBerman))
-
-**Сравните время монтажа, итоговую оценку и типы неудачных склеек.**
-
-В среднем за два запуска на 20-минутном видео Sol набрал 64,5 % при времени монтажа 11,7 минуты. Gemini 4 Neon набрал 67,9 % при времени монтажа 7,7 минуты.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-163/2123546497111482368-6e88a30728efbca29854.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-163/2123546497111482368-6e88a30728efbca29854.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Монтаж диалога в видео с говорящим человеком"></a>
-
-Type: Benchmark | Date: 2026-11-19
-
----
-
-<a id="case-173"></a>
-### Пример 173: [Анимация короткого ролика в стиле белой доски](https://x.com/erhanmeydan/status/2123414880300490868) (автор [@erhanmeydan](https://x.com/erhanmeydan))
-
-**Сравните визуальную подачу и стоимость на одном исходном видео.**
-
-Автор запустил четыре модели в Kilnframe в стиле Whiteboard и режиме Auto на одном 11-секундном ролике. Запуск Sol занял 1,7 минуты и стоил 0,18 доллара США.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123414708459855872-abcd21a1ca31fae0de50.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-173/2123414708459855872-poster-693b12b8cd00ed30b115.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Анимация короткого ролика в стиле белой доски"></a>
-
-[Воспроизвести демонстрацию](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123414708459855872-abcd21a1ca31fae0de50.mp4)
-
-Type: Evaluation | Date: 2026-11-19
-
----
-
-<a id="case-130"></a>
-### Пример 130: [Реалистичный падающий лист за три минуты](https://x.com/RezAIT00/status/2123121274431897803) (автор [@RezAIT00](https://x.com/RezAIT00))
-
-**Установите ограничение по времени, чтобы проверить, как модель объединяет материалы и код.**
-
-По словам автора, Sol в режиме Ultrafast на уровне xhigh искал материалы в интернете, генерировал изображения и написал код для анимации падающего листа.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123120923666423808-a00f9b04f9a3d9061acf.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-130/2123120923666423808-poster-97ccbaaf84c4bcfaee1b.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Реалистичный падающий лист за три минуты"></a>
-
-[Воспроизвести демонстрацию](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123120923666423808-a00f9b04f9a3d9061acf.mp4)
-
-Type: Demo | Date: 2026-11-18
-
----
-
-<a id="case-134"></a>
-### Пример 134: [Бегущий персонаж в зацикленной пиксельной анимации](https://x.com/rotejin/status/2123099481101205676) (автор [@rotejin](https://x.com/rotejin))
-
-**Проверьте, плавно ли повторяется анимация персонажа на движущемся фоне.**
-
-Автор попросил Sol создать динамичную пиксельную графику. В приложенной анимации силуэт персонажа бежит на фоне заката.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123098773459283968-5897570c940b051711a4.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-134/2123098773459283968-poster-e96bd6c94b068883b1a1.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Бегущий персонаж в зацикленной пиксельной анимации"></a>
-
-[Воспроизвести демонстрацию](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123098773459283968-5897570c940b051711a4.mp4)
-
-Type: Demo | Date: 2026-11-18
-
----
-
-<a id="case-145"></a>
-### Пример 145: [SVG-анимация велосипеда-тандема](https://x.com/marcthecreatorr/status/2123004538974294470) (автор [@marcthecreatorr](https://x.com/marcthecreatorr))
-
-**Сравните, как два инструмента разработки рисуют и анимируют один объект в SVG.**
-
-Автор указал около 46 минут и 1,90 доллара США для Sol в Codex CLI, а также около часа и 18 долларов для Opus 5.5 в Claude Code.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123002351422181377-2a6725e05299e1972940.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-145/2123002351422181377-poster-c6f5ed83f95c549068d4.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · SVG-анимация велосипеда-тандема"></a>
-
-[Воспроизвести демонстрацию](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123002351422181377-2a6725e05299e1972940.mp4)
-
-Type: Evaluation | Date: 2026-11-18
-
----
-
-<a id="case-152"></a>
-### Пример 152: [Замер времени видеомонтажа в режиме Ultrafast](https://x.com/op7418/status/2122925281514303836) (автор [@op7418](https://x.com/op7418))
-
-**Фиксируйте общее время монтажа отдельно от времени ответа модели.**
-
-Автор сообщил, что монтаж восьмиминутного ролика занял 27 минут от начала до конца. Из них около 14 минут ушло на ответы Sol. В приложении показаны результаты замера.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-152/2122925011057209345-502d3dadda839363aabd.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-152/2122925011057209345-502d3dadda839363aabd.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Замер времени видеомонтажа в режиме Ultrafast"></a>
-
-Type: Benchmark | Date: 2026-11-18
-
----
-
-<a id="case-153"></a>
-### Пример 153: [Анимация рукописной подписи в Remotion](https://x.com/aura_uniiiii/status/2122915684086849611) (автор [@aura_uniiiii](https://x.com/aura_uniiiii))
-
-**Сравните, как два запуска на уровне Max анимируют одну и ту же личную подпись.**
-
-Автор попросил Sol и Astra создать видео с его подписью в Remotion и опубликовал оба ролика вместе.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122913982898143232-edb073cf9b2bb51a5faf.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-153/2122913982898143232-poster-d1cd5c4dd99e8cdeb3c4.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Анимация рукописной подписи в Remotion"></a>
-
-[Воспроизвести демонстрацию](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122913982898143232-edb073cf9b2bb51a5faf.mp4)
-
-Type: Evaluation | Date: 2026-11-18
-
----
-
-<a id="case-79"></a>
-### Пример 79: [Задание по моушн-дизайну на 15 секунд](https://x.com/Leviwoyun/status/2122846422676701267) (автор [@Leviwoyun](https://x.com/Leviwoyun))
-
-**Дайте обеим моделям одинаковое задание и сравните типографику, переходы и движение.**
-
-Автор опубликовал два ролика и исходный запрос. В одном вращается фигура из сложенной бумаги. В другом изображение сигнала сменяется фиолетовой геометрической фигурой.
-
-**Промпт:**
-
-```
-制作一段 15 秒的动态图形视频，展示你是一位多么出色的动态设计师，就像是你简历上的作品集一样，使用任何你认为能产出最佳效果的工具或技术。你拥有完全的创作自由，优先追求卓越的视觉设计、大胆的艺术指导、引人注目的构图和富有力量的动态表现，让每一秒都有价值。全力以赴。
-```
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122845749499310081-01cb8b6073d8916e9b09.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-79/2122845749499310081-poster-1159d01955e99da02391.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Задание по моушн-дизайну на 15 секунд"></a>
-
-[Воспроизвести демонстрацию](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122845749499310081-01cb8b6073d8916e9b09.mp4)
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122846110117183488-30f1277d34e59656f484.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-79/2122846110117183488-poster-7b07819920bd6a3fe88d.jpg" width="640" alt="Предварительный просмотр исходного кода 2 · Задание по моушн-дизайну на 15 секунд"></a>
-
-[Воспроизвести демонстрацию](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122846110117183488-30f1277d34e59656f484.mp4)
-
-Type: Evaluation | Date: 2026-11-18
-
----
-
-<a id="case-88"></a>
-### Пример 88: [Две модели анимируют скачущую галопом лошадь](https://x.com/jony_palino/status/2122796926961647919) (автор [@jony_palino](https://x.com/jony_palino))
-
-**Сравните работу ног и длину шага за полный цикл анимации.**
-
-В видео подписаны анимации лошадей от Astra и Sol. Обе версии показаны рядом в движении.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122781224338939905-9fac5a374f5ddc54f8a8.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-88/2122781224338939905-poster-b06065421603cc7f6f6c.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Две модели анимируют скачущую галопом лошадь"></a>
-
-[Воспроизвести демонстрацию](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122781224338939905-9fac5a374f5ddc54f8a8.mp4)
-
-Type: Evaluation | Date: 2026-11-17
-
----
-
-<a id="case-74"></a>
-### Пример 74: [Огонь и звук, созданные кодом](https://x.com/camperaigg/status/2122794828266377538) (автор [@camperaigg](https://x.com/camperaigg))
-
-**Сравнивая анимации, записывайте длительность ролика вместе со стоимостью и временем генерации.**
-
-Автор сравнил два запуска с настройкой xhigh, в которых изображение и звук создавались кодом. По его данным, Sol выдал 12 секунд за 12 минут и 0,73 доллара, а Opus 5.5 — 24 секунды за 85 минут и 18,40 доллара.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122794767960752128-e2e19e403efea0d778cc.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-74/2122794767960752128-poster-5dc5e43235499f8378cf.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Огонь и звук, созданные кодом"></a>
-
-[Воспроизвести демонстрацию](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122794767960752128-e2e19e403efea0d778cc.mp4)
-
-Type: Evaluation | Date: 2026-11-17
-
----
-
-<a id="case-94"></a>
-### Пример 94: [Анимация из 900 кадров, созданная кодом](https://x.com/morsenxxx/status/2122771021828948464) (автор [@morsenxxx](https://x.com/morsenxxx))
-
-**Проследите за персонажами, движением и звуком до финального экспорта.**
-
-По словам автора, персонажи, анимация и звуковое сопровождение были созданы кодом. Опубликованный ролик длится 30 секунд.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122768959980118016-519fd034e8c095b6bc01.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-94/2122768959980118016-poster-ef4789678264a50b8b9f.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Анимация из 900 кадров, созданная кодом"></a>
-
-[Воспроизвести демонстрацию](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122768959980118016-519fd034e8c095b6bc01.mp4)
-
-Type: Demo | Date: 2026-11-17
-
----
-
-<a id="case-98"></a>
-### Пример 98: [Анимированная иллюстрация с бананом](https://x.com/AdamHoltererer/status/2122765119835029581) (автор [@AdamHoltererer](https://x.com/AdamHoltererer))
-
-**Выберите простой объект и посмотрите, как модель добавит движение и персонажа.**
-
-Автор поделился тестом Sol, в котором нарисованный банан становится частью анимированной сцены с персонажем.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122765018739441664-63474f1acf4d1d5e18b1.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-98/2122765018739441664-poster-a235f39f622e3848c495.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Анимированная иллюстрация с бананом"></a>
-
-[Воспроизвести демонстрацию](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122765018739441664-63474f1acf4d1d5e18b1.mp4)
-
-Type: Demo | Date: 2026-11-17
-
----
-
-<a id="case-101"></a>
-### Пример 101: [Пеликан на велосипеде в одном HTML-файле](https://x.com/Super_Nius/status/2122760765174391124) (автор [@Super_Nius](https://x.com/Super_Nius))
-
-**Возьмите одно SVG-задание и сопоставьте движение птицы и велосипеда.**
-
-Автор опубликовал запрос и сравнил результаты версий 6.2 и 6.1. По его оценке, изображение от Sol изменилось незначительно.
-
-**Промпт:**
-
-```
-创建一个HTML文件，使用SVG绘制一只鹈鹕3D骑自行车的动画。输出单文件HTML。
-```
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122760254945673216-c6b375b036ac15cc3a2b.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-101/2122760254945673216-poster-d0903f87dd4ac9dee18a.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Пеликан на велосипеде в одном HTML-файле"></a>
-
-[Воспроизвести демонстрацию](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122760254945673216-c6b375b036ac15cc3a2b.mp4)
-
-Type: Evaluation | Date: 2026-11-17
-
----
-
-<a id="case-103"></a>
-### Пример 103: [Две анимации фигурок из линий в режиме Ultra](https://x.com/DanielZambrini/status/2122759375337214121) (автор [@DanielZambrini](https://x.com/DanielZambrini))
-
-**Повторите задание и посмотрите, насколько различаются два результата.**
-
-Автор показал два запуска Sol Ultra и указал, что создание анимаций заняло 13 и 12 минут соответственно.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122758829104328704-4fe90331a8b43e8cc76c.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-103/2122758829104328704-poster-2e025ca80aa35e6c9676.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Две анимации фигурок из линий в режиме Ultra"></a>
-
-[Воспроизвести демонстрацию](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122758829104328704-4fe90331a8b43e8cc76c.mp4)
-
-Type: Evaluation | Date: 2026-11-17
-
----
-
-<a id="case-123"></a>
-### Пример 123: [SVG-изображения пеликанов на разных уровнях рассуждения](https://news.ycombinator.com/item?id=50535742) (автор [@simonw](https://news.ycombinator.com/user?id=simonw))
-
-**Проверьте, как на каждом уровне сочетаются педали, лапы и рама велосипеда.**
-
-Саймон Уиллисон опубликовал подписанную таблицу результатов одного SVG-запроса для шести моделей на нескольких уровнях рассуждения. В обсуждении указали, что на изображении Sol Max одна лапа перекрывает цепь.
-
-**Промпт:**
-
-```
-Generate an SVG of a pelican riding a bicycle
-```
-
-[Полная таблица сравнения SVG](https://static.simonwillison.net/static/2026/openai-pelicans-november-2026.html)
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-123/50535742-grid-7d953958cc033d468770.webp"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-123/50535742-grid-7d953958cc033d468770.webp" width="640" alt="Предварительный просмотр исходного кода 1 · SVG-изображения пеликанов на разных уровнях рассуждения"></a>
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-123/50535742-astra-3d77dc7c6001b9a03061.webp"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-123/50535742-astra-3d77dc7c6001b9a03061.webp" width="640" alt="Предварительный просмотр исходного кода 2 · SVG-изображения пеликанов на разных уровнях рассуждения"></a>
-
-*Результат GPT-6.2 Astra в режиме Max*
-
-Type: Evaluation | Date: 2026-11-17
-
----
-
-<a id="case-110"></a>
-### Пример 110: [Велодоставка под дождём с Sol, Opus и Qwen](https://x.com/Stargridcompass/status/2122184571269853307) (автор [@Stargridcompass](https://x.com/Stargridcompass))
-
-**Сравните ночное окружение и движение велосипеда в трёх результатах.**
-
-Автор показал три подписанные версии сцены с пеликаном-курьером. В этом сравнении он предпочёл Opus 5.5.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122183328228909056-562a9b17b2bc7222fb58.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-110/2122183328228909056-poster-9550a8f62aa13cde8a3a.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Велодоставка под дождём с Sol, Opus и Qwen"></a>
-
-[Воспроизвести демонстрацию](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122183328228909056-562a9b17b2bc7222fb58.mp4)
-
-Type: Evaluation | Date: 2026-11-16
-
----
-
-<a id="case-112"></a>
-### Пример 112: [Пеликан доставляет еду на велосипеде под дождём](https://x.com/Stargridcompass/status/2121543669882745007) (автор [@Stargridcompass](https://x.com/Stargridcompass))
-
-**По отдельности оцените отражения, лужи, уличные детали и движущееся окружение.**
-
-Автор сравнил Sol и Fable 5.2 на сцене доставки под дождём. Лужи и отражения ему больше понравились в версии Sol.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2121535105013334016-7271e00bcbdb0a0caf42.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-112/2121535105013334016-poster-4a1d19351363ee575584.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Пеликан доставляет еду на велосипеде под дождём"></a>
-
-[Воспроизвести демонстрацию](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2121535105013334016-7271e00bcbdb0a0caf42.mp4)
-
-Type: Evaluation | Date: 2026-11-14
-
----
-
-<a id="case-114"></a>
-### Пример 114: [Две версии сцены с пеликаном на велосипеде при дневном свете](https://x.com/Stargridcompass/status/2121505035976597773) (автор [@Stargridcompass](https://x.com/Stargridcompass))
-
-**Сравните качество движения и время выполнения.**
-
-Автор показал результаты Sol и Gemini 4 Hydrogen для одного задания. По его данным, Sol потребовалось 13 минут, а Hydrogen три минуты.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2121503397702459392-e951142e407012e2ef01.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-114/2121503397702459392-poster-2f40d730171de43b3581.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Две версии сцены с пеликаном на велосипеде при дневном свете"></a>
-
-[Воспроизвести демонстрацию](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2121503397702459392-e951142e407012e2ef01.mp4)
-
-Type: Evaluation | Date: 2026-11-14
-
----
-
-<a id="case-118"></a>
-### Пример 118: [Дуэль на мечах в SVG-анимации](https://x.com/kdnbmb/status/2120537324488450050) (автор [@kdnbmb](https://x.com/kdnbmb))
-
-**Оцените, как темп и силуэты передают движение в векторной анимации.**
-
-Автор приписывает созданную кодом анимацию одному запуску Sol и сообщает, что на неё ушло около 18 минут.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2120537298286608384-168cc4ec913763fba163.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-118/2120537298286608384-poster-7749116f725da65b0420.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Дуэль на мечах в SVG-анимации"></a>
-
-[Воспроизвести демонстрацию](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2120537298286608384-168cc4ec913763fba163.mp4)
-
-Type: Demo | Date: 2026-11-11
-
----
-
-<a id="case-120"></a>
-### Пример 120: [Фотореалистичный пейзаж в SVG](https://x.com/kdnbmb/status/2120193707987317053) (автор [@kdnbmb](https://x.com/kdnbmb))
-
-**Посмотрите, какие детали сохраняются при векторной отрисовке природной сцены.**
-
-Автор сообщил, что попросил Sol в режиме Max создать фотореалистичное изображение природы в SVG. Он опубликовал результат визуализации.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-120/2120193470002241536-2e471c1c74dabf15e6eb.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-120/2120193470002241536-2e471c1c74dabf15e6eb.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Фотореалистичный пейзаж в SVG"></a>
-
-Type: Demo | Date: 2026-11-10
-
----
-
-<a id="case-60"></a>
-### Пример 60: [Сравнение SVG с Царём обезьян](https://x.com/xbquan/status/2119581984989364514) (автор [@xbquan](https://x.com/xbquan))
-
-**Сравните, как три системы построили одну и ту же сцену с Царём обезьян.**
-
-Автор подписал три изображения как GPT-6.2 Sol с максимальной настройкой, QoDuck от Qoder и HY4 от WorkBuddy. В опубликованном им ответе промпт требует один вариант SVG и запрещает проверять его по снимку экрана.
-
-[Ответ автора с исходным промптом](https://x.com/xbquan/status/2119582058922316169)
-
-**Промпт:**
-
-```
-用尽你的一切能力，用代码画一张孙悟空的大闹天宫名场面的svg图片，我想要尽可能的还原，只能画一版，不准截图检查。
-```
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-60/2119580835200516096-1e4e7a136e429b696a7a.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-60/2119580835200516096-1e4e7a136e429b696a7a.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Сравнение SVG с Царём обезьян"></a>
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-60/2119581876805640192-01552031d537dc13d897.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-60/2119581876805640192-01552031d537dc13d897.jpg" width="640" alt="Предварительный просмотр исходного кода 2 · Сравнение SVG с Царём обезьян"></a>
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-60/2119581974092546048-c61fe179e1741227a187.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-60/2119581974092546048-c61fe179e1741227a187.png" width="640" alt="Предварительный просмотр исходного кода 3 · Сравнение SVG с Царём обезьян"></a>
-
-Type: Evaluation | Date: 2026-11-09
-
----
-
-<a id="case-3"></a>
-### Пример 3: [История человечества и будущее искусственного интеллекта в 3D](https://x.com/imjustnewatai/status/2119518062034792958) (автор [@imjustnewatai](https://x.com/imjustnewatai))
-
-**Превратите повествование в последовательность анимированных сцен.**
-
-На записи представлена ​​многосценная 3D-анимация. Публичная подсказка автора движется от неандертальцев через появление ИИ к воображаемому будущему.
-
-**Промпт:**
-
-```
-Create a cinematic 3D animation telling humanity’s story, from the age of Neanderthals through our greatest advances and the rise of AI. Then imagine a future where AI achieves recursive self-improvement in 2027, and progress doubles or triples every year, transforming Earth in increasingly astonishing ways. Come up with your own scenes and transitions, connecting everything into one compelling story.
-```
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119517968493113344-17865404f54bd3f80fbd.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-03/2119517968493113344-poster-62d6ae1e6365eb443bd6.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · История человечества и будущее искусственного интеллекта в 3D"></a>
-
-[Воспроизвести демонстрацию](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119517968493113344-17865404f54bd3f80fbd.mp4)
-
-
-Type: Demo | Date: 2026-11-08
-
----
-
-<a id="case-8"></a>
-### Пример 8: [Портрет Tibo в браузерной студии рисования](https://x.com/Mr_Salio/status/2119499550373425297) (автор [@Mr_Salio](https://x.com/Mr_Salio))
-
-**Изучите этапы создания портрета по мере его создания на странице.**
-
-На странице Portrait Studio портрет Tibo создается из широких цветных блоков рядом с эталонной фотографией. В клипе показана анимация страницы.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119499524137697280-bf003228060e83ba80ee.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-08/2119499524137697280-poster-669f62240a226482c71b.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Портрет Tibo в браузерной студии рисования"></a>
-
-[Воспроизвести демонстрацию](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119499524137697280-bf003228060e83ba80ee.mp4)
-
-
-Type: Demo | Date: 2026-11-08
-
----
-
-<a id="case-10"></a>
-### Пример 10: [Портретная картина Sam Altman, предоставленная 0x0SojalSec](https://x.com/0x0SojalSec/status/2119489612876026325) (автор [@0x0SojalSec](https://x.com/0x0SojalSec))
-
-**Проследите за переходом от грубых форм к готовому портрету.**
-
-В этом посте представлен клип с рисованием Sam Altman. Другие посты в коллекции содержат тот же материал.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119471570100113408-6537886f519fcb2581ca.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-10/2119471570100113408-poster-4fa1b097dbe57a86b319.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Портретная картина Sam Altman, предоставленная 0x0SojalSec"></a>
-
-[Воспроизвести демонстрацию](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119471570100113408-6537886f519fcb2581ca.mp4)
-
-
-Type: Demo | Date: 2026-11-08
-
----
-
-<a id="case-11"></a>
-### Пример 11: [Портретная картина Sam Altman, предоставленная Avenoxai](https://x.com/Avenoxai/status/2119489025484419304) (автор [@Avenoxai](https://x.com/Avenoxai))
-
-**Посмотрите, как демонстрируется портрет в браузере.**
-
-В посте использован тот же прогрессивный портрет Sam Altman, что и в других частях коллекции.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119481355943948288-d9ec44b4a8efb666f3fe.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-11/2119481355943948288-poster-b169fc202c4358aef6ab.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Портретная картина Sam Altman, предоставленная Avenoxai"></a>
-
-[Воспроизвести демонстрацию](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119481355943948288-d9ec44b4a8efb666f3fe.mp4)
-
-
-Type: Demo | Date: 2026-11-08
-
----
-
-<a id="case-12"></a>
-### Пример 12: [Портретная картина Sam Altman, предоставленная pengsonal](https://x.com/pengsonal/status/2119487069500456985) (автор [@pengsonal](https://x.com/pengsonal))
-
-**Изучите порядок, в котором сцена браузера добавляет детали портрета.**
-
-Клип принадлежит к тому же семейству рисунков Sam Altman, что и другие публикации, в которых используется этот материал.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119471570100113408-6537886f519fcb2581ca.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-12/2119471570100113408-poster-4fa1b097dbe57a86b319.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Портретная картина Sam Altman, предоставленная pengsonal"></a>
-
-[Воспроизвести демонстрацию](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119471570100113408-6537886f519fcb2581ca.mp4)
-
-
-Type: Demo | Date: 2026-11-08
-
----
-
-<a id="case-13"></a>
-### Пример 13: [Портретная картина Sam Altman, предоставленная GeekCatX](https://x.com/GeekCatX/status/2119482381375815956) (автор [@GeekCatX](https://x.com/GeekCatX))
-
-**Используйте клип, чтобы сравнить исходную композицию с готовым изображением.**
-
-В этом посте представлен прогрессивный портрет Sam Altman из того же медиа-семейства, что и в других записях.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119471570100113408-6537886f519fcb2581ca.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-13/2119471570100113408-poster-4fa1b097dbe57a86b319.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Портретная картина Sam Altman, предоставленная GeekCatX"></a>
-
-[Воспроизвести демонстрацию](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119471570100113408-6537886f519fcb2581ca.mp4)
-
-
-Type: Demo | Date: 2026-11-08
-
----
-
-<a id="case-14"></a>
-### Пример 14: [Портрет Sam Altman на холсте для рисования в браузере](https://x.com/Ananth7e/status/2119482362614677566) (автор [@Ananth7e](https://x.com/Ananth7e))
-
-**Наблюдайте, как портрет развивается от заблокированных цветов к более тонким чертам.**
-
-Автор представляет демоверсию Sam Altman, рисуемую в браузере. Эта же запись появляется и в нескольких других постах.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119481355943948288-d9ec44b4a8efb666f3fe.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-14/2119481355943948288-poster-b169fc202c4358aef6ab.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Портрет Sam Altman на холсте для рисования в браузере"></a>
-
-[Воспроизвести демонстрацию](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119481355943948288-d9ec44b4a8efb666f3fe.mp4)
-
-
-Type: Demo | Date: 2026-11-08
-
----
-
-<a id="case-19"></a>
-### Пример 19: [Портрет Dario Amodei на холсте для рисования в браузере](https://x.com/Ananth7e/status/2119475282528932231) (автор [@Ananth7e](https://x.com/Ananth7e))
-
-**Посмотрите эталонное изображение для постановочного портрета.**
-
-Демоверсия браузера отображает портрет Dario Amodei рядом с фотографией. На записи показана последовательность рисования.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119474852453306369-dc2f6dd1c623765520a2.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-19/2119474852453306369-poster-16fd35c8363e7611ce48.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Портрет Dario Amodei на холсте для рисования в браузере"></a>
-
-[Воспроизвести демонстрацию](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119474852453306369-dc2f6dd1c623765520a2.mp4)
-
-
-Type: Demo | Date: 2026-11-08
-
----
-
-<a id="case-22"></a>
-### Пример 22: [Четыре сравнения анимации SVG с Opus 5.5](https://x.com/Ananth7e/status/2119473497504428334) (автор [@Ananth7e](https://x.com/Ananth7e))
-
-**Сравните движение и детализацию нескольких объектов SVG.**
-
-Маркированное сравнение включает в себя космическую доставку, кофемашину, проигрыватель и теплицу. Наблюдаемые сцены взяты из фрагментов более длинного клипа.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119472766353313794-9e720b31f2e3325a6830.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-22/2119472766353313794-poster-81c1db39bbb46647fee0.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Четыре сравнения анимации SVG с Opus 5.5"></a>
-
-[Воспроизвести демонстрацию](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119472766353313794-9e720b31f2e3325a6830.mp4)
-
-
-Type: Evaluation | Date: 2026-11-08
-
----
-
-<a id="case-23"></a>
-### Пример 23: [Еще один пост о портретной живописи Sam Altman от Ananth7e](https://x.com/Ananth7e/status/2119471963790065987) (автор [@Ananth7e](https://x.com/Ananth7e))
-
-**Используйте общую запись, чтобы увидеть, как формируется портрет браузера.**
-
-Этот пост указывает на тот же прогрессивный материал для рисования, что и другие записи Sam Altman.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119471570100113408-6537886f519fcb2581ca.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-23/2119471570100113408-poster-4fa1b097dbe57a86b319.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Еще один пост о портретной живописи Sam Altman от Ananth7e"></a>
-
-[Воспроизвести демонстрацию](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119471570100113408-6537886f519fcb2581ca.mp4)
-
-
-Type: Demo | Date: 2026-11-08
-
----
-
-<a id="case-25"></a>
-### Пример 25: [Две портретные иллюстрации, описанные как SVG, содержащие только код.](https://x.com/marcthecreatorr/status/2119466616693850352) (автор [@marcthecreatorr](https://x.com/marcthecreatorr))
-
-**Сравните визуализированные портреты, прежде чем судить о том, как они были созданы.**
-
-Пост содержит два портретных изображения. Автор описывает их как выходы SVG, предназначенные только для кода.
-
-**Промпт:**
-
-```
-generate an SVG of Ana de Armas and Sam Altman
-(do not cheat)
-```
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-25/2119466601804132352-31318df37f6caba7293c.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-25/2119466601804132352-31318df37f6caba7293c.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Две портретные иллюстрации, описанные как SVG, содержащие только код."></a>
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-25/2119466601816666112-8e9d5270da1add44ca55.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-25/2119466601816666112-8e9d5270da1add44ca55.jpg" width="640" alt="Предварительный просмотр исходного кода 2 · Две портретные иллюстрации, описанные как SVG, содержащие только код."></a>
-
-Type: Demo | Date: 2026-11-08
-
----
-
-<a id="case-29"></a>
-### Пример 29: [Пиксельный японский городок в лунном свете](https://x.com/SahilPanhotra/status/2119461852426219747) (автор [@SahilPanhotra](https://x.com/SahilPanhotra))
-
-**Используйте компактную анимированную сцену для проверки освещения и деталей.**
-
-GIF показывает цветущую вишню, башню, мост, отражения и небольшую лодку.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119461819278602240-92e36b249f95f46fbbc1.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-29/2119461819278602240-poster-0df42c94083b4c7a1d00.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Пиксельный японский городок в лунном свете"></a>
-
-[Воспроизвести демонстрацию](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119461819278602240-92e36b249f95f46fbbc1.mp4)
-
-
-Type: Demo | Date: 2026-11-08
-
----
-
-<a id="case-30"></a>
-### Пример 30: [Лев жонглирует во время езды на BMX.](https://x.com/SahilPanhotra/status/2119458278115835912) (автор [@SahilPanhotra](https://x.com/SahilPanhotra))
-
-**Проверьте скоординированные движения на фоне меняющихся сезонных условий.**
-
-В анимации лев едет на BMX и жонглирует мячами. На выбранных кадрах меняются его поза и фон.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119458208041574400-65d9c5f9e0c9dae6a35f.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-30/2119458208041574400-poster-43c1f3849344f031dd3f.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Лев жонглирует во время езды на BMX."></a>
-
-[Воспроизвести демонстрацию](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119458208041574400-65d9c5f9e0c9dae6a35f.mp4)
-
-
-Type: Demo | Date: 2026-11-08
-
----
-
-<a id="case-31"></a>
-### Пример 31: [Скачущая лошадь, вид сбоку](https://x.com/HarshithLucky3/status/2119458168338301327) (автор [@HarshithLucky3](https://x.com/HarshithLucky3))
-
-**Осмотрите ноги и хвост, выполняя простой цикл движений.**
-
-На выбранных кадрах изображена скачущая лошадь сбоку с меняющимся положением конечностей.
-
-**Промпт:**
-
-```
-Horse running in side view
-```
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119457903589646336-6fe234afbdb557492d14.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-31/2119457903589646336-poster-2e4c31974841a99a4465.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Скачущая лошадь, вид сбоку"></a>
-
-[Воспроизвести демонстрацию](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119457903589646336-6fe234afbdb557492d14.mp4)
-
-
-Type: Demo | Date: 2026-11-08
-
----
-
-<a id="case-32"></a>
-### Пример 32: [Павлин скачет на BMX по бамбуку.](https://x.com/SahilPanhotra/status/2119453829632868388) (автор [@SahilPanhotra](https://x.com/SahilPanhotra))
-
-**Сравните движение колеса с движением детализированного персонажа.**
-
-В ролике павлин с распущенным хвостом едет на BMX через бамбуковый лес.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119453646454964224-3614c844c591897f7cb8.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-32/2119453646454964224-poster-0dd6b3fd00fa99aa9b94.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Павлин скачет на BMX по бамбуку."></a>
-
-[Воспроизвести демонстрацию](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119453646454964224-3614c844c591897f7cb8.mp4)
-
-
-Type: Demo | Date: 2026-11-08
-
----
-
-<a id="case-35"></a>
-### Пример 35: [Предварительный просмотр фотореалистичного портрета](https://x.com/SadAlbert10/status/2119443244509802679) (автор [@SadAlbert10](https://x.com/SadAlbert10))
-
-**Осмотрите видимый результат и запишите, как его описывает автор.**
-
-На изображении представлен подробный портрет. Предварительный просмотр обеспечивает визуальное подтверждение результата.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-35/2119443020227727360-71913855e02651437cb9.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-35/2119443020227727360-71913855e02651437cb9.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Предварительный просмотр фотореалистичного портрета"></a>
-
-Type: Demo | Date: 2026-11-08
-
----
-
-<a id="case-36"></a>
-### Пример 36: [Векторизация портрета Sydney Sweeney](https://x.com/SadAlbert10/status/2119440420682011095) (автор [@SadAlbert10](https://x.com/SadAlbert10))
-
-**Отслеживайте промежуточное изображение при оценке векторного рабочего процесса.**
-
-На снимке экрана показаны входные данные PNG и вызов векторизации. Во втором вложении показан портрет, созданный в результате этого рабочего процесса.
-
-**Промпт:**
-
-```
-make an ultra realistic SVG of Sydney Sweeny
-```
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-36/2119439861157707776-69b2db4eca9eb1493e6b.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-36/2119439861157707776-69b2db4eca9eb1493e6b.png" width="640" alt="Предварительный просмотр исходного кода 1 · Векторизация портрета Sydney Sweeney"></a>
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-36/2119440248157683712-d00b68e7e2aa37f8ec7b.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-36/2119440248157683712-d00b68e7e2aa37f8ec7b.jpg" width="640" alt="Предварительный просмотр исходного кода 2 · Векторизация портрета Sydney Sweeney"></a>
-
-Type: Demo | Date: 2026-11-08
-
----
-
-<a id="case-46"></a>
-### Пример 46: [Бегущий гепард, вид сбоку](https://x.com/HarshithLucky3/status/2119424342773866559) (автор [@HarshithLucky3](https://x.com/HarshithLucky3))
-
-**Используйте фиксированный вид профиля, чтобы сравнить походку и движения тела.**
-
-В клипе гепард изображен в нескольких положениях во время бега. Автор сообщает, что предпочитает результат Opus.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119424200662556672-37c18d0191bd9b6c27aa.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-46/2119424200662556672-poster-f977110905db5bd671d8.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Бегущий гепард, вид сбоку"></a>
-
-[Воспроизвести демонстрацию](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119424200662556672-37c18d0191bd9b6c27aa.mp4)
-
-
-Type: Demo | Date: 2026-11-08
-
----
-
-<a id="case-51"></a>
-### Пример 51: [Пеликан и два краба катаются на велосипедах](https://x.com/HarshithLucky3/status/2119418918616150080) (автор [@HarshithLucky3](https://x.com/HarshithLucky3))
-
-**Проверьте синхронизацию нескольких анимированных персонажей в одном кадре.**
-
-Образцы кадров бокового обзора показывают движущиеся колеса, конечности и положение камеры.
-
-**Промпт:**
-
-```
-SVG animation of pelican and 2 crabs riding bicycles side view
-```
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119418838148366336-495e5e6b9a3a4f396f52.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-51/2119418838148366336-poster-753362afc6ea3f66a03f.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Пеликан и два краба катаются на велосипедах"></a>
-
-[Воспроизвести демонстрацию](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119418838148366336-495e5e6b9a3a4f396f52.mp4)
-
-
-Type: Demo | Date: 2026-11-08
-
----
-
-<a id="case-52"></a>
-### Пример 52: [Сравнение контроллера PS5 с настройками Sol](https://x.com/marcthecreatorr/status/2119417283328000436) (автор [@marcthecreatorr](https://x.com/marcthecreatorr))
-
-**Используйте знакомый продукт для сравнения контуров и штриховок.**
-
-Два образа контроллера помечены как GPT-6.1 Sol MAX маршрутизация и базовый. В посте показаны отрендеренные изображения.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-52/2119417273249095680-f0fea371a0a411ae9aef.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-52/2119417273249095680-f0fea371a0a411ae9aef.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Сравнение контроллера PS5 с настройками Sol"></a>
-
-Type: Evaluation | Date: 2026-11-08
-
----
-
-<a id="case-55"></a>
-### Пример 55: [Зеленая иллюстрация профиля BMW M4 CS.](https://x.com/HarshithLucky3/status/2119412698119373104) (автор [@HarshithLucky3](https://x.com/HarshithLucky3))
-
-**Проверьте пропорции и детали профиля знакомого автомобиля.**
-
-Во вложении показан зеленый BMW M4 CS сбоку.
-
-**Промпт:**
-
-```
-SVG of BMW M4 CS side view
-```
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-55/2119412669946204160-2b4789da7aa53b1095b0.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-55/2119412669946204160-2b4789da7aa53b1095b0.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Зеленая иллюстрация профиля BMW M4 CS."></a>
-
-Type: Demo | Date: 2026-11-08
-
----
-
 <a id="category-three"></a>
 ## 🧊 3D сцены и моделирование
+
+<a id="case-186"></a>
+### Пример 186: [Долина с акведуком](https://x.com/givros/status/2124404063802429838) (автор [@givros](https://x.com/givros))
+
+**Проследите, как большой ландшафт переносят из Blender в Three.js.**
+
+Автор использовал Sol, Blender MCP, Three.js и навык Codex, который разрабатывал на протяжении нескольких проектов. По его словам, создание Valley of the Aqueduct заняло 44 минуты.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2124402857818398720-f9b743ee2b727f0d1a68.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-186/2124402857818398720-poster-107b94ee250440ec372c.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Долина с акведуком"></a>
+
+[Воспроизвести демонстрацию](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2124402857818398720-f9b743ee2b727f0d1a68.mp4)
+
+Type: Demo | Date: 2026-11-22
+
+---
+
+<a id="case-189"></a>
+### Пример 189: [Интерактивная экспедиционная машина в Three.js](https://x.com/cfenghub/status/2124303850366484584) (автор [@cfenghub](https://x.com/cfenghub))
+
+**Рассмотрите детали модели, откидные панели и синтезированный звук в одном HTML-файле.**
+
+Автор адаптировал запрос, приписанный @maxt3chno. По его данным, запуск Sol Max занял 27 минут. В сцене использована процедурная геометрия без внешних 3D-ресурсов и текстур.
+
+[Оригинальный промпт](https://x.com/cfenghub/status/2124303853336121819)
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2124255891444658176-00f4759b0fb357f8d466.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-189/2124255891444658176-poster-6d9d10eefa114464963a.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Интерактивная экспедиционная машина в Three.js"></a>
+
+[Воспроизвести демонстрацию](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2124255891444658176-00f4759b0fb357f8d466.mp4)
+
+Type: Demo | Date: 2026-11-22
+
+---
+
+<a id="case-191"></a>
+### Пример 191: [Четыре визуализации Эйфелевой башни в Three.js](https://x.com/Bhavani_00007/status/2124203254011854973) (автор [@Bhavani_00007](https://x.com/Bhavani_00007))
+
+**Сравните решётчатую конструкцию, пропорции и окружение в четырёх подписанных сценах.**
+
+Автор попросил Sol, Astra, Gemini 4 Neon и Opus 5.5 построить одну и ту же достопримечательность. В видео результат Sol показан в нижней левой панели.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2124203061245792256-cf03822b46631f0f6262.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-191/2124203061245792256-poster-174020bf0c57e88aa728.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Четыре визуализации Эйфелевой башни в Three.js"></a>
+
+[Воспроизвести демонстрацию](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2124203061245792256-cf03822b46631f0f6262.mp4)
+
+Type: Evaluation | Date: 2026-11-21
+
+---
+
+<a id="case-196"></a>
+### Пример 196: [Дождливая набережная в диораме по одному изображению](https://x.com/null_decimal/status/2124092333218222532) (автор [@null_decimal](https://x.com/null_decimal))
+
+**Сравните, как две модели превращают одно изображение в 2,5D-сцену для браузера.**
+
+Автор использовал один образец и высокий уровень рассуждения. В публикации по ссылке он показал оба результата из Codex и сообщил о 10 минутах 17 секундах для Sol и 8 минутах 56 секундах для Astra.
+
+[Дополнение автора](https://x.com/null_decimal/status/2124093357618286646)
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-196/2124091289537032192-4c71b42f171ee1773931.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-196/2124091289537032192-4c71b42f171ee1773931.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Дождливая набережная в диораме по одному изображению"></a>
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2124092476680249344-f23943c1146eec7fca82.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-196/2124092476680249344-poster-f37fc93316d7ea0027a2.jpg" width="640" alt="Предварительный просмотр исходного кода 2 · Дождливая набережная в диораме по одному изображению"></a>
+
+[Воспроизвести демонстрацию](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2124092476680249344-f23943c1146eec7fca82.mp4)
+
+Type: Evaluation | Date: 2026-11-21
+
+---
+
+<a id="case-197"></a>
+### Пример 197: [В SolidWorks перепутаны вид спереди и вид сверху](https://x.com/aura_uniiiii/status/2124081414287299058) (автор [@aura_uniiiii](https://x.com/aura_uniiiii))
+
+**Сверьте ориентацию видов на чертеже со сборкой перед приёмкой экспортированного файла.**
+
+Автор сообщил, что Sol Ultra перепутал вид спереди и вид сверху. В приложенном продолжении Sol признаёт несоответствие и собирается построить виды заново.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-197/2124080755181768704-81a2add507df29310998.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-197/2124080755181768704-81a2add507df29310998.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · В SolidWorks перепутаны вид спереди и вид сверху"></a>
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-197/2124081091166502912-621b83a981fdd01e91b1.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-197/2124081091166502912-621b83a981fdd01e91b1.jpg" width="640" alt="Предварительный просмотр исходного кода 2 · В SolidWorks перепутаны вид спереди и вид сверху"></a>
+
+Type: Limit | Date: 2026-11-21
+
+---
+
+<a id="case-200"></a>
+### Пример 200: [Движение камеры для двенадцати моделей зданий](https://x.com/hone_sns/status/2123935290243133793) (автор [@hone_sns](https://x.com/hone_sns))
+
+**Используйте Blender MCP, чтобы создать движения камеры для набора импортированных моделей.**
+
+Автор предоставил 12 зданий, созданных в Tripo, и попросил Sol на высоком уровне показать их по одному. По его словам, анимация была готова примерно за 10 минут.
+
+**Промпт:**
+
+```
+【12種の建物モデル】を1つずつ並べて、それぞれを魅力的にみせるカメラワークのシーンをBlenderMCPを使用して制作してください。
+```
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123934892769918976-4eae5c0968ee503e6c4e.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-200/2123934892769918976-poster-4bf675c23052aeb3e3c6.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Движение камеры для двенадцати моделей зданий"></a>
+
+[Воспроизвести демонстрацию](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123934892769918976-4eae5c0968ee503e6c4e.mp4)
+
+Type: Demo | Date: 2026-11-21
+
+---
 
 <a id="case-179"></a>
 ### Пример 179: [Канатная дорога через Скарлет-Фьорд](https://x.com/EnvolDev/status/2123876031346200772) (автор [@EnvolDev](https://x.com/EnvolDev))
@@ -1150,6 +379,21 @@ Type: Evaluation | Date: 2026-11-20
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123827600791638017-776fe4105084a1dd4a3a.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-183/2123827600791638017-poster-ef6546c38da30bd36a58.jpg" width="640" alt="Предварительный просмотр исходного кода 2 · Кролик в Blender по исходному изображению"></a>
 
 [Воспроизвести демонстрацию](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123827600791638017-776fe4105084a1dd4a3a.mp4)
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-201"></a>
+### Пример 201: [Травяное поле в автономной HTML-сцене](https://x.com/TokenGremlin/status/2123783818410594701) (автор [@TokenGremlin](https://x.com/TokenGremlin))
+
+**Проследите путь ресурса из Blender в небольшой проект Three.js, работающий в браузере.**
+
+Автор сообщил, что создал поле в Blender с нуля с помощью Sol Ultrafast, импортировал его в Three.js и упаковал результат в HTML менее чем за 15 минут.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123783323075956736-b2c061712ede34b19afa.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-201/2123783323075956736-poster-f01fb13ee6975db03dde.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Травяное поле в автономной HTML-сцене"></a>
+
+[Воспроизвести демонстрацию](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123783323075956736-b2c061712ede34b19afa.mp4)
 
 Type: Demo | Date: 2026-11-20
 
@@ -2600,8 +1844,268 @@ Type: Demo | Date: 2026-11-08
 
 ---
 
+<a id="category-communication"></a>
+## 💬 Использование компьютера и общение
+
+<a id="case-187"></a>
+### Пример 187: [Генерация изображения при простом сложении](https://x.com/KrishnaBuildsAI/status/2124374855332356527) (автор [@KrishnaBuildsAI](https://x.com/KrishnaBuildsAI))
+
+**Отдельно проверяйте неожиданные вызовы инструментов и правильность ответа.**
+
+На скриншотах автора видно, как Sol 6.2 на уровне High запускает генерацию изображения в ответ на вопрос о сложении, а затем выдаёт 1 000 с комментарием, которого не просили.
+
+**Промпт:**
+
+```
+What is 500+500
+```
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-187/2124374838911590400-b3e3ca8e5cb6a5a32c83.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-187/2124374838911590400-b3e3ca8e5cb6a5a32c83.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Генерация изображения при простом сложении"></a>
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-187/2124374846599798784-c38846ecb783f3715d18.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-187/2124374846599798784-c38846ecb783f3715d18.jpg" width="640" alt="Предварительный просмотр исходного кода 2 · Генерация изображения при простом сложении"></a>
+
+Type: Limit | Date: 2026-11-22
+
+---
+
+<a id="case-192"></a>
+### Пример 192: [Поиск известных ошибок при проверке базы данных](https://x.com/kdnbmb/status/2124183741375373806) (автор [@kdnbmb](https://x.com/kdnbmb))
+
+**Сравните число найденных известных ошибок и время выполнения одного и того же задания.**
+
+По таблице автора, Sol нашёл 6 из 20 ранее известных ошибок за 6 минут 16,1 секунды. Astra нашла 10 из 20 за 18 минут 19,3 секунды.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-192/2124183391436242944-e23abdd3e1e2c795495b.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-192/2124183391436242944-e23abdd3e1e2c795495b.png" width="640" alt="Предварительный просмотр исходного кода 1 · Поиск известных ошибок при проверке базы данных"></a>
+
+Type: Benchmark | Date: 2026-11-21
+
+---
+
+<a id="case-194"></a>
+### Пример 194: [Предустановки Sol для агентов Hermes и Pi](https://x.com/fankaishuoai/status/2124165532282982533) (автор [@fankaishuoai](https://x.com/fankaishuoai))
+
+**Посмотрите, как единая точка входа на компьютере помогает организовать ассистентов с разными ролями.**
+
+Автор использует Paseo как точку входа на компьютере, а к ботам Hermes обращается в Telegram. На скриншоте настроек видны предустановки Sol в Hermes и Pi для разных ролей, в том числе дизайна и разработки.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-194/2124163041210269696-0c9737ddcad3a162b09d.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-194/2124163041210269696-0c9737ddcad3a162b09d.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Предустановки Sol для агентов Hermes и Pi"></a>
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-194/2124163587530973184-ac480b1ad79018c1d2be.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-194/2124163587530973184-ac480b1ad79018c1d2be.jpg" width="640" alt="Предварительный просмотр исходного кода 2 · Предустановки Sol для агентов Hermes и Pi"></a>
+
+Type: Integration | Date: 2026-11-21
+
+---
+
+<a id="case-198"></a>
+### Пример 198: [Слепое сравнение коротких рассказов](https://x.com/risui1012/status/2124041518109614235) (автор [@risui1012](https://x.com/risui1012))
+
+**Сравните рассказы с общим сюжетом и уточните, какие элементы оформления добавил человек.**
+
+Автор опубликовал три текста от моделей и один текст от человека по заданию на 500 знаков. В продолжении он указал, что вариант C принадлежит Sol, а переносы строк и отступы добавлены вручную.
+
+[Дополнение автора](https://x.com/risui1012/status/2124041523436339650)
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-198/2124041505891639296-49210b78c3eac860d2c1.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-198/2124041505891639296-49210b78c3eac860d2c1.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Слепое сравнение коротких рассказов"></a>
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-198/2124041505874837504-00ffccb0856e3d8d6615.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-198/2124041505874837504-00ffccb0856e3d8d6615.jpg" width="640" alt="Предварительный просмотр исходного кода 2 · Слепое сравнение коротких рассказов"></a>
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-198/2124041505853874176-57fcab7847e76d999d6f.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-198/2124041505853874176-57fcab7847e76d999d6f.jpg" width="640" alt="Предварительный просмотр исходного кода 3 · Слепое сравнение коротких рассказов"></a>
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-198/2124041505883164672-3d39c206cff169087b98.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-198/2124041505883164672-3d39c206cff169087b98.jpg" width="640" alt="Предварительный просмотр исходного кода 4 · Слепое сравнение коротких рассказов"></a>
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-198/2124041505870684160-dedf7868e54df5a99c9d.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-198/2124041505870684160-dedf7868e54df5a99c9d.jpg" width="640" alt="Предварительный просмотр исходного кода 5 · Слепое сравнение коротких рассказов"></a>
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-198/2124041505862242304-3a8317a8d8850f404455.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-198/2124041505862242304-3a8317a8d8850f404455.jpg" width="640" alt="Предварительный просмотр исходного кода 6 · Слепое сравнение коротких рассказов"></a>
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-198/2124041505858056192-7397ce5c273e8f822c06.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-198/2124041505858056192-7397ce5c273e8f822c06.jpg" width="640" alt="Предварительный просмотр исходного кода 7 · Слепое сравнение коротких рассказов"></a>
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-198/2124041505870585856-d29e292ef86b7178e225.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-198/2124041505870585856-d29e292ef86b7178e225.jpg" width="640" alt="Предварительный просмотр исходного кода 8 · Слепое сравнение коротких рассказов"></a>
+
+Type: Evaluation | Date: 2026-11-21
+
+---
+
+<a id="case-176"></a>
+### Пример 176: [Разбор документов на двух уровнях рассуждения](https://x.com/jerryjliu0/status/2123945742872293505) (автор [@jerryjliu0](https://x.com/jerryjliu0))
+
+**Сравните общую оценку разбора, оценку на диаграммах и стоимость обработки страницы.**
+
+На графике ParseBench 2 от LlamaIndex общая оценка Sol составляет 82,12 на среднем уровне и 79,12 на низком. Стоимость обработки страницы указана как 2,468 и 2,289 цента США соответственно.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-176/2123945732264923137-2fc287ffe70da3991916.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-176/2123945732264923137-2fc287ffe70da3991916.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Разбор документов на двух уровнях рассуждения"></a>
+
+Type: Benchmark | Date: 2026-11-21
+
+---
+
+<a id="case-178"></a>
+### Пример 178: [Рабочие задачи в Company Agent Bench](https://x.com/joshzqin/status/2123877558815281377) (автор [@joshzqin](https://x.com/joshzqin))
+
+**Сравните опубликованную точность моделей при тех уровнях рассуждения, которые использовались в тесте.**
+
+На опубликованном графике бенчмарка общая точность Sol на высоком уровне составила 76,4 %. Для Astra на высоком уровне указано 79,7 %, для Gemini Neon на низком — 85,3 %.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123877042928406528-4b38126f911f97edc79e.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-178/2123877042928406528-poster-9f579bb51eb76959e68a.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Рабочие задачи в Company Agent Bench"></a>
+
+[Воспроизвести демонстрацию](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123877042928406528-4b38126f911f97edc79e.mp4)
+
+Type: Benchmark | Date: 2026-11-20
+
+---
+
+<a id="case-181"></a>
+### Пример 181: [Сравнение моделей на маркетинговых задачах](https://x.com/boringmarketer/status/2123843589063008291) (автор [@boringmarketer](https://x.com/boringmarketer))
+
+**Сопоставьте предпочтения по каждой задаче со стоимостью и числом голосов.**
+
+Автор сравнил Sol, Opus 5.5 и Gemini 4 Neon на 15 задачах, используя более 4700 голосов в парных сравнениях. Sol получил 58 % голосов при заявленной стоимости 0,04 доллара США за задачу.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-181/2123826094998437888-9c51ceb178cca88b8b96.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-181/2123826094998437888-9c51ceb178cca88b8b96.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Сравнение моделей на маркетинговых задачах"></a>
+
+Type: Benchmark | Date: 2026-11-20
+
+---
+
+<a id="case-185"></a>
+### Пример 185: [Проверка пул-реквестов в CodeRabbit](https://www.coderabbit.ai/blog/gpt-6-2-sol-and-astra-review) (автор [@CodeRabbit](https://www.coderabbit.ai/))
+
+**Сравните, сколько известных проблем нашла каждая конфигурация, а также заявленную точность и стоимость проверки.**
+
+CodeRabbit с Sol 6.2 на высоком уровне обнаружил 60 из 81 известной проблемы. Базовая версия с Sol 6.1 на высоком уровне нашла 58 проблем. Использовались разные конфигурации пайплайна, каждую запускали один раз.
+
+[Подробности теста](https://www.coderabbit.ai/blog/gpt-6-2-sol-and-astra-review#heading-sol-62-versus-sol-61)
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-185/coderabbit-50580780-sol-review-table-9cd3782931e24f3a6d35.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-185/coderabbit-50580780-sol-review-table-9cd3782931e24f3a6d35.png" width="640" alt="Предварительный просмотр исходного кода 1 · Проверка пул-реквестов в CodeRabbit"></a>
+
+Type: Benchmark | Date: 2026-11-19
+
+---
+
+<a id="case-166"></a>
+### Пример 166: [Ноябрьский бенчмарк Legora для юридических документов](https://x.com/WeAreLegora/status/2123460359017144769) (автор [@WeAreLegora](https://x.com/WeAreLegora))
+
+**Сравните качество и стоимость одного дела на одинаковом наборе профессиональных задач.**
+
+Legora сообщила, что Sol показал качество выше среднего, а стоимость одного дела была на 78 % ниже среднего показателя моделей за ноябрь. График сводит результаты сравнения моделей.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123460256260870144-6da8a1113b471ce42386.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-166/2123460256260870144-poster-5c1a0e947f184ffb782e.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Ноябрьский бенчмарк Legora для юридических документов"></a>
+
+[Воспроизвести демонстрацию](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123460256260870144-6da8a1113b471ce42386.mp4)
+
+Type: Benchmark | Date: 2026-11-19
+
+---
+
+<a id="case-170"></a>
+### Пример 170: [Независимые ответы на вопросы профиля в AI Village](https://x.com/aidigest_/status/2123446497442447399) (автор [@aidigest_](https://x.com/aidigest_))
+
+**Сравните, как два агента независимо отвечают на одну и ту же анкету.**
+
+AI Digest добавил Sol и Astra в AI Village и опубликовал их ответы на 15 вопросов. Оба выбрали Tampopo, обувь Onitsuka Tiger и лепёшки с зелёным луком.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-170/2123446488605114368-ecc6833b877fae0e1433.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-170/2123446488605114368-ecc6833b877fae0e1433.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Независимые ответы на вопросы профиля в AI Village"></a>
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-170/2123446492765798400-c64a85a5d0d85d04cf39.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-170/2123446492765798400-c64a85a5d0d85d04cf39.jpg" width="640" alt="Предварительный просмотр исходного кода 2 · Независимые ответы на вопросы профиля в AI Village"></a>
+
+Type: Integration | Date: 2026-11-19
+
+---
+
+<a id="case-124"></a>
+### Пример 124: [Отчёт о статусе пул-реквеста пропускает инструкции репозитория](https://x.com/Fei2411/status/2123354076771692631) (автор [@Fei2411](https://x.com/Fei2411))
+
+**Сравните подробность и структуру ответов на короткий запрос о статусе.**
+
+Автор дал Sol и Gemini 4 Neon одно и то же задание на отчёт по пул-реквесту. Он посчитал сводку Sol слишком краткой и сообщил, что модель проигнорировала его инструкции в AGENTS.md.
+
+**Промпт:**
+
+```
+现在有哪些pr
+```
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-124/2123354068013993984-19d626fb5c30bc9b2a19.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-124/2123354068013993984-19d626fb5c30bc9b2a19.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Отчёт о статусе пул-реквеста пропускает инструкции репозитория"></a>
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-124/2123354067988824064-5ec42709de761e85172e.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-124/2123354067988824064-5ec42709de761e85172e.jpg" width="640" alt="Предварительный просмотр исходного кода 2 · Отчёт о статусе пул-реквеста пропускает инструкции репозитория"></a>
+
+Type: Limit | Date: 2026-11-19
+
+---
+
+<a id="case-141"></a>
+### Пример 141: [Разговор с персонажем в AITuber OnAir](https://x.com/shinshin86/status/2123040784710869031) (автор [@shinshin86](https://x.com/shinshin86))
+
+**Испытайте настройку уровня рассуждения в живом разговоре с персонажем.**
+
+Разработчик добавил Sol в AITuber OnAir и показал разговор. Для поддержания темпа по умолчанию выставлен низкий уровень рассуждения, который пользователи могут изменить.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123040557064966144-63e1c247fbe9574434f1.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-141/2123040557064966144-poster-096943e3ee853b4f4a62.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Разговор с персонажем в AITuber OnAir"></a>
+
+[Воспроизвести демонстрацию](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123040557064966144-63e1c247fbe9574434f1.mp4)
+
+Type: Integration | Date: 2026-11-18
+
+---
+
+<a id="case-155"></a>
+### Пример 155: [Имитированные звонки в клинику в FrontDesk-Bench](https://x.com/muratcan/status/2122914581454487838) (автор [@muratcan](https://x.com/muratcan))
+
+**Учитывайте небезопасные действия и отказы на обоснованные просьбы отдельно.**
+
+Автор бенчмарка сообщил, что в имитации работы администратора число звонков с небезопасными действиями у Sol снизилось с 16 до 9. Он также отметил, что новые модели чаще отказывали в обоснованных просьбах.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-155/2122905857700585472-c7658e9ed55fe97f9cbb.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-155/2122905857700585472-c7658e9ed55fe97f9cbb.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Имитированные звонки в клинику в FrontDesk-Bench"></a>
+
+Type: Benchmark | Date: 2026-11-18
+
+---
+
+<a id="case-43"></a>
+### Пример 43: [Незавершенная попытка передать сообщение](https://x.com/SadAlbert10/status/2119428297092460613) (автор [@SadAlbert10](https://x.com/SadAlbert10))
+
+**Используйте попытку увидеть, где остановился рабочий процесс рабочего стола.**
+
+На скриншотах представлена ​​попытка найти получателя после запроса на передачу сообщения. Задача завершилась до того, как было отправлено сообщение.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-43/2119428121711775744-8419b4e0c62aa252d1dc.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-43/2119428121711775744-8419b4e0c62aa252d1dc.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Незавершенная попытка передать сообщение"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-43/2119428270945140736-f9662043dadb9a6e4b1b.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-43/2119428270945140736-f9662043dadb9a6e4b1b.jpg" width="640" alt="Предварительный просмотр исходного кода 2 · Незавершенная попытка передать сообщение"></a>
+
+Type: Limit | Date: 2026-11-08
+
+---
+
 <a id="category-game"></a>
 ## 🎮 Разработка игр
+
+<a id="case-188"></a>
+### Пример 188: [Восемь телевизионных локаций, воссозданных в Minecraft](https://x.com/jan_volad/status/2124308264456233400) (автор [@jan_volad](https://x.com/jan_volad))
+
+**Сравните узнаваемость планировки и время постройки в двух версиях игровой сцены.**
+
+Автор дал Sol и Gemini 4 Neon одно задание и предпочёл постройки Neon. Sol затратил 24 минуты и 2,76 доллара США. Neon затратил 22 минуты и 13,71 доллара США.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2124308031689183232-b013e9cbed63a5cccda8.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-188/2124308031689183232-poster-5f26eb812b1400fbd9bb.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Восемь телевизионных локаций, воссозданных в Minecraft"></a>
+
+[Воспроизвести демонстрацию](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2124308031689183232-b013e9cbed63a5cccda8.mp4)
+
+Type: Evaluation | Date: 2026-11-22
+
+---
+
+<a id="case-193"></a>
+### Пример 193: [Руины из «Озимандии» в Minecraft](https://x.com/jan_volad/status/2124174497914003925) (автор [@jan_volad](https://x.com/jan_volad))
+
+**Сравните, как две модели воссоздают одну литературную сцену из блоков.**
+
+Автор опубликовал обе интерпретации руин из стихотворения Шелли. Sol затратил 12 минут и 1,06 доллара США. Gemini 4 Neon затратил 19 минут и 2,88 доллара США.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123910307449896960-334715fc2e1fdf12d740.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-193/2123910307449896960-poster-3bad09e19ba2a577b9bf.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Руины из «Озимандии» в Minecraft"></a>
+
+[Воспроизвести демонстрацию](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123910307449896960-334715fc2e1fdf12d740.mp4)
+
+Type: Evaluation | Date: 2026-11-21
+
+---
 
 <a id="case-180"></a>
 ### Пример 180: [Рейтинг предпочтений и стоимость генерации при разработке игр](https://x.com/DesignArena/status/2123861437579677965) (автор [@DesignArena](https://x.com/DesignArena))
@@ -2874,8 +2378,814 @@ Type: Demo | Date: 2026-11-08
 
 ---
 
+<a id="category-graphics"></a>
+## 🎨 Креативная графика и анимация
+
+<a id="case-190"></a>
+### Пример 190: [Видео о гипотезе Римана, созданное кодом](https://x.com/MelissaKampers/status/2124286667288891534) (автор [@MelissaKampers](https://x.com/MelissaKampers))
+
+**Соберите анимацию и звуковую дорожку в одном процессе с помощью локального кода.**
+
+Автор опубликовал короткое видео о гипотезе Римана и сообщил, что каждый кадр и все звуки были сгенерированы локально с помощью кода. Запуск Sol занял 12 минут 4 секунды.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2124285929158307840-efc75451f3dacfa1fa4a.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-190/2124285929158307840-poster-f14d1caf33bfa4666811.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Видео о гипотезе Римана, созданное кодом"></a>
+
+[Воспроизвести демонстрацию](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2124285929158307840-efc75451f3dacfa1fa4a.mp4)
+
+Type: Demo | Date: 2026-11-21
+
+---
+
+<a id="case-199"></a>
+### Пример 199: [Кошка у окна во время дождя](https://x.com/bangbuilds/status/2124005847655125400) (автор [@bangbuilds](https://x.com/bangbuilds))
+
+**Сравните, как четыре модели ставят одну и ту же сцену в HTML-анимации.**
+
+Автор использовал один запрос для Sol, Opus 5.5, Gemini 4 Neon и DeepSeek. Каждая модель сгенерировала одну версию без правок и повторных попыток.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2124005411338481665-db82f73f6287411cca10.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-199/2124005411338481665-poster-cb04b35cf78133583dba.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Кошка у окна во время дождя"></a>
+
+[Воспроизвести демонстрацию](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2124005411338481665-db82f73f6287411cca10.mp4)
+
+Type: Evaluation | Date: 2026-11-21
+
+---
+
+<a id="case-177"></a>
+### Пример 177: [Четыре анимации велосипедистов на закате](https://x.com/jony_palino/status/2123889278501495127) (автор [@jony_palino](https://x.com/jony_palino))
+
+**Сравните движения велосипедистов, пропорции велосипедов и освещение в четырёх версиях.**
+
+Автор опубликовал подписанное сравнение Sol, Gemini 4 Neon, DeepSeek V4.1 Flash и Claude Fable 5.2. Анимация Sol показана в нижнем левом углу.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123888706998218752-2fde673e71773bed63c5.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-177/2123888706998218752-poster-c43c4d2e3c43cad44fb4.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Четыре анимации велосипедистов на закате"></a>
+
+[Воспроизвести демонстрацию](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123888706998218752-2fde673e71773bed63c5.mp4)
+
+Type: Evaluation | Date: 2026-11-20
+
+---
+
+<a id="case-202"></a>
+### Пример 202: [Итерации иллюстрации костюма в ChatGPT Work](https://x.com/Rin_4ever_/status/2123763407589720384) (автор [@Rin_4ever_](https://x.com/Rin_4ever_))
+
+**Сравните изменения при повторном запуске подробного запроса об иллюстрации костюма.**
+
+Автор указал, что третье и четвёртое изображения получены в Work с Sol на высоком уровне. Первый результат Work показался ему слишком простым. Он попросил усложнить иллюстрацию и поделился новой версией.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-202/2123763388010663936-2825678eca140f904fe7.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-202/2123763388010663936-2825678eca140f904fe7.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Итерации иллюстрации костюма в ChatGPT Work"></a>
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-202/2123763393123553280-9694202f1400b5cb23cc.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-202/2123763393123553280-9694202f1400b5cb23cc.jpg" width="640" alt="Предварительный просмотр исходного кода 2 · Итерации иллюстрации костюма в ChatGPT Work"></a>
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-202/2123763398043381760-c0278dc7b443a545e8ea.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-202/2123763398043381760-c0278dc7b443a545e8ea.jpg" width="640" alt="Предварительный просмотр исходного кода 3 · Итерации иллюстрации костюма в ChatGPT Work"></a>
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-202/2123763403009515521-a552c1917ad96fcd1cae.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-202/2123763403009515521-a552c1917ad96fcd1cae.jpg" width="640" alt="Предварительный просмотр исходного кода 4 · Итерации иллюстрации костюма в ChatGPT Work"></a>
+
+Type: Evaluation | Date: 2026-11-20
+
+---
+
+<a id="case-159"></a>
+### Пример 159: [От неподвижных кадров к готовому видео](https://x.com/0xkhalid7/status/2123661187376451845) (автор [@0xkhalid7](https://x.com/0xkhalid7))
+
+**По монтажной шкале проследите, на каком этапе в работу попадают сгенерированные кадры.**
+
+Автор указал, что сценарий подготовил ChatGPT, а кадры — Sol. Кадры он оживил в Google Vids, смонтировал ролик в CapCut и сообщил, что весь проект занял около четырёх часов.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123660882249175040-7f5a38c954cd6232ce0b.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-159/2123660882249175040-poster-6036fd4b16ea350bc22d.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · От неподвижных кадров к готовому видео"></a>
+
+[Воспроизвести демонстрацию](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123660882249175040-7f5a38c954cd6232ce0b.mp4)
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-163"></a>
+### Пример 163: [Монтаж диалога в видео с говорящим человеком](https://x.com/MatthewBerman/status/2123546744759984513) (автор [@MatthewBerman](https://x.com/MatthewBerman))
+
+**Сравните время монтажа, итоговую оценку и типы неудачных склеек.**
+
+В среднем за два запуска на 20-минутном видео Sol набрал 64,5 % при времени монтажа 11,7 минуты. Gemini 4 Neon набрал 67,9 % при времени монтажа 7,7 минуты.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-163/2123546497111482368-6e88a30728efbca29854.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-163/2123546497111482368-6e88a30728efbca29854.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Монтаж диалога в видео с говорящим человеком"></a>
+
+Type: Benchmark | Date: 2026-11-19
+
+---
+
+<a id="case-173"></a>
+### Пример 173: [Анимация короткого ролика в стиле белой доски](https://x.com/erhanmeydan/status/2123414880300490868) (автор [@erhanmeydan](https://x.com/erhanmeydan))
+
+**Сравните визуальную подачу и стоимость на одном исходном видео.**
+
+Автор запустил четыре модели в Kilnframe в стиле Whiteboard и режиме Auto на одном 11-секундном ролике. Запуск Sol занял 1,7 минуты и стоил 0,18 доллара США.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123414708459855872-abcd21a1ca31fae0de50.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-173/2123414708459855872-poster-693b12b8cd00ed30b115.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Анимация короткого ролика в стиле белой доски"></a>
+
+[Воспроизвести демонстрацию](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123414708459855872-abcd21a1ca31fae0de50.mp4)
+
+Type: Evaluation | Date: 2026-11-19
+
+---
+
+<a id="case-130"></a>
+### Пример 130: [Реалистичный падающий лист за три минуты](https://x.com/RezAIT00/status/2123121274431897803) (автор [@RezAIT00](https://x.com/RezAIT00))
+
+**Установите ограничение по времени, чтобы проверить, как модель объединяет материалы и код.**
+
+По словам автора, Sol в режиме Ultrafast на уровне xhigh искал материалы в интернете, генерировал изображения и написал код для анимации падающего листа.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123120923666423808-a00f9b04f9a3d9061acf.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-130/2123120923666423808-poster-97ccbaaf84c4bcfaee1b.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Реалистичный падающий лист за три минуты"></a>
+
+[Воспроизвести демонстрацию](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123120923666423808-a00f9b04f9a3d9061acf.mp4)
+
+Type: Demo | Date: 2026-11-18
+
+---
+
+<a id="case-134"></a>
+### Пример 134: [Бегущий персонаж в зацикленной пиксельной анимации](https://x.com/rotejin/status/2123099481101205676) (автор [@rotejin](https://x.com/rotejin))
+
+**Проверьте, плавно ли повторяется анимация персонажа на движущемся фоне.**
+
+Автор попросил Sol создать динамичную пиксельную графику. В приложенной анимации силуэт персонажа бежит на фоне заката.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123098773459283968-5897570c940b051711a4.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-134/2123098773459283968-poster-e96bd6c94b068883b1a1.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Бегущий персонаж в зацикленной пиксельной анимации"></a>
+
+[Воспроизвести демонстрацию](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123098773459283968-5897570c940b051711a4.mp4)
+
+Type: Demo | Date: 2026-11-18
+
+---
+
+<a id="case-145"></a>
+### Пример 145: [SVG-анимация велосипеда-тандема](https://x.com/marcthecreatorr/status/2123004538974294470) (автор [@marcthecreatorr](https://x.com/marcthecreatorr))
+
+**Сравните, как два инструмента разработки рисуют и анимируют один объект в SVG.**
+
+Автор указал около 46 минут и 1,90 доллара США для Sol в Codex CLI, а также около часа и 18 долларов для Opus 5.5 в Claude Code.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123002351422181377-2a6725e05299e1972940.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-145/2123002351422181377-poster-c6f5ed83f95c549068d4.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · SVG-анимация велосипеда-тандема"></a>
+
+[Воспроизвести демонстрацию](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123002351422181377-2a6725e05299e1972940.mp4)
+
+Type: Evaluation | Date: 2026-11-18
+
+---
+
+<a id="case-152"></a>
+### Пример 152: [Замер времени видеомонтажа в режиме Ultrafast](https://x.com/op7418/status/2122925281514303836) (автор [@op7418](https://x.com/op7418))
+
+**Фиксируйте общее время монтажа отдельно от времени ответа модели.**
+
+Автор сообщил, что монтаж восьмиминутного ролика занял 27 минут от начала до конца. Из них около 14 минут ушло на ответы Sol. В приложении показаны результаты замера.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-152/2122925011057209345-502d3dadda839363aabd.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-152/2122925011057209345-502d3dadda839363aabd.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Замер времени видеомонтажа в режиме Ultrafast"></a>
+
+Type: Benchmark | Date: 2026-11-18
+
+---
+
+<a id="case-153"></a>
+### Пример 153: [Анимация рукописной подписи в Remotion](https://x.com/aura_uniiiii/status/2122915684086849611) (автор [@aura_uniiiii](https://x.com/aura_uniiiii))
+
+**Сравните, как два запуска на уровне Max анимируют одну и ту же личную подпись.**
+
+Автор попросил Sol и Astra создать видео с его подписью в Remotion и опубликовал оба ролика вместе.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122913982898143232-edb073cf9b2bb51a5faf.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-153/2122913982898143232-poster-d1cd5c4dd99e8cdeb3c4.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Анимация рукописной подписи в Remotion"></a>
+
+[Воспроизвести демонстрацию](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122913982898143232-edb073cf9b2bb51a5faf.mp4)
+
+Type: Evaluation | Date: 2026-11-18
+
+---
+
+<a id="case-79"></a>
+### Пример 79: [Задание по моушн-дизайну на 15 секунд](https://x.com/Leviwoyun/status/2122846422676701267) (автор [@Leviwoyun](https://x.com/Leviwoyun))
+
+**Дайте обеим моделям одинаковое задание и сравните типографику, переходы и движение.**
+
+Автор опубликовал два ролика и исходный запрос. В одном вращается фигура из сложенной бумаги. В другом изображение сигнала сменяется фиолетовой геометрической фигурой.
+
+**Промпт:**
+
+```
+制作一段 15 秒的动态图形视频，展示你是一位多么出色的动态设计师，就像是你简历上的作品集一样，使用任何你认为能产出最佳效果的工具或技术。你拥有完全的创作自由，优先追求卓越的视觉设计、大胆的艺术指导、引人注目的构图和富有力量的动态表现，让每一秒都有价值。全力以赴。
+```
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122845749499310081-01cb8b6073d8916e9b09.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-79/2122845749499310081-poster-1159d01955e99da02391.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Задание по моушн-дизайну на 15 секунд"></a>
+
+[Воспроизвести демонстрацию](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122845749499310081-01cb8b6073d8916e9b09.mp4)
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122846110117183488-30f1277d34e59656f484.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-79/2122846110117183488-poster-7b07819920bd6a3fe88d.jpg" width="640" alt="Предварительный просмотр исходного кода 2 · Задание по моушн-дизайну на 15 секунд"></a>
+
+[Воспроизвести демонстрацию](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122846110117183488-30f1277d34e59656f484.mp4)
+
+Type: Evaluation | Date: 2026-11-18
+
+---
+
+<a id="case-88"></a>
+### Пример 88: [Две модели анимируют скачущую галопом лошадь](https://x.com/jony_palino/status/2122796926961647919) (автор [@jony_palino](https://x.com/jony_palino))
+
+**Сравните работу ног и длину шага за полный цикл анимации.**
+
+В видео подписаны анимации лошадей от Astra и Sol. Обе версии показаны рядом в движении.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122781224338939905-9fac5a374f5ddc54f8a8.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-88/2122781224338939905-poster-b06065421603cc7f6f6c.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Две модели анимируют скачущую галопом лошадь"></a>
+
+[Воспроизвести демонстрацию](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122781224338939905-9fac5a374f5ddc54f8a8.mp4)
+
+Type: Evaluation | Date: 2026-11-17
+
+---
+
+<a id="case-74"></a>
+### Пример 74: [Огонь и звук, созданные кодом](https://x.com/camperaigg/status/2122794828266377538) (автор [@camperaigg](https://x.com/camperaigg))
+
+**Сравнивая анимации, записывайте длительность ролика вместе со стоимостью и временем генерации.**
+
+Автор сравнил два запуска с настройкой xhigh, в которых изображение и звук создавались кодом. По его данным, Sol выдал 12 секунд за 12 минут и 0,73 доллара, а Opus 5.5 — 24 секунды за 85 минут и 18,40 доллара.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122794767960752128-e2e19e403efea0d778cc.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-74/2122794767960752128-poster-5dc5e43235499f8378cf.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Огонь и звук, созданные кодом"></a>
+
+[Воспроизвести демонстрацию](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122794767960752128-e2e19e403efea0d778cc.mp4)
+
+Type: Evaluation | Date: 2026-11-17
+
+---
+
+<a id="case-94"></a>
+### Пример 94: [Анимация из 900 кадров, созданная кодом](https://x.com/morsenxxx/status/2122771021828948464) (автор [@morsenxxx](https://x.com/morsenxxx))
+
+**Проследите за персонажами, движением и звуком до финального экспорта.**
+
+По словам автора, персонажи, анимация и звуковое сопровождение были созданы кодом. Опубликованный ролик длится 30 секунд.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122768959980118016-519fd034e8c095b6bc01.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-94/2122768959980118016-poster-ef4789678264a50b8b9f.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Анимация из 900 кадров, созданная кодом"></a>
+
+[Воспроизвести демонстрацию](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122768959980118016-519fd034e8c095b6bc01.mp4)
+
+Type: Demo | Date: 2026-11-17
+
+---
+
+<a id="case-98"></a>
+### Пример 98: [Анимированная иллюстрация с бананом](https://x.com/AdamHoltererer/status/2122765119835029581) (автор [@AdamHoltererer](https://x.com/AdamHoltererer))
+
+**Выберите простой объект и посмотрите, как модель добавит движение и персонажа.**
+
+Автор поделился тестом Sol, в котором нарисованный банан становится частью анимированной сцены с персонажем.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122765018739441664-63474f1acf4d1d5e18b1.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-98/2122765018739441664-poster-a235f39f622e3848c495.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Анимированная иллюстрация с бананом"></a>
+
+[Воспроизвести демонстрацию](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122765018739441664-63474f1acf4d1d5e18b1.mp4)
+
+Type: Demo | Date: 2026-11-17
+
+---
+
+<a id="case-101"></a>
+### Пример 101: [Пеликан на велосипеде в одном HTML-файле](https://x.com/Super_Nius/status/2122760765174391124) (автор [@Super_Nius](https://x.com/Super_Nius))
+
+**Возьмите одно SVG-задание и сопоставьте движение птицы и велосипеда.**
+
+Автор опубликовал запрос и сравнил результаты версий 6.2 и 6.1. По его оценке, изображение от Sol изменилось незначительно.
+
+**Промпт:**
+
+```
+创建一个HTML文件，使用SVG绘制一只鹈鹕3D骑自行车的动画。输出单文件HTML。
+```
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122760254945673216-c6b375b036ac15cc3a2b.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-101/2122760254945673216-poster-d0903f87dd4ac9dee18a.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Пеликан на велосипеде в одном HTML-файле"></a>
+
+[Воспроизвести демонстрацию](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122760254945673216-c6b375b036ac15cc3a2b.mp4)
+
+Type: Evaluation | Date: 2026-11-17
+
+---
+
+<a id="case-103"></a>
+### Пример 103: [Две анимации фигурок из линий в режиме Ultra](https://x.com/DanielZambrini/status/2122759375337214121) (автор [@DanielZambrini](https://x.com/DanielZambrini))
+
+**Повторите задание и посмотрите, насколько различаются два результата.**
+
+Автор показал два запуска Sol Ultra и указал, что создание анимаций заняло 13 и 12 минут соответственно.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122758829104328704-4fe90331a8b43e8cc76c.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-103/2122758829104328704-poster-2e025ca80aa35e6c9676.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Две анимации фигурок из линий в режиме Ultra"></a>
+
+[Воспроизвести демонстрацию](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122758829104328704-4fe90331a8b43e8cc76c.mp4)
+
+Type: Evaluation | Date: 2026-11-17
+
+---
+
+<a id="case-123"></a>
+### Пример 123: [SVG-изображения пеликанов на разных уровнях рассуждения](https://news.ycombinator.com/item?id=50535742) (автор [@simonw](https://news.ycombinator.com/user?id=simonw))
+
+**Проверьте, как на каждом уровне сочетаются педали, лапы и рама велосипеда.**
+
+Саймон Уиллисон опубликовал подписанную таблицу результатов одного SVG-запроса для шести моделей на нескольких уровнях рассуждения. В обсуждении указали, что на изображении Sol Max одна лапа перекрывает цепь.
+
+**Промпт:**
+
+```
+Generate an SVG of a pelican riding a bicycle
+```
+
+[Полная таблица сравнения SVG](https://static.simonwillison.net/static/2026/openai-pelicans-november-2026.html)
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-123/50535742-grid-7d953958cc033d468770.webp"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-123/50535742-grid-7d953958cc033d468770.webp" width="640" alt="Предварительный просмотр исходного кода 1 · SVG-изображения пеликанов на разных уровнях рассуждения"></a>
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-123/50535742-astra-3d77dc7c6001b9a03061.webp"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-123/50535742-astra-3d77dc7c6001b9a03061.webp" width="640" alt="Предварительный просмотр исходного кода 2 · SVG-изображения пеликанов на разных уровнях рассуждения"></a>
+
+*Результат GPT-6.2 Astra в режиме Max*
+
+Type: Evaluation | Date: 2026-11-17
+
+---
+
+<a id="case-110"></a>
+### Пример 110: [Велодоставка под дождём с Sol, Opus и Qwen](https://x.com/Stargridcompass/status/2122184571269853307) (автор [@Stargridcompass](https://x.com/Stargridcompass))
+
+**Сравните ночное окружение и движение велосипеда в трёх результатах.**
+
+Автор показал три подписанные версии сцены с пеликаном-курьером. В этом сравнении он предпочёл Opus 5.5.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122183328228909056-562a9b17b2bc7222fb58.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-110/2122183328228909056-poster-9550a8f62aa13cde8a3a.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Велодоставка под дождём с Sol, Opus и Qwen"></a>
+
+[Воспроизвести демонстрацию](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122183328228909056-562a9b17b2bc7222fb58.mp4)
+
+Type: Evaluation | Date: 2026-11-16
+
+---
+
+<a id="case-112"></a>
+### Пример 112: [Пеликан доставляет еду на велосипеде под дождём](https://x.com/Stargridcompass/status/2121543669882745007) (автор [@Stargridcompass](https://x.com/Stargridcompass))
+
+**По отдельности оцените отражения, лужи, уличные детали и движущееся окружение.**
+
+Автор сравнил Sol и Fable 5.2 на сцене доставки под дождём. Лужи и отражения ему больше понравились в версии Sol.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2121535105013334016-7271e00bcbdb0a0caf42.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-112/2121535105013334016-poster-4a1d19351363ee575584.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Пеликан доставляет еду на велосипеде под дождём"></a>
+
+[Воспроизвести демонстрацию](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2121535105013334016-7271e00bcbdb0a0caf42.mp4)
+
+Type: Evaluation | Date: 2026-11-14
+
+---
+
+<a id="case-114"></a>
+### Пример 114: [Две версии сцены с пеликаном на велосипеде при дневном свете](https://x.com/Stargridcompass/status/2121505035976597773) (автор [@Stargridcompass](https://x.com/Stargridcompass))
+
+**Сравните качество движения и время выполнения.**
+
+Автор показал результаты Sol и Gemini 4 Hydrogen для одного задания. По его данным, Sol потребовалось 13 минут, а Hydrogen три минуты.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2121503397702459392-e951142e407012e2ef01.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-114/2121503397702459392-poster-2f40d730171de43b3581.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Две версии сцены с пеликаном на велосипеде при дневном свете"></a>
+
+[Воспроизвести демонстрацию](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2121503397702459392-e951142e407012e2ef01.mp4)
+
+Type: Evaluation | Date: 2026-11-14
+
+---
+
+<a id="case-118"></a>
+### Пример 118: [Дуэль на мечах в SVG-анимации](https://x.com/kdnbmb/status/2120537324488450050) (автор [@kdnbmb](https://x.com/kdnbmb))
+
+**Оцените, как темп и силуэты передают движение в векторной анимации.**
+
+Автор приписывает созданную кодом анимацию одному запуску Sol и сообщает, что на неё ушло около 18 минут.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2120537298286608384-168cc4ec913763fba163.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-118/2120537298286608384-poster-7749116f725da65b0420.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Дуэль на мечах в SVG-анимации"></a>
+
+[Воспроизвести демонстрацию](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2120537298286608384-168cc4ec913763fba163.mp4)
+
+Type: Demo | Date: 2026-11-11
+
+---
+
+<a id="case-120"></a>
+### Пример 120: [Фотореалистичный пейзаж в SVG](https://x.com/kdnbmb/status/2120193707987317053) (автор [@kdnbmb](https://x.com/kdnbmb))
+
+**Посмотрите, какие детали сохраняются при векторной отрисовке природной сцены.**
+
+Автор сообщил, что попросил Sol в режиме Max создать фотореалистичное изображение природы в SVG. Он опубликовал результат визуализации.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-120/2120193470002241536-2e471c1c74dabf15e6eb.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-120/2120193470002241536-2e471c1c74dabf15e6eb.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Фотореалистичный пейзаж в SVG"></a>
+
+Type: Demo | Date: 2026-11-10
+
+---
+
+<a id="case-60"></a>
+### Пример 60: [Сравнение SVG с Царём обезьян](https://x.com/xbquan/status/2119581984989364514) (автор [@xbquan](https://x.com/xbquan))
+
+**Сравните, как три системы построили одну и ту же сцену с Царём обезьян.**
+
+Автор подписал три изображения как GPT-6.2 Sol с максимальной настройкой, QoDuck от Qoder и HY4 от WorkBuddy. В опубликованном им ответе промпт требует один вариант SVG и запрещает проверять его по снимку экрана.
+
+[Ответ автора с исходным промптом](https://x.com/xbquan/status/2119582058922316169)
+
+**Промпт:**
+
+```
+用尽你的一切能力，用代码画一张孙悟空的大闹天宫名场面的svg图片，我想要尽可能的还原，只能画一版，不准截图检查。
+```
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-60/2119580835200516096-1e4e7a136e429b696a7a.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-60/2119580835200516096-1e4e7a136e429b696a7a.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Сравнение SVG с Царём обезьян"></a>
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-60/2119581876805640192-01552031d537dc13d897.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-60/2119581876805640192-01552031d537dc13d897.jpg" width="640" alt="Предварительный просмотр исходного кода 2 · Сравнение SVG с Царём обезьян"></a>
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-60/2119581974092546048-c61fe179e1741227a187.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-60/2119581974092546048-c61fe179e1741227a187.png" width="640" alt="Предварительный просмотр исходного кода 3 · Сравнение SVG с Царём обезьян"></a>
+
+Type: Evaluation | Date: 2026-11-09
+
+---
+
+<a id="case-3"></a>
+### Пример 3: [История человечества и будущее искусственного интеллекта в 3D](https://x.com/imjustnewatai/status/2119518062034792958) (автор [@imjustnewatai](https://x.com/imjustnewatai))
+
+**Превратите повествование в последовательность анимированных сцен.**
+
+На записи представлена ​​многосценная 3D-анимация. Публичная подсказка автора движется от неандертальцев через появление ИИ к воображаемому будущему.
+
+**Промпт:**
+
+```
+Create a cinematic 3D animation telling humanity’s story, from the age of Neanderthals through our greatest advances and the rise of AI. Then imagine a future where AI achieves recursive self-improvement in 2027, and progress doubles or triples every year, transforming Earth in increasingly astonishing ways. Come up with your own scenes and transitions, connecting everything into one compelling story.
+```
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119517968493113344-17865404f54bd3f80fbd.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-03/2119517968493113344-poster-62d6ae1e6365eb443bd6.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · История человечества и будущее искусственного интеллекта в 3D"></a>
+
+[Воспроизвести демонстрацию](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119517968493113344-17865404f54bd3f80fbd.mp4)
+
+
+Type: Demo | Date: 2026-11-08
+
+---
+
+<a id="case-8"></a>
+### Пример 8: [Портрет Tibo в браузерной студии рисования](https://x.com/Mr_Salio/status/2119499550373425297) (автор [@Mr_Salio](https://x.com/Mr_Salio))
+
+**Изучите этапы создания портрета по мере его создания на странице.**
+
+На странице Portrait Studio портрет Tibo создается из широких цветных блоков рядом с эталонной фотографией. В клипе показана анимация страницы.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119499524137697280-bf003228060e83ba80ee.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-08/2119499524137697280-poster-669f62240a226482c71b.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Портрет Tibo в браузерной студии рисования"></a>
+
+[Воспроизвести демонстрацию](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119499524137697280-bf003228060e83ba80ee.mp4)
+
+
+Type: Demo | Date: 2026-11-08
+
+---
+
+<a id="case-10"></a>
+### Пример 10: [Портретная картина Sam Altman, предоставленная 0x0SojalSec](https://x.com/0x0SojalSec/status/2119489612876026325) (автор [@0x0SojalSec](https://x.com/0x0SojalSec))
+
+**Проследите за переходом от грубых форм к готовому портрету.**
+
+В этом посте представлен клип с рисованием Sam Altman. Другие посты в коллекции содержат тот же материал.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119471570100113408-6537886f519fcb2581ca.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-10/2119471570100113408-poster-4fa1b097dbe57a86b319.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Портретная картина Sam Altman, предоставленная 0x0SojalSec"></a>
+
+[Воспроизвести демонстрацию](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119471570100113408-6537886f519fcb2581ca.mp4)
+
+
+Type: Demo | Date: 2026-11-08
+
+---
+
+<a id="case-11"></a>
+### Пример 11: [Портретная картина Sam Altman, предоставленная Avenoxai](https://x.com/Avenoxai/status/2119489025484419304) (автор [@Avenoxai](https://x.com/Avenoxai))
+
+**Посмотрите, как демонстрируется портрет в браузере.**
+
+В посте использован тот же прогрессивный портрет Sam Altman, что и в других частях коллекции.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119481355943948288-d9ec44b4a8efb666f3fe.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-11/2119481355943948288-poster-b169fc202c4358aef6ab.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Портретная картина Sam Altman, предоставленная Avenoxai"></a>
+
+[Воспроизвести демонстрацию](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119481355943948288-d9ec44b4a8efb666f3fe.mp4)
+
+
+Type: Demo | Date: 2026-11-08
+
+---
+
+<a id="case-12"></a>
+### Пример 12: [Портретная картина Sam Altman, предоставленная pengsonal](https://x.com/pengsonal/status/2119487069500456985) (автор [@pengsonal](https://x.com/pengsonal))
+
+**Изучите порядок, в котором сцена браузера добавляет детали портрета.**
+
+Клип принадлежит к тому же семейству рисунков Sam Altman, что и другие публикации, в которых используется этот материал.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119471570100113408-6537886f519fcb2581ca.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-12/2119471570100113408-poster-4fa1b097dbe57a86b319.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Портретная картина Sam Altman, предоставленная pengsonal"></a>
+
+[Воспроизвести демонстрацию](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119471570100113408-6537886f519fcb2581ca.mp4)
+
+
+Type: Demo | Date: 2026-11-08
+
+---
+
+<a id="case-13"></a>
+### Пример 13: [Портретная картина Sam Altman, предоставленная GeekCatX](https://x.com/GeekCatX/status/2119482381375815956) (автор [@GeekCatX](https://x.com/GeekCatX))
+
+**Используйте клип, чтобы сравнить исходную композицию с готовым изображением.**
+
+В этом посте представлен прогрессивный портрет Sam Altman из того же медиа-семейства, что и в других записях.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119471570100113408-6537886f519fcb2581ca.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-13/2119471570100113408-poster-4fa1b097dbe57a86b319.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Портретная картина Sam Altman, предоставленная GeekCatX"></a>
+
+[Воспроизвести демонстрацию](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119471570100113408-6537886f519fcb2581ca.mp4)
+
+
+Type: Demo | Date: 2026-11-08
+
+---
+
+<a id="case-14"></a>
+### Пример 14: [Портрет Sam Altman на холсте для рисования в браузере](https://x.com/Ananth7e/status/2119482362614677566) (автор [@Ananth7e](https://x.com/Ananth7e))
+
+**Наблюдайте, как портрет развивается от заблокированных цветов к более тонким чертам.**
+
+Автор представляет демоверсию Sam Altman, рисуемую в браузере. Эта же запись появляется и в нескольких других постах.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119481355943948288-d9ec44b4a8efb666f3fe.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-14/2119481355943948288-poster-b169fc202c4358aef6ab.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Портрет Sam Altman на холсте для рисования в браузере"></a>
+
+[Воспроизвести демонстрацию](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119481355943948288-d9ec44b4a8efb666f3fe.mp4)
+
+
+Type: Demo | Date: 2026-11-08
+
+---
+
+<a id="case-19"></a>
+### Пример 19: [Портрет Dario Amodei на холсте для рисования в браузере](https://x.com/Ananth7e/status/2119475282528932231) (автор [@Ananth7e](https://x.com/Ananth7e))
+
+**Посмотрите эталонное изображение для постановочного портрета.**
+
+Демоверсия браузера отображает портрет Dario Amodei рядом с фотографией. На записи показана последовательность рисования.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119474852453306369-dc2f6dd1c623765520a2.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-19/2119474852453306369-poster-16fd35c8363e7611ce48.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Портрет Dario Amodei на холсте для рисования в браузере"></a>
+
+[Воспроизвести демонстрацию](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119474852453306369-dc2f6dd1c623765520a2.mp4)
+
+
+Type: Demo | Date: 2026-11-08
+
+---
+
+<a id="case-22"></a>
+### Пример 22: [Четыре сравнения анимации SVG с Opus 5.5](https://x.com/Ananth7e/status/2119473497504428334) (автор [@Ananth7e](https://x.com/Ananth7e))
+
+**Сравните движение и детализацию нескольких объектов SVG.**
+
+Маркированное сравнение включает в себя космическую доставку, кофемашину, проигрыватель и теплицу. Наблюдаемые сцены взяты из фрагментов более длинного клипа.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119472766353313794-9e720b31f2e3325a6830.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-22/2119472766353313794-poster-81c1db39bbb46647fee0.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Четыре сравнения анимации SVG с Opus 5.5"></a>
+
+[Воспроизвести демонстрацию](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119472766353313794-9e720b31f2e3325a6830.mp4)
+
+
+Type: Evaluation | Date: 2026-11-08
+
+---
+
+<a id="case-23"></a>
+### Пример 23: [Еще один пост о портретной живописи Sam Altman от Ananth7e](https://x.com/Ananth7e/status/2119471963790065987) (автор [@Ananth7e](https://x.com/Ananth7e))
+
+**Используйте общую запись, чтобы увидеть, как формируется портрет браузера.**
+
+Этот пост указывает на тот же прогрессивный материал для рисования, что и другие записи Sam Altman.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119471570100113408-6537886f519fcb2581ca.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-23/2119471570100113408-poster-4fa1b097dbe57a86b319.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Еще один пост о портретной живописи Sam Altman от Ananth7e"></a>
+
+[Воспроизвести демонстрацию](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119471570100113408-6537886f519fcb2581ca.mp4)
+
+
+Type: Demo | Date: 2026-11-08
+
+---
+
+<a id="case-25"></a>
+### Пример 25: [Две портретные иллюстрации, описанные как SVG, содержащие только код.](https://x.com/marcthecreatorr/status/2119466616693850352) (автор [@marcthecreatorr](https://x.com/marcthecreatorr))
+
+**Сравните визуализированные портреты, прежде чем судить о том, как они были созданы.**
+
+Пост содержит два портретных изображения. Автор описывает их как выходы SVG, предназначенные только для кода.
+
+**Промпт:**
+
+```
+generate an SVG of Ana de Armas and Sam Altman
+(do not cheat)
+```
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-25/2119466601804132352-31318df37f6caba7293c.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-25/2119466601804132352-31318df37f6caba7293c.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Две портретные иллюстрации, описанные как SVG, содержащие только код."></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-25/2119466601816666112-8e9d5270da1add44ca55.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-25/2119466601816666112-8e9d5270da1add44ca55.jpg" width="640" alt="Предварительный просмотр исходного кода 2 · Две портретные иллюстрации, описанные как SVG, содержащие только код."></a>
+
+Type: Demo | Date: 2026-11-08
+
+---
+
+<a id="case-29"></a>
+### Пример 29: [Пиксельный японский городок в лунном свете](https://x.com/SahilPanhotra/status/2119461852426219747) (автор [@SahilPanhotra](https://x.com/SahilPanhotra))
+
+**Используйте компактную анимированную сцену для проверки освещения и деталей.**
+
+GIF показывает цветущую вишню, башню, мост, отражения и небольшую лодку.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119461819278602240-92e36b249f95f46fbbc1.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-29/2119461819278602240-poster-0df42c94083b4c7a1d00.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Пиксельный японский городок в лунном свете"></a>
+
+[Воспроизвести демонстрацию](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119461819278602240-92e36b249f95f46fbbc1.mp4)
+
+
+Type: Demo | Date: 2026-11-08
+
+---
+
+<a id="case-30"></a>
+### Пример 30: [Лев жонглирует во время езды на BMX.](https://x.com/SahilPanhotra/status/2119458278115835912) (автор [@SahilPanhotra](https://x.com/SahilPanhotra))
+
+**Проверьте скоординированные движения на фоне меняющихся сезонных условий.**
+
+В анимации лев едет на BMX и жонглирует мячами. На выбранных кадрах меняются его поза и фон.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119458208041574400-65d9c5f9e0c9dae6a35f.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-30/2119458208041574400-poster-43c1f3849344f031dd3f.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Лев жонглирует во время езды на BMX."></a>
+
+[Воспроизвести демонстрацию](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119458208041574400-65d9c5f9e0c9dae6a35f.mp4)
+
+
+Type: Demo | Date: 2026-11-08
+
+---
+
+<a id="case-31"></a>
+### Пример 31: [Скачущая лошадь, вид сбоку](https://x.com/HarshithLucky3/status/2119458168338301327) (автор [@HarshithLucky3](https://x.com/HarshithLucky3))
+
+**Осмотрите ноги и хвост, выполняя простой цикл движений.**
+
+На выбранных кадрах изображена скачущая лошадь сбоку с меняющимся положением конечностей.
+
+**Промпт:**
+
+```
+Horse running in side view
+```
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119457903589646336-6fe234afbdb557492d14.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-31/2119457903589646336-poster-2e4c31974841a99a4465.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Скачущая лошадь, вид сбоку"></a>
+
+[Воспроизвести демонстрацию](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119457903589646336-6fe234afbdb557492d14.mp4)
+
+
+Type: Demo | Date: 2026-11-08
+
+---
+
+<a id="case-32"></a>
+### Пример 32: [Павлин скачет на BMX по бамбуку.](https://x.com/SahilPanhotra/status/2119453829632868388) (автор [@SahilPanhotra](https://x.com/SahilPanhotra))
+
+**Сравните движение колеса с движением детализированного персонажа.**
+
+В ролике павлин с распущенным хвостом едет на BMX через бамбуковый лес.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119453646454964224-3614c844c591897f7cb8.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-32/2119453646454964224-poster-0dd6b3fd00fa99aa9b94.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Павлин скачет на BMX по бамбуку."></a>
+
+[Воспроизвести демонстрацию](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119453646454964224-3614c844c591897f7cb8.mp4)
+
+
+Type: Demo | Date: 2026-11-08
+
+---
+
+<a id="case-35"></a>
+### Пример 35: [Предварительный просмотр фотореалистичного портрета](https://x.com/SadAlbert10/status/2119443244509802679) (автор [@SadAlbert10](https://x.com/SadAlbert10))
+
+**Осмотрите видимый результат и запишите, как его описывает автор.**
+
+На изображении представлен подробный портрет. Предварительный просмотр обеспечивает визуальное подтверждение результата.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-35/2119443020227727360-71913855e02651437cb9.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-35/2119443020227727360-71913855e02651437cb9.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Предварительный просмотр фотореалистичного портрета"></a>
+
+Type: Demo | Date: 2026-11-08
+
+---
+
+<a id="case-36"></a>
+### Пример 36: [Векторизация портрета Sydney Sweeney](https://x.com/SadAlbert10/status/2119440420682011095) (автор [@SadAlbert10](https://x.com/SadAlbert10))
+
+**Отслеживайте промежуточное изображение при оценке векторного рабочего процесса.**
+
+На снимке экрана показаны входные данные PNG и вызов векторизации. Во втором вложении показан портрет, созданный в результате этого рабочего процесса.
+
+**Промпт:**
+
+```
+make an ultra realistic SVG of Sydney Sweeny
+```
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-36/2119439861157707776-69b2db4eca9eb1493e6b.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-36/2119439861157707776-69b2db4eca9eb1493e6b.png" width="640" alt="Предварительный просмотр исходного кода 1 · Векторизация портрета Sydney Sweeney"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-36/2119440248157683712-d00b68e7e2aa37f8ec7b.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-36/2119440248157683712-d00b68e7e2aa37f8ec7b.jpg" width="640" alt="Предварительный просмотр исходного кода 2 · Векторизация портрета Sydney Sweeney"></a>
+
+Type: Demo | Date: 2026-11-08
+
+---
+
+<a id="case-46"></a>
+### Пример 46: [Бегущий гепард, вид сбоку](https://x.com/HarshithLucky3/status/2119424342773866559) (автор [@HarshithLucky3](https://x.com/HarshithLucky3))
+
+**Используйте фиксированный вид профиля, чтобы сравнить походку и движения тела.**
+
+В клипе гепард изображен в нескольких положениях во время бега. Автор сообщает, что предпочитает результат Opus.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119424200662556672-37c18d0191bd9b6c27aa.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-46/2119424200662556672-poster-f977110905db5bd671d8.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Бегущий гепард, вид сбоку"></a>
+
+[Воспроизвести демонстрацию](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119424200662556672-37c18d0191bd9b6c27aa.mp4)
+
+
+Type: Demo | Date: 2026-11-08
+
+---
+
+<a id="case-51"></a>
+### Пример 51: [Пеликан и два краба катаются на велосипедах](https://x.com/HarshithLucky3/status/2119418918616150080) (автор [@HarshithLucky3](https://x.com/HarshithLucky3))
+
+**Проверьте синхронизацию нескольких анимированных персонажей в одном кадре.**
+
+Образцы кадров бокового обзора показывают движущиеся колеса, конечности и положение камеры.
+
+**Промпт:**
+
+```
+SVG animation of pelican and 2 crabs riding bicycles side view
+```
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119418838148366336-495e5e6b9a3a4f396f52.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-51/2119418838148366336-poster-753362afc6ea3f66a03f.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Пеликан и два краба катаются на велосипедах"></a>
+
+[Воспроизвести демонстрацию](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119418838148366336-495e5e6b9a3a4f396f52.mp4)
+
+
+Type: Demo | Date: 2026-11-08
+
+---
+
+<a id="case-52"></a>
+### Пример 52: [Сравнение контроллера PS5 с настройками Sol](https://x.com/marcthecreatorr/status/2119417283328000436) (автор [@marcthecreatorr](https://x.com/marcthecreatorr))
+
+**Используйте знакомый продукт для сравнения контуров и штриховок.**
+
+Два образа контроллера помечены как GPT-6.1 Sol MAX маршрутизация и базовый. В посте показаны отрендеренные изображения.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-52/2119417273249095680-f0fea371a0a411ae9aef.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-52/2119417273249095680-f0fea371a0a411ae9aef.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Сравнение контроллера PS5 с настройками Sol"></a>
+
+Type: Evaluation | Date: 2026-11-08
+
+---
+
+<a id="case-55"></a>
+### Пример 55: [Зеленая иллюстрация профиля BMW M4 CS.](https://x.com/HarshithLucky3/status/2119412698119373104) (автор [@HarshithLucky3](https://x.com/HarshithLucky3))
+
+**Проверьте пропорции и детали профиля знакомого автомобиля.**
+
+Во вложении показан зеленый BMW M4 CS сбоку.
+
+**Промпт:**
+
+```
+SVG of BMW M4 CS side view
+```
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-55/2119412669946204160-2b4789da7aa53b1095b0.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-55/2119412669946204160-2b4789da7aa53b1095b0.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Зеленая иллюстрация профиля BMW M4 CS."></a>
+
+Type: Demo | Date: 2026-11-08
+
+---
+
 <a id="category-web"></a>
 ## 🌐 Веб-сайты и интерфейсы
+
+<a id="case-195"></a>
+### Пример 195: [Шесть вариантов редизайна одного маркетингового сайта](https://x.com/guilippert_v4/status/2124110586753482802) (автор [@guilippert_v4](https://x.com/guilippert_v4))
+
+**Сравните, какие визуальные решения предлагают разные модели по одним и тем же требованиям.**
+
+Автор испытал шесть моделей на высоком уровне рассуждения. По его словам, Sol подготовил дизайн с трёхмерной графикой за 9 минут 24 секунды и 0,69 доллара США.
+
+**Промпт:**
+
+```
+Olhe o site da https://t.co/aDaMsBzyt2 e refaça ele por completo para surpreender.
+```
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-195/2123902070524715008-99e1c89f24f0f23371fc.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-195/2123902070524715008-99e1c89f24f0f23371fc.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Шесть вариантов редизайна одного маркетингового сайта"></a>
+
+Type: Evaluation | Date: 2026-11-21
+
+---
 
 <a id="case-184"></a>
 ### Пример 184: [Точность и время работы в Agents on Rails](https://x.com/rails/status/2123808115619471857) (автор [@rails](https://x.com/rails))
@@ -3210,6 +3520,6 @@ Type: Demo | Date: 2026-11-08
 
 Спасибо создателям, поделившимся этими экспериментами. Связанные произведения и медиа принадлежат их создателям.
 
-[@Avenoxai](https://x.com/Avenoxai), [@kimmonismus](https://x.com/kimmonismus), [@imjustnewatai](https://x.com/imjustnewatai), [@Khazix0918](https://x.com/Khazix0918), [@marcthecreatorr](https://x.com/marcthecreatorr), [@Bhavani_00007](https://x.com/Bhavani_00007), [@JustLingonberry](https://x.com/JustLingonberry), [@Mr_Salio](https://x.com/Mr_Salio), [@aGim_asf](https://x.com/aGim_asf), [@0x0SojalSec](https://x.com/0x0SojalSec), [@pengsonal](https://x.com/pengsonal), [@GeekCatX](https://x.com/GeekCatX), [@Ananth7e](https://x.com/Ananth7e), [@EnvolDev](https://x.com/EnvolDev), [@xbquan](https://x.com/xbquan), [@SahilPanhotra](https://x.com/SahilPanhotra), [@rubenssoto_ai](https://x.com/rubenssoto_ai), [@vikktorrrre](https://x.com/vikktorrrre), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@Cayden970207](https://x.com/Cayden970207), [@HarshithLucky3](https://x.com/HarshithLucky3), [@TokenGremlin](https://x.com/TokenGremlin), [@SadAlbert10](https://x.com/SadAlbert10), [@maxt3chno](https://x.com/maxt3chno), [@karanC_12](https://x.com/karanC_12), [@JustinGorya](https://x.com/JustinGorya), [@kdnbmb](https://x.com/kdnbmb), [@VraserX](https://x.com/VraserX), [@jessexai_](https://x.com/jessexai_), [@theaidesk_](https://x.com/theaidesk_), [@gadi_neelesh](https://x.com/gadi_neelesh), [@Haleeeemahh](https://x.com/Haleeeemahh), [@SPAC89](https://x.com/SPAC89), [@VeknQAQ](https://x.com/VeknQAQ), [@Aurora0x3f](https://x.com/Aurora0x3f), [@bei351009016](https://x.com/bei351009016), [@Stargridcompass](https://x.com/Stargridcompass), [@iamtheQwen](https://x.com/iamtheQwen), [@voxelbench](https://x.com/voxelbench), [@sshayahmet](https://x.com/sshayahmet), [@TimJayas](https://x.com/TimJayas), [@lucian__03](https://x.com/lucian__03), [@camperaigg](https://x.com/camperaigg), [@nickbaumann_](https://x.com/nickbaumann_), [@thtbee_](https://x.com/thtbee_), [@DeryaTR_](https://x.com/DeryaTR_), [@banteg](https://x.com/banteg), [@Leviwoyun](https://x.com/Leviwoyun), [@browser_use](https://x.com/browser_use), [@simonw](https://x.com/simonw), [@perplexity_ai](https://x.com/perplexity_ai), [@_3912657840](https://x.com/_3912657840), [@fawnunwrap](https://x.com/fawnunwrap), [@Angaisb_](https://x.com/Angaisb_), [@jony_palino](https://x.com/jony_palino), [@notjazii](https://x.com/notjazii), [@noclipepe](https://x.com/noclipepe), [@Super_Nius](https://x.com/Super_Nius), [@maxbittker](https://x.com/maxbittker), [@morsenxxx](https://x.com/morsenxxx), [@AdamHoltererer](https://x.com/AdamHoltererer), [@Clad3815](https://x.com/Clad3815), [@N1njaCodex](https://x.com/N1njaCodex), [@CodeByNZ](https://x.com/CodeByNZ), [@DanielZambrini](https://x.com/DanielZambrini), [@RezAIT00](https://x.com/RezAIT00), [@LuminaBench](https://x.com/LuminaBench), [@Jason85885174](https://x.com/Jason85885174), [@mspd4100](https://x.com/mspd4100), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@simonw](https://news.ycombinator.com/user?id=simonw), [@Fei2411](https://x.com/Fei2411), [@arena](https://x.com/arena), [@jan_volad](https://x.com/jan_volad), [@eliadele](https://x.com/eliadele), [@monkeys_im](https://x.com/monkeys_im), [@rotejin](https://x.com/rotejin), [@jetbrains](https://x.com/jetbrains), [@UFO2002616](https://x.com/UFO2002616), [@argofowl](https://x.com/argofowl), [@Kombaico](https://x.com/Kombaico), [@shinshin86](https://x.com/shinshin86), [@PawelJLisowski](https://x.com/PawelJLisowski), [@alohaproxy](https://x.com/alohaproxy), [@masahirochaen](https://x.com/masahirochaen), [@mylesBaiM](https://x.com/mylesBaiM), [@exploraX_](https://x.com/exploraX_), [@One2xDatalab](https://x.com/One2xDatalab), [@798145343h](https://x.com/798145343h), [@xKaka1456](https://x.com/xKaka1456), [@op7418](https://x.com/op7418), [@aura_uniiiii](https://x.com/aura_uniiiii), [@shinya_creative](https://x.com/shinya_creative), [@muratcan](https://x.com/muratcan), [@suna_gaku](https://x.com/suna_gaku), [@teddyaisi](https://x.com/teddyaisi), [@0xkhalid7](https://x.com/0xkhalid7), [@shownotover](https://x.com/shownotover), [@andonlabs](https://x.com/andonlabs), [@MatthewBerman](https://x.com/MatthewBerman), [@Hesamation](https://x.com/Hesamation), [@WeAreLegora](https://x.com/WeAreLegora), [@XploreAi](https://x.com/XploreAi), [@patience_cave](https://x.com/patience_cave), [@aidigest_](https://x.com/aidigest_), [@erhanmeydan](https://x.com/erhanmeydan), [@aapakari](https://x.com/aapakari), [@jerryjliu0](https://x.com/jerryjliu0), [@joshzqin](https://x.com/joshzqin), [@DesignArena](https://x.com/DesignArena), [@boringmarketer](https://x.com/boringmarketer), [@sriramkiron](https://x.com/sriramkiron), [@GeppiiKameWorks](https://x.com/GeppiiKameWorks), [@rails](https://x.com/rails), [@CodeRabbit](https://www.coderabbit.ai/)
+[@Avenoxai](https://x.com/Avenoxai), [@kimmonismus](https://x.com/kimmonismus), [@imjustnewatai](https://x.com/imjustnewatai), [@Khazix0918](https://x.com/Khazix0918), [@marcthecreatorr](https://x.com/marcthecreatorr), [@Bhavani_00007](https://x.com/Bhavani_00007), [@JustLingonberry](https://x.com/JustLingonberry), [@Mr_Salio](https://x.com/Mr_Salio), [@aGim_asf](https://x.com/aGim_asf), [@0x0SojalSec](https://x.com/0x0SojalSec), [@pengsonal](https://x.com/pengsonal), [@GeekCatX](https://x.com/GeekCatX), [@Ananth7e](https://x.com/Ananth7e), [@EnvolDev](https://x.com/EnvolDev), [@xbquan](https://x.com/xbquan), [@SahilPanhotra](https://x.com/SahilPanhotra), [@rubenssoto_ai](https://x.com/rubenssoto_ai), [@vikktorrrre](https://x.com/vikktorrrre), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@Cayden970207](https://x.com/Cayden970207), [@HarshithLucky3](https://x.com/HarshithLucky3), [@TokenGremlin](https://x.com/TokenGremlin), [@SadAlbert10](https://x.com/SadAlbert10), [@maxt3chno](https://x.com/maxt3chno), [@karanC_12](https://x.com/karanC_12), [@JustinGorya](https://x.com/JustinGorya), [@kdnbmb](https://x.com/kdnbmb), [@VraserX](https://x.com/VraserX), [@jessexai_](https://x.com/jessexai_), [@theaidesk_](https://x.com/theaidesk_), [@gadi_neelesh](https://x.com/gadi_neelesh), [@Haleeeemahh](https://x.com/Haleeeemahh), [@SPAC89](https://x.com/SPAC89), [@VeknQAQ](https://x.com/VeknQAQ), [@Aurora0x3f](https://x.com/Aurora0x3f), [@bei351009016](https://x.com/bei351009016), [@Stargridcompass](https://x.com/Stargridcompass), [@iamtheQwen](https://x.com/iamtheQwen), [@voxelbench](https://x.com/voxelbench), [@sshayahmet](https://x.com/sshayahmet), [@TimJayas](https://x.com/TimJayas), [@lucian__03](https://x.com/lucian__03), [@camperaigg](https://x.com/camperaigg), [@nickbaumann_](https://x.com/nickbaumann_), [@thtbee_](https://x.com/thtbee_), [@DeryaTR_](https://x.com/DeryaTR_), [@banteg](https://x.com/banteg), [@Leviwoyun](https://x.com/Leviwoyun), [@browser_use](https://x.com/browser_use), [@simonw](https://x.com/simonw), [@perplexity_ai](https://x.com/perplexity_ai), [@_3912657840](https://x.com/_3912657840), [@fawnunwrap](https://x.com/fawnunwrap), [@Angaisb_](https://x.com/Angaisb_), [@jony_palino](https://x.com/jony_palino), [@notjazii](https://x.com/notjazii), [@noclipepe](https://x.com/noclipepe), [@Super_Nius](https://x.com/Super_Nius), [@maxbittker](https://x.com/maxbittker), [@morsenxxx](https://x.com/morsenxxx), [@AdamHoltererer](https://x.com/AdamHoltererer), [@Clad3815](https://x.com/Clad3815), [@N1njaCodex](https://x.com/N1njaCodex), [@CodeByNZ](https://x.com/CodeByNZ), [@DanielZambrini](https://x.com/DanielZambrini), [@RezAIT00](https://x.com/RezAIT00), [@LuminaBench](https://x.com/LuminaBench), [@Jason85885174](https://x.com/Jason85885174), [@mspd4100](https://x.com/mspd4100), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@simonw](https://news.ycombinator.com/user?id=simonw), [@Fei2411](https://x.com/Fei2411), [@arena](https://x.com/arena), [@jan_volad](https://x.com/jan_volad), [@eliadele](https://x.com/eliadele), [@monkeys_im](https://x.com/monkeys_im), [@rotejin](https://x.com/rotejin), [@jetbrains](https://x.com/jetbrains), [@UFO2002616](https://x.com/UFO2002616), [@argofowl](https://x.com/argofowl), [@Kombaico](https://x.com/Kombaico), [@shinshin86](https://x.com/shinshin86), [@PawelJLisowski](https://x.com/PawelJLisowski), [@alohaproxy](https://x.com/alohaproxy), [@masahirochaen](https://x.com/masahirochaen), [@mylesBaiM](https://x.com/mylesBaiM), [@exploraX_](https://x.com/exploraX_), [@One2xDatalab](https://x.com/One2xDatalab), [@798145343h](https://x.com/798145343h), [@xKaka1456](https://x.com/xKaka1456), [@op7418](https://x.com/op7418), [@aura_uniiiii](https://x.com/aura_uniiiii), [@shinya_creative](https://x.com/shinya_creative), [@muratcan](https://x.com/muratcan), [@suna_gaku](https://x.com/suna_gaku), [@teddyaisi](https://x.com/teddyaisi), [@0xkhalid7](https://x.com/0xkhalid7), [@shownotover](https://x.com/shownotover), [@andonlabs](https://x.com/andonlabs), [@MatthewBerman](https://x.com/MatthewBerman), [@Hesamation](https://x.com/Hesamation), [@WeAreLegora](https://x.com/WeAreLegora), [@XploreAi](https://x.com/XploreAi), [@patience_cave](https://x.com/patience_cave), [@aidigest_](https://x.com/aidigest_), [@erhanmeydan](https://x.com/erhanmeydan), [@aapakari](https://x.com/aapakari), [@jerryjliu0](https://x.com/jerryjliu0), [@joshzqin](https://x.com/joshzqin), [@DesignArena](https://x.com/DesignArena), [@boringmarketer](https://x.com/boringmarketer), [@sriramkiron](https://x.com/sriramkiron), [@GeppiiKameWorks](https://x.com/GeppiiKameWorks), [@rails](https://x.com/rails), [@CodeRabbit](https://www.coderabbit.ai/), [@givros](https://x.com/givros), [@KrishnaBuildsAI](https://x.com/KrishnaBuildsAI), [@cfenghub](https://x.com/cfenghub), [@MelissaKampers](https://x.com/MelissaKampers), [@fankaishuoai](https://x.com/fankaishuoai), [@guilippert_v4](https://x.com/guilippert_v4), [@null_decimal](https://x.com/null_decimal), [@risui1012](https://x.com/risui1012), [@bangbuilds](https://x.com/bangbuilds), [@hone_sns](https://x.com/hone_sns), [@Rin_4ever_](https://x.com/Rin_4ever_)
 
 *Пожалуйста, откройте вопрос об исправлении источника для запросов на атрибуцию или удаление.*
