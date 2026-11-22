@@ -18,7 +18,7 @@
 <a id="overview"></a>
 ## 📊 Overview
 
-- **175 use cases · GPT-6.2 Sol**. The collection covers 175 source posts. Of these, 172 show results and three document incomplete attempts. Twenty-two posts supply exact prompts in the original language.
+- **202 use cases · GPT-6.2 Sol**. The collection covers 202 source posts. Of these, 197 showcase results and five document limitations. Twenty-five posts include exact prompts in the original language.
 - 3D scenes and modeling · Creative graphics and animation · Websites and interfaces · Game development · Computer use and painting · Computer use and communication
 - Each entry lists the original post, creator, date, evidence type and visible result.
 - Use the public prompt where available. Preserve the original input when comparing results.
@@ -44,6 +44,32 @@
 | [Quick Start](#quick-start) | Navigation | Quick Start | — |
 | [Related Repositories](#related-repositories) | Navigation | Related Repositories | — |
 | [Acknowledge](#acknowledge) | Navigation | Acknowledge | — |
+| [Case 186. A valley crossed by an aqueduct](#case-186) | [3D scenes and modeling](#category-three) | See how a Blender workflow carries a large landscape into Three.js. | Demo |
+| [Case 187. Image generation on a simple addition question](#case-187) | [Computer use and communication](#category-communication) | Check unexpected tool use separately from whether the final answer is correct. | Limit |
+| [Case 188. Eight television locations rebuilt in Minecraft](#case-188) | [Game development](#category-game) | Compare recognizable layouts and build time across two sandbox outputs. | Evaluation |
+| [Case 189. An interactive expedition vehicle in Three.js](#case-189) | [3D scenes and modeling](#category-three) | Inspect modeled details, hinged panels and synthesized sound in one HTML file. | Demo |
+| [Case 190. A code-generated Riemann hypothesis explainer](#case-190) | [Creative graphics and animation](#category-graphics) | Use local code to assemble the animation and its audio in one workflow. | Demo |
+| [Case 191. Four Eiffel Tower renders in Three.js](#case-191) | [3D scenes and modeling](#category-three) | Compare the lattice, proportions and surroundings in four labeled scenes. | Evaluation |
+| [Case 192. Finding known bugs in a database review](#case-192) | [Computer use and communication](#category-communication) | Compare known-issue coverage and elapsed time in the same review task. | Benchmark |
+| [Case 193. The ruins of Ozymandias in Minecraft](#case-193) | [Game development](#category-game) | Compare how two builders translate the same literary scene into blocks. | Evaluation |
+| [Case 194. Sol presets for Hermes and Pi agents](#case-194) | [Computer use and communication](#category-communication) | See how one desktop entry point can organize assistants with different roles. | Integration |
+| [Case 195. Six redesigns of one marketing site](#case-195) | [Websites and interfaces](#category-web) | Compare how different models turn the same site brief into different visual directions. | Evaluation |
+| [Case 196. A rainy waterfront diorama from one reference](#case-196) | [3D scenes and modeling](#category-three) | Compare how two models turn a single image into a 2.5D browser scene. | Evaluation |
+| [Case 197. Front and top views swapped in SolidWorks](#case-197) | [3D scenes and modeling](#category-three) | Check engineering drawing orientation against the assembly before accepting the export. | Limit |
+| [Case 198. A blind short-fiction comparison](#case-198) | [Computer use and communication](#category-communication) | Compare short fiction from a shared plot and check where human formatting entered the workflow. | Evaluation |
+| [Case 199. A cat at a rainy window](#case-199) | [Creative graphics and animation](#category-graphics) | Compare how four models stage the same scene in a single HTML animation. | Evaluation |
+| [Case 176. Document parsing at two reasoning levels](#case-176) | [Computer use and communication](#category-communication) | Compare overall parsing scores, chart scores and cost per page. | Benchmark |
+| [Case 200. Camera moves for twelve building models](#case-200) | [3D scenes and modeling](#category-three) | Use Blender MCP to create camera work for a set of imported models. | Demo |
+| [Case 177. Four animated cyclists at sunset](#case-177) | [Creative graphics and animation](#category-graphics) | Compare rider motion, bicycle proportions and scene lighting across four outputs. | Evaluation |
+| [Case 178. Workplace tasks in Company Agent Bench](#case-178) | [Computer use and communication](#category-communication) | Compare reported accuracy across models at the tested reasoning settings. | Benchmark |
+| [Case 179. A cable car across Scarlet Fjord](#case-179) | [3D scenes and modeling](#category-three) | Compare how four renders handle the cabin and the landscape around it. | Evaluation |
+| [Case 180. Game development preference and generation cost](#case-180) | [Game development](#category-game) | Compare preference rank, average generation time and cost on the same game design arena. | Benchmark |
+| [Case 181. A comparison across marketing tasks](#case-181) | [Computer use and communication](#category-communication) | Review per-task preference alongside cost and the number of votes. | Benchmark |
+| [Case 182. A walking route turned into a handheld game](#case-182) | [Game development](#category-game) | See how observations from a walk become revisitable game scenes. | Demo |
+| [Case 183. A Blender rabbit from an image reference](#case-183) | [3D scenes and modeling](#category-three) | Inspect the geometry from multiple angles after starting from a generated reference image. | Demo |
+| [Case 184. Agents on Rails accuracy and runtime](#case-184) | [Websites and interfaces](#category-web) | Track runtime and accuracy separately on development tasks in existing Rails apps. | Benchmark |
+| [Case 201. A grass field in a standalone HTML scene](#case-201) | [3D scenes and modeling](#category-three) | Follow an asset from Blender into a small Three.js project that runs in a browser. | Demo |
+| [Case 202. Costume illustration iterations in ChatGPT Work](#case-202) | [Creative graphics and animation](#category-graphics) | Compare what changes when a detailed costume request is run again. | Evaluation |
 | [Case 159. From still frames to a finished video](#case-159) | [Creative graphics and animation](#category-graphics) | Use the editing timeline to see where generated frames enter a multi-tool workflow. | Demo |
 | [Case 160. Two first-person game prototypes in Codex](#case-160) | [Game development](#category-game) | Compare the level layout and play experience alongside the recorded cost. | Evaluation |
 | [Case 161. A cozy village game with Blender assets](#case-161) | [Game development](#category-game) | See how modeled objects and animation come together in a game scene. | Demo |
@@ -51,6 +77,7 @@
 | [Case 163. Dialogue cuts in a talking-head video](#case-163) | [Creative graphics and animation](#category-graphics) | Compare edit time, overall score and the kinds of cuts that fail. | Benchmark |
 | [Case 164. Two designs for a headquarters](#case-164) | [3D scenes and modeling](#category-three) | Compare the buildings and camera view on the same open-ended design brief. | Evaluation |
 | [Case 165. Managing a settlement in Crusader Bench](#case-165) | [Game development](#category-game) | Compare agent play using the same scored maps and game conditions. | Benchmark |
+| [Case 185. Pull request review in CodeRabbit](#case-185) | [Computer use and communication](#category-communication) | Compare known issues caught, reported precision and review cost across pipeline configurations. | Benchmark |
 | [Case 166. Legora’s November legal document benchmark](#case-166) | [Computer use and communication](#category-communication) | Compare quality and cost per case on the same set of professional tasks. | Benchmark |
 | [Case 167. Sol on Xplore’s engineering design benchmark](#case-167) | [3D scenes and modeling](#category-three) | Compare task scores and per-run cost on a suite that includes CAD work. | Benchmark |
 | [Case 168. A Ruby Ascent launchpad scene](#case-168) | [3D scenes and modeling](#category-three) | Compare scene detail and build time across four versions of the same launchpad. | Evaluation |
@@ -220,969 +247,157 @@
 | [Case 58. A single-HTML Three.js black hole](#case-58) | [3D scenes and modeling](#category-three) | Use the clip and stills to inspect how one scene handles several viewpoints. | Demo |
 | [Case 59. A floating Three.js palace](#case-59) | [3D scenes and modeling](#category-three) | Inspect the scale and presentation of a suspended palace from several angles. | Demo |
 
-<a id="category-graphics"></a>
-## 🎨 Creative graphics and animation
+<a id="category-three"></a>
+## 🧊 3D scenes and modeling
 
-<a id="case-159"></a>
-### Case 159: [From still frames to a finished video](https://x.com/0xkhalid7/status/2123661187376451845) (by [@0xkhalid7](https://x.com/0xkhalid7))
+<a id="case-186"></a>
+### Case 186: [A valley crossed by an aqueduct](https://x.com/givros/status/2124404063802429838) (by [@givros](https://x.com/givros))
 
-**Use the editing timeline to see where generated frames enter a multi-tool workflow.**
+**See how a Blender workflow carries a large landscape into Three.js.**
 
-The creator credits ChatGPT for the script and Sol for the frames. They animated the frames in Google Vids, edited in CapCut and reported about four hours for the whole project.
+The creator used Sol, Blender MCP, Three.js and a Codex skill developed over multiple projects. They reported taking 44 minutes to build Valley of the Aqueduct.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123660882249175040-7f5a38c954cd6232ce0b.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-159/2123660882249175040-poster-6036fd4b16ea350bc22d.jpg" width="640" alt="Source preview 1 · From still frames to a finished video"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2124402857818398720-f9b743ee2b727f0d1a68.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-186/2124402857818398720-poster-107b94ee250440ec372c.jpg" width="640" alt="Source preview 1 · A valley crossed by an aqueduct"></a>
 
-[Play demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123660882249175040-7f5a38c954cd6232ce0b.mp4)
+[Play demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2124402857818398720-f9b743ee2b727f0d1a68.mp4)
 
-Type: Demo | Date: 2026-11-20
-
----
-
-<a id="case-163"></a>
-### Case 163: [Dialogue cuts in a talking-head video](https://x.com/MatthewBerman/status/2123546744759984513) (by [@MatthewBerman](https://x.com/MatthewBerman))
-
-**Compare edit time, overall score and the kinds of cuts that fail.**
-
-In the creator’s two-run average for a 20-minute video, Sol scored 64.5% and took 11.7 minutes to edit. Gemini 4 Neon scored 67.9% and took 7.7 minutes.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-163/2123546497111482368-6e88a30728efbca29854.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-163/2123546497111482368-6e88a30728efbca29854.jpg" width="640" alt="Source preview 1 · Dialogue cuts in a talking-head video"></a>
-
-Type: Benchmark | Date: 2026-11-19
+Type: Demo | Date: 2026-11-22
 
 ---
 
-<a id="case-173"></a>
-### Case 173: [A whiteboard animation of a short clip](https://x.com/erhanmeydan/status/2123414880300490868) (by [@erhanmeydan](https://x.com/erhanmeydan))
+<a id="case-189"></a>
+### Case 189: [An interactive expedition vehicle in Three.js](https://x.com/cfenghub/status/2124303850366484584) (by [@cfenghub](https://x.com/cfenghub))
 
-**Compare visual storytelling and cost on the same input footage.**
+**Inspect modeled details, hinged panels and synthesized sound in one HTML file.**
 
-The creator ran four models in Kilnframe’s Whiteboard style and Auto mode on the same 11-second clip. The Sol run took 1.7 minutes and cost $0.18.
+The creator adapted a prompt credited to @maxt3chno. They reported a 27-minute Sol Max run that used procedural geometry and no external 3D assets or textures.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123414708459855872-abcd21a1ca31fae0de50.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-173/2123414708459855872-poster-693b12b8cd00ed30b115.jpg" width="640" alt="Source preview 1 · A whiteboard animation of a short clip"></a>
+[Original prompt](https://x.com/cfenghub/status/2124303853336121819)
 
-[Play demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123414708459855872-abcd21a1ca31fae0de50.mp4)
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2124255891444658176-00f4759b0fb357f8d466.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-189/2124255891444658176-poster-6d9d10eefa114464963a.jpg" width="640" alt="Source preview 1 · An interactive expedition vehicle in Three.js"></a>
 
-Type: Evaluation | Date: 2026-11-19
+[Play demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2124255891444658176-00f4759b0fb357f8d466.mp4)
 
----
-
-<a id="case-130"></a>
-### Case 130: [A realistic falling leaf in three minutes](https://x.com/RezAIT00/status/2123121274431897803) (by [@RezAIT00](https://x.com/RezAIT00))
-
-**Use a time limit to test how the model combines assets and code.**
-
-The creator said Sol xhigh Ultrafast sourced material online, used image generation and wrote code to make the falling-leaf animation.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123120923666423808-a00f9b04f9a3d9061acf.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-130/2123120923666423808-poster-97ccbaaf84c4bcfaee1b.jpg" width="640" alt="Source preview 1 · A realistic falling leaf in three minutes"></a>
-
-[Play demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123120923666423808-a00f9b04f9a3d9061acf.mp4)
-
-Type: Demo | Date: 2026-11-18
+Type: Demo | Date: 2026-11-22
 
 ---
 
-<a id="case-134"></a>
-### Case 134: [A looping pixel-art runner](https://x.com/rotejin/status/2123099481101205676) (by [@rotejin](https://x.com/rotejin))
+<a id="case-191"></a>
+### Case 191: [Four Eiffel Tower renders in Three.js](https://x.com/Bhavani_00007/status/2124203254011854973) (by [@Bhavani_00007](https://x.com/Bhavani_00007))
 
-**Check whether a character animation loops cleanly against a scrolling backdrop.**
+**Compare the lattice, proportions and surroundings in four labeled scenes.**
 
-The creator asked Sol for dynamic pixel art. The attached loop shows a running character silhouetted against a sunset.
+The creator asked Sol, Astra, Gemini 4 Neon and Opus 5.5 to build the same landmark. The video shows Sol’s result in the lower-left panel.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123098773459283968-5897570c940b051711a4.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-134/2123098773459283968-poster-e96bd6c94b068883b1a1.jpg" width="640" alt="Source preview 1 · A looping pixel-art runner"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2124203061245792256-cf03822b46631f0f6262.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-191/2124203061245792256-poster-174020bf0c57e88aa728.jpg" width="640" alt="Source preview 1 · Four Eiffel Tower renders in Three.js"></a>
 
-[Play demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123098773459283968-5897570c940b051711a4.mp4)
+[Play demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2124203061245792256-cf03822b46631f0f6262.mp4)
 
-Type: Demo | Date: 2026-11-18
-
----
-
-<a id="case-145"></a>
-### Case 145: [An animated tandem bicycle SVG](https://x.com/marcthecreatorr/status/2123004538974294470) (by [@marcthecreatorr](https://x.com/marcthecreatorr))
-
-**Compare how two coding tools render and animate the same SVG subject.**
-
-The author reported about 46 minutes and $1.90 for Sol in Codex CLI and about an hour and $18 for Opus 5.5 in Claude Code.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123002351422181377-2a6725e05299e1972940.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-145/2123002351422181377-poster-c6f5ed83f95c549068d4.jpg" width="640" alt="Source preview 1 · An animated tandem bicycle SVG"></a>
-
-[Play demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123002351422181377-2a6725e05299e1972940.mp4)
-
-Type: Evaluation | Date: 2026-11-18
+Type: Evaluation | Date: 2026-11-21
 
 ---
 
-<a id="case-152"></a>
-### Case 152: [Measuring an Ultrafast video edit](https://x.com/op7418/status/2122925281514303836) (by [@op7418](https://x.com/op7418))
+<a id="case-196"></a>
+### Case 196: [A rainy waterfront diorama from one reference](https://x.com/null_decimal/status/2124092333218222532) (by [@null_decimal](https://x.com/null_decimal))
 
-**Track elapsed editing time separately from model response time.**
+**Compare how two models turn a single image into a 2.5D browser scene.**
 
-The creator reported 27 minutes end to end for an eight-minute video edit, including about 14 minutes of Sol response time. The attachment shows timing results.
+The creator used the same reference and high effort. In the linked follow-up they showed both Codex outputs and reported 10 minutes 17 seconds for Sol and 8 minutes 56 seconds for Astra.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-152/2122925011057209345-502d3dadda839363aabd.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-152/2122925011057209345-502d3dadda839363aabd.jpg" width="640" alt="Source preview 1 · Measuring an Ultrafast video edit"></a>
+[Creator’s follow-up](https://x.com/null_decimal/status/2124093357618286646)
 
-Type: Benchmark | Date: 2026-11-18
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-196/2124091289537032192-4c71b42f171ee1773931.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-196/2124091289537032192-4c71b42f171ee1773931.jpg" width="640" alt="Source preview 1 · A rainy waterfront diorama from one reference"></a>
 
----
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2124092476680249344-f23943c1146eec7fca82.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-196/2124092476680249344-poster-f37fc93316d7ea0027a2.jpg" width="640" alt="Source preview 2 · A rainy waterfront diorama from one reference"></a>
 
-<a id="case-153"></a>
-### Case 153: [Handwritten signature animation in Remotion](https://x.com/aura_uniiiii/status/2122915684086849611) (by [@aura_uniiiii](https://x.com/aura_uniiiii))
+[Play demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2124092476680249344-f23943c1146eec7fca82.mp4)
 
-**Compare how two Max runs animate the same personal signature.**
-
-The creator asked Sol and Astra to make a Remotion video of their signature and published the resulting clips together.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122913982898143232-edb073cf9b2bb51a5faf.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-153/2122913982898143232-poster-d1cd5c4dd99e8cdeb3c4.jpg" width="640" alt="Source preview 1 · Handwritten signature animation in Remotion"></a>
-
-[Play demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122913982898143232-edb073cf9b2bb51a5faf.mp4)
-
-Type: Evaluation | Date: 2026-11-18
+Type: Evaluation | Date: 2026-11-21
 
 ---
 
-<a id="case-79"></a>
-### Case 79: [A 15-second motion design brief](https://x.com/Leviwoyun/status/2122846422676701267) (by [@Leviwoyun](https://x.com/Leviwoyun))
+<a id="case-197"></a>
+### Case 197: [Front and top views swapped in SolidWorks](https://x.com/aura_uniiiii/status/2124081414287299058) (by [@aura_uniiiii](https://x.com/aura_uniiiii))
 
-**Give both models the same brief and compare typography, transitions and motion.**
+**Check engineering drawing orientation against the assembly before accepting the export.**
 
-The creator shared two videos and the original prompt. One centers on a rotating folded-paper form, and the other moves from a signal display to a purple geometric form.
+The creator reported that Sol Ultra mixed up the front and top views. The attached follow-up shows Sol acknowledging the mismatch and planning to redraw the views.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-197/2124080755181768704-81a2add507df29310998.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-197/2124080755181768704-81a2add507df29310998.jpg" width="640" alt="Source preview 1 · Front and top views swapped in SolidWorks"></a>
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-197/2124081091166502912-621b83a981fdd01e91b1.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-197/2124081091166502912-621b83a981fdd01e91b1.jpg" width="640" alt="Source preview 2 · Front and top views swapped in SolidWorks"></a>
+
+Type: Limit | Date: 2026-11-21
+
+---
+
+<a id="case-200"></a>
+### Case 200: [Camera moves for twelve building models](https://x.com/hone_sns/status/2123935290243133793) (by [@hone_sns](https://x.com/hone_sns))
+
+**Use Blender MCP to create camera work for a set of imported models.**
+
+The creator supplied 12 buildings made in Tripo and asked Sol at high effort to show them individually. They reported producing the animation in about 10 minutes.
 
 **Prompt:**
 
 ```
-制作一段 15 秒的动态图形视频，展示你是一位多么出色的动态设计师，就像是你简历上的作品集一样，使用任何你认为能产出最佳效果的工具或技术。你拥有完全的创作自由，优先追求卓越的视觉设计、大胆的艺术指导、引人注目的构图和富有力量的动态表现，让每一秒都有价值。全力以赴。
+【12種の建物モデル】を1つずつ並べて、それぞれを魅力的にみせるカメラワークのシーンをBlenderMCPを使用して制作してください。
 ```
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122845749499310081-01cb8b6073d8916e9b09.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-79/2122845749499310081-poster-1159d01955e99da02391.jpg" width="640" alt="Source preview 1 · A 15-second motion design brief"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123934892769918976-4eae5c0968ee503e6c4e.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-200/2123934892769918976-poster-4bf675c23052aeb3e3c6.jpg" width="640" alt="Source preview 1 · Camera moves for twelve building models"></a>
 
-[Play demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122845749499310081-01cb8b6073d8916e9b09.mp4)
+[Play demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123934892769918976-4eae5c0968ee503e6c4e.mp4)
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122846110117183488-30f1277d34e59656f484.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-79/2122846110117183488-poster-7b07819920bd6a3fe88d.jpg" width="640" alt="Source preview 2 · A 15-second motion design brief"></a>
-
-[Play demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122846110117183488-30f1277d34e59656f484.mp4)
-
-Type: Evaluation | Date: 2026-11-18
+Type: Demo | Date: 2026-11-21
 
 ---
 
-<a id="case-88"></a>
-### Case 88: [A galloping horse rendered by two models](https://x.com/jony_palino/status/2122796926961647919) (by [@jony_palino](https://x.com/jony_palino))
+<a id="case-179"></a>
+### Case 179: [A cable car across Scarlet Fjord](https://x.com/EnvolDev/status/2123876031346200772) (by [@EnvolDev](https://x.com/EnvolDev))
 
-**Compare the legs and stride over a complete loop.**
+**Compare how four renders handle the cabin and the landscape around it.**
 
-The video labels the Astra and Sol horse animations and shows the two versions running side by side.
+The creator compared four versions of the same scene and preferred Astra’s cabin detail. The reported Sol run took 38 minutes 28 seconds and cost $1.62.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122781224338939905-9fac5a374f5ddc54f8a8.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-88/2122781224338939905-poster-b06065421603cc7f6f6c.jpg" width="640" alt="Source preview 1 · A galloping horse rendered by two models"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123831977287761920-470f192dfb8387e2be60.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-179/2123831977287761920-poster-358738b7044aa1397a60.jpg" width="640" alt="Source preview 1 · A cable car across Scarlet Fjord"></a>
 
-[Play demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122781224338939905-9fac5a374f5ddc54f8a8.mp4)
-
-Type: Evaluation | Date: 2026-11-17
-
----
-
-<a id="case-74"></a>
-### Case 74: [Fire and sound generated in code](https://x.com/camperaigg/status/2122794828266377538) (by [@camperaigg](https://x.com/camperaigg))
-
-**Record output duration alongside cost and generation time in a motion comparison.**
-
-The creator compared two xhigh runs using code for the visuals and audio. They reported a 12-second Sol clip from a 12-minute run at $0.73 and a 24-second Opus 5.5 clip from an 85-minute run at $18.40.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122794767960752128-e2e19e403efea0d778cc.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-74/2122794767960752128-poster-5dc5e43235499f8378cf.jpg" width="640" alt="Source preview 1 · Fire and sound generated in code"></a>
-
-[Play demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122794767960752128-e2e19e403efea0d778cc.mp4)
-
-Type: Evaluation | Date: 2026-11-17
-
----
-
-<a id="case-94"></a>
-### Case 94: [A 900-frame animation made in code](https://x.com/morsenxxx/status/2122771021828948464) (by [@morsenxxx](https://x.com/morsenxxx))
-
-**Track the characters, motion and sound through to the final export.**
-
-The creator reports that the characters, animation and soundtrack were generated in code. The shared result runs for 30 seconds.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122768959980118016-519fd034e8c095b6bc01.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-94/2122768959980118016-poster-ef4789678264a50b8b9f.jpg" width="640" alt="Source preview 1 · A 900-frame animation made in code"></a>
-
-[Play demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122768959980118016-519fd034e8c095b6bc01.mp4)
-
-Type: Demo | Date: 2026-11-17
-
----
-
-<a id="case-98"></a>
-### Case 98: [An animated banana illustration](https://x.com/AdamHoltererer/status/2122765119835029581) (by [@AdamHoltererer](https://x.com/AdamHoltererer))
-
-**Use a simple subject to inspect how a model introduces motion and character.**
-
-The creator shared a Sol banana test where a drawn banana becomes part of an animated character scene.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122765018739441664-63474f1acf4d1d5e18b1.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-98/2122765018739441664-poster-a235f39f622e3848c495.jpg" width="640" alt="Source preview 1 · An animated banana illustration"></a>
-
-[Play demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122765018739441664-63474f1acf4d1d5e18b1.mp4)
-
-Type: Demo | Date: 2026-11-17
-
----
-
-<a id="case-101"></a>
-### Case 101: [A cycling pelican in a single HTML file](https://x.com/Super_Nius/status/2122760765174391124) (by [@Super_Nius](https://x.com/Super_Nius))
-
-**Use one SVG brief and inspect the bird and bicycle motion side by side.**
-
-The creator published the prompt and compared 6.2 and 6.1 outputs. They reported only a modest change in Sol’s rendition.
-
-**Prompt:**
-
-```
-创建一个HTML文件，使用SVG绘制一只鹈鹕3D骑自行车的动画。输出单文件HTML。
-```
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122760254945673216-c6b375b036ac15cc3a2b.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-101/2122760254945673216-poster-d0903f87dd4ac9dee18a.jpg" width="640" alt="Source preview 1 · A cycling pelican in a single HTML file"></a>
-
-[Play demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122760254945673216-c6b375b036ac15cc3a2b.mp4)
-
-Type: Evaluation | Date: 2026-11-17
-
----
-
-<a id="case-103"></a>
-### Case 103: [Two stick-figure animations at Ultra effort](https://x.com/DanielZambrini/status/2122759375337214121) (by [@DanielZambrini](https://x.com/DanielZambrini))
-
-**Repeat an animation brief to see how much two runs vary.**
-
-The creator showed two Sol Ultra runs and reported durations of 13 and 12 minutes for the builds.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122758829104328704-4fe90331a8b43e8cc76c.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-103/2122758829104328704-poster-2e025ca80aa35e6c9676.jpg" width="640" alt="Source preview 1 · Two stick-figure animations at Ultra effort"></a>
-
-[Play demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122758829104328704-4fe90331a8b43e8cc76c.mp4)
-
-Type: Evaluation | Date: 2026-11-17
-
----
-
-<a id="case-123"></a>
-### Case 123: [Pelican SVGs across reasoning efforts](https://news.ycombinator.com/item?id=50535742) (by [@simonw](https://news.ycombinator.com/user?id=simonw))
-
-**Inspect how the pedals, feet and frame fit together at each effort.**
-
-Simon Willison published a labeled grid for the same SVG prompt across six models and multiple reasoning settings. The discussion flags a leg overlapping the chain in the Sol Max image.
-
-**Prompt:**
-
-```
-Generate an SVG of a pelican riding a bicycle
-```
-
-[Full SVG comparison](https://static.simonwillison.net/static/2026/openai-pelicans-november-2026.html)
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-123/50535742-grid-7d953958cc033d468770.webp"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-123/50535742-grid-7d953958cc033d468770.webp" width="640" alt="Source preview 1 · Pelican SVGs across reasoning efforts"></a>
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-123/50535742-astra-3d77dc7c6001b9a03061.webp"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-123/50535742-astra-3d77dc7c6001b9a03061.webp" width="640" alt="Source preview 2 · Pelican SVGs across reasoning efforts"></a>
-
-*GPT-6.2 Astra at Max*
-
-Type: Evaluation | Date: 2026-11-17
-
----
-
-<a id="case-110"></a>
-### Case 110: [Rainy cycling delivery with Sol, Opus and Qwen](https://x.com/Stargridcompass/status/2122184571269853307) (by [@Stargridcompass](https://x.com/Stargridcompass))
-
-**Compare the night scene and cycling motion across three outputs.**
-
-The creator shows three labeled takes on a pelican courier and preferred Opus 5.5 for this comparison.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122183328228909056-562a9b17b2bc7222fb58.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-110/2122183328228909056-poster-9550a8f62aa13cde8a3a.jpg" width="640" alt="Source preview 1 · Rainy cycling delivery with Sol, Opus and Qwen"></a>
-
-[Play demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122183328228909056-562a9b17b2bc7222fb58.mp4)
-
-Type: Evaluation | Date: 2026-11-16
-
----
-
-<a id="case-112"></a>
-### Case 112: [A cycling pelican delivering food in the rain](https://x.com/Stargridcompass/status/2121543669882745007) (by [@Stargridcompass](https://x.com/Stargridcompass))
-
-**Inspect reflections, puddles, street fixtures and moving scenery separately.**
-
-The creator compared Sol and Fable 5.2 on the rainy delivery scene and preferred the puddles and reflections in the Sol version.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2121535105013334016-7271e00bcbdb0a0caf42.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-112/2121535105013334016-poster-4a1d19351363ee575584.jpg" width="640" alt="Source preview 1 · A cycling pelican delivering food in the rain"></a>
-
-[Play demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2121535105013334016-7271e00bcbdb0a0caf42.mp4)
-
-Type: Evaluation | Date: 2026-11-14
-
----
-
-<a id="case-114"></a>
-### Case 114: [A daytime cycling pelican in two outputs](https://x.com/Stargridcompass/status/2121505035976597773) (by [@Stargridcompass](https://x.com/Stargridcompass))
-
-**Compare motion quality alongside run time.**
-
-The creator shows Sol and Gemini 4 Hydrogen on the same brief and reports 13 minutes for Sol and three minutes for Hydrogen.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2121503397702459392-e951142e407012e2ef01.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-114/2121503397702459392-poster-2f40d730171de43b3581.jpg" width="640" alt="Source preview 1 · A daytime cycling pelican in two outputs"></a>
-
-[Play demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2121503397702459392-e951142e407012e2ef01.mp4)
-
-Type: Evaluation | Date: 2026-11-14
-
----
-
-<a id="case-118"></a>
-### Case 118: [A sword duel animated in SVG](https://x.com/kdnbmb/status/2120537324488450050) (by [@kdnbmb](https://x.com/kdnbmb))
-
-**Inspect how timing and silhouettes sell movement in vector animation.**
-
-The creator attributes the code-based animation to one Sol run and reports that it took about 18 minutes.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2120537298286608384-168cc4ec913763fba163.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-118/2120537298286608384-poster-7749116f725da65b0420.jpg" width="640" alt="Source preview 1 · A sword duel animated in SVG"></a>
-
-[Play demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2120537298286608384-168cc4ec913763fba163.mp4)
-
-Type: Demo | Date: 2026-11-11
-
----
-
-<a id="case-120"></a>
-### Case 120: [A photorealistic landscape in SVG](https://x.com/kdnbmb/status/2120193707987317053) (by [@kdnbmb](https://x.com/kdnbmb))
-
-**Inspect which details survive when a natural scene is drawn in vectors.**
-
-The creator reports asking Sol at Max for a photorealistic nature SVG and shared its rendered result.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-120/2120193470002241536-2e471c1c74dabf15e6eb.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-120/2120193470002241536-2e471c1c74dabf15e6eb.jpg" width="640" alt="Source preview 1 · A photorealistic landscape in SVG"></a>
-
-Type: Demo | Date: 2026-11-10
-
----
-
-<a id="case-60"></a>
-### Case 60: [Monkey King SVG comparison](https://x.com/xbquan/status/2119581984989364514) (by [@xbquan](https://x.com/xbquan))
-
-**Compare how three systems stage the same Monkey King scene.**
-
-The author labels the three images GPT-6.2 Sol at the highest setting, Qoder’s QoDuck and WorkBuddy’s HY4. The prompt in the author’s reply requests one SVG version and forbids checking a screenshot.
-
-[Author’s reply with the original prompt](https://x.com/xbquan/status/2119582058922316169)
-
-**Prompt:**
-
-```
-用尽你的一切能力，用代码画一张孙悟空的大闹天宫名场面的svg图片，我想要尽可能的还原，只能画一版，不准截图检查。
-```
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-60/2119580835200516096-1e4e7a136e429b696a7a.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-60/2119580835200516096-1e4e7a136e429b696a7a.jpg" width="640" alt="Source preview 1 · Monkey King SVG comparison"></a>
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-60/2119581876805640192-01552031d537dc13d897.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-60/2119581876805640192-01552031d537dc13d897.jpg" width="640" alt="Source preview 2 · Monkey King SVG comparison"></a>
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-60/2119581974092546048-c61fe179e1741227a187.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-60/2119581974092546048-c61fe179e1741227a187.png" width="640" alt="Source preview 3 · Monkey King SVG comparison"></a>
-
-Type: Evaluation | Date: 2026-11-09
-
----
-
-<a id="case-3"></a>
-### Case 3: [Human history and the AI future in 3D](https://x.com/imjustnewatai/status/2119518062034792958) (by [@imjustnewatai](https://x.com/imjustnewatai))
-
-**Turn a narrative brief into a sequence of animated scenes.**
-
-The recording shows a multi-scene 3D animation. The author's public prompt moves from Neanderthals through the rise of AI to an imagined future.
-
-**Prompt:**
-
-```
-Create a cinematic 3D animation telling humanity’s story, from the age of Neanderthals through our greatest advances and the rise of AI. Then imagine a future where AI achieves recursive self-improvement in 2027, and progress doubles or triples every year, transforming Earth in increasingly astonishing ways. Come up with your own scenes and transitions, connecting everything into one compelling story.
-```
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119517968493113344-17865404f54bd3f80fbd.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-03/2119517968493113344-poster-62d6ae1e6365eb443bd6.jpg" width="640" alt="Source preview 1 · Human history and the AI future in 3D"></a>
-
-[Play demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119517968493113344-17865404f54bd3f80fbd.mp4)
-
-
-Type: Demo | Date: 2026-11-08
-
----
-
-<a id="case-8"></a>
-### Case 8: [Tibo portrait in a browser painting studio](https://x.com/Mr_Salio/status/2119499550373425297) (by [@Mr_Salio](https://x.com/Mr_Salio))
-
-**Inspect the stages of a portrait as the page builds it up.**
-
-The Portrait Studio page develops a portrait of Tibo from broad color blocks beside a reference photo. The clip shows the page animation.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119499524137697280-bf003228060e83ba80ee.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-08/2119499524137697280-poster-669f62240a226482c71b.jpg" width="640" alt="Source preview 1 · Tibo portrait in a browser painting studio"></a>
-
-[Play demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119499524137697280-bf003228060e83ba80ee.mp4)
-
-
-Type: Demo | Date: 2026-11-08
-
----
-
-<a id="case-10"></a>
-### Case 10: [Sam Altman portrait painting shared by 0x0SojalSec](https://x.com/0x0SojalSec/status/2119489612876026325) (by [@0x0SojalSec](https://x.com/0x0SojalSec))
-
-**Follow the transition from rough shapes to a finished portrait.**
-
-This post shares the Sam Altman painting clip. Other posts in the collection share the same material.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119471570100113408-6537886f519fcb2581ca.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-10/2119471570100113408-poster-4fa1b097dbe57a86b319.jpg" width="640" alt="Source preview 1 · Sam Altman portrait painting shared by 0x0SojalSec"></a>
-
-[Play demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119471570100113408-6537886f519fcb2581ca.mp4)
-
-
-Type: Demo | Date: 2026-11-08
-
----
-
-<a id="case-11"></a>
-### Case 11: [Sam Altman portrait painting shared by Avenoxai](https://x.com/Avenoxai/status/2119489025484419304) (by [@Avenoxai](https://x.com/Avenoxai))
-
-**See how the browser demonstration stages the portrait.**
-
-The post shares the same progressive Sam Altman portrait shown elsewhere in the collection.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119481355943948288-d9ec44b4a8efb666f3fe.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-11/2119481355943948288-poster-b169fc202c4358aef6ab.jpg" width="640" alt="Source preview 1 · Sam Altman portrait painting shared by Avenoxai"></a>
-
-[Play demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119481355943948288-d9ec44b4a8efb666f3fe.mp4)
-
-
-Type: Demo | Date: 2026-11-08
-
----
-
-<a id="case-12"></a>
-### Case 12: [Sam Altman portrait painting shared by pengsonal](https://x.com/pengsonal/status/2119487069500456985) (by [@pengsonal](https://x.com/pengsonal))
-
-**Examine the order in which the browser scene adds portrait detail.**
-
-The clip belongs to the same Sam Altman painting family as the other posts that share this material.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119471570100113408-6537886f519fcb2581ca.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-12/2119471570100113408-poster-4fa1b097dbe57a86b319.jpg" width="640" alt="Source preview 1 · Sam Altman portrait painting shared by pengsonal"></a>
-
-[Play demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119471570100113408-6537886f519fcb2581ca.mp4)
-
-
-Type: Demo | Date: 2026-11-08
-
----
-
-<a id="case-13"></a>
-### Case 13: [Sam Altman portrait painting shared by GeekCatX](https://x.com/GeekCatX/status/2119482381375815956) (by [@GeekCatX](https://x.com/GeekCatX))
-
-**Use the clip to compare the initial composition with the finished image.**
-
-The post shares the progressive Sam Altman portrait from the same media family as other entries.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119471570100113408-6537886f519fcb2581ca.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-13/2119471570100113408-poster-4fa1b097dbe57a86b319.jpg" width="640" alt="Source preview 1 · Sam Altman portrait painting shared by GeekCatX"></a>
-
-[Play demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119471570100113408-6537886f519fcb2581ca.mp4)
-
-
-Type: Demo | Date: 2026-11-08
-
----
-
-<a id="case-14"></a>
-### Case 14: [Sam Altman portrait in a browser painting canvas](https://x.com/Ananth7e/status/2119482362614677566) (by [@Ananth7e](https://x.com/Ananth7e))
-
-**Watch the portrait develop from blocked-in colors to finer features.**
-
-The author presents a browser painting demo of Sam Altman. The same recording appears in several other posts.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119481355943948288-d9ec44b4a8efb666f3fe.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-14/2119481355943948288-poster-b169fc202c4358aef6ab.jpg" width="640" alt="Source preview 1 · Sam Altman portrait in a browser painting canvas"></a>
-
-[Play demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119481355943948288-d9ec44b4a8efb666f3fe.mp4)
-
-
-Type: Demo | Date: 2026-11-08
-
----
-
-<a id="case-19"></a>
-### Case 19: [Dario Amodei portrait in a browser painting canvas](https://x.com/Ananth7e/status/2119475282528932231) (by [@Ananth7e](https://x.com/Ananth7e))
-
-**Watch a reference image guide a staged portrait.**
-
-The browser demo develops a Dario Amodei portrait next to a photograph. The recording shows the painting sequence.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119474852453306369-dc2f6dd1c623765520a2.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-19/2119474852453306369-poster-16fd35c8363e7611ce48.jpg" width="640" alt="Source preview 1 · Dario Amodei portrait in a browser painting canvas"></a>
-
-[Play demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119474852453306369-dc2f6dd1c623765520a2.mp4)
-
-
-Type: Demo | Date: 2026-11-08
-
----
-
-<a id="case-22"></a>
-### Case 22: [Four SVG animation comparisons with Opus 5.5](https://x.com/Ananth7e/status/2119473497504428334) (by [@Ananth7e](https://x.com/Ananth7e))
-
-**Compare motion and detail across several SVG subjects.**
-
-The labeled comparison includes a space delivery, coffee machine, record player, and greenhouse. The observed scenes come from samples of the longer clip.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119472766353313794-9e720b31f2e3325a6830.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-22/2119472766353313794-poster-81c1db39bbb46647fee0.jpg" width="640" alt="Source preview 1 · Four SVG animation comparisons with Opus 5.5"></a>
-
-[Play demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119472766353313794-9e720b31f2e3325a6830.mp4)
-
-
-Type: Evaluation | Date: 2026-11-08
-
----
-
-<a id="case-23"></a>
-### Case 23: [Another Sam Altman portrait painting post by Ananth7e](https://x.com/Ananth7e/status/2119471963790065987) (by [@Ananth7e](https://x.com/Ananth7e))
-
-**Use the shared recording to inspect how a browser portrait takes shape.**
-
-This post points to the same progressive painting material as the other Sam Altman entries.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119471570100113408-6537886f519fcb2581ca.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-23/2119471570100113408-poster-4fa1b097dbe57a86b319.jpg" width="640" alt="Source preview 1 · Another Sam Altman portrait painting post by Ananth7e"></a>
-
-[Play demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119471570100113408-6537886f519fcb2581ca.mp4)
-
-
-Type: Demo | Date: 2026-11-08
-
----
-
-<a id="case-25"></a>
-### Case 25: [Two portrait illustrations described as code-only SVGs](https://x.com/marcthecreatorr/status/2119466616693850352) (by [@marcthecreatorr](https://x.com/marcthecreatorr))
-
-**Compare the rendered portraits before judging how they were produced.**
-
-The post contains two portrait images. The author describes them as code-only SVG outputs.
-
-**Prompt:**
-
-```
-generate an SVG of Ana de Armas and Sam Altman
-(do not cheat)
-```
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-25/2119466601804132352-31318df37f6caba7293c.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-25/2119466601804132352-31318df37f6caba7293c.jpg" width="640" alt="Source preview 1 · Two portrait illustrations described as code-only SVGs"></a>
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-25/2119466601816666112-8e9d5270da1add44ca55.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-25/2119466601816666112-8e9d5270da1add44ca55.jpg" width="640" alt="Source preview 2 · Two portrait illustrations described as code-only SVGs"></a>
-
-Type: Demo | Date: 2026-11-08
-
----
-
-<a id="case-29"></a>
-### Case 29: [A pixel-art Japanese town by moonlight](https://x.com/SahilPanhotra/status/2119461852426219747) (by [@SahilPanhotra](https://x.com/SahilPanhotra))
-
-**Use a compact animated scene to inspect lighting and detail.**
-
-The GIF shows cherry blossoms, a tower, a bridge, reflections, and a small boat.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119461819278602240-92e36b249f95f46fbbc1.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-29/2119461819278602240-poster-0df42c94083b4c7a1d00.jpg" width="640" alt="Source preview 1 · A pixel-art Japanese town by moonlight"></a>
-
-[Play demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119461819278602240-92e36b249f95f46fbbc1.mp4)
-
-
-Type: Demo | Date: 2026-11-08
-
----
-
-<a id="case-30"></a>
-### Case 30: [A lion juggling while riding BMX](https://x.com/SahilPanhotra/status/2119458278115835912) (by [@SahilPanhotra](https://x.com/SahilPanhotra))
-
-**Test coordinated motion against changing seasonal backgrounds.**
-
-The animation shows a lion riding and throwing balls. The sampled frames show changes in pose and background.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119458208041574400-65d9c5f9e0c9dae6a35f.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-30/2119458208041574400-poster-43c1f3849344f031dd3f.jpg" width="640" alt="Source preview 1 · A lion juggling while riding BMX"></a>
-
-[Play demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119458208041574400-65d9c5f9e0c9dae6a35f.mp4)
-
-
-Type: Demo | Date: 2026-11-08
-
----
-
-<a id="case-31"></a>
-### Case 31: [A side-view galloping horse](https://x.com/HarshithLucky3/status/2119458168338301327) (by [@HarshithLucky3](https://x.com/HarshithLucky3))
-
-**Inspect the legs and tail through a simple motion cycle.**
-
-The sampled frames show a galloping horse from the side with changing limb positions.
-
-**Prompt:**
-
-```
-Horse running in side view
-```
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119457903589646336-6fe234afbdb557492d14.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-31/2119457903589646336-poster-2e4c31974841a99a4465.jpg" width="640" alt="Source preview 1 · A side-view galloping horse"></a>
-
-[Play demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119457903589646336-6fe234afbdb557492d14.mp4)
-
-
-Type: Demo | Date: 2026-11-08
-
----
-
-<a id="case-32"></a>
-### Case 32: [A peacock riding BMX through bamboo](https://x.com/SahilPanhotra/status/2119453829632868388) (by [@SahilPanhotra](https://x.com/SahilPanhotra))
-
-**Compare wheel motion with the movement of a detailed character.**
-
-The clip shows a peacock riding with its tail spread against a bamboo forest.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119453646454964224-3614c844c591897f7cb8.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-32/2119453646454964224-poster-0dd6b3fd00fa99aa9b94.jpg" width="640" alt="Source preview 1 · A peacock riding BMX through bamboo"></a>
-
-[Play demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119453646454964224-3614c844c591897f7cb8.mp4)
-
-
-Type: Demo | Date: 2026-11-08
-
----
-
-<a id="case-35"></a>
-### Case 35: [A photorealistic portrait preview](https://x.com/SadAlbert10/status/2119443244509802679) (by [@SadAlbert10](https://x.com/SadAlbert10))
-
-**Inspect the visible result and record how the author describes it.**
-
-The image shows a detailed portrait. The preview provides visual evidence of the output.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-35/2119443020227727360-71913855e02651437cb9.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-35/2119443020227727360-71913855e02651437cb9.jpg" width="640" alt="Source preview 1 · A photorealistic portrait preview"></a>
-
-Type: Demo | Date: 2026-11-08
-
----
-
-<a id="case-36"></a>
-### Case 36: [Sydney Sweeney portrait vectorization](https://x.com/SadAlbert10/status/2119440420682011095) (by [@SadAlbert10](https://x.com/SadAlbert10))
-
-**Track the intermediate image when evaluating a vector workflow.**
-
-The screenshot shows PNG inputs and a vectorization call. The second attachment shows the portrait produced by that workflow.
-
-**Prompt:**
-
-```
-make an ultra realistic SVG of Sydney Sweeny
-```
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-36/2119439861157707776-69b2db4eca9eb1493e6b.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-36/2119439861157707776-69b2db4eca9eb1493e6b.png" width="640" alt="Source preview 1 · Sydney Sweeney portrait vectorization"></a>
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-36/2119440248157683712-d00b68e7e2aa37f8ec7b.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-36/2119440248157683712-d00b68e7e2aa37f8ec7b.jpg" width="640" alt="Source preview 2 · Sydney Sweeney portrait vectorization"></a>
-
-Type: Demo | Date: 2026-11-08
-
----
-
-<a id="case-46"></a>
-### Case 46: [A side-view running cheetah](https://x.com/HarshithLucky3/status/2119424342773866559) (by [@HarshithLucky3](https://x.com/HarshithLucky3))
-
-**Use a fixed profile view to compare gait and body motion.**
-
-The clip shows the cheetah in several positions during the run. The author reports preferring the Opus result.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119424200662556672-37c18d0191bd9b6c27aa.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-46/2119424200662556672-poster-f977110905db5bd671d8.jpg" width="640" alt="Source preview 1 · A side-view running cheetah"></a>
-
-[Play demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119424200662556672-37c18d0191bd9b6c27aa.mp4)
-
-
-Type: Demo | Date: 2026-11-08
-
----
-
-<a id="case-51"></a>
-### Case 51: [A pelican and two crabs riding bicycles](https://x.com/HarshithLucky3/status/2119418918616150080) (by [@HarshithLucky3](https://x.com/HarshithLucky3))
-
-**Inspect timing across several animated characters in one shot.**
-
-The sampled side-view frames show moving wheels, limbs, and camera position.
-
-**Prompt:**
-
-```
-SVG animation of pelican and 2 crabs riding bicycles side view
-```
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119418838148366336-495e5e6b9a3a4f396f52.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-51/2119418838148366336-poster-753362afc6ea3f66a03f.jpg" width="640" alt="Source preview 1 · A pelican and two crabs riding bicycles"></a>
-
-[Play demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119418838148366336-495e5e6b9a3a4f396f52.mp4)
-
-
-Type: Demo | Date: 2026-11-08
-
----
-
-<a id="case-52"></a>
-### Case 52: [A PS5 controller comparison across Sol settings](https://x.com/marcthecreatorr/status/2119417283328000436) (by [@marcthecreatorr](https://x.com/marcthecreatorr))
-
-**Use a familiar product to compare contours and shading.**
-
-The two controller images are labeled GPT-6.1 Sol MAX routing and basic. The post shows rendered images.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-52/2119417273249095680-f0fea371a0a411ae9aef.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-52/2119417273249095680-f0fea371a0a411ae9aef.jpg" width="640" alt="Source preview 1 · A PS5 controller comparison across Sol settings"></a>
-
-Type: Evaluation | Date: 2026-11-08
-
----
-
-<a id="case-55"></a>
-### Case 55: [A green BMW M4 CS profile illustration](https://x.com/HarshithLucky3/status/2119412698119373104) (by [@HarshithLucky3](https://x.com/HarshithLucky3))
-
-**Check proportions and profile detail in a familiar vehicle.**
-
-The attachment shows a green BMW M4 CS from the side.
-
-**Prompt:**
-
-```
-SVG of BMW M4 CS side view
-```
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-55/2119412669946204160-2b4789da7aa53b1095b0.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-55/2119412669946204160-2b4789da7aa53b1095b0.jpg" width="640" alt="Source preview 1 · A green BMW M4 CS profile illustration"></a>
-
-Type: Demo | Date: 2026-11-08
-
----
-
-<a id="category-game"></a>
-## 🎮 Game development
-
-<a id="case-160"></a>
-### Case 160: [Two first-person game prototypes in Codex](https://x.com/shownotover/status/2123599696526717303) (by [@shownotover](https://x.com/shownotover))
-
-**Compare the level layout and play experience alongside the recorded cost.**
-
-The creator gave Sol and Astra the same task and shared both prototypes. The Sol Max run took 42 minutes and used $2.42 in API usage by the creator’s estimate.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123599517236817921-3ec7dd5b18f3301d8be3.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-160/2123599517236817921-poster-c1f1354e1c265c950177.jpg" width="640" alt="Source preview 1 · Two first-person game prototypes in Codex"></a>
-
-[Play demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123599517236817921-3ec7dd5b18f3301d8be3.mp4)
+[Play demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123831977287761920-470f192dfb8387e2be60.mp4)
 
 Type: Evaluation | Date: 2026-11-20
 
 ---
 
-<a id="case-161"></a>
-### Case 161: [A cozy village game with Blender assets](https://x.com/TokenGremlin/status/2123574805723058647) (by [@TokenGremlin](https://x.com/TokenGremlin))
+<a id="case-183"></a>
+### Case 183: [A Blender rabbit from an image reference](https://x.com/GeppiiKameWorks/status/2123827794778140687) (by [@GeppiiKameWorks](https://x.com/GeppiiKameWorks))
 
-**See how modeled objects and animation come together in a game scene.**
+**Inspect the geometry from multiple angles after starting from a generated reference image.**
 
-The creator built the game with Sol in Ultrafast mode and used Blender for modeling and animation. The clip shows characters moving around a village.
+The creator gave Sol a generated image in Codex and shared the modeled result for game development. The clip shows the rabbit from multiple angles in Blender.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123574639729238016-d185275dff479ab97456.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-161/2123574639729238016-poster-ab2ca719508bdf4d61d7.jpg" width="640" alt="Source preview 1 · A cozy village game with Blender assets"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-183/2123827569682419712-2a5b033b284c30a76bec.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-183/2123827569682419712-2a5b033b284c30a76bec.jpg" width="640" alt="Source preview 1 · A Blender rabbit from an image reference"></a>
 
-[Play demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123574639729238016-d185275dff479ab97456.mp4)
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123827600791638017-776fe4105084a1dd4a3a.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-183/2123827600791638017-poster-ef6546c38da30bd36a58.jpg" width="640" alt="Source preview 2 · A Blender rabbit from an image reference"></a>
+
+[Play demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123827600791638017-776fe4105084a1dd4a3a.mp4)
 
 Type: Demo | Date: 2026-11-20
 
 ---
 
-<a id="case-165"></a>
-### Case 165: [Managing a settlement in Crusader Bench](https://x.com/Hesamation/status/2123528773140197579) (by [@Hesamation](https://x.com/Hesamation))
+<a id="case-201"></a>
+### Case 201: [A grass field in a standalone HTML scene](https://x.com/TokenGremlin/status/2123783818410594701) (by [@TokenGremlin](https://x.com/TokenGremlin))
 
-**Compare agent play using the same scored maps and game conditions.**
+**Follow an asset from Blender into a small Three.js project that runs in a browser.**
 
-The benchmark creator shared a leaderboard snapshot and gameplay. The detailed leaderboard reports a score of 79.5 for Sol at medium reasoning, across all three maps.
+The creator said they made the field from scratch with Sol Ultrafast in Blender, imported it into Three.js and packaged it as HTML in under 15 minutes.
 
-[Benchmark details](https://crusbench.com/)
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123783323075956736-b2c061712ede34b19afa.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-201/2123783323075956736-poster-f01fb13ee6975db03dde.jpg" width="640" alt="Source preview 1 · A grass field in a standalone HTML scene"></a>
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-165/2123528764608909312-da8dce5fbd2110f3efd7.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-165/2123528764608909312-da8dce5fbd2110f3efd7.jpg" width="640" alt="Source preview 1 · Managing a settlement in Crusader Bench"></a>
+[Play demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123783323075956736-b2c061712ede34b19afa.mp4)
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-165/2123528764613091328-7c18d649149711d41faa.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-165/2123528764613091328-7c18d649149711d41faa.jpg" width="640" alt="Source preview 2 · Managing a settlement in Crusader Bench"></a>
-
-Type: Benchmark | Date: 2026-11-19
+Type: Demo | Date: 2026-11-20
 
 ---
-
-<a id="case-169"></a>
-### Case 169: [Spatial navigation in MazeBench](https://x.com/patience_cave/status/2123446669643849993) (by [@patience_cave](https://x.com/patience_cave))
-
-**Compare maze completion on the same published benchmark.**
-
-The benchmark author reports 14% for Sol, 16% for Astra and 10% for Gemini 4 Neon. The attached chart identifies the configurations used.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-169/2123446665696993280-3509529d630c29cd9ac5.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-169/2123446665696993280-3509529d630c29cd9ac5.jpg" width="640" alt="Source preview 1 · Spatial navigation in MazeBench"></a>
-
-Type: Benchmark | Date: 2026-11-19
-
----
-
-<a id="case-175"></a>
-### Case 175: [Five games of chess without tools](https://x.com/argofowl/status/2123389829438406999) (by [@argofowl](https://x.com/argofowl))
-
-**Compare points, game outcomes and reported cost over the same match.**
-
-The author ran both models at xhigh and reported a 4–1 points win for Sol, with three wins and two draws. Sol cost $24.39 and Opus 5.5 cost $75.80.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123389747536207872-d38127bbf7f2c4de454f.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-175/2123389747536207872-poster-f2422d640187db52b79e.jpg" width="640" alt="Source preview 1 · Five games of chess without tools"></a>
-
-[Play demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123389747536207872-d38127bbf7f2c4de454f.mp4)
-
-Type: Benchmark | Date: 2026-11-19
-
----
-
-<a id="case-138"></a>
-### Case 138: [A Pokémon FireRed Champion run](https://x.com/Clad3815/status/2123064135164576107) (by [@Clad3815](https://x.com/Clad3815))
-
-**Compare game-completion times under an explicit input and reasoning setup.**
-
-The author reported reaching Champion in 11h 40m with high reasoning, screenshots as input and Sol in Ultrafast mode.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-138/2123061539183726592-707694197c25ed18a424.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-138/2123061539183726592-707694197c25ed18a424.png" width="640" alt="Source preview 1 · A Pokémon FireRed Champion run"></a>
-
-Type: Benchmark | Date: 2026-11-18
-
----
-
-<a id="case-146"></a>
-### Case 146: [A 3D dinosaur runner with ragdoll physics](https://x.com/noclipepe/status/2122989930699792818) (by [@noclipepe](https://x.com/noclipepe))
-
-**Compare the visual style and collision behavior across four game prototypes.**
-
-The creator used the same brief for all four models, including 3D and ragdoll physics. The author’s recorded Sol run took 20 minutes and cost $1.68.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122985283993907201-9750e48cc454af4480fd.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-146/2122985283993907201-poster-afcb4c84030cd6876301.jpg" width="640" alt="Source preview 1 · A 3D dinosaur runner with ragdoll physics"></a>
-
-[Play demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122985283993907201-9750e48cc454af4480fd.mp4)
-
-Type: Evaluation | Date: 2026-11-18
-
----
-
-<a id="case-158"></a>
-### Case 158: [A playable game inspired by fake ads](https://x.com/noclipepe/status/2122885577137598800) (by [@noclipepe](https://x.com/noclipepe))
-
-**Compare four playable interpretations of one game-level brief.**
-
-The author used the same prompt for all four models and showed that players could lose. The Sol run took 21 minutes and cost $1.04.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122882602663124992-7fe424c3649edbe814fc.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-158/2122882602663124992-poster-65013bb3e5cef1833a1e.jpg" width="640" alt="Source preview 1 · A playable game inspired by fake ads"></a>
-
-[Play demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122882602663124992-7fe424c3649edbe814fc.mp4)
-
-Type: Evaluation | Date: 2026-11-18
-
----
-
-<a id="case-78"></a>
-### Case 78: [Clearing a Sokoban room suite](https://x.com/banteg/status/2122826622638137666) (by [@banteg](https://x.com/banteg))
-
-**Track rooms cleared and replay the moves to see where a game agent stalls.**
-
-The author tested Sol and Astra at medium effort. Both cleared all 66 rooms in this run. Sol finished second and Astra third on the author's leaderboard at the time of the post.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122826155086512128-d2a8456da3a5a99263f5.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-78/2122826155086512128-poster-4a2c4bee2b8d9510e347.jpg" width="640" alt="Source preview 1 · Clearing a Sokoban room suite"></a>
-
-[Play demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122826155086512128-d2a8456da3a5a99263f5.mp4)
-
-Type: Benchmark | Date: 2026-11-17
-
----
-
-<a id="case-93"></a>
-### Case 93: [Completing two quests in RuneScape](https://x.com/maxbittker/status/2122783334216466487) (by [@maxbittker](https://x.com/maxbittker))
-
-**Inspect which quests the agent chooses and which rewards it claims.**
-
-The benchmark maintainer reports that Sol and Astra each pursued two quests and collected both rewards in the same run.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-93/2122782503542960128-31be885019f467cb7472.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-93/2122782503542960128-31be885019f467cb7472.jpg" width="640" alt="Source preview 1 · Completing two quests in RuneScape"></a>
-
-Type: Benchmark | Date: 2026-11-17
-
----
-
-<a id="case-95"></a>
-### Case 95: [A multiplayer browser game with touch controls](https://x.com/VraserX/status/2122770481975837145) (by [@VraserX](https://x.com/VraserX))
-
-**Play successive builds and give targeted feedback on the controls.**
-
-The developer reports using Sol to code, debug and revise the 16-versus-16 prototype while testing the builds, including its touch controls.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122770342842077184-c89268a9c06156333c45.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-95/2122770342842077184-poster-c5a1ebf986d6362bd35d.jpg" width="640" alt="Source preview 1 · A multiplayer browser game with touch controls"></a>
-
-[Play demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122770342842077184-c89268a9c06156333c45.mp4)
-
-Type: Demo | Date: 2026-11-17
-
----
-
-<a id="case-97"></a>
-### Case 97: [A browser village game called Lanternkeep](https://x.com/AdamHoltererer/status/2122766741881413818) (by [@AdamHoltererer](https://x.com/AdamHoltererer))
-
-**Inspect how the map and objective panel support a village-building loop.**
-
-The creator attributes the game to Sol. The recording shows an interactive village map and an objective panel.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122766701477367808-c628e4fc3e8c14dc15d8.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-97/2122766701477367808-poster-50e4bfea19c965f6d231.jpg" width="640" alt="Source preview 1 · A browser village game called Lanternkeep"></a>
-
-[Play demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122766701477367808-c628e4fc3e8c14dc15d8.mp4)
-
-Type: Demo | Date: 2026-11-17
-
----
-
-<a id="case-99"></a>
-### Case 99: [A screenshot-only Pokémon FireRed run](https://x.com/Clad3815/status/2122763941675995209) (by [@Clad3815](https://x.com/Clad3815))
-
-**Record progress milestones and completion time for a game agent.**
-
-The tester reported using screenshots with high reasoning. Sol took 15 hours 34 minutes and reached the first Gym Leader before Astra in this test.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-99/2122763933345890304-ffe6b4053f347b1d4d5f.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-99/2122763933345890304-ffe6b4053f347b1d4d5f.jpg" width="640" alt="Source preview 1 · A screenshot-only Pokémon FireRed run"></a>
-
-Type: Benchmark | Date: 2026-11-17
-
----
-
-<a id="case-67"></a>
-### Case 67: [A coastal racing game prototype](https://x.com/Stargridcompass/status/2119683294220390638) (by [@Stargridcompass](https://x.com/Stargridcompass))
-
-**Check whether the countdown, speed readout and track map stay readable during a race.**
-
-The recording shows a grid start and a race in progress. The author reports a 16-minute build.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119682250472112128-81f053c6ffe2a4aae055.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-67/2119682250472112128-poster-526c85969a54c7f93833.jpg" width="640" alt="Source preview 1 · A coastal racing game prototype"></a>
-
-[Play demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119682250472112128-81f053c6ffe2a4aae055.mp4)
-
-Type: Demo | Date: 2026-11-09
-
----
-
-<a id="case-62"></a>
-### Case 62: [A browser Rubik’s Cube](https://x.com/VeknQAQ/status/2119633751173173475) (by [@VeknQAQ](https://x.com/VeknQAQ))
-
-**Use the preview to inspect cube rotations and sticker placement.**
-
-The recording shows a 3D cube in solved and mixed states, alongside controls in the browser.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119633608680124416-44e5b8b00d129caeba34.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-62/2119633608680124416-poster-1ea9e2acda539d582293.jpg" width="640" alt="Source preview 1 · A browser Rubik’s Cube"></a>
-
-[Play demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119633608680124416-44e5b8b00d129caeba34.mp4)
-
-Type: Demo | Date: 2026-11-09
-
----
-
-<a id="case-17"></a>
-### Case 17: [PELICAN PANIC voxel chase game](https://x.com/Ananth7e/status/2119479157633786246) (by [@Ananth7e](https://x.com/Ananth7e))
-
-**Use a short chase game to inspect controls, feedback, and the ending state.**
-
-The clip shows a rider escaping a potato monster on a pelican. A score and an Escaped screen are visible.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119478839500013568-2ec29cee42e54d0bf9c5.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-17/2119478839500013568-poster-3716db2a9abc6cf0e264.jpg" width="640" alt="Source preview 1 · PELICAN PANIC voxel chase game"></a>
-
-[Play demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119478839500013568-2ec29cee42e54d0bf9c5.mp4)
-
-
-Type: Demo | Date: 2026-11-08
-
----
-
-<a id="category-three"></a>
-## 🧊 3D scenes and modeling
 
 <a id="case-162"></a>
 ### Case 162: [Apartment floor plans from interior photos](https://x.com/andonlabs/status/2123570732575989832) (by [@andonlabs](https://x.com/andonlabs))
@@ -2632,6 +1847,140 @@ Type: Demo | Date: 2026-11-08
 <a id="category-communication"></a>
 ## 💬 Computer use and communication
 
+<a id="case-187"></a>
+### Case 187: [Image generation on a simple addition question](https://x.com/KrishnaBuildsAI/status/2124374855332356527) (by [@KrishnaBuildsAI](https://x.com/KrishnaBuildsAI))
+
+**Check unexpected tool use separately from whether the final answer is correct.**
+
+The creator’s screenshots show Sol 6.2 High starting image generation for an addition question, then returning 1,000 with unsolicited commentary.
+
+**Prompt:**
+
+```
+What is 500+500
+```
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-187/2124374838911590400-b3e3ca8e5cb6a5a32c83.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-187/2124374838911590400-b3e3ca8e5cb6a5a32c83.jpg" width="640" alt="Source preview 1 · Image generation on a simple addition question"></a>
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-187/2124374846599798784-c38846ecb783f3715d18.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-187/2124374846599798784-c38846ecb783f3715d18.jpg" width="640" alt="Source preview 2 · Image generation on a simple addition question"></a>
+
+Type: Limit | Date: 2026-11-22
+
+---
+
+<a id="case-192"></a>
+### Case 192: [Finding known bugs in a database review](https://x.com/kdnbmb/status/2124183741375373806) (by [@kdnbmb](https://x.com/kdnbmb))
+
+**Compare known-issue coverage and elapsed time in the same review task.**
+
+The creator’s scoreboard reports that Sol found 6 of 20 historical bugs in 6 minutes 16.1 seconds. Astra found 10 of 20 in 18 minutes 19.3 seconds.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-192/2124183391436242944-e23abdd3e1e2c795495b.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-192/2124183391436242944-e23abdd3e1e2c795495b.png" width="640" alt="Source preview 1 · Finding known bugs in a database review"></a>
+
+Type: Benchmark | Date: 2026-11-21
+
+---
+
+<a id="case-194"></a>
+### Case 194: [Sol presets for Hermes and Pi agents](https://x.com/fankaishuoai/status/2124165532282982533) (by [@fankaishuoai](https://x.com/fankaishuoai))
+
+**See how one desktop entry point can organize assistants with different roles.**
+
+The creator uses Paseo as a desktop entry point and accesses Hermes bots on Telegram. The configuration screenshot identifies Sol presets in Hermes and Pi for roles including design and development.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-194/2124163041210269696-0c9737ddcad3a162b09d.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-194/2124163041210269696-0c9737ddcad3a162b09d.jpg" width="640" alt="Source preview 1 · Sol presets for Hermes and Pi agents"></a>
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-194/2124163587530973184-ac480b1ad79018c1d2be.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-194/2124163587530973184-ac480b1ad79018c1d2be.jpg" width="640" alt="Source preview 2 · Sol presets for Hermes and Pi agents"></a>
+
+Type: Integration | Date: 2026-11-21
+
+---
+
+<a id="case-198"></a>
+### Case 198: [A blind short-fiction comparison](https://x.com/risui1012/status/2124041518109614235) (by [@risui1012](https://x.com/risui1012))
+
+**Compare short fiction from a shared plot and check where human formatting entered the workflow.**
+
+The author shared three model outputs and one human-written piece for a 500-character challenge. Their follow-up identifies Sol as sample C and says they added line breaks and indentation manually.
+
+[Creator’s follow-up](https://x.com/risui1012/status/2124041523436339650)
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-198/2124041505891639296-49210b78c3eac860d2c1.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-198/2124041505891639296-49210b78c3eac860d2c1.jpg" width="640" alt="Source preview 1 · A blind short-fiction comparison"></a>
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-198/2124041505874837504-00ffccb0856e3d8d6615.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-198/2124041505874837504-00ffccb0856e3d8d6615.jpg" width="640" alt="Source preview 2 · A blind short-fiction comparison"></a>
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-198/2124041505853874176-57fcab7847e76d999d6f.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-198/2124041505853874176-57fcab7847e76d999d6f.jpg" width="640" alt="Source preview 3 · A blind short-fiction comparison"></a>
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-198/2124041505883164672-3d39c206cff169087b98.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-198/2124041505883164672-3d39c206cff169087b98.jpg" width="640" alt="Source preview 4 · A blind short-fiction comparison"></a>
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-198/2124041505870684160-dedf7868e54df5a99c9d.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-198/2124041505870684160-dedf7868e54df5a99c9d.jpg" width="640" alt="Source preview 5 · A blind short-fiction comparison"></a>
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-198/2124041505862242304-3a8317a8d8850f404455.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-198/2124041505862242304-3a8317a8d8850f404455.jpg" width="640" alt="Source preview 6 · A blind short-fiction comparison"></a>
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-198/2124041505858056192-7397ce5c273e8f822c06.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-198/2124041505858056192-7397ce5c273e8f822c06.jpg" width="640" alt="Source preview 7 · A blind short-fiction comparison"></a>
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-198/2124041505870585856-d29e292ef86b7178e225.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-198/2124041505870585856-d29e292ef86b7178e225.jpg" width="640" alt="Source preview 8 · A blind short-fiction comparison"></a>
+
+Type: Evaluation | Date: 2026-11-21
+
+---
+
+<a id="case-176"></a>
+### Case 176: [Document parsing at two reasoning levels](https://x.com/jerryjliu0/status/2123945742872293505) (by [@jerryjliu0](https://x.com/jerryjliu0))
+
+**Compare overall parsing scores, chart scores and cost per page.**
+
+LlamaIndex’s ParseBench 2 chart reports 82.12 overall at medium and 79.12 at low for Sol. It lists per-page costs of 2.468 and 2.289 US cents respectively.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-176/2123945732264923137-2fc287ffe70da3991916.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-176/2123945732264923137-2fc287ffe70da3991916.jpg" width="640" alt="Source preview 1 · Document parsing at two reasoning levels"></a>
+
+Type: Benchmark | Date: 2026-11-21
+
+---
+
+<a id="case-178"></a>
+### Case 178: [Workplace tasks in Company Agent Bench](https://x.com/joshzqin/status/2123877558815281377) (by [@joshzqin](https://x.com/joshzqin))
+
+**Compare reported accuracy across models at the tested reasoning settings.**
+
+The benchmark’s published chart puts Sol high at 76.4% overall. It shows Astra high at 79.7% and Gemini Neon low at 85.3%.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123877042928406528-4b38126f911f97edc79e.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-178/2123877042928406528-poster-9f579bb51eb76959e68a.jpg" width="640" alt="Source preview 1 · Workplace tasks in Company Agent Bench"></a>
+
+[Play demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123877042928406528-4b38126f911f97edc79e.mp4)
+
+Type: Benchmark | Date: 2026-11-20
+
+---
+
+<a id="case-181"></a>
+### Case 181: [A comparison across marketing tasks](https://x.com/boringmarketer/status/2123843589063008291) (by [@boringmarketer](https://x.com/boringmarketer))
+
+**Review per-task preference alongside cost and the number of votes.**
+
+The author compared Sol, Opus 5.5 and Gemini 4 Neon across 15 jobs, using more than 4,700 head-to-head votes. Sol received 58% of votes at a reported $0.04 per task.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-181/2123826094998437888-9c51ceb178cca88b8b96.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-181/2123826094998437888-9c51ceb178cca88b8b96.jpg" width="640" alt="Source preview 1 · A comparison across marketing tasks"></a>
+
+Type: Benchmark | Date: 2026-11-20
+
+---
+
+<a id="case-185"></a>
+### Case 185: [Pull request review in CodeRabbit](https://www.coderabbit.ai/blog/gpt-6-2-sol-and-astra-review) (by [@CodeRabbit](https://www.coderabbit.ai/))
+
+**Compare known issues caught, reported precision and review cost across pipeline configurations.**
+
+CodeRabbit detected 60 of 81 known issues with Sol 6.2 high versus 58 with its 6.1 high baseline. The pipeline configurations differed and each ran once.
+
+[Benchmark details](https://www.coderabbit.ai/blog/gpt-6-2-sol-and-astra-review#heading-sol-62-versus-sol-61)
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-185/coderabbit-50580780-sol-review-table-9cd3782931e24f3a6d35.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-185/coderabbit-50580780-sol-review-table-9cd3782931e24f3a6d35.png" width="640" alt="Source preview 1 · Pull request review in CodeRabbit"></a>
+
+Type: Benchmark | Date: 2026-11-19
+
+---
+
 <a id="case-166"></a>
 ### Case 166: [Legora’s November legal document benchmark](https://x.com/WeAreLegora/status/2123460359017144769) (by [@WeAreLegora](https://x.com/WeAreLegora))
 
@@ -2725,8 +2074,1131 @@ Type: Limit | Date: 2026-11-08
 
 ---
 
+<a id="category-game"></a>
+## 🎮 Game development
+
+<a id="case-188"></a>
+### Case 188: [Eight television locations rebuilt in Minecraft](https://x.com/jan_volad/status/2124308264456233400) (by [@jan_volad](https://x.com/jan_volad))
+
+**Compare recognizable layouts and build time across two sandbox outputs.**
+
+The creator used the same brief for Sol and Gemini 4 Neon and preferred Neon’s builds. Sol took 24 minutes and cost $2.76. Neon took 22 minutes and cost $13.71.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2124308031689183232-b013e9cbed63a5cccda8.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-188/2124308031689183232-poster-5f26eb812b1400fbd9bb.jpg" width="640" alt="Source preview 1 · Eight television locations rebuilt in Minecraft"></a>
+
+[Play demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2124308031689183232-b013e9cbed63a5cccda8.mp4)
+
+Type: Evaluation | Date: 2026-11-22
+
+---
+
+<a id="case-193"></a>
+### Case 193: [The ruins of Ozymandias in Minecraft](https://x.com/jan_volad/status/2124174497914003925) (by [@jan_volad](https://x.com/jan_volad))
+
+**Compare how two builders translate the same literary scene into blocks.**
+
+The creator posted both models’ interpretations of Shelley’s ruins. Sol took 12 minutes and cost $1.06. Gemini 4 Neon took 19 minutes and cost $2.88.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123910307449896960-334715fc2e1fdf12d740.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-193/2123910307449896960-poster-3bad09e19ba2a577b9bf.jpg" width="640" alt="Source preview 1 · The ruins of Ozymandias in Minecraft"></a>
+
+[Play demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123910307449896960-334715fc2e1fdf12d740.mp4)
+
+Type: Evaluation | Date: 2026-11-21
+
+---
+
+<a id="case-180"></a>
+### Case 180: [Game development preference and generation cost](https://x.com/DesignArena/status/2123861437579677965) (by [@DesignArena](https://x.com/DesignArena))
+
+**Compare preference rank, average generation time and cost on the same game design arena.**
+
+DesignArena reported that Sol high ranked third on its Game Dev leaderboard. In the published comparison, it averaged 4.6 minutes and $0.22 per generation.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-180/2123854486779342848-cda5e7e7633564f2e0ba.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-180/2123854486779342848-cda5e7e7633564f2e0ba.jpg" width="640" alt="Source preview 1 · Game development preference and generation cost"></a>
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123854486783614976-f8e2d2fdd67f7208de36.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-180/2123854486783614976-poster-ef46fd7a1baf7d0adca6.jpg" width="640" alt="Source preview 2 · Game development preference and generation cost"></a>
+
+[Play demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123854486783614976-f8e2d2fdd67f7208de36.mp4)
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123854486783553536-39929a7046f4320fcbe0.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-180/2123854486783553536-poster-ca1b824639356cc997b7.jpg" width="640" alt="Source preview 3 · Game development preference and generation cost"></a>
+
+[Play demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123854486783553536-39929a7046f4320fcbe0.mp4)
+
+Type: Benchmark | Date: 2026-11-20
+
+---
+
+<a id="case-182"></a>
+### Case 182: [A walking route turned into a handheld game](https://x.com/sriramkiron/status/2123829426177912918) (by [@sriramkiron](https://x.com/sriramkiron))
+
+**See how observations from a walk become revisitable game scenes.**
+
+The creator’s Corner Walk project collected observations with GPS, a camera and GPT-Live-1.1. The creator used Sol Ultrafast to turn those inputs into a ModRetro game and showed the device running it.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123826091110383617-45fec4a74a3832012d99.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-182/2123826091110383617-poster-e20d4211d23da7c7ceec.jpg" width="640" alt="Source preview 1 · A walking route turned into a handheld game"></a>
+
+[Play demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123826091110383617-45fec4a74a3832012d99.mp4)
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-160"></a>
+### Case 160: [Two first-person game prototypes in Codex](https://x.com/shownotover/status/2123599696526717303) (by [@shownotover](https://x.com/shownotover))
+
+**Compare the level layout and play experience alongside the recorded cost.**
+
+The creator gave Sol and Astra the same task and shared both prototypes. The Sol Max run took 42 minutes and used $2.42 in API usage by the creator’s estimate.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123599517236817921-3ec7dd5b18f3301d8be3.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-160/2123599517236817921-poster-c1f1354e1c265c950177.jpg" width="640" alt="Source preview 1 · Two first-person game prototypes in Codex"></a>
+
+[Play demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123599517236817921-3ec7dd5b18f3301d8be3.mp4)
+
+Type: Evaluation | Date: 2026-11-20
+
+---
+
+<a id="case-161"></a>
+### Case 161: [A cozy village game with Blender assets](https://x.com/TokenGremlin/status/2123574805723058647) (by [@TokenGremlin](https://x.com/TokenGremlin))
+
+**See how modeled objects and animation come together in a game scene.**
+
+The creator built the game with Sol in Ultrafast mode and used Blender for modeling and animation. The clip shows characters moving around a village.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123574639729238016-d185275dff479ab97456.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-161/2123574639729238016-poster-ab2ca719508bdf4d61d7.jpg" width="640" alt="Source preview 1 · A cozy village game with Blender assets"></a>
+
+[Play demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123574639729238016-d185275dff479ab97456.mp4)
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-165"></a>
+### Case 165: [Managing a settlement in Crusader Bench](https://x.com/Hesamation/status/2123528773140197579) (by [@Hesamation](https://x.com/Hesamation))
+
+**Compare agent play using the same scored maps and game conditions.**
+
+The benchmark creator shared a leaderboard snapshot and gameplay. The detailed leaderboard reports a score of 79.5 for Sol at medium reasoning, across all three maps.
+
+[Benchmark details](https://crusbench.com/)
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-165/2123528764608909312-da8dce5fbd2110f3efd7.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-165/2123528764608909312-da8dce5fbd2110f3efd7.jpg" width="640" alt="Source preview 1 · Managing a settlement in Crusader Bench"></a>
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-165/2123528764613091328-7c18d649149711d41faa.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-165/2123528764613091328-7c18d649149711d41faa.jpg" width="640" alt="Source preview 2 · Managing a settlement in Crusader Bench"></a>
+
+Type: Benchmark | Date: 2026-11-19
+
+---
+
+<a id="case-169"></a>
+### Case 169: [Spatial navigation in MazeBench](https://x.com/patience_cave/status/2123446669643849993) (by [@patience_cave](https://x.com/patience_cave))
+
+**Compare maze completion on the same published benchmark.**
+
+The benchmark author reports 14% for Sol, 16% for Astra and 10% for Gemini 4 Neon. The attached chart identifies the configurations used.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-169/2123446665696993280-3509529d630c29cd9ac5.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-169/2123446665696993280-3509529d630c29cd9ac5.jpg" width="640" alt="Source preview 1 · Spatial navigation in MazeBench"></a>
+
+Type: Benchmark | Date: 2026-11-19
+
+---
+
+<a id="case-175"></a>
+### Case 175: [Five games of chess without tools](https://x.com/argofowl/status/2123389829438406999) (by [@argofowl](https://x.com/argofowl))
+
+**Compare points, game outcomes and reported cost over the same match.**
+
+The author ran both models at xhigh and reported a 4–1 points win for Sol, with three wins and two draws. Sol cost $24.39 and Opus 5.5 cost $75.80.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123389747536207872-d38127bbf7f2c4de454f.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-175/2123389747536207872-poster-f2422d640187db52b79e.jpg" width="640" alt="Source preview 1 · Five games of chess without tools"></a>
+
+[Play demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123389747536207872-d38127bbf7f2c4de454f.mp4)
+
+Type: Benchmark | Date: 2026-11-19
+
+---
+
+<a id="case-138"></a>
+### Case 138: [A Pokémon FireRed Champion run](https://x.com/Clad3815/status/2123064135164576107) (by [@Clad3815](https://x.com/Clad3815))
+
+**Compare game-completion times under an explicit input and reasoning setup.**
+
+The author reported reaching Champion in 11h 40m with high reasoning, screenshots as input and Sol in Ultrafast mode.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-138/2123061539183726592-707694197c25ed18a424.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-138/2123061539183726592-707694197c25ed18a424.png" width="640" alt="Source preview 1 · A Pokémon FireRed Champion run"></a>
+
+Type: Benchmark | Date: 2026-11-18
+
+---
+
+<a id="case-146"></a>
+### Case 146: [A 3D dinosaur runner with ragdoll physics](https://x.com/noclipepe/status/2122989930699792818) (by [@noclipepe](https://x.com/noclipepe))
+
+**Compare the visual style and collision behavior across four game prototypes.**
+
+The creator used the same brief for all four models, including 3D and ragdoll physics. The author’s recorded Sol run took 20 minutes and cost $1.68.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122985283993907201-9750e48cc454af4480fd.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-146/2122985283993907201-poster-afcb4c84030cd6876301.jpg" width="640" alt="Source preview 1 · A 3D dinosaur runner with ragdoll physics"></a>
+
+[Play demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122985283993907201-9750e48cc454af4480fd.mp4)
+
+Type: Evaluation | Date: 2026-11-18
+
+---
+
+<a id="case-158"></a>
+### Case 158: [A playable game inspired by fake ads](https://x.com/noclipepe/status/2122885577137598800) (by [@noclipepe](https://x.com/noclipepe))
+
+**Compare four playable interpretations of one game-level brief.**
+
+The author used the same prompt for all four models and showed that players could lose. The Sol run took 21 minutes and cost $1.04.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122882602663124992-7fe424c3649edbe814fc.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-158/2122882602663124992-poster-65013bb3e5cef1833a1e.jpg" width="640" alt="Source preview 1 · A playable game inspired by fake ads"></a>
+
+[Play demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122882602663124992-7fe424c3649edbe814fc.mp4)
+
+Type: Evaluation | Date: 2026-11-18
+
+---
+
+<a id="case-78"></a>
+### Case 78: [Clearing a Sokoban room suite](https://x.com/banteg/status/2122826622638137666) (by [@banteg](https://x.com/banteg))
+
+**Track rooms cleared and replay the moves to see where a game agent stalls.**
+
+The author tested Sol and Astra at medium effort. Both cleared all 66 rooms in this run. Sol finished second and Astra third on the author's leaderboard at the time of the post.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122826155086512128-d2a8456da3a5a99263f5.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-78/2122826155086512128-poster-4a2c4bee2b8d9510e347.jpg" width="640" alt="Source preview 1 · Clearing a Sokoban room suite"></a>
+
+[Play demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122826155086512128-d2a8456da3a5a99263f5.mp4)
+
+Type: Benchmark | Date: 2026-11-17
+
+---
+
+<a id="case-93"></a>
+### Case 93: [Completing two quests in RuneScape](https://x.com/maxbittker/status/2122783334216466487) (by [@maxbittker](https://x.com/maxbittker))
+
+**Inspect which quests the agent chooses and which rewards it claims.**
+
+The benchmark maintainer reports that Sol and Astra each pursued two quests and collected both rewards in the same run.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-93/2122782503542960128-31be885019f467cb7472.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-93/2122782503542960128-31be885019f467cb7472.jpg" width="640" alt="Source preview 1 · Completing two quests in RuneScape"></a>
+
+Type: Benchmark | Date: 2026-11-17
+
+---
+
+<a id="case-95"></a>
+### Case 95: [A multiplayer browser game with touch controls](https://x.com/VraserX/status/2122770481975837145) (by [@VraserX](https://x.com/VraserX))
+
+**Play successive builds and give targeted feedback on the controls.**
+
+The developer reports using Sol to code, debug and revise the 16-versus-16 prototype while testing the builds, including its touch controls.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122770342842077184-c89268a9c06156333c45.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-95/2122770342842077184-poster-c5a1ebf986d6362bd35d.jpg" width="640" alt="Source preview 1 · A multiplayer browser game with touch controls"></a>
+
+[Play demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122770342842077184-c89268a9c06156333c45.mp4)
+
+Type: Demo | Date: 2026-11-17
+
+---
+
+<a id="case-97"></a>
+### Case 97: [A browser village game called Lanternkeep](https://x.com/AdamHoltererer/status/2122766741881413818) (by [@AdamHoltererer](https://x.com/AdamHoltererer))
+
+**Inspect how the map and objective panel support a village-building loop.**
+
+The creator attributes the game to Sol. The recording shows an interactive village map and an objective panel.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122766701477367808-c628e4fc3e8c14dc15d8.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-97/2122766701477367808-poster-50e4bfea19c965f6d231.jpg" width="640" alt="Source preview 1 · A browser village game called Lanternkeep"></a>
+
+[Play demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122766701477367808-c628e4fc3e8c14dc15d8.mp4)
+
+Type: Demo | Date: 2026-11-17
+
+---
+
+<a id="case-99"></a>
+### Case 99: [A screenshot-only Pokémon FireRed run](https://x.com/Clad3815/status/2122763941675995209) (by [@Clad3815](https://x.com/Clad3815))
+
+**Record progress milestones and completion time for a game agent.**
+
+The tester reported using screenshots with high reasoning. Sol took 15 hours 34 minutes and reached the first Gym Leader before Astra in this test.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-99/2122763933345890304-ffe6b4053f347b1d4d5f.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-99/2122763933345890304-ffe6b4053f347b1d4d5f.jpg" width="640" alt="Source preview 1 · A screenshot-only Pokémon FireRed run"></a>
+
+Type: Benchmark | Date: 2026-11-17
+
+---
+
+<a id="case-67"></a>
+### Case 67: [A coastal racing game prototype](https://x.com/Stargridcompass/status/2119683294220390638) (by [@Stargridcompass](https://x.com/Stargridcompass))
+
+**Check whether the countdown, speed readout and track map stay readable during a race.**
+
+The recording shows a grid start and a race in progress. The author reports a 16-minute build.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119682250472112128-81f053c6ffe2a4aae055.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-67/2119682250472112128-poster-526c85969a54c7f93833.jpg" width="640" alt="Source preview 1 · A coastal racing game prototype"></a>
+
+[Play demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119682250472112128-81f053c6ffe2a4aae055.mp4)
+
+Type: Demo | Date: 2026-11-09
+
+---
+
+<a id="case-62"></a>
+### Case 62: [A browser Rubik’s Cube](https://x.com/VeknQAQ/status/2119633751173173475) (by [@VeknQAQ](https://x.com/VeknQAQ))
+
+**Use the preview to inspect cube rotations and sticker placement.**
+
+The recording shows a 3D cube in solved and mixed states, alongside controls in the browser.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119633608680124416-44e5b8b00d129caeba34.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-62/2119633608680124416-poster-1ea9e2acda539d582293.jpg" width="640" alt="Source preview 1 · A browser Rubik’s Cube"></a>
+
+[Play demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119633608680124416-44e5b8b00d129caeba34.mp4)
+
+Type: Demo | Date: 2026-11-09
+
+---
+
+<a id="case-17"></a>
+### Case 17: [PELICAN PANIC voxel chase game](https://x.com/Ananth7e/status/2119479157633786246) (by [@Ananth7e](https://x.com/Ananth7e))
+
+**Use a short chase game to inspect controls, feedback, and the ending state.**
+
+The clip shows a rider escaping a potato monster on a pelican. A score and an Escaped screen are visible.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119478839500013568-2ec29cee42e54d0bf9c5.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-17/2119478839500013568-poster-3716db2a9abc6cf0e264.jpg" width="640" alt="Source preview 1 · PELICAN PANIC voxel chase game"></a>
+
+[Play demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119478839500013568-2ec29cee42e54d0bf9c5.mp4)
+
+
+Type: Demo | Date: 2026-11-08
+
+---
+
+<a id="category-graphics"></a>
+## 🎨 Creative graphics and animation
+
+<a id="case-190"></a>
+### Case 190: [A code-generated Riemann hypothesis explainer](https://x.com/MelissaKampers/status/2124286667288891534) (by [@MelissaKampers](https://x.com/MelissaKampers))
+
+**Use local code to assemble the animation and its audio in one workflow.**
+
+The creator published a short video about the Riemann hypothesis and reported that every frame and sound was generated locally by code. The Sol run took 12 minutes 4 seconds.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2124285929158307840-efc75451f3dacfa1fa4a.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-190/2124285929158307840-poster-f14d1caf33bfa4666811.jpg" width="640" alt="Source preview 1 · A code-generated Riemann hypothesis explainer"></a>
+
+[Play demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2124285929158307840-efc75451f3dacfa1fa4a.mp4)
+
+Type: Demo | Date: 2026-11-21
+
+---
+
+<a id="case-199"></a>
+### Case 199: [A cat at a rainy window](https://x.com/bangbuilds/status/2124005847655125400) (by [@bangbuilds](https://x.com/bangbuilds))
+
+**Compare how four models stage the same scene in a single HTML animation.**
+
+The creator used the same prompt for Sol, Opus 5.5, Gemini 4 Neon and DeepSeek. Each model generated once, with no edits or retries.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2124005411338481665-db82f73f6287411cca10.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-199/2124005411338481665-poster-cb04b35cf78133583dba.jpg" width="640" alt="Source preview 1 · A cat at a rainy window"></a>
+
+[Play demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2124005411338481665-db82f73f6287411cca10.mp4)
+
+Type: Evaluation | Date: 2026-11-21
+
+---
+
+<a id="case-177"></a>
+### Case 177: [Four animated cyclists at sunset](https://x.com/jony_palino/status/2123889278501495127) (by [@jony_palino](https://x.com/jony_palino))
+
+**Compare rider motion, bicycle proportions and scene lighting across four outputs.**
+
+The creator shared a labeled comparison of Sol, Gemini 4 Neon, DeepSeek V4.1 Flash and Claude Fable 5.2. The Sol animation appears in the lower-left panel.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123888706998218752-2fde673e71773bed63c5.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-177/2123888706998218752-poster-c43c4d2e3c43cad44fb4.jpg" width="640" alt="Source preview 1 · Four animated cyclists at sunset"></a>
+
+[Play demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123888706998218752-2fde673e71773bed63c5.mp4)
+
+Type: Evaluation | Date: 2026-11-20
+
+---
+
+<a id="case-202"></a>
+### Case 202: [Costume illustration iterations in ChatGPT Work](https://x.com/Rin_4ever_/status/2123763407589720384) (by [@Rin_4ever_](https://x.com/Rin_4ever_))
+
+**Compare what changes when a detailed costume request is run again.**
+
+The creator labeled the third and fourth images as Work with Sol high. They found the first Work result too simple and shared the revision after asking for more complexity.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-202/2123763388010663936-2825678eca140f904fe7.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-202/2123763388010663936-2825678eca140f904fe7.jpg" width="640" alt="Source preview 1 · Costume illustration iterations in ChatGPT Work"></a>
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-202/2123763393123553280-9694202f1400b5cb23cc.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-202/2123763393123553280-9694202f1400b5cb23cc.jpg" width="640" alt="Source preview 2 · Costume illustration iterations in ChatGPT Work"></a>
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-202/2123763398043381760-c0278dc7b443a545e8ea.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-202/2123763398043381760-c0278dc7b443a545e8ea.jpg" width="640" alt="Source preview 3 · Costume illustration iterations in ChatGPT Work"></a>
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-202/2123763403009515521-a552c1917ad96fcd1cae.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-202/2123763403009515521-a552c1917ad96fcd1cae.jpg" width="640" alt="Source preview 4 · Costume illustration iterations in ChatGPT Work"></a>
+
+Type: Evaluation | Date: 2026-11-20
+
+---
+
+<a id="case-159"></a>
+### Case 159: [From still frames to a finished video](https://x.com/0xkhalid7/status/2123661187376451845) (by [@0xkhalid7](https://x.com/0xkhalid7))
+
+**Use the editing timeline to see where generated frames enter a multi-tool workflow.**
+
+The creator credits ChatGPT for the script and Sol for the frames. They animated the frames in Google Vids, edited in CapCut and reported about four hours for the whole project.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123660882249175040-7f5a38c954cd6232ce0b.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-159/2123660882249175040-poster-6036fd4b16ea350bc22d.jpg" width="640" alt="Source preview 1 · From still frames to a finished video"></a>
+
+[Play demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123660882249175040-7f5a38c954cd6232ce0b.mp4)
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-163"></a>
+### Case 163: [Dialogue cuts in a talking-head video](https://x.com/MatthewBerman/status/2123546744759984513) (by [@MatthewBerman](https://x.com/MatthewBerman))
+
+**Compare edit time, overall score and the kinds of cuts that fail.**
+
+In the creator’s two-run average for a 20-minute video, Sol scored 64.5% and took 11.7 minutes to edit. Gemini 4 Neon scored 67.9% and took 7.7 minutes.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-163/2123546497111482368-6e88a30728efbca29854.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-163/2123546497111482368-6e88a30728efbca29854.jpg" width="640" alt="Source preview 1 · Dialogue cuts in a talking-head video"></a>
+
+Type: Benchmark | Date: 2026-11-19
+
+---
+
+<a id="case-173"></a>
+### Case 173: [A whiteboard animation of a short clip](https://x.com/erhanmeydan/status/2123414880300490868) (by [@erhanmeydan](https://x.com/erhanmeydan))
+
+**Compare visual storytelling and cost on the same input footage.**
+
+The creator ran four models in Kilnframe’s Whiteboard style and Auto mode on the same 11-second clip. The Sol run took 1.7 minutes and cost $0.18.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123414708459855872-abcd21a1ca31fae0de50.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-173/2123414708459855872-poster-693b12b8cd00ed30b115.jpg" width="640" alt="Source preview 1 · A whiteboard animation of a short clip"></a>
+
+[Play demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123414708459855872-abcd21a1ca31fae0de50.mp4)
+
+Type: Evaluation | Date: 2026-11-19
+
+---
+
+<a id="case-130"></a>
+### Case 130: [A realistic falling leaf in three minutes](https://x.com/RezAIT00/status/2123121274431897803) (by [@RezAIT00](https://x.com/RezAIT00))
+
+**Use a time limit to test how the model combines assets and code.**
+
+The creator said Sol xhigh Ultrafast sourced material online, used image generation and wrote code to make the falling-leaf animation.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123120923666423808-a00f9b04f9a3d9061acf.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-130/2123120923666423808-poster-97ccbaaf84c4bcfaee1b.jpg" width="640" alt="Source preview 1 · A realistic falling leaf in three minutes"></a>
+
+[Play demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123120923666423808-a00f9b04f9a3d9061acf.mp4)
+
+Type: Demo | Date: 2026-11-18
+
+---
+
+<a id="case-134"></a>
+### Case 134: [A looping pixel-art runner](https://x.com/rotejin/status/2123099481101205676) (by [@rotejin](https://x.com/rotejin))
+
+**Check whether a character animation loops cleanly against a scrolling backdrop.**
+
+The creator asked Sol for dynamic pixel art. The attached loop shows a running character silhouetted against a sunset.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123098773459283968-5897570c940b051711a4.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-134/2123098773459283968-poster-e96bd6c94b068883b1a1.jpg" width="640" alt="Source preview 1 · A looping pixel-art runner"></a>
+
+[Play demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123098773459283968-5897570c940b051711a4.mp4)
+
+Type: Demo | Date: 2026-11-18
+
+---
+
+<a id="case-145"></a>
+### Case 145: [An animated tandem bicycle SVG](https://x.com/marcthecreatorr/status/2123004538974294470) (by [@marcthecreatorr](https://x.com/marcthecreatorr))
+
+**Compare how two coding tools render and animate the same SVG subject.**
+
+The author reported about 46 minutes and $1.90 for Sol in Codex CLI and about an hour and $18 for Opus 5.5 in Claude Code.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123002351422181377-2a6725e05299e1972940.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-145/2123002351422181377-poster-c6f5ed83f95c549068d4.jpg" width="640" alt="Source preview 1 · An animated tandem bicycle SVG"></a>
+
+[Play demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123002351422181377-2a6725e05299e1972940.mp4)
+
+Type: Evaluation | Date: 2026-11-18
+
+---
+
+<a id="case-152"></a>
+### Case 152: [Measuring an Ultrafast video edit](https://x.com/op7418/status/2122925281514303836) (by [@op7418](https://x.com/op7418))
+
+**Track elapsed editing time separately from model response time.**
+
+The creator reported 27 minutes end to end for an eight-minute video edit, including about 14 minutes of Sol response time. The attachment shows timing results.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-152/2122925011057209345-502d3dadda839363aabd.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-152/2122925011057209345-502d3dadda839363aabd.jpg" width="640" alt="Source preview 1 · Measuring an Ultrafast video edit"></a>
+
+Type: Benchmark | Date: 2026-11-18
+
+---
+
+<a id="case-153"></a>
+### Case 153: [Handwritten signature animation in Remotion](https://x.com/aura_uniiiii/status/2122915684086849611) (by [@aura_uniiiii](https://x.com/aura_uniiiii))
+
+**Compare how two Max runs animate the same personal signature.**
+
+The creator asked Sol and Astra to make a Remotion video of their signature and published the resulting clips together.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122913982898143232-edb073cf9b2bb51a5faf.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-153/2122913982898143232-poster-d1cd5c4dd99e8cdeb3c4.jpg" width="640" alt="Source preview 1 · Handwritten signature animation in Remotion"></a>
+
+[Play demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122913982898143232-edb073cf9b2bb51a5faf.mp4)
+
+Type: Evaluation | Date: 2026-11-18
+
+---
+
+<a id="case-79"></a>
+### Case 79: [A 15-second motion design brief](https://x.com/Leviwoyun/status/2122846422676701267) (by [@Leviwoyun](https://x.com/Leviwoyun))
+
+**Give both models the same brief and compare typography, transitions and motion.**
+
+The creator shared two videos and the original prompt. One centers on a rotating folded-paper form, and the other moves from a signal display to a purple geometric form.
+
+**Prompt:**
+
+```
+制作一段 15 秒的动态图形视频，展示你是一位多么出色的动态设计师，就像是你简历上的作品集一样，使用任何你认为能产出最佳效果的工具或技术。你拥有完全的创作自由，优先追求卓越的视觉设计、大胆的艺术指导、引人注目的构图和富有力量的动态表现，让每一秒都有价值。全力以赴。
+```
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122845749499310081-01cb8b6073d8916e9b09.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-79/2122845749499310081-poster-1159d01955e99da02391.jpg" width="640" alt="Source preview 1 · A 15-second motion design brief"></a>
+
+[Play demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122845749499310081-01cb8b6073d8916e9b09.mp4)
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122846110117183488-30f1277d34e59656f484.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-79/2122846110117183488-poster-7b07819920bd6a3fe88d.jpg" width="640" alt="Source preview 2 · A 15-second motion design brief"></a>
+
+[Play demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122846110117183488-30f1277d34e59656f484.mp4)
+
+Type: Evaluation | Date: 2026-11-18
+
+---
+
+<a id="case-88"></a>
+### Case 88: [A galloping horse rendered by two models](https://x.com/jony_palino/status/2122796926961647919) (by [@jony_palino](https://x.com/jony_palino))
+
+**Compare the legs and stride over a complete loop.**
+
+The video labels the Astra and Sol horse animations and shows the two versions running side by side.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122781224338939905-9fac5a374f5ddc54f8a8.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-88/2122781224338939905-poster-b06065421603cc7f6f6c.jpg" width="640" alt="Source preview 1 · A galloping horse rendered by two models"></a>
+
+[Play demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122781224338939905-9fac5a374f5ddc54f8a8.mp4)
+
+Type: Evaluation | Date: 2026-11-17
+
+---
+
+<a id="case-74"></a>
+### Case 74: [Fire and sound generated in code](https://x.com/camperaigg/status/2122794828266377538) (by [@camperaigg](https://x.com/camperaigg))
+
+**Record output duration alongside cost and generation time in a motion comparison.**
+
+The creator compared two xhigh runs using code for the visuals and audio. They reported a 12-second Sol clip from a 12-minute run at $0.73 and a 24-second Opus 5.5 clip from an 85-minute run at $18.40.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122794767960752128-e2e19e403efea0d778cc.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-74/2122794767960752128-poster-5dc5e43235499f8378cf.jpg" width="640" alt="Source preview 1 · Fire and sound generated in code"></a>
+
+[Play demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122794767960752128-e2e19e403efea0d778cc.mp4)
+
+Type: Evaluation | Date: 2026-11-17
+
+---
+
+<a id="case-94"></a>
+### Case 94: [A 900-frame animation made in code](https://x.com/morsenxxx/status/2122771021828948464) (by [@morsenxxx](https://x.com/morsenxxx))
+
+**Track the characters, motion and sound through to the final export.**
+
+The creator reports that the characters, animation and soundtrack were generated in code. The shared result runs for 30 seconds.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122768959980118016-519fd034e8c095b6bc01.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-94/2122768959980118016-poster-ef4789678264a50b8b9f.jpg" width="640" alt="Source preview 1 · A 900-frame animation made in code"></a>
+
+[Play demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122768959980118016-519fd034e8c095b6bc01.mp4)
+
+Type: Demo | Date: 2026-11-17
+
+---
+
+<a id="case-98"></a>
+### Case 98: [An animated banana illustration](https://x.com/AdamHoltererer/status/2122765119835029581) (by [@AdamHoltererer](https://x.com/AdamHoltererer))
+
+**Use a simple subject to inspect how a model introduces motion and character.**
+
+The creator shared a Sol banana test where a drawn banana becomes part of an animated character scene.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122765018739441664-63474f1acf4d1d5e18b1.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-98/2122765018739441664-poster-a235f39f622e3848c495.jpg" width="640" alt="Source preview 1 · An animated banana illustration"></a>
+
+[Play demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122765018739441664-63474f1acf4d1d5e18b1.mp4)
+
+Type: Demo | Date: 2026-11-17
+
+---
+
+<a id="case-101"></a>
+### Case 101: [A cycling pelican in a single HTML file](https://x.com/Super_Nius/status/2122760765174391124) (by [@Super_Nius](https://x.com/Super_Nius))
+
+**Use one SVG brief and inspect the bird and bicycle motion side by side.**
+
+The creator published the prompt and compared 6.2 and 6.1 outputs. They reported only a modest change in Sol’s rendition.
+
+**Prompt:**
+
+```
+创建一个HTML文件，使用SVG绘制一只鹈鹕3D骑自行车的动画。输出单文件HTML。
+```
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122760254945673216-c6b375b036ac15cc3a2b.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-101/2122760254945673216-poster-d0903f87dd4ac9dee18a.jpg" width="640" alt="Source preview 1 · A cycling pelican in a single HTML file"></a>
+
+[Play demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122760254945673216-c6b375b036ac15cc3a2b.mp4)
+
+Type: Evaluation | Date: 2026-11-17
+
+---
+
+<a id="case-103"></a>
+### Case 103: [Two stick-figure animations at Ultra effort](https://x.com/DanielZambrini/status/2122759375337214121) (by [@DanielZambrini](https://x.com/DanielZambrini))
+
+**Repeat an animation brief to see how much two runs vary.**
+
+The creator showed two Sol Ultra runs and reported durations of 13 and 12 minutes for the builds.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122758829104328704-4fe90331a8b43e8cc76c.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-103/2122758829104328704-poster-2e025ca80aa35e6c9676.jpg" width="640" alt="Source preview 1 · Two stick-figure animations at Ultra effort"></a>
+
+[Play demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122758829104328704-4fe90331a8b43e8cc76c.mp4)
+
+Type: Evaluation | Date: 2026-11-17
+
+---
+
+<a id="case-123"></a>
+### Case 123: [Pelican SVGs across reasoning efforts](https://news.ycombinator.com/item?id=50535742) (by [@simonw](https://news.ycombinator.com/user?id=simonw))
+
+**Inspect how the pedals, feet and frame fit together at each effort.**
+
+Simon Willison published a labeled grid for the same SVG prompt across six models and multiple reasoning settings. The discussion flags a leg overlapping the chain in the Sol Max image.
+
+**Prompt:**
+
+```
+Generate an SVG of a pelican riding a bicycle
+```
+
+[Full SVG comparison](https://static.simonwillison.net/static/2026/openai-pelicans-november-2026.html)
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-123/50535742-grid-7d953958cc033d468770.webp"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-123/50535742-grid-7d953958cc033d468770.webp" width="640" alt="Source preview 1 · Pelican SVGs across reasoning efforts"></a>
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-123/50535742-astra-3d77dc7c6001b9a03061.webp"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-123/50535742-astra-3d77dc7c6001b9a03061.webp" width="640" alt="Source preview 2 · Pelican SVGs across reasoning efforts"></a>
+
+*GPT-6.2 Astra at Max*
+
+Type: Evaluation | Date: 2026-11-17
+
+---
+
+<a id="case-110"></a>
+### Case 110: [Rainy cycling delivery with Sol, Opus and Qwen](https://x.com/Stargridcompass/status/2122184571269853307) (by [@Stargridcompass](https://x.com/Stargridcompass))
+
+**Compare the night scene and cycling motion across three outputs.**
+
+The creator shows three labeled takes on a pelican courier and preferred Opus 5.5 for this comparison.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122183328228909056-562a9b17b2bc7222fb58.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-110/2122183328228909056-poster-9550a8f62aa13cde8a3a.jpg" width="640" alt="Source preview 1 · Rainy cycling delivery with Sol, Opus and Qwen"></a>
+
+[Play demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122183328228909056-562a9b17b2bc7222fb58.mp4)
+
+Type: Evaluation | Date: 2026-11-16
+
+---
+
+<a id="case-112"></a>
+### Case 112: [A cycling pelican delivering food in the rain](https://x.com/Stargridcompass/status/2121543669882745007) (by [@Stargridcompass](https://x.com/Stargridcompass))
+
+**Inspect reflections, puddles, street fixtures and moving scenery separately.**
+
+The creator compared Sol and Fable 5.2 on the rainy delivery scene and preferred the puddles and reflections in the Sol version.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2121535105013334016-7271e00bcbdb0a0caf42.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-112/2121535105013334016-poster-4a1d19351363ee575584.jpg" width="640" alt="Source preview 1 · A cycling pelican delivering food in the rain"></a>
+
+[Play demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2121535105013334016-7271e00bcbdb0a0caf42.mp4)
+
+Type: Evaluation | Date: 2026-11-14
+
+---
+
+<a id="case-114"></a>
+### Case 114: [A daytime cycling pelican in two outputs](https://x.com/Stargridcompass/status/2121505035976597773) (by [@Stargridcompass](https://x.com/Stargridcompass))
+
+**Compare motion quality alongside run time.**
+
+The creator shows Sol and Gemini 4 Hydrogen on the same brief and reports 13 minutes for Sol and three minutes for Hydrogen.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2121503397702459392-e951142e407012e2ef01.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-114/2121503397702459392-poster-2f40d730171de43b3581.jpg" width="640" alt="Source preview 1 · A daytime cycling pelican in two outputs"></a>
+
+[Play demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2121503397702459392-e951142e407012e2ef01.mp4)
+
+Type: Evaluation | Date: 2026-11-14
+
+---
+
+<a id="case-118"></a>
+### Case 118: [A sword duel animated in SVG](https://x.com/kdnbmb/status/2120537324488450050) (by [@kdnbmb](https://x.com/kdnbmb))
+
+**Inspect how timing and silhouettes sell movement in vector animation.**
+
+The creator attributes the code-based animation to one Sol run and reports that it took about 18 minutes.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2120537298286608384-168cc4ec913763fba163.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-118/2120537298286608384-poster-7749116f725da65b0420.jpg" width="640" alt="Source preview 1 · A sword duel animated in SVG"></a>
+
+[Play demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2120537298286608384-168cc4ec913763fba163.mp4)
+
+Type: Demo | Date: 2026-11-11
+
+---
+
+<a id="case-120"></a>
+### Case 120: [A photorealistic landscape in SVG](https://x.com/kdnbmb/status/2120193707987317053) (by [@kdnbmb](https://x.com/kdnbmb))
+
+**Inspect which details survive when a natural scene is drawn in vectors.**
+
+The creator reports asking Sol at Max for a photorealistic nature SVG and shared its rendered result.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-120/2120193470002241536-2e471c1c74dabf15e6eb.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-120/2120193470002241536-2e471c1c74dabf15e6eb.jpg" width="640" alt="Source preview 1 · A photorealistic landscape in SVG"></a>
+
+Type: Demo | Date: 2026-11-10
+
+---
+
+<a id="case-60"></a>
+### Case 60: [Monkey King SVG comparison](https://x.com/xbquan/status/2119581984989364514) (by [@xbquan](https://x.com/xbquan))
+
+**Compare how three systems stage the same Monkey King scene.**
+
+The author labels the three images GPT-6.2 Sol at the highest setting, Qoder’s QoDuck and WorkBuddy’s HY4. The prompt in the author’s reply requests one SVG version and forbids checking a screenshot.
+
+[Author’s reply with the original prompt](https://x.com/xbquan/status/2119582058922316169)
+
+**Prompt:**
+
+```
+用尽你的一切能力，用代码画一张孙悟空的大闹天宫名场面的svg图片，我想要尽可能的还原，只能画一版，不准截图检查。
+```
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-60/2119580835200516096-1e4e7a136e429b696a7a.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-60/2119580835200516096-1e4e7a136e429b696a7a.jpg" width="640" alt="Source preview 1 · Monkey King SVG comparison"></a>
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-60/2119581876805640192-01552031d537dc13d897.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-60/2119581876805640192-01552031d537dc13d897.jpg" width="640" alt="Source preview 2 · Monkey King SVG comparison"></a>
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-60/2119581974092546048-c61fe179e1741227a187.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-60/2119581974092546048-c61fe179e1741227a187.png" width="640" alt="Source preview 3 · Monkey King SVG comparison"></a>
+
+Type: Evaluation | Date: 2026-11-09
+
+---
+
+<a id="case-3"></a>
+### Case 3: [Human history and the AI future in 3D](https://x.com/imjustnewatai/status/2119518062034792958) (by [@imjustnewatai](https://x.com/imjustnewatai))
+
+**Turn a narrative brief into a sequence of animated scenes.**
+
+The recording shows a multi-scene 3D animation. The author's public prompt moves from Neanderthals through the rise of AI to an imagined future.
+
+**Prompt:**
+
+```
+Create a cinematic 3D animation telling humanity’s story, from the age of Neanderthals through our greatest advances and the rise of AI. Then imagine a future where AI achieves recursive self-improvement in 2027, and progress doubles or triples every year, transforming Earth in increasingly astonishing ways. Come up with your own scenes and transitions, connecting everything into one compelling story.
+```
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119517968493113344-17865404f54bd3f80fbd.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-03/2119517968493113344-poster-62d6ae1e6365eb443bd6.jpg" width="640" alt="Source preview 1 · Human history and the AI future in 3D"></a>
+
+[Play demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119517968493113344-17865404f54bd3f80fbd.mp4)
+
+
+Type: Demo | Date: 2026-11-08
+
+---
+
+<a id="case-8"></a>
+### Case 8: [Tibo portrait in a browser painting studio](https://x.com/Mr_Salio/status/2119499550373425297) (by [@Mr_Salio](https://x.com/Mr_Salio))
+
+**Inspect the stages of a portrait as the page builds it up.**
+
+The Portrait Studio page develops a portrait of Tibo from broad color blocks beside a reference photo. The clip shows the page animation.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119499524137697280-bf003228060e83ba80ee.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-08/2119499524137697280-poster-669f62240a226482c71b.jpg" width="640" alt="Source preview 1 · Tibo portrait in a browser painting studio"></a>
+
+[Play demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119499524137697280-bf003228060e83ba80ee.mp4)
+
+
+Type: Demo | Date: 2026-11-08
+
+---
+
+<a id="case-10"></a>
+### Case 10: [Sam Altman portrait painting shared by 0x0SojalSec](https://x.com/0x0SojalSec/status/2119489612876026325) (by [@0x0SojalSec](https://x.com/0x0SojalSec))
+
+**Follow the transition from rough shapes to a finished portrait.**
+
+This post shares the Sam Altman painting clip. Other posts in the collection share the same material.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119471570100113408-6537886f519fcb2581ca.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-10/2119471570100113408-poster-4fa1b097dbe57a86b319.jpg" width="640" alt="Source preview 1 · Sam Altman portrait painting shared by 0x0SojalSec"></a>
+
+[Play demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119471570100113408-6537886f519fcb2581ca.mp4)
+
+
+Type: Demo | Date: 2026-11-08
+
+---
+
+<a id="case-11"></a>
+### Case 11: [Sam Altman portrait painting shared by Avenoxai](https://x.com/Avenoxai/status/2119489025484419304) (by [@Avenoxai](https://x.com/Avenoxai))
+
+**See how the browser demonstration stages the portrait.**
+
+The post shares the same progressive Sam Altman portrait shown elsewhere in the collection.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119481355943948288-d9ec44b4a8efb666f3fe.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-11/2119481355943948288-poster-b169fc202c4358aef6ab.jpg" width="640" alt="Source preview 1 · Sam Altman portrait painting shared by Avenoxai"></a>
+
+[Play demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119481355943948288-d9ec44b4a8efb666f3fe.mp4)
+
+
+Type: Demo | Date: 2026-11-08
+
+---
+
+<a id="case-12"></a>
+### Case 12: [Sam Altman portrait painting shared by pengsonal](https://x.com/pengsonal/status/2119487069500456985) (by [@pengsonal](https://x.com/pengsonal))
+
+**Examine the order in which the browser scene adds portrait detail.**
+
+The clip belongs to the same Sam Altman painting family as the other posts that share this material.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119471570100113408-6537886f519fcb2581ca.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-12/2119471570100113408-poster-4fa1b097dbe57a86b319.jpg" width="640" alt="Source preview 1 · Sam Altman portrait painting shared by pengsonal"></a>
+
+[Play demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119471570100113408-6537886f519fcb2581ca.mp4)
+
+
+Type: Demo | Date: 2026-11-08
+
+---
+
+<a id="case-13"></a>
+### Case 13: [Sam Altman portrait painting shared by GeekCatX](https://x.com/GeekCatX/status/2119482381375815956) (by [@GeekCatX](https://x.com/GeekCatX))
+
+**Use the clip to compare the initial composition with the finished image.**
+
+The post shares the progressive Sam Altman portrait from the same media family as other entries.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119471570100113408-6537886f519fcb2581ca.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-13/2119471570100113408-poster-4fa1b097dbe57a86b319.jpg" width="640" alt="Source preview 1 · Sam Altman portrait painting shared by GeekCatX"></a>
+
+[Play demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119471570100113408-6537886f519fcb2581ca.mp4)
+
+
+Type: Demo | Date: 2026-11-08
+
+---
+
+<a id="case-14"></a>
+### Case 14: [Sam Altman portrait in a browser painting canvas](https://x.com/Ananth7e/status/2119482362614677566) (by [@Ananth7e](https://x.com/Ananth7e))
+
+**Watch the portrait develop from blocked-in colors to finer features.**
+
+The author presents a browser painting demo of Sam Altman. The same recording appears in several other posts.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119481355943948288-d9ec44b4a8efb666f3fe.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-14/2119481355943948288-poster-b169fc202c4358aef6ab.jpg" width="640" alt="Source preview 1 · Sam Altman portrait in a browser painting canvas"></a>
+
+[Play demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119481355943948288-d9ec44b4a8efb666f3fe.mp4)
+
+
+Type: Demo | Date: 2026-11-08
+
+---
+
+<a id="case-19"></a>
+### Case 19: [Dario Amodei portrait in a browser painting canvas](https://x.com/Ananth7e/status/2119475282528932231) (by [@Ananth7e](https://x.com/Ananth7e))
+
+**Watch a reference image guide a staged portrait.**
+
+The browser demo develops a Dario Amodei portrait next to a photograph. The recording shows the painting sequence.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119474852453306369-dc2f6dd1c623765520a2.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-19/2119474852453306369-poster-16fd35c8363e7611ce48.jpg" width="640" alt="Source preview 1 · Dario Amodei portrait in a browser painting canvas"></a>
+
+[Play demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119474852453306369-dc2f6dd1c623765520a2.mp4)
+
+
+Type: Demo | Date: 2026-11-08
+
+---
+
+<a id="case-22"></a>
+### Case 22: [Four SVG animation comparisons with Opus 5.5](https://x.com/Ananth7e/status/2119473497504428334) (by [@Ananth7e](https://x.com/Ananth7e))
+
+**Compare motion and detail across several SVG subjects.**
+
+The labeled comparison includes a space delivery, coffee machine, record player, and greenhouse. The observed scenes come from samples of the longer clip.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119472766353313794-9e720b31f2e3325a6830.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-22/2119472766353313794-poster-81c1db39bbb46647fee0.jpg" width="640" alt="Source preview 1 · Four SVG animation comparisons with Opus 5.5"></a>
+
+[Play demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119472766353313794-9e720b31f2e3325a6830.mp4)
+
+
+Type: Evaluation | Date: 2026-11-08
+
+---
+
+<a id="case-23"></a>
+### Case 23: [Another Sam Altman portrait painting post by Ananth7e](https://x.com/Ananth7e/status/2119471963790065987) (by [@Ananth7e](https://x.com/Ananth7e))
+
+**Use the shared recording to inspect how a browser portrait takes shape.**
+
+This post points to the same progressive painting material as the other Sam Altman entries.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119471570100113408-6537886f519fcb2581ca.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-23/2119471570100113408-poster-4fa1b097dbe57a86b319.jpg" width="640" alt="Source preview 1 · Another Sam Altman portrait painting post by Ananth7e"></a>
+
+[Play demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119471570100113408-6537886f519fcb2581ca.mp4)
+
+
+Type: Demo | Date: 2026-11-08
+
+---
+
+<a id="case-25"></a>
+### Case 25: [Two portrait illustrations described as code-only SVGs](https://x.com/marcthecreatorr/status/2119466616693850352) (by [@marcthecreatorr](https://x.com/marcthecreatorr))
+
+**Compare the rendered portraits before judging how they were produced.**
+
+The post contains two portrait images. The author describes them as code-only SVG outputs.
+
+**Prompt:**
+
+```
+generate an SVG of Ana de Armas and Sam Altman
+(do not cheat)
+```
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-25/2119466601804132352-31318df37f6caba7293c.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-25/2119466601804132352-31318df37f6caba7293c.jpg" width="640" alt="Source preview 1 · Two portrait illustrations described as code-only SVGs"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-25/2119466601816666112-8e9d5270da1add44ca55.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-25/2119466601816666112-8e9d5270da1add44ca55.jpg" width="640" alt="Source preview 2 · Two portrait illustrations described as code-only SVGs"></a>
+
+Type: Demo | Date: 2026-11-08
+
+---
+
+<a id="case-29"></a>
+### Case 29: [A pixel-art Japanese town by moonlight](https://x.com/SahilPanhotra/status/2119461852426219747) (by [@SahilPanhotra](https://x.com/SahilPanhotra))
+
+**Use a compact animated scene to inspect lighting and detail.**
+
+The GIF shows cherry blossoms, a tower, a bridge, reflections, and a small boat.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119461819278602240-92e36b249f95f46fbbc1.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-29/2119461819278602240-poster-0df42c94083b4c7a1d00.jpg" width="640" alt="Source preview 1 · A pixel-art Japanese town by moonlight"></a>
+
+[Play demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119461819278602240-92e36b249f95f46fbbc1.mp4)
+
+
+Type: Demo | Date: 2026-11-08
+
+---
+
+<a id="case-30"></a>
+### Case 30: [A lion juggling while riding BMX](https://x.com/SahilPanhotra/status/2119458278115835912) (by [@SahilPanhotra](https://x.com/SahilPanhotra))
+
+**Test coordinated motion against changing seasonal backgrounds.**
+
+The animation shows a lion riding and throwing balls. The sampled frames show changes in pose and background.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119458208041574400-65d9c5f9e0c9dae6a35f.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-30/2119458208041574400-poster-43c1f3849344f031dd3f.jpg" width="640" alt="Source preview 1 · A lion juggling while riding BMX"></a>
+
+[Play demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119458208041574400-65d9c5f9e0c9dae6a35f.mp4)
+
+
+Type: Demo | Date: 2026-11-08
+
+---
+
+<a id="case-31"></a>
+### Case 31: [A side-view galloping horse](https://x.com/HarshithLucky3/status/2119458168338301327) (by [@HarshithLucky3](https://x.com/HarshithLucky3))
+
+**Inspect the legs and tail through a simple motion cycle.**
+
+The sampled frames show a galloping horse from the side with changing limb positions.
+
+**Prompt:**
+
+```
+Horse running in side view
+```
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119457903589646336-6fe234afbdb557492d14.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-31/2119457903589646336-poster-2e4c31974841a99a4465.jpg" width="640" alt="Source preview 1 · A side-view galloping horse"></a>
+
+[Play demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119457903589646336-6fe234afbdb557492d14.mp4)
+
+
+Type: Demo | Date: 2026-11-08
+
+---
+
+<a id="case-32"></a>
+### Case 32: [A peacock riding BMX through bamboo](https://x.com/SahilPanhotra/status/2119453829632868388) (by [@SahilPanhotra](https://x.com/SahilPanhotra))
+
+**Compare wheel motion with the movement of a detailed character.**
+
+The clip shows a peacock riding with its tail spread against a bamboo forest.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119453646454964224-3614c844c591897f7cb8.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-32/2119453646454964224-poster-0dd6b3fd00fa99aa9b94.jpg" width="640" alt="Source preview 1 · A peacock riding BMX through bamboo"></a>
+
+[Play demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119453646454964224-3614c844c591897f7cb8.mp4)
+
+
+Type: Demo | Date: 2026-11-08
+
+---
+
+<a id="case-35"></a>
+### Case 35: [A photorealistic portrait preview](https://x.com/SadAlbert10/status/2119443244509802679) (by [@SadAlbert10](https://x.com/SadAlbert10))
+
+**Inspect the visible result and record how the author describes it.**
+
+The image shows a detailed portrait. The preview provides visual evidence of the output.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-35/2119443020227727360-71913855e02651437cb9.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-35/2119443020227727360-71913855e02651437cb9.jpg" width="640" alt="Source preview 1 · A photorealistic portrait preview"></a>
+
+Type: Demo | Date: 2026-11-08
+
+---
+
+<a id="case-36"></a>
+### Case 36: [Sydney Sweeney portrait vectorization](https://x.com/SadAlbert10/status/2119440420682011095) (by [@SadAlbert10](https://x.com/SadAlbert10))
+
+**Track the intermediate image when evaluating a vector workflow.**
+
+The screenshot shows PNG inputs and a vectorization call. The second attachment shows the portrait produced by that workflow.
+
+**Prompt:**
+
+```
+make an ultra realistic SVG of Sydney Sweeny
+```
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-36/2119439861157707776-69b2db4eca9eb1493e6b.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-36/2119439861157707776-69b2db4eca9eb1493e6b.png" width="640" alt="Source preview 1 · Sydney Sweeney portrait vectorization"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-36/2119440248157683712-d00b68e7e2aa37f8ec7b.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-36/2119440248157683712-d00b68e7e2aa37f8ec7b.jpg" width="640" alt="Source preview 2 · Sydney Sweeney portrait vectorization"></a>
+
+Type: Demo | Date: 2026-11-08
+
+---
+
+<a id="case-46"></a>
+### Case 46: [A side-view running cheetah](https://x.com/HarshithLucky3/status/2119424342773866559) (by [@HarshithLucky3](https://x.com/HarshithLucky3))
+
+**Use a fixed profile view to compare gait and body motion.**
+
+The clip shows the cheetah in several positions during the run. The author reports preferring the Opus result.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119424200662556672-37c18d0191bd9b6c27aa.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-46/2119424200662556672-poster-f977110905db5bd671d8.jpg" width="640" alt="Source preview 1 · A side-view running cheetah"></a>
+
+[Play demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119424200662556672-37c18d0191bd9b6c27aa.mp4)
+
+
+Type: Demo | Date: 2026-11-08
+
+---
+
+<a id="case-51"></a>
+### Case 51: [A pelican and two crabs riding bicycles](https://x.com/HarshithLucky3/status/2119418918616150080) (by [@HarshithLucky3](https://x.com/HarshithLucky3))
+
+**Inspect timing across several animated characters in one shot.**
+
+The sampled side-view frames show moving wheels, limbs, and camera position.
+
+**Prompt:**
+
+```
+SVG animation of pelican and 2 crabs riding bicycles side view
+```
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119418838148366336-495e5e6b9a3a4f396f52.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-51/2119418838148366336-poster-753362afc6ea3f66a03f.jpg" width="640" alt="Source preview 1 · A pelican and two crabs riding bicycles"></a>
+
+[Play demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119418838148366336-495e5e6b9a3a4f396f52.mp4)
+
+
+Type: Demo | Date: 2026-11-08
+
+---
+
+<a id="case-52"></a>
+### Case 52: [A PS5 controller comparison across Sol settings](https://x.com/marcthecreatorr/status/2119417283328000436) (by [@marcthecreatorr](https://x.com/marcthecreatorr))
+
+**Use a familiar product to compare contours and shading.**
+
+The two controller images are labeled GPT-6.1 Sol MAX routing and basic. The post shows rendered images.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-52/2119417273249095680-f0fea371a0a411ae9aef.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-52/2119417273249095680-f0fea371a0a411ae9aef.jpg" width="640" alt="Source preview 1 · A PS5 controller comparison across Sol settings"></a>
+
+Type: Evaluation | Date: 2026-11-08
+
+---
+
+<a id="case-55"></a>
+### Case 55: [A green BMW M4 CS profile illustration](https://x.com/HarshithLucky3/status/2119412698119373104) (by [@HarshithLucky3](https://x.com/HarshithLucky3))
+
+**Check proportions and profile detail in a familiar vehicle.**
+
+The attachment shows a green BMW M4 CS from the side.
+
+**Prompt:**
+
+```
+SVG of BMW M4 CS side view
+```
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-55/2119412669946204160-2b4789da7aa53b1095b0.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-55/2119412669946204160-2b4789da7aa53b1095b0.jpg" width="640" alt="Source preview 1 · A green BMW M4 CS profile illustration"></a>
+
+Type: Demo | Date: 2026-11-08
+
+---
+
 <a id="category-web"></a>
 ## 🌐 Websites and interfaces
+
+<a id="case-195"></a>
+### Case 195: [Six redesigns of one marketing site](https://x.com/guilippert_v4/status/2124110586753482802) (by [@guilippert_v4](https://x.com/guilippert_v4))
+
+**Compare how different models turn the same site brief into different visual directions.**
+
+The creator tested six models at high effort. They reported that Sol delivered a design with 3D artwork in 9 minutes 24 seconds for $0.69.
+
+**Prompt:**
+
+```
+Olhe o site da https://t.co/aDaMsBzyt2 e refaça ele por completo para surpreender.
+```
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-195/2123902070524715008-99e1c89f24f0f23371fc.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-195/2123902070524715008-99e1c89f24f0f23371fc.jpg" width="640" alt="Source preview 1 · Six redesigns of one marketing site"></a>
+
+Type: Evaluation | Date: 2026-11-21
+
+---
+
+<a id="case-184"></a>
+### Case 184: [Agents on Rails accuracy and runtime](https://x.com/rails/status/2123808115619471857) (by [@rails](https://x.com/rails))
+
+**Track runtime and accuracy separately on development tasks in existing Rails apps.**
+
+The Rails Foundation reported that Sol xhigh averaged about 12½ minutes per run versus 23½ for the earlier Sol. Its score was 54.1%, compared with 60.8% for GPT-6.1 Sol.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-184/2123805893733027841-1d6628ee8b4801e16252.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-184/2123805893733027841-1d6628ee8b4801e16252.jpg" width="640" alt="Source preview 1 · Agents on Rails accuracy and runtime"></a>
+
+Type: Benchmark | Date: 2026-11-20
+
+---
 
 <a id="case-174"></a>
 ### Case 174: [A lighthouse webpage on a rocky coast](https://x.com/aapakari/status/2123407849829404984) (by [@aapakari](https://x.com/aapakari))
@@ -3048,6 +3520,6 @@ Type: Demo | Date: 2026-11-08
 
 Thanks to the creators who shared these experiments. The linked work and media belong to their respective creators.
 
-[@Avenoxai](https://x.com/Avenoxai), [@kimmonismus](https://x.com/kimmonismus), [@imjustnewatai](https://x.com/imjustnewatai), [@Khazix0918](https://x.com/Khazix0918), [@marcthecreatorr](https://x.com/marcthecreatorr), [@Bhavani_00007](https://x.com/Bhavani_00007), [@JustLingonberry](https://x.com/JustLingonberry), [@Mr_Salio](https://x.com/Mr_Salio), [@aGim_asf](https://x.com/aGim_asf), [@0x0SojalSec](https://x.com/0x0SojalSec), [@pengsonal](https://x.com/pengsonal), [@GeekCatX](https://x.com/GeekCatX), [@Ananth7e](https://x.com/Ananth7e), [@EnvolDev](https://x.com/EnvolDev), [@xbquan](https://x.com/xbquan), [@SahilPanhotra](https://x.com/SahilPanhotra), [@rubenssoto_ai](https://x.com/rubenssoto_ai), [@vikktorrrre](https://x.com/vikktorrrre), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@Cayden970207](https://x.com/Cayden970207), [@HarshithLucky3](https://x.com/HarshithLucky3), [@TokenGremlin](https://x.com/TokenGremlin), [@SadAlbert10](https://x.com/SadAlbert10), [@maxt3chno](https://x.com/maxt3chno), [@karanC_12](https://x.com/karanC_12), [@JustinGorya](https://x.com/JustinGorya), [@kdnbmb](https://x.com/kdnbmb), [@VraserX](https://x.com/VraserX), [@jessexai_](https://x.com/jessexai_), [@theaidesk_](https://x.com/theaidesk_), [@gadi_neelesh](https://x.com/gadi_neelesh), [@Haleeeemahh](https://x.com/Haleeeemahh), [@SPAC89](https://x.com/SPAC89), [@VeknQAQ](https://x.com/VeknQAQ), [@Aurora0x3f](https://x.com/Aurora0x3f), [@bei351009016](https://x.com/bei351009016), [@Stargridcompass](https://x.com/Stargridcompass), [@iamtheQwen](https://x.com/iamtheQwen), [@voxelbench](https://x.com/voxelbench), [@sshayahmet](https://x.com/sshayahmet), [@TimJayas](https://x.com/TimJayas), [@lucian__03](https://x.com/lucian__03), [@camperaigg](https://x.com/camperaigg), [@nickbaumann_](https://x.com/nickbaumann_), [@thtbee_](https://x.com/thtbee_), [@DeryaTR_](https://x.com/DeryaTR_), [@banteg](https://x.com/banteg), [@Leviwoyun](https://x.com/Leviwoyun), [@browser_use](https://x.com/browser_use), [@simonw](https://x.com/simonw), [@perplexity_ai](https://x.com/perplexity_ai), [@_3912657840](https://x.com/_3912657840), [@fawnunwrap](https://x.com/fawnunwrap), [@Angaisb_](https://x.com/Angaisb_), [@jony_palino](https://x.com/jony_palino), [@notjazii](https://x.com/notjazii), [@noclipepe](https://x.com/noclipepe), [@Super_Nius](https://x.com/Super_Nius), [@maxbittker](https://x.com/maxbittker), [@morsenxxx](https://x.com/morsenxxx), [@AdamHoltererer](https://x.com/AdamHoltererer), [@Clad3815](https://x.com/Clad3815), [@N1njaCodex](https://x.com/N1njaCodex), [@CodeByNZ](https://x.com/CodeByNZ), [@DanielZambrini](https://x.com/DanielZambrini), [@RezAIT00](https://x.com/RezAIT00), [@LuminaBench](https://x.com/LuminaBench), [@Jason85885174](https://x.com/Jason85885174), [@mspd4100](https://x.com/mspd4100), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@simonw](https://news.ycombinator.com/user?id=simonw), [@Fei2411](https://x.com/Fei2411), [@arena](https://x.com/arena), [@jan_volad](https://x.com/jan_volad), [@eliadele](https://x.com/eliadele), [@monkeys_im](https://x.com/monkeys_im), [@rotejin](https://x.com/rotejin), [@jetbrains](https://x.com/jetbrains), [@UFO2002616](https://x.com/UFO2002616), [@argofowl](https://x.com/argofowl), [@Kombaico](https://x.com/Kombaico), [@shinshin86](https://x.com/shinshin86), [@PawelJLisowski](https://x.com/PawelJLisowski), [@alohaproxy](https://x.com/alohaproxy), [@masahirochaen](https://x.com/masahirochaen), [@mylesBaiM](https://x.com/mylesBaiM), [@exploraX_](https://x.com/exploraX_), [@One2xDatalab](https://x.com/One2xDatalab), [@798145343h](https://x.com/798145343h), [@xKaka1456](https://x.com/xKaka1456), [@op7418](https://x.com/op7418), [@aura_uniiiii](https://x.com/aura_uniiiii), [@shinya_creative](https://x.com/shinya_creative), [@muratcan](https://x.com/muratcan), [@suna_gaku](https://x.com/suna_gaku), [@teddyaisi](https://x.com/teddyaisi), [@0xkhalid7](https://x.com/0xkhalid7), [@shownotover](https://x.com/shownotover), [@andonlabs](https://x.com/andonlabs), [@MatthewBerman](https://x.com/MatthewBerman), [@Hesamation](https://x.com/Hesamation), [@WeAreLegora](https://x.com/WeAreLegora), [@XploreAi](https://x.com/XploreAi), [@patience_cave](https://x.com/patience_cave), [@aidigest_](https://x.com/aidigest_), [@erhanmeydan](https://x.com/erhanmeydan), [@aapakari](https://x.com/aapakari)
+[@Avenoxai](https://x.com/Avenoxai), [@kimmonismus](https://x.com/kimmonismus), [@imjustnewatai](https://x.com/imjustnewatai), [@Khazix0918](https://x.com/Khazix0918), [@marcthecreatorr](https://x.com/marcthecreatorr), [@Bhavani_00007](https://x.com/Bhavani_00007), [@JustLingonberry](https://x.com/JustLingonberry), [@Mr_Salio](https://x.com/Mr_Salio), [@aGim_asf](https://x.com/aGim_asf), [@0x0SojalSec](https://x.com/0x0SojalSec), [@pengsonal](https://x.com/pengsonal), [@GeekCatX](https://x.com/GeekCatX), [@Ananth7e](https://x.com/Ananth7e), [@EnvolDev](https://x.com/EnvolDev), [@xbquan](https://x.com/xbquan), [@SahilPanhotra](https://x.com/SahilPanhotra), [@rubenssoto_ai](https://x.com/rubenssoto_ai), [@vikktorrrre](https://x.com/vikktorrrre), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@Cayden970207](https://x.com/Cayden970207), [@HarshithLucky3](https://x.com/HarshithLucky3), [@TokenGremlin](https://x.com/TokenGremlin), [@SadAlbert10](https://x.com/SadAlbert10), [@maxt3chno](https://x.com/maxt3chno), [@karanC_12](https://x.com/karanC_12), [@JustinGorya](https://x.com/JustinGorya), [@kdnbmb](https://x.com/kdnbmb), [@VraserX](https://x.com/VraserX), [@jessexai_](https://x.com/jessexai_), [@theaidesk_](https://x.com/theaidesk_), [@gadi_neelesh](https://x.com/gadi_neelesh), [@Haleeeemahh](https://x.com/Haleeeemahh), [@SPAC89](https://x.com/SPAC89), [@VeknQAQ](https://x.com/VeknQAQ), [@Aurora0x3f](https://x.com/Aurora0x3f), [@bei351009016](https://x.com/bei351009016), [@Stargridcompass](https://x.com/Stargridcompass), [@iamtheQwen](https://x.com/iamtheQwen), [@voxelbench](https://x.com/voxelbench), [@sshayahmet](https://x.com/sshayahmet), [@TimJayas](https://x.com/TimJayas), [@lucian__03](https://x.com/lucian__03), [@camperaigg](https://x.com/camperaigg), [@nickbaumann_](https://x.com/nickbaumann_), [@thtbee_](https://x.com/thtbee_), [@DeryaTR_](https://x.com/DeryaTR_), [@banteg](https://x.com/banteg), [@Leviwoyun](https://x.com/Leviwoyun), [@browser_use](https://x.com/browser_use), [@simonw](https://x.com/simonw), [@perplexity_ai](https://x.com/perplexity_ai), [@_3912657840](https://x.com/_3912657840), [@fawnunwrap](https://x.com/fawnunwrap), [@Angaisb_](https://x.com/Angaisb_), [@jony_palino](https://x.com/jony_palino), [@notjazii](https://x.com/notjazii), [@noclipepe](https://x.com/noclipepe), [@Super_Nius](https://x.com/Super_Nius), [@maxbittker](https://x.com/maxbittker), [@morsenxxx](https://x.com/morsenxxx), [@AdamHoltererer](https://x.com/AdamHoltererer), [@Clad3815](https://x.com/Clad3815), [@N1njaCodex](https://x.com/N1njaCodex), [@CodeByNZ](https://x.com/CodeByNZ), [@DanielZambrini](https://x.com/DanielZambrini), [@RezAIT00](https://x.com/RezAIT00), [@LuminaBench](https://x.com/LuminaBench), [@Jason85885174](https://x.com/Jason85885174), [@mspd4100](https://x.com/mspd4100), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@simonw](https://news.ycombinator.com/user?id=simonw), [@Fei2411](https://x.com/Fei2411), [@arena](https://x.com/arena), [@jan_volad](https://x.com/jan_volad), [@eliadele](https://x.com/eliadele), [@monkeys_im](https://x.com/monkeys_im), [@rotejin](https://x.com/rotejin), [@jetbrains](https://x.com/jetbrains), [@UFO2002616](https://x.com/UFO2002616), [@argofowl](https://x.com/argofowl), [@Kombaico](https://x.com/Kombaico), [@shinshin86](https://x.com/shinshin86), [@PawelJLisowski](https://x.com/PawelJLisowski), [@alohaproxy](https://x.com/alohaproxy), [@masahirochaen](https://x.com/masahirochaen), [@mylesBaiM](https://x.com/mylesBaiM), [@exploraX_](https://x.com/exploraX_), [@One2xDatalab](https://x.com/One2xDatalab), [@798145343h](https://x.com/798145343h), [@xKaka1456](https://x.com/xKaka1456), [@op7418](https://x.com/op7418), [@aura_uniiiii](https://x.com/aura_uniiiii), [@shinya_creative](https://x.com/shinya_creative), [@muratcan](https://x.com/muratcan), [@suna_gaku](https://x.com/suna_gaku), [@teddyaisi](https://x.com/teddyaisi), [@0xkhalid7](https://x.com/0xkhalid7), [@shownotover](https://x.com/shownotover), [@andonlabs](https://x.com/andonlabs), [@MatthewBerman](https://x.com/MatthewBerman), [@Hesamation](https://x.com/Hesamation), [@WeAreLegora](https://x.com/WeAreLegora), [@XploreAi](https://x.com/XploreAi), [@patience_cave](https://x.com/patience_cave), [@aidigest_](https://x.com/aidigest_), [@erhanmeydan](https://x.com/erhanmeydan), [@aapakari](https://x.com/aapakari), [@jerryjliu0](https://x.com/jerryjliu0), [@joshzqin](https://x.com/joshzqin), [@DesignArena](https://x.com/DesignArena), [@boringmarketer](https://x.com/boringmarketer), [@sriramkiron](https://x.com/sriramkiron), [@GeppiiKameWorks](https://x.com/GeppiiKameWorks), [@rails](https://x.com/rails), [@CodeRabbit](https://www.coderabbit.ai/), [@givros](https://x.com/givros), [@KrishnaBuildsAI](https://x.com/KrishnaBuildsAI), [@cfenghub](https://x.com/cfenghub), [@MelissaKampers](https://x.com/MelissaKampers), [@fankaishuoai](https://x.com/fankaishuoai), [@guilippert_v4](https://x.com/guilippert_v4), [@null_decimal](https://x.com/null_decimal), [@risui1012](https://x.com/risui1012), [@bangbuilds](https://x.com/bangbuilds), [@hone_sns](https://x.com/hone_sns), [@Rin_4ever_](https://x.com/Rin_4ever_)
 
 *Please open a source correction issue for attribution or removal requests.*
