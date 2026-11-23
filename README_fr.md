@@ -18,7 +18,7 @@
 <a id="overview"></a>
 ## 📊 Aperçu
 
-- **202 cas d’usage · GPT-6.2 Sol**. La collection réunit 202 publications originales. Parmi elles, 197 présentent des résultats et cinq documentent des limites. Vingt-cinq reproduisent le prompt exact dans sa langue d’origine.
+- **208 cas d’usage · GPT-6.2 Sol**. La collection réunit 208 publications originales. Parmi elles, 203 présentent des résultats et cinq documentent des limites. Vingt-cinq reproduisent le prompt exact dans sa langue d’origine.
 - Scènes et modélisation 3D · Graphismes et animations créatifs · Sites Web et interfaces · Développement de jeux · Utilisation de l'ordinateur et peinture · Utilisation de l'ordinateur et communication
 - Chaque fiche indique la publication originale, son auteur, la date, le type de preuve et le résultat visible.
 - Utilisez l’invite publique lorsqu’elle est disponible. Conservez l’entrée d’origine lors de la comparaison des résultats.
@@ -44,6 +44,11 @@
 | [Démarrage rapide](#quick-start) | Navigation | Démarrage rapide | — |
 | [Dépôts associés](#related-repositories) | Navigation | Dépôts associés | — |
 | [Remerciements](#acknowledge) | Navigation | Remerciements | — |
+| [Cas 203. Un visage de personnage qui cligne des yeux dans Blender](#case-203) | [Scènes et modélisation 3D](#category-three) | Construisez d’abord le visage à plat, puis ajustez le maillage à une référence en trois dimensions. | Demo |
+| [Cas 204. Un sanctuaire écarlate](#case-204) | [Scènes et modélisation 3D](#category-three) | Examinez le terrain, les bâtiments et les mouvements de caméra dans un prototype de décor. | Demo |
+| [Cas 205. Conception de diapositives pour une même intervention](#case-205) | [Utilisation de l'ordinateur et communication](#category-communication) | Comparez la mise en page d’une diapositive par les modèles à partir d’un contenu de présentation identique. | Evaluation |
+| [Cas 206. Un quartier flottant créé en code](#case-206) | [Scènes et modélisation 3D](#category-three) | Examinez comment la scène réunit le terrain, les voies et les bâtiments sur une petite île. | Demo |
+| [Cas 207. Les itérations de Yakiimo Catch dans Remix](#case-207) | [Développement de jeux](#category-game) | Conservez les mécaniques du jeu pendant que vous retravaillez les personnages et le décor. | Demo |
 | [Cas 186. Une vallée traversée par un aqueduc](#case-186) | [Scènes et modélisation 3D](#category-three) | Voyez comment un flux de travail dans Blender permet de transférer un vaste paysage dans Three.js. | Demo |
 | [Cas 187. Génération d’une image pour une simple addition](#case-187) | [Utilisation de l'ordinateur et communication](#category-communication) | Évaluez séparément l’usage inattendu d’un outil et l’exactitude de la réponse finale. | Limit |
 | [Cas 188. Huit lieux de séries télévisées reconstruits dans Minecraft](#case-188) | [Développement de jeux](#category-game) | Comparez l’agencement des lieux reconnaissables et le temps de construction dans deux versions du monde de jeu. | Evaluation |
@@ -74,6 +79,7 @@
 | [Cas 160. Deux prototypes de jeu à la première personne dans Codex](#case-160) | [Développement de jeux](#category-game) | Comparez la disposition du niveau et l’expérience de jeu en tenant compte du coût indiqué. | Evaluation |
 | [Cas 161. Un jeu dans un village paisible avec des éléments créés dans Blender](#case-161) | [Développement de jeux](#category-game) | Observez comment les objets modélisés et l’animation se combinent dans une scène de jeu. | Demo |
 | [Cas 162. Des plans d’appartements à partir de photos d’intérieur](#case-162) | [Scènes et modélisation 3D](#category-three) | Évaluez si un agent peut déduire la disposition des pièces à partir de photographies. | Benchmark |
+| [Cas 208. Un Slinky sur un escalier mécanique qui monte](#case-208) | [Scènes et modélisation 3D](#category-three) | Comparez comment les simulations physiques représentent un ressort et des marches en mouvement. | Benchmark |
 | [Cas 163. Coupes de dialogue dans une vidéo face caméra](#case-163) | [Graphismes et animations créatifs](#category-graphics) | Comparez le temps de montage, le score global et les types de coupes qui échouent. | Benchmark |
 | [Cas 164. Deux projets d’architecture pour un siège social](#case-164) | [Scènes et modélisation 3D](#category-three) | Comparez les bâtiments et le cadrage pour une même consigne de conception ouverte. | Evaluation |
 | [Cas 165. Gérer une colonie dans Crusader Bench](#case-165) | [Développement de jeux](#category-game) | Comparez le jeu des agents sur les mêmes cartes évaluées et dans les mêmes conditions. | Benchmark |
@@ -250,6 +256,51 @@
 <a id="category-three"></a>
 ## 🧊 Scènes et modélisation 3D
 
+<a id="case-203"></a>
+### Cas 203: [Un visage de personnage qui cligne des yeux dans Blender](https://x.com/luta_ai/status/2124784905137881529) (par [@luta_ai](https://x.com/luta_ai))
+
+**Construisez d’abord le visage à plat, puis ajustez le maillage à une référence en trois dimensions.**
+
+L’auteur est parti de 74 faces quadrangulaires sur la moitié de la vue de face, puis a affiné le relief et les paupières avec Sol dans Codex. Il indique avoir passé deux jours à procéder par essais et erreurs.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2124784661377478656-da58f408dd81094a3d8f.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-203/2124784661377478656-poster-2c2348745540b5142e6c.jpg" width="640" alt="Aperçu des sources 1 · Un visage de personnage qui cligne des yeux dans Blender"></a>
+
+[Lire la vidéo de démonstration](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2124784661377478656-da58f408dd81094a3d8f.mp4)
+
+Type: Demo | Date: 2026-11-23
+
+---
+
+<a id="case-204"></a>
+### Cas 204: [Un sanctuaire écarlate](https://x.com/givros/status/2124583766765252833) (par [@givros](https://x.com/givros))
+
+**Examinez le terrain, les bâtiments et les mouvements de caméra dans un prototype de décor.**
+
+L’auteur a publié un survol de Crimson Sanctuary et indique que l’essai avec Sol Ultra a duré 47 minutes et 52 secondes.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2124583099346329601-2c732231f7ded8999158.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-204/2124583099346329601-poster-61d19411abfe45717419.jpg" width="640" alt="Aperçu des sources 1 · Un sanctuaire écarlate"></a>
+
+[Lire la vidéo de démonstration](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2124583099346329601-2c732231f7ded8999158.mp4)
+
+Type: Demo | Date: 2026-11-22
+
+---
+
+<a id="case-206"></a>
+### Cas 206: [Un quartier flottant créé en code](https://x.com/Mr_Salio/status/2124514939410726971) (par [@Mr_Salio](https://x.com/Mr_Salio))
+
+**Examinez comment la scène réunit le terrain, les voies et les bâtiments sur une petite île.**
+
+L’auteur attribue à Sol la scène créée entièrement en code. La vidéo survole des bâtiments et une route sur une île flottante bordée d’eau turquoise.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2124514864982831104-307974ce5f7aa8ff2895.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-206/2124514864982831104-poster-05bbf030b48f88b5c182.jpg" width="640" alt="Aperçu des sources 1 · Un quartier flottant créé en code"></a>
+
+[Lire la vidéo de démonstration](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2124514864982831104-307974ce5f7aa8ff2895.mp4)
+
+Type: Demo | Date: 2026-11-22
+
+---
+
 <a id="case-186"></a>
 ### Cas 186: [Une vallée traversée par un aqueduc](https://x.com/givros/status/2124404063802429838) (par [@givros](https://x.com/givros))
 
@@ -409,6 +460,23 @@ Andon Labs annonce un score normalisé de 0,570 pour Sol sur Blueprint-Bench 2. 
 [Détails de l’évaluation](https://andonlabs.com/evals/blueprint-bench-2)
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-162/2123570697356390400-74a2a8af091dad776138.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-162/2123570697356390400-74a2a8af091dad776138.jpg" width="640" alt="Aperçu des sources 1 · Des plans d’appartements à partir de photos d’intérieur"></a>
+
+Type: Benchmark | Date: 2026-11-20
+
+---
+
+<a id="case-208"></a>
+### Cas 208: [Un Slinky sur un escalier mécanique qui monte](https://morethanamachine.com/posts/slinky-escalator-benchmark/) (par [@reddmachine](https://morethanamachine.com/authors/nishaanth-reddy/))
+
+**Comparez comment les simulations physiques représentent un ressort et des marches en mouvement.**
+
+Nishaanth Reddy a testé 15 modèles avec le même prompt et sans retouche manuelle. L’essai publié avec Sol au niveau xhigh a duré 11 minutes et coûté 0,55 dollar.
+
+[Prompt original](https://morethanamachine.com/posts/slinky-escalator-benchmark/#00-the-prompt)
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/slinky-50597156-gpt-6-2-sol-c631fbadf0fde8e0c6bc.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-208/slinky-50597156-gpt-6-2-sol-poster-c39bd9b45bf51f0a7b66.jpg" width="640" alt="Aperçu des sources 1 · Un Slinky sur un escalier mécanique qui monte"></a>
+
+[Lire la vidéo de démonstration](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/slinky-50597156-gpt-6-2-sol-c631fbadf0fde8e0c6bc.mp4)
 
 Type: Benchmark | Date: 2026-11-20
 
@@ -1847,6 +1915,23 @@ Type: Demo | Date: 2026-11-08
 <a id="category-communication"></a>
 ## 💬 Utilisation de l'ordinateur et communication
 
+<a id="case-205"></a>
+### Cas 205: [Conception de diapositives pour une même intervention](https://x.com/fankaishuoai/status/2124532226016874920) (par [@fankaishuoai](https://x.com/fankaishuoai))
+
+**Comparez la mise en page d’une diapositive par les modèles à partir d’un contenu de présentation identique.**
+
+L’auteur a généré des présentations PPTX à partir de la même intervention et a publié la diapositive correspondante de trois modèles. Il a jugé la présentation de Sol utilisable et choisi la version d’Opus 5.5.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-205/2124529933691367424-9a74ba277ef97734eb7c.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-205/2124529933691367424-9a74ba277ef97734eb7c.jpg" width="640" alt="Aperçu des sources 1 · Conception de diapositives pour une même intervention"></a>
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-205/2124529933691363329-81e61a39a6a01849c140.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-205/2124529933691363329-81e61a39a6a01849c140.jpg" width="640" alt="Aperçu des sources 2 · Conception de diapositives pour une même intervention"></a>
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-205/2124529933695467520-5654e7ea3275312ea0e0.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-205/2124529933695467520-5654e7ea3275312ea0e0.jpg" width="640" alt="Aperçu des sources 3 · Conception de diapositives pour une même intervention"></a>
+
+Type: Evaluation | Date: 2026-11-22
+
+---
+
 <a id="case-187"></a>
 ### Cas 187: [Génération d’une image pour une simple addition](https://x.com/KrishnaBuildsAI/status/2124374855332356527) (par [@KrishnaBuildsAI](https://x.com/KrishnaBuildsAI))
 
@@ -2076,6 +2161,21 @@ Type: Limit | Date: 2026-11-08
 
 <a id="category-game"></a>
 ## 🎮 Développement de jeux
+
+<a id="case-207"></a>
+### Cas 207: [Les itérations de Yakiimo Catch dans Remix](https://x.com/pieash4/status/2124489245343760883) (par [@pieash4](https://x.com/pieash4))
+
+**Conservez les mécaniques du jeu pendant que vous retravaillez les personnages et le décor.**
+
+L’auteur a partagé ses premiers retours et des images du jeu en action. Il indique avoir publié Yakiimo Catch après cinq messages répartis sur cinq jours avec Sol dans Remix.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2124489207225974784-9542628eaf6a91655ad1.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-207/2124489207225974784-poster-b930d7c936113ee0a24f.jpg" width="640" alt="Aperçu des sources 1 · Les itérations de Yakiimo Catch dans Remix"></a>
+
+[Lire la vidéo de démonstration](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2124489207225974784-9542628eaf6a91655ad1.mp4)
+
+Type: Demo | Date: 2026-11-22
+
+---
 
 <a id="case-188"></a>
 ### Cas 188: [Huit lieux de séries télévisées reconstruits dans Minecraft](https://x.com/jan_volad/status/2124308264456233400) (par [@jan_volad](https://x.com/jan_volad))
@@ -3520,6 +3620,6 @@ Type: Demo | Date: 2026-11-08
 
 Merci aux créateurs qui ont partagé ces expériences. Les œuvres et supports liés appartiennent à leurs créateurs respectifs.
 
-[@Avenoxai](https://x.com/Avenoxai), [@kimmonismus](https://x.com/kimmonismus), [@imjustnewatai](https://x.com/imjustnewatai), [@Khazix0918](https://x.com/Khazix0918), [@marcthecreatorr](https://x.com/marcthecreatorr), [@Bhavani_00007](https://x.com/Bhavani_00007), [@JustLingonberry](https://x.com/JustLingonberry), [@Mr_Salio](https://x.com/Mr_Salio), [@aGim_asf](https://x.com/aGim_asf), [@0x0SojalSec](https://x.com/0x0SojalSec), [@pengsonal](https://x.com/pengsonal), [@GeekCatX](https://x.com/GeekCatX), [@Ananth7e](https://x.com/Ananth7e), [@EnvolDev](https://x.com/EnvolDev), [@xbquan](https://x.com/xbquan), [@SahilPanhotra](https://x.com/SahilPanhotra), [@rubenssoto_ai](https://x.com/rubenssoto_ai), [@vikktorrrre](https://x.com/vikktorrrre), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@Cayden970207](https://x.com/Cayden970207), [@HarshithLucky3](https://x.com/HarshithLucky3), [@TokenGremlin](https://x.com/TokenGremlin), [@SadAlbert10](https://x.com/SadAlbert10), [@maxt3chno](https://x.com/maxt3chno), [@karanC_12](https://x.com/karanC_12), [@JustinGorya](https://x.com/JustinGorya), [@kdnbmb](https://x.com/kdnbmb), [@VraserX](https://x.com/VraserX), [@jessexai_](https://x.com/jessexai_), [@theaidesk_](https://x.com/theaidesk_), [@gadi_neelesh](https://x.com/gadi_neelesh), [@Haleeeemahh](https://x.com/Haleeeemahh), [@SPAC89](https://x.com/SPAC89), [@VeknQAQ](https://x.com/VeknQAQ), [@Aurora0x3f](https://x.com/Aurora0x3f), [@bei351009016](https://x.com/bei351009016), [@Stargridcompass](https://x.com/Stargridcompass), [@iamtheQwen](https://x.com/iamtheQwen), [@voxelbench](https://x.com/voxelbench), [@sshayahmet](https://x.com/sshayahmet), [@TimJayas](https://x.com/TimJayas), [@lucian__03](https://x.com/lucian__03), [@camperaigg](https://x.com/camperaigg), [@nickbaumann_](https://x.com/nickbaumann_), [@thtbee_](https://x.com/thtbee_), [@DeryaTR_](https://x.com/DeryaTR_), [@banteg](https://x.com/banteg), [@Leviwoyun](https://x.com/Leviwoyun), [@browser_use](https://x.com/browser_use), [@simonw](https://x.com/simonw), [@perplexity_ai](https://x.com/perplexity_ai), [@_3912657840](https://x.com/_3912657840), [@fawnunwrap](https://x.com/fawnunwrap), [@Angaisb_](https://x.com/Angaisb_), [@jony_palino](https://x.com/jony_palino), [@notjazii](https://x.com/notjazii), [@noclipepe](https://x.com/noclipepe), [@Super_Nius](https://x.com/Super_Nius), [@maxbittker](https://x.com/maxbittker), [@morsenxxx](https://x.com/morsenxxx), [@AdamHoltererer](https://x.com/AdamHoltererer), [@Clad3815](https://x.com/Clad3815), [@N1njaCodex](https://x.com/N1njaCodex), [@CodeByNZ](https://x.com/CodeByNZ), [@DanielZambrini](https://x.com/DanielZambrini), [@RezAIT00](https://x.com/RezAIT00), [@LuminaBench](https://x.com/LuminaBench), [@Jason85885174](https://x.com/Jason85885174), [@mspd4100](https://x.com/mspd4100), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@simonw](https://news.ycombinator.com/user?id=simonw), [@Fei2411](https://x.com/Fei2411), [@arena](https://x.com/arena), [@jan_volad](https://x.com/jan_volad), [@eliadele](https://x.com/eliadele), [@monkeys_im](https://x.com/monkeys_im), [@rotejin](https://x.com/rotejin), [@jetbrains](https://x.com/jetbrains), [@UFO2002616](https://x.com/UFO2002616), [@argofowl](https://x.com/argofowl), [@Kombaico](https://x.com/Kombaico), [@shinshin86](https://x.com/shinshin86), [@PawelJLisowski](https://x.com/PawelJLisowski), [@alohaproxy](https://x.com/alohaproxy), [@masahirochaen](https://x.com/masahirochaen), [@mylesBaiM](https://x.com/mylesBaiM), [@exploraX_](https://x.com/exploraX_), [@One2xDatalab](https://x.com/One2xDatalab), [@798145343h](https://x.com/798145343h), [@xKaka1456](https://x.com/xKaka1456), [@op7418](https://x.com/op7418), [@aura_uniiiii](https://x.com/aura_uniiiii), [@shinya_creative](https://x.com/shinya_creative), [@muratcan](https://x.com/muratcan), [@suna_gaku](https://x.com/suna_gaku), [@teddyaisi](https://x.com/teddyaisi), [@0xkhalid7](https://x.com/0xkhalid7), [@shownotover](https://x.com/shownotover), [@andonlabs](https://x.com/andonlabs), [@MatthewBerman](https://x.com/MatthewBerman), [@Hesamation](https://x.com/Hesamation), [@WeAreLegora](https://x.com/WeAreLegora), [@XploreAi](https://x.com/XploreAi), [@patience_cave](https://x.com/patience_cave), [@aidigest_](https://x.com/aidigest_), [@erhanmeydan](https://x.com/erhanmeydan), [@aapakari](https://x.com/aapakari), [@jerryjliu0](https://x.com/jerryjliu0), [@joshzqin](https://x.com/joshzqin), [@DesignArena](https://x.com/DesignArena), [@boringmarketer](https://x.com/boringmarketer), [@sriramkiron](https://x.com/sriramkiron), [@GeppiiKameWorks](https://x.com/GeppiiKameWorks), [@rails](https://x.com/rails), [@CodeRabbit](https://www.coderabbit.ai/), [@givros](https://x.com/givros), [@KrishnaBuildsAI](https://x.com/KrishnaBuildsAI), [@cfenghub](https://x.com/cfenghub), [@MelissaKampers](https://x.com/MelissaKampers), [@fankaishuoai](https://x.com/fankaishuoai), [@guilippert_v4](https://x.com/guilippert_v4), [@null_decimal](https://x.com/null_decimal), [@risui1012](https://x.com/risui1012), [@bangbuilds](https://x.com/bangbuilds), [@hone_sns](https://x.com/hone_sns), [@Rin_4ever_](https://x.com/Rin_4ever_)
+[@Avenoxai](https://x.com/Avenoxai), [@kimmonismus](https://x.com/kimmonismus), [@imjustnewatai](https://x.com/imjustnewatai), [@Khazix0918](https://x.com/Khazix0918), [@marcthecreatorr](https://x.com/marcthecreatorr), [@Bhavani_00007](https://x.com/Bhavani_00007), [@JustLingonberry](https://x.com/JustLingonberry), [@Mr_Salio](https://x.com/Mr_Salio), [@aGim_asf](https://x.com/aGim_asf), [@0x0SojalSec](https://x.com/0x0SojalSec), [@pengsonal](https://x.com/pengsonal), [@GeekCatX](https://x.com/GeekCatX), [@Ananth7e](https://x.com/Ananth7e), [@EnvolDev](https://x.com/EnvolDev), [@xbquan](https://x.com/xbquan), [@SahilPanhotra](https://x.com/SahilPanhotra), [@rubenssoto_ai](https://x.com/rubenssoto_ai), [@vikktorrrre](https://x.com/vikktorrrre), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@Cayden970207](https://x.com/Cayden970207), [@HarshithLucky3](https://x.com/HarshithLucky3), [@TokenGremlin](https://x.com/TokenGremlin), [@SadAlbert10](https://x.com/SadAlbert10), [@maxt3chno](https://x.com/maxt3chno), [@karanC_12](https://x.com/karanC_12), [@JustinGorya](https://x.com/JustinGorya), [@kdnbmb](https://x.com/kdnbmb), [@VraserX](https://x.com/VraserX), [@jessexai_](https://x.com/jessexai_), [@theaidesk_](https://x.com/theaidesk_), [@gadi_neelesh](https://x.com/gadi_neelesh), [@Haleeeemahh](https://x.com/Haleeeemahh), [@SPAC89](https://x.com/SPAC89), [@VeknQAQ](https://x.com/VeknQAQ), [@Aurora0x3f](https://x.com/Aurora0x3f), [@bei351009016](https://x.com/bei351009016), [@Stargridcompass](https://x.com/Stargridcompass), [@iamtheQwen](https://x.com/iamtheQwen), [@voxelbench](https://x.com/voxelbench), [@sshayahmet](https://x.com/sshayahmet), [@TimJayas](https://x.com/TimJayas), [@lucian__03](https://x.com/lucian__03), [@camperaigg](https://x.com/camperaigg), [@nickbaumann_](https://x.com/nickbaumann_), [@thtbee_](https://x.com/thtbee_), [@DeryaTR_](https://x.com/DeryaTR_), [@banteg](https://x.com/banteg), [@Leviwoyun](https://x.com/Leviwoyun), [@browser_use](https://x.com/browser_use), [@simonw](https://x.com/simonw), [@perplexity_ai](https://x.com/perplexity_ai), [@_3912657840](https://x.com/_3912657840), [@fawnunwrap](https://x.com/fawnunwrap), [@Angaisb_](https://x.com/Angaisb_), [@jony_palino](https://x.com/jony_palino), [@notjazii](https://x.com/notjazii), [@noclipepe](https://x.com/noclipepe), [@Super_Nius](https://x.com/Super_Nius), [@maxbittker](https://x.com/maxbittker), [@morsenxxx](https://x.com/morsenxxx), [@AdamHoltererer](https://x.com/AdamHoltererer), [@Clad3815](https://x.com/Clad3815), [@N1njaCodex](https://x.com/N1njaCodex), [@CodeByNZ](https://x.com/CodeByNZ), [@DanielZambrini](https://x.com/DanielZambrini), [@RezAIT00](https://x.com/RezAIT00), [@LuminaBench](https://x.com/LuminaBench), [@Jason85885174](https://x.com/Jason85885174), [@mspd4100](https://x.com/mspd4100), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@simonw](https://news.ycombinator.com/user?id=simonw), [@Fei2411](https://x.com/Fei2411), [@arena](https://x.com/arena), [@jan_volad](https://x.com/jan_volad), [@eliadele](https://x.com/eliadele), [@monkeys_im](https://x.com/monkeys_im), [@rotejin](https://x.com/rotejin), [@jetbrains](https://x.com/jetbrains), [@UFO2002616](https://x.com/UFO2002616), [@argofowl](https://x.com/argofowl), [@Kombaico](https://x.com/Kombaico), [@shinshin86](https://x.com/shinshin86), [@PawelJLisowski](https://x.com/PawelJLisowski), [@alohaproxy](https://x.com/alohaproxy), [@masahirochaen](https://x.com/masahirochaen), [@mylesBaiM](https://x.com/mylesBaiM), [@exploraX_](https://x.com/exploraX_), [@One2xDatalab](https://x.com/One2xDatalab), [@798145343h](https://x.com/798145343h), [@xKaka1456](https://x.com/xKaka1456), [@op7418](https://x.com/op7418), [@aura_uniiiii](https://x.com/aura_uniiiii), [@shinya_creative](https://x.com/shinya_creative), [@muratcan](https://x.com/muratcan), [@suna_gaku](https://x.com/suna_gaku), [@teddyaisi](https://x.com/teddyaisi), [@0xkhalid7](https://x.com/0xkhalid7), [@shownotover](https://x.com/shownotover), [@andonlabs](https://x.com/andonlabs), [@MatthewBerman](https://x.com/MatthewBerman), [@Hesamation](https://x.com/Hesamation), [@WeAreLegora](https://x.com/WeAreLegora), [@XploreAi](https://x.com/XploreAi), [@patience_cave](https://x.com/patience_cave), [@aidigest_](https://x.com/aidigest_), [@erhanmeydan](https://x.com/erhanmeydan), [@aapakari](https://x.com/aapakari), [@jerryjliu0](https://x.com/jerryjliu0), [@joshzqin](https://x.com/joshzqin), [@DesignArena](https://x.com/DesignArena), [@boringmarketer](https://x.com/boringmarketer), [@sriramkiron](https://x.com/sriramkiron), [@GeppiiKameWorks](https://x.com/GeppiiKameWorks), [@rails](https://x.com/rails), [@CodeRabbit](https://www.coderabbit.ai/), [@givros](https://x.com/givros), [@KrishnaBuildsAI](https://x.com/KrishnaBuildsAI), [@cfenghub](https://x.com/cfenghub), [@MelissaKampers](https://x.com/MelissaKampers), [@fankaishuoai](https://x.com/fankaishuoai), [@guilippert_v4](https://x.com/guilippert_v4), [@null_decimal](https://x.com/null_decimal), [@risui1012](https://x.com/risui1012), [@bangbuilds](https://x.com/bangbuilds), [@hone_sns](https://x.com/hone_sns), [@Rin_4ever_](https://x.com/Rin_4ever_), [@luta_ai](https://x.com/luta_ai), [@pieash4](https://x.com/pieash4), [@reddmachine](https://morethanamachine.com/authors/nishaanth-reddy/)
 
 *Veuillez ouvrir un problème de correction de source pour les demandes d'attribution ou de suppression.*

@@ -18,7 +18,7 @@
 <a id="overview"></a>
 ## 📊 概要
 
-- **202 件のユースケース · GPT-6.2 Sol**. 元の投稿を202件収録しています。197件では成果を紹介し、5件では課題や制約を記録しています。25件では原文のプロンプトを確認できます。
+- **208 件のユースケース · GPT-6.2 Sol**. 元の投稿を208件収録しています。203件では成果を紹介し、5件では課題や制約を記録しています。25件では原文のプロンプトを確認できます。
 - 3D シーンとモデリング · クリエイティブなグラフィックとアニメーション · ウェブサイトとインターフェース · ゲーム開発 · パソコンの使用と絵を描くこと · コンピュータの使用とコミュニケーション
 - 各事例には、元の投稿、投稿者、日付、証拠の種類、確認できる結果を掲載しています。
 - 利用可能な場合はパブリック プロンプトを使用します。結果を比較するときは、元の入力を保持します。
@@ -44,6 +44,11 @@
 | [クイックスタート](#quick-start) | ナビゲーション | クイックスタート | — |
 | [関連リポジトリ](#related-repositories) | ナビゲーション | 関連リポジトリ | — |
 | [謝辞](#acknowledge) | ナビゲーション | 謝辞 | — |
+| [ケース 203. Blenderで作るまばたきするキャラクターの顔](#case-203) | [3D シーンとモデリング](#category-three) | まず平面で顔を作り、次に立体の参照に合わせてメッシュを調整する。 | Demo |
+| [ケース 204. 深紅の聖域を描いた3D環境](#case-204) | [3D シーンとモデリング](#category-three) | 環境の試作で、地形、建物、カメラの動きを確認する。 | Demo |
+| [ケース 205. 同じ講演を題材にしたスライドデザイン](#case-205) | [コンピュータの使用とコミュニケーション](#category-communication) | 同じ発表内容から、モデルごとにスライドのレイアウトがどう変わるかを比較する。 | Evaluation |
+| [ケース 206. コードで作った浮島の街並み](#case-206) | [3D シーンとモデリング](#category-three) | 地形、道路、建物が小さな島にどう収まっているかを見る。 | Demo |
+| [ケース 207. RemixでYakiimo Catchを改良](#case-207) | [ゲーム開発](#category-game) | ゲームの仕組みを維持しながら、キャラクターと背景を作り直す。 | Demo |
 | [ケース 186. 水道橋が渡る谷](#case-186) | [3D シーンとモデリング](#category-three) | Blenderで作った広大な風景をThree.jsに取り込む工程を見る。 | Demo |
 | [ケース 187. 簡単な足し算で画像生成を開始](#case-187) | [コンピュータの使用とコミュニケーション](#category-communication) | 最終回答の正誤と、予想外のツール使用を分けて確認する。 | Limit |
 | [ケース 188. テレビ作品に登場する8か所をMinecraftで再現](#case-188) | [ゲーム開発](#category-game) | サンドボックスで作った2つの結果について、元の場所と分かる配置や制作時間を比較する。 | Evaluation |
@@ -74,6 +79,7 @@
 | [ケース 160. Codexで作った一人称視点ゲームの2つの試作](#case-160) | [ゲーム開発](#category-game) | ステージの構成とプレイ感を、記録された費用と併せて比較する。 | Evaluation |
 | [ケース 161. Blenderの素材で作るのどかな村のゲーム](#case-161) | [ゲーム開発](#category-game) | モデリングしたオブジェクトとアニメーションがゲームのシーンでどう組み合わさるかを見る。 | Demo |
 | [ケース 162. 室内写真からマンションの間取り図を作成](#case-162) | [3D シーンとモデリング](#category-three) | エージェントが写真をもとに部屋の配置を推定できるか測る。 | Benchmark |
+| [ケース 208. 上りエスカレーターに置いたSlinky](#case-208) | [3D シーンとモデリング](#category-three) | 物理演算のシーンで、ばねと動くステップがどう扱われるか比べる。 | Benchmark |
 | [ケース 163. 話し手を映した動画の発話カット](#case-163) | [クリエイティブなグラフィックとアニメーション](#category-graphics) | 編集時間、総合スコア、失敗したカットの種類を比較する。 | Benchmark |
 | [ケース 164. 本社ビルの2つのデザイン案](#case-164) | [3D シーンとモデリング](#category-three) | 自由度の高い同じ設計指示で、建物とカメラの視点を比較する。 | Evaluation |
 | [ケース 165. Crusader Benchで集落を運営](#case-165) | [ゲーム開発](#category-game) | 採点対象のマップとゲームの条件をそろえ、エージェントのプレイを比較する。 | Benchmark |
@@ -250,6 +256,51 @@
 <a id="category-three"></a>
 ## 🧊 3D シーンとモデリング
 
+<a id="case-203"></a>
+### ケース 203: [Blenderで作るまばたきするキャラクターの顔](https://x.com/luta_ai/status/2124784905137881529) (投稿者 [@luta_ai](https://x.com/luta_ai))
+
+**まず平面で顔を作り、次に立体の参照に合わせてメッシュを調整する。**
+
+作者は正面図の片側に四角形の面を74枚配置するところから始め、CodexのSolで奥行きとまぶたを調整した。試行錯誤に2日かかったと報告した。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2124784661377478656-da58f408dd81094a3d8f.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-203/2124784661377478656-poster-2c2348745540b5142e6c.jpg" width="640" alt="ソースプレビュー 1 · Blenderで作るまばたきするキャラクターの顔"></a>
+
+[デモ動画を再生](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2124784661377478656-da58f408dd81094a3d8f.mp4)
+
+Type: Demo | Date: 2026-11-23
+
+---
+
+<a id="case-204"></a>
+### ケース 204: [深紅の聖域を描いた3D環境](https://x.com/givros/status/2124583766765252833) (投稿者 [@givros](https://x.com/givros))
+
+**環境の試作で、地形、建物、カメラの動きを確認する。**
+
+作者は「Crimson Sanctuary」の上空からの映像を公開し、Sol Ultraの実行は47分52秒だったと報告した。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2124583099346329601-2c732231f7ded8999158.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-204/2124583099346329601-poster-61d19411abfe45717419.jpg" width="640" alt="ソースプレビュー 1 · 深紅の聖域を描いた3D環境"></a>
+
+[デモ動画を再生](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2124583099346329601-2c732231f7ded8999158.mp4)
+
+Type: Demo | Date: 2026-11-22
+
+---
+
+<a id="case-206"></a>
+### ケース 206: [コードで作った浮島の街並み](https://x.com/Mr_Salio/status/2124514939410726971) (投稿者 [@Mr_Salio](https://x.com/Mr_Salio))
+
+**地形、道路、建物が小さな島にどう収まっているかを見る。**
+
+作者はSolを使い、コードだけでシーンを作ったとしている。動画では、青緑色の水に縁取られた浮島の建物と道路を上空から見渡せる。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2124514864982831104-307974ce5f7aa8ff2895.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-206/2124514864982831104-poster-05bbf030b48f88b5c182.jpg" width="640" alt="ソースプレビュー 1 · コードで作った浮島の街並み"></a>
+
+[デモ動画を再生](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2124514864982831104-307974ce5f7aa8ff2895.mp4)
+
+Type: Demo | Date: 2026-11-22
+
+---
+
 <a id="case-186"></a>
 ### ケース 186: [水道橋が渡る谷](https://x.com/givros/status/2124404063802429838) (投稿者 [@givros](https://x.com/givros))
 
@@ -409,6 +460,23 @@ Andon Labsによると、Blueprint-Bench 2でSolの正規化スコアは0.570だ
 [ベンチマークの詳細](https://andonlabs.com/evals/blueprint-bench-2)
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-162/2123570697356390400-74a2a8af091dad776138.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-162/2123570697356390400-74a2a8af091dad776138.jpg" width="640" alt="ソースプレビュー 1 · 室内写真からマンションの間取り図を作成"></a>
+
+Type: Benchmark | Date: 2026-11-20
+
+---
+
+<a id="case-208"></a>
+### ケース 208: [上りエスカレーターに置いたSlinky](https://morethanamachine.com/posts/slinky-escalator-benchmark/) (投稿者 [@reddmachine](https://morethanamachine.com/authors/nishaanth-reddy/))
+
+**物理演算のシーンで、ばねと動くステップがどう扱われるか比べる。**
+
+Nishaanth Reddyは、同じ1つのプロンプトを使い、手作業での編集なしに15モデルを試した。公開結果によると、Sol xhighの実行は11分で、費用は0.55ドルだった。
+
+[元のプロンプト](https://morethanamachine.com/posts/slinky-escalator-benchmark/#00-the-prompt)
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/slinky-50597156-gpt-6-2-sol-c631fbadf0fde8e0c6bc.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-208/slinky-50597156-gpt-6-2-sol-poster-c39bd9b45bf51f0a7b66.jpg" width="640" alt="ソースプレビュー 1 · 上りエスカレーターに置いたSlinky"></a>
+
+[デモ動画を再生](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/slinky-50597156-gpt-6-2-sol-c631fbadf0fde8e0c6bc.mp4)
 
 Type: Benchmark | Date: 2026-11-20
 
@@ -1847,6 +1915,23 @@ Type: Demo | Date: 2026-11-08
 <a id="category-communication"></a>
 ## 💬 コンピュータの使用とコミュニケーション
 
+<a id="case-205"></a>
+### ケース 205: [同じ講演を題材にしたスライドデザイン](https://x.com/fankaishuoai/status/2124532226016874920) (投稿者 [@fankaishuoai](https://x.com/fankaishuoai))
+
+**同じ発表内容から、モデルごとにスライドのレイアウトがどう変わるかを比較する。**
+
+作者は1つの講演をもとにPPTXの資料を生成し、3つのモデルから対応するスライドを1枚ずつ公開した。Solの資料は使える出来だと判断し、Opus 5.5版を選んだ。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-205/2124529933691367424-9a74ba277ef97734eb7c.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-205/2124529933691367424-9a74ba277ef97734eb7c.jpg" width="640" alt="ソースプレビュー 1 · 同じ講演を題材にしたスライドデザイン"></a>
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-205/2124529933691363329-81e61a39a6a01849c140.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-205/2124529933691363329-81e61a39a6a01849c140.jpg" width="640" alt="ソースプレビュー 2 · 同じ講演を題材にしたスライドデザイン"></a>
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-205/2124529933695467520-5654e7ea3275312ea0e0.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-205/2124529933695467520-5654e7ea3275312ea0e0.jpg" width="640" alt="ソースプレビュー 3 · 同じ講演を題材にしたスライドデザイン"></a>
+
+Type: Evaluation | Date: 2026-11-22
+
+---
+
 <a id="case-187"></a>
 ### ケース 187: [簡単な足し算で画像生成を開始](https://x.com/KrishnaBuildsAI/status/2124374855332356527) (投稿者 [@KrishnaBuildsAI](https://x.com/KrishnaBuildsAI))
 
@@ -2076,6 +2161,21 @@ Type: Limit | Date: 2026-11-08
 
 <a id="category-game"></a>
 ## 🎮 ゲーム開発
+
+<a id="case-207"></a>
+### ケース 207: [RemixでYakiimo Catchを改良](https://x.com/pieash4/status/2124489245343760883) (投稿者 [@pieash4](https://x.com/pieash4))
+
+**ゲームの仕組みを維持しながら、キャラクターと背景を作り直す。**
+
+作者は最初に伝えたフィードバックとプレイ映像を公開した。RemixでSolに5日間で5通のメッセージを送り、「Yakiimo Catch」を公開したと報告した。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2124489207225974784-9542628eaf6a91655ad1.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-207/2124489207225974784-poster-b930d7c936113ee0a24f.jpg" width="640" alt="ソースプレビュー 1 · RemixでYakiimo Catchを改良"></a>
+
+[デモ動画を再生](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2124489207225974784-9542628eaf6a91655ad1.mp4)
+
+Type: Demo | Date: 2026-11-22
+
+---
 
 <a id="case-188"></a>
 ### ケース 188: [テレビ作品に登場する8か所をMinecraftで再現](https://x.com/jan_volad/status/2124308264456233400) (投稿者 [@jan_volad](https://x.com/jan_volad))
@@ -3520,6 +3620,6 @@ Type: Demo | Date: 2026-11-08
 
 これらの実験を共有してくれたクリエイターに感謝します。リンクされた作品およびメディアは、それぞれの作成者に帰属します。
 
-[@Avenoxai](https://x.com/Avenoxai), [@kimmonismus](https://x.com/kimmonismus), [@imjustnewatai](https://x.com/imjustnewatai), [@Khazix0918](https://x.com/Khazix0918), [@marcthecreatorr](https://x.com/marcthecreatorr), [@Bhavani_00007](https://x.com/Bhavani_00007), [@JustLingonberry](https://x.com/JustLingonberry), [@Mr_Salio](https://x.com/Mr_Salio), [@aGim_asf](https://x.com/aGim_asf), [@0x0SojalSec](https://x.com/0x0SojalSec), [@pengsonal](https://x.com/pengsonal), [@GeekCatX](https://x.com/GeekCatX), [@Ananth7e](https://x.com/Ananth7e), [@EnvolDev](https://x.com/EnvolDev), [@xbquan](https://x.com/xbquan), [@SahilPanhotra](https://x.com/SahilPanhotra), [@rubenssoto_ai](https://x.com/rubenssoto_ai), [@vikktorrrre](https://x.com/vikktorrrre), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@Cayden970207](https://x.com/Cayden970207), [@HarshithLucky3](https://x.com/HarshithLucky3), [@TokenGremlin](https://x.com/TokenGremlin), [@SadAlbert10](https://x.com/SadAlbert10), [@maxt3chno](https://x.com/maxt3chno), [@karanC_12](https://x.com/karanC_12), [@JustinGorya](https://x.com/JustinGorya), [@kdnbmb](https://x.com/kdnbmb), [@VraserX](https://x.com/VraserX), [@jessexai_](https://x.com/jessexai_), [@theaidesk_](https://x.com/theaidesk_), [@gadi_neelesh](https://x.com/gadi_neelesh), [@Haleeeemahh](https://x.com/Haleeeemahh), [@SPAC89](https://x.com/SPAC89), [@VeknQAQ](https://x.com/VeknQAQ), [@Aurora0x3f](https://x.com/Aurora0x3f), [@bei351009016](https://x.com/bei351009016), [@Stargridcompass](https://x.com/Stargridcompass), [@iamtheQwen](https://x.com/iamtheQwen), [@voxelbench](https://x.com/voxelbench), [@sshayahmet](https://x.com/sshayahmet), [@TimJayas](https://x.com/TimJayas), [@lucian__03](https://x.com/lucian__03), [@camperaigg](https://x.com/camperaigg), [@nickbaumann_](https://x.com/nickbaumann_), [@thtbee_](https://x.com/thtbee_), [@DeryaTR_](https://x.com/DeryaTR_), [@banteg](https://x.com/banteg), [@Leviwoyun](https://x.com/Leviwoyun), [@browser_use](https://x.com/browser_use), [@simonw](https://x.com/simonw), [@perplexity_ai](https://x.com/perplexity_ai), [@_3912657840](https://x.com/_3912657840), [@fawnunwrap](https://x.com/fawnunwrap), [@Angaisb_](https://x.com/Angaisb_), [@jony_palino](https://x.com/jony_palino), [@notjazii](https://x.com/notjazii), [@noclipepe](https://x.com/noclipepe), [@Super_Nius](https://x.com/Super_Nius), [@maxbittker](https://x.com/maxbittker), [@morsenxxx](https://x.com/morsenxxx), [@AdamHoltererer](https://x.com/AdamHoltererer), [@Clad3815](https://x.com/Clad3815), [@N1njaCodex](https://x.com/N1njaCodex), [@CodeByNZ](https://x.com/CodeByNZ), [@DanielZambrini](https://x.com/DanielZambrini), [@RezAIT00](https://x.com/RezAIT00), [@LuminaBench](https://x.com/LuminaBench), [@Jason85885174](https://x.com/Jason85885174), [@mspd4100](https://x.com/mspd4100), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@simonw](https://news.ycombinator.com/user?id=simonw), [@Fei2411](https://x.com/Fei2411), [@arena](https://x.com/arena), [@jan_volad](https://x.com/jan_volad), [@eliadele](https://x.com/eliadele), [@monkeys_im](https://x.com/monkeys_im), [@rotejin](https://x.com/rotejin), [@jetbrains](https://x.com/jetbrains), [@UFO2002616](https://x.com/UFO2002616), [@argofowl](https://x.com/argofowl), [@Kombaico](https://x.com/Kombaico), [@shinshin86](https://x.com/shinshin86), [@PawelJLisowski](https://x.com/PawelJLisowski), [@alohaproxy](https://x.com/alohaproxy), [@masahirochaen](https://x.com/masahirochaen), [@mylesBaiM](https://x.com/mylesBaiM), [@exploraX_](https://x.com/exploraX_), [@One2xDatalab](https://x.com/One2xDatalab), [@798145343h](https://x.com/798145343h), [@xKaka1456](https://x.com/xKaka1456), [@op7418](https://x.com/op7418), [@aura_uniiiii](https://x.com/aura_uniiiii), [@shinya_creative](https://x.com/shinya_creative), [@muratcan](https://x.com/muratcan), [@suna_gaku](https://x.com/suna_gaku), [@teddyaisi](https://x.com/teddyaisi), [@0xkhalid7](https://x.com/0xkhalid7), [@shownotover](https://x.com/shownotover), [@andonlabs](https://x.com/andonlabs), [@MatthewBerman](https://x.com/MatthewBerman), [@Hesamation](https://x.com/Hesamation), [@WeAreLegora](https://x.com/WeAreLegora), [@XploreAi](https://x.com/XploreAi), [@patience_cave](https://x.com/patience_cave), [@aidigest_](https://x.com/aidigest_), [@erhanmeydan](https://x.com/erhanmeydan), [@aapakari](https://x.com/aapakari), [@jerryjliu0](https://x.com/jerryjliu0), [@joshzqin](https://x.com/joshzqin), [@DesignArena](https://x.com/DesignArena), [@boringmarketer](https://x.com/boringmarketer), [@sriramkiron](https://x.com/sriramkiron), [@GeppiiKameWorks](https://x.com/GeppiiKameWorks), [@rails](https://x.com/rails), [@CodeRabbit](https://www.coderabbit.ai/), [@givros](https://x.com/givros), [@KrishnaBuildsAI](https://x.com/KrishnaBuildsAI), [@cfenghub](https://x.com/cfenghub), [@MelissaKampers](https://x.com/MelissaKampers), [@fankaishuoai](https://x.com/fankaishuoai), [@guilippert_v4](https://x.com/guilippert_v4), [@null_decimal](https://x.com/null_decimal), [@risui1012](https://x.com/risui1012), [@bangbuilds](https://x.com/bangbuilds), [@hone_sns](https://x.com/hone_sns), [@Rin_4ever_](https://x.com/Rin_4ever_)
+[@Avenoxai](https://x.com/Avenoxai), [@kimmonismus](https://x.com/kimmonismus), [@imjustnewatai](https://x.com/imjustnewatai), [@Khazix0918](https://x.com/Khazix0918), [@marcthecreatorr](https://x.com/marcthecreatorr), [@Bhavani_00007](https://x.com/Bhavani_00007), [@JustLingonberry](https://x.com/JustLingonberry), [@Mr_Salio](https://x.com/Mr_Salio), [@aGim_asf](https://x.com/aGim_asf), [@0x0SojalSec](https://x.com/0x0SojalSec), [@pengsonal](https://x.com/pengsonal), [@GeekCatX](https://x.com/GeekCatX), [@Ananth7e](https://x.com/Ananth7e), [@EnvolDev](https://x.com/EnvolDev), [@xbquan](https://x.com/xbquan), [@SahilPanhotra](https://x.com/SahilPanhotra), [@rubenssoto_ai](https://x.com/rubenssoto_ai), [@vikktorrrre](https://x.com/vikktorrrre), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@Cayden970207](https://x.com/Cayden970207), [@HarshithLucky3](https://x.com/HarshithLucky3), [@TokenGremlin](https://x.com/TokenGremlin), [@SadAlbert10](https://x.com/SadAlbert10), [@maxt3chno](https://x.com/maxt3chno), [@karanC_12](https://x.com/karanC_12), [@JustinGorya](https://x.com/JustinGorya), [@kdnbmb](https://x.com/kdnbmb), [@VraserX](https://x.com/VraserX), [@jessexai_](https://x.com/jessexai_), [@theaidesk_](https://x.com/theaidesk_), [@gadi_neelesh](https://x.com/gadi_neelesh), [@Haleeeemahh](https://x.com/Haleeeemahh), [@SPAC89](https://x.com/SPAC89), [@VeknQAQ](https://x.com/VeknQAQ), [@Aurora0x3f](https://x.com/Aurora0x3f), [@bei351009016](https://x.com/bei351009016), [@Stargridcompass](https://x.com/Stargridcompass), [@iamtheQwen](https://x.com/iamtheQwen), [@voxelbench](https://x.com/voxelbench), [@sshayahmet](https://x.com/sshayahmet), [@TimJayas](https://x.com/TimJayas), [@lucian__03](https://x.com/lucian__03), [@camperaigg](https://x.com/camperaigg), [@nickbaumann_](https://x.com/nickbaumann_), [@thtbee_](https://x.com/thtbee_), [@DeryaTR_](https://x.com/DeryaTR_), [@banteg](https://x.com/banteg), [@Leviwoyun](https://x.com/Leviwoyun), [@browser_use](https://x.com/browser_use), [@simonw](https://x.com/simonw), [@perplexity_ai](https://x.com/perplexity_ai), [@_3912657840](https://x.com/_3912657840), [@fawnunwrap](https://x.com/fawnunwrap), [@Angaisb_](https://x.com/Angaisb_), [@jony_palino](https://x.com/jony_palino), [@notjazii](https://x.com/notjazii), [@noclipepe](https://x.com/noclipepe), [@Super_Nius](https://x.com/Super_Nius), [@maxbittker](https://x.com/maxbittker), [@morsenxxx](https://x.com/morsenxxx), [@AdamHoltererer](https://x.com/AdamHoltererer), [@Clad3815](https://x.com/Clad3815), [@N1njaCodex](https://x.com/N1njaCodex), [@CodeByNZ](https://x.com/CodeByNZ), [@DanielZambrini](https://x.com/DanielZambrini), [@RezAIT00](https://x.com/RezAIT00), [@LuminaBench](https://x.com/LuminaBench), [@Jason85885174](https://x.com/Jason85885174), [@mspd4100](https://x.com/mspd4100), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@simonw](https://news.ycombinator.com/user?id=simonw), [@Fei2411](https://x.com/Fei2411), [@arena](https://x.com/arena), [@jan_volad](https://x.com/jan_volad), [@eliadele](https://x.com/eliadele), [@monkeys_im](https://x.com/monkeys_im), [@rotejin](https://x.com/rotejin), [@jetbrains](https://x.com/jetbrains), [@UFO2002616](https://x.com/UFO2002616), [@argofowl](https://x.com/argofowl), [@Kombaico](https://x.com/Kombaico), [@shinshin86](https://x.com/shinshin86), [@PawelJLisowski](https://x.com/PawelJLisowski), [@alohaproxy](https://x.com/alohaproxy), [@masahirochaen](https://x.com/masahirochaen), [@mylesBaiM](https://x.com/mylesBaiM), [@exploraX_](https://x.com/exploraX_), [@One2xDatalab](https://x.com/One2xDatalab), [@798145343h](https://x.com/798145343h), [@xKaka1456](https://x.com/xKaka1456), [@op7418](https://x.com/op7418), [@aura_uniiiii](https://x.com/aura_uniiiii), [@shinya_creative](https://x.com/shinya_creative), [@muratcan](https://x.com/muratcan), [@suna_gaku](https://x.com/suna_gaku), [@teddyaisi](https://x.com/teddyaisi), [@0xkhalid7](https://x.com/0xkhalid7), [@shownotover](https://x.com/shownotover), [@andonlabs](https://x.com/andonlabs), [@MatthewBerman](https://x.com/MatthewBerman), [@Hesamation](https://x.com/Hesamation), [@WeAreLegora](https://x.com/WeAreLegora), [@XploreAi](https://x.com/XploreAi), [@patience_cave](https://x.com/patience_cave), [@aidigest_](https://x.com/aidigest_), [@erhanmeydan](https://x.com/erhanmeydan), [@aapakari](https://x.com/aapakari), [@jerryjliu0](https://x.com/jerryjliu0), [@joshzqin](https://x.com/joshzqin), [@DesignArena](https://x.com/DesignArena), [@boringmarketer](https://x.com/boringmarketer), [@sriramkiron](https://x.com/sriramkiron), [@GeppiiKameWorks](https://x.com/GeppiiKameWorks), [@rails](https://x.com/rails), [@CodeRabbit](https://www.coderabbit.ai/), [@givros](https://x.com/givros), [@KrishnaBuildsAI](https://x.com/KrishnaBuildsAI), [@cfenghub](https://x.com/cfenghub), [@MelissaKampers](https://x.com/MelissaKampers), [@fankaishuoai](https://x.com/fankaishuoai), [@guilippert_v4](https://x.com/guilippert_v4), [@null_decimal](https://x.com/null_decimal), [@risui1012](https://x.com/risui1012), [@bangbuilds](https://x.com/bangbuilds), [@hone_sns](https://x.com/hone_sns), [@Rin_4ever_](https://x.com/Rin_4ever_), [@luta_ai](https://x.com/luta_ai), [@pieash4](https://x.com/pieash4), [@reddmachine](https://morethanamachine.com/authors/nishaanth-reddy/)
 
 *帰属または削除リクエストについては、ソース修正の問題を開いてください。*

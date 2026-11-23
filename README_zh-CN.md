@@ -18,7 +18,7 @@
 <a id="overview"></a>
 ## 📊 概述
 
-- **202 条使用案例 · GPT-6.2 Sol**. 共收录 202 条原帖，其中 197 条展示成果，5 条记录局限。25 条附有作者公开的原文提示词。
+- **208 条使用案例 · GPT-6.2 Sol**. 共收录 208 条原帖，其中 203 条展示成果，5 条记录局限。25 条附有作者公开的原文提示词。
 - 3D 场景与建模 · 创意图形与动画 · 网站和界面 · 游戏开发 · 电脑使用与绘画 · 电脑操作与沟通
 - 每条都附有原帖、作者、日期、证据类型和可见成果。
 - 如有公开提示词，可按原文复试。对比时请使用相同输入。
@@ -44,6 +44,11 @@
 | [快速入门](#quick-start) | 导航 | 快速入门 | — |
 | [相关仓库](#related-repositories) | 导航 | 相关仓库 | — |
 | [致谢](#acknowledge) | 导航 | 致谢 | — |
+| [案例 203. 在 Blender 制作会眨眼的角色面部](#case-203) | [3D 场景与建模](#category-three) | 先在平面上构建面部，再把网格贴合到三维参考模型。 | Demo |
+| [案例 204. 深红色的神殿场景](#case-204) | [3D 场景与建模](#category-three) | 通过环境原型观察地形、建筑和镜头运动。 | Demo |
+| [案例 205. 同一场演讲的幻灯片设计对比](#case-205) | [电脑操作与沟通](#category-communication) | 用相同的演讲内容比较各模型的幻灯片排版。 | Evaluation |
+| [案例 206. 纯代码搭建的浮空街区](#case-206) | [3D 场景与建模](#category-three) | 观察如何在小岛上组合地形、街道和建筑。 | Demo |
+| [案例 207. 在 Remix 中迭代 Yakiimo Catch](#case-207) | [游戏开发](#category-game) | 调整角色和场景，同时保留原来的游戏机制。 | Demo |
 | [案例 186. 横跨山谷的高架水渠](#case-186) | [3D 场景与建模](#category-three) | 观察如何把一片大型景观从 Blender 带入 Three.js。 | Demo |
 | [案例 187. 加法题触发了图像生成](#case-187) | [电脑操作与沟通](#category-communication) | 分别检查是否误触发工具，以及最终答案是否正确。 | Limit |
 | [案例 188. 用 Minecraft 搭建八处电视剧场景](#case-188) | [游戏开发](#category-game) | 对比两套沙盒作品的布局还原和制作时间。 | Evaluation |
@@ -74,6 +79,7 @@
 | [案例 160. 用 Codex 制作两款第一人称游戏原型](#case-160) | [游戏开发](#category-game) | 结合成本记录对比关卡布局和游玩体验。 | Evaluation |
 | [案例 161. 用 Blender 素材制作休闲村庄游戏](#case-161) | [游戏开发](#category-game) | 观察建模和动画如何组合成一个游戏场景。 | Demo |
 | [案例 162. 根据室内照片绘制公寓平面图](#case-162) | [3D 场景与建模](#category-three) | 检验智能体能否从照片推断房间布局。 | Benchmark |
+| [案例 208. 在上行扶梯上向下翻滚的弹簧玩具](#case-208) | [3D 场景与建模](#category-three) | 比较不同模拟如何处理弹簧和移动台阶。 | Benchmark |
 | [案例 163. 剪辑口播视频里的对白](#case-163) | [创意图形与动画](#category-graphics) | 对比剪辑耗时、整体评分和出错的剪切类型。 | Benchmark |
 | [案例 164. 两种总部建筑设计](#case-164) | [3D 场景与建模](#category-three) | 在同一个开放式命题下对比建筑设计和镜头视角。 | Evaluation |
 | [案例 165. 在 Crusader Bench 中经营聚落](#case-165) | [游戏开发](#category-game) | 在相同计分地图和游戏条件下比较智能体的表现。 | Benchmark |
@@ -250,6 +256,51 @@
 <a id="category-three"></a>
 ## 🧊 3D 场景与建模
 
+<a id="case-203"></a>
+### 案例 203: [在 Blender 制作会眨眼的角色面部](https://x.com/luta_ai/status/2124784905137881529) (作者 [@luta_ai](https://x.com/luta_ai))
+
+**先在平面上构建面部，再把网格贴合到三维参考模型。**
+
+作者先在正面的一半铺了 74 个四边形面，再用 Codex 中的 Sol 调整深度并制作眼睑。作者报告，前后试了两天。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2124784661377478656-da58f408dd81094a3d8f.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-203/2124784661377478656-poster-2c2348745540b5142e6c.jpg" width="640" alt="原始素材预览 1 · 在 Blender 制作会眨眼的角色面部"></a>
+
+[播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2124784661377478656-da58f408dd81094a3d8f.mp4)
+
+Type: Demo | Date: 2026-11-23
+
+---
+
+<a id="case-204"></a>
+### 案例 204: [深红色的神殿场景](https://x.com/givros/status/2124583766765252833) (作者 [@givros](https://x.com/givros))
+
+**通过环境原型观察地形、建筑和镜头运动。**
+
+作者发布了 Crimson Sanctuary 的飞越视频，并报告 Sol Ultra 用时 47 分 52 秒。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2124583099346329601-2c732231f7ded8999158.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-204/2124583099346329601-poster-61d19411abfe45717419.jpg" width="640" alt="原始素材预览 1 · 深红色的神殿场景"></a>
+
+[播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2124583099346329601-2c732231f7ded8999158.mp4)
+
+Type: Demo | Date: 2026-11-22
+
+---
+
+<a id="case-206"></a>
+### 案例 206: [纯代码搭建的浮空街区](https://x.com/Mr_Salio/status/2124514939410726971) (作者 [@Mr_Salio](https://x.com/Mr_Salio))
+
+**观察如何在小岛上组合地形、街道和建筑。**
+
+作者将这个纯代码场景归于 Sol。视频从空中展示了浮岛上的住宅和道路，岛边是蓝绿色的水面。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2124514864982831104-307974ce5f7aa8ff2895.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-206/2124514864982831104-poster-05bbf030b48f88b5c182.jpg" width="640" alt="原始素材预览 1 · 纯代码搭建的浮空街区"></a>
+
+[播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2124514864982831104-307974ce5f7aa8ff2895.mp4)
+
+Type: Demo | Date: 2026-11-22
+
+---
+
 <a id="case-186"></a>
 ### 案例 186: [横跨山谷的高架水渠](https://x.com/givros/status/2124404063802429838) (作者 [@givros](https://x.com/givros))
 
@@ -409,6 +460,23 @@ Andon Labs 报告，Sol 在 Blueprint-Bench 2 上的归一化得分为 0.570。�
 [基准测试详情](https://andonlabs.com/evals/blueprint-bench-2)
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-162/2123570697356390400-74a2a8af091dad776138.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-162/2123570697356390400-74a2a8af091dad776138.jpg" width="640" alt="原始素材预览 1 · 根据室内照片绘制公寓平面图"></a>
+
+Type: Benchmark | Date: 2026-11-20
+
+---
+
+<a id="case-208"></a>
+### 案例 208: [在上行扶梯上向下翻滚的弹簧玩具](https://morethanamachine.com/posts/slinky-escalator-benchmark/) (作者 [@reddmachine](https://morethanamachine.com/authors/nishaanth-reddy/))
+
+**比较不同模拟如何处理弹簧和移动台阶。**
+
+Nishaanth Reddy 用同一个提示词测试了 15 个模型，未手动修改结果。他公布的 Sol xhigh 运行用时 11 分钟，花费 0.55 美元。
+
+[原文提示词](https://morethanamachine.com/posts/slinky-escalator-benchmark/#00-the-prompt)
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/slinky-50597156-gpt-6-2-sol-c631fbadf0fde8e0c6bc.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-208/slinky-50597156-gpt-6-2-sol-poster-c39bd9b45bf51f0a7b66.jpg" width="640" alt="原始素材预览 1 · 在上行扶梯上向下翻滚的弹簧玩具"></a>
+
+[播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/slinky-50597156-gpt-6-2-sol-c631fbadf0fde8e0c6bc.mp4)
 
 Type: Benchmark | Date: 2026-11-20
 
@@ -1847,6 +1915,23 @@ Type: Demo | Date: 2026-11-08
 <a id="category-communication"></a>
 ## 💬 电脑操作与沟通
 
+<a id="case-205"></a>
+### 案例 205: [同一场演讲的幻灯片设计对比](https://x.com/fankaishuoai/status/2124532226016874920) (作者 [@fankaishuoai](https://x.com/fankaishuoai))
+
+**用相同的演讲内容比较各模型的幻灯片排版。**
+
+作者让多个模型根据同一场演讲生成 PPTX，并把三个模型各自生成的同一页放在一起展示。作者认为 Sol 的版本可用，最终选了 Opus 5.5。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-205/2124529933691367424-9a74ba277ef97734eb7c.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-205/2124529933691367424-9a74ba277ef97734eb7c.jpg" width="640" alt="原始素材预览 1 · 同一场演讲的幻灯片设计对比"></a>
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-205/2124529933691363329-81e61a39a6a01849c140.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-205/2124529933691363329-81e61a39a6a01849c140.jpg" width="640" alt="原始素材预览 2 · 同一场演讲的幻灯片设计对比"></a>
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-205/2124529933695467520-5654e7ea3275312ea0e0.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-205/2124529933695467520-5654e7ea3275312ea0e0.jpg" width="640" alt="原始素材预览 3 · 同一场演讲的幻灯片设计对比"></a>
+
+Type: Evaluation | Date: 2026-11-22
+
+---
+
 <a id="case-187"></a>
 ### 案例 187: [加法题触发了图像生成](https://x.com/KrishnaBuildsAI/status/2124374855332356527) (作者 [@KrishnaBuildsAI](https://x.com/KrishnaBuildsAI))
 
@@ -2076,6 +2161,21 @@ Type: Limit | Date: 2026-11-08
 
 <a id="category-game"></a>
 ## 🎮 游戏开发
+
+<a id="case-207"></a>
+### 案例 207: [在 Remix 中迭代 Yakiimo Catch](https://x.com/pieash4/status/2124489245343760883) (作者 [@pieash4](https://x.com/pieash4))
+
+**调整角色和场景，同时保留原来的游戏机制。**
+
+作者分享了最初的反馈和游戏实录。他报告用 Remix 中的 Sol 经过五条消息和五天迭代后发布了 Yakiimo Catch。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2124489207225974784-9542628eaf6a91655ad1.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-207/2124489207225974784-poster-b930d7c936113ee0a24f.jpg" width="640" alt="原始素材预览 1 · 在 Remix 中迭代 Yakiimo Catch"></a>
+
+[播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2124489207225974784-9542628eaf6a91655ad1.mp4)
+
+Type: Demo | Date: 2026-11-22
+
+---
 
 <a id="case-188"></a>
 ### 案例 188: [用 Minecraft 搭建八处电视剧场景](https://x.com/jan_volad/status/2124308264456233400) (作者 [@jan_volad](https://x.com/jan_volad))
@@ -3520,6 +3620,6 @@ Type: Demo | Date: 2026-11-08
 
 感谢分享这些实验的创作者。链接的作品和媒体属于其各自的创作者。
 
-[@Avenoxai](https://x.com/Avenoxai), [@kimmonismus](https://x.com/kimmonismus), [@imjustnewatai](https://x.com/imjustnewatai), [@Khazix0918](https://x.com/Khazix0918), [@marcthecreatorr](https://x.com/marcthecreatorr), [@Bhavani_00007](https://x.com/Bhavani_00007), [@JustLingonberry](https://x.com/JustLingonberry), [@Mr_Salio](https://x.com/Mr_Salio), [@aGim_asf](https://x.com/aGim_asf), [@0x0SojalSec](https://x.com/0x0SojalSec), [@pengsonal](https://x.com/pengsonal), [@GeekCatX](https://x.com/GeekCatX), [@Ananth7e](https://x.com/Ananth7e), [@EnvolDev](https://x.com/EnvolDev), [@xbquan](https://x.com/xbquan), [@SahilPanhotra](https://x.com/SahilPanhotra), [@rubenssoto_ai](https://x.com/rubenssoto_ai), [@vikktorrrre](https://x.com/vikktorrrre), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@Cayden970207](https://x.com/Cayden970207), [@HarshithLucky3](https://x.com/HarshithLucky3), [@TokenGremlin](https://x.com/TokenGremlin), [@SadAlbert10](https://x.com/SadAlbert10), [@maxt3chno](https://x.com/maxt3chno), [@karanC_12](https://x.com/karanC_12), [@JustinGorya](https://x.com/JustinGorya), [@kdnbmb](https://x.com/kdnbmb), [@VraserX](https://x.com/VraserX), [@jessexai_](https://x.com/jessexai_), [@theaidesk_](https://x.com/theaidesk_), [@gadi_neelesh](https://x.com/gadi_neelesh), [@Haleeeemahh](https://x.com/Haleeeemahh), [@SPAC89](https://x.com/SPAC89), [@VeknQAQ](https://x.com/VeknQAQ), [@Aurora0x3f](https://x.com/Aurora0x3f), [@bei351009016](https://x.com/bei351009016), [@Stargridcompass](https://x.com/Stargridcompass), [@iamtheQwen](https://x.com/iamtheQwen), [@voxelbench](https://x.com/voxelbench), [@sshayahmet](https://x.com/sshayahmet), [@TimJayas](https://x.com/TimJayas), [@lucian__03](https://x.com/lucian__03), [@camperaigg](https://x.com/camperaigg), [@nickbaumann_](https://x.com/nickbaumann_), [@thtbee_](https://x.com/thtbee_), [@DeryaTR_](https://x.com/DeryaTR_), [@banteg](https://x.com/banteg), [@Leviwoyun](https://x.com/Leviwoyun), [@browser_use](https://x.com/browser_use), [@simonw](https://x.com/simonw), [@perplexity_ai](https://x.com/perplexity_ai), [@_3912657840](https://x.com/_3912657840), [@fawnunwrap](https://x.com/fawnunwrap), [@Angaisb_](https://x.com/Angaisb_), [@jony_palino](https://x.com/jony_palino), [@notjazii](https://x.com/notjazii), [@noclipepe](https://x.com/noclipepe), [@Super_Nius](https://x.com/Super_Nius), [@maxbittker](https://x.com/maxbittker), [@morsenxxx](https://x.com/morsenxxx), [@AdamHoltererer](https://x.com/AdamHoltererer), [@Clad3815](https://x.com/Clad3815), [@N1njaCodex](https://x.com/N1njaCodex), [@CodeByNZ](https://x.com/CodeByNZ), [@DanielZambrini](https://x.com/DanielZambrini), [@RezAIT00](https://x.com/RezAIT00), [@LuminaBench](https://x.com/LuminaBench), [@Jason85885174](https://x.com/Jason85885174), [@mspd4100](https://x.com/mspd4100), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@simonw](https://news.ycombinator.com/user?id=simonw), [@Fei2411](https://x.com/Fei2411), [@arena](https://x.com/arena), [@jan_volad](https://x.com/jan_volad), [@eliadele](https://x.com/eliadele), [@monkeys_im](https://x.com/monkeys_im), [@rotejin](https://x.com/rotejin), [@jetbrains](https://x.com/jetbrains), [@UFO2002616](https://x.com/UFO2002616), [@argofowl](https://x.com/argofowl), [@Kombaico](https://x.com/Kombaico), [@shinshin86](https://x.com/shinshin86), [@PawelJLisowski](https://x.com/PawelJLisowski), [@alohaproxy](https://x.com/alohaproxy), [@masahirochaen](https://x.com/masahirochaen), [@mylesBaiM](https://x.com/mylesBaiM), [@exploraX_](https://x.com/exploraX_), [@One2xDatalab](https://x.com/One2xDatalab), [@798145343h](https://x.com/798145343h), [@xKaka1456](https://x.com/xKaka1456), [@op7418](https://x.com/op7418), [@aura_uniiiii](https://x.com/aura_uniiiii), [@shinya_creative](https://x.com/shinya_creative), [@muratcan](https://x.com/muratcan), [@suna_gaku](https://x.com/suna_gaku), [@teddyaisi](https://x.com/teddyaisi), [@0xkhalid7](https://x.com/0xkhalid7), [@shownotover](https://x.com/shownotover), [@andonlabs](https://x.com/andonlabs), [@MatthewBerman](https://x.com/MatthewBerman), [@Hesamation](https://x.com/Hesamation), [@WeAreLegora](https://x.com/WeAreLegora), [@XploreAi](https://x.com/XploreAi), [@patience_cave](https://x.com/patience_cave), [@aidigest_](https://x.com/aidigest_), [@erhanmeydan](https://x.com/erhanmeydan), [@aapakari](https://x.com/aapakari), [@jerryjliu0](https://x.com/jerryjliu0), [@joshzqin](https://x.com/joshzqin), [@DesignArena](https://x.com/DesignArena), [@boringmarketer](https://x.com/boringmarketer), [@sriramkiron](https://x.com/sriramkiron), [@GeppiiKameWorks](https://x.com/GeppiiKameWorks), [@rails](https://x.com/rails), [@CodeRabbit](https://www.coderabbit.ai/), [@givros](https://x.com/givros), [@KrishnaBuildsAI](https://x.com/KrishnaBuildsAI), [@cfenghub](https://x.com/cfenghub), [@MelissaKampers](https://x.com/MelissaKampers), [@fankaishuoai](https://x.com/fankaishuoai), [@guilippert_v4](https://x.com/guilippert_v4), [@null_decimal](https://x.com/null_decimal), [@risui1012](https://x.com/risui1012), [@bangbuilds](https://x.com/bangbuilds), [@hone_sns](https://x.com/hone_sns), [@Rin_4ever_](https://x.com/Rin_4ever_)
+[@Avenoxai](https://x.com/Avenoxai), [@kimmonismus](https://x.com/kimmonismus), [@imjustnewatai](https://x.com/imjustnewatai), [@Khazix0918](https://x.com/Khazix0918), [@marcthecreatorr](https://x.com/marcthecreatorr), [@Bhavani_00007](https://x.com/Bhavani_00007), [@JustLingonberry](https://x.com/JustLingonberry), [@Mr_Salio](https://x.com/Mr_Salio), [@aGim_asf](https://x.com/aGim_asf), [@0x0SojalSec](https://x.com/0x0SojalSec), [@pengsonal](https://x.com/pengsonal), [@GeekCatX](https://x.com/GeekCatX), [@Ananth7e](https://x.com/Ananth7e), [@EnvolDev](https://x.com/EnvolDev), [@xbquan](https://x.com/xbquan), [@SahilPanhotra](https://x.com/SahilPanhotra), [@rubenssoto_ai](https://x.com/rubenssoto_ai), [@vikktorrrre](https://x.com/vikktorrrre), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@Cayden970207](https://x.com/Cayden970207), [@HarshithLucky3](https://x.com/HarshithLucky3), [@TokenGremlin](https://x.com/TokenGremlin), [@SadAlbert10](https://x.com/SadAlbert10), [@maxt3chno](https://x.com/maxt3chno), [@karanC_12](https://x.com/karanC_12), [@JustinGorya](https://x.com/JustinGorya), [@kdnbmb](https://x.com/kdnbmb), [@VraserX](https://x.com/VraserX), [@jessexai_](https://x.com/jessexai_), [@theaidesk_](https://x.com/theaidesk_), [@gadi_neelesh](https://x.com/gadi_neelesh), [@Haleeeemahh](https://x.com/Haleeeemahh), [@SPAC89](https://x.com/SPAC89), [@VeknQAQ](https://x.com/VeknQAQ), [@Aurora0x3f](https://x.com/Aurora0x3f), [@bei351009016](https://x.com/bei351009016), [@Stargridcompass](https://x.com/Stargridcompass), [@iamtheQwen](https://x.com/iamtheQwen), [@voxelbench](https://x.com/voxelbench), [@sshayahmet](https://x.com/sshayahmet), [@TimJayas](https://x.com/TimJayas), [@lucian__03](https://x.com/lucian__03), [@camperaigg](https://x.com/camperaigg), [@nickbaumann_](https://x.com/nickbaumann_), [@thtbee_](https://x.com/thtbee_), [@DeryaTR_](https://x.com/DeryaTR_), [@banteg](https://x.com/banteg), [@Leviwoyun](https://x.com/Leviwoyun), [@browser_use](https://x.com/browser_use), [@simonw](https://x.com/simonw), [@perplexity_ai](https://x.com/perplexity_ai), [@_3912657840](https://x.com/_3912657840), [@fawnunwrap](https://x.com/fawnunwrap), [@Angaisb_](https://x.com/Angaisb_), [@jony_palino](https://x.com/jony_palino), [@notjazii](https://x.com/notjazii), [@noclipepe](https://x.com/noclipepe), [@Super_Nius](https://x.com/Super_Nius), [@maxbittker](https://x.com/maxbittker), [@morsenxxx](https://x.com/morsenxxx), [@AdamHoltererer](https://x.com/AdamHoltererer), [@Clad3815](https://x.com/Clad3815), [@N1njaCodex](https://x.com/N1njaCodex), [@CodeByNZ](https://x.com/CodeByNZ), [@DanielZambrini](https://x.com/DanielZambrini), [@RezAIT00](https://x.com/RezAIT00), [@LuminaBench](https://x.com/LuminaBench), [@Jason85885174](https://x.com/Jason85885174), [@mspd4100](https://x.com/mspd4100), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@simonw](https://news.ycombinator.com/user?id=simonw), [@Fei2411](https://x.com/Fei2411), [@arena](https://x.com/arena), [@jan_volad](https://x.com/jan_volad), [@eliadele](https://x.com/eliadele), [@monkeys_im](https://x.com/monkeys_im), [@rotejin](https://x.com/rotejin), [@jetbrains](https://x.com/jetbrains), [@UFO2002616](https://x.com/UFO2002616), [@argofowl](https://x.com/argofowl), [@Kombaico](https://x.com/Kombaico), [@shinshin86](https://x.com/shinshin86), [@PawelJLisowski](https://x.com/PawelJLisowski), [@alohaproxy](https://x.com/alohaproxy), [@masahirochaen](https://x.com/masahirochaen), [@mylesBaiM](https://x.com/mylesBaiM), [@exploraX_](https://x.com/exploraX_), [@One2xDatalab](https://x.com/One2xDatalab), [@798145343h](https://x.com/798145343h), [@xKaka1456](https://x.com/xKaka1456), [@op7418](https://x.com/op7418), [@aura_uniiiii](https://x.com/aura_uniiiii), [@shinya_creative](https://x.com/shinya_creative), [@muratcan](https://x.com/muratcan), [@suna_gaku](https://x.com/suna_gaku), [@teddyaisi](https://x.com/teddyaisi), [@0xkhalid7](https://x.com/0xkhalid7), [@shownotover](https://x.com/shownotover), [@andonlabs](https://x.com/andonlabs), [@MatthewBerman](https://x.com/MatthewBerman), [@Hesamation](https://x.com/Hesamation), [@WeAreLegora](https://x.com/WeAreLegora), [@XploreAi](https://x.com/XploreAi), [@patience_cave](https://x.com/patience_cave), [@aidigest_](https://x.com/aidigest_), [@erhanmeydan](https://x.com/erhanmeydan), [@aapakari](https://x.com/aapakari), [@jerryjliu0](https://x.com/jerryjliu0), [@joshzqin](https://x.com/joshzqin), [@DesignArena](https://x.com/DesignArena), [@boringmarketer](https://x.com/boringmarketer), [@sriramkiron](https://x.com/sriramkiron), [@GeppiiKameWorks](https://x.com/GeppiiKameWorks), [@rails](https://x.com/rails), [@CodeRabbit](https://www.coderabbit.ai/), [@givros](https://x.com/givros), [@KrishnaBuildsAI](https://x.com/KrishnaBuildsAI), [@cfenghub](https://x.com/cfenghub), [@MelissaKampers](https://x.com/MelissaKampers), [@fankaishuoai](https://x.com/fankaishuoai), [@guilippert_v4](https://x.com/guilippert_v4), [@null_decimal](https://x.com/null_decimal), [@risui1012](https://x.com/risui1012), [@bangbuilds](https://x.com/bangbuilds), [@hone_sns](https://x.com/hone_sns), [@Rin_4ever_](https://x.com/Rin_4ever_), [@luta_ai](https://x.com/luta_ai), [@pieash4](https://x.com/pieash4), [@reddmachine](https://morethanamachine.com/authors/nishaanth-reddy/)
 
 *如需更正署名或移除素材，请提交来源更正 issue。*

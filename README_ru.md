@@ -18,7 +18,7 @@
 <a id="overview"></a>
 ## 📊 Обзор
 
-- **202 примеров применения · GPT-6.2 Sol**. В подборке 202 исходные публикации. Из них 197 показывают результаты, а пять описывают ограничения. В 25 публикациях приведён точный текст промпта на языке оригинала.
+- **208 примеров применения · GPT-6.2 Sol**. В подборке 208 исходные публикации. Из них 203 показывают результаты, а пять описывают ограничения. В 25 публикациях приведён точный текст промпта на языке оригинала.
 - 3D сцены и моделирование · Креативная графика и анимация · Веб-сайты и интерфейсы · Разработка игр · Использование компьютера и рисование · Использование компьютера и общение
 - В каждом примере указаны исходная публикация, автор, дата, тип доказательства и видимый результат.
 - Используйте общедоступную подсказку, если она доступна. Сохраняйте исходные данные при сравнении результатов.
@@ -44,6 +44,11 @@
 | [Быстрый старт](#quick-start) | Навигация | Быстрый старт | — |
 | [Связанные репозитории](#related-repositories) | Навигация | Связанные репозитории | — |
 | [Благодарности](#acknowledge) | Навигация | Благодарности | — |
+| [Пример 203. Моргающее лицо персонажа в Blender](#case-203) | [3D сцены и моделирование](#category-three) | Сначала создайте плоское лицо, затем подгоните сетку под трёхмерный референс. | Demo |
+| [Пример 204. Локация с багровым святилищем](#case-204) | [3D сцены и моделирование](#category-three) | Рассмотрите рельеф, постройки и движение камеры в прототипе локации. | Demo |
+| [Пример 205. Оформление слайдов для одного доклада](#case-205) | [Использование компьютера и общение](#category-communication) | Сравните, как модели оформляют слайд при одинаковом содержании презентации. | Evaluation |
+| [Пример 206. Парящий квартал, созданный кодом](#case-206) | [3D сцены и моделирование](#category-three) | Посмотрите, как рельеф, дороги и здания объединены на небольшом острове. | Demo |
+| [Пример 207. Доработка Yakiimo Catch в Remix](#case-207) | [Разработка игр](#category-game) | Сохраняйте игровые механики при изменении персонажей и окружения. | Demo |
 | [Пример 186. Долина с акведуком](#case-186) | [3D сцены и моделирование](#category-three) | Проследите, как большой ландшафт переносят из Blender в Three.js. | Demo |
 | [Пример 187. Генерация изображения при простом сложении](#case-187) | [Использование компьютера и общение](#category-communication) | Отдельно проверяйте неожиданные вызовы инструментов и правильность ответа. | Limit |
 | [Пример 188. Восемь телевизионных локаций, воссозданных в Minecraft](#case-188) | [Разработка игр](#category-game) | Сравните узнаваемость планировки и время постройки в двух версиях игровой сцены. | Evaluation |
@@ -74,6 +79,7 @@
 | [Пример 160. Два игровых прототипа от первого лица в Codex](#case-160) | [Разработка игр](#category-game) | Сопоставьте устройство уровня и впечатления от игры с указанной стоимостью. | Evaluation |
 | [Пример 161. Уютная деревенская игра с моделями из Blender](#case-161) | [Разработка игр](#category-game) | Посмотрите, как трёхмерные объекты и анимация сочетаются в игровой сцене. | Demo |
 | [Пример 162. Планы квартир по фотографиям интерьеров](#case-162) | [3D сцены и моделирование](#category-three) | Проверьте, может ли агент восстановить планировку помещений по фотографиям. | Benchmark |
+| [Пример 208. Пружинка Slinky на эскалаторе, идущем вверх](#case-208) | [3D сцены и моделирование](#category-three) | Сравните, как в физических сценах моделируются пружинка и движущиеся ступени. | Benchmark |
 | [Пример 163. Монтаж диалога в видео с говорящим человеком](#case-163) | [Креативная графика и анимация](#category-graphics) | Сравните время монтажа, итоговую оценку и типы неудачных склеек. | Benchmark |
 | [Пример 164. Два проекта штаб-квартиры](#case-164) | [3D сцены и моделирование](#category-three) | Сравните здания и ракурс при одном и том же открытом задании на проектирование. | Evaluation |
 | [Пример 165. Управление поселением в Crusader Bench](#case-165) | [Разработка игр](#category-game) | Сравните игру агентов на одинаковых картах с подсчётом очков и при одинаковых условиях. | Benchmark |
@@ -250,6 +256,51 @@
 <a id="category-three"></a>
 ## 🧊 3D сцены и моделирование
 
+<a id="case-203"></a>
+### Пример 203: [Моргающее лицо персонажа в Blender](https://x.com/luta_ai/status/2124784905137881529) (автор [@luta_ai](https://x.com/luta_ai))
+
+**Сначала создайте плоское лицо, затем подгоните сетку под трёхмерный референс.**
+
+Автор начал с 74 четырёхугольных граней на одной половине лица в проекции спереди. Затем он доработал глубину и веки с помощью Sol в Codex. По его словам, на пробы и исправления ушло два дня.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2124784661377478656-da58f408dd81094a3d8f.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-203/2124784661377478656-poster-2c2348745540b5142e6c.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Моргающее лицо персонажа в Blender"></a>
+
+[Воспроизвести демонстрацию](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2124784661377478656-da58f408dd81094a3d8f.mp4)
+
+Type: Demo | Date: 2026-11-23
+
+---
+
+<a id="case-204"></a>
+### Пример 204: [Локация с багровым святилищем](https://x.com/givros/status/2124583766765252833) (автор [@givros](https://x.com/givros))
+
+**Рассмотрите рельеф, постройки и движение камеры в прототипе локации.**
+
+Автор опубликовал облёт Crimson Sanctuary и сообщил, что запуск Sol Ultra занял 47 минут 52 секунды.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2124583099346329601-2c732231f7ded8999158.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-204/2124583099346329601-poster-61d19411abfe45717419.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Локация с багровым святилищем"></a>
+
+[Воспроизвести демонстрацию](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2124583099346329601-2c732231f7ded8999158.mp4)
+
+Type: Demo | Date: 2026-11-22
+
+---
+
+<a id="case-206"></a>
+### Пример 206: [Парящий квартал, созданный кодом](https://x.com/Mr_Salio/status/2124514939410726971) (автор [@Mr_Salio](https://x.com/Mr_Salio))
+
+**Посмотрите, как рельеф, дороги и здания объединены на небольшом острове.**
+
+Автор приписывает Sol сцену, целиком созданную кодом. В ролике камера пролетает над зданиями и дорогой на парящем острове, окаймлённом бирюзовой водой.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2124514864982831104-307974ce5f7aa8ff2895.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-206/2124514864982831104-poster-05bbf030b48f88b5c182.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Парящий квартал, созданный кодом"></a>
+
+[Воспроизвести демонстрацию](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2124514864982831104-307974ce5f7aa8ff2895.mp4)
+
+Type: Demo | Date: 2026-11-22
+
+---
+
 <a id="case-186"></a>
 ### Пример 186: [Долина с акведуком](https://x.com/givros/status/2124404063802429838) (автор [@givros](https://x.com/givros))
 
@@ -409,6 +460,23 @@ Andon Labs сообщает о нормализованной оценке 0,570
 [Подробности теста](https://andonlabs.com/evals/blueprint-bench-2)
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-162/2123570697356390400-74a2a8af091dad776138.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-162/2123570697356390400-74a2a8af091dad776138.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Планы квартир по фотографиям интерьеров"></a>
+
+Type: Benchmark | Date: 2026-11-20
+
+---
+
+<a id="case-208"></a>
+### Пример 208: [Пружинка Slinky на эскалаторе, идущем вверх](https://morethanamachine.com/posts/slinky-escalator-benchmark/) (автор [@reddmachine](https://morethanamachine.com/authors/nishaanth-reddy/))
+
+**Сравните, как в физических сценах моделируются пружинка и движущиеся ступени.**
+
+Нишаант Редди испытал 15 моделей с одним запросом без ручных правок. Опубликованный им запуск Sol на уровне xhigh занял 11 минут и стоил 0,55 доллара США.
+
+[Оригинальный промпт](https://morethanamachine.com/posts/slinky-escalator-benchmark/#00-the-prompt)
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/slinky-50597156-gpt-6-2-sol-c631fbadf0fde8e0c6bc.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-208/slinky-50597156-gpt-6-2-sol-poster-c39bd9b45bf51f0a7b66.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Пружинка Slinky на эскалаторе, идущем вверх"></a>
+
+[Воспроизвести демонстрацию](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/slinky-50597156-gpt-6-2-sol-c631fbadf0fde8e0c6bc.mp4)
 
 Type: Benchmark | Date: 2026-11-20
 
@@ -1847,6 +1915,23 @@ Type: Demo | Date: 2026-11-08
 <a id="category-communication"></a>
 ## 💬 Использование компьютера и общение
 
+<a id="case-205"></a>
+### Пример 205: [Оформление слайдов для одного доклада](https://x.com/fankaishuoai/status/2124532226016874920) (автор [@fankaishuoai](https://x.com/fankaishuoai))
+
+**Сравните, как модели оформляют слайд при одинаковом содержании презентации.**
+
+Автор создал презентации PPTX по одному докладу и показал соответствующий слайд от каждой из трёх моделей. Он счёл презентацию Sol пригодной для использования и выбрал версию Opus 5.5.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-205/2124529933691367424-9a74ba277ef97734eb7c.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-205/2124529933691367424-9a74ba277ef97734eb7c.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Оформление слайдов для одного доклада"></a>
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-205/2124529933691363329-81e61a39a6a01849c140.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-205/2124529933691363329-81e61a39a6a01849c140.jpg" width="640" alt="Предварительный просмотр исходного кода 2 · Оформление слайдов для одного доклада"></a>
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-205/2124529933695467520-5654e7ea3275312ea0e0.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-205/2124529933695467520-5654e7ea3275312ea0e0.jpg" width="640" alt="Предварительный просмотр исходного кода 3 · Оформление слайдов для одного доклада"></a>
+
+Type: Evaluation | Date: 2026-11-22
+
+---
+
 <a id="case-187"></a>
 ### Пример 187: [Генерация изображения при простом сложении](https://x.com/KrishnaBuildsAI/status/2124374855332356527) (автор [@KrishnaBuildsAI](https://x.com/KrishnaBuildsAI))
 
@@ -2076,6 +2161,21 @@ Type: Limit | Date: 2026-11-08
 
 <a id="category-game"></a>
 ## 🎮 Разработка игр
+
+<a id="case-207"></a>
+### Пример 207: [Доработка Yakiimo Catch в Remix](https://x.com/pieash4/status/2124489245343760883) (автор [@pieash4](https://x.com/pieash4))
+
+**Сохраняйте игровые механики при изменении персонажей и окружения.**
+
+Автор поделился первоначальными замечаниями и записью играбельной версии. Он сообщил, что выпустил Yakiimo Catch после пяти сообщений, отправленных Sol в Remix за пять дней.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2124489207225974784-9542628eaf6a91655ad1.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-207/2124489207225974784-poster-b930d7c936113ee0a24f.jpg" width="640" alt="Предварительный просмотр исходного кода 1 · Доработка Yakiimo Catch в Remix"></a>
+
+[Воспроизвести демонстрацию](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2124489207225974784-9542628eaf6a91655ad1.mp4)
+
+Type: Demo | Date: 2026-11-22
+
+---
 
 <a id="case-188"></a>
 ### Пример 188: [Восемь телевизионных локаций, воссозданных в Minecraft](https://x.com/jan_volad/status/2124308264456233400) (автор [@jan_volad](https://x.com/jan_volad))
@@ -3520,6 +3620,6 @@ Type: Demo | Date: 2026-11-08
 
 Спасибо создателям, поделившимся этими экспериментами. Связанные произведения и медиа принадлежат их создателям.
 
-[@Avenoxai](https://x.com/Avenoxai), [@kimmonismus](https://x.com/kimmonismus), [@imjustnewatai](https://x.com/imjustnewatai), [@Khazix0918](https://x.com/Khazix0918), [@marcthecreatorr](https://x.com/marcthecreatorr), [@Bhavani_00007](https://x.com/Bhavani_00007), [@JustLingonberry](https://x.com/JustLingonberry), [@Mr_Salio](https://x.com/Mr_Salio), [@aGim_asf](https://x.com/aGim_asf), [@0x0SojalSec](https://x.com/0x0SojalSec), [@pengsonal](https://x.com/pengsonal), [@GeekCatX](https://x.com/GeekCatX), [@Ananth7e](https://x.com/Ananth7e), [@EnvolDev](https://x.com/EnvolDev), [@xbquan](https://x.com/xbquan), [@SahilPanhotra](https://x.com/SahilPanhotra), [@rubenssoto_ai](https://x.com/rubenssoto_ai), [@vikktorrrre](https://x.com/vikktorrrre), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@Cayden970207](https://x.com/Cayden970207), [@HarshithLucky3](https://x.com/HarshithLucky3), [@TokenGremlin](https://x.com/TokenGremlin), [@SadAlbert10](https://x.com/SadAlbert10), [@maxt3chno](https://x.com/maxt3chno), [@karanC_12](https://x.com/karanC_12), [@JustinGorya](https://x.com/JustinGorya), [@kdnbmb](https://x.com/kdnbmb), [@VraserX](https://x.com/VraserX), [@jessexai_](https://x.com/jessexai_), [@theaidesk_](https://x.com/theaidesk_), [@gadi_neelesh](https://x.com/gadi_neelesh), [@Haleeeemahh](https://x.com/Haleeeemahh), [@SPAC89](https://x.com/SPAC89), [@VeknQAQ](https://x.com/VeknQAQ), [@Aurora0x3f](https://x.com/Aurora0x3f), [@bei351009016](https://x.com/bei351009016), [@Stargridcompass](https://x.com/Stargridcompass), [@iamtheQwen](https://x.com/iamtheQwen), [@voxelbench](https://x.com/voxelbench), [@sshayahmet](https://x.com/sshayahmet), [@TimJayas](https://x.com/TimJayas), [@lucian__03](https://x.com/lucian__03), [@camperaigg](https://x.com/camperaigg), [@nickbaumann_](https://x.com/nickbaumann_), [@thtbee_](https://x.com/thtbee_), [@DeryaTR_](https://x.com/DeryaTR_), [@banteg](https://x.com/banteg), [@Leviwoyun](https://x.com/Leviwoyun), [@browser_use](https://x.com/browser_use), [@simonw](https://x.com/simonw), [@perplexity_ai](https://x.com/perplexity_ai), [@_3912657840](https://x.com/_3912657840), [@fawnunwrap](https://x.com/fawnunwrap), [@Angaisb_](https://x.com/Angaisb_), [@jony_palino](https://x.com/jony_palino), [@notjazii](https://x.com/notjazii), [@noclipepe](https://x.com/noclipepe), [@Super_Nius](https://x.com/Super_Nius), [@maxbittker](https://x.com/maxbittker), [@morsenxxx](https://x.com/morsenxxx), [@AdamHoltererer](https://x.com/AdamHoltererer), [@Clad3815](https://x.com/Clad3815), [@N1njaCodex](https://x.com/N1njaCodex), [@CodeByNZ](https://x.com/CodeByNZ), [@DanielZambrini](https://x.com/DanielZambrini), [@RezAIT00](https://x.com/RezAIT00), [@LuminaBench](https://x.com/LuminaBench), [@Jason85885174](https://x.com/Jason85885174), [@mspd4100](https://x.com/mspd4100), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@simonw](https://news.ycombinator.com/user?id=simonw), [@Fei2411](https://x.com/Fei2411), [@arena](https://x.com/arena), [@jan_volad](https://x.com/jan_volad), [@eliadele](https://x.com/eliadele), [@monkeys_im](https://x.com/monkeys_im), [@rotejin](https://x.com/rotejin), [@jetbrains](https://x.com/jetbrains), [@UFO2002616](https://x.com/UFO2002616), [@argofowl](https://x.com/argofowl), [@Kombaico](https://x.com/Kombaico), [@shinshin86](https://x.com/shinshin86), [@PawelJLisowski](https://x.com/PawelJLisowski), [@alohaproxy](https://x.com/alohaproxy), [@masahirochaen](https://x.com/masahirochaen), [@mylesBaiM](https://x.com/mylesBaiM), [@exploraX_](https://x.com/exploraX_), [@One2xDatalab](https://x.com/One2xDatalab), [@798145343h](https://x.com/798145343h), [@xKaka1456](https://x.com/xKaka1456), [@op7418](https://x.com/op7418), [@aura_uniiiii](https://x.com/aura_uniiiii), [@shinya_creative](https://x.com/shinya_creative), [@muratcan](https://x.com/muratcan), [@suna_gaku](https://x.com/suna_gaku), [@teddyaisi](https://x.com/teddyaisi), [@0xkhalid7](https://x.com/0xkhalid7), [@shownotover](https://x.com/shownotover), [@andonlabs](https://x.com/andonlabs), [@MatthewBerman](https://x.com/MatthewBerman), [@Hesamation](https://x.com/Hesamation), [@WeAreLegora](https://x.com/WeAreLegora), [@XploreAi](https://x.com/XploreAi), [@patience_cave](https://x.com/patience_cave), [@aidigest_](https://x.com/aidigest_), [@erhanmeydan](https://x.com/erhanmeydan), [@aapakari](https://x.com/aapakari), [@jerryjliu0](https://x.com/jerryjliu0), [@joshzqin](https://x.com/joshzqin), [@DesignArena](https://x.com/DesignArena), [@boringmarketer](https://x.com/boringmarketer), [@sriramkiron](https://x.com/sriramkiron), [@GeppiiKameWorks](https://x.com/GeppiiKameWorks), [@rails](https://x.com/rails), [@CodeRabbit](https://www.coderabbit.ai/), [@givros](https://x.com/givros), [@KrishnaBuildsAI](https://x.com/KrishnaBuildsAI), [@cfenghub](https://x.com/cfenghub), [@MelissaKampers](https://x.com/MelissaKampers), [@fankaishuoai](https://x.com/fankaishuoai), [@guilippert_v4](https://x.com/guilippert_v4), [@null_decimal](https://x.com/null_decimal), [@risui1012](https://x.com/risui1012), [@bangbuilds](https://x.com/bangbuilds), [@hone_sns](https://x.com/hone_sns), [@Rin_4ever_](https://x.com/Rin_4ever_)
+[@Avenoxai](https://x.com/Avenoxai), [@kimmonismus](https://x.com/kimmonismus), [@imjustnewatai](https://x.com/imjustnewatai), [@Khazix0918](https://x.com/Khazix0918), [@marcthecreatorr](https://x.com/marcthecreatorr), [@Bhavani_00007](https://x.com/Bhavani_00007), [@JustLingonberry](https://x.com/JustLingonberry), [@Mr_Salio](https://x.com/Mr_Salio), [@aGim_asf](https://x.com/aGim_asf), [@0x0SojalSec](https://x.com/0x0SojalSec), [@pengsonal](https://x.com/pengsonal), [@GeekCatX](https://x.com/GeekCatX), [@Ananth7e](https://x.com/Ananth7e), [@EnvolDev](https://x.com/EnvolDev), [@xbquan](https://x.com/xbquan), [@SahilPanhotra](https://x.com/SahilPanhotra), [@rubenssoto_ai](https://x.com/rubenssoto_ai), [@vikktorrrre](https://x.com/vikktorrrre), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@Cayden970207](https://x.com/Cayden970207), [@HarshithLucky3](https://x.com/HarshithLucky3), [@TokenGremlin](https://x.com/TokenGremlin), [@SadAlbert10](https://x.com/SadAlbert10), [@maxt3chno](https://x.com/maxt3chno), [@karanC_12](https://x.com/karanC_12), [@JustinGorya](https://x.com/JustinGorya), [@kdnbmb](https://x.com/kdnbmb), [@VraserX](https://x.com/VraserX), [@jessexai_](https://x.com/jessexai_), [@theaidesk_](https://x.com/theaidesk_), [@gadi_neelesh](https://x.com/gadi_neelesh), [@Haleeeemahh](https://x.com/Haleeeemahh), [@SPAC89](https://x.com/SPAC89), [@VeknQAQ](https://x.com/VeknQAQ), [@Aurora0x3f](https://x.com/Aurora0x3f), [@bei351009016](https://x.com/bei351009016), [@Stargridcompass](https://x.com/Stargridcompass), [@iamtheQwen](https://x.com/iamtheQwen), [@voxelbench](https://x.com/voxelbench), [@sshayahmet](https://x.com/sshayahmet), [@TimJayas](https://x.com/TimJayas), [@lucian__03](https://x.com/lucian__03), [@camperaigg](https://x.com/camperaigg), [@nickbaumann_](https://x.com/nickbaumann_), [@thtbee_](https://x.com/thtbee_), [@DeryaTR_](https://x.com/DeryaTR_), [@banteg](https://x.com/banteg), [@Leviwoyun](https://x.com/Leviwoyun), [@browser_use](https://x.com/browser_use), [@simonw](https://x.com/simonw), [@perplexity_ai](https://x.com/perplexity_ai), [@_3912657840](https://x.com/_3912657840), [@fawnunwrap](https://x.com/fawnunwrap), [@Angaisb_](https://x.com/Angaisb_), [@jony_palino](https://x.com/jony_palino), [@notjazii](https://x.com/notjazii), [@noclipepe](https://x.com/noclipepe), [@Super_Nius](https://x.com/Super_Nius), [@maxbittker](https://x.com/maxbittker), [@morsenxxx](https://x.com/morsenxxx), [@AdamHoltererer](https://x.com/AdamHoltererer), [@Clad3815](https://x.com/Clad3815), [@N1njaCodex](https://x.com/N1njaCodex), [@CodeByNZ](https://x.com/CodeByNZ), [@DanielZambrini](https://x.com/DanielZambrini), [@RezAIT00](https://x.com/RezAIT00), [@LuminaBench](https://x.com/LuminaBench), [@Jason85885174](https://x.com/Jason85885174), [@mspd4100](https://x.com/mspd4100), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@simonw](https://news.ycombinator.com/user?id=simonw), [@Fei2411](https://x.com/Fei2411), [@arena](https://x.com/arena), [@jan_volad](https://x.com/jan_volad), [@eliadele](https://x.com/eliadele), [@monkeys_im](https://x.com/monkeys_im), [@rotejin](https://x.com/rotejin), [@jetbrains](https://x.com/jetbrains), [@UFO2002616](https://x.com/UFO2002616), [@argofowl](https://x.com/argofowl), [@Kombaico](https://x.com/Kombaico), [@shinshin86](https://x.com/shinshin86), [@PawelJLisowski](https://x.com/PawelJLisowski), [@alohaproxy](https://x.com/alohaproxy), [@masahirochaen](https://x.com/masahirochaen), [@mylesBaiM](https://x.com/mylesBaiM), [@exploraX_](https://x.com/exploraX_), [@One2xDatalab](https://x.com/One2xDatalab), [@798145343h](https://x.com/798145343h), [@xKaka1456](https://x.com/xKaka1456), [@op7418](https://x.com/op7418), [@aura_uniiiii](https://x.com/aura_uniiiii), [@shinya_creative](https://x.com/shinya_creative), [@muratcan](https://x.com/muratcan), [@suna_gaku](https://x.com/suna_gaku), [@teddyaisi](https://x.com/teddyaisi), [@0xkhalid7](https://x.com/0xkhalid7), [@shownotover](https://x.com/shownotover), [@andonlabs](https://x.com/andonlabs), [@MatthewBerman](https://x.com/MatthewBerman), [@Hesamation](https://x.com/Hesamation), [@WeAreLegora](https://x.com/WeAreLegora), [@XploreAi](https://x.com/XploreAi), [@patience_cave](https://x.com/patience_cave), [@aidigest_](https://x.com/aidigest_), [@erhanmeydan](https://x.com/erhanmeydan), [@aapakari](https://x.com/aapakari), [@jerryjliu0](https://x.com/jerryjliu0), [@joshzqin](https://x.com/joshzqin), [@DesignArena](https://x.com/DesignArena), [@boringmarketer](https://x.com/boringmarketer), [@sriramkiron](https://x.com/sriramkiron), [@GeppiiKameWorks](https://x.com/GeppiiKameWorks), [@rails](https://x.com/rails), [@CodeRabbit](https://www.coderabbit.ai/), [@givros](https://x.com/givros), [@KrishnaBuildsAI](https://x.com/KrishnaBuildsAI), [@cfenghub](https://x.com/cfenghub), [@MelissaKampers](https://x.com/MelissaKampers), [@fankaishuoai](https://x.com/fankaishuoai), [@guilippert_v4](https://x.com/guilippert_v4), [@null_decimal](https://x.com/null_decimal), [@risui1012](https://x.com/risui1012), [@bangbuilds](https://x.com/bangbuilds), [@hone_sns](https://x.com/hone_sns), [@Rin_4ever_](https://x.com/Rin_4ever_), [@luta_ai](https://x.com/luta_ai), [@pieash4](https://x.com/pieash4), [@reddmachine](https://morethanamachine.com/authors/nishaanth-reddy/)
 
 *Пожалуйста, откройте вопрос об исправлении источника для запросов на атрибуцию или удаление.*
