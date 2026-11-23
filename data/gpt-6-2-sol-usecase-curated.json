@@ -1,17 +1,128 @@
 {
   "model": "GPT-6.2 Sol",
   "scope": "Community attribution; model identities remain unverified.",
-  "total_cases": 202,
-  "visible_demos": 197,
+  "total_cases": 208,
+  "visible_demos": 203,
   "counts_by_category": {
     "painting": 2,
-    "three": 100,
+    "three": 104,
     "graphics": 47,
     "web": 19,
-    "game": 20,
-    "communication": 14
+    "game": 21,
+    "communication": 15
   },
   "cases": [
+    {
+      "source_url": "https://x.com/luta_ai/status/2124784905137881529",
+      "author_handle": "luta_ai",
+      "author_url": "https://x.com/luta_ai",
+      "date": "2026-11-23",
+      "dedup_key": "x:2124784905137881529",
+      "task_status": "demonstrated",
+      "material_family": null,
+      "is_demo": true,
+      "model_claimed": "GPT-6.2 Sol",
+      "prompt": null,
+      "root_media": [
+        {
+          "id": "2124784661377478656",
+          "type": "video",
+          "attachment_permalink": "https://x.com/luta_ai/status/2124784905137881529/video/1",
+          "image_or_poster_url": "https://pbs.twimg.com/amplify_video_thumb/2124784661377478656/img/cvz7JrSN0YsPu8Ku.jpg",
+          "playback_source_url": "https://video.twimg.com/amplify_video/2124784661377478656/vid/avc1/1068x720/-m7S98ocME4qONOH.mp4?tag=29"
+        }
+      ],
+      "title": "A blinking character face in Blender",
+      "takeaway": "Build the face flat first, then fit the mesh to a three-dimensional reference.",
+      "body_notes": "The creator started with 74 quadrilateral faces on half the front view, then refined the depth and eyelids with Sol in Codex. They reported two days of trial and error.",
+      "number": 203,
+      "anchor": "case-203",
+      "category": "three",
+      "type": "Demo",
+      "attribution": "Creator statement. Underlying model unverified.",
+      "display_media": [
+        {
+          "case_number": 203,
+          "media_id": "2124784661377478656",
+          "visual": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-203/2124784661377478656-poster-2c2348745540b5142e6c.jpg",
+          "playback": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2124784661377478656-da58f408dd81094a3d8f.mp4"
+        }
+      ]
+    },
+    {
+      "source_url": "https://x.com/givros/status/2124583766765252833",
+      "author_handle": "givros",
+      "author_url": "https://x.com/givros",
+      "date": "2026-11-22",
+      "dedup_key": "x:2124583766765252833",
+      "task_status": "demonstrated",
+      "material_family": null,
+      "is_demo": true,
+      "model_claimed": "GPT-6.2 Sol",
+      "prompt": null,
+      "root_media": [
+        {
+          "id": "2124583099346329601",
+          "type": "video",
+          "attachment_permalink": "https://x.com/givros/status/2124583766765252833/video/1",
+          "image_or_poster_url": "https://pbs.twimg.com/amplify_video_thumb/2124583099346329601/img/CkW9mx3Tb-eZITsx.jpg",
+          "playback_source_url": "https://video.twimg.com/amplify_video/2124583099346329601/vid/avc1/1280x720/hpIyfy4u22bWJT7b.mp4?tag=29"
+        }
+      ],
+      "title": "A crimson sanctuary environment",
+      "takeaway": "Inspect the terrain, buildings and camera movement in an environment prototype.",
+      "body_notes": "The creator published a flythrough of Crimson Sanctuary and reported a 47-minute 52-second run with Sol Ultra.",
+      "number": 204,
+      "anchor": "case-204",
+      "category": "three",
+      "type": "Demo",
+      "attribution": "Creator statement. Underlying model unverified.",
+      "display_media": [
+        {
+          "case_number": 204,
+          "media_id": "2124583099346329601",
+          "visual": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-204/2124583099346329601-poster-61d19411abfe45717419.jpg",
+          "playback": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2124583099346329601-2c732231f7ded8999158.mp4"
+        }
+      ]
+    },
+    {
+      "source_url": "https://x.com/Mr_Salio/status/2124514939410726971",
+      "author_handle": "Mr_Salio",
+      "author_url": "https://x.com/Mr_Salio",
+      "date": "2026-11-22",
+      "dedup_key": "x:2124514939410726971",
+      "task_status": "demonstrated",
+      "material_family": null,
+      "is_demo": true,
+      "model_claimed": "GPT-6.2 Sol",
+      "prompt": null,
+      "root_media": [
+        {
+          "id": "2124514864982831104",
+          "type": "video",
+          "attachment_permalink": "https://x.com/Mr_Salio/status/2124514939410726971/video/1",
+          "image_or_poster_url": "https://pbs.twimg.com/amplify_video_thumb/2124514864982831104/img/Sog3DpHQXuYAD9Gz.jpg",
+          "playback_source_url": "https://video.twimg.com/amplify_video/2124514864982831104/vid/avc1/1280x720/zSGoWeth-BFJt3nt.mp4?tag=29"
+        }
+      ],
+      "title": "A floating neighborhood made with code",
+      "takeaway": "Inspect how the scene combines terrain, roads and buildings into one small island.",
+      "body_notes": "The creator attributed the code-only scene to Sol. The clip shows a flyover of buildings and a road on a floating island edged in turquoise water.",
+      "number": 206,
+      "anchor": "case-206",
+      "category": "three",
+      "type": "Demo",
+      "attribution": "Creator statement. Underlying model unverified.",
+      "display_media": [
+        {
+          "case_number": 206,
+          "media_id": "2124514864982831104",
+          "visual": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-206/2124514864982831104-poster-05bbf030b48f88b5c182.jpg",
+          "playback": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2124514864982831104-307974ce5f7aa8ff2895.mp4"
+        }
+      ]
+    },
     {
       "source_url": "https://x.com/givros/status/2124404063802429838",
       "author_handle": "givros",
@@ -423,6 +534,46 @@
         }
       ],
       "supporting_source_url": "https://andonlabs.com/evals/blueprint-bench-2"
+    },
+    {
+      "source_url": "https://morethanamachine.com/posts/slinky-escalator-benchmark/",
+      "author_handle": "reddmachine",
+      "author_url": "https://morethanamachine.com/authors/nishaanth-reddy/",
+      "date": "2026-11-20",
+      "dedup_key": "hn:50597156",
+      "task_status": "demonstrated",
+      "material_family": null,
+      "is_demo": true,
+      "model_claimed": "GPT-6.2 Sol",
+      "prompt": null,
+      "root_media": [
+        {
+          "id": "slinky-50597156-gpt-6-2-sol",
+          "type": "video",
+          "attachment_permalink": "https://morethanamachine.com/posts/slinky-escalator-benchmark/#01-the-runs",
+          "image_or_poster_url": "https://morethanamachine.com/images/benchmarks/slinky-escalator/gpt-6-2-sol.jpg?v=2",
+          "playback_source_url": "https://morethanamachine.com/images/benchmarks/slinky-escalator/gpt-6-2-sol.mp4?v=2"
+        }
+      ],
+      "title": "A Slinky on an upward escalator",
+      "takeaway": "Compare how physics scenes handle a spring and moving steps.",
+      "body_notes": "Nishaanth Reddy tested 15 models with one prompt and no manual edits. His published Sol xhigh run took 11 minutes and cost $0.55.",
+      "number": 208,
+      "anchor": "case-208",
+      "category": "three",
+      "type": "Benchmark",
+      "attribution": "First-party benchmark reported by Nishaanth Reddy.",
+      "display_media": [
+        {
+          "case_number": 208,
+          "media_id": "slinky-50597156-gpt-6-2-sol",
+          "visual": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-208/slinky-50597156-gpt-6-2-sol-poster-c39bd9b45bf51f0a7b66.jpg",
+          "playback": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/slinky-50597156-gpt-6-2-sol-c631fbadf0fde8e0c6bc.mp4"
+        }
+      ],
+      "source_published_at": "2026-11-20T00:00:00+00:00",
+      "discovery_url": "https://news.ycombinator.com/item?id=50608352",
+      "prompt_source_url": "https://morethanamachine.com/posts/slinky-escalator-benchmark/#00-the-prompt"
     },
     {
       "source_url": "https://x.com/jan_volad/status/2123529633844879477",
@@ -4003,6 +4154,69 @@
       ]
     },
     {
+      "source_url": "https://x.com/fankaishuoai/status/2124532226016874920",
+      "author_handle": "fankaishuoai",
+      "author_url": "https://x.com/fankaishuoai",
+      "date": "2026-11-22",
+      "dedup_key": "x:2124532226016874920",
+      "task_status": "demonstrated",
+      "material_family": null,
+      "is_demo": true,
+      "model_claimed": "GPT-6.2 Sol",
+      "prompt": null,
+      "root_media": [
+        {
+          "id": "2124529933691367424",
+          "type": "photo",
+          "attachment_permalink": "https://x.com/fankaishuoai/status/2124532226016874920/photo/1",
+          "image_or_poster_url": "https://pbs.twimg.com/media/HXvYt-xbsAA0K5p.jpg",
+          "playback_source_url": null
+        },
+        {
+          "id": "2124529933691363329",
+          "type": "photo",
+          "attachment_permalink": "https://x.com/fankaishuoai/status/2124532226016874920/photo/2",
+          "image_or_poster_url": "https://pbs.twimg.com/media/HXvYt-xboAEevIC.jpg",
+          "playback_source_url": null
+        },
+        {
+          "id": "2124529933695467520",
+          "type": "photo",
+          "attachment_permalink": "https://x.com/fankaishuoai/status/2124532226016874920/photo/3",
+          "image_or_poster_url": "https://pbs.twimg.com/media/HXvYt-yaQAASEbV.jpg",
+          "playback_source_url": null
+        }
+      ],
+      "title": "Slide design for the same talk",
+      "takeaway": "Compare how models lay out a slide using identical presentation content.",
+      "body_notes": "The creator generated PPTX decks from one talk and published one matching slide from three models. They found Sol’s deck usable and chose the Opus 5.5 version.",
+      "number": 205,
+      "anchor": "case-205",
+      "category": "communication",
+      "type": "Evaluation",
+      "attribution": "Creator statement. Underlying model unverified.",
+      "display_media": [
+        {
+          "case_number": 205,
+          "media_id": "2124529933691367424",
+          "visual": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-205/2124529933691367424-9a74ba277ef97734eb7c.jpg",
+          "playback": null
+        },
+        {
+          "case_number": 205,
+          "media_id": "2124529933691363329",
+          "visual": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-205/2124529933691363329-81e61a39a6a01849c140.jpg",
+          "playback": null
+        },
+        {
+          "case_number": 205,
+          "media_id": "2124529933695467520",
+          "visual": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-205/2124529933695467520-5654e7ea3275312ea0e0.jpg",
+          "playback": null
+        }
+      ]
+    },
+    {
       "source_url": "https://x.com/KrishnaBuildsAI/status/2124374855332356527",
       "author_handle": "KrishnaBuildsAI",
       "author_url": "https://x.com/KrishnaBuildsAI",
@@ -4677,6 +4891,43 @@
           "media_id": "2119428270945140736",
           "visual": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-43/2119428270945140736-f9662043dadb9a6e4b1b.jpg",
           "playback": null
+        }
+      ]
+    },
+    {
+      "source_url": "https://x.com/pieash4/status/2124489245343760883",
+      "author_handle": "pieash4",
+      "author_url": "https://x.com/pieash4",
+      "date": "2026-11-22",
+      "dedup_key": "x:2124489245343760883",
+      "task_status": "demonstrated",
+      "material_family": null,
+      "is_demo": true,
+      "model_claimed": "GPT-6.2 Sol",
+      "prompt": null,
+      "root_media": [
+        {
+          "id": "2124489207225974784",
+          "type": "video",
+          "attachment_permalink": "https://x.com/pieash4/status/2124489245343760883/video/1",
+          "image_or_poster_url": "https://pbs.twimg.com/amplify_video_thumb/2124489207225974784/img/g9paH1vEaA-4v-Zm.jpg",
+          "playback_source_url": "https://video.twimg.com/amplify_video/2124489207225974784/vid/avc1/576x1280/HRbJJ6A2FsWHPX4T.mp4?tag=29"
+        }
+      ],
+      "title": "Iterating on Yakiimo Catch in Remix",
+      "takeaway": "Keep the game mechanics fixed while revising characters and scenery.",
+      "body_notes": "The creator shared the starting feedback and the playable game footage. They reported publishing Yakiimo Catch after five messages across five days with Sol in Remix.",
+      "number": 207,
+      "anchor": "case-207",
+      "category": "game",
+      "type": "Demo",
+      "attribution": "Creator statement. Underlying model unverified.",
+      "display_media": [
+        {
+          "case_number": 207,
+          "media_id": "2124489207225974784",
+          "visual": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-207/2124489207225974784-poster-b930d7c936113ee0a24f.jpg",
+          "playback": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2124489207225974784-9542628eaf6a91655ad1.mp4"
         }
       ]
     },
