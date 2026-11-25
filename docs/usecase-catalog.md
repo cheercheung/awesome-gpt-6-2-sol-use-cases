@@ -1,9 +1,18 @@
 # GPT-6.2 Sol case catalog
 
-202 source-backed cases, newest first. The [README](../README.md) contains the case notes and media.
+212 source-backed cases, newest first. The [README](../README.md) contains the case notes and media.
 
 | Case | Date | Type | Original source |
 | --- | --- | --- | --- |
+| [Four models animate a gear assembly](../README.md#case-209) | 2026-11-23 | Evaluation | [Source](https://x.com/SPAC89/status/2124828293505409471) |
+| [A blinking character face in Blender](../README.md#case-203) | 2026-11-23 | Demo | [Source](https://x.com/luta_ai/status/2124784905137881529) |
+| [Two animated restaurant sites from one brief](../README.md#case-210) | 2026-11-23 | Evaluation | [Source](https://x.com/exploraX_/status/2124760284338221241) |
+| [A fictional music festival site built with several models](../README.md#case-211) | 2026-11-23 | Integration | [Source](https://x.com/studio_yebisu/status/2124667910065095059) |
+| [Two Titanic builds in Minecraft](../README.md#case-212) | 2026-11-23 | Evaluation | [Source](https://x.com/jan_volad/status/2124655417271668982) |
+| [A crimson sanctuary environment](../README.md#case-204) | 2026-11-22 | Demo | [Source](https://x.com/givros/status/2124583766765252833) |
+| [Slide design for the same talk](../README.md#case-205) | 2026-11-22 | Evaluation | [Source](https://x.com/fankaishuoai/status/2124532226016874920) |
+| [A floating neighborhood made with code](../README.md#case-206) | 2026-11-22 | Demo | [Source](https://x.com/Mr_Salio/status/2124514939410726971) |
+| [Iterating on Yakiimo Catch in Remix](../README.md#case-207) | 2026-11-22 | Demo | [Source](https://x.com/pieash4/status/2124489245343760883) |
 | [A valley crossed by an aqueduct](../README.md#case-186) | 2026-11-22 | Demo | [Source](https://x.com/givros/status/2124404063802429838) |
 | [Image generation on a simple addition question](../README.md#case-187) | 2026-11-22 | Limit | [Source](https://x.com/KrishnaBuildsAI/status/2124374855332356527) |
 | [Eight television locations rebuilt in Minecraft](../README.md#case-188) | 2026-11-22 | Evaluation | [Source](https://x.com/jan_volad/status/2124308264456233400) |
@@ -34,6 +43,7 @@
 | [Two first-person game prototypes in Codex](../README.md#case-160) | 2026-11-20 | Evaluation | [Source](https://x.com/shownotover/status/2123599696526717303) |
 | [A cozy village game with Blender assets](../README.md#case-161) | 2026-11-20 | Demo | [Source](https://x.com/TokenGremlin/status/2123574805723058647) |
 | [Apartment floor plans from interior photos](../README.md#case-162) | 2026-11-20 | Benchmark | [Source](https://x.com/andonlabs/status/2123570732575989832) |
+| [A Slinky on an upward escalator](../README.md#case-208) | 2026-11-20 | Benchmark | [Source](https://morethanamachine.com/posts/slinky-escalator-benchmark/) |
 | [Dialogue cuts in a talking-head video](../README.md#case-163) | 2026-11-19 | Benchmark | [Source](https://x.com/MatthewBerman/status/2123546744759984513) |
 | [Two designs for a headquarters](../README.md#case-164) | 2026-11-19 | Evaluation | [Source](https://x.com/jan_volad/status/2123529633844879477) |
 | [Managing a settlement in Crusader Bench](../README.md#case-165) | 2026-11-19 | Benchmark | [Source](https://x.com/Hesamation/status/2123528773140197579) |
