@@ -2,7 +2,7 @@
 
 <h1>GPT-6.2 Sol · Démonstrations et cas d’usage</h1>
 
-<a href="https://evolink.ai/gpt-6-2-sol?utm_source=github&utm_medium=banner&utm_campaign=gpt-6-2-sol-usecases&utm_content=readme_banner"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/covers/cover-1c4c7490be0406351b48.svg" width="760" alt="GPT-6.2 Sol community demos and use cases"></a>
+<a href="https://evolink.ai/gpt-6-2-sol?utm_source=github&utm_medium=banner&utm_campaign=gpt-6-2-sol-usecases&utm_content=readme_banner"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/covers/cover-9037775f357068018b8f.svg" width="760" alt="GPT-6.2 Sol community demos and use cases"></a>
 
 [![License](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey)](LICENSE)
 
@@ -15,6 +15,8 @@
 
 **Découvrez les démonstrations que leurs auteurs attribuent à GPT-6.2 Sol. Les publications originales décrivent les tâches et présentent les résultats.**
 
+OpenAI présente [GPT-6.2 Sol](https://openai.com/index/introducing-gpt-6-2-astra-sol/) comme un modèle destiné à la programmation courante et aux workflows d’agents.
+
 <a id="overview"></a>
 ## 📊 Aperçu
 
@@ -26,6 +28,8 @@
 > [!NOTE]
 > **Les clips et les images fixes montrent la sortie. Les étiquettes des modèles sont attribuées aux créateurs et la version du modèle sous-jacent reste non vérifiée. Les entrées qui partagent des séquences sont conservées ensemble dans les données par famille de médias.**
 
+> Les publications antérieures au 17 novembre 2026 précèdent le lancement public d’OpenAI. L’attribution du modèle provient de leurs auteurs.
+
 <a id="quick-start"></a>
 ## ⚡ Démarrage rapide
 
@@ -33,222 +37,224 @@
 2. Ouvrez un aperçu pour voir le média source, puis lisez le message original pour connaître le contexte.
 3. Utilisez l’invite publique lorsqu’elle est disponible. Conservez l’entrée d’origine lors de la comparaison des résultats.
 
-[Voir GPT-6.2 Sol sur EvoLink](https://evolink.ai/gpt-6-2-sol?utm_source=github&utm_medium=quickstart&utm_campaign=gpt-6-2-sol-usecases&utm_content=browser_try)
+[Voir GPT-6.2 Sol sur EvoLink](https://evolink.ai/gpt-6-2-sol?utm_source=github&utm_medium=readme&utm_campaign=gpt-6-2-sol-usecases&utm_content=landing_overview)
 
 <a id="menu"></a>
 ## 📑 Menus
 
 | Cas | Catégorie | Ce qui est présenté | Type |
 | --- | --- | --- | --- |
-| [Aperçu](#overview) | Navigation | Aperçu | — |
-| [Démarrage rapide](#quick-start) | Navigation | Démarrage rapide | — |
-| [Dépôts associés](#related-repositories) | Navigation | Dépôts associés | — |
-| [Remerciements](#acknowledge) | Navigation | Remerciements | — |
-| [Cas 186. Une vallée traversée par un aqueduc](#case-186) | [Scènes et modélisation 3D](#category-three) | Voyez comment un flux de travail dans Blender permet de transférer un vaste paysage dans Three.js. | Demo |
-| [Cas 187. Génération d’une image pour une simple addition](#case-187) | [Utilisation de l'ordinateur et communication](#category-communication) | Évaluez séparément l’usage inattendu d’un outil et l’exactitude de la réponse finale. | Limit |
-| [Cas 188. Huit lieux de séries télévisées reconstruits dans Minecraft](#case-188) | [Développement de jeux](#category-game) | Comparez l’agencement des lieux reconnaissables et le temps de construction dans deux versions du monde de jeu. | Evaluation |
-| [Cas 189. Un véhicule d’expédition interactif dans Three.js](#case-189) | [Scènes et modélisation 3D](#category-three) | Examinez les détails modélisés, les panneaux articulés et le son synthétisé dans un seul fichier HTML. | Demo |
-| [Cas 190. Une présentation de l’hypothèse de Riemann générée par code](#case-190) | [Graphismes et animations créatifs](#category-graphics) | Assemblez l’animation et sa bande sonore dans le même flux de travail avec du code exécuté localement. | Demo |
-| [Cas 191. Quatre rendus de la tour Eiffel dans Three.js](#case-191) | [Scènes et modélisation 3D](#category-three) | Comparez la structure en treillis, les proportions et les environs dans les quatre scènes légendées. | Evaluation |
-| [Cas 192. Détection de bugs connus lors de la revue d’une base de données](#case-192) | [Utilisation de l'ordinateur et communication](#category-communication) | Comparez le nombre de bugs connus détectés et le temps écoulé sur la même tâche de revue. | Benchmark |
-| [Cas 193. Les ruines d’Ozymandias dans Minecraft](#case-193) | [Développement de jeux](#category-game) | Comparez la façon dont deux modèles représentent la même scène littéraire avec des blocs. | Evaluation |
-| [Cas 194. Préréglages de Sol pour les agents Hermes et Pi](#case-194) | [Utilisation de l'ordinateur et communication](#category-communication) | Voyez comment un point d’accès unique sur le bureau peut organiser des assistants aux rôles différents. | Integration |
-| [Cas 195. Six refontes d’un même site marketing](#case-195) | [Sites Web et interfaces](#category-web) | Comparez les directions visuelles que différents modèles prennent à partir des mêmes consignes pour le site. | Evaluation |
-| [Cas 196. Un diorama de rive sous la pluie à partir d’une image](#case-196) | [Scènes et modélisation 3D](#category-three) | Comparez la façon dont deux modèles transforment une même image en scène 2,5D pour navigateur. | Evaluation |
-| [Cas 197. Vues de face et de dessus permutées dans SolidWorks](#case-197) | [Scènes et modélisation 3D](#category-three) | Vérifiez l’orientation des vues du dessin technique par rapport à l’assemblage avant de valider l’export. | Limit |
-| [Cas 198. Une comparaison à l’aveugle de récits courts](#case-198) | [Utilisation de l'ordinateur et communication](#category-communication) | Comparez des récits courts fondés sur une même intrigue et repérez les interventions humaines sur la mise en forme. | Evaluation |
-| [Cas 199. Un chat près d’une fenêtre sous la pluie](#case-199) | [Graphismes et animations créatifs](#category-graphics) | Comparez la mise en scène de quatre modèles dans une seule animation HTML. | Evaluation |
-| [Cas 176. Analyse de documents à deux niveaux de raisonnement](#case-176) | [Utilisation de l'ordinateur et communication](#category-communication) | Comparez le score global d’analyse, le score sur les graphiques et le coût par page. | Benchmark |
-| [Cas 200. Mouvements de caméra pour douze modèles de bâtiments](#case-200) | [Scènes et modélisation 3D](#category-three) | Utilisez Blender MCP pour créer des mouvements de caméra autour d’un ensemble de modèles importés. | Demo |
-| [Cas 177. Quatre cyclistes animés au soleil couchant](#case-177) | [Graphismes et animations créatifs](#category-graphics) | Comparez les mouvements des cyclistes, les proportions des vélos et l’éclairage de la scène dans les quatre résultats. | Evaluation |
-| [Cas 178. Tâches professionnelles dans Company Agent Bench](#case-178) | [Utilisation de l'ordinateur et communication](#category-communication) | Comparez les taux de réussite annoncés pour les niveaux de raisonnement testés. | Benchmark |
-| [Cas 179. Un téléphérique au-dessus de Scarlet Fjord](#case-179) | [Scènes et modélisation 3D](#category-three) | Comparez la façon dont les quatre rendus représentent la cabine et le paysage alentour. | Evaluation |
-| [Cas 180. Préférences et coûts de génération pour la création de jeux](#case-180) | [Développement de jeux](#category-game) | Comparez le classement selon les préférences, le temps moyen et le coût de génération dans la même arène de création de jeux. | Benchmark |
-| [Cas 181. Une comparaison sur des tâches de marketing](#case-181) | [Utilisation de l'ordinateur et communication](#category-communication) | Examinez la préférence par tâche, le coût et le nombre de votes. | Benchmark |
-| [Cas 182. Un itinéraire à pied transformé en jeu sur console portable](#case-182) | [Développement de jeux](#category-game) | Observez comment les relevés d’une promenade deviennent des scènes de jeu que l’on peut revisiter. | Demo |
-| [Cas 183. Un lapin créé dans Blender à partir d’une image](#case-183) | [Scènes et modélisation 3D](#category-three) | Examinez la géométrie sous plusieurs angles après avoir pris une image générée comme référence. | Demo |
-| [Cas 184. Taux de réussite et temps d’exécution dans Agents on Rails](#case-184) | [Sites Web et interfaces](#category-web) | Mesurez séparément le temps d’exécution et le taux de réussite sur des tâches de développement dans des applications Rails existantes. | Benchmark |
-| [Cas 201. Un champ d’herbe dans une scène HTML autonome](#case-201) | [Scènes et modélisation 3D](#category-three) | Suivez le transfert d’un élément de Blender vers un petit projet Three.js qui tourne dans le navigateur. | Demo |
-| [Cas 202. Variations d’illustrations de costumes dans ChatGPT Work](#case-202) | [Graphismes et animations créatifs](#category-graphics) | Comparez ce qui change quand on relance une demande détaillée d’illustration de costume. | Evaluation |
-| [Cas 159. Des images fixes à une vidéo finalisée](#case-159) | [Graphismes et animations créatifs](#category-graphics) | Suivez la chronologie du montage pour voir à quel moment les images générées s’intègrent au flux de travail. | Demo |
-| [Cas 160. Deux prototypes de jeu à la première personne dans Codex](#case-160) | [Développement de jeux](#category-game) | Comparez la disposition du niveau et l’expérience de jeu en tenant compte du coût indiqué. | Evaluation |
-| [Cas 161. Un jeu dans un village paisible avec des éléments créés dans Blender](#case-161) | [Développement de jeux](#category-game) | Observez comment les objets modélisés et l’animation se combinent dans une scène de jeu. | Demo |
-| [Cas 162. Des plans d’appartements à partir de photos d’intérieur](#case-162) | [Scènes et modélisation 3D](#category-three) | Évaluez si un agent peut déduire la disposition des pièces à partir de photographies. | Benchmark |
-| [Cas 163. Coupes de dialogue dans une vidéo face caméra](#case-163) | [Graphismes et animations créatifs](#category-graphics) | Comparez le temps de montage, le score global et les types de coupes qui échouent. | Benchmark |
-| [Cas 164. Deux projets d’architecture pour un siège social](#case-164) | [Scènes et modélisation 3D](#category-three) | Comparez les bâtiments et le cadrage pour une même consigne de conception ouverte. | Evaluation |
-| [Cas 165. Gérer une colonie dans Crusader Bench](#case-165) | [Développement de jeux](#category-game) | Comparez le jeu des agents sur les mêmes cartes évaluées et dans les mêmes conditions. | Benchmark |
-| [Cas 185. Relecture de pull requests dans CodeRabbit](#case-185) | [Utilisation de l'ordinateur et communication](#category-communication) | Comparez les problèmes connus détectés, la précision annoncée et le coût de la relecture selon la configuration utilisée. | Benchmark |
-| [Cas 166. Le banc d’essai juridique de Legora en novembre](#case-166) | [Utilisation de l'ordinateur et communication](#category-communication) | Comparez la qualité et le coût par dossier sur les mêmes tâches professionnelles. | Benchmark |
-| [Cas 167. Sol sur le banc d’essai de conception technique de Xplore](#case-167) | [Scènes et modélisation 3D](#category-three) | Comparez les scores par tâche et le coût par essai sur une série qui comprend des travaux de CAO. | Benchmark |
-| [Cas 168. Une scène de pas de tir pour Ruby Ascent](#case-168) | [Scènes et modélisation 3D](#category-three) | Comparez les détails de la scène et le temps de création dans quatre versions du même pas de tir. | Evaluation |
-| [Cas 169. Navigation spatiale dans MazeBench](#case-169) | [Développement de jeux](#category-game) | Comparez la résolution des labyrinthes sur le même banc d’essai publié. | Benchmark |
-| [Cas 170. Des réponses indépendantes à un questionnaire de profil dans AI Village](#case-170) | [Utilisation de l'ordinateur et communication](#category-communication) | Comparez les réponses que deux agents donnent indépendamment au même questionnaire de profil. | Integration |
-| [Cas 171. Une animation 3D à partir du même extrait vidéo](#case-171) | [Scènes et modélisation 3D](#category-three) | Comparez la façon dont cinq modèles représentent le même extrait dans un style prédéfini. | Evaluation |
-| [Cas 172. Un tour autour du sommet du Burj Khalifa](#case-172) | [Scènes et modélisation 3D](#category-three) | Examinez comment les modèles représentent les retraits de la partie supérieure et le couronnement de la tour. | Evaluation |
-| [Cas 173. Une animation sur tableau blanc à partir d’un court extrait](#case-173) | [Graphismes et animations créatifs](#category-graphics) | Comparez la mise en récit et le coût à partir du même extrait vidéo. | Evaluation |
-| [Cas 174. Une page web sur un phare de la côte rocheuse](#case-174) | [Sites Web et interfaces](#category-web) | Comparez deux pages web produites en une seule réponse avec les mêmes consignes et le même niveau de raisonnement. | Evaluation |
-| [Cas 175. Cinq parties d’échecs sans outils](#case-175) | [Développement de jeux](#category-game) | Comparez les points, les résultats des parties et les coûts indiqués pour la même rencontre. | Benchmark |
-| [Cas 124. Un rapport de suivi de PR qui omet les consignes du dépôt](#case-124) | [Utilisation de l'ordinateur et communication](#category-communication) | Comparez le niveau de détail et l’organisation des réponses à une courte demande de suivi. | Limit |
-| [Cas 125. Une présentation comparative d’Astra et de Sol sur Arena](#case-125) | [Scènes et modélisation 3D](#category-three) | Utilisez les chapitres de la vidéo pour comparer les scènes, les jeux et les interfaces. | Evaluation |
-| [Cas 126. Une cathédrale de vampires hantée](#case-126) | [Scènes et modélisation 3D](#category-three) | Comparez la façon dont deux modèles interprètent les mêmes consignes d’architecture gothique. | Evaluation |
-| [Cas 127. Une supérette sous la pluie, la nuit](#case-127) | [Scènes et modélisation 3D](#category-three) | Utilisez l’écran partagé pour comparer l’éclairage, la pluie et la géométrie de la devanture. | Evaluation |
-| [Cas 128. Une page d’accueil pour une pizzeria new-yorkaise](#case-128) | [Sites Web et interfaces](#category-web) | Vérifiez si différents modèles font des choix de marque distincts à partir d’une seule phrase. | Evaluation |
-| [Cas 129. Deux représentations d’une pagode](#case-129) | [Scènes et modélisation 3D](#category-three) | Comparez la manière dont deux essais en mode xhigh rendent le même sujet architectural. | Evaluation |
-| [Cas 130. Une chute de feuille réaliste en trois minutes](#case-130) | [Graphismes et animations créatifs](#category-graphics) | Fixez un temps limite pour voir comment le modèle combine les ressources et le code. | Demo |
-| [Cas 131. Un port de pêche miniature sous une averse ensoleillée](#case-131) | [Scènes et modélisation 3D](#category-three) | Comparez la pluie, le décor miniature et les mouvements de caméra dans quatre essais. | Evaluation |
-| [Cas 132. Score et coût médian dans Arena WebDev](#case-132) | [Sites Web et interfaces](#category-web) | Comparez le résultat au classement avec le coût médian par tâche. | Benchmark |
-| [Cas 133. Un lancement de fusée rendu par quatre modèles](#case-133) | [Scènes et modélisation 3D](#category-three) | Comparez la mise en scène et le mouvement dans quatre versions de la même scène fictive. | Evaluation |
-| [Cas 134. Un personnage en pixel art qui court en boucle](#case-134) | [Graphismes et animations créatifs](#category-graphics) | Vérifiez si l’animation du personnage se répète sans à-coup sur un décor défilant. | Demo |
-| [Cas 135. Une tempête au pied d’un phare](#case-135) | [Scènes et modélisation 3D](#category-three) | Comparez les détails de la tour et les mouvements de l’océan à partir des mêmes consignes. | Evaluation |
-| [Cas 136. Un outil interactif pour explorer l’anatomie](#case-136) | [Sites Web et interfaces](#category-web) | Comparez l’impact de l’ouverture et la lisibilité pendant l’exploration d’un modèle 3D. | Evaluation |
-| [Cas 137. Un bateau sur une mer déchaînée](#case-137) | [Scènes et modélisation 3D](#category-three) | Examinez séparément la pluie, le volume des nuages, les détails du bateau et le comportement de l’eau. | Evaluation |
-| [Cas 138. Une partie jusqu’au titre de Maître dans Pokémon FireRed](#case-138) | [Développement de jeux](#category-game) | Comparez les temps de fin de partie avec des paramètres explicites pour les entrées et le raisonnement. | Benchmark |
-| [Cas 139. Un site web pour un hôtel fictif](#case-139) | [Sites Web et interfaces](#category-web) | Comparez la mise en page obtenue en une seule exécution, le temps écoulé et le coût à partir des mêmes consignes. | Evaluation |
-| [Cas 140. Design Creativity Bench pour les interfaces](#case-140) | [Sites Web et interfaces](#category-web) | Comparez les notes de créativité des interfaces et les coûts annoncés. | Benchmark |
-| [Cas 141. Dialoguer avec un personnage dans AITuber OnAir](#case-141) | [Utilisation de l'ordinateur et communication](#category-communication) | Essayez différents niveaux de raisonnement pendant une conversation en direct avec un personnage. | Integration |
-| [Cas 142. Un personnage articulé dans Blender à partir d’un dessin préparatoire](#case-142) | [Scènes et modélisation 3D](#category-three) | Évaluez séparément la ressemblance et la qualité de l’animation des personnages générés. | Evaluation |
-| [Cas 143. Un robot de science-fiction qui s’assemble seul dans Three.js](#case-143) | [Scènes et modélisation 3D](#category-three) | Comparez la façon dont deux modèles présentent une séquence d’assemblage et de lancement. | Evaluation |
-| [Cas 144. Un café lunaire modélisé par cinq systèmes](#case-144) | [Scènes et modélisation 3D](#category-three) | Comparez la mise en scène et l’éclairage d’un café lunaire par différents modèles. | Evaluation |
-| [Cas 145. Un tandem animé en SVG](#case-145) | [Graphismes et animations créatifs](#category-graphics) | Comparez le dessin et l’animation d’un même sujet en SVG avec deux outils de programmation. | Evaluation |
-| [Cas 146. Un jeu de course 3D avec un dinosaure et de la physique ragdoll](#case-146) | [Développement de jeux](#category-game) | Comparez le style visuel et le comportement lors des collisions dans quatre prototypes de jeu. | Evaluation |
-| [Cas 147. Le dernier tramway d’une ville de montagne sous la pluie](#case-147) | [Scènes et modélisation 3D](#category-three) | Comparez la modélisation et l’ambiance avec un prompt et un niveau de raisonnement identiques. | Evaluation |
-| [Cas 148. Un rendu 3D de la Maison-Blanche](#case-148) | [Scènes et modélisation 3D](#category-three) | Comparez les proportions de la façade et la composition dans deux visualisations architecturales. | Evaluation |
-| [Cas 149. Un pélican à vélo dans Blender](#case-149) | [Scènes et modélisation 3D](#category-three) | Comparez les rendus finaux et relevez ce que chaque essai a effectivement livré. | Evaluation |
-| [Cas 150. Un personnage 3D stylisé sur une page web](#case-150) | [Scènes et modélisation 3D](#category-three) | Comparez le personnage modélisé, son décor et l’animation visible. | Evaluation |
-| [Cas 151. Une cascade insulaire et la surface de l’océan](#case-151) | [Scènes et modélisation 3D](#category-three) | Comparez le temps de rendu et l’aspect de l’eau dans deux versions de la scène. | Evaluation |
-| [Cas 152. Mesurer un montage vidéo en Ultrafast](#case-152) | [Graphismes et animations créatifs](#category-graphics) | Mesurez le temps total de montage séparément du temps de réponse du modèle. | Benchmark |
-| [Cas 153. Une signature manuscrite animée dans Remotion](#case-153) | [Graphismes et animations créatifs](#category-graphics) | Comparez la façon dont deux essais en mode Max animent la même signature. | Evaluation |
-| [Cas 154. Un personnage créé dans Mesh Avatar Studio](#case-154) | [Scènes et modélisation 3D](#category-three) | Examinez l’avatar présenté dans un flux de travail avec un niveau de raisonnement bas. | Demo |
-| [Cas 155. Appels simulés à une clinique dans FrontDesk-Bench](#case-155) | [Utilisation de l'ordinateur et communication](#category-communication) | Consignez séparément les actions à risque et les refus de demandes légitimes. | Benchmark |
-| [Cas 156. Comparaison de portraits 3D à partir d’une référence](#case-156) | [Scènes et modélisation 3D](#category-three) | Comparez les détails du visage et la ressemblance globale sur quatre portraits modélisés. | Evaluation |
-| [Cas 157. Une pieuvre sous l’eau dans Three.js](#case-157) | [Scènes et modélisation 3D](#category-three) | Comparez les détails de la scène, le temps et le coût à consigne et niveau de raisonnement identiques. | Evaluation |
-| [Cas 158. Un jeu inspiré de fausses publicités](#case-158) | [Développement de jeux](#category-game) | Comparez quatre versions jouables à partir des mêmes consignes pour un niveau de jeu. | Evaluation |
-| [Cas 79. Un brief de motion design de 15 secondes](#case-79) | [Graphismes et animations créatifs](#category-graphics) | Donnez la même consigne aux deux modèles et comparez la typographie, les transitions et le mouvement. | Evaluation |
-| [Cas 80. Taux de réussite et nombre d’étapes chez Browser Use](#case-80) | [Sites Web et interfaces](#category-web) | Comparez le taux de réussite, la durée et le nombre d’étapes sur la même série de tâches dans un navigateur. | Benchmark |
-| [Cas 78. Terminer une série de salles de Sokoban](#case-78) | [Développement de jeux](#category-game) | Comptez les salles terminées et revisionnez les coups pour repérer les blocages. | Benchmark |
-| [Cas 81. Un robot marche sur une carte dans Three.js](#case-81) | [Scènes et modélisation 3D](#category-three) | Utilisez les mêmes données cartographiques et les mêmes consignes pour comparer les scènes animées. | Evaluation |
-| [Cas 77. Une galerie de papillons avec des modèles Blender](#case-77) | [Sites Web et interfaces](#category-web) | Associez un spécimen que l’on peut faire tourner à des vues agrandies et à des notes de terrain. | Demo |
-| [Cas 82. WANDR, le banc d’essai pour agents de Perplexity](#case-82) | [Sites Web et interfaces](#category-web) | Comparez le score et le coût par tâche. | Benchmark |
-| [Cas 83. Reconstitution d’un portrait à partir d’une image de référence](#case-83) | [Scènes et modélisation 3D](#category-three) | Comparez la posture, le costume et la géométrie de la scène à la référence. | Evaluation |
-| [Cas 76. Deux modèles d’abeille mécanique côte à côte](#case-76) | [Scènes et modélisation 3D](#category-three) | Évaluez séparément les pièces mobiles et la disposition de l’interface. | Evaluation |
-| [Cas 84. Un cerf modélisé par quatre systèmes](#case-84) | [Scènes et modélisation 3D](#category-three) | Comparez les bois, les articulations et les proportions côte à côte. | Evaluation |
-| [Cas 75. Localiser des lieux dans GeoGuessr avec le navigateur](#case-75) | [Sites Web et interfaces](#category-web) | Fixez les points de départ, le temps alloué et le seuil de distance pour comparer les modèles. | Benchmark |
-| [Cas 85. Quatre modèles recréent la scène de l’avion Alpine Gold](#case-85) | [Scènes et modélisation 3D](#category-three) | Comparez la géométrie, le décor et le temps de réalisation à partir des mêmes consignes. | Evaluation |
-| [Cas 86. Une grille d’objets en voxels issue de plusieurs versions de Sol](#case-86) | [Scènes et modélisation 3D](#category-three) | Examinez les résultats de chaque consigne pour y repérer les régressions avant d’évaluer l’ensemble. | Evaluation |
-| [Cas 87. Un royaume flottant en voxels avec deux outils de programmation](#case-87) | [Scènes et modélisation 3D](#category-three) | Notez l’outil et le temps écoulé lors de la comparaison de scènes en voxels. | Evaluation |
-| [Cas 88. Un cheval au galop animé par deux modèles](#case-88) | [Graphismes et animations créatifs](#category-graphics) | Comparez le mouvement des pattes et la foulée sur un cycle complet. | Evaluation |
-| [Cas 74. Du feu et du son produits par le code](#case-74) | [Graphismes et animations créatifs](#category-graphics) | Relevez la durée des vidéos en plus du coût et du temps de génération. | Evaluation |
-| [Cas 89. Deux traitements visuels d’une scène de phare](#case-89) | [Scènes et modélisation 3D](#category-three) | Comparez le cadrage et le style de rendu à partir des mêmes consignes. | Evaluation |
-| [Cas 90. Rendu d’une manette au niveau de raisonnement maximal](#case-90) | [Scènes et modélisation 3D](#category-three) | Comparez la position des boutons et la forme du boîtier à partir des mêmes consignes. | Evaluation |
-| [Cas 91. Quatre maisons à ballons aux mouvements différents](#case-91) | [Scènes et modélisation 3D](#category-three) | Observez comment la maison se déplace par rapport aux ballons. | Evaluation |
-| [Cas 92. Reconstitution en 3D d’une scène de Titanic](#case-92) | [Scènes et modélisation 3D](#category-three) | Comparez les détails du visage, la mise en scène et le cadrage de chaque version. | Evaluation |
-| [Cas 93. Deux quêtes terminées dans RuneScape](#case-93) | [Développement de jeux](#category-game) | Observez les quêtes choisies par l’agent et les récompenses qu’il récupère. | Benchmark |
-| [Cas 73. Un simulateur de machine de Rube Goldberg en HTML](#case-73) | [Scènes et modélisation 3D](#category-three) | Suivez la transmission du mouvement entre les étapes de la réaction en chaîne. | Demo |
-| [Cas 72. Une maison suspendue à des ballons sur un fond généré](#case-72) | [Scènes et modélisation 3D](#category-three) | Inspectez les éléments de la scène quand la consigne exige un fond réalisé dans Three.js. | Limit |
-| [Cas 71. Un monde en splats gaussiens inspiré de Van Gogh](#case-71) | [Scènes et modélisation 3D](#category-three) | Comparez la façon dont deux scènes explorables traitent la même composition. | Evaluation |
-| [Cas 70. Erreurs de génération dans VoxelBench 2](#case-70) | [Scènes et modélisation 3D](#category-three) | Vérifiez que le code de voxels s’exécute avant de noter le rendu. | Benchmark |
-| [Cas 94. Une animation de 900 images réalisée en code](#case-94) | [Graphismes et animations créatifs](#category-graphics) | Suivez les personnages, les mouvements et le son jusqu’à l’export final. | Demo |
-| [Cas 95. Un jeu multijoueur sur navigateur avec commandes tactiles](#case-95) | [Développement de jeux](#category-game) | Essayez plusieurs versions successives et donnez des retours précis sur les commandes. | Demo |
-| [Cas 96. Une scène maritime construite autour d’îles](#case-96) | [Scènes et modélisation 3D](#category-three) | Donnez une consigne ouverte sur des îles pour comparer les choix de composition. | Demo |
-| [Cas 97. Lanternkeep, un jeu de construction de village sur navigateur](#case-97) | [Développement de jeux](#category-game) | Voyez comment la carte et le panneau des objectifs guident la construction du village. | Demo |
-| [Cas 98. Une illustration animée de banane](#case-98) | [Graphismes et animations créatifs](#category-graphics) | Choisissez un sujet simple pour observer comment un modèle introduit du mouvement et du caractère. | Demo |
-| [Cas 99. Une partie de Pokémon FireRed guidée uniquement par des captures d’écran](#case-99) | [Développement de jeux](#category-game) | Relevez les étapes franchies et le temps nécessaire à l’agent pour terminer le jeu. | Benchmark |
-| [Cas 100. Un portrait peint dans un navigateur](#case-100) | [Utilisation de l'ordinateur et peinture](#category-painting) | Comparez les images intermédiaires à la référence affichée à côté de la zone de dessin. | Demo |
-| [Cas 101. Un pélican à vélo dans un seul fichier HTML](#case-101) | [Graphismes et animations créatifs](#category-graphics) | Utilisez les mêmes consignes pour le SVG et examinez côte à côte les mouvements de l’oiseau et du vélo. | Evaluation |
-| [Cas 102. Un hélicoptère vu assemblé et en éclaté](#case-102) | [Scènes et modélisation 3D](#category-three) | Examinez le même modèle 3D en vol puis avec ses pièces visibles. | Demo |
-| [Cas 103. Deux animations de bonshommes bâtons en mode Ultra](#case-103) | [Graphismes et animations créatifs](#category-graphics) | Répétez la même consigne d’animation pour mesurer la variation entre deux essais. | Evaluation |
-| [Cas 104. Deux modélisations détaillées d’une BMW](#case-104) | [Scènes et modélisation 3D](#category-three) | Comparez la silhouette, le détail des matériaux et les angles de caméra pour un même sujet. | Evaluation |
-| [Cas 105. Comparaison de bateaux et de surfaces marines](#case-105) | [Scènes et modélisation 3D](#category-three) | Comparez les sillages, les reflets et les réactions de la scène à partir des mêmes consignes. | Evaluation |
-| [Cas 106. La tour Eiffel au niveau de raisonnement xhigh](#case-106) | [Scènes et modélisation 3D](#category-three) | Comparez la structure et son environnement au même niveau de raisonnement. | Evaluation |
-| [Cas 123. Des pélicans en SVG à plusieurs niveaux de raisonnement](#case-123) | [Graphismes et animations créatifs](#category-graphics) | Examinez la position des pédales, des pattes et du cadre du vélo à chaque niveau. | Evaluation |
-| [Cas 107. Une île avec de l’eau et un éclairage réglables](#case-107) | [Scènes et modélisation 3D](#category-three) | Testez les ondulations de l’eau et les réglages de l’éclairage en tournant autour de la scène. | Demo |
-| [Cas 108. Navigation à partir de 50 pages de Wikipédia](#case-108) | [Sites Web et interfaces](#category-web) | Gardez les mêmes pages de départ et la même destination pour chronométrer la navigation. | Benchmark |
-| [Cas 122. Des scènes 3D interactives évaluées par des personnes](#case-122) | [Scènes et modélisation 3D](#category-three) | Utilisez la même série d’essais et la même méthode d’évaluation pour comparer les modèles interactifs. | Benchmark |
-| [Cas 109. Quatre essais sur une scène de conduite de camion](#case-109) | [Scènes et modélisation 3D](#category-three) | Comparez la même scène de conduite en notant l’outil de programmation utilisé. | Evaluation |
-| [Cas 110. Livraison à vélo sous la pluie avec Sol, Opus et Qwen](#case-110) | [Graphismes et animations créatifs](#category-graphics) | Comparez la scène nocturne et le mouvement du vélo dans les trois résultats. | Evaluation |
-| [Cas 111. Un intérieur détaillé et une vue sur la ville dans Blender](#case-111) | [Scènes et modélisation 3D](#category-three) | Examinez les petits objets de la pièce et le paysage derrière les fenêtres. | Demo |
-| [Cas 112. Un pélican livre des repas à vélo sous la pluie](#case-112) | [Graphismes et animations créatifs](#category-graphics) | Examinez séparément les reflets, les flaques, les aménagements de la rue et le décor en mouvement. | Evaluation |
-| [Cas 113. Une manette de PS5 réalisée par deux modèles de programmation](#case-113) | [Scènes et modélisation 3D](#category-three) | Examinez l’arrière du boîtier et les boutons latéraux en plus de la vue de face. | Evaluation |
-| [Cas 114. Un pélican pédale en plein jour dans deux versions](#case-114) | [Graphismes et animations créatifs](#category-graphics) | Comparez la qualité du mouvement et le temps d’exécution. | Evaluation |
-| [Cas 115. Trois représentations interactives de la Terre](#case-115) | [Scènes et modélisation 3D](#category-three) | Comparez l’éclairage et les réactions de l’interface lorsque le globe tourne. | Evaluation |
-| [Cas 116. Un pélican à vélo à proximité d’un trou noir](#case-116) | [Scènes et modélisation 3D](#category-three) | Observez comment la scène évolue après plusieurs séries de consignes. | Demo |
-| [Cas 117. Deux scènes 3D autour d’un conteneur de fret](#case-117) | [Scènes et modélisation 3D](#category-three) | Comparez l’éclairage, les accessoires et l’aspect des surfaces. | Evaluation |
-| [Cas 118. Un duel à l’épée animé en SVG](#case-118) | [Graphismes et animations créatifs](#category-graphics) | Observez comment le rythme et les silhouettes donnent du mouvement à l’animation vectorielle. | Demo |
-| [Cas 119. Une extension Kanban pour les sessions d’agents](#case-119) | [Sites Web et interfaces](#category-web) | Vérifiez comment les tâches, les sessions et les files de révision sont reliées dans l’interface. | Integration |
-| [Cas 120. Un paysage photoréaliste en SVG](#case-120) | [Graphismes et animations créatifs](#category-graphics) | Observez quels détails ressortent quand un décor naturel est dessiné en vectoriel. | Demo |
-| [Cas 121. Une scène au bord d’un lac dans Three.js](#case-121) | [Scènes et modélisation 3D](#category-three) | Suivez la caméra lorsqu’elle passe devant le bateau et la cascade pour examiner les détails du décor. | Demo |
-| [Cas 69. Configurateur à 360 degrés pour la Bugatti Chiron](#case-69) | [Sites Web et interfaces](#category-web) | Comparez les finitions de peinture lorsque la caméra tourne autour de la voiture. | Demo |
-| [Cas 68. Une maquette interactive du Boeing 787-9](#case-68) | [Scènes et modélisation 3D](#category-three) | Utilisez les commandes de vue pour examiner l’extérieur de l’avion et le moteur. | Demo |
-| [Cas 67. Prototype de jeu de course sur la côte](#case-67) | [Développement de jeux](#category-game) | Vérifiez la lisibilité du compte à rebours, de la vitesse et du plan du circuit pendant la course. | Demo |
-| [Cas 66. Une tornade au-dessus d’un parking](#case-66) | [Scènes et modélisation 3D](#category-three) | Observez comment la simulation déplace les débris dans un parking. | Demo |
-| [Cas 65. Un jardin de carpes koï dans Three.js](#case-65) | [Scènes et modélisation 3D](#category-three) | Suivez les carpes pour observer les mouvements de l’eau et les reflets. | Demo |
-| [Cas 64. Deux scènes de pagodes en comparaison directe](#case-64) | [Scènes et modélisation 3D](#category-three) | Comparez la disposition de la pagode, des arbres et de l’eau dans les deux résultats. | Evaluation |
-| [Cas 63. Vue éclatée d’une montre mécanique](#case-63) | [Scènes et modélisation 3D](#category-three) | Examinez le cadran et observez comment le modèle sépare les différentes couches. | Demo |
-| [Cas 62. Un Rubik’s Cube dans le navigateur](#case-62) | [Développement de jeux](#category-game) | Regardez l’aperçu pour vérifier les rotations du cube et la position des autocollants. | Demo |
-| [Cas 61. Des billes sous l’effet de la gravité dans un heptagone rotatif](#case-61) | [Sites Web et interfaces](#category-web) | Observez le mouvement des billes quand le récipient tourne. | Demo |
-| [Cas 60. Comparaison de SVG du Roi des singes](#case-60) | [Graphismes et animations créatifs](#category-graphics) | Comparez la composition de la même scène du Roi des singes par trois systèmes. | Evaluation |
-| [Cas 1. Freddie Mercury dans MS Paint](#case-1) | [Utilisation de l'ordinateur et peinture](#category-painting) | Utilisez un portrait pour inspecter ce que produit une tentative de dessin sur ordinateur. | Demo |
-| [Cas 2. Une maison de banlieue et un croquis de pélican](#case-2) | [Scènes et modélisation 3D](#category-three) | Associez une scène rendue à un test de dessin compact. | Demo |
-| [Cas 3. L'histoire de l'humanité et l'avenir de l'IA en 3D](#case-3) | [Graphismes et animations créatifs](#category-graphics) | Transformez un bref récit en une séquence de scènes animées. | Demo |
-| [Cas 4. Le trou noir interactif de la fin des temps](#case-4) | [Sites Web et interfaces](#category-web) | Utilisez un trou noir comme point focal pour une page Three.js interactive. | Demo |
-| [Cas 5. Une comparaison des voiliers Three.js dans la même invite](#case-5) | [Scènes et modélisation 3D](#category-three) | Comparez la manière dont deux sorties gèrent les détails et les interactions sur le même brief de navire. | Evaluation |
-| [Cas 6. Un train rouge traversant une vallée de montagne](#case-6) | [Scènes et modélisation 3D](#category-three) | Comparez les véhicules et les paysages en mouvement dans une scène partagée. | Evaluation |
-| [Cas 7. Island Atlas avec une bascule jour/nuit](#case-7) | [Sites Web et interfaces](#category-web) | Utilisez un îlot 3D compact pour tester les états d'éclairage dans une interface Web. | Demo |
-| [Cas 8. Portrait Tibo dans un atelier de peinture par navigateur](#case-8) | [Graphismes et animations créatifs](#category-graphics) | Inspectez les étapes d’un portrait au fur et à mesure que la page le construit. | Demo |
-| [Cas 9. Un Colisée en ruine en deux mises en scène](#case-9) | [Scènes et modélisation 3D](#category-three) | Comparez la couverture de la caméra et les détails architecturaux dans deux reconstructions. | Evaluation |
-| [Cas 10. Peinture de portrait Sam Altman partagée par 0x0SojalSec](#case-10) | [Graphismes et animations créatifs](#category-graphics) | Suivez la transition des formes brutes vers un portrait fini. | Demo |
-| [Cas 11. Peinture de portrait Sam Altman partagée par Avenoxai](#case-11) | [Graphismes et animations créatifs](#category-graphics) | Découvrez comment la démonstration du navigateur met en scène le portrait. | Demo |
-| [Cas 12. Peinture de portrait Sam Altman partagée par pengsonal](#case-12) | [Graphismes et animations créatifs](#category-graphics) | Examinez l'ordre dans lequel la scène du navigateur ajoute des détails de portrait. | Demo |
-| [Cas 13. Peinture de portrait Sam Altman partagée par GeekCatX](#case-13) | [Graphismes et animations créatifs](#category-graphics) | Utilisez le clip pour comparer la composition initiale avec l’image finale. | Demo |
-| [Cas 14. Portrait Sam Altman dans une toile de peinture de navigateur](#case-14) | [Graphismes et animations créatifs](#category-graphics) | Regardez le portrait évoluer de couleurs bloquées à des traits plus fins. | Demo |
-| [Cas 15. Îles flottantes AETHERIA partagées par EnvolDev](#case-15) | [Scènes et modélisation 3D](#category-three) | Suivez la caméra à travers un paysage flottant. | Demo |
-| [Cas 16. Un personnage à fourrure violette avec des comparaisons antérieures](#case-16) | [Scènes et modélisation 3D](#category-three) | Séparez un nouveau clip de personnage des sorties de référence dans le même message. | Demo |
-| [Cas 17. Jeu de poursuite de voxels PELICAN PANIC](#case-17) | [Développement de jeux](#category-game) | Utilisez un court jeu de poursuite pour inspecter les commandes, les commentaires et l'état final. | Demo |
-| [Cas 18. Un éléphant ailé portant un jardin](#case-18) | [Scènes et modélisation 3D](#category-three) | Utilisez une seule prémisse fantastique pour inspecter la composition sous plusieurs angles. | Demo |
-| [Cas 19. Portrait Dario Amodei dans une toile de peinture de navigateur](#case-19) | [Graphismes et animations créatifs](#category-graphics) | Regardez une image de référence guider un portrait mis en scène. | Demo |
-| [Cas 20. Une comparaison du trou noir Three.js partagée par rubenssoto_ai](#case-20) | [Scènes et modélisation 3D](#category-three) | Comparez les approches visibles de la même scène de trou noir. | Evaluation |
-| [Cas 21. Une comparaison de jardins d'eau calme](#case-21) | [Scènes et modélisation 3D](#category-three) | Comparez l'aménagement paysager et le traitement de l'eau sur une tâche de jardinage partagée. | Evaluation |
-| [Cas 22. Quatre comparaisons d'animation SVG avec Opus 5.5](#case-22) | [Graphismes et animations créatifs](#category-graphics) | Comparez le mouvement et les détails sur plusieurs sujets SVG. | Evaluation |
-| [Cas 23. Un autre article de peinture de portrait Sam Altman par Ananth7e](#case-23) | [Graphismes et animations créatifs](#category-graphics) | Utilisez l'enregistrement partagé pour inspecter la façon dont un portrait de navigateur prend forme. | Demo |
-| [Cas 24. Un trou noir avec un disque d'accrétion brillant](#case-24) | [Scènes et modélisation 3D](#category-three) | Inspectez les vues de caméra, les particules et l'éclairage d'une simulation. | Demo |
-| [Cas 25. Deux illustrations de portraits décrites comme des SVG contenant uniquement du code](#case-25) | [Graphismes et animations créatifs](#category-graphics) | Comparez les portraits rendus avant de juger comment ils ont été réalisés. | Demo |
-| [Cas 26. Une étoile qui explose en supernova](#case-26) | [Scènes et modélisation 3D](#category-three) | Suivez un effet visuel depuis son étoile initiale jusqu'à l'onde de choc. | Demo |
-| [Cas 27. Vagues de l'océan et phare au crépuscule](#case-27) | [Scènes et modélisation 3D](#category-three) | Comparez la manière dont la lumière et les couleurs changent sur une scène océanique. | Demo |
-| [Cas 28. Une simulation de tornade sur navigateur](#case-28) | [Scènes et modélisation 3D](#category-three) | Inspectez comment une scène combine la rotation, les nuages et les débris au sol. | Demo |
-| [Cas 29. Une ville japonaise pixel-art au clair de lune](#case-29) | [Graphismes et animations créatifs](#category-graphics) | Utilisez une scène animée compacte pour inspecter l’éclairage et les détails. | Demo |
-| [Cas 30. Un lion jonglant en chevauchant une BMX](#case-30) | [Graphismes et animations créatifs](#category-graphics) | Testez le mouvement coordonné sur des arrière-plans saisonniers changeants. | Demo |
-| [Cas 31. Un cheval au galop vu de côté](#case-31) | [Graphismes et animations créatifs](#category-graphics) | Inspectez les pattes et la queue grâce à un simple cycle de mouvements. | Demo |
-| [Cas 32. Un paon chevauchant un BMX à travers des bambous](#case-32) | [Graphismes et animations créatifs](#category-graphics) | Comparez le mouvement de la roue avec le mouvement d'un personnage détaillé. | Demo |
-| [Cas 33. Un sanctuaire de bambous avec un pont rouge](#case-33) | [Scènes et modélisation 3D](#category-three) | Utilisez plusieurs angles de caméra pour examiner une scène 3D en couches. | Demo |
-| [Cas 34. Une peinture ondulée Three.js accessible à pied](#case-34) | [Scènes et modélisation 3D](#category-three) | Découvrez ce qui change lorsqu'un tableau devient une scène navigable. | Demo |
-| [Cas 35. Un aperçu de portrait photoréaliste](#case-35) | [Graphismes et animations créatifs](#category-graphics) | Inspectez le résultat visible et notez comment l’auteur le décrit. | Demo |
-| [Cas 36. Vectorisation de portraits Sydney Sweeney](#case-36) | [Graphismes et animations créatifs](#category-graphics) | Suivez l’image intermédiaire lors de l’évaluation d’un flux de travail vectoriel. | Demo |
-| [Cas 37. Une maison monstre modélisée dans Blender](#case-37) | [Scènes et modélisation 3D](#category-three) | Comparez la géométrie et les silhouettes sur trois vues étiquetées Blender. | Evaluation |
-| [Cas 38. Un voilier Three.js partagé par karanC_12](#case-38) | [Scènes et modélisation 3D](#category-three) | Suivez la republication pour voir un navire construit pour une scène de navigateur. | Demo |
-| [Cas 39. Îles flottantes AETHERIA par Mr_Salio](#case-39) | [Scènes et modélisation 3D](#category-three) | Utilisez un survol de caméra pour examiner l’échelle et la profondeur d’une scène. | Demo |
-| [Cas 40. Un voilier interactif dans un fichier HTML](#case-40) | [Scènes et modélisation 3D](#category-three) | Utilisez le gréement, les voiles et un point de vue mobile pour inspecter un modèle de navigateur. | Demo |
-| [Cas 41. Tests d'image de référence dans le Codex et le API](#case-41) | [Sites Web et interfaces](#category-web) | Comparez ce que font deux sorties avec la même référence avant d'attribuer la différence. | Evaluation |
-| [Cas 42. Cour voxel du jardin des cinq avant-toits](#case-42) | [Scènes et modélisation 3D](#category-three) | Inspectez la composition et la superposition dans un environnement de voxel compact. | Demo |
-| [Cas 43. Une tentative inachevée de relayer un message](#case-43) | [Utilisation de l'ordinateur et communication](#category-communication) | Utilisez cette tentative pour voir où un flux de travail de bureau s'est arrêté. | Limit |
-| [Cas 44. Une comparaison du trou noir Three.js partagée par VraserX](#case-44) | [Scènes et modélisation 3D](#category-three) | Inspectez les scènes de trous noirs appariées dans le clip partagé. | Evaluation |
-| [Cas 45. Une démo jour et nuit du village Sakura partagée par jessexai_](#case-45) | [Scènes et modélisation 3D](#category-three) | Inspectez l’effet du changement de scène entre le jour et la nuit. | Demo |
-| [Cas 46. Un guépard courant en vue latérale](#case-46) | [Graphismes et animations créatifs](#category-graphics) | Utilisez une vue de profil fixe pour comparer la démarche et les mouvements du corps. | Demo |
-| [Cas 47. Un extérieur et un intérieur de Colisée en ruine](#case-47) | [Scènes et modélisation 3D](#category-three) | Suivez une caméra à travers le bâtiment pour voir quels détails sont visibles. | Demo |
-| [Cas 48. Une comparaison des trous noirs Three.js par TokenGremlin](#case-48) | [Scènes et modélisation 3D](#category-three) | Comparez le mouvement de la caméra et l'éclairage dans deux sorties de trou noir. | Evaluation |
-| [Cas 49. Cour Sakura et aperçus de Wonder Atlas](#case-49) | [Scènes et modélisation 3D](#category-three) | Inspectez comment deux scènes Web gèrent l’architecture et la profondeur. | Demo |
-| [Cas 50. Un Tesla Roadster reconstruit](#case-50) | [Scènes et modélisation 3D](#category-three) | Utilisez une voiture familière comme référence de forme et de détail. | Demo |
-| [Cas 51. Un pélican et deux crabes faisant du vélo](#case-51) | [Graphismes et animations créatifs](#category-graphics) | Inspectez le timing de plusieurs personnages animés en une seule fois. | Demo |
-| [Cas 52. Une comparaison du contrôleur PS5 dans les paramètres Sol](#case-52) | [Graphismes et animations créatifs](#category-graphics) | Utilisez un produit familier pour comparer les contours et les ombres. | Evaluation |
-| [Cas 53. Une démo jour et nuit du village Sakura partagée par Haleeeemahh](#case-53) | [Scènes et modélisation 3D](#category-three) | Comparez la lecture du même village à la lumière du jour et dans l’obscurité. | Demo |
-| [Cas 54. Une démo jour et nuit du village Sakura partagée par VraserX](#case-54) | [Scènes et modélisation 3D](#category-three) | Utilisez les états d’éclairage appariés pour inspecter un seul environnement. | Demo |
-| [Cas 55. Une illustration de profil verte BMW M4 CS](#case-55) | [Graphismes et animations créatifs](#category-graphics) | Vérifiez les proportions et les détails du profil dans un véhicule familier. | Demo |
-| [Cas 56. Une démo de jour et de nuit du village Sakura par TokenGremlin](#case-56) | [Scènes et modélisation 3D](#category-three) | Utilisez une bascule d'éclairage pour comparer un village dans deux états. | Demo |
-| [Cas 57. Une maison avec vue intérieure et aérienne](#case-57) | [Scènes et modélisation 3D](#category-three) | Vérifiez si un bâtiment 3D reste cohérent dans les vues intérieures et extérieures. | Demo |
-| [Cas 58. Un trou noir HTML Three.js unique](#case-58) | [Scènes et modélisation 3D](#category-three) | Utilisez le clip et les images fixes pour vérifier comment une scène gère plusieurs points de vue. | Demo |
-| [Cas 59. Un palais Three.js flottant](#case-59) | [Scènes et modélisation 3D](#category-three) | Inspectez l'échelle et la présentation d'un palais suspendu sous plusieurs angles. | Demo |
+| [Une vallée traversée par un aqueduc](#case-186) | Scènes et modélisation 3D | Voyez comment un flux de travail dans Blender permet de transférer un vaste paysage dans Three.js. | Demo |
+| [Génération d’une image pour une simple addition](#case-187) | Utilisation de l'ordinateur et communication | Évaluez séparément l’usage inattendu d’un outil et l’exactitude de la réponse finale. | Limit |
+| [Huit lieux de séries télévisées reconstruits dans Minecraft](#case-188) | Développement de jeux | Comparez l’agencement des lieux reconnaissables et le temps de construction dans deux versions du monde de jeu. | Evaluation |
+| [Un véhicule d’expédition interactif dans Three.js](#case-189) | Scènes et modélisation 3D | Examinez les détails modélisés, les panneaux articulés et le son synthétisé dans un seul fichier HTML. | Demo |
+| [Une présentation de l’hypothèse de Riemann générée par code](#case-190) | Graphismes et animations créatifs | Assemblez l’animation et sa bande sonore dans le même flux de travail avec du code exécuté localement. | Demo |
+| [Quatre rendus de la tour Eiffel dans Three.js](#case-191) | Scènes et modélisation 3D | Comparez la structure en treillis, les proportions et les environs dans les quatre scènes légendées. | Evaluation |
+| [Détection de bugs connus lors de la revue d’une base de données](#case-192) | Utilisation de l'ordinateur et communication | Comparez le nombre de bugs connus détectés et le temps écoulé sur la même tâche de revue. | Benchmark |
+| [Les ruines d’Ozymandias dans Minecraft](#case-193) | Développement de jeux | Comparez la façon dont deux modèles représentent la même scène littéraire avec des blocs. | Evaluation |
+| [Préréglages de Sol pour les agents Hermes et Pi](#case-194) | Utilisation de l'ordinateur et communication | Voyez comment un point d’accès unique sur le bureau peut organiser des assistants aux rôles différents. | Integration |
+| [Six refontes d’un même site marketing](#case-195) | Sites Web et interfaces | Comparez les directions visuelles que différents modèles prennent à partir des mêmes consignes pour le site. | Evaluation |
+| [Un diorama de rive sous la pluie à partir d’une image](#case-196) | Scènes et modélisation 3D | Comparez la façon dont deux modèles transforment une même image en scène 2,5D pour navigateur. | Evaluation |
+| [Vues de face et de dessus permutées dans SolidWorks](#case-197) | Scènes et modélisation 3D | Vérifiez l’orientation des vues du dessin technique par rapport à l’assemblage avant de valider l’export. | Limit |
+| [Une comparaison à l’aveugle de récits courts](#case-198) | Utilisation de l'ordinateur et communication | Comparez des récits courts fondés sur une même intrigue et repérez les interventions humaines sur la mise en forme. | Evaluation |
+| [Un chat près d’une fenêtre sous la pluie](#case-199) | Graphismes et animations créatifs | Comparez la mise en scène de quatre modèles dans une seule animation HTML. | Evaluation |
+| [Analyse de documents à deux niveaux de raisonnement](#case-176) | Utilisation de l'ordinateur et communication | Comparez le score global d’analyse, le score sur les graphiques et le coût par page. | Benchmark |
+| [Mouvements de caméra pour douze modèles de bâtiments](#case-200) | Scènes et modélisation 3D | Utilisez Blender MCP pour créer des mouvements de caméra autour d’un ensemble de modèles importés. | Demo |
+| [Quatre cyclistes animés au soleil couchant](#case-177) | Graphismes et animations créatifs | Comparez les mouvements des cyclistes, les proportions des vélos et l’éclairage de la scène dans les quatre résultats. | Evaluation |
+| [Tâches professionnelles dans Company Agent Bench](#case-178) | Utilisation de l'ordinateur et communication | Comparez les taux de réussite annoncés pour les niveaux de raisonnement testés. | Benchmark |
+| [Un téléphérique au-dessus de Scarlet Fjord](#case-179) | Scènes et modélisation 3D | Comparez la façon dont les quatre rendus représentent la cabine et le paysage alentour. | Evaluation |
+| [Préférences et coûts de génération pour la création de jeux](#case-180) | Développement de jeux | Comparez le classement selon les préférences, le temps moyen et le coût de génération dans la même arène de création de jeux. | Benchmark |
+| [Une comparaison sur des tâches de marketing](#case-181) | Utilisation de l'ordinateur et communication | Examinez la préférence par tâche, le coût et le nombre de votes. | Benchmark |
+| [Un itinéraire à pied transformé en jeu sur console portable](#case-182) | Développement de jeux | Observez comment les relevés d’une promenade deviennent des scènes de jeu que l’on peut revisiter. | Demo |
+| [Un lapin créé dans Blender à partir d’une image](#case-183) | Scènes et modélisation 3D | Examinez la géométrie sous plusieurs angles après avoir pris une image générée comme référence. | Demo |
+| [Taux de réussite et temps d’exécution dans Agents on Rails](#case-184) | Sites Web et interfaces | Mesurez séparément le temps d’exécution et le taux de réussite sur des tâches de développement dans des applications Rails existantes. | Benchmark |
+| [Un champ d’herbe dans une scène HTML autonome](#case-201) | Scènes et modélisation 3D | Suivez le transfert d’un élément de Blender vers un petit projet Three.js qui tourne dans le navigateur. | Demo |
+| [Variations d’illustrations de costumes dans ChatGPT Work](#case-202) | Graphismes et animations créatifs | Comparez ce qui change quand on relance une demande détaillée d’illustration de costume. | Evaluation |
+| [Des images fixes à une vidéo finalisée](#case-159) | Graphismes et animations créatifs | Suivez la chronologie du montage pour voir à quel moment les images générées s’intègrent au flux de travail. | Demo |
+| [Deux prototypes de jeu à la première personne dans Codex](#case-160) | Développement de jeux | Comparez la disposition du niveau et l’expérience de jeu en tenant compte du coût indiqué. | Evaluation |
+| [Un jeu dans un village paisible avec des éléments créés dans Blender](#case-161) | Développement de jeux | Observez comment les objets modélisés et l’animation se combinent dans une scène de jeu. | Demo |
+| [Des plans d’appartements à partir de photos d’intérieur](#case-162) | Scènes et modélisation 3D | Évaluez si un agent peut déduire la disposition des pièces à partir de photographies. | Benchmark |
+| [Coupes de dialogue dans une vidéo face caméra](#case-163) | Graphismes et animations créatifs | Comparez le temps de montage, le score global et les types de coupes qui échouent. | Benchmark |
+| [Deux projets d’architecture pour un siège social](#case-164) | Scènes et modélisation 3D | Comparez les bâtiments et le cadrage pour une même consigne de conception ouverte. | Evaluation |
+| [Gérer une colonie dans Crusader Bench](#case-165) | Développement de jeux | Comparez le jeu des agents sur les mêmes cartes évaluées et dans les mêmes conditions. | Benchmark |
+| [Relecture de pull requests dans CodeRabbit](#case-185) | Utilisation de l'ordinateur et communication | Comparez les problèmes connus détectés, la précision annoncée et le coût de la relecture selon la configuration utilisée. | Benchmark |
+| [Le banc d’essai juridique de Legora en novembre](#case-166) | Utilisation de l'ordinateur et communication | Comparez la qualité et le coût par dossier sur les mêmes tâches professionnelles. | Benchmark |
+| [Sol sur le banc d’essai de conception technique de Xplore](#case-167) | Scènes et modélisation 3D | Comparez les scores par tâche et le coût par essai sur une série qui comprend des travaux de CAO. | Benchmark |
+| [Une scène de pas de tir pour Ruby Ascent](#case-168) | Scènes et modélisation 3D | Comparez les détails de la scène et le temps de création dans quatre versions du même pas de tir. | Evaluation |
+| [Navigation spatiale dans MazeBench](#case-169) | Développement de jeux | Comparez la résolution des labyrinthes sur le même banc d’essai publié. | Benchmark |
+| [Des réponses indépendantes à un questionnaire de profil dans AI Village](#case-170) | Utilisation de l'ordinateur et communication | Comparez les réponses que deux agents donnent indépendamment au même questionnaire de profil. | Integration |
+| [Une animation 3D à partir du même extrait vidéo](#case-171) | Scènes et modélisation 3D | Comparez la façon dont cinq modèles représentent le même extrait dans un style prédéfini. | Evaluation |
+| [Un tour autour du sommet du Burj Khalifa](#case-172) | Scènes et modélisation 3D | Examinez comment les modèles représentent les retraits de la partie supérieure et le couronnement de la tour. | Evaluation |
+| [Une animation sur tableau blanc à partir d’un court extrait](#case-173) | Graphismes et animations créatifs | Comparez la mise en récit et le coût à partir du même extrait vidéo. | Evaluation |
+| [Une page web sur un phare de la côte rocheuse](#case-174) | Sites Web et interfaces | Comparez deux pages web produites en une seule réponse avec les mêmes consignes et le même niveau de raisonnement. | Evaluation |
+| [Cinq parties d’échecs sans outils](#case-175) | Développement de jeux | Comparez les points, les résultats des parties et les coûts indiqués pour la même rencontre. | Benchmark |
+| [Un rapport de suivi de PR qui omet les consignes du dépôt](#case-124) | Utilisation de l'ordinateur et communication | Comparez le niveau de détail et l’organisation des réponses à une courte demande de suivi. | Limit |
+| [Une présentation comparative d’Astra et de Sol sur Arena](#case-125) | Scènes et modélisation 3D | Utilisez les chapitres de la vidéo pour comparer les scènes, les jeux et les interfaces. | Evaluation |
+| [Une cathédrale de vampires hantée](#case-126) | Scènes et modélisation 3D | Comparez la façon dont deux modèles interprètent les mêmes consignes d’architecture gothique. | Evaluation |
+| [Une supérette sous la pluie, la nuit](#case-127) | Scènes et modélisation 3D | Utilisez l’écran partagé pour comparer l’éclairage, la pluie et la géométrie de la devanture. | Evaluation |
+| [Une page d’accueil pour une pizzeria new-yorkaise](#case-128) | Sites Web et interfaces | Vérifiez si différents modèles font des choix de marque distincts à partir d’une seule phrase. | Evaluation |
+| [Deux représentations d’une pagode](#case-129) | Scènes et modélisation 3D | Comparez la manière dont deux essais en mode xhigh rendent le même sujet architectural. | Evaluation |
+| [Une chute de feuille réaliste en trois minutes](#case-130) | Graphismes et animations créatifs | Fixez un temps limite pour voir comment le modèle combine les ressources et le code. | Demo |
+| [Un port de pêche miniature sous une averse ensoleillée](#case-131) | Scènes et modélisation 3D | Comparez la pluie, le décor miniature et les mouvements de caméra dans quatre essais. | Evaluation |
+| [Score et coût médian dans Arena WebDev](#case-132) | Sites Web et interfaces | Comparez le résultat au classement avec le coût médian par tâche. | Benchmark |
+| [Un lancement de fusée rendu par quatre modèles](#case-133) | Scènes et modélisation 3D | Comparez la mise en scène et le mouvement dans quatre versions de la même scène fictive. | Evaluation |
+| [Un personnage en pixel art qui court en boucle](#case-134) | Graphismes et animations créatifs | Vérifiez si l’animation du personnage se répète sans à-coup sur un décor défilant. | Demo |
+| [Une tempête au pied d’un phare](#case-135) | Scènes et modélisation 3D | Comparez les détails de la tour et les mouvements de l’océan à partir des mêmes consignes. | Evaluation |
+| [Un outil interactif pour explorer l’anatomie](#case-136) | Sites Web et interfaces | Comparez l’impact de l’ouverture et la lisibilité pendant l’exploration d’un modèle 3D. | Evaluation |
+| [Un bateau sur une mer déchaînée](#case-137) | Scènes et modélisation 3D | Examinez séparément la pluie, le volume des nuages, les détails du bateau et le comportement de l’eau. | Evaluation |
+| [Une partie jusqu’au titre de Maître dans Pokémon FireRed](#case-138) | Développement de jeux | Comparez les temps de fin de partie avec des paramètres explicites pour les entrées et le raisonnement. | Benchmark |
+| [Un site web pour un hôtel fictif](#case-139) | Sites Web et interfaces | Comparez la mise en page obtenue en une seule exécution, le temps écoulé et le coût à partir des mêmes consignes. | Evaluation |
+| [Design Creativity Bench pour les interfaces](#case-140) | Sites Web et interfaces | Comparez les notes de créativité des interfaces et les coûts annoncés. | Benchmark |
+| [Dialoguer avec un personnage dans AITuber OnAir](#case-141) | Utilisation de l'ordinateur et communication | Essayez différents niveaux de raisonnement pendant une conversation en direct avec un personnage. | Integration |
+| [Un personnage articulé dans Blender à partir d’un dessin préparatoire](#case-142) | Scènes et modélisation 3D | Évaluez séparément la ressemblance et la qualité de l’animation des personnages générés. | Evaluation |
+| [Un robot de science-fiction qui s’assemble seul dans Three.js](#case-143) | Scènes et modélisation 3D | Comparez la façon dont deux modèles présentent une séquence d’assemblage et de lancement. | Evaluation |
+| [Un café lunaire modélisé par cinq systèmes](#case-144) | Scènes et modélisation 3D | Comparez la mise en scène et l’éclairage d’un café lunaire par différents modèles. | Evaluation |
+| [Un tandem animé en SVG](#case-145) | Graphismes et animations créatifs | Comparez le dessin et l’animation d’un même sujet en SVG avec deux outils de programmation. | Evaluation |
+| [Un jeu de course 3D avec un dinosaure et de la physique ragdoll](#case-146) | Développement de jeux | Comparez le style visuel et le comportement lors des collisions dans quatre prototypes de jeu. | Evaluation |
+| [Le dernier tramway d’une ville de montagne sous la pluie](#case-147) | Scènes et modélisation 3D | Comparez la modélisation et l’ambiance avec un prompt et un niveau de raisonnement identiques. | Evaluation |
+| [Un rendu 3D de la Maison-Blanche](#case-148) | Scènes et modélisation 3D | Comparez les proportions de la façade et la composition dans deux visualisations architecturales. | Evaluation |
+| [Un pélican à vélo dans Blender](#case-149) | Scènes et modélisation 3D | Comparez les rendus finaux et relevez ce que chaque essai a effectivement livré. | Evaluation |
+| [Un personnage 3D stylisé sur une page web](#case-150) | Scènes et modélisation 3D | Comparez le personnage modélisé, son décor et l’animation visible. | Evaluation |
+| [Une cascade insulaire et la surface de l’océan](#case-151) | Scènes et modélisation 3D | Comparez le temps de rendu et l’aspect de l’eau dans deux versions de la scène. | Evaluation |
+| [Mesurer un montage vidéo en Ultrafast](#case-152) | Graphismes et animations créatifs | Mesurez le temps total de montage séparément du temps de réponse du modèle. | Benchmark |
+| [Une signature manuscrite animée dans Remotion](#case-153) | Graphismes et animations créatifs | Comparez la façon dont deux essais en mode Max animent la même signature. | Evaluation |
+| [Un personnage créé dans Mesh Avatar Studio](#case-154) | Scènes et modélisation 3D | Examinez l’avatar présenté dans un flux de travail avec un niveau de raisonnement bas. | Demo |
+| [Appels simulés à une clinique dans FrontDesk-Bench](#case-155) | Utilisation de l'ordinateur et communication | Consignez séparément les actions à risque et les refus de demandes légitimes. | Benchmark |
+| [Comparaison de portraits 3D à partir d’une référence](#case-156) | Scènes et modélisation 3D | Comparez les détails du visage et la ressemblance globale sur quatre portraits modélisés. | Evaluation |
+| [Une pieuvre sous l’eau dans Three.js](#case-157) | Scènes et modélisation 3D | Comparez les détails de la scène, le temps et le coût à consigne et niveau de raisonnement identiques. | Evaluation |
+| [Un jeu inspiré de fausses publicités](#case-158) | Développement de jeux | Comparez quatre versions jouables à partir des mêmes consignes pour un niveau de jeu. | Evaluation |
+| [Un brief de motion design de 15 secondes](#case-79) | Graphismes et animations créatifs | Donnez la même consigne aux deux modèles et comparez la typographie, les transitions et le mouvement. | Evaluation |
+| [Taux de réussite et nombre d’étapes chez Browser Use](#case-80) | Sites Web et interfaces | Comparez le taux de réussite, la durée et le nombre d’étapes sur la même série de tâches dans un navigateur. | Benchmark |
+| [Terminer une série de salles de Sokoban](#case-78) | Développement de jeux | Comptez les salles terminées et revisionnez les coups pour repérer les blocages. | Benchmark |
+| [Un robot marche sur une carte dans Three.js](#case-81) | Scènes et modélisation 3D | Utilisez les mêmes données cartographiques et les mêmes consignes pour comparer les scènes animées. | Evaluation |
+| [Une galerie de papillons avec des modèles Blender](#case-77) | Sites Web et interfaces | Associez un spécimen que l’on peut faire tourner à des vues agrandies et à des notes de terrain. | Demo |
+| [WANDR, le banc d’essai pour agents de Perplexity](#case-82) | Sites Web et interfaces | Comparez le score et le coût par tâche. | Benchmark |
+| [Reconstitution d’un portrait à partir d’une image de référence](#case-83) | Scènes et modélisation 3D | Comparez la posture, le costume et la géométrie de la scène à la référence. | Evaluation |
+| [Deux modèles d’abeille mécanique côte à côte](#case-76) | Scènes et modélisation 3D | Évaluez séparément les pièces mobiles et la disposition de l’interface. | Evaluation |
+| [Un cerf modélisé par quatre systèmes](#case-84) | Scènes et modélisation 3D | Comparez les bois, les articulations et les proportions côte à côte. | Evaluation |
+| [Localiser des lieux dans GeoGuessr avec le navigateur](#case-75) | Sites Web et interfaces | Fixez les points de départ, le temps alloué et le seuil de distance pour comparer les modèles. | Benchmark |
+| [Quatre modèles recréent la scène de l’avion Alpine Gold](#case-85) | Scènes et modélisation 3D | Comparez la géométrie, le décor et le temps de réalisation à partir des mêmes consignes. | Evaluation |
+| [Une grille d’objets en voxels issue de plusieurs versions de Sol](#case-86) | Scènes et modélisation 3D | Examinez les résultats de chaque consigne pour y repérer les régressions avant d’évaluer l’ensemble. | Evaluation |
+| [Un royaume flottant en voxels avec deux outils de programmation](#case-87) | Scènes et modélisation 3D | Notez l’outil et le temps écoulé lors de la comparaison de scènes en voxels. | Evaluation |
+| [Un cheval au galop animé par deux modèles](#case-88) | Graphismes et animations créatifs | Comparez le mouvement des pattes et la foulée sur un cycle complet. | Evaluation |
+| [Du feu et du son produits par le code](#case-74) | Graphismes et animations créatifs | Relevez la durée des vidéos en plus du coût et du temps de génération. | Evaluation |
+| [Deux traitements visuels d’une scène de phare](#case-89) | Scènes et modélisation 3D | Comparez le cadrage et le style de rendu à partir des mêmes consignes. | Evaluation |
+| [Rendu d’une manette au niveau de raisonnement maximal](#case-90) | Scènes et modélisation 3D | Comparez la position des boutons et la forme du boîtier à partir des mêmes consignes. | Evaluation |
+| [Quatre maisons à ballons aux mouvements différents](#case-91) | Scènes et modélisation 3D | Observez comment la maison se déplace par rapport aux ballons. | Evaluation |
+| [Reconstitution en 3D d’une scène de Titanic](#case-92) | Scènes et modélisation 3D | Comparez les détails du visage, la mise en scène et le cadrage de chaque version. | Evaluation |
+| [Deux quêtes terminées dans RuneScape](#case-93) | Développement de jeux | Observez les quêtes choisies par l’agent et les récompenses qu’il récupère. | Benchmark |
+| [Un simulateur de machine de Rube Goldberg en HTML](#case-73) | Scènes et modélisation 3D | Suivez la transmission du mouvement entre les étapes de la réaction en chaîne. | Demo |
+| [Une maison suspendue à des ballons sur un fond généré](#case-72) | Scènes et modélisation 3D | Inspectez les éléments de la scène quand la consigne exige un fond réalisé dans Three.js. | Limit |
+| [Un monde en splats gaussiens inspiré de Van Gogh](#case-71) | Scènes et modélisation 3D | Comparez la façon dont deux scènes explorables traitent la même composition. | Evaluation |
+| [Erreurs de génération dans VoxelBench 2](#case-70) | Scènes et modélisation 3D | Vérifiez que le code de voxels s’exécute avant de noter le rendu. | Benchmark |
+| [Une animation de 900 images réalisée en code](#case-94) | Graphismes et animations créatifs | Suivez les personnages, les mouvements et le son jusqu’à l’export final. | Demo |
+| [Un jeu multijoueur sur navigateur avec commandes tactiles](#case-95) | Développement de jeux | Essayez plusieurs versions successives et donnez des retours précis sur les commandes. | Demo |
+| [Une scène maritime construite autour d’îles](#case-96) | Scènes et modélisation 3D | Donnez une consigne ouverte sur des îles pour comparer les choix de composition. | Demo |
+| [Lanternkeep, un jeu de construction de village sur navigateur](#case-97) | Développement de jeux | Voyez comment la carte et le panneau des objectifs guident la construction du village. | Demo |
+| [Une illustration animée de banane](#case-98) | Graphismes et animations créatifs | Choisissez un sujet simple pour observer comment un modèle introduit du mouvement et du caractère. | Demo |
+| [Une partie de Pokémon FireRed guidée uniquement par des captures d’écran](#case-99) | Développement de jeux | Relevez les étapes franchies et le temps nécessaire à l’agent pour terminer le jeu. | Benchmark |
+| [Un portrait peint dans un navigateur](#case-100) | Utilisation de l'ordinateur et peinture | Comparez les images intermédiaires à la référence affichée à côté de la zone de dessin. | Demo |
+| [Un pélican à vélo dans un seul fichier HTML](#case-101) | Graphismes et animations créatifs | Utilisez les mêmes consignes pour le SVG et examinez côte à côte les mouvements de l’oiseau et du vélo. | Evaluation |
+| [Un hélicoptère vu assemblé et en éclaté](#case-102) | Scènes et modélisation 3D | Examinez le même modèle 3D en vol puis avec ses pièces visibles. | Demo |
+| [Deux animations de bonshommes bâtons en mode Ultra](#case-103) | Graphismes et animations créatifs | Répétez la même consigne d’animation pour mesurer la variation entre deux essais. | Evaluation |
+| [Deux modélisations détaillées d’une BMW](#case-104) | Scènes et modélisation 3D | Comparez la silhouette, le détail des matériaux et les angles de caméra pour un même sujet. | Evaluation |
+| [Comparaison de bateaux et de surfaces marines](#case-105) | Scènes et modélisation 3D | Comparez les sillages, les reflets et les réactions de la scène à partir des mêmes consignes. | Evaluation |
+| [La tour Eiffel au niveau de raisonnement xhigh](#case-106) | Scènes et modélisation 3D | Comparez la structure et son environnement au même niveau de raisonnement. | Evaluation |
+| [Des pélicans en SVG à plusieurs niveaux de raisonnement](#case-123) | Graphismes et animations créatifs | Examinez la position des pédales, des pattes et du cadre du vélo à chaque niveau. | Evaluation |
+| [Une île avec de l’eau et un éclairage réglables](#case-107) | Scènes et modélisation 3D | Testez les ondulations de l’eau et les réglages de l’éclairage en tournant autour de la scène. | Demo |
+| [Navigation à partir de 50 pages de Wikipédia](#case-108) | Sites Web et interfaces | Gardez les mêmes pages de départ et la même destination pour chronométrer la navigation. | Benchmark |
+| [Des scènes 3D interactives évaluées par des personnes](#case-122) | Scènes et modélisation 3D | Utilisez la même série d’essais et la même méthode d’évaluation pour comparer les modèles interactifs. | Benchmark |
+| [Quatre essais sur une scène de conduite de camion](#case-109) | Scènes et modélisation 3D | Comparez la même scène de conduite en notant l’outil de programmation utilisé. | Evaluation |
+| [Livraison à vélo sous la pluie avec Sol, Opus et Qwen](#case-110) | Graphismes et animations créatifs | Comparez la scène nocturne et le mouvement du vélo dans les trois résultats. | Evaluation |
+| [Un intérieur détaillé et une vue sur la ville dans Blender](#case-111) | Scènes et modélisation 3D | Examinez les petits objets de la pièce et le paysage derrière les fenêtres. | Demo |
+| [Un pélican livre des repas à vélo sous la pluie](#case-112) | Graphismes et animations créatifs | Examinez séparément les reflets, les flaques, les aménagements de la rue et le décor en mouvement. | Evaluation |
+| [Une manette de PS5 réalisée par deux modèles de programmation](#case-113) | Scènes et modélisation 3D | Examinez l’arrière du boîtier et les boutons latéraux en plus de la vue de face. | Evaluation |
+| [Un pélican pédale en plein jour dans deux versions](#case-114) | Graphismes et animations créatifs | Comparez la qualité du mouvement et le temps d’exécution. | Evaluation |
+| [Trois représentations interactives de la Terre](#case-115) | Scènes et modélisation 3D | Comparez l’éclairage et les réactions de l’interface lorsque le globe tourne. | Evaluation |
+| [Un pélican à vélo à proximité d’un trou noir](#case-116) | Scènes et modélisation 3D | Observez comment la scène évolue après plusieurs séries de consignes. | Demo |
+| [Deux scènes 3D autour d’un conteneur de fret](#case-117) | Scènes et modélisation 3D | Comparez l’éclairage, les accessoires et l’aspect des surfaces. | Evaluation |
+| [Un duel à l’épée animé en SVG](#case-118) | Graphismes et animations créatifs | Observez comment le rythme et les silhouettes donnent du mouvement à l’animation vectorielle. | Demo |
+| [Une extension Kanban pour les sessions d’agents](#case-119) | Sites Web et interfaces | Vérifiez comment les tâches, les sessions et les files de révision sont reliées dans l’interface. | Integration |
+| [Un paysage photoréaliste en SVG](#case-120) | Graphismes et animations créatifs | Observez quels détails ressortent quand un décor naturel est dessiné en vectoriel. | Demo |
+| [Une scène au bord d’un lac dans Three.js](#case-121) | Scènes et modélisation 3D | Suivez la caméra lorsqu’elle passe devant le bateau et la cascade pour examiner les détails du décor. | Demo |
+| [Configurateur à 360 degrés pour la Bugatti Chiron](#case-69) | Sites Web et interfaces | Comparez les finitions de peinture lorsque la caméra tourne autour de la voiture. | Demo |
+| [Une maquette interactive du Boeing 787-9](#case-68) | Scènes et modélisation 3D | Utilisez les commandes de vue pour examiner l’extérieur de l’avion et le moteur. | Demo |
+| [Prototype de jeu de course sur la côte](#case-67) | Développement de jeux | Vérifiez la lisibilité du compte à rebours, de la vitesse et du plan du circuit pendant la course. | Demo |
+| [Une tornade au-dessus d’un parking](#case-66) | Scènes et modélisation 3D | Observez comment la simulation déplace les débris dans un parking. | Demo |
+| [Un jardin de carpes koï dans Three.js](#case-65) | Scènes et modélisation 3D | Suivez les carpes pour observer les mouvements de l’eau et les reflets. | Demo |
+| [Deux scènes de pagodes en comparaison directe](#case-64) | Scènes et modélisation 3D | Comparez la disposition de la pagode, des arbres et de l’eau dans les deux résultats. | Evaluation |
+| [Vue éclatée d’une montre mécanique](#case-63) | Scènes et modélisation 3D | Examinez le cadran et observez comment le modèle sépare les différentes couches. | Demo |
+| [Un Rubik’s Cube dans le navigateur](#case-62) | Développement de jeux | Regardez l’aperçu pour vérifier les rotations du cube et la position des autocollants. | Demo |
+| [Des billes sous l’effet de la gravité dans un heptagone rotatif](#case-61) | Sites Web et interfaces | Observez le mouvement des billes quand le récipient tourne. | Demo |
+| [Comparaison de SVG du Roi des singes](#case-60) | Graphismes et animations créatifs | Comparez la composition de la même scène du Roi des singes par trois systèmes. | Evaluation |
+| [Freddie Mercury dans MS Paint](#case-1) | Utilisation de l'ordinateur et peinture | Utilisez un portrait pour inspecter ce que produit une tentative de dessin sur ordinateur. | Demo |
+| [Une maison de banlieue et un croquis de pélican](#case-2) | Scènes et modélisation 3D | Associez une scène rendue à un test de dessin compact. | Demo |
+| [L'histoire de l'humanité et l'avenir de l'IA en 3D](#case-3) | Graphismes et animations créatifs | Transformez un bref récit en une séquence de scènes animées. | Demo |
+| [Le trou noir interactif de la fin des temps](#case-4) | Sites Web et interfaces | Utilisez un trou noir comme point focal pour une page Three.js interactive. | Demo |
+| [Une comparaison des voiliers Three.js dans la même invite](#case-5) | Scènes et modélisation 3D | Comparez la manière dont deux sorties gèrent les détails et les interactions sur le même brief de navire. | Evaluation |
+| [Un train rouge traversant une vallée de montagne](#case-6) | Scènes et modélisation 3D | Comparez les véhicules et les paysages en mouvement dans une scène partagée. | Evaluation |
+| [Island Atlas avec une bascule jour/nuit](#case-7) | Sites Web et interfaces | Utilisez un îlot 3D compact pour tester les états d'éclairage dans une interface Web. | Demo |
+| [Portrait Tibo dans un atelier de peinture par navigateur](#case-8) | Graphismes et animations créatifs | Inspectez les étapes d’un portrait au fur et à mesure que la page le construit. | Demo |
+| [Un Colisée en ruine en deux mises en scène](#case-9) | Scènes et modélisation 3D | Comparez la couverture de la caméra et les détails architecturaux dans deux reconstructions. | Evaluation |
+| [Peinture de portrait Sam Altman partagée par 0x0SojalSec](#case-10) | Graphismes et animations créatifs | Suivez la transition des formes brutes vers un portrait fini. | Demo |
+| [Peinture de portrait Sam Altman partagée par Avenoxai](#case-11) | Graphismes et animations créatifs | Découvrez comment la démonstration du navigateur met en scène le portrait. | Demo |
+| [Peinture de portrait Sam Altman partagée par pengsonal](#case-12) | Graphismes et animations créatifs | Examinez l'ordre dans lequel la scène du navigateur ajoute des détails de portrait. | Demo |
+| [Peinture de portrait Sam Altman partagée par GeekCatX](#case-13) | Graphismes et animations créatifs | Utilisez le clip pour comparer la composition initiale avec l’image finale. | Demo |
+| [Portrait Sam Altman dans une toile de peinture de navigateur](#case-14) | Graphismes et animations créatifs | Regardez le portrait évoluer de couleurs bloquées à des traits plus fins. | Demo |
+| [Îles flottantes AETHERIA partagées par EnvolDev](#case-15) | Scènes et modélisation 3D | Suivez la caméra à travers un paysage flottant. | Demo |
+| [Un personnage à fourrure violette avec des comparaisons antérieures](#case-16) | Scènes et modélisation 3D | Séparez un nouveau clip de personnage des sorties de référence dans le même message. | Demo |
+| [Jeu de poursuite de voxels PELICAN PANIC](#case-17) | Développement de jeux | Utilisez un court jeu de poursuite pour inspecter les commandes, les commentaires et l'état final. | Demo |
+| [Un éléphant ailé portant un jardin](#case-18) | Scènes et modélisation 3D | Utilisez une seule prémisse fantastique pour inspecter la composition sous plusieurs angles. | Demo |
+| [Portrait Dario Amodei dans une toile de peinture de navigateur](#case-19) | Graphismes et animations créatifs | Regardez une image de référence guider un portrait mis en scène. | Demo |
+| [Des scènes de trou noir comparées dans Three.js](#case-20) | Scènes et modélisation 3D | Comparez les approches visibles de la même scène de trou noir. | Evaluation |
+| [Une comparaison de jardins d'eau calme](#case-21) | Scènes et modélisation 3D | Comparez l'aménagement paysager et le traitement de l'eau sur une tâche de jardinage partagée. | Evaluation |
+| [Quatre comparaisons d'animation SVG avec Opus 5.5](#case-22) | Graphismes et animations créatifs | Comparez le mouvement et les détails sur plusieurs sujets SVG. | Evaluation |
+| [Un autre article de peinture de portrait Sam Altman par Ananth7e](#case-23) | Graphismes et animations créatifs | Utilisez l'enregistrement partagé pour inspecter la façon dont un portrait de navigateur prend forme. | Demo |
+| [Un trou noir avec un disque d'accrétion brillant](#case-24) | Scènes et modélisation 3D | Inspectez les vues de caméra, les particules et l'éclairage d'une simulation. | Demo |
+| [Deux illustrations de portraits décrites comme des SVG contenant uniquement du code](#case-25) | Graphismes et animations créatifs | Comparez les portraits rendus avant de juger comment ils ont été réalisés. | Demo |
+| [Une étoile qui explose en supernova](#case-26) | Scènes et modélisation 3D | Suivez un effet visuel depuis son étoile initiale jusqu'à l'onde de choc. | Demo |
+| [Vagues de l'océan et phare au crépuscule](#case-27) | Scènes et modélisation 3D | Comparez la manière dont la lumière et les couleurs changent sur une scène océanique. | Demo |
+| [Une simulation de tornade sur navigateur](#case-28) | Scènes et modélisation 3D | Inspectez comment une scène combine la rotation, les nuages et les débris au sol. | Demo |
+| [Une ville japonaise pixel-art au clair de lune](#case-29) | Graphismes et animations créatifs | Utilisez une scène animée compacte pour inspecter l’éclairage et les détails. | Demo |
+| [Un lion jonglant en chevauchant une BMX](#case-30) | Graphismes et animations créatifs | Testez le mouvement coordonné sur des arrière-plans saisonniers changeants. | Demo |
+| [Un cheval au galop vu de côté](#case-31) | Graphismes et animations créatifs | Inspectez les pattes et la queue grâce à un simple cycle de mouvements. | Demo |
+| [Un paon chevauchant un BMX à travers des bambous](#case-32) | Graphismes et animations créatifs | Comparez le mouvement de la roue avec le mouvement d'un personnage détaillé. | Demo |
+| [Un sanctuaire de bambous avec un pont rouge](#case-33) | Scènes et modélisation 3D | Utilisez plusieurs angles de caméra pour examiner une scène 3D en couches. | Demo |
+| [Une peinture ondulée Three.js accessible à pied](#case-34) | Scènes et modélisation 3D | Découvrez ce qui change lorsqu'un tableau devient une scène navigable. | Demo |
+| [Un aperçu de portrait photoréaliste](#case-35) | Graphismes et animations créatifs | Inspectez le résultat visible et notez comment l’auteur le décrit. | Demo |
+| [Vectorisation de portraits Sydney Sweeney](#case-36) | Graphismes et animations créatifs | Suivez l’image intermédiaire lors de l’évaluation d’un flux de travail vectoriel. | Demo |
+| [Une maison monstre modélisée dans Blender](#case-37) | Scènes et modélisation 3D | Comparez la géométrie et les silhouettes sur trois vues étiquetées Blender. | Evaluation |
+| [Un voilier dans Three.js](#case-38) | Scènes et modélisation 3D | Suivez la republication pour voir un navire construit pour une scène de navigateur. | Demo |
+| [Les îles flottantes d’AETHERIA](#case-39) | Scènes et modélisation 3D | Utilisez un survol de caméra pour examiner l’échelle et la profondeur d’une scène. | Demo |
+| [Un voilier interactif dans un fichier HTML](#case-40) | Scènes et modélisation 3D | Utilisez le gréement, les voiles et un point de vue mobile pour inspecter un modèle de navigateur. | Demo |
+| [Tests d'image de référence dans le Codex et le API](#case-41) | Sites Web et interfaces | Comparez ce que font deux sorties avec la même référence avant d'attribuer la différence. | Evaluation |
+| [Cour voxel du jardin des cinq avant-toits](#case-42) | Scènes et modélisation 3D | Inspectez la composition et la superposition dans un environnement de voxel compact. | Demo |
+| [Une tentative inachevée de relayer un message](#case-43) | Utilisation de l'ordinateur et communication | Utilisez cette tentative pour voir où un flux de travail de bureau s'est arrêté. | Limit |
+| [Une comparaison du trou noir Three.js partagée par VraserX](#case-44) | Scènes et modélisation 3D | Inspectez les scènes de trous noirs appariées dans le clip partagé. | Evaluation |
+| [Un village de cerisiers de jour et de nuit](#case-45) | Scènes et modélisation 3D | Inspectez l’effet du changement de scène entre le jour et la nuit. | Demo |
+| [Un guépard courant en vue latérale](#case-46) | Graphismes et animations créatifs | Utilisez une vue de profil fixe pour comparer la démarche et les mouvements du corps. | Demo |
+| [Un extérieur et un intérieur de Colisée en ruine](#case-47) | Scènes et modélisation 3D | Suivez une caméra à travers le bâtiment pour voir quels détails sont visibles. | Demo |
+| [Une comparaison des trous noirs Three.js par TokenGremlin](#case-48) | Scènes et modélisation 3D | Comparez le mouvement de la caméra et l'éclairage dans deux sorties de trou noir. | Evaluation |
+| [Cour Sakura et aperçus de Wonder Atlas](#case-49) | Scènes et modélisation 3D | Inspectez comment deux scènes Web gèrent l’architecture et la profondeur. | Demo |
+| [Un Tesla Roadster reconstruit](#case-50) | Scènes et modélisation 3D | Utilisez une voiture familière comme référence de forme et de détail. | Demo |
+| [Un pélican et deux crabes faisant du vélo](#case-51) | Graphismes et animations créatifs | Inspectez le timing de plusieurs personnages animés en une seule fois. | Demo |
+| [Une comparaison du contrôleur PS5 dans les paramètres Sol](#case-52) | Graphismes et animations créatifs | Utilisez un produit familier pour comparer les contours et les ombres. | Evaluation |
+| [Une démo jour et nuit du village Sakura partagée par Haleeeemahh](#case-53) | Scènes et modélisation 3D | Comparez la lecture du même village à la lumière du jour et dans l’obscurité. | Demo |
+| [Une démo jour et nuit du village Sakura partagée par VraserX](#case-54) | Scènes et modélisation 3D | Utilisez les états d’éclairage appariés pour inspecter un seul environnement. | Demo |
+| [Une illustration de profil verte BMW M4 CS](#case-55) | Graphismes et animations créatifs | Vérifiez les proportions et les détails du profil dans un véhicule familier. | Demo |
+| [Une démo de jour et de nuit du village Sakura par TokenGremlin](#case-56) | Scènes et modélisation 3D | Utilisez une bascule d'éclairage pour comparer un village dans deux états. | Demo |
+| [Une maison avec vue intérieure et aérienne](#case-57) | Scènes et modélisation 3D | Vérifiez si un bâtiment 3D reste cohérent dans les vues intérieures et extérieures. | Demo |
+| [Un trou noir HTML Three.js unique](#case-58) | Scènes et modélisation 3D | Utilisez le clip et les images fixes pour vérifier comment une scène gère plusieurs points de vue. | Demo |
+| [Un palais Three.js flottant](#case-59) | Scènes et modélisation 3D | Inspectez l'échelle et la présentation d'un palais suspendu sous plusieurs angles. | Demo |
 
-<a id="category-three"></a>
+| Section | Objet |
+| --- | --- |
+| [Dépôts associés](#related-repositories) | Dépôts des modèles associés |
+| [Démarrage rapide](#quick-start) | Parcourir les cas et découvrir Sol |
+| [Remerciements](#acknowledge) | Crédits et demandes de correction |
+
 ## 🧊 Scènes et modélisation 3D
+<a id="category-three"></a>
 
 <a id="case-186"></a>
 ### Cas 186: [Une vallée traversée par un aqueduc](https://x.com/givros/status/2124404063802429838) (par [@givros](https://x.com/givros))
@@ -1433,7 +1439,7 @@ Type: Demo | Date: 2026-11-08
 ---
 
 <a id="case-20"></a>
-### Cas 20: [Une comparaison du trou noir Three.js partagée par rubenssoto_ai](https://x.com/rubenssoto_ai/status/2119473734109237340) (par [@rubenssoto_ai](https://x.com/rubenssoto_ai))
+### Cas 20: [Des scènes de trou noir comparées dans Three.js](https://x.com/rubenssoto_ai/status/2119473734109237340) (par [@rubenssoto_ai](https://x.com/rubenssoto_ai))
 
 **Comparez les approches visibles de la même scène de trou noir.**
 
@@ -1590,7 +1596,7 @@ Type: Evaluation | Date: 2026-11-08
 ---
 
 <a id="case-38"></a>
-### Cas 38: [Un voilier Three.js partagé par karanC_12](https://x.com/karanC_12/status/2119438098438504502) (par [@karanC_12](https://x.com/karanC_12))
+### Cas 38: [Un voilier dans Three.js](https://x.com/karanC_12/status/2119438098438504502) (par [@karanC_12](https://x.com/karanC_12))
 
 **Suivez la republication pour voir un navire construit pour une scène de navigateur.**
 
@@ -1606,7 +1612,7 @@ Type: Demo | Date: 2026-11-08
 ---
 
 <a id="case-39"></a>
-### Cas 39: [Îles flottantes AETHERIA par Mr_Salio](https://x.com/Mr_Salio/status/2119437812604838342) (par [@Mr_Salio](https://x.com/Mr_Salio))
+### Cas 39: [Les îles flottantes d’AETHERIA](https://x.com/Mr_Salio/status/2119437812604838342) (par [@Mr_Salio](https://x.com/Mr_Salio))
 
 **Utilisez un survol de caméra pour examiner l’échelle et la profondeur d’une scène.**
 
@@ -1667,7 +1673,7 @@ Type: Evaluation | Date: 2026-11-08
 ---
 
 <a id="case-45"></a>
-### Cas 45: [Une démo jour et nuit du village Sakura partagée par jessexai_](https://x.com/jessexai_/status/2119424781367881920) (par [@jessexai_](https://x.com/jessexai_))
+### Cas 45: [Un village de cerisiers de jour et de nuit](https://x.com/jessexai_/status/2119424781367881920) (par [@jessexai_](https://x.com/jessexai_))
 
 **Inspectez l’effet du changement de scène entre le jour et la nuit.**
 
@@ -1844,8 +1850,8 @@ Type: Demo | Date: 2026-11-08
 
 ---
 
-<a id="category-communication"></a>
 ## 💬 Utilisation de l'ordinateur et communication
+<a id="category-communication"></a>
 
 <a id="case-187"></a>
 ### Cas 187: [Génération d’une image pour une simple addition](https://x.com/KrishnaBuildsAI/status/2124374855332356527) (par [@KrishnaBuildsAI](https://x.com/KrishnaBuildsAI))
@@ -2074,8 +2080,8 @@ Type: Limit | Date: 2026-11-08
 
 ---
 
-<a id="category-game"></a>
 ## 🎮 Développement de jeux
+<a id="category-game"></a>
 
 <a id="case-188"></a>
 ### Cas 188: [Huit lieux de séries télévisées reconstruits dans Minecraft](https://x.com/jan_volad/status/2124308264456233400) (par [@jan_volad](https://x.com/jan_volad))
@@ -2378,8 +2384,8 @@ Type: Demo | Date: 2026-11-08
 
 ---
 
-<a id="category-graphics"></a>
 ## 🎨 Graphismes et animations créatifs
+<a id="category-graphics"></a>
 
 <a id="case-190"></a>
 ### Cas 190: [Une présentation de l’hypothèse de Riemann générée par code](https://x.com/MelissaKampers/status/2124286667288891534) (par [@MelissaKampers](https://x.com/MelissaKampers))
@@ -3165,8 +3171,8 @@ Type: Demo | Date: 2026-11-08
 
 ---
 
-<a id="category-web"></a>
 ## 🌐 Sites Web et interfaces
+<a id="category-web"></a>
 
 <a id="case-195"></a>
 ### Cas 195: [Six refontes d’un même site marketing](https://x.com/guilippert_v4/status/2124110586753482802) (par [@guilippert_v4](https://x.com/guilippert_v4))
@@ -3478,8 +3484,8 @@ Type: Evaluation | Date: 2026-11-08
 
 ---
 
-<a id="category-painting"></a>
 ## 🖌️ Utilisation de l'ordinateur et peinture
+<a id="category-painting"></a>
 
 <a id="case-100"></a>
 ### Cas 100: [Un portrait peint dans un navigateur](https://x.com/N1njaCodex/status/2122763308491325670) (par [@N1njaCodex](https://x.com/N1njaCodex))

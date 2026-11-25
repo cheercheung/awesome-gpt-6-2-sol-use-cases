@@ -2,7 +2,7 @@
 
 <h1>GPT-6.2 Sol · 演示与使用案例</h1>
 
-<a href="https://evolink.ai/gpt-6-2-sol?utm_source=github&utm_medium=banner&utm_campaign=gpt-6-2-sol-usecases&utm_content=readme_banner"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/covers/cover-1c4c7490be0406351b48.svg" width="760" alt="GPT-6.2 Sol community demos and use cases"></a>
+<a href="https://evolink.ai/gpt-6-2-sol?utm_source=github&utm_medium=banner&utm_campaign=gpt-6-2-sol-usecases&utm_content=readme_banner"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/covers/cover-9037775f357068018b8f.svg" width="760" alt="GPT-6.2 Sol community demos and use cases"></a>
 
 [![License](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey)](LICENSE)
 
@@ -15,6 +15,8 @@
 
 **这里收录社区作者归因于 GPT-6.2 Sol 的演示。点开原帖即可了解任务和成果。**
 
+OpenAI 将 [GPT-6.2 Sol](https://openai.com/index/introducing-gpt-6-2-astra-sol/) 定位为面向日常编程与智能体工作流的模型。
+
 <a id="overview"></a>
 ## 📊 概述
 
@@ -26,6 +28,8 @@
 > [!NOTE]
 > **媒体用于查看成果，型号来自作者的描述，实际使用的模型版本尚未核实。多条帖子如使用同一素材，数据中会标记为同一组。**
 
+> 早于 2026 年 11 月 17 日的帖子发布于 OpenAI 正式公开之前。案例中的模型归因沿用原作者的说法。
+
 <a id="quick-start"></a>
 ## ⚡ 快速入门
 
@@ -33,222 +37,224 @@
 2. 点击预览查看图片或播放视频，再打开原帖了解过程。
 3. 如有公开提示词，可按原文复试。对比时请使用相同输入。
 
-[在 EvoLink 查看 GPT-6.2 Sol](https://evolink.ai/gpt-6-2-sol?utm_source=github&utm_medium=quickstart&utm_campaign=gpt-6-2-sol-usecases&utm_content=browser_try)
+[在 EvoLink 查看 GPT-6.2 Sol](https://evolink.ai/gpt-6-2-sol?utm_source=github&utm_medium=readme&utm_campaign=gpt-6-2-sol-usecases&utm_content=landing_overview)
 
 <a id="menu"></a>
 ## 📑 菜单
 
 | 案例 | 类别 | 展示内容 | 类型 |
 | --- | --- | --- | --- |
-| [概述](#overview) | 导航 | 概述 | — |
-| [快速入门](#quick-start) | 导航 | 快速入门 | — |
-| [相关仓库](#related-repositories) | 导航 | 相关仓库 | — |
-| [致谢](#acknowledge) | 导航 | 致谢 | — |
-| [案例 186. 横跨山谷的高架水渠](#case-186) | [3D 场景与建模](#category-three) | 观察如何把一片大型景观从 Blender 带入 Three.js。 | Demo |
-| [案例 187. 加法题触发了图像生成](#case-187) | [电脑操作与沟通](#category-communication) | 分别检查是否误触发工具，以及最终答案是否正确。 | Limit |
-| [案例 188. 用 Minecraft 搭建八处电视剧场景](#case-188) | [游戏开发](#category-game) | 对比两套沙盒作品的布局还原和制作时间。 | Evaluation |
-| [案例 189. Three.js 交互式越野车](#case-189) | [3D 场景与建模](#category-three) | 在单个 HTML 文件中检查建模细节、可开合部件和合成声浪。 | Demo |
-| [案例 190. 用代码制作黎曼猜想短片](#case-190) | [创意图形与动画](#category-graphics) | 用本地代码在同一流程中生成画面和声音。 | Demo |
-| [案例 191. 用 Three.js 渲染四座埃菲尔铁塔](#case-191) | [3D 场景与建模](#category-three) | 对比四组标注了模型的场景中的格构、比例和周边环境。 | Evaluation |
-| [案例 192. 数据库审查中的已知缺陷检出](#case-192) | [电脑操作与沟通](#category-communication) | 在同一个审查任务中对比已知缺陷覆盖率和耗时。 | Benchmark |
-| [案例 193. Minecraft 中的奥兹曼迪亚斯遗迹](#case-193) | [游戏开发](#category-game) | 对比两次搭建如何用方块呈现同一文学场景。 | Evaluation |
-| [案例 194. Hermes 和 Pi 智能体的 Sol 预设](#case-194) | [电脑操作与沟通](#category-communication) | 了解如何从同一个桌面入口管理承担不同角色的助手。 | Integration |
-| [案例 195. 同一营销网站的六版改版](#case-195) | [网站和界面](#category-web) | 对比多个模型如何从同一网站要求得出不同设计。 | Evaluation |
-| [案例 196. 一张参考图做成雨中码头场景](#case-196) | [3D 场景与建模](#category-three) | 对比两个模型如何把一张图片做成网页上的 2.5D 场景。 | Evaluation |
-| [案例 197. SolidWorks 主视图和俯视图被调换](#case-197) | [3D 场景与建模](#category-three) | 接受导出前，对照装配体核验工程图的视图方向。 | Limit |
-| [案例 198. 短篇小说盲测](#case-198) | [电脑操作与沟通](#category-communication) | 比较同一情节写出的短篇，并确认哪些排版环节由作者手动完成。 | Evaluation |
-| [案例 199. 雨夜窗边的猫](#case-199) | [创意图形与动画](#category-graphics) | 对比四个模型如何用单个 HTML 动画表现同一场景。 | Evaluation |
-| [案例 176. 两种推理强度下的文档解析](#case-176) | [电脑操作与沟通](#category-communication) | 对比解析总分、图表识别得分和每页成本。 | Benchmark |
-| [案例 200. 为十二个建筑模型设计运镜](#case-200) | [3D 场景与建模](#category-three) | 用 Blender MCP 为导入的一组建筑模型设计运镜。 | Demo |
-| [案例 177. 四个版本的日落骑行动画](#case-177) | [创意图形与动画](#category-graphics) | 对比四个画面中的骑行动作、自行车比例和场景光照。 | Evaluation |
-| [案例 178. Company Agent Bench 的职场任务](#case-178) | [电脑操作与沟通](#category-communication) | 比较各模型在各自测试推理设置下的准确率。 | Benchmark |
-| [案例 179. 横跨 Scarlet Fjord 的缆车](#case-179) | [3D 场景与建模](#category-three) | 对比四个渲染版本如何呈现车厢和周围景观。 | Evaluation |
-| [案例 180. 游戏开发的偏好排名与生成成本](#case-180) | [游戏开发](#category-game) | 在同一个游戏开发榜中比较偏好名次、平均生成用时和成本。 | Benchmark |
-| [案例 181. 营销任务对比测试](#case-181) | [电脑操作与沟通](#category-communication) | 结合每项任务的偏好、成本和票数看结果。 | Benchmark |
-| [案例 182. 把步行路线做成掌机游戏](#case-182) | [游戏开发](#category-game) | 观察怎样把散步中的见闻做成可以重游的游戏场景。 | Demo |
-| [案例 183. 根据参考图制作 Blender 兔子模型](#case-183) | [3D 场景与建模](#category-three) | 从生成图像出发，从多个角度检查成品的几何形状。 | Demo |
-| [案例 184. Agents on Rails 的准确率和运行时间](#case-184) | [网站和界面](#category-web) | 为现有 Rails 应用中的开发任务分别记录耗时和准确率。 | Benchmark |
-| [案例 201. 独立 HTML 页面里的草地](#case-201) | [3D 场景与建模](#category-three) | 观察 Blender 素材如何进入可在浏览器运行的小型 Three.js 项目。 | Demo |
-| [案例 202. 用 ChatGPT Work 迭代服装插画](#case-202) | [创意图形与动画](#category-graphics) | 对比详细的服装要求在两次生成中的表现。 | Evaluation |
-| [案例 159. 从静态画面到成片](#case-159) | [创意图形与动画](#category-graphics) | 通过剪辑时间线了解生成画面如何进入多工具制作流程。 | Demo |
-| [案例 160. 用 Codex 制作两款第一人称游戏原型](#case-160) | [游戏开发](#category-game) | 结合成本记录对比关卡布局和游玩体验。 | Evaluation |
-| [案例 161. 用 Blender 素材制作休闲村庄游戏](#case-161) | [游戏开发](#category-game) | 观察建模和动画如何组合成一个游戏场景。 | Demo |
-| [案例 162. 根据室内照片绘制公寓平面图](#case-162) | [3D 场景与建模](#category-three) | 检验智能体能否从照片推断房间布局。 | Benchmark |
-| [案例 163. 剪辑口播视频里的对白](#case-163) | [创意图形与动画](#category-graphics) | 对比剪辑耗时、整体评分和出错的剪切类型。 | Benchmark |
-| [案例 164. 两种总部建筑设计](#case-164) | [3D 场景与建模](#category-three) | 在同一个开放式命题下对比建筑设计和镜头视角。 | Evaluation |
-| [案例 165. 在 Crusader Bench 中经营聚落](#case-165) | [游戏开发](#category-game) | 在相同计分地图和游戏条件下比较智能体的表现。 | Benchmark |
-| [案例 185. CodeRabbit 的拉取请求审查](#case-185) | [电脑操作与沟通](#category-communication) | 在不同审查流程配置下比较检出的问题、报告的精确率和审查成本。 | Benchmark |
-| [案例 166. Legora 十一月法律文书基准](#case-166) | [电脑操作与沟通](#category-communication) | 在同一组专业任务上比较质量和每个案例的成本。 | Benchmark |
-| [案例 167. Sol 参加 Xplore 工程设计基准](#case-167) | [3D 场景与建模](#category-three) | 在包含 CAD 工作的测试集中对比得分和单次运行成本。 | Benchmark |
-| [案例 168. Ruby Ascent 发射台场景](#case-168) | [3D 场景与建模](#category-three) | 对比同一发射台的四个版本在场景细节和制作耗时上的差异。 | Evaluation |
-| [案例 169. MazeBench 空间导航测试](#case-169) | [游戏开发](#category-game) | 用同一个公开基准比较模型完成迷宫的表现。 | Benchmark |
-| [案例 170. AI Village 角色资料问卷](#case-170) | [电脑操作与沟通](#category-communication) | 对照两个智能体独立回答同一份问卷的结果。 | Integration |
-| [案例 171. 基于同一段素材生成 3D 动画](#case-171) | [3D 场景与建模](#category-three) | 在固定风格下对比五个模型如何演绎同一片段。 | Evaluation |
-| [案例 172. 环绕哈利法塔塔顶的镜头](#case-172) | [3D 场景与建模](#category-three) | 观察各模型对高处退台和塔冠的处理。 | Evaluation |
-| [案例 173. 把短片转成白板动画](#case-173) | [创意图形与动画](#category-graphics) | 针对同一段输入视频比较叙事方式和成本。 | Evaluation |
-| [案例 174. 岩石海岸的灯塔网页](#case-174) | [网站和界面](#category-web) | 给定相同描述和推理强度，对比一次生成的页面。 | Evaluation |
-| [案例 175. 不使用工具的五局国际象棋对弈](#case-175) | [游戏开发](#category-game) | 对比同一场比赛的积分、对局结果和实测成本。 | Benchmark |
-| [案例 124. PR 状态汇报遗漏仓库指令](#case-124) | [电脑操作与沟通](#category-communication) | 用同一条简短的查询，对比汇报的详略和条理。 | Limit |
-| [案例 125. Arena 实录对比 Astra 与 Sol](#case-125) | [3D 场景与建模](#category-three) | 按视频章节对比场景、游戏和界面。 | Evaluation |
-| [案例 126. 闹鬼的吸血鬼大教堂](#case-126) | [3D 场景与建模](#category-three) | 对比两个模型如何演绎同一个哥特建筑要求。 | Evaluation |
-| [案例 127. 雨夜便利店](#case-127) | [3D 场景与建模](#category-three) | 并排观察光照、降雨和店面造型。 | Evaluation |
-| [案例 128. 纽约披萨店落地页](#case-128) | [网站和界面](#category-web) | 用一句话描述任务，看看不同模型会做出哪些品牌设计。 | Evaluation |
-| [案例 129. 两种宝塔建模效果](#case-129) | [3D 场景与建模](#category-three) | 对比两次 xhigh 运行对同一建筑主题的呈现。 | Evaluation |
-| [案例 130. 三分钟制作逼真落叶](#case-130) | [创意图形与动画](#category-graphics) | 用时间限制观察模型如何结合素材和代码。 | Demo |
-| [案例 131. 太阳雨中的微缩渔港](#case-131) | [3D 场景与建模](#category-three) | 对比四次运行的降雨、微缩布景和镜头运动。 | Evaluation |
-| [案例 132. Arena WebDev 分数与成本中位数](#case-132) | [网站和界面](#category-web) | 把榜单表现和单项任务成本中位数放在一起看。 | Benchmark |
-| [案例 133. 四个模型渲染火箭发射](#case-133) | [3D 场景与建模](#category-three) | 对比同一个虚构场景的四种构图和运动效果。 | Evaluation |
-| [案例 134. 循环播放的像素风跑步动画](#case-134) | [创意图形与动画](#category-graphics) | 检查人物在滚动背景前跑动时能否顺畅续接。 | Demo |
-| [案例 135. 风暴中的灯塔](#case-135) | [3D 场景与建模](#category-three) | 在同一场景下对比塔身细节和海浪运动。 | Evaluation |
-| [案例 136. 交互式人体解剖浏览器](#case-136) | [网站和界面](#category-web) | 对比开场效果和探索 3D 模型时的可读性。 | Evaluation |
-| [案例 137. 暴风海面上的小船](#case-137) | [3D 场景与建模](#category-three) | 分别观察雨水、云层体积感、船身细节和海面运动。 | Evaluation |
-| [案例 138. 《宝可梦 火红》冠军挑战](#case-138) | [游戏开发](#category-game) | 在明确输入和推理配置后对比通关耗时。 | Benchmark |
-| [案例 139. 虚构酒店的网站](#case-139) | [网站和界面](#category-web) | 在同一酒店主题下对比一次生成的页面、时间与成本。 | Evaluation |
-| [案例 140. 面向 UI 的 Design Creativity Bench](#case-140) | [网站和界面](#category-web) | 结合创意评分和单个设计的实测成本。 | Benchmark |
-| [案例 141. AITuber OnAir 的角色聊天](#case-141) | [电脑操作与沟通](#category-communication) | 在实时角色对话中尝试调整推理强度。 | Integration |
-| [案例 142. 从概念图到 Blender 骨骼角色](#case-142) | [3D 场景与建模](#category-three) | 分别评估生成角色的还原度和动画质量。 | Evaluation |
-| [案例 143. 用 Three.js 制作自动组装的科幻机甲](#case-143) | [3D 场景与建模](#category-three) | 对比两个模型如何表现机甲组装和升空。 | Evaluation |
-| [案例 144. 五个模型建模月球咖啡馆](#case-144) | [3D 场景与建模](#category-three) | 对比各模型如何布置并照亮月球咖啡馆场景。 | Evaluation |
-| [案例 145. 双人自行车 SVG 动画](#case-145) | [创意图形与动画](#category-graphics) | 比较两个编程工具如何绘制并驱动同一 SVG 主题。 | Evaluation |
-| [案例 146. 用布娃娃物理制作 3D 恐龙跑酷](#case-146) | [游戏开发](#category-game) | 对比四款游戏原型的视觉风格和碰撞反应。 | Evaluation |
-| [案例 147. 雨夜山城的末班电车](#case-147) | [3D 场景与建模](#category-three) | 在提示词和推理强度一致时对比建模和氛围。 | Evaluation |
-| [案例 148. 白宫建筑的 3D 渲染](#case-148) | [3D 场景与建模](#category-three) | 对比两个建筑画面的立面比例和构图。 | Evaluation |
-| [案例 149. Blender 中骑车的鹈鹕](#case-149) | [3D 场景与建模](#category-three) | 对照最终画面，同时记录每次运行实际交付的内容。 | Evaluation |
-| [案例 150. 网页上的风格化 3D 角色](#case-150) | [3D 场景与建模](#category-three) | 对比角色建模、周围场景和可见的动画。 | Evaluation |
-| [案例 151. 岛屿瀑布与周围的海面](#case-151) | [3D 场景与建模](#category-three) | 对比同一场景的生成时间和水体观感。 | Evaluation |
-| [案例 152. 记录 Ultrafast 视频剪辑用时](#case-152) | [创意图形与动画](#category-graphics) | 分别记录完整剪辑耗时和模型响应时间。 | Benchmark |
-| [案例 153. 用 Remotion 制作手写签名动画](#case-153) | [创意图形与动画](#category-graphics) | 对比两次 Max 运行如何呈现同一个签名。 | Evaluation |
-| [案例 154. 用 Mesh Avatar Studio 制作角色](#case-154) | [3D 场景与建模](#category-three) | 看看低推理强度下生成的头像效果。 | Demo |
-| [案例 155. FrontDesk-Bench 模拟诊所来电](#case-155) | [电脑操作与沟通](#category-communication) | 分别观察不安全操作和对正当请求的拒绝。 | Benchmark |
-| [案例 156. 根据参考图制作 3D 人像](#case-156) | [3D 场景与建模](#category-three) | 对比四个人像的面部细节和整体还原度。 | Evaluation |
-| [案例 157. 用 Three.js 制作水下章鱼](#case-157) | [3D 场景与建模](#category-three) | 在提示词和推理强度一致时，对比场景细节、时间和成本。 | Evaluation |
-| [案例 158. 受游戏广告启发的可玩关卡](#case-158) | [游戏开发](#category-game) | 对比同一关卡要求生成的四种可玩版本。 | Evaluation |
-| [案例 79. 一份 15 秒动态设计任务](#case-79) | [创意图形与动画](#category-graphics) | 给两个模型相同的任务，比较字体、转场和动态表现。 | Evaluation |
-| [案例 80. Browser Use 任务完成率与操作步数](#case-80) | [网站和界面](#category-web) | 在同一套浏览器任务上比较完成率、用时和步数。 | Benchmark |
-| [案例 78. 通关推箱子房间测试集](#case-78) | [游戏开发](#category-game) | 记录通关房间数，并回放操作以定位卡关处。 | Benchmark |
-| [案例 81. 用 Three.js 做地图上的步行机甲](#case-81) | [3D 场景与建模](#category-three) | 用相同地图数据和任务要求比较动画。 | Evaluation |
-| [案例 77. 用 Blender 模型搭建蝴蝶展厅](#case-77) | [网站和界面](#category-web) | 给可旋转的标本配上局部观察视图与观察笔记。 | Demo |
-| [案例 82. Perplexity 的 WANDR 智能体基准测试](#case-82) | [网站和界面](#category-web) | 同时比较任务得分和单任务成本。 | Benchmark |
-| [案例 83. 参照照片重建人物造型](#case-83) | [3D 场景与建模](#category-three) | 对照参考图检查姿势、服装与场景几何。 | Evaluation |
-| [案例 76. 并排对照机械蜜蜂模型](#case-76) | [3D 场景与建模](#category-three) | 分别评估活动部件和界面布局。 | Evaluation |
-| [案例 84. 四个模型重建一只鹿](#case-84) | [3D 场景与建模](#category-three) | 并排对照鹿角、关节与身体比例。 | Evaluation |
-| [案例 75. 用浏览器定位 GeoGuessr 地点](#case-75) | [网站和界面](#category-web) | 横评时固定起点、限时和距离阈值。 | Benchmark |
-| [案例 85. 四模型对比 Alpine Gold 飞机场景](#case-85) | [3D 场景与建模](#category-three) | 在同一个飞机任务里比较几何细节、环境和制作时间。 | Evaluation |
-| [案例 86. 不同 Sol 版本的体素结果对照表](#case-86) | [3D 场景与建模](#category-three) | 逐项检查提示词对应的结果，再判断整套测试是否退步。 | Evaluation |
-| [案例 87. 两种编程工具制作浮空体素王国](#case-87) | [3D 场景与建模](#category-three) | 比较体素场景时记录编程工具和实际耗时。 | Evaluation |
-| [案例 88. 两个模型制作奔马动画](#case-88) | [创意图形与动画](#category-graphics) | 观察完整的循环以对照马腿动作和步幅。 | Evaluation |
-| [案例 74. 用代码生成火焰与声音](#case-74) | [创意图形与动画](#category-graphics) | 比较动态作品时，同时记录成片时长、成本和生成时间。 | Evaluation |
-| [案例 89. 两种风格的灯塔场景](#case-89) | [3D 场景与建模](#category-three) | 比较同一任务下的取景与渲染风格。 | Evaluation |
-| [案例 90. 最高推理强度下的游戏手柄渲染](#case-90) | [3D 场景与建模](#category-three) | 在同一任务下比较按键位置与外壳形状。 | Evaluation |
-| [案例 91. 四座气球小屋的运动对比](#case-91) | [3D 场景与建模](#category-three) | 观察小屋相对于气球的摆动。 | Evaluation |
-| [案例 92. 用 3D 重建《泰坦尼克号》场景](#case-92) | [3D 场景与建模](#category-three) | 对比每个版本的面部细节、站位与取景。 | Evaluation |
-| [案例 93. 在 RuneScape 中完成两项任务](#case-93) | [游戏开发](#category-game) | 检查智能体选择了哪些任务、领取了哪些奖励。 | Benchmark |
-| [案例 73. HTML 鲁布·戈德堡装置模拟器](#case-73) | [3D 场景与建模](#category-three) | 观察连锁反应的各个环节如何衔接。 | Demo |
-| [案例 72. 使用生成式背景的气球小屋](#case-72) | [3D 场景与建模](#category-three) | 如果任务要求用 Three.js 搭建背景，检查交付物中的场景素材。 | Limit |
-| [案例 71. 受梵高启发的高斯泼溅场景](#case-71) | [3D 场景与建模](#category-three) | 对照两个可漫游场景对同一构图的处理。 | Evaluation |
-| [案例 70. VoxelBench 2 的生成错误](#case-70) | [3D 场景与建模](#category-three) | 先确认生成的体素代码能运行，再给渲染结果打分。 | Benchmark |
-| [案例 94. 用代码制作 900 帧动画](#case-94) | [创意图形与动画](#category-graphics) | 从角色、动作和声音检查到最终导出的视频。 | Demo |
-| [案例 95. 支持触屏操作的多人浏览器游戏](#case-95) | [游戏开发](#category-game) | 逐版试玩，针对操作问题给出反馈。 | Demo |
-| [案例 96. 以岛屿为主题的海洋场景](#case-96) | [3D 场景与建模](#category-three) | 用开放式岛屿任务观察模型对构图的取舍。 | Demo |
-| [案例 97. Lanternkeep 村庄建设网页游戏](#case-97) | [游戏开发](#category-game) | 观察地图和任务面板如何引导玩家建设村庄。 | Demo |
-| [案例 98. 会动的香蕉插画](#case-98) | [创意图形与动画](#category-graphics) | 用简单题材观察模型如何设计动作与角色。 | Demo |
-| [案例 99. 只用截图玩《宝可梦 火红》](#case-99) | [游戏开发](#category-game) | 记录游戏智能体的进度节点和通关用时。 | Benchmark |
-| [案例 100. 在浏览器绘画画布上呈现肖像](#case-100) | [电脑使用与绘画](#category-painting) | 把中间帧与画布旁的参考照片对照。 | Demo |
-| [案例 101. 单文件 HTML 里的骑车鹈鹕](#case-101) | [创意图形与动画](#category-graphics) | 用同一个 SVG 任务并排比较鹈鹕和自行车的运动。 | Evaluation |
-| [案例 102. 带组装和爆炸视图的直升机](#case-102) | [3D 场景与建模](#category-three) | 查看同一个 3D 模型的飞行效果与内部结构。 | Demo |
-| [案例 103. 两次 Ultra 强度的火柴人动画](#case-103) | [创意图形与动画](#category-graphics) | 重复同一个动画任务，观察两次输出有多大差异。 | Evaluation |
-| [案例 104. 两款精细的 BMW 模型](#case-104) | [3D 场景与建模](#category-three) | 在同一任务下比较轮廓、材质和多角度视图。 | Evaluation |
-| [案例 105. 船只与海面效果对比](#case-105) | [3D 场景与建模](#category-three) | 在同一任务里检查尾流、倒影和场景反应。 | Evaluation |
-| [案例 106. xhigh 强度下的埃菲尔铁塔](#case-106) | [3D 场景与建模](#category-three) | 在相同推理强度下比较塔身结构与周围环境。 | Evaluation |
-| [案例 123. 不同推理强度下的鹈鹕 SVG](#case-123) | [创意图形与动画](#category-graphics) | 对照每个强度下脚踏、鸟脚与车架的位置。 | Evaluation |
-| [案例 107. 能调节水面和光照的岛屿](#case-107) | [3D 场景与建模](#category-three) | 绕场景查看时，测试水面涟漪和光照调节。 | Demo |
-| [案例 108. 从 50 个维基百科起始页面导航](#case-108) | [网站和界面](#category-web) | 测导航耗时时，固定起始页面和终点。 | Benchmark |
-| [案例 122. 由人工评分的交互式 3D 场景](#case-122) | [3D 场景与建模](#category-three) | 用同一套测试和评分过程比较交互建模。 | Benchmark |
-| [案例 109. 卡车驾驶场景的四次运行](#case-109) | [3D 场景与建模](#category-three) | 对比相同驾驶场景，同时记录各次使用的编程工具。 | Evaluation |
-| [案例 110. Sol、Opus 和 Qwen 的雨夜骑车送餐对比](#case-110) | [创意图形与动画](#category-graphics) | 在三个作品中分别检查夜景和骑行动作。 | Evaluation |
-| [案例 111. 细节丰富的 Blender 房间与城市窗景](#case-111) | [3D 场景与建模](#category-three) | 查看室内小物件和窗外景观。 | Demo |
-| [案例 112. 在雨中骑车送餐的鹈鹕](#case-112) | [创意图形与动画](#category-graphics) | 分别观察倒影、积水、街道设施与动态环境。 | Evaluation |
-| [案例 113. 两个模型重建 PS5 手柄](#case-113) | [3D 场景与建模](#category-three) | 除了正面，也检查背壳和侧面按键。 | Evaluation |
-| [案例 114. 白天骑车的鹈鹕双版本对比](#case-114) | [创意图形与动画](#category-graphics) | 把运动效果和运行时间放在一起比较。 | Evaluation |
-| [案例 115. 三种交互式地球渲染](#case-115) | [3D 场景与建模](#category-three) | 旋转地球时比较光照与界面表现。 | Evaluation |
-| [案例 116. 在黑洞附近骑车的鹈鹕](#case-116) | [3D 场景与建模](#category-three) | 观察几轮提示之后形成的场景。 | Demo |
-| [案例 117. 以货运集装箱为中心的两种 3D 场景](#case-117) | [3D 场景与建模](#category-three) | 比较照明、道具与物体表面的处理。 | Evaluation |
-| [案例 118. 用 SVG 制作双人剑术动画](#case-118) | [创意图形与动画](#category-graphics) | 观察矢量动画如何通过节奏和剪影表现动作。 | Demo |
-| [案例 119. 用于智能体会话的看板插件](#case-119) | [网站和界面](#category-web) | 检查界面怎样连接任务、会话和审阅队列。 | Integration |
-| [案例 120. 写实风格的 SVG 自然景观](#case-120) | [创意图形与动画](#category-graphics) | 观察矢量表达能保留哪些自然细节。 | Demo |
-| [案例 121. Three.js 湖畔场景](#case-121) | [3D 场景与建模](#category-three) | 跟随镜头经过小船和瀑布，观察场景细节。 | Demo |
-| [案例 69. 布加迪 Chiron 360 度配置器](#case-69) | [网站和界面](#category-web) | 在镜头绕车移动时比较不同漆面。 | Demo |
-| [案例 68. 交互式波音 787-9 模型](#case-68) | [3D 场景与建模](#category-three) | 用视图控件查看飞机外部和发动机。 | Demo |
-| [案例 67. 海岸赛车游戏原型](#case-67) | [游戏开发](#category-game) | 检查比赛中倒计时、车速读数和赛道地图是否清楚易读。 | Demo |
-| [案例 66. 停车场上空的龙卷风](#case-66) | [3D 场景与建模](#category-three) | 观察风暴模拟如何带动停车场里的碎片。 | Demo |
-| [案例 65. Three.js 锦鲤庭院](#case-65) | [3D 场景与建模](#category-three) | 跟着锦鲤观察水面运动和倒影。 | Demo |
-| [案例 64. 两个宝塔场景对比](#case-64) | [3D 场景与建模](#category-three) | 比较两种输出如何布置宝塔、树木和水面。 | Evaluation |
-| [案例 63. 机械表的分解视图](#case-63) | [3D 场景与建模](#category-three) | 先查看表盘，再看模型如何拆分各层零件。 | Demo |
-| [案例 62. 浏览器里的三维魔方](#case-62) | [游戏开发](#category-game) | 从预览中检查魔方的旋转和贴纸位置。 | Demo |
-| [案例 61. 旋转七边形里的重力小球](#case-61) | [网站和界面](#category-web) | 观察容器旋转时小球如何移动。 | Demo |
-| [案例 60. 孙悟空大闹天宫 SVG 对比](#case-60) | [创意图形与动画](#category-graphics) | 比较三个系统如何构图，表现同一个大闹天宫场景。 | Evaluation |
-| [案例 1. MS Paint 中的 Freddie Mercury 肖像](#case-1) | [电脑使用与绘画](#category-painting) | 使用肖像来检查桌面绘图尝试产生的效果。 | Demo |
-| [案例 2. 郊区的房子和鹈鹕素描](#case-2) | [3D 场景与建模](#category-three) | 将渲染场景与紧凑绘图测试配对。 | Demo |
-| [案例 3. 3D 人类历史和人工智能未来](#case-3) | [创意图形与动画](#category-graphics) | 将叙事简报变成一系列动画场景。 | Demo |
-| [案例 4. 《时间的尽头》交互式黑洞网页](#case-4) | [网站和界面](#category-web) | 用黑洞作为 Three.js 交互网页的视觉中心，观察视角与光效如何变化。 | Demo |
-| [案例 5. 同题 Three.js 帆船对比](#case-5) | [3D 场景与建模](#category-three) | 用同一条帆船提示词，对比两段演示的细节和交互。 | Evaluation |
-| [案例 6. 红色火车穿越山谷](#case-6) | [3D 场景与建模](#category-three) | 比较共享场景中移动的车辆和风景。 | Evaluation |
-| [案例 7. Island Atlas 带昼夜切换](#case-7) | [网站和界面](#category-web) | 使用紧凑的 3D 岛来测试 Web 界面中的照明状态。 | Demo |
-| [案例 8. Tibo 浏览器绘画工作室中的肖像](#case-8) | [创意图形与动画](#category-graphics) | 在页面构建时检查肖像的各个阶段。 | Demo |
-| [案例 9. 两个场景处理中的罗马斗兽场废墟](#case-9) | [3D 场景与建模](#category-three) | 比较两次重建中的相机覆盖范围和建筑细节。 | Evaluation |
-| [案例 10. 0x0SojalSec分享的Sam Altman肖像画](#case-10) | [创意图形与动画](#category-graphics) | 遵循从粗糙形状到完成肖像的过渡。 | Demo |
-| [案例 11. Sam Altman肖像画由Avenoxai分享](#case-11) | [创意图形与动画](#category-graphics) | 看看浏览器演示如何展示肖像。 | Demo |
-| [案例 12. pengsonal分享的Sam Altman肖像画](#case-12) | [创意图形与动画](#category-graphics) | 检查浏览器场景添加肖像细节的顺序。 | Demo |
-| [案例 13. GeekCatX分享的Sam Altman肖像画](#case-13) | [创意图形与动画](#category-graphics) | 使用剪辑将初始构图与完成的图像进行比较。 | Demo |
-| [案例 14. Sam Altman 在浏览器绘画画布中的肖像](#case-14) | [创意图形与动画](#category-graphics) | 观察肖像从封闭的颜色发展到更精细的特征。 | Demo |
-| [案例 15. AETHERIA EnvolDev共享浮岛](#case-15) | [3D 场景与建模](#category-three) | 跟随相机穿过漂浮的风景。 | Demo |
-| [案例 16. 与早期比较的紫色毛茸茸角色](#case-16) | [3D 场景与建模](#category-three) | 将新的角色剪辑与同一篇文章中的参考输出分开。 | Demo |
-| [案例 17. PELICAN PANIC 体素追逐游戏](#case-17) | [游戏开发](#category-game) | 使用短追逐游戏来检查控制、反馈和结束状态。 | Demo |
-| [案例 18. 一头带翅膀的大象携带着一个花园](#case-18) | [3D 场景与建模](#category-three) | 使用单一的幻想前提从多个角度检查构图。 | Demo |
-| [案例 19. Dario Amodei 在浏览器绘画画布中的肖像](#case-19) | [创意图形与动画](#category-graphics) | 观看参考图像指导舞台肖像。 | Demo |
-| [案例 20. rubenssoto_ai 分享的 Three.js 黑洞比较](#case-20) | [3D 场景与建模](#category-three) | 比较同一黑洞场景的可见方法。 | Evaluation |
-| [案例 21. 斯蒂尔沃特花园比较](#case-21) | [3D 场景与建模](#category-three) | 比较共享花园任务中的景观美化和水处理。 | Evaluation |
-| [案例 22. 四张SVG与Opus 5.5的动画对比](#case-22) | [创意图形与动画](#category-graphics) | 比较多个 SVG 对象的运动和细节。 | Evaluation |
-| [案例 23. Ananth7e 的另一张 Sam Altman 肖像画帖子](#case-23) | [创意图形与动画](#category-graphics) | 使用共享记录来检查浏览器肖像的形成方式。 | Demo |
-| [案例 24. 带有发光吸积盘的黑洞](#case-24) | [3D 场景与建模](#category-three) | 检查模拟的摄像机视图、粒子和照明。 | Demo |
-| [案例 25. 两个肖像插图被描述为纯代码 SVG](#case-25) | [创意图形与动画](#category-graphics) | 在判断肖像的制作方法之前，先对渲染的肖像进行比较。 | Demo |
-| [案例 26. 一颗恒星爆炸成超新星](#case-26) | [3D 场景与建模](#category-three) | 跟踪从最初的星星到冲击波的视觉效果。 | Demo |
-| [案例 27. 海浪和黄昏的灯塔](#case-27) | [3D 场景与建模](#category-three) | 比较海洋场景中光线和颜色的变化。 | Demo |
-| [案例 28. 浏览器龙卷风模拟](#case-28) | [3D 场景与建模](#category-three) | 检查场景如何结合旋转、云和地面碎片。 | Demo |
-| [案例 29. 月光下的像素艺术日本小镇](#case-29) | [创意图形与动画](#category-graphics) | 使用紧凑的动画场景来检查灯光和细节。 | Demo |
-| [案例 30. 骑 BMX 自行车抛球的狮子](#case-30) | [创意图形与动画](#category-graphics) | 在不断变化的季节背景下测试协调运动。 | Demo |
-| [案例 31. 侧视奔腾的马](#case-31) | [创意图形与动画](#category-graphics) | 通过简单的运动循环检查腿和尾巴。 | Demo |
-| [案例 32. 孔雀骑BMX穿过竹子](#case-32) | [创意图形与动画](#category-graphics) | 将车轮运动与详细角色的运动进行比较。 | Demo |
-| [案例 33. 有红色桥梁的竹林保护区](#case-33) | [3D 场景与建模](#category-three) | 使用多个摄像机角度来检查分层的 3D 场景。 | Demo |
-| [案例 34. 可行走的Three.js波浪画](#case-34) | [3D 场景与建模](#category-three) | 探索当一幅画变成一个可导航的场景时会发生什么变化。 | Demo |
-| [案例 35. 逼真的肖像预览](#case-35) | [创意图形与动画](#category-graphics) | 检查可见结果并记录作者如何描述它。 | Demo |
-| [案例 36. Sydney Sweeney 人像矢量化](#case-36) | [创意图形与动画](#category-graphics) | 评估矢量工作流程时跟踪中间图像。 | Demo |
-| [案例 37. 以 Blender 为模型的怪物屋](#case-37) | [3D 场景与建模](#category-three) | 比较三个标记的 Blender 视图的几何形状和轮廓。 | Evaluation |
-| [案例 38. karanC_12共享的一艘Three.js帆船](#case-38) | [3D 场景与建模](#category-three) | 按照转发查看一艘为浏览器场景建造的船。 | Demo |
-| [案例 39. AETHERIA 浮岛 by Mr_Salio](#case-39) | [3D 场景与建模](#category-three) | 使用相机飞越来检查场景的规模和深度。 | Demo |
-| [案例 40. 一个 HTML 文件中的交互式帆船](#case-40) | [3D 场景与建模](#category-three) | 使用索具、帆和移动视点来检查浏览器模型。 | Demo |
-| [案例 41. Codex 和 API 中的参考图像测试](#case-41) | [网站和界面](#category-web) | 在归因差异之前，比较两个输出对相同参考的作用。 | Evaluation |
-| [案例 42. 五檐花园体素庭院](#case-42) | [3D 场景与建模](#category-three) | 在紧凑的体素环境中检查成分和分层。 | Demo |
-| [案例 43. 未完成的消息转发尝试](#case-43) | [电脑操作与沟通](#category-communication) | 通过尝试查看桌面工作流程停止的位置。 | Limit |
-| [案例 44. VraserX 分享的 Three.js 黑洞比较](#case-44) | [3D 场景与建模](#category-three) | 检查共享剪辑中配对的黑洞场景。 | Evaluation |
-| [案例 45. jessexai_分享的樱花村日夜演示](#case-45) | [3D 场景与建模](#category-three) | 检查白天和夜晚场景切换的效果。 | Demo |
-| [案例 46. 侧视奔跑的猎豹](#case-46) | [创意图形与动画](#category-graphics) | 使用固定轮廓视图来比较步态和身体运动。 | Demo |
-| [案例 47. 被毁坏的罗马斗兽场的外部和内部](#case-47) | [3D 场景与建模](#category-three) | 跟随摄像机穿过建筑物，查看哪些细节可见。 | Demo |
-| [案例 48. TokenGremlin 的 Three.js 黑洞比较](#case-48) | [3D 场景与建模](#category-three) | 比较两个黑洞输出中的相机移动和照明。 | Evaluation |
-| [案例 49. 樱花庭院和Wonder Atlas预览](#case-49) | [3D 场景与建模](#category-three) | 检查两个 Web 场景如何处理架构和深度。 | Demo |
-| [案例 50. 重建的Tesla Roadster](#case-50) | [3D 场景与建模](#category-three) | 使用熟悉的汽车作为形状和细节参考。 | Demo |
-| [案例 51. 一只鹈鹕和两只螃蟹骑自行车](#case-51) | [创意图形与动画](#category-graphics) | 在一个镜头中检查多个动画角色的时间安排。 | Demo |
-| [案例 52. PS5 控制器在 Sol 设置之间的比较](#case-52) | [创意图形与动画](#category-graphics) | 使用熟悉的产品来比较轮廓和阴影。 | Evaluation |
-| [案例 53. Haleeeemahh分享的樱花村日夜演示](#case-53) | [3D 场景与建模](#category-three) | 比较同一村庄在白天和黑暗中的阅读情况。 | Demo |
-| [案例 54. VraserX分享的樱花村日夜演示](#case-54) | [3D 场景与建模](#category-three) | 使用成对的照明状态来检查单个环境。 | Demo |
-| [案例 55. 绿色 BMW M4 CS 轮廓图](#case-55) | [创意图形与动画](#category-graphics) | 检查熟悉车辆的比例和轮廓细节。 | Demo |
-| [案例 56. TokenGremlin 的樱花村日夜演示](#case-56) | [3D 场景与建模](#category-three) | 使用照明开关来比较两个州的一个村庄。 | Demo |
-| [案例 57. 拥有内部和鸟瞰图的房子](#case-57) | [3D 场景与建模](#category-three) | 检查 3D 建筑的内部和外部视图是否保持连贯。 | Demo |
-| [案例 58. 单个HTML Three.js黑洞](#case-58) | [3D 场景与建模](#category-three) | 使用剪辑和剧照来检查一个场景如何处理多个视点。 | Demo |
-| [案例 59. 漂浮的Three.js宫殿](#case-59) | [3D 场景与建模](#category-three) | 从多个角度观察悬浮宫殿的规模和外观。 | Demo |
+| [横跨山谷的高架水渠](#case-186) | 3D 场景与建模 | 观察如何把一片大型景观从 Blender 带入 Three.js。 | Demo |
+| [加法题触发了图像生成](#case-187) | 电脑操作与沟通 | 分别检查是否误触发工具，以及最终答案是否正确。 | Limit |
+| [用 Minecraft 搭建八处电视剧场景](#case-188) | 游戏开发 | 对比两套沙盒作品的布局还原和制作时间。 | Evaluation |
+| [Three.js 交互式越野车](#case-189) | 3D 场景与建模 | 在单个 HTML 文件中检查建模细节、可开合部件和合成声浪。 | Demo |
+| [用代码制作黎曼猜想短片](#case-190) | 创意图形与动画 | 用本地代码在同一流程中生成画面和声音。 | Demo |
+| [用 Three.js 渲染四座埃菲尔铁塔](#case-191) | 3D 场景与建模 | 对比四组标注了模型的场景中的格构、比例和周边环境。 | Evaluation |
+| [数据库审查中的已知缺陷检出](#case-192) | 电脑操作与沟通 | 在同一个审查任务中对比已知缺陷覆盖率和耗时。 | Benchmark |
+| [Minecraft 中的奥兹曼迪亚斯遗迹](#case-193) | 游戏开发 | 对比两次搭建如何用方块呈现同一文学场景。 | Evaluation |
+| [Hermes 和 Pi 智能体的 Sol 预设](#case-194) | 电脑操作与沟通 | 了解如何从同一个桌面入口管理承担不同角色的助手。 | Integration |
+| [同一营销网站的六版改版](#case-195) | 网站和界面 | 对比多个模型如何从同一网站要求得出不同设计。 | Evaluation |
+| [一张参考图做成雨中码头场景](#case-196) | 3D 场景与建模 | 对比两个模型如何把一张图片做成网页上的 2.5D 场景。 | Evaluation |
+| [SolidWorks 主视图和俯视图被调换](#case-197) | 3D 场景与建模 | 接受导出前，对照装配体核验工程图的视图方向。 | Limit |
+| [短篇小说盲测](#case-198) | 电脑操作与沟通 | 比较同一情节写出的短篇，并确认哪些排版环节由作者手动完成。 | Evaluation |
+| [雨夜窗边的猫](#case-199) | 创意图形与动画 | 对比四个模型如何用单个 HTML 动画表现同一场景。 | Evaluation |
+| [两种推理强度下的文档解析](#case-176) | 电脑操作与沟通 | 对比解析总分、图表识别得分和每页成本。 | Benchmark |
+| [为十二个建筑模型设计运镜](#case-200) | 3D 场景与建模 | 用 Blender MCP 为导入的一组建筑模型设计运镜。 | Demo |
+| [四个版本的日落骑行动画](#case-177) | 创意图形与动画 | 对比四个画面中的骑行动作、自行车比例和场景光照。 | Evaluation |
+| [Company Agent Bench 的职场任务](#case-178) | 电脑操作与沟通 | 比较各模型在各自测试推理设置下的准确率。 | Benchmark |
+| [横跨 Scarlet Fjord 的缆车](#case-179) | 3D 场景与建模 | 对比四个渲染版本如何呈现车厢和周围景观。 | Evaluation |
+| [游戏开发的偏好排名与生成成本](#case-180) | 游戏开发 | 在同一个游戏开发榜中比较偏好名次、平均生成用时和成本。 | Benchmark |
+| [营销任务对比测试](#case-181) | 电脑操作与沟通 | 结合每项任务的偏好、成本和票数看结果。 | Benchmark |
+| [把步行路线做成掌机游戏](#case-182) | 游戏开发 | 观察怎样把散步中的见闻做成可以重游的游戏场景。 | Demo |
+| [根据参考图制作 Blender 兔子模型](#case-183) | 3D 场景与建模 | 从生成图像出发，从多个角度检查成品的几何形状。 | Demo |
+| [Agents on Rails 的准确率和运行时间](#case-184) | 网站和界面 | 为现有 Rails 应用中的开发任务分别记录耗时和准确率。 | Benchmark |
+| [独立 HTML 页面里的草地](#case-201) | 3D 场景与建模 | 观察 Blender 素材如何进入可在浏览器运行的小型 Three.js 项目。 | Demo |
+| [用 ChatGPT Work 迭代服装插画](#case-202) | 创意图形与动画 | 对比详细的服装要求在两次生成中的表现。 | Evaluation |
+| [从静态画面到成片](#case-159) | 创意图形与动画 | 通过剪辑时间线了解生成画面如何进入多工具制作流程。 | Demo |
+| [用 Codex 制作两款第一人称游戏原型](#case-160) | 游戏开发 | 结合成本记录对比关卡布局和游玩体验。 | Evaluation |
+| [用 Blender 素材制作休闲村庄游戏](#case-161) | 游戏开发 | 观察建模和动画如何组合成一个游戏场景。 | Demo |
+| [根据室内照片绘制公寓平面图](#case-162) | 3D 场景与建模 | 检验智能体能否从照片推断房间布局。 | Benchmark |
+| [剪辑口播视频里的对白](#case-163) | 创意图形与动画 | 对比剪辑耗时、整体评分和出错的剪切类型。 | Benchmark |
+| [两种总部建筑设计](#case-164) | 3D 场景与建模 | 在同一个开放式命题下对比建筑设计和镜头视角。 | Evaluation |
+| [在 Crusader Bench 中经营聚落](#case-165) | 游戏开发 | 在相同计分地图和游戏条件下比较智能体的表现。 | Benchmark |
+| [CodeRabbit 的拉取请求审查](#case-185) | 电脑操作与沟通 | 在不同审查流程配置下比较检出的问题、报告的精确率和审查成本。 | Benchmark |
+| [Legora 十一月法律文书基准](#case-166) | 电脑操作与沟通 | 在同一组专业任务上比较质量和每个案例的成本。 | Benchmark |
+| [Sol 参加 Xplore 工程设计基准](#case-167) | 3D 场景与建模 | 在包含 CAD 工作的测试集中对比得分和单次运行成本。 | Benchmark |
+| [Ruby Ascent 发射台场景](#case-168) | 3D 场景与建模 | 对比同一发射台的四个版本在场景细节和制作耗时上的差异。 | Evaluation |
+| [MazeBench 空间导航测试](#case-169) | 游戏开发 | 用同一个公开基准比较模型完成迷宫的表现。 | Benchmark |
+| [AI Village 角色资料问卷](#case-170) | 电脑操作与沟通 | 对照两个智能体独立回答同一份问卷的结果。 | Integration |
+| [基于同一段素材生成 3D 动画](#case-171) | 3D 场景与建模 | 在固定风格下对比五个模型如何演绎同一片段。 | Evaluation |
+| [环绕哈利法塔塔顶的镜头](#case-172) | 3D 场景与建模 | 观察各模型对高处退台和塔冠的处理。 | Evaluation |
+| [把短片转成白板动画](#case-173) | 创意图形与动画 | 针对同一段输入视频比较叙事方式和成本。 | Evaluation |
+| [岩石海岸的灯塔网页](#case-174) | 网站和界面 | 给定相同描述和推理强度，对比一次生成的页面。 | Evaluation |
+| [不使用工具的五局国际象棋对弈](#case-175) | 游戏开发 | 对比同一场比赛的积分、对局结果和实测成本。 | Benchmark |
+| [PR 状态汇报遗漏仓库指令](#case-124) | 电脑操作与沟通 | 用同一条简短的查询，对比汇报的详略和条理。 | Limit |
+| [Arena 实录对比 Astra 与 Sol](#case-125) | 3D 场景与建模 | 按视频章节对比场景、游戏和界面。 | Evaluation |
+| [闹鬼的吸血鬼大教堂](#case-126) | 3D 场景与建模 | 对比两个模型如何演绎同一个哥特建筑要求。 | Evaluation |
+| [雨夜便利店](#case-127) | 3D 场景与建模 | 并排观察光照、降雨和店面造型。 | Evaluation |
+| [纽约披萨店落地页](#case-128) | 网站和界面 | 用一句话描述任务，看看不同模型会做出哪些品牌设计。 | Evaluation |
+| [两种宝塔建模效果](#case-129) | 3D 场景与建模 | 对比两次 xhigh 运行对同一建筑主题的呈现。 | Evaluation |
+| [三分钟制作逼真落叶](#case-130) | 创意图形与动画 | 用时间限制观察模型如何结合素材和代码。 | Demo |
+| [太阳雨中的微缩渔港](#case-131) | 3D 场景与建模 | 对比四次运行的降雨、微缩布景和镜头运动。 | Evaluation |
+| [Arena WebDev 分数与成本中位数](#case-132) | 网站和界面 | 把榜单表现和单项任务成本中位数放在一起看。 | Benchmark |
+| [四个模型渲染火箭发射](#case-133) | 3D 场景与建模 | 对比同一个虚构场景的四种构图和运动效果。 | Evaluation |
+| [循环播放的像素风跑步动画](#case-134) | 创意图形与动画 | 检查人物在滚动背景前跑动时能否顺畅续接。 | Demo |
+| [风暴中的灯塔](#case-135) | 3D 场景与建模 | 在同一场景下对比塔身细节和海浪运动。 | Evaluation |
+| [交互式人体解剖浏览器](#case-136) | 网站和界面 | 对比开场效果和探索 3D 模型时的可读性。 | Evaluation |
+| [暴风海面上的小船](#case-137) | 3D 场景与建模 | 分别观察雨水、云层体积感、船身细节和海面运动。 | Evaluation |
+| [《宝可梦 火红》冠军挑战](#case-138) | 游戏开发 | 在明确输入和推理配置后对比通关耗时。 | Benchmark |
+| [虚构酒店的网站](#case-139) | 网站和界面 | 在同一酒店主题下对比一次生成的页面、时间与成本。 | Evaluation |
+| [面向 UI 的 Design Creativity Bench](#case-140) | 网站和界面 | 结合创意评分和单个设计的实测成本。 | Benchmark |
+| [AITuber OnAir 的角色聊天](#case-141) | 电脑操作与沟通 | 在实时角色对话中尝试调整推理强度。 | Integration |
+| [从概念图到 Blender 骨骼角色](#case-142) | 3D 场景与建模 | 分别评估生成角色的还原度和动画质量。 | Evaluation |
+| [用 Three.js 制作自动组装的科幻机甲](#case-143) | 3D 场景与建模 | 对比两个模型如何表现机甲组装和升空。 | Evaluation |
+| [五个模型建模月球咖啡馆](#case-144) | 3D 场景与建模 | 对比各模型如何布置并照亮月球咖啡馆场景。 | Evaluation |
+| [双人自行车 SVG 动画](#case-145) | 创意图形与动画 | 比较两个编程工具如何绘制并驱动同一 SVG 主题。 | Evaluation |
+| [用布娃娃物理制作 3D 恐龙跑酷](#case-146) | 游戏开发 | 对比四款游戏原型的视觉风格和碰撞反应。 | Evaluation |
+| [雨夜山城的末班电车](#case-147) | 3D 场景与建模 | 在提示词和推理强度一致时对比建模和氛围。 | Evaluation |
+| [白宫建筑的 3D 渲染](#case-148) | 3D 场景与建模 | 对比两个建筑画面的立面比例和构图。 | Evaluation |
+| [Blender 中骑车的鹈鹕](#case-149) | 3D 场景与建模 | 对照最终画面，同时记录每次运行实际交付的内容。 | Evaluation |
+| [网页上的风格化 3D 角色](#case-150) | 3D 场景与建模 | 对比角色建模、周围场景和可见的动画。 | Evaluation |
+| [岛屿瀑布与周围的海面](#case-151) | 3D 场景与建模 | 对比同一场景的生成时间和水体观感。 | Evaluation |
+| [记录 Ultrafast 视频剪辑用时](#case-152) | 创意图形与动画 | 分别记录完整剪辑耗时和模型响应时间。 | Benchmark |
+| [用 Remotion 制作手写签名动画](#case-153) | 创意图形与动画 | 对比两次 Max 运行如何呈现同一个签名。 | Evaluation |
+| [用 Mesh Avatar Studio 制作角色](#case-154) | 3D 场景与建模 | 看看低推理强度下生成的头像效果。 | Demo |
+| [FrontDesk-Bench 模拟诊所来电](#case-155) | 电脑操作与沟通 | 分别观察不安全操作和对正当请求的拒绝。 | Benchmark |
+| [根据参考图制作 3D 人像](#case-156) | 3D 场景与建模 | 对比四个人像的面部细节和整体还原度。 | Evaluation |
+| [用 Three.js 制作水下章鱼](#case-157) | 3D 场景与建模 | 在提示词和推理强度一致时，对比场景细节、时间和成本。 | Evaluation |
+| [受游戏广告启发的可玩关卡](#case-158) | 游戏开发 | 对比同一关卡要求生成的四种可玩版本。 | Evaluation |
+| [一份 15 秒动态设计任务](#case-79) | 创意图形与动画 | 给两个模型相同的任务，比较字体、转场和动态表现。 | Evaluation |
+| [Browser Use 任务完成率与操作步数](#case-80) | 网站和界面 | 在同一套浏览器任务上比较完成率、用时和步数。 | Benchmark |
+| [通关推箱子房间测试集](#case-78) | 游戏开发 | 记录通关房间数，并回放操作以定位卡关处。 | Benchmark |
+| [用 Three.js 做地图上的步行机甲](#case-81) | 3D 场景与建模 | 用相同地图数据和任务要求比较动画。 | Evaluation |
+| [用 Blender 模型搭建蝴蝶展厅](#case-77) | 网站和界面 | 给可旋转的标本配上局部观察视图与观察笔记。 | Demo |
+| [Perplexity 的 WANDR 智能体基准测试](#case-82) | 网站和界面 | 同时比较任务得分和单任务成本。 | Benchmark |
+| [参照照片重建人物造型](#case-83) | 3D 场景与建模 | 对照参考图检查姿势、服装与场景几何。 | Evaluation |
+| [并排对照机械蜜蜂模型](#case-76) | 3D 场景与建模 | 分别评估活动部件和界面布局。 | Evaluation |
+| [四个模型重建一只鹿](#case-84) | 3D 场景与建模 | 并排对照鹿角、关节与身体比例。 | Evaluation |
+| [用浏览器定位 GeoGuessr 地点](#case-75) | 网站和界面 | 横评时固定起点、限时和距离阈值。 | Benchmark |
+| [四模型对比 Alpine Gold 飞机场景](#case-85) | 3D 场景与建模 | 在同一个飞机任务里比较几何细节、环境和制作时间。 | Evaluation |
+| [不同 Sol 版本的体素结果对照表](#case-86) | 3D 场景与建模 | 逐项检查提示词对应的结果，再判断整套测试是否退步。 | Evaluation |
+| [两种编程工具制作浮空体素王国](#case-87) | 3D 场景与建模 | 比较体素场景时记录编程工具和实际耗时。 | Evaluation |
+| [两个模型制作奔马动画](#case-88) | 创意图形与动画 | 观察完整的循环以对照马腿动作和步幅。 | Evaluation |
+| [用代码生成火焰与声音](#case-74) | 创意图形与动画 | 比较动态作品时，同时记录成片时长、成本和生成时间。 | Evaluation |
+| [两种风格的灯塔场景](#case-89) | 3D 场景与建模 | 比较同一任务下的取景与渲染风格。 | Evaluation |
+| [最高推理强度下的游戏手柄渲染](#case-90) | 3D 场景与建模 | 在同一任务下比较按键位置与外壳形状。 | Evaluation |
+| [四座气球小屋的运动对比](#case-91) | 3D 场景与建模 | 观察小屋相对于气球的摆动。 | Evaluation |
+| [用 3D 重建《泰坦尼克号》场景](#case-92) | 3D 场景与建模 | 对比每个版本的面部细节、站位与取景。 | Evaluation |
+| [在 RuneScape 中完成两项任务](#case-93) | 游戏开发 | 检查智能体选择了哪些任务、领取了哪些奖励。 | Benchmark |
+| [HTML 鲁布·戈德堡装置模拟器](#case-73) | 3D 场景与建模 | 观察连锁反应的各个环节如何衔接。 | Demo |
+| [使用生成式背景的气球小屋](#case-72) | 3D 场景与建模 | 如果任务要求用 Three.js 搭建背景，检查交付物中的场景素材。 | Limit |
+| [受梵高启发的高斯泼溅场景](#case-71) | 3D 场景与建模 | 对照两个可漫游场景对同一构图的处理。 | Evaluation |
+| [VoxelBench 2 的生成错误](#case-70) | 3D 场景与建模 | 先确认生成的体素代码能运行，再给渲染结果打分。 | Benchmark |
+| [用代码制作 900 帧动画](#case-94) | 创意图形与动画 | 从角色、动作和声音检查到最终导出的视频。 | Demo |
+| [支持触屏操作的多人浏览器游戏](#case-95) | 游戏开发 | 逐版试玩，针对操作问题给出反馈。 | Demo |
+| [以岛屿为主题的海洋场景](#case-96) | 3D 场景与建模 | 用开放式岛屿任务观察模型对构图的取舍。 | Demo |
+| [Lanternkeep 村庄建设网页游戏](#case-97) | 游戏开发 | 观察地图和任务面板如何引导玩家建设村庄。 | Demo |
+| [会动的香蕉插画](#case-98) | 创意图形与动画 | 用简单题材观察模型如何设计动作与角色。 | Demo |
+| [只用截图玩《宝可梦 火红》](#case-99) | 游戏开发 | 记录游戏智能体的进度节点和通关用时。 | Benchmark |
+| [在浏览器绘画画布上呈现肖像](#case-100) | 电脑使用与绘画 | 把中间帧与画布旁的参考照片对照。 | Demo |
+| [单文件 HTML 里的骑车鹈鹕](#case-101) | 创意图形与动画 | 用同一个 SVG 任务并排比较鹈鹕和自行车的运动。 | Evaluation |
+| [带组装和爆炸视图的直升机](#case-102) | 3D 场景与建模 | 查看同一个 3D 模型的飞行效果与内部结构。 | Demo |
+| [两次 Ultra 强度的火柴人动画](#case-103) | 创意图形与动画 | 重复同一个动画任务，观察两次输出有多大差异。 | Evaluation |
+| [两款精细的 BMW 模型](#case-104) | 3D 场景与建模 | 在同一任务下比较轮廓、材质和多角度视图。 | Evaluation |
+| [船只与海面效果对比](#case-105) | 3D 场景与建模 | 在同一任务里检查尾流、倒影和场景反应。 | Evaluation |
+| [xhigh 强度下的埃菲尔铁塔](#case-106) | 3D 场景与建模 | 在相同推理强度下比较塔身结构与周围环境。 | Evaluation |
+| [不同推理强度下的鹈鹕 SVG](#case-123) | 创意图形与动画 | 对照每个强度下脚踏、鸟脚与车架的位置。 | Evaluation |
+| [能调节水面和光照的岛屿](#case-107) | 3D 场景与建模 | 绕场景查看时，测试水面涟漪和光照调节。 | Demo |
+| [从 50 个维基百科起始页面导航](#case-108) | 网站和界面 | 测导航耗时时，固定起始页面和终点。 | Benchmark |
+| [由人工评分的交互式 3D 场景](#case-122) | 3D 场景与建模 | 用同一套测试和评分过程比较交互建模。 | Benchmark |
+| [卡车驾驶场景的四次运行](#case-109) | 3D 场景与建模 | 对比相同驾驶场景，同时记录各次使用的编程工具。 | Evaluation |
+| [Sol、Opus 和 Qwen 的雨夜骑车送餐对比](#case-110) | 创意图形与动画 | 在三个作品中分别检查夜景和骑行动作。 | Evaluation |
+| [细节丰富的 Blender 房间与城市窗景](#case-111) | 3D 场景与建模 | 查看室内小物件和窗外景观。 | Demo |
+| [在雨中骑车送餐的鹈鹕](#case-112) | 创意图形与动画 | 分别观察倒影、积水、街道设施与动态环境。 | Evaluation |
+| [两个模型重建 PS5 手柄](#case-113) | 3D 场景与建模 | 除了正面，也检查背壳和侧面按键。 | Evaluation |
+| [白天骑车的鹈鹕双版本对比](#case-114) | 创意图形与动画 | 把运动效果和运行时间放在一起比较。 | Evaluation |
+| [三种交互式地球渲染](#case-115) | 3D 场景与建模 | 旋转地球时比较光照与界面表现。 | Evaluation |
+| [在黑洞附近骑车的鹈鹕](#case-116) | 3D 场景与建模 | 观察几轮提示之后形成的场景。 | Demo |
+| [以货运集装箱为中心的两种 3D 场景](#case-117) | 3D 场景与建模 | 比较照明、道具与物体表面的处理。 | Evaluation |
+| [用 SVG 制作双人剑术动画](#case-118) | 创意图形与动画 | 观察矢量动画如何通过节奏和剪影表现动作。 | Demo |
+| [用于智能体会话的看板插件](#case-119) | 网站和界面 | 检查界面怎样连接任务、会话和审阅队列。 | Integration |
+| [写实风格的 SVG 自然景观](#case-120) | 创意图形与动画 | 观察矢量表达能保留哪些自然细节。 | Demo |
+| [Three.js 湖畔场景](#case-121) | 3D 场景与建模 | 跟随镜头经过小船和瀑布，观察场景细节。 | Demo |
+| [布加迪 Chiron 360 度配置器](#case-69) | 网站和界面 | 在镜头绕车移动时比较不同漆面。 | Demo |
+| [交互式波音 787-9 模型](#case-68) | 3D 场景与建模 | 用视图控件查看飞机外部和发动机。 | Demo |
+| [海岸赛车游戏原型](#case-67) | 游戏开发 | 检查比赛中倒计时、车速读数和赛道地图是否清楚易读。 | Demo |
+| [停车场上空的龙卷风](#case-66) | 3D 场景与建模 | 观察风暴模拟如何带动停车场里的碎片。 | Demo |
+| [Three.js 锦鲤庭院](#case-65) | 3D 场景与建模 | 跟着锦鲤观察水面运动和倒影。 | Demo |
+| [两个宝塔场景对比](#case-64) | 3D 场景与建模 | 比较两种输出如何布置宝塔、树木和水面。 | Evaluation |
+| [机械表的分解视图](#case-63) | 3D 场景与建模 | 先查看表盘，再看模型如何拆分各层零件。 | Demo |
+| [浏览器里的三维魔方](#case-62) | 游戏开发 | 从预览中检查魔方的旋转和贴纸位置。 | Demo |
+| [旋转七边形里的重力小球](#case-61) | 网站和界面 | 观察容器旋转时小球如何移动。 | Demo |
+| [孙悟空大闹天宫 SVG 对比](#case-60) | 创意图形与动画 | 比较三个系统如何构图，表现同一个大闹天宫场景。 | Evaluation |
+| [MS Paint 中的 Freddie Mercury 肖像](#case-1) | 电脑使用与绘画 | 使用肖像来检查桌面绘图尝试产生的效果。 | Demo |
+| [郊区的房子和鹈鹕素描](#case-2) | 3D 场景与建模 | 将渲染场景与紧凑绘图测试配对。 | Demo |
+| [3D 人类历史和人工智能未来](#case-3) | 创意图形与动画 | 将叙事简报变成一系列动画场景。 | Demo |
+| [《时间的尽头》交互式黑洞网页](#case-4) | 网站和界面 | 用黑洞作为 Three.js 交互网页的视觉中心，观察视角与光效如何变化。 | Demo |
+| [同题 Three.js 帆船对比](#case-5) | 3D 场景与建模 | 用同一条帆船提示词，对比两段演示的细节和交互。 | Evaluation |
+| [红色火车穿越山谷](#case-6) | 3D 场景与建模 | 比较共享场景中移动的车辆和风景。 | Evaluation |
+| [Island Atlas 带昼夜切换](#case-7) | 网站和界面 | 使用紧凑的 3D 岛来测试 Web 界面中的照明状态。 | Demo |
+| [Tibo 浏览器绘画工作室中的肖像](#case-8) | 创意图形与动画 | 在页面构建时检查肖像的各个阶段。 | Demo |
+| [两个场景处理中的罗马斗兽场废墟](#case-9) | 3D 场景与建模 | 比较两次重建中的相机覆盖范围和建筑细节。 | Evaluation |
+| [0x0SojalSec分享的Sam Altman肖像画](#case-10) | 创意图形与动画 | 遵循从粗糙形状到完成肖像的过渡。 | Demo |
+| [Sam Altman肖像画由Avenoxai分享](#case-11) | 创意图形与动画 | 看看浏览器演示如何展示肖像。 | Demo |
+| [pengsonal分享的Sam Altman肖像画](#case-12) | 创意图形与动画 | 检查浏览器场景添加肖像细节的顺序。 | Demo |
+| [GeekCatX分享的Sam Altman肖像画](#case-13) | 创意图形与动画 | 使用剪辑将初始构图与完成的图像进行比较。 | Demo |
+| [Sam Altman 在浏览器绘画画布中的肖像](#case-14) | 创意图形与动画 | 观察肖像从封闭的颜色发展到更精细的特征。 | Demo |
+| [AETHERIA EnvolDev共享浮岛](#case-15) | 3D 场景与建模 | 跟随相机穿过漂浮的风景。 | Demo |
+| [与早期比较的紫色毛茸茸角色](#case-16) | 3D 场景与建模 | 将新的角色剪辑与同一篇文章中的参考输出分开。 | Demo |
+| [PELICAN PANIC 体素追逐游戏](#case-17) | 游戏开发 | 使用短追逐游戏来检查控制、反馈和结束状态。 | Demo |
+| [一头带翅膀的大象携带着一个花园](#case-18) | 3D 场景与建模 | 使用单一的幻想前提从多个角度检查构图。 | Demo |
+| [Dario Amodei 在浏览器绘画画布中的肖像](#case-19) | 创意图形与动画 | 观看参考图像指导舞台肖像。 | Demo |
+| [Three.js 黑洞场景比较](#case-20) | 3D 场景与建模 | 比较同一黑洞场景的可见方法。 | Evaluation |
+| [斯蒂尔沃特花园比较](#case-21) | 3D 场景与建模 | 比较共享花园任务中的景观美化和水处理。 | Evaluation |
+| [四张SVG与Opus 5.5的动画对比](#case-22) | 创意图形与动画 | 比较多个 SVG 对象的运动和细节。 | Evaluation |
+| [Ananth7e 的另一张 Sam Altman 肖像画帖子](#case-23) | 创意图形与动画 | 使用共享记录来检查浏览器肖像的形成方式。 | Demo |
+| [带有发光吸积盘的黑洞](#case-24) | 3D 场景与建模 | 检查模拟的摄像机视图、粒子和照明。 | Demo |
+| [两个肖像插图被描述为纯代码 SVG](#case-25) | 创意图形与动画 | 在判断肖像的制作方法之前，先对渲染的肖像进行比较。 | Demo |
+| [一颗恒星爆炸成超新星](#case-26) | 3D 场景与建模 | 跟踪从最初的星星到冲击波的视觉效果。 | Demo |
+| [海浪和黄昏的灯塔](#case-27) | 3D 场景与建模 | 比较海洋场景中光线和颜色的变化。 | Demo |
+| [浏览器龙卷风模拟](#case-28) | 3D 场景与建模 | 检查场景如何结合旋转、云和地面碎片。 | Demo |
+| [月光下的像素艺术日本小镇](#case-29) | 创意图形与动画 | 使用紧凑的动画场景来检查灯光和细节。 | Demo |
+| [骑 BMX 自行车抛球的狮子](#case-30) | 创意图形与动画 | 在不断变化的季节背景下测试协调运动。 | Demo |
+| [侧视奔腾的马](#case-31) | 创意图形与动画 | 通过简单的运动循环检查腿和尾巴。 | Demo |
+| [孔雀骑BMX穿过竹子](#case-32) | 创意图形与动画 | 将车轮运动与详细角色的运动进行比较。 | Demo |
+| [有红色桥梁的竹林保护区](#case-33) | 3D 场景与建模 | 使用多个摄像机角度来检查分层的 3D 场景。 | Demo |
+| [可行走的Three.js波浪画](#case-34) | 3D 场景与建模 | 探索当一幅画变成一个可导航的场景时会发生什么变化。 | Demo |
+| [逼真的肖像预览](#case-35) | 创意图形与动画 | 检查可见结果并记录作者如何描述它。 | Demo |
+| [Sydney Sweeney 人像矢量化](#case-36) | 创意图形与动画 | 评估矢量工作流程时跟踪中间图像。 | Demo |
+| [以 Blender 为模型的怪物屋](#case-37) | 3D 场景与建模 | 比较三个标记的 Blender 视图的几何形状和轮廓。 | Evaluation |
+| [Three.js 帆船](#case-38) | 3D 场景与建模 | 按照转发查看一艘为浏览器场景建造的船。 | Demo |
+| [AETHERIA 浮岛](#case-39) | 3D 场景与建模 | 使用相机飞越来检查场景的规模和深度。 | Demo |
+| [一个 HTML 文件中的交互式帆船](#case-40) | 3D 场景与建模 | 使用索具、帆和移动视点来检查浏览器模型。 | Demo |
+| [Codex 和 API 中的参考图像测试](#case-41) | 网站和界面 | 在归因差异之前，比较两个输出对相同参考的作用。 | Evaluation |
+| [五檐花园体素庭院](#case-42) | 3D 场景与建模 | 在紧凑的体素环境中检查成分和分层。 | Demo |
+| [未完成的消息转发尝试](#case-43) | 电脑操作与沟通 | 通过尝试查看桌面工作流程停止的位置。 | Limit |
+| [VraserX 分享的 Three.js 黑洞比较](#case-44) | 3D 场景与建模 | 检查共享剪辑中配对的黑洞场景。 | Evaluation |
+| [樱花村的白天与夜晚](#case-45) | 3D 场景与建模 | 检查白天和夜晚场景切换的效果。 | Demo |
+| [侧视奔跑的猎豹](#case-46) | 创意图形与动画 | 使用固定轮廓视图来比较步态和身体运动。 | Demo |
+| [被毁坏的罗马斗兽场的外部和内部](#case-47) | 3D 场景与建模 | 跟随摄像机穿过建筑物，查看哪些细节可见。 | Demo |
+| [TokenGremlin 的 Three.js 黑洞比较](#case-48) | 3D 场景与建模 | 比较两个黑洞输出中的相机移动和照明。 | Evaluation |
+| [樱花庭院和Wonder Atlas预览](#case-49) | 3D 场景与建模 | 检查两个 Web 场景如何处理架构和深度。 | Demo |
+| [重建的Tesla Roadster](#case-50) | 3D 场景与建模 | 使用熟悉的汽车作为形状和细节参考。 | Demo |
+| [一只鹈鹕和两只螃蟹骑自行车](#case-51) | 创意图形与动画 | 在一个镜头中检查多个动画角色的时间安排。 | Demo |
+| [PS5 控制器在 Sol 设置之间的比较](#case-52) | 创意图形与动画 | 使用熟悉的产品来比较轮廓和阴影。 | Evaluation |
+| [Haleeeemahh分享的樱花村日夜演示](#case-53) | 3D 场景与建模 | 比较同一村庄在白天和黑暗中的阅读情况。 | Demo |
+| [VraserX分享的樱花村日夜演示](#case-54) | 3D 场景与建模 | 使用成对的照明状态来检查单个环境。 | Demo |
+| [绿色 BMW M4 CS 轮廓图](#case-55) | 创意图形与动画 | 检查熟悉车辆的比例和轮廓细节。 | Demo |
+| [TokenGremlin 的樱花村日夜演示](#case-56) | 3D 场景与建模 | 使用照明开关来比较两个州的一个村庄。 | Demo |
+| [拥有内部和鸟瞰图的房子](#case-57) | 3D 场景与建模 | 检查 3D 建筑的内部和外部视图是否保持连贯。 | Demo |
+| [单个HTML Three.js黑洞](#case-58) | 3D 场景与建模 | 使用剪辑和剧照来检查一个场景如何处理多个视点。 | Demo |
+| [漂浮的Three.js宫殿](#case-59) | 3D 场景与建模 | 从多个角度观察悬浮宫殿的规模和外观。 | Demo |
 
-<a id="category-three"></a>
+| 章节 | 用途 |
+| --- | --- |
+| [相关仓库](#related-repositories) | 查看相邻模型的案例仓库 |
+| [快速入门](#quick-start) | 查找案例并了解 Sol |
+| [致谢](#acknowledge) | 作者署名与来源纠正 |
+
 ## 🧊 3D 场景与建模
+<a id="category-three"></a>
 
 <a id="case-186"></a>
 ### 案例 186: [横跨山谷的高架水渠](https://x.com/givros/status/2124404063802429838) (作者 [@givros](https://x.com/givros))
@@ -261,7 +267,7 @@
 
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2124402857818398720-f9b743ee2b727f0d1a68.mp4)
 
-Type: Demo | Date: 2026-11-22
+类型: Demo | 日期: 2026-11-22
 
 ---
 
@@ -278,7 +284,7 @@ Type: Demo | Date: 2026-11-22
 
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2124255891444658176-00f4759b0fb357f8d466.mp4)
 
-Type: Demo | Date: 2026-11-22
+类型: Demo | 日期: 2026-11-22
 
 ---
 
@@ -293,7 +299,7 @@ Type: Demo | Date: 2026-11-22
 
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2124203061245792256-cf03822b46631f0f6262.mp4)
 
-Type: Evaluation | Date: 2026-11-21
+类型: Evaluation | 日期: 2026-11-21
 
 ---
 
@@ -312,7 +318,7 @@ Type: Evaluation | Date: 2026-11-21
 
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2124092476680249344-f23943c1146eec7fca82.mp4)
 
-Type: Evaluation | Date: 2026-11-21
+类型: Evaluation | 日期: 2026-11-21
 
 ---
 
@@ -327,7 +333,7 @@ Type: Evaluation | Date: 2026-11-21
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-197/2124081091166502912-621b83a981fdd01e91b1.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-197/2124081091166502912-621b83a981fdd01e91b1.jpg" width="640" alt="原始素材预览 2 · SolidWorks 主视图和俯视图被调换"></a>
 
-Type: Limit | Date: 2026-11-21
+类型: Limit | 日期: 2026-11-21
 
 ---
 
@@ -348,7 +354,7 @@ Type: Limit | Date: 2026-11-21
 
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123934892769918976-4eae5c0968ee503e6c4e.mp4)
 
-Type: Demo | Date: 2026-11-21
+类型: Demo | 日期: 2026-11-21
 
 ---
 
@@ -363,7 +369,7 @@ Type: Demo | Date: 2026-11-21
 
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123831977287761920-470f192dfb8387e2be60.mp4)
 
-Type: Evaluation | Date: 2026-11-20
+类型: Evaluation | 日期: 2026-11-20
 
 ---
 
@@ -380,7 +386,7 @@ Type: Evaluation | Date: 2026-11-20
 
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123827600791638017-776fe4105084a1dd4a3a.mp4)
 
-Type: Demo | Date: 2026-11-20
+类型: Demo | 日期: 2026-11-20
 
 ---
 
@@ -395,7 +401,7 @@ Type: Demo | Date: 2026-11-20
 
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123783323075956736-b2c061712ede34b19afa.mp4)
 
-Type: Demo | Date: 2026-11-20
+类型: Demo | 日期: 2026-11-20
 
 ---
 
@@ -410,7 +416,7 @@ Andon Labs 报告，Sol 在 Blueprint-Bench 2 上的归一化得分为 0.570。�
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-162/2123570697356390400-74a2a8af091dad776138.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-162/2123570697356390400-74a2a8af091dad776138.jpg" width="640" alt="原始素材预览 1 · 根据室内照片绘制公寓平面图"></a>
 
-Type: Benchmark | Date: 2026-11-20
+类型: Benchmark | 日期: 2026-11-20
 
 ---
 
@@ -431,7 +437,7 @@ Build your own headquarters
 
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123523468025069568-e5f5716ef9794c04b495.mp4)
 
-Type: Evaluation | Date: 2026-11-19
+类型: Evaluation | 日期: 2026-11-19
 
 ---
 
@@ -448,7 +454,7 @@ Xplore 报告 GPT-6.2 Sol 得分为 30%，GPT-6.1 Sol 为 25%。新版 Sol 的�
 
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123454467416748032-0542ed2a155c44a57654.mp4)
 
-Type: Benchmark | Date: 2026-11-19
+类型: Benchmark | 日期: 2026-11-19
 
 ---
 
@@ -463,7 +469,7 @@ Type: Benchmark | Date: 2026-11-19
 
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123312658019667970-026b844d7ffb2853eec4.mp4)
 
-Type: Evaluation | Date: 2026-11-19
+类型: Evaluation | 日期: 2026-11-19
 
 ---
 
@@ -478,7 +484,7 @@ Type: Evaluation | Date: 2026-11-19
 
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123434213122711552-8660e900d89ad65142bf.mp4)
 
-Type: Evaluation | Date: 2026-11-19
+类型: Evaluation | 日期: 2026-11-19
 
 ---
 
@@ -493,7 +499,7 @@ Type: Evaluation | Date: 2026-11-19
 
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123422807560429568-534d2b71e433fc51c70b.mp4)
 
-Type: Evaluation | Date: 2026-11-19
+类型: Evaluation | 日期: 2026-11-19
 
 ---
 
@@ -508,7 +514,7 @@ Arena 发布了 Peter Gostev 的对比实录，00:30 看 3D 细节，04:20 看�
 
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123219277939683328-987cb1d4cfc4a1963bd0.mp4)
 
-Type: Evaluation | Date: 2026-11-19
+类型: Evaluation | 日期: 2026-11-19
 
 ---
 
@@ -529,7 +535,7 @@ Build a huge haunted vampire cathedral
 
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123205744254136320-04d0109a6d09b2f1f3e8.mp4)
 
-Type: Evaluation | Date: 2026-11-19
+类型: Evaluation | 日期: 2026-11-19
 
 ---
 
@@ -544,7 +550,7 @@ Type: Evaluation | Date: 2026-11-19
 
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123169492578738176-3fe4a52d0f37562d90bb.mp4)
 
-Type: Evaluation | Date: 2026-11-18
+类型: Evaluation | 日期: 2026-11-18
 
 ---
 
@@ -559,7 +565,7 @@ Type: Evaluation | Date: 2026-11-18
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-129/2123161376868724736-59e2b840c413d16674b3.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-129/2123161376868724736-59e2b840c413d16674b3.jpg" width="640" alt="原始素材预览 2 · 两种宝塔建模效果"></a>
 
-Type: Evaluation | Date: 2026-11-18
+类型: Evaluation | 日期: 2026-11-18
 
 ---
 
@@ -580,7 +586,7 @@ a miniature fishing harbor in a sunshower, in 3D, camera slowly orbiting. Costs 
 
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123115265034715136-23c148fe6e038e1eda30.mp4)
 
-Type: Evaluation | Date: 2026-11-18
+类型: Evaluation | 日期: 2026-11-18
 
 ---
 
@@ -595,7 +601,7 @@ Type: Evaluation | Date: 2026-11-18
 
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123100135349714944-28a8aae41aaad2da3d0d.mp4)
 
-Type: Evaluation | Date: 2026-11-18
+类型: Evaluation | 日期: 2026-11-18
 
 ---
 
@@ -610,7 +616,7 @@ Type: Evaluation | Date: 2026-11-18
 
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123091637643706370-376dd41ffe65db69fd65.mp4)
 
-Type: Evaluation | Date: 2026-11-18
+类型: Evaluation | 日期: 2026-11-18
 
 ---
 
@@ -625,7 +631,7 @@ Type: Evaluation | Date: 2026-11-18
 
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123065757672325120-bcaaf81514cb034659df.mp4)
 
-Type: Evaluation | Date: 2026-11-18
+类型: Evaluation | 日期: 2026-11-18
 
 ---
 
@@ -640,7 +646,7 @@ Type: Evaluation | Date: 2026-11-18
 
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123033858157297664-acf7c8e5237418896b78.mp4)
 
-Type: Evaluation | Date: 2026-11-18
+类型: Evaluation | 日期: 2026-11-18
 
 ---
 
@@ -655,7 +661,7 @@ Type: Evaluation | Date: 2026-11-18
 
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123001247884328960-d4d630036efa4e5b8772.mp4)
 
-Type: Evaluation | Date: 2026-11-18
+类型: Evaluation | 日期: 2026-11-18
 
 ---
 
@@ -670,7 +676,7 @@ Type: Evaluation | Date: 2026-11-18
 
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123008079885443072-e8d5d44c0e221dcb2d5b.mp4)
 
-Type: Evaluation | Date: 2026-11-18
+类型: Evaluation | 日期: 2026-11-18
 
 ---
 
@@ -685,7 +691,7 @@ Type: Evaluation | Date: 2026-11-18
 
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122983225324929024-b058fae56842e0add5e9.mp4)
 
-Type: Evaluation | Date: 2026-11-18
+类型: Evaluation | 日期: 2026-11-18
 
 ---
 
@@ -700,7 +706,7 @@ Type: Evaluation | Date: 2026-11-18
 
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122962947903287297-afe59321523d0b8a1d8b.mp4)
 
-Type: Evaluation | Date: 2026-11-18
+类型: Evaluation | 日期: 2026-11-18
 
 ---
 
@@ -715,7 +721,7 @@ Type: Evaluation | Date: 2026-11-18
 
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122961301513424896-9cad9c4dc037b8067bd7.mp4)
 
-Type: Evaluation | Date: 2026-11-18
+类型: Evaluation | 日期: 2026-11-18
 
 ---
 
@@ -738,7 +744,7 @@ Type: Evaluation | Date: 2026-11-18
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-150/2122944600763777024-0fbd5ec8bfabf6da4adc.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-150/2122944600763777024-0fbd5ec8bfabf6da4adc.jpg" width="640" alt="原始素材预览 4 · 网页上的风格化 3D 角色"></a>
 
-Type: Evaluation | Date: 2026-11-18
+类型: Evaluation | 日期: 2026-11-18
 
 ---
 
@@ -753,7 +759,7 @@ Type: Evaluation | Date: 2026-11-18
 
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122931393378529280-cf951de7282c9f9ba333.mp4)
 
-Type: Evaluation | Date: 2026-11-18
+类型: Evaluation | 日期: 2026-11-18
 
 ---
 
@@ -768,7 +774,7 @@ Type: Evaluation | Date: 2026-11-18
 
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122914453767524353-6a2ced5f005a267d5008.mp4)
 
-Type: Demo | Date: 2026-11-18
+类型: Demo | 日期: 2026-11-18
 
 ---
 
@@ -787,7 +793,7 @@ Type: Demo | Date: 2026-11-18
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-156/2122913690827800577-eebd800f748b74850142.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-156/2122913690827800577-eebd800f748b74850142.jpg" width="640" alt="原始素材预览 4 · 根据参考图制作 3D 人像"></a>
 
-Type: Evaluation | Date: 2026-11-18
+类型: Evaluation | 日期: 2026-11-18
 
 ---
 
@@ -802,7 +808,7 @@ Type: Evaluation | Date: 2026-11-18
 
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122904640580915200-01aa63394e03f3e1699a.mp4)
 
-Type: Evaluation | Date: 2026-11-18
+类型: Evaluation | 日期: 2026-11-18
 
 ---
 
@@ -823,7 +829,7 @@ Make a three js animation where yonkers stands up as a big mech (cool stand up m
 
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122822265545125888-d31b1b651b7e509c87fc.mp4)
 
-Type: Evaluation | Date: 2026-11-17
+类型: Evaluation | 日期: 2026-11-17
 
 ---
 
@@ -836,7 +842,7 @@ Type: Evaluation | Date: 2026-11-17
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-83/2122811098290397184-49690f8f4b78dc6c7886.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-83/2122811098290397184-49690f8f4b78dc6c7886.jpg" width="640" alt="原始素材预览 1 · 参照照片重建人物造型"></a>
 
-Type: Evaluation | Date: 2026-11-17
+类型: Evaluation | 日期: 2026-11-17
 
 ---
 
@@ -851,7 +857,7 @@ Type: Evaluation | Date: 2026-11-17
 
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122803167826219008-c7328affdb02e5aa7e77.mp4)
 
-Type: Evaluation | Date: 2026-11-17
+类型: Evaluation | 日期: 2026-11-17
 
 ---
 
@@ -866,7 +872,7 @@ FawnBench 的对比视频展示了 Sol、Astra、Opus 5.5 和 Fable 5.2 生成�
 
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122809522817290242-e5a7a38336a7144f4dbd.mp4)
 
-Type: Evaluation | Date: 2026-11-17
+类型: Evaluation | 日期: 2026-11-17
 
 ---
 
@@ -881,7 +887,7 @@ Type: Evaluation | Date: 2026-11-17
 
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122801610845982720-2c969b11731feb423c11.mp4)
 
-Type: Evaluation | Date: 2026-11-17
+类型: Evaluation | 日期: 2026-11-17
 
 ---
 
@@ -894,7 +900,7 @@ Type: Evaluation | Date: 2026-11-17
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-86/2122798589545959424-f20f1a56ed0ed66f03d5.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-86/2122798589545959424-f20f1a56ed0ed66f03d5.jpg" width="640" alt="原始素材预览 1 · 不同 Sol 版本的体素结果对照表"></a>
 
-Type: Evaluation | Date: 2026-11-17
+类型: Evaluation | 日期: 2026-11-17
 
 ---
 
@@ -909,7 +915,7 @@ Type: Evaluation | Date: 2026-11-17
 
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122797078279512065-dd7e34ef4e2498971541.mp4)
 
-Type: Evaluation | Date: 2026-11-17
+类型: Evaluation | 日期: 2026-11-17
 
 ---
 
@@ -924,7 +930,7 @@ Type: Evaluation | Date: 2026-11-17
 
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122790247327010816-1259306616718e0fb170.mp4)
 
-Type: Evaluation | Date: 2026-11-17
+类型: Evaluation | 日期: 2026-11-17
 
 ---
 
@@ -937,7 +943,7 @@ Type: Evaluation | Date: 2026-11-17
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-90/2122788803912007680-dacabe773c79e522bd2c.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-90/2122788803912007680-dacabe773c79e522bd2c.jpg" width="640" alt="原始素材预览 1 · 最高推理强度下的游戏手柄渲染"></a>
 
-Type: Evaluation | Date: 2026-11-17
+类型: Evaluation | 日期: 2026-11-17
 
 ---
 
@@ -952,7 +958,7 @@ Type: Evaluation | Date: 2026-11-17
 
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122784867914002432-8d00ba7c14ff79aae8d8.mp4)
 
-Type: Evaluation | Date: 2026-11-17
+类型: Evaluation | 日期: 2026-11-17
 
 ---
 
@@ -967,7 +973,7 @@ Type: Evaluation | Date: 2026-11-17
 
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122782517963231232-01580fcc6b1aba4b397c.mp4)
 
-Type: Evaluation | Date: 2026-11-17
+类型: Evaluation | 日期: 2026-11-17
 
 ---
 
@@ -982,7 +988,7 @@ Type: Evaluation | Date: 2026-11-17
 
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122772945982660608-a1e7d3419ebbeb4c61bb.mp4)
 
-Type: Demo | Date: 2026-11-17
+类型: Demo | 日期: 2026-11-17
 
 ---
 
@@ -997,7 +1003,7 @@ Type: Demo | Date: 2026-11-17
 
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122779173106364417-ce071a2bea10e55854ce.mp4)
 
-Type: Limit | Date: 2026-11-17
+类型: Limit | 日期: 2026-11-17
 
 ---
 
@@ -1012,7 +1018,7 @@ Type: Limit | Date: 2026-11-17
 
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122778178783752192-8bc5b1a659aaf321bca3.mp4)
 
-Type: Evaluation | Date: 2026-11-17
+类型: Evaluation | 日期: 2026-11-17
 
 ---
 
@@ -1025,7 +1031,7 @@ VoxelBench 报告称，在这套测试中 GPT-6.2 Sol 出现 62 次错误，GPT-
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-70/2122777747541868545-95f3c71b7db391dfffcd.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-70/2122777747541868545-95f3c71b7db391dfffcd.jpg" width="640" alt="原始素材预览 1 · VoxelBench 2 的生成错误"></a>
 
-Type: Benchmark | Date: 2026-11-17
+类型: Benchmark | 日期: 2026-11-17
 
 ---
 
@@ -1038,7 +1044,7 @@ Type: Benchmark | Date: 2026-11-17
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-96/2122770338882678784-3685e75d3c25d27356e3.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-96/2122770338882678784-3685e75d3c25d27356e3.jpg" width="640" alt="原始素材预览 1 · 以岛屿为主题的海洋场景"></a>
 
-Type: Demo | Date: 2026-11-17
+类型: Demo | 日期: 2026-11-17
 
 ---
 
@@ -1053,7 +1059,7 @@ Type: Demo | Date: 2026-11-17
 
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122759643076149248-ab3c69be40939668496f.mp4)
 
-Type: Demo | Date: 2026-11-17
+类型: Demo | 日期: 2026-11-17
 
 ---
 
@@ -1068,7 +1074,7 @@ Type: Demo | Date: 2026-11-17
 
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122759152346726401-3f101f403955d33ccfa0.mp4)
 
-Type: Evaluation | Date: 2026-11-17
+类型: Evaluation | 日期: 2026-11-17
 
 ---
 
@@ -1083,7 +1089,7 @@ Type: Evaluation | Date: 2026-11-17
 
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122758142068969472-316188886f8375c689ce.mp4)
 
-Type: Evaluation | Date: 2026-11-17
+类型: Evaluation | 日期: 2026-11-17
 
 ---
 
@@ -1098,7 +1104,7 @@ Type: Evaluation | Date: 2026-11-17
 
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122758010401386496-51b887d17e5c63d5499e.mp4)
 
-Type: Evaluation | Date: 2026-11-17
+类型: Evaluation | 日期: 2026-11-17
 
 ---
 
@@ -1113,7 +1119,7 @@ Type: Evaluation | Date: 2026-11-17
 
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122754375148085249-33fc598b8af98e28b469.mp4)
 
-Type: Demo | Date: 2026-11-17
+类型: Demo | 日期: 2026-11-17
 
 ---
 
@@ -1126,7 +1132,7 @@ Artificial Analysis 在发布当天报告 AA-3D 得分，GPT-6.2 Sol 为 1259，
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-122/2122747871909089280-5008660ef583b6004dbd.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-122/2122747871909089280-5008660ef583b6004dbd.jpg" width="640" alt="原始素材预览 1 · 由人工评分的交互式 3D 场景"></a>
 
-Type: Benchmark | Date: 2026-11-17
+类型: Benchmark | 日期: 2026-11-17
 
 ---
 
@@ -1141,7 +1147,7 @@ Type: Benchmark | Date: 2026-11-17
 
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122210853999312896-ff27a563edb434e73b99.mp4)
 
-Type: Evaluation | Date: 2026-11-16
+类型: Evaluation | 日期: 2026-11-16
 
 ---
 
@@ -1154,7 +1160,7 @@ Type: Evaluation | Date: 2026-11-16
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-111/2122035087764058112-21b99f2331bdc5cbd5f6.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-111/2122035087764058112-21b99f2331bdc5cbd5f6.jpg" width="640" alt="原始素材预览 1 · 细节丰富的 Blender 房间与城市窗景"></a>
 
-Type: Demo | Date: 2026-11-15
+类型: Demo | 日期: 2026-11-15
 
 ---
 
@@ -1169,7 +1175,7 @@ Type: Demo | Date: 2026-11-15
 
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2121451983882059776-f3bfbfcac4a44b9ccf3f.mp4)
 
-Type: Evaluation | Date: 2026-11-14
+类型: Evaluation | 日期: 2026-11-14
 
 ---
 
@@ -1184,7 +1190,7 @@ Type: Evaluation | Date: 2026-11-14
 
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2121198943153405952-cf0ef283fad351f72f02.mp4)
 
-Type: Evaluation | Date: 2026-11-13
+类型: Evaluation | 日期: 2026-11-13
 
 ---
 
@@ -1199,7 +1205,7 @@ Type: Evaluation | Date: 2026-11-13
 
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2120886190480183296-db1ef2a4fc62055a4696.mp4)
 
-Type: Demo | Date: 2026-11-12
+类型: Demo | 日期: 2026-11-12
 
 ---
 
@@ -1214,7 +1220,7 @@ Type: Demo | Date: 2026-11-12
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-117/2120851432718962688-6004a93f85caaab2a67e.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-117/2120851432718962688-6004a93f85caaab2a67e.jpg" width="640" alt="原始素材预览 2 · 以货运集装箱为中心的两种 3D 场景"></a>
 
-Type: Evaluation | Date: 2026-11-12
+类型: Evaluation | 日期: 2026-11-12
 
 ---
 
@@ -1231,7 +1237,7 @@ Type: Evaluation | Date: 2026-11-12
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-121/2119850475327496192-c54cc99aee779e8ff0a1.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-121/2119850475327496192-c54cc99aee779e8ff0a1.jpg" width="640" alt="原始素材预览 2 · Three.js 湖畔场景"></a>
 
-Type: Demo | Date: 2026-11-09
+类型: Demo | 日期: 2026-11-09
 
 ---
 
@@ -1246,7 +1252,7 @@ Type: Demo | Date: 2026-11-09
 
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119687852141551616-093a9713679a3d5eb80b.mp4)
 
-Type: Demo | Date: 2026-11-09
+类型: Demo | 日期: 2026-11-09
 
 ---
 
@@ -1261,7 +1267,7 @@ Type: Demo | Date: 2026-11-09
 
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119668021623201792-fe62c5ab6f21ecf5e155.mp4)
 
-Type: Demo | Date: 2026-11-09
+类型: Demo | 日期: 2026-11-09
 
 ---
 
@@ -1276,7 +1282,7 @@ Type: Demo | Date: 2026-11-09
 
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119648453227884544-bee45570bdf53daf5f45.mp4)
 
-Type: Demo | Date: 2026-11-09
+类型: Demo | 日期: 2026-11-09
 
 ---
 
@@ -1291,7 +1297,7 @@ Type: Demo | Date: 2026-11-09
 
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119663168578637824-e1a40ebc49f22aacda95.mp4)
 
-Type: Evaluation | Date: 2026-11-09
+类型: Evaluation | 日期: 2026-11-09
 
 ---
 
@@ -1306,7 +1312,7 @@ Type: Evaluation | Date: 2026-11-09
 
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119644705072046080-2e9ea2a58509a7177571.mp4)
 
-Type: Demo | Date: 2026-11-09
+类型: Demo | 日期: 2026-11-09
 
 ---
 
@@ -1324,7 +1330,7 @@ Type: Demo | Date: 2026-11-09
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-02/2119532554088742912-0aa402b50c531d333c76.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-02/2119532554088742912-0aa402b50c531d333c76.jpg" width="640" alt="原始素材预览 3 · 郊区的房子和鹈鹕素描"></a>
 
-Type: Demo | Date: 2026-11-08
+类型: Demo | 日期: 2026-11-08
 
 ---
 
@@ -1346,7 +1352,7 @@ create an interactive sailing ship in three.js, make it detailed as possible:
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119502925797953536-f1e1d1b1900d66b4eb77.mp4)
 
 
-Type: Evaluation | Date: 2026-11-08
+类型: Evaluation | 日期: 2026-11-08
 
 ---
 
@@ -1362,7 +1368,7 @@ Type: Evaluation | Date: 2026-11-08
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119503068949856256-bca1ef454e3e673e2bce.mp4)
 
 
-Type: Evaluation | Date: 2026-11-08
+类型: Evaluation | 日期: 2026-11-08
 
 ---
 
@@ -1378,7 +1384,7 @@ Type: Evaluation | Date: 2026-11-08
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119498709633220608-26722fac9106b56240f3.mp4)
 
 
-Type: Evaluation | Date: 2026-11-08
+类型: Evaluation | 日期: 2026-11-08
 
 ---
 
@@ -1394,7 +1400,7 @@ Type: Evaluation | Date: 2026-11-08
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119437684120707072-bd2ec92a5b611ac8fbd3.mp4)
 
 
-Type: Demo | Date: 2026-11-08
+类型: Demo | 日期: 2026-11-08
 
 ---
 
@@ -1412,7 +1418,7 @@ Type: Demo | Date: 2026-11-08
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-16/2119479019515396096-43ac0320808f9c27b0e1.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-16/2119479019515396096-43ac0320808f9c27b0e1.png" width="640" alt="原始素材预览 2 · 与早期比较的紫色毛茸茸角色"></a>
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-16/2119479313682837504-7663aa353ea789acf78d.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-16/2119479313682837504-7663aa353ea789acf78d.png" width="640" alt="原始素材预览 3 · 与早期比较的紫色毛茸茸角色"></a>
 
-Type: Demo | Date: 2026-11-08
+类型: Demo | 日期: 2026-11-08
 
 ---
 
@@ -1428,12 +1434,12 @@ Type: Demo | Date: 2026-11-08
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119478210362830848-d6ea2866b74f766af2f6.mp4)
 
 
-Type: Demo | Date: 2026-11-08
+类型: Demo | 日期: 2026-11-08
 
 ---
 
 <a id="case-20"></a>
-### 案例 20: [rubenssoto_ai 分享的 Three.js 黑洞比较](https://x.com/rubenssoto_ai/status/2119473734109237340) (作者 [@rubenssoto_ai](https://x.com/rubenssoto_ai))
+### 案例 20: [Three.js 黑洞场景比较](https://x.com/rubenssoto_ai/status/2119473734109237340) (作者 [@rubenssoto_ai](https://x.com/rubenssoto_ai))
 
 **比较同一黑洞场景的可见方法。**
 
@@ -1444,7 +1450,7 @@ Type: Demo | Date: 2026-11-08
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119423566944854016-8c4caf17341d8a78d874.mp4)
 
 
-Type: Evaluation | Date: 2026-11-08
+类型: Evaluation | 日期: 2026-11-08
 
 ---
 
@@ -1460,7 +1466,7 @@ Type: Evaluation | Date: 2026-11-08
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119473584762396672-106a151b52cb169e2c2c.mp4)
 
 
-Type: Evaluation | Date: 2026-11-08
+类型: Evaluation | 日期: 2026-11-08
 
 ---
 
@@ -1476,7 +1482,7 @@ Type: Evaluation | Date: 2026-11-08
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119468024617160704-bfc0fbb47f7d3c7694cf.mp4)
 
 
-Type: Demo | Date: 2026-11-08
+类型: Demo | 日期: 2026-11-08
 
 ---
 
@@ -1492,7 +1498,7 @@ Type: Demo | Date: 2026-11-08
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119464782411780096-387c3d42a21af2cb937f.mp4)
 
 
-Type: Demo | Date: 2026-11-08
+类型: Demo | 日期: 2026-11-08
 
 ---
 
@@ -1508,7 +1514,7 @@ Type: Demo | Date: 2026-11-08
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119464564764913664-797c1ea0854763829f67.mp4)
 
 
-Type: Demo | Date: 2026-11-08
+类型: Demo | 日期: 2026-11-08
 
 ---
 
@@ -1530,7 +1536,7 @@ Type: Demo | Date: 2026-11-08
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119464225299152896-e1c4fd72c33b93d86e9f.mp4)
 
 
-Type: Demo | Date: 2026-11-08
+类型: Demo | 日期: 2026-11-08
 
 ---
 
@@ -1552,7 +1558,7 @@ Bamboo sanctuary in the middle of beautiful forest using three js
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119453077665423360-a208c63131dd89043dd8.mp4)
 
 
-Type: Demo | Date: 2026-11-08
+类型: Demo | 日期: 2026-11-08
 
 ---
 
@@ -1569,7 +1575,7 @@ Type: Demo | Date: 2026-11-08
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-34/2119443814934851584-c1bc6009a5d9a1dd22c7.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-34/2119443814934851584-c1bc6009a5d9a1dd22c7.jpg" width="640" alt="原始素材预览 2 · 可行走的Three.js波浪画"></a>
 
-Type: Demo | Date: 2026-11-08
+类型: Demo | 日期: 2026-11-08
 
 ---
 
@@ -1585,12 +1591,12 @@ Type: Demo | Date: 2026-11-08
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119439156862472192-769177330371f94ec66f.mp4)
 
 
-Type: Evaluation | Date: 2026-11-08
+类型: Evaluation | 日期: 2026-11-08
 
 ---
 
 <a id="case-38"></a>
-### 案例 38: [karanC_12共享的一艘Three.js帆船](https://x.com/karanC_12/status/2119438098438504502) (作者 [@karanC_12](https://x.com/karanC_12))
+### 案例 38: [Three.js 帆船](https://x.com/karanC_12/status/2119438098438504502) (作者 [@karanC_12](https://x.com/karanC_12))
 
 **按照转发查看一艘为浏览器场景建造的船。**
 
@@ -1601,12 +1607,12 @@ Type: Evaluation | Date: 2026-11-08
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119436763835854848-c880c3e4797b29bb5bc2.mp4)
 
 
-Type: Demo | Date: 2026-11-08
+类型: Demo | 日期: 2026-11-08
 
 ---
 
 <a id="case-39"></a>
-### 案例 39: [AETHERIA 浮岛 by Mr_Salio](https://x.com/Mr_Salio/status/2119437812604838342) (作者 [@Mr_Salio](https://x.com/Mr_Salio))
+### 案例 39: [AETHERIA 浮岛](https://x.com/Mr_Salio/status/2119437812604838342) (作者 [@Mr_Salio](https://x.com/Mr_Salio))
 
 **使用相机飞越来检查场景的规模和深度。**
 
@@ -1617,7 +1623,7 @@ Type: Demo | Date: 2026-11-08
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119437684120707072-bd2ec92a5b611ac8fbd3.mp4)
 
 
-Type: Demo | Date: 2026-11-08
+类型: Demo | 日期: 2026-11-08
 
 ---
 
@@ -1633,7 +1639,7 @@ Type: Demo | Date: 2026-11-08
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119436763835854848-c880c3e4797b29bb5bc2.mp4)
 
 
-Type: Demo | Date: 2026-11-08
+类型: Demo | 日期: 2026-11-08
 
 ---
 
@@ -1646,7 +1652,7 @@ Type: Demo | Date: 2026-11-08
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-42/2119431646592069633-57818fd711183654054f.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-42/2119431646592069633-57818fd711183654054f.jpg" width="640" alt="原始素材预览 1 · 五檐花园体素庭院"></a>
 
-Type: Demo | Date: 2026-11-08
+类型: Demo | 日期: 2026-11-08
 
 ---
 
@@ -1662,12 +1668,12 @@ Type: Demo | Date: 2026-11-08
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119423566944854016-8c4caf17341d8a78d874.mp4)
 
 
-Type: Evaluation | Date: 2026-11-08
+类型: Evaluation | 日期: 2026-11-08
 
 ---
 
 <a id="case-45"></a>
-### 案例 45: [jessexai_分享的樱花村日夜演示](https://x.com/jessexai_/status/2119424781367881920) (作者 [@jessexai_](https://x.com/jessexai_))
+### 案例 45: [樱花村的白天与夜晚](https://x.com/jessexai_/status/2119424781367881920) (作者 [@jessexai_](https://x.com/jessexai_))
 
 **检查白天和夜晚场景切换的效果。**
 
@@ -1678,7 +1684,7 @@ Type: Evaluation | Date: 2026-11-08
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119409755286384640-c9f151ea8d8c1145a64f.mp4)
 
 
-Type: Demo | Date: 2026-11-08
+类型: Demo | 日期: 2026-11-08
 
 ---
 
@@ -1694,7 +1700,7 @@ Type: Demo | Date: 2026-11-08
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119424041870065664-5940ed4a62430aeee154.mp4)
 
 
-Type: Demo | Date: 2026-11-08
+类型: Demo | 日期: 2026-11-08
 
 ---
 
@@ -1710,7 +1716,7 @@ Type: Demo | Date: 2026-11-08
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119423566944854016-8c4caf17341d8a78d874.mp4)
 
 
-Type: Evaluation | Date: 2026-11-08
+类型: Evaluation | 日期: 2026-11-08
 
 ---
 
@@ -1724,7 +1730,7 @@ Type: Evaluation | Date: 2026-11-08
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-49/2119421806884872192-b4a23bb6a9e591b16af5.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-49/2119421806884872192-b4a23bb6a9e591b16af5.jpg" width="640" alt="原始素材预览 1 · 樱花庭院和Wonder Atlas预览"></a>
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-49/2119421844998549504-3b77677048389bb1f0db.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-49/2119421844998549504-3b77677048389bb1f0db.jpg" width="640" alt="原始素材预览 2 · 樱花庭院和Wonder Atlas预览"></a>
 
-Type: Demo | Date: 2026-11-08
+类型: Demo | 日期: 2026-11-08
 
 ---
 
@@ -1740,7 +1746,7 @@ Type: Demo | Date: 2026-11-08
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119420776025862144-34cfb4f66073bab24c47.mp4)
 
 
-Type: Demo | Date: 2026-11-08
+类型: Demo | 日期: 2026-11-08
 
 ---
 
@@ -1756,7 +1762,7 @@ Type: Demo | Date: 2026-11-08
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119409755286384640-c9f151ea8d8c1145a64f.mp4)
 
 
-Type: Demo | Date: 2026-11-08
+类型: Demo | 日期: 2026-11-08
 
 ---
 
@@ -1772,7 +1778,7 @@ Type: Demo | Date: 2026-11-08
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119409755286384640-c9f151ea8d8c1145a64f.mp4)
 
 
-Type: Demo | Date: 2026-11-08
+类型: Demo | 日期: 2026-11-08
 
 ---
 
@@ -1788,7 +1794,7 @@ Type: Demo | Date: 2026-11-08
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119409755286384640-c9f151ea8d8c1145a64f.mp4)
 
 
-Type: Demo | Date: 2026-11-08
+类型: Demo | 日期: 2026-11-08
 
 ---
 
@@ -1804,7 +1810,7 @@ Type: Demo | Date: 2026-11-08
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119403044274114560-550bb6f548146e501c0d.mp4)
 
 
-Type: Demo | Date: 2026-11-08
+类型: Demo | 日期: 2026-11-08
 
 ---
 
@@ -1822,7 +1828,7 @@ Type: Demo | Date: 2026-11-08
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-58/2119395920999497728-91692619ab6baecef6db.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-58/2119395920999497728-91692619ab6baecef6db.jpg" width="640" alt="原始素材预览 2 · 单个HTML Three.js黑洞"></a>
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-58/2119395925982355456-9154ce589ec778c4ee10.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-58/2119395925982355456-9154ce589ec778c4ee10.jpg" width="640" alt="原始素材预览 3 · 单个HTML Three.js黑洞"></a>
 
-Type: Demo | Date: 2026-11-08
+类型: Demo | 日期: 2026-11-08
 
 ---
 
@@ -1840,12 +1846,12 @@ Type: Demo | Date: 2026-11-08
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-59/2119371325634433025-5b751df2d6a45b82b403.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-59/2119371325634433025-5b751df2d6a45b82b403.jpg" width="640" alt="原始素材预览 2 · 漂浮的Three.js宫殿"></a>
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-59/2119371330516566016-b39d93dfe248ca1a9f0f.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-59/2119371330516566016-b39d93dfe248ca1a9f0f.jpg" width="640" alt="原始素材预览 3 · 漂浮的Three.js宫殿"></a>
 
-Type: Demo | Date: 2026-11-08
+类型: Demo | 日期: 2026-11-08
 
 ---
 
-<a id="category-communication"></a>
 ## 💬 电脑操作与沟通
+<a id="category-communication"></a>
 
 <a id="case-187"></a>
 ### 案例 187: [加法题触发了图像生成](https://x.com/KrishnaBuildsAI/status/2124374855332356527) (作者 [@KrishnaBuildsAI](https://x.com/KrishnaBuildsAI))
@@ -1864,7 +1870,7 @@ What is 500+500
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-187/2124374846599798784-c38846ecb783f3715d18.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-187/2124374846599798784-c38846ecb783f3715d18.jpg" width="640" alt="原始素材预览 2 · 加法题触发了图像生成"></a>
 
-Type: Limit | Date: 2026-11-22
+类型: Limit | 日期: 2026-11-22
 
 ---
 
@@ -1877,7 +1883,7 @@ Type: Limit | Date: 2026-11-22
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-192/2124183391436242944-e23abdd3e1e2c795495b.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-192/2124183391436242944-e23abdd3e1e2c795495b.png" width="640" alt="原始素材预览 1 · 数据库审查中的已知缺陷检出"></a>
 
-Type: Benchmark | Date: 2026-11-21
+类型: Benchmark | 日期: 2026-11-21
 
 ---
 
@@ -1892,7 +1898,7 @@ Type: Benchmark | Date: 2026-11-21
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-194/2124163587530973184-ac480b1ad79018c1d2be.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-194/2124163587530973184-ac480b1ad79018c1d2be.jpg" width="640" alt="原始素材预览 2 · Hermes 和 Pi 智能体的 Sol 预设"></a>
 
-Type: Integration | Date: 2026-11-21
+类型: Integration | 日期: 2026-11-21
 
 ---
 
@@ -1921,7 +1927,7 @@ Type: Integration | Date: 2026-11-21
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-198/2124041505870585856-d29e292ef86b7178e225.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-198/2124041505870585856-d29e292ef86b7178e225.jpg" width="640" alt="原始素材预览 8 · 短篇小说盲测"></a>
 
-Type: Evaluation | Date: 2026-11-21
+类型: Evaluation | 日期: 2026-11-21
 
 ---
 
@@ -1934,7 +1940,7 @@ LlamaIndex 的 ParseBench 2 图表显示，Sol 在中等推理强度下的总分
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-176/2123945732264923137-2fc287ffe70da3991916.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-176/2123945732264923137-2fc287ffe70da3991916.jpg" width="640" alt="原始素材预览 1 · 两种推理强度下的文档解析"></a>
 
-Type: Benchmark | Date: 2026-11-21
+类型: Benchmark | 日期: 2026-11-21
 
 ---
 
@@ -1949,7 +1955,7 @@ Type: Benchmark | Date: 2026-11-21
 
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123877042928406528-4b38126f911f97edc79e.mp4)
 
-Type: Benchmark | Date: 2026-11-20
+类型: Benchmark | 日期: 2026-11-20
 
 ---
 
@@ -1962,7 +1968,7 @@ Type: Benchmark | Date: 2026-11-20
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-181/2123826094998437888-9c51ceb178cca88b8b96.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-181/2123826094998437888-9c51ceb178cca88b8b96.jpg" width="640" alt="原始素材预览 1 · 营销任务对比测试"></a>
 
-Type: Benchmark | Date: 2026-11-20
+类型: Benchmark | 日期: 2026-11-20
 
 ---
 
@@ -1977,7 +1983,7 @@ CodeRabbit 测了 81 个已知问题，Sol 6.2 高推理强度的配置检出 60
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-185/coderabbit-50580780-sol-review-table-9cd3782931e24f3a6d35.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-185/coderabbit-50580780-sol-review-table-9cd3782931e24f3a6d35.png" width="640" alt="原始素材预览 1 · CodeRabbit 的拉取请求审查"></a>
 
-Type: Benchmark | Date: 2026-11-19
+类型: Benchmark | 日期: 2026-11-19
 
 ---
 
@@ -1992,7 +1998,7 @@ Legora 报告，Sol 的质量高于参测模型平均水平，单个案例成本
 
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123460256260870144-6da8a1113b471ce42386.mp4)
 
-Type: Benchmark | Date: 2026-11-19
+类型: Benchmark | 日期: 2026-11-19
 
 ---
 
@@ -2007,7 +2013,7 @@ AI Digest 把 Sol 和 Astra 加入 AI Village，并公布它们对 15 个问题�
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-170/2123446492765798400-c64a85a5d0d85d04cf39.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-170/2123446492765798400-c64a85a5d0d85d04cf39.jpg" width="640" alt="原始素材预览 2 · AI Village 角色资料问卷"></a>
 
-Type: Integration | Date: 2026-11-19
+类型: Integration | 日期: 2026-11-19
 
 ---
 
@@ -2028,7 +2034,7 @@ Type: Integration | Date: 2026-11-19
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-124/2123354067988824064-5ec42709de761e85172e.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-124/2123354067988824064-5ec42709de761e85172e.jpg" width="640" alt="原始素材预览 2 · PR 状态汇报遗漏仓库指令"></a>
 
-Type: Limit | Date: 2026-11-19
+类型: Limit | 日期: 2026-11-19
 
 ---
 
@@ -2043,7 +2049,7 @@ Type: Limit | Date: 2026-11-19
 
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123040557064966144-63e1c247fbe9574434f1.mp4)
 
-Type: Integration | Date: 2026-11-18
+类型: Integration | 日期: 2026-11-18
 
 ---
 
@@ -2056,7 +2062,7 @@ Type: Integration | Date: 2026-11-18
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-155/2122905857700585472-c7658e9ed55fe97f9cbb.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-155/2122905857700585472-c7658e9ed55fe97f9cbb.jpg" width="640" alt="原始素材预览 1 · FrontDesk-Bench 模拟诊所来电"></a>
 
-Type: Benchmark | Date: 2026-11-18
+类型: Benchmark | 日期: 2026-11-18
 
 ---
 
@@ -2070,12 +2076,12 @@ Type: Benchmark | Date: 2026-11-18
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-43/2119428121711775744-8419b4e0c62aa252d1dc.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-43/2119428121711775744-8419b4e0c62aa252d1dc.jpg" width="640" alt="原始素材预览 1 · 未完成的消息转发尝试"></a>
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-43/2119428270945140736-f9662043dadb9a6e4b1b.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-43/2119428270945140736-f9662043dadb9a6e4b1b.jpg" width="640" alt="原始素材预览 2 · 未完成的消息转发尝试"></a>
 
-Type: Limit | Date: 2026-11-08
+类型: Limit | 日期: 2026-11-08
 
 ---
 
-<a id="category-game"></a>
 ## 🎮 游戏开发
+<a id="category-game"></a>
 
 <a id="case-188"></a>
 ### 案例 188: [用 Minecraft 搭建八处电视剧场景](https://x.com/jan_volad/status/2124308264456233400) (作者 [@jan_volad](https://x.com/jan_volad))
@@ -2088,7 +2094,7 @@ Type: Limit | Date: 2026-11-08
 
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2124308031689183232-b013e9cbed63a5cccda8.mp4)
 
-Type: Evaluation | Date: 2026-11-22
+类型: Evaluation | 日期: 2026-11-22
 
 ---
 
@@ -2103,7 +2109,7 @@ Type: Evaluation | Date: 2026-11-22
 
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123910307449896960-334715fc2e1fdf12d740.mp4)
 
-Type: Evaluation | Date: 2026-11-21
+类型: Evaluation | 日期: 2026-11-21
 
 ---
 
@@ -2124,7 +2130,7 @@ DesignArena 报告，Sol 高推理强度在 Game Dev 榜单排名第三。在这
 
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123854486783553536-39929a7046f4320fcbe0.mp4)
 
-Type: Benchmark | Date: 2026-11-20
+类型: Benchmark | 日期: 2026-11-20
 
 ---
 
@@ -2139,7 +2145,7 @@ Type: Benchmark | Date: 2026-11-20
 
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123826091110383617-45fec4a74a3832012d99.mp4)
 
-Type: Demo | Date: 2026-11-20
+类型: Demo | 日期: 2026-11-20
 
 ---
 
@@ -2154,7 +2160,7 @@ Type: Demo | Date: 2026-11-20
 
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123599517236817921-3ec7dd5b18f3301d8be3.mp4)
 
-Type: Evaluation | Date: 2026-11-20
+类型: Evaluation | 日期: 2026-11-20
 
 ---
 
@@ -2169,7 +2175,7 @@ Type: Evaluation | Date: 2026-11-20
 
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123574639729238016-d185275dff479ab97456.mp4)
 
-Type: Demo | Date: 2026-11-20
+类型: Demo | 日期: 2026-11-20
 
 ---
 
@@ -2186,7 +2192,7 @@ Type: Demo | Date: 2026-11-20
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-165/2123528764613091328-7c18d649149711d41faa.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-165/2123528764613091328-7c18d649149711d41faa.jpg" width="640" alt="原始素材预览 2 · 在 Crusader Bench 中经营聚落"></a>
 
-Type: Benchmark | Date: 2026-11-19
+类型: Benchmark | 日期: 2026-11-19
 
 ---
 
@@ -2199,7 +2205,7 @@ Type: Benchmark | Date: 2026-11-19
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-169/2123446665696993280-3509529d630c29cd9ac5.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-169/2123446665696993280-3509529d630c29cd9ac5.jpg" width="640" alt="原始素材预览 1 · MazeBench 空间导航测试"></a>
 
-Type: Benchmark | Date: 2026-11-19
+类型: Benchmark | 日期: 2026-11-19
 
 ---
 
@@ -2214,7 +2220,7 @@ Type: Benchmark | Date: 2026-11-19
 
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123389747536207872-d38127bbf7f2c4de454f.mp4)
 
-Type: Benchmark | Date: 2026-11-19
+类型: Benchmark | 日期: 2026-11-19
 
 ---
 
@@ -2227,7 +2233,7 @@ Type: Benchmark | Date: 2026-11-19
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-138/2123061539183726592-707694197c25ed18a424.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-138/2123061539183726592-707694197c25ed18a424.png" width="640" alt="原始素材预览 1 · 《宝可梦 火红》冠军挑战"></a>
 
-Type: Benchmark | Date: 2026-11-18
+类型: Benchmark | 日期: 2026-11-18
 
 ---
 
@@ -2242,7 +2248,7 @@ Type: Benchmark | Date: 2026-11-18
 
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122985283993907201-9750e48cc454af4480fd.mp4)
 
-Type: Evaluation | Date: 2026-11-18
+类型: Evaluation | 日期: 2026-11-18
 
 ---
 
@@ -2257,7 +2263,7 @@ Type: Evaluation | Date: 2026-11-18
 
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122882602663124992-7fe424c3649edbe814fc.mp4)
 
-Type: Evaluation | Date: 2026-11-18
+类型: Evaluation | 日期: 2026-11-18
 
 ---
 
@@ -2272,7 +2278,7 @@ Type: Evaluation | Date: 2026-11-18
 
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122826155086512128-d2a8456da3a5a99263f5.mp4)
 
-Type: Benchmark | Date: 2026-11-17
+类型: Benchmark | 日期: 2026-11-17
 
 ---
 
@@ -2285,7 +2291,7 @@ Type: Benchmark | Date: 2026-11-17
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-93/2122782503542960128-31be885019f467cb7472.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-93/2122782503542960128-31be885019f467cb7472.jpg" width="640" alt="原始素材预览 1 · 在 RuneScape 中完成两项任务"></a>
 
-Type: Benchmark | Date: 2026-11-17
+类型: Benchmark | 日期: 2026-11-17
 
 ---
 
@@ -2300,7 +2306,7 @@ Type: Benchmark | Date: 2026-11-17
 
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122770342842077184-c89268a9c06156333c45.mp4)
 
-Type: Demo | Date: 2026-11-17
+类型: Demo | 日期: 2026-11-17
 
 ---
 
@@ -2315,7 +2321,7 @@ Type: Demo | Date: 2026-11-17
 
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122766701477367808-c628e4fc3e8c14dc15d8.mp4)
 
-Type: Demo | Date: 2026-11-17
+类型: Demo | 日期: 2026-11-17
 
 ---
 
@@ -2328,7 +2334,7 @@ Type: Demo | Date: 2026-11-17
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-99/2122763933345890304-ffe6b4053f347b1d4d5f.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-99/2122763933345890304-ffe6b4053f347b1d4d5f.jpg" width="640" alt="原始素材预览 1 · 只用截图玩《宝可梦 火红》"></a>
 
-Type: Benchmark | Date: 2026-11-17
+类型: Benchmark | 日期: 2026-11-17
 
 ---
 
@@ -2343,7 +2349,7 @@ Type: Benchmark | Date: 2026-11-17
 
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119682250472112128-81f053c6ffe2a4aae055.mp4)
 
-Type: Demo | Date: 2026-11-09
+类型: Demo | 日期: 2026-11-09
 
 ---
 
@@ -2358,7 +2364,7 @@ Type: Demo | Date: 2026-11-09
 
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119633608680124416-44e5b8b00d129caeba34.mp4)
 
-Type: Demo | Date: 2026-11-09
+类型: Demo | 日期: 2026-11-09
 
 ---
 
@@ -2374,12 +2380,12 @@ Type: Demo | Date: 2026-11-09
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119478839500013568-2ec29cee42e54d0bf9c5.mp4)
 
 
-Type: Demo | Date: 2026-11-08
+类型: Demo | 日期: 2026-11-08
 
 ---
 
-<a id="category-graphics"></a>
 ## 🎨 创意图形与动画
+<a id="category-graphics"></a>
 
 <a id="case-190"></a>
 ### 案例 190: [用代码制作黎曼猜想短片](https://x.com/MelissaKampers/status/2124286667288891534) (作者 [@MelissaKampers](https://x.com/MelissaKampers))
@@ -2392,7 +2398,7 @@ Type: Demo | Date: 2026-11-08
 
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2124285929158307840-efc75451f3dacfa1fa4a.mp4)
 
-Type: Demo | Date: 2026-11-21
+类型: Demo | 日期: 2026-11-21
 
 ---
 
@@ -2407,7 +2413,7 @@ Type: Demo | Date: 2026-11-21
 
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2124005411338481665-db82f73f6287411cca10.mp4)
 
-Type: Evaluation | Date: 2026-11-21
+类型: Evaluation | 日期: 2026-11-21
 
 ---
 
@@ -2422,7 +2428,7 @@ Type: Evaluation | Date: 2026-11-21
 
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123888706998218752-2fde673e71773bed63c5.mp4)
 
-Type: Evaluation | Date: 2026-11-20
+类型: Evaluation | 日期: 2026-11-20
 
 ---
 
@@ -2441,7 +2447,7 @@ Type: Evaluation | Date: 2026-11-20
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-202/2123763403009515521-a552c1917ad96fcd1cae.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-202/2123763403009515521-a552c1917ad96fcd1cae.jpg" width="640" alt="原始素材预览 4 · 用 ChatGPT Work 迭代服装插画"></a>
 
-Type: Evaluation | Date: 2026-11-20
+类型: Evaluation | 日期: 2026-11-20
 
 ---
 
@@ -2456,7 +2462,7 @@ Type: Evaluation | Date: 2026-11-20
 
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123660882249175040-7f5a38c954cd6232ce0b.mp4)
 
-Type: Demo | Date: 2026-11-20
+类型: Demo | 日期: 2026-11-20
 
 ---
 
@@ -2469,7 +2475,7 @@ Type: Demo | Date: 2026-11-20
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-163/2123546497111482368-6e88a30728efbca29854.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-163/2123546497111482368-6e88a30728efbca29854.jpg" width="640" alt="原始素材预览 1 · 剪辑口播视频里的对白"></a>
 
-Type: Benchmark | Date: 2026-11-19
+类型: Benchmark | 日期: 2026-11-19
 
 ---
 
@@ -2484,7 +2490,7 @@ Type: Benchmark | Date: 2026-11-19
 
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123414708459855872-abcd21a1ca31fae0de50.mp4)
 
-Type: Evaluation | Date: 2026-11-19
+类型: Evaluation | 日期: 2026-11-19
 
 ---
 
@@ -2499,7 +2505,7 @@ Type: Evaluation | Date: 2026-11-19
 
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123120923666423808-a00f9b04f9a3d9061acf.mp4)
 
-Type: Demo | Date: 2026-11-18
+类型: Demo | 日期: 2026-11-18
 
 ---
 
@@ -2514,7 +2520,7 @@ Type: Demo | Date: 2026-11-18
 
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123098773459283968-5897570c940b051711a4.mp4)
 
-Type: Demo | Date: 2026-11-18
+类型: Demo | 日期: 2026-11-18
 
 ---
 
@@ -2529,7 +2535,7 @@ Type: Demo | Date: 2026-11-18
 
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123002351422181377-2a6725e05299e1972940.mp4)
 
-Type: Evaluation | Date: 2026-11-18
+类型: Evaluation | 日期: 2026-11-18
 
 ---
 
@@ -2542,7 +2548,7 @@ Type: Evaluation | Date: 2026-11-18
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-152/2122925011057209345-502d3dadda839363aabd.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-152/2122925011057209345-502d3dadda839363aabd.jpg" width="640" alt="原始素材预览 1 · 记录 Ultrafast 视频剪辑用时"></a>
 
-Type: Benchmark | Date: 2026-11-18
+类型: Benchmark | 日期: 2026-11-18
 
 ---
 
@@ -2557,7 +2563,7 @@ Type: Benchmark | Date: 2026-11-18
 
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122913982898143232-edb073cf9b2bb51a5faf.mp4)
 
-Type: Evaluation | Date: 2026-11-18
+类型: Evaluation | 日期: 2026-11-18
 
 ---
 
@@ -2582,7 +2588,7 @@ Type: Evaluation | Date: 2026-11-18
 
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122846110117183488-30f1277d34e59656f484.mp4)
 
-Type: Evaluation | Date: 2026-11-18
+类型: Evaluation | 日期: 2026-11-18
 
 ---
 
@@ -2597,7 +2603,7 @@ Type: Evaluation | Date: 2026-11-18
 
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122781224338939905-9fac5a374f5ddc54f8a8.mp4)
 
-Type: Evaluation | Date: 2026-11-17
+类型: Evaluation | 日期: 2026-11-17
 
 ---
 
@@ -2612,7 +2618,7 @@ Type: Evaluation | Date: 2026-11-17
 
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122794767960752128-e2e19e403efea0d778cc.mp4)
 
-Type: Evaluation | Date: 2026-11-17
+类型: Evaluation | 日期: 2026-11-17
 
 ---
 
@@ -2627,7 +2633,7 @@ Type: Evaluation | Date: 2026-11-17
 
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122768959980118016-519fd034e8c095b6bc01.mp4)
 
-Type: Demo | Date: 2026-11-17
+类型: Demo | 日期: 2026-11-17
 
 ---
 
@@ -2642,7 +2648,7 @@ Type: Demo | Date: 2026-11-17
 
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122765018739441664-63474f1acf4d1d5e18b1.mp4)
 
-Type: Demo | Date: 2026-11-17
+类型: Demo | 日期: 2026-11-17
 
 ---
 
@@ -2663,7 +2669,7 @@ Type: Demo | Date: 2026-11-17
 
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122760254945673216-c6b375b036ac15cc3a2b.mp4)
 
-Type: Evaluation | Date: 2026-11-17
+类型: Evaluation | 日期: 2026-11-17
 
 ---
 
@@ -2678,7 +2684,7 @@ Type: Evaluation | Date: 2026-11-17
 
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122758829104328704-4fe90331a8b43e8cc76c.mp4)
 
-Type: Evaluation | Date: 2026-11-17
+类型: Evaluation | 日期: 2026-11-17
 
 ---
 
@@ -2703,7 +2709,7 @@ Generate an SVG of a pelican riding a bicycle
 
 *GPT-6.2 Astra 的 Max 强度输出*
 
-Type: Evaluation | Date: 2026-11-17
+类型: Evaluation | 日期: 2026-11-17
 
 ---
 
@@ -2718,7 +2724,7 @@ Type: Evaluation | Date: 2026-11-17
 
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122183328228909056-562a9b17b2bc7222fb58.mp4)
 
-Type: Evaluation | Date: 2026-11-16
+类型: Evaluation | 日期: 2026-11-16
 
 ---
 
@@ -2733,7 +2739,7 @@ Type: Evaluation | Date: 2026-11-16
 
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2121535105013334016-7271e00bcbdb0a0caf42.mp4)
 
-Type: Evaluation | Date: 2026-11-14
+类型: Evaluation | 日期: 2026-11-14
 
 ---
 
@@ -2748,7 +2754,7 @@ Type: Evaluation | Date: 2026-11-14
 
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2121503397702459392-e951142e407012e2ef01.mp4)
 
-Type: Evaluation | Date: 2026-11-14
+类型: Evaluation | 日期: 2026-11-14
 
 ---
 
@@ -2763,7 +2769,7 @@ Type: Evaluation | Date: 2026-11-14
 
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2120537298286608384-168cc4ec913763fba163.mp4)
 
-Type: Demo | Date: 2026-11-11
+类型: Demo | 日期: 2026-11-11
 
 ---
 
@@ -2776,7 +2782,7 @@ Type: Demo | Date: 2026-11-11
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-120/2120193470002241536-2e471c1c74dabf15e6eb.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-120/2120193470002241536-2e471c1c74dabf15e6eb.jpg" width="640" alt="原始素材预览 1 · 写实风格的 SVG 自然景观"></a>
 
-Type: Demo | Date: 2026-11-10
+类型: Demo | 日期: 2026-11-10
 
 ---
 
@@ -2801,7 +2807,7 @@ Type: Demo | Date: 2026-11-10
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-60/2119581974092546048-c61fe179e1741227a187.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-60/2119581974092546048-c61fe179e1741227a187.png" width="640" alt="原始素材预览 3 · 孙悟空大闹天宫 SVG 对比"></a>
 
-Type: Evaluation | Date: 2026-11-09
+类型: Evaluation | 日期: 2026-11-09
 
 ---
 
@@ -2823,7 +2829,7 @@ Create a cinematic 3D animation telling humanity’s story, from the age of Nean
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119517968493113344-17865404f54bd3f80fbd.mp4)
 
 
-Type: Demo | Date: 2026-11-08
+类型: Demo | 日期: 2026-11-08
 
 ---
 
@@ -2839,7 +2845,7 @@ Type: Demo | Date: 2026-11-08
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119499524137697280-bf003228060e83ba80ee.mp4)
 
 
-Type: Demo | Date: 2026-11-08
+类型: Demo | 日期: 2026-11-08
 
 ---
 
@@ -2855,7 +2861,7 @@ Type: Demo | Date: 2026-11-08
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119471570100113408-6537886f519fcb2581ca.mp4)
 
 
-Type: Demo | Date: 2026-11-08
+类型: Demo | 日期: 2026-11-08
 
 ---
 
@@ -2871,7 +2877,7 @@ Type: Demo | Date: 2026-11-08
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119481355943948288-d9ec44b4a8efb666f3fe.mp4)
 
 
-Type: Demo | Date: 2026-11-08
+类型: Demo | 日期: 2026-11-08
 
 ---
 
@@ -2887,7 +2893,7 @@ Type: Demo | Date: 2026-11-08
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119471570100113408-6537886f519fcb2581ca.mp4)
 
 
-Type: Demo | Date: 2026-11-08
+类型: Demo | 日期: 2026-11-08
 
 ---
 
@@ -2903,7 +2909,7 @@ Type: Demo | Date: 2026-11-08
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119471570100113408-6537886f519fcb2581ca.mp4)
 
 
-Type: Demo | Date: 2026-11-08
+类型: Demo | 日期: 2026-11-08
 
 ---
 
@@ -2919,7 +2925,7 @@ Type: Demo | Date: 2026-11-08
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119481355943948288-d9ec44b4a8efb666f3fe.mp4)
 
 
-Type: Demo | Date: 2026-11-08
+类型: Demo | 日期: 2026-11-08
 
 ---
 
@@ -2935,7 +2941,7 @@ Type: Demo | Date: 2026-11-08
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119474852453306369-dc2f6dd1c623765520a2.mp4)
 
 
-Type: Demo | Date: 2026-11-08
+类型: Demo | 日期: 2026-11-08
 
 ---
 
@@ -2951,7 +2957,7 @@ Type: Demo | Date: 2026-11-08
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119472766353313794-9e720b31f2e3325a6830.mp4)
 
 
-Type: Evaluation | Date: 2026-11-08
+类型: Evaluation | 日期: 2026-11-08
 
 ---
 
@@ -2967,7 +2973,7 @@ Type: Evaluation | Date: 2026-11-08
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119471570100113408-6537886f519fcb2581ca.mp4)
 
 
-Type: Demo | Date: 2026-11-08
+类型: Demo | 日期: 2026-11-08
 
 ---
 
@@ -2988,7 +2994,7 @@ generate an SVG of Ana de Armas and Sam Altman
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-25/2119466601804132352-31318df37f6caba7293c.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-25/2119466601804132352-31318df37f6caba7293c.jpg" width="640" alt="原始素材预览 1 · 两个肖像插图被描述为纯代码 SVG"></a>
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-25/2119466601816666112-8e9d5270da1add44ca55.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-25/2119466601816666112-8e9d5270da1add44ca55.jpg" width="640" alt="原始素材预览 2 · 两个肖像插图被描述为纯代码 SVG"></a>
 
-Type: Demo | Date: 2026-11-08
+类型: Demo | 日期: 2026-11-08
 
 ---
 
@@ -3004,7 +3010,7 @@ GIF 展示了樱花、塔、桥、倒影和小船。
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119461819278602240-92e36b249f95f46fbbc1.mp4)
 
 
-Type: Demo | Date: 2026-11-08
+类型: Demo | 日期: 2026-11-08
 
 ---
 
@@ -3020,7 +3026,7 @@ Type: Demo | Date: 2026-11-08
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119458208041574400-65d9c5f9e0c9dae6a35f.mp4)
 
 
-Type: Demo | Date: 2026-11-08
+类型: Demo | 日期: 2026-11-08
 
 ---
 
@@ -3042,7 +3048,7 @@ Horse running in side view
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119457903589646336-6fe234afbdb557492d14.mp4)
 
 
-Type: Demo | Date: 2026-11-08
+类型: Demo | 日期: 2026-11-08
 
 ---
 
@@ -3058,7 +3064,7 @@ Type: Demo | Date: 2026-11-08
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119453646454964224-3614c844c591897f7cb8.mp4)
 
 
-Type: Demo | Date: 2026-11-08
+类型: Demo | 日期: 2026-11-08
 
 ---
 
@@ -3071,7 +3077,7 @@ Type: Demo | Date: 2026-11-08
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-35/2119443020227727360-71913855e02651437cb9.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-35/2119443020227727360-71913855e02651437cb9.jpg" width="640" alt="原始素材预览 1 · 逼真的肖像预览"></a>
 
-Type: Demo | Date: 2026-11-08
+类型: Demo | 日期: 2026-11-08
 
 ---
 
@@ -3091,7 +3097,7 @@ make an ultra realistic SVG of Sydney Sweeny
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-36/2119439861157707776-69b2db4eca9eb1493e6b.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-36/2119439861157707776-69b2db4eca9eb1493e6b.png" width="640" alt="原始素材预览 1 · Sydney Sweeney 人像矢量化"></a>
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-36/2119440248157683712-d00b68e7e2aa37f8ec7b.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-36/2119440248157683712-d00b68e7e2aa37f8ec7b.jpg" width="640" alt="原始素材预览 2 · Sydney Sweeney 人像矢量化"></a>
 
-Type: Demo | Date: 2026-11-08
+类型: Demo | 日期: 2026-11-08
 
 ---
 
@@ -3107,7 +3113,7 @@ Type: Demo | Date: 2026-11-08
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119424200662556672-37c18d0191bd9b6c27aa.mp4)
 
 
-Type: Demo | Date: 2026-11-08
+类型: Demo | 日期: 2026-11-08
 
 ---
 
@@ -3129,7 +3135,7 @@ SVG animation of pelican and 2 crabs riding bicycles side view
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119418838148366336-495e5e6b9a3a4f396f52.mp4)
 
 
-Type: Demo | Date: 2026-11-08
+类型: Demo | 日期: 2026-11-08
 
 ---
 
@@ -3142,7 +3148,7 @@ Type: Demo | Date: 2026-11-08
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-52/2119417273249095680-f0fea371a0a411ae9aef.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-52/2119417273249095680-f0fea371a0a411ae9aef.jpg" width="640" alt="原始素材预览 1 · PS5 控制器在 Sol 设置之间的比较"></a>
 
-Type: Evaluation | Date: 2026-11-08
+类型: Evaluation | 日期: 2026-11-08
 
 ---
 
@@ -3161,12 +3167,12 @@ SVG of BMW M4 CS side view
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-55/2119412669946204160-2b4789da7aa53b1095b0.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-55/2119412669946204160-2b4789da7aa53b1095b0.jpg" width="640" alt="原始素材预览 1 · 绿色 BMW M4 CS 轮廓图"></a>
 
-Type: Demo | Date: 2026-11-08
+类型: Demo | 日期: 2026-11-08
 
 ---
 
-<a id="category-web"></a>
 ## 🌐 网站和界面
+<a id="category-web"></a>
 
 <a id="case-195"></a>
 ### 案例 195: [同一营销网站的六版改版](https://x.com/guilippert_v4/status/2124110586753482802) (作者 [@guilippert_v4](https://x.com/guilippert_v4))
@@ -3183,7 +3189,7 @@ Olhe o site da https://t.co/aDaMsBzyt2 e refaça ele por completo para surpreend
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-195/2123902070524715008-99e1c89f24f0f23371fc.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-195/2123902070524715008-99e1c89f24f0f23371fc.jpg" width="640" alt="原始素材预览 1 · 同一营销网站的六版改版"></a>
 
-Type: Evaluation | Date: 2026-11-21
+类型: Evaluation | 日期: 2026-11-21
 
 ---
 
@@ -3196,7 +3202,7 @@ Rails Foundation 报告，Sol xhigh 平均每次用时约 12 分半钟，前代 
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-184/2123805893733027841-1d6628ee8b4801e16252.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-184/2123805893733027841-1d6628ee8b4801e16252.jpg" width="640" alt="原始素材预览 1 · Agents on Rails 的准确率和运行时间"></a>
 
-Type: Benchmark | Date: 2026-11-20
+类型: Benchmark | 日期: 2026-11-20
 
 ---
 
@@ -3217,7 +3223,7 @@ a lighthouse on a rocky coast at night
 
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123407701489115136-64e4f54ea3929e2715d5.mp4)
 
-Type: Evaluation | Date: 2026-11-19
+类型: Evaluation | 日期: 2026-11-19
 
 ---
 
@@ -3238,7 +3244,7 @@ Build a cinematic landing page for a New York pizzeria and invent all the brandi
 
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123162533758644224-5ec627d0f8ea176795c4.mp4)
 
-Type: Evaluation | Date: 2026-11-18
+类型: Evaluation | 日期: 2026-11-18
 
 ---
 
@@ -3251,7 +3257,7 @@ Arena 发布时，Sol Max 得到 1757 分，排名第七。单项任务成本中
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-132/2123105553018945536-31fb59a9fb80b9088a23.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-132/2123105553018945536-31fb59a9fb80b9088a23.jpg" width="640" alt="原始素材预览 1 · Arena WebDev 分数与成本中位数"></a>
 
-Type: Benchmark | Date: 2026-11-18
+类型: Benchmark | 日期: 2026-11-18
 
 ---
 
@@ -3270,7 +3276,7 @@ JetBrains 使用相同的解剖网格及高推理强度。它评价 Sol 的开�
 
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123086311804256256-4013a1edb1de9f433ec3.mp4)
 
-Type: Evaluation | Date: 2026-11-18
+类型: Evaluation | 日期: 2026-11-18
 
 ---
 
@@ -3291,7 +3297,7 @@ build a website for a hotel that doesn't exist
 
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123055210012762112-3a8e19743ab91af7ce47.mp4)
 
-Type: Evaluation | Date: 2026-11-18
+类型: Evaluation | 日期: 2026-11-18
 
 ---
 
@@ -3304,7 +3310,7 @@ Kombai 公布的创意评分为 Sol 70.0、Astra 70.4，并报告 Sol 的单个�
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-140/2123046406386843648-bfd3bbdd9b44149ae50d.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-140/2123046406386843648-bfd3bbdd9b44149ae50d.png" width="640" alt="原始素材预览 1 · 面向 UI 的 Design Creativity Bench"></a>
 
-Type: Benchmark | Date: 2026-11-18
+类型: Benchmark | 日期: 2026-11-18
 
 ---
 
@@ -3317,7 +3323,7 @@ Browser Use 报告 Sol 6.2 得分 82%，Sol 6.1 得分 81%。发布当天的对�
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-80/2122843921776889856-e164df0ff216a1ca1693.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-80/2122843921776889856-e164df0ff216a1ca1693.jpg" width="640" alt="原始素材预览 1 · Browser Use 任务完成率与操作步数"></a>
 
-Type: Benchmark | Date: 2026-11-18
+类型: Benchmark | 日期: 2026-11-18
 
 ---
 
@@ -3332,7 +3338,7 @@ Type: Benchmark | Date: 2026-11-18
 
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122813839481663488-e921dcc4253d7432553d.mp4)
 
-Type: Demo | Date: 2026-11-17
+类型: Demo | 日期: 2026-11-17
 
 ---
 
@@ -3345,7 +3351,7 @@ Perplexity 报告 Sol 在 WANDR 中得分 0.746，单任务成本约 2.65 美元
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-82/2122814541839183872-f37a3311076b269e6032.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-82/2122814541839183872-f37a3311076b269e6032.jpg" width="640" alt="原始素材预览 1 · Perplexity 的 WANDR 智能体基准测试"></a>
 
-Type: Benchmark | Date: 2026-11-17
+类型: Benchmark | 日期: 2026-11-17
 
 ---
 
@@ -3360,7 +3366,7 @@ Type: Benchmark | Date: 2026-11-17
 
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122751536778387456-4ba9a30b51fd04a352fb.mp4)
 
-Type: Benchmark | Date: 2026-11-17
+类型: Benchmark | 日期: 2026-11-17
 
 ---
 
@@ -3375,7 +3381,7 @@ Type: Benchmark | Date: 2026-11-17
 
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122753158950555648-0e31c6a62410aad900f2.mp4)
 
-Type: Benchmark | Date: 2026-11-17
+类型: Benchmark | 日期: 2026-11-17
 
 ---
 
@@ -3388,7 +3394,7 @@ Super Kanban 的开发者报告用 Sol 做了两天重构。v0.8.0 可跨工作�
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-119/2120527322340335617-06bc9b33952b11d16d33.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-119/2120527322340335617-06bc9b33952b11d16d33.jpg" width="640" alt="原始素材预览 1 · 用于智能体会话的看板插件"></a>
 
-Type: Integration | Date: 2026-11-11
+类型: Integration | 日期: 2026-11-11
 
 ---
 
@@ -3403,7 +3409,7 @@ Type: Integration | Date: 2026-11-11
 
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119691929403482112-00220dfbd8a8d75a6ce7.mp4)
 
-Type: Demo | Date: 2026-11-09
+类型: Demo | 日期: 2026-11-09
 
 ---
 
@@ -3418,7 +3424,7 @@ Type: Demo | Date: 2026-11-09
 
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119613276808163329-9e32891b47f58015ccd9.mp4)
 
-Type: Demo | Date: 2026-11-09
+类型: Demo | 日期: 2026-11-09
 
 ---
 
@@ -3442,7 +3448,7 @@ Type: Demo | Date: 2026-11-09
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119507467990413312-818eda21b9c994093c1c.mp4)
 
 
-Type: Demo | Date: 2026-11-08
+类型: Demo | 日期: 2026-11-08
 
 ---
 
@@ -3458,7 +3464,7 @@ Type: Demo | Date: 2026-11-08
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119502149323468800-f9cdb706db0b977af9fb.mp4)
 
 
-Type: Demo | Date: 2026-11-08
+类型: Demo | 日期: 2026-11-08
 
 ---
 
@@ -3474,12 +3480,12 @@ Type: Demo | Date: 2026-11-08
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119433659820265472-dc037578c6e914ded9aa.mp4)
 
 
-Type: Evaluation | Date: 2026-11-08
+类型: Evaluation | 日期: 2026-11-08
 
 ---
 
-<a id="category-painting"></a>
 ## 🖌️ 电脑使用与绘画
+<a id="category-painting"></a>
 
 <a id="case-100"></a>
 ### 案例 100: [在浏览器绘画画布上呈现肖像](https://x.com/N1njaCodex/status/2122763308491325670) (作者 [@N1njaCodex](https://x.com/N1njaCodex))
@@ -3492,7 +3498,7 @@ Type: Evaluation | Date: 2026-11-08
 
 [播放演示视频](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122763229021491200-68e05d85bf900b9bde8f.mp4)
 
-Type: Demo | Date: 2026-11-17
+类型: Demo | 日期: 2026-11-17
 
 ---
 
@@ -3505,7 +3511,7 @@ Type: Demo | Date: 2026-11-17
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-01/2119569353834180609-7032bb605e364515b8ca.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-01/2119569353834180609-7032bb605e364515b8ca.jpg" width="640" alt="原始素材预览 1 · MS Paint 中的 Freddie Mercury 肖像"></a>
 
-Type: Demo | Date: 2026-11-08
+类型: Demo | 日期: 2026-11-08
 
 ---
 

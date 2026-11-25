@@ -2,7 +2,7 @@
 
 <h1>GPT-6.2 Sol · Demostraciones y casos de uso</h1>
 
-<a href="https://evolink.ai/gpt-6-2-sol?utm_source=github&utm_medium=banner&utm_campaign=gpt-6-2-sol-usecases&utm_content=readme_banner"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/covers/cover-1c4c7490be0406351b48.svg" width="760" alt="GPT-6.2 Sol community demos and use cases"></a>
+<a href="https://evolink.ai/gpt-6-2-sol?utm_source=github&utm_medium=banner&utm_campaign=gpt-6-2-sol-usecases&utm_content=readme_banner"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/covers/cover-9037775f357068018b8f.svg" width="760" alt="GPT-6.2 Sol community demos and use cases"></a>
 
 [![License](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey)](LICENSE)
 
@@ -15,6 +15,8 @@
 
 **Explora las demostraciones que sus autores atribuyen a GPT-6.2 Sol. Consulta las publicaciones originales para conocer las tareas y sus resultados.**
 
+OpenAI presenta [GPT-6.2 Sol](https://openai.com/index/introducing-gpt-6-2-astra-sol/) como un modelo para tareas habituales de programación y flujos de agentes.
+
 <a id="overview"></a>
 ## 📊 Descripción general
 
@@ -26,6 +28,8 @@
 > [!NOTE]
 > **Los clips y las imágenes fijas muestran el resultado. Las etiquetas de los modelos se atribuyen a los creadores y la versión del modelo subyacente permanece sin verificar. Las entradas que comparten imágenes se mantienen juntas en los datos por familia de medios.**
 
+> Las publicaciones anteriores al 17 de noviembre de 2026 preceden al lanzamiento público de OpenAI. La atribución del modelo procede de sus autores.
+
 <a id="quick-start"></a>
 ## ⚡ Inicio rápido
 
@@ -33,222 +37,224 @@
 2. Abra una vista previa para ver los medios de origen, luego lea la publicación original para conocer el contexto.
 3. Utilice el mensaje público cuando esté disponible. Conserve la entrada original al comparar resultados.
 
-[Ver GPT-6.2 Sol en EvoLink](https://evolink.ai/gpt-6-2-sol?utm_source=github&utm_medium=quickstart&utm_campaign=gpt-6-2-sol-usecases&utm_content=browser_try)
+[Ver GPT-6.2 Sol en EvoLink](https://evolink.ai/gpt-6-2-sol?utm_source=github&utm_medium=readme&utm_campaign=gpt-6-2-sol-usecases&utm_content=landing_overview)
 
 <a id="menu"></a>
 ## 📑 Menú
 
 | Caso | Categoría | Qué muestra | Tipo |
 | --- | --- | --- | --- |
-| [Descripción general](#overview) | Navegación | Descripción general | — |
-| [Inicio rápido](#quick-start) | Navegación | Inicio rápido | — |
-| [Repositorios relacionados](#related-repositories) | Navegación | Repositorios relacionados | — |
-| [Agradecimientos](#acknowledge) | Navegación | Agradecimientos | — |
-| [Caso 186. Un valle atravesado por un acueducto](#case-186) | [Escenas y modelado 3D.](#category-three) | Observa cómo un flujo de trabajo en Blender lleva un paisaje de gran tamaño a Three.js. | Demo |
-| [Caso 187. Generación de imágenes ante una suma sencilla](#case-187) | [Uso y comunicación de la computadora.](#category-communication) | Evalúa por separado el uso inesperado de herramientas y la corrección de la respuesta final. | Limit |
-| [Caso 188. Ocho escenarios de televisión reconstruidos en Minecraft](#case-188) | [Desarrollo de juegos](#category-game) | Compara la distribución de los espacios reconocibles y el tiempo de construcción en dos versiones del mundo de juego. | Evaluation |
-| [Caso 189. Un vehículo de expedición interactivo en Three.js](#case-189) | [Escenas y modelado 3D.](#category-three) | Examina los detalles modelados, los paneles articulados y el sonido sintetizado en un solo archivo HTML. | Demo |
-| [Caso 190. Una explicación de la hipótesis de Riemann generada con código](#case-190) | [Gráficos creativos y animación.](#category-graphics) | Usa código local para montar la animación y su audio en el mismo flujo de trabajo. | Demo |
-| [Caso 191. Cuatro renderizados de la Torre Eiffel en Three.js](#case-191) | [Escenas y modelado 3D.](#category-three) | Compara la estructura de celosía, las proporciones y el entorno en cuatro escenas identificadas. | Evaluation |
-| [Caso 192. Detección de errores conocidos al revisar una base de datos](#case-192) | [Uso y comunicación de la computadora.](#category-communication) | Compara cuántos errores conocidos se detectan y cuánto tarda la misma tarea de revisión. | Benchmark |
-| [Caso 193. Las ruinas de Ozymandias en Minecraft](#case-193) | [Desarrollo de juegos](#category-game) | Compara cómo dos modelos representan con bloques la misma escena literaria. | Evaluation |
-| [Caso 194. Configuraciones de Sol para agentes de Hermes y Pi](#case-194) | [Uso y comunicación de la computadora.](#category-communication) | Observa cómo un único punto de acceso en el escritorio permite organizar asistentes con funciones distintas. | Integration |
-| [Caso 195. Seis rediseños de un mismo sitio de marketing](#case-195) | [Sitios web e interfaces](#category-web) | Compara cómo distintos modelos dan distintas orientaciones visuales a un sitio con el mismo encargo. | Evaluation |
-| [Caso 196. Un diorama de una ribera lluviosa a partir de una referencia](#case-196) | [Escenas y modelado 3D.](#category-three) | Compara cómo dos modelos convierten una sola imagen en una escena 2,5D para el navegador. | Evaluation |
-| [Caso 197. Vistas frontal y superior intercambiadas en SolidWorks](#case-197) | [Escenas y modelado 3D.](#category-three) | Comprueba la orientación de las vistas del dibujo técnico con respecto al ensamblaje antes de aceptar el archivo exportado. | Limit |
-| [Caso 198. Una comparación a ciegas de ficción breve](#case-198) | [Uso y comunicación de la computadora.](#category-communication) | Compara textos de ficción breve escritos a partir de la misma trama e identifica dónde intervino una persona en el formato. | Evaluation |
-| [Caso 199. Un gato junto a una ventana en un día de lluvia](#case-199) | [Gráficos creativos y animación.](#category-graphics) | Compara cómo cuatro modelos componen la misma escena en una única animación HTML. | Evaluation |
-| [Caso 176. Análisis de documentos con dos niveles de razonamiento](#case-176) | [Uso y comunicación de la computadora.](#category-communication) | Compara la puntuación global de análisis, la de gráficos y el coste por página. | Benchmark |
-| [Caso 200. Movimientos de cámara para doce modelos de edificios](#case-200) | [Escenas y modelado 3D.](#category-three) | Usa Blender MCP para preparar los movimientos de cámara de un conjunto de modelos importados. | Demo |
-| [Caso 177. Cuatro ciclistas animados al atardecer](#case-177) | [Gráficos creativos y animación.](#category-graphics) | Compara el movimiento de los ciclistas, las proporciones de las bicicletas y la iluminación de la escena en los cuatro resultados. | Evaluation |
-| [Caso 178. Tareas de oficina en Company Agent Bench](#case-178) | [Uso y comunicación de la computadora.](#category-communication) | Compara los porcentajes de acierto según el nivel de razonamiento evaluado en cada modelo. | Benchmark |
-| [Caso 179. Un teleférico sobre Scarlet Fjord](#case-179) | [Escenas y modelado 3D.](#category-three) | Compara cómo los cuatro renderizados representan la cabina y su entorno. | Evaluation |
-| [Caso 180. Preferencias y costes en la creación de videojuegos](#case-180) | [Desarrollo de juegos](#category-game) | Compara la posición en la clasificación por preferencias, el tiempo medio y el coste de generación en la misma prueba de diseño de videojuegos. | Benchmark |
-| [Caso 181. Una comparación de tareas de marketing](#case-181) | [Uso y comunicación de la computadora.](#category-communication) | Revisa la preferencia por tarea junto con el coste y el número de votos. | Benchmark |
-| [Caso 182. Una ruta a pie convertida en un juego para consola portátil](#case-182) | [Desarrollo de juegos](#category-game) | Observa cómo lo captado durante un paseo se transforma en escenas del juego que se pueden volver a visitar. | Demo |
-| [Caso 183. Un conejo modelado en Blender a partir de una imagen](#case-183) | [Escenas y modelado 3D.](#category-three) | Examina la geometría desde varios ángulos tras partir de una imagen de referencia generada. | Demo |
-| [Caso 184. Porcentaje de aciertos y tiempo de ejecución en Agents on Rails](#case-184) | [Sitios web e interfaces](#category-web) | Registra por separado el tiempo de ejecución y los aciertos en tareas de desarrollo con aplicaciones Rails ya existentes. | Benchmark |
-| [Caso 201. Un campo de hierba en una escena HTML autónoma](#case-201) | [Escenas y modelado 3D.](#category-three) | Sigue el paso de un recurso de Blender a un pequeño proyecto de Three.js que se ejecuta en el navegador. | Demo |
-| [Caso 202. Revisiones de ilustraciones de vestuario en ChatGPT Work](#case-202) | [Gráficos creativos y animación.](#category-graphics) | Compara qué cambia al volver a ejecutar un encargo detallado de vestuario. | Evaluation |
-| [Caso 159. De fotogramas estáticos a un vídeo terminado](#case-159) | [Gráficos creativos y animación.](#category-graphics) | Revisa la línea de tiempo de edición para ver en qué momento se incorporan los fotogramas generados al flujo de trabajo. | Demo |
-| [Caso 160. Dos prototipos de juegos en primera persona en Codex](#case-160) | [Desarrollo de juegos](#category-game) | Compara el diseño del nivel y la experiencia de juego junto con el coste registrado. | Evaluation |
-| [Caso 161. Un juego ambientado en una aldea acogedora con recursos de Blender](#case-161) | [Desarrollo de juegos](#category-game) | Observa cómo se combinan los objetos modelados y la animación en una escena de juego. | Demo |
-| [Caso 162. Planos de apartamentos a partir de fotos de interiores](#case-162) | [Escenas y modelado 3D.](#category-three) | Mide si un agente puede deducir la distribución de las habitaciones a partir de fotografías. | Benchmark |
-| [Caso 163. Cortes de diálogo en un vídeo con una persona hablando a cámara](#case-163) | [Gráficos creativos y animación.](#category-graphics) | Compara el tiempo de edición, la puntuación global y los tipos de cortes que fallan. | Benchmark |
-| [Caso 164. Dos diseños para un edificio de oficinas centrales](#case-164) | [Escenas y modelado 3D.](#category-three) | Compara los edificios y el encuadre de cámara a partir del mismo encargo de diseño abierto. | Evaluation |
-| [Caso 165. Gestión de un asentamiento en Crusader Bench](#case-165) | [Desarrollo de juegos](#category-game) | Compara cómo juegan los agentes en los mismos mapas puntuados y bajo las mismas condiciones. | Benchmark |
-| [Caso 185. Revisión de solicitudes de cambios en CodeRabbit](#case-185) | [Uso y comunicación de la computadora.](#category-communication) | Compara los problemas conocidos detectados, la precisión indicada y el coste de revisión con distintas configuraciones del proceso. | Benchmark |
-| [Caso 166. La prueba de documentos jurídicos de Legora de noviembre](#case-166) | [Uso y comunicación de la computadora.](#category-communication) | Compara la calidad y el coste por caso en el mismo conjunto de tareas profesionales. | Benchmark |
-| [Caso 167. Sol en la prueba de diseño de ingeniería de Xplore](#case-167) | [Escenas y modelado 3D.](#category-three) | Compara las puntuaciones por tarea y el coste por ejecución en una batería que incluye trabajo de CAD. | Benchmark |
-| [Caso 168. Una plataforma de lanzamiento para Ruby Ascent](#case-168) | [Escenas y modelado 3D.](#category-three) | Compara los detalles de la escena y el tiempo de creación en cuatro versiones de la misma plataforma. | Evaluation |
-| [Caso 169. Navegación espacial en MazeBench](#case-169) | [Desarrollo de juegos](#category-game) | Compara la resolución de laberintos en la misma prueba publicada. | Benchmark |
-| [Caso 170. Preguntas de perfil respondidas de forma independiente en AI Village](#case-170) | [Uso y comunicación de la computadora.](#category-communication) | Compara cómo dos agentes responden de forma independiente al mismo cuestionario de perfil. | Integration |
-| [Caso 171. Una animación 3D a partir del mismo fragmento de vídeo](#case-171) | [Escenas y modelado 3D.](#category-three) | Compara cómo cinco modelos representan el mismo fragmento en un estilo predefinido. | Evaluation |
-| [Caso 172. Una vuelta alrededor de la cima del Burj Khalifa](#case-172) | [Escenas y modelado 3D.](#category-three) | Observa cómo los modelos representan los retranqueos de la parte superior y el remate de la torre. | Evaluation |
-| [Caso 173. Una animación de pizarra a partir de un vídeo corto](#case-173) | [Gráficos creativos y animación.](#category-graphics) | Compara la narrativa visual y el coste con el mismo material de partida. | Evaluation |
-| [Caso 174. Una página web sobre un faro en una costa rocosa](#case-174) | [Sitios web e interfaces](#category-web) | Compara dos páginas web generadas en una sola respuesta con el mismo encargo y nivel de razonamiento. | Evaluation |
-| [Caso 175. Cinco partidas de ajedrez sin herramientas](#case-175) | [Desarrollo de juegos](#category-game) | Compara puntos, resultados y costes indicados para el mismo encuentro. | Benchmark |
-| [Caso 124. Un informe de estado de PR que omite las instrucciones del repositorio](#case-124) | [Uso y comunicación de la computadora.](#category-communication) | Compara el nivel de detalle y la organización de las respuestas a una solicitud breve de estado. | Limit |
-| [Caso 125. Recorrido comparativo de Astra y Sol en Arena](#case-125) | [Escenas y modelado 3D.](#category-three) | Usa los capítulos de la grabación para comparar escenas, juegos e interfaces. | Evaluation |
-| [Caso 126. Una catedral vampírica embrujada](#case-126) | [Escenas y modelado 3D.](#category-three) | Compara cómo dos modelos interpretan el mismo encargo de arquitectura gótica. | Evaluation |
-| [Caso 127. Una tienda de conveniencia en una noche lluviosa](#case-127) | [Escenas y modelado 3D.](#category-three) | Usa la pantalla dividida para comparar la iluminación, la lluvia y la geometría de la fachada. | Evaluation |
-| [Caso 128. Una página de inicio para una pizzería de Nueva York](#case-128) | [Sitios web e interfaces](#category-web) | Comprueba si distintos modelos toman decisiones de marca diferentes a partir de una sola frase. | Evaluation |
-| [Caso 129. Dos versiones de una pagoda](#case-129) | [Escenas y modelado 3D.](#category-three) | Compara cómo dos ejecuciones en modo xhigh representan el mismo motivo arquitectónico. | Evaluation |
-| [Caso 130. Una hoja que cae de forma realista en tres minutos](#case-130) | [Gráficos creativos y animación.](#category-graphics) | Fija un límite de tiempo para evaluar cómo el modelo combina recursos y código. | Demo |
-| [Caso 131. Un puerto pesquero en miniatura bajo la lluvia y el sol](#case-131) | [Escenas y modelado 3D.](#category-three) | Compara la lluvia, los elementos en miniatura y el movimiento de cámara en cuatro ejecuciones. | Evaluation |
-| [Caso 132. Puntuación y coste mediano en Arena WebDev](#case-132) | [Sitios web e interfaces](#category-web) | Compara el resultado en la clasificación con el coste mediano por tarea. | Benchmark |
-| [Caso 133. Cuatro modelos recrean el lanzamiento de un cohete](#case-133) | [Escenas y modelado 3D.](#category-three) | Compara la puesta en escena y el movimiento en cuatro versiones de la misma escena ficticia. | Evaluation |
-| [Caso 134. Un corredor animado en pixel art en bucle](#case-134) | [Gráficos creativos y animación.](#category-graphics) | Comprueba si la animación del personaje se repite sin saltos mientras se desplaza el fondo. | Demo |
-| [Caso 135. Tormenta en el faro](#case-135) | [Escenas y modelado 3D.](#category-three) | Compara el detalle de la torre y el movimiento del mar a partir del mismo encargo. | Evaluation |
-| [Caso 136. Un visor interactivo de anatomía](#case-136) | [Sitios web e interfaces](#category-web) | Compara el impacto de la presentación inicial y la legibilidad al explorar un modelo 3D. | Evaluation |
-| [Caso 137. Una embarcación en un mar agitado](#case-137) | [Escenas y modelado 3D.](#category-three) | Examina por separado la lluvia, el volumen de las nubes, el detalle del barco y el comportamiento del agua. | Evaluation |
-| [Caso 138. Una partida hasta el título de Campeón en Pokémon FireRed](#case-138) | [Desarrollo de juegos](#category-game) | Compara los tiempos de finalización del juego con una configuración explícita de entradas y razonamiento. | Benchmark |
-| [Caso 139. Un sitio web para un hotel ficticio](#case-139) | [Sitios web e interfaces](#category-web) | Compara las propuestas de una sola ejecución, el tiempo y el coste con el mismo encargo de diseño. | Evaluation |
-| [Caso 140. Design Creativity Bench para interfaces](#case-140) | [Sitios web e interfaces](#category-web) | Compara las puntuaciones de creatividad del diseño junto con el coste indicado. | Benchmark |
-| [Caso 141. Conversaciones con personajes en AITuber OnAir](#case-141) | [Uso y comunicación de la computadora.](#category-communication) | Prueba distintos niveles de razonamiento durante una conversación en directo con un personaje. | Integration |
-| [Caso 142. Un personaje con esqueleto de animación en Blender a partir de arte conceptual](#case-142) | [Escenas y modelado 3D.](#category-three) | Evalúa por separado el parecido y la calidad de animación al comparar personajes generados. | Evaluation |
-| [Caso 143. Un robot de ciencia ficción que se ensambla solo en Three.js](#case-143) | [Escenas y modelado 3D.](#category-three) | Compara cómo dos modelos representan una secuencia de ensamblaje y lanzamiento. | Evaluation |
-| [Caso 144. Un café lunar modelado por cinco sistemas](#case-144) | [Escenas y modelado 3D.](#category-three) | Compara cómo distintos modelos componen e iluminan un café lunar. | Evaluation |
-| [Caso 145. Una bicicleta tándem animada en SVG](#case-145) | [Gráficos creativos y animación.](#category-graphics) | Compara cómo dos herramientas de programación dibujan y animan el mismo motivo en SVG. | Evaluation |
-| [Caso 146. Un juego 3D de carreras con un dinosaurio y física ragdoll](#case-146) | [Desarrollo de juegos](#category-game) | Compara el estilo visual y el comportamiento en las colisiones entre cuatro prototipos jugables. | Evaluation |
-| [Caso 147. El último tranvía de una ciudad de montaña bajo la lluvia](#case-147) | [Escenas y modelado 3D.](#category-three) | Compara el modelado y la atmósfera con la misma instrucción y el mismo nivel de razonamiento. | Evaluation |
-| [Caso 148. Una representación 3D de la Casa Blanca](#case-148) | [Escenas y modelado 3D.](#category-three) | Compara las proporciones de la fachada y la composición de dos visualizaciones arquitectónicas. | Evaluation |
-| [Caso 149. Un pelícano en bicicleta en Blender](#case-149) | [Escenas y modelado 3D.](#category-three) | Compara los renderizados finales y registra qué entrega cada ejecución. | Evaluation |
-| [Caso 150. Un personaje estilizado en 3D dentro de una página web](#case-150) | [Escenas y modelado 3D.](#category-three) | Compara el personaje modelado, su entorno y la animación que se aprecia. | Evaluation |
-| [Caso 151. Una cascada insular y la superficie del mar](#case-151) | [Escenas y modelado 3D.](#category-three) | Compara el tiempo de renderizado y el aspecto del agua en dos versiones de la escena. | Evaluation |
-| [Caso 152. Medición de una edición de vídeo en Ultrafast](#case-152) | [Gráficos creativos y animación.](#category-graphics) | Mide por separado el tiempo total de edición y el tiempo de respuesta del modelo. | Benchmark |
-| [Caso 153. Animación de una firma manuscrita en Remotion](#case-153) | [Gráficos creativos y animación.](#category-graphics) | Compara cómo dos ejecuciones en modo Max animan la misma firma personal. | Evaluation |
-| [Caso 154. Un personaje creado en Mesh Avatar Studio](#case-154) | [Escenas y modelado 3D.](#category-three) | Examina el avatar mostrado en un flujo de trabajo con un nivel bajo de razonamiento. | Demo |
-| [Caso 155. Llamadas simuladas a una clínica en FrontDesk-Bench](#case-155) | [Uso y comunicación de la computadora.](#category-communication) | Registra por separado las acciones inseguras y los rechazos de solicitudes legítimas. | Benchmark |
-| [Caso 156. Comparación de retratos en 3D a partir de una referencia](#case-156) | [Escenas y modelado 3D.](#category-three) | Compara los detalles faciales y el parecido general en cuatro retratos modelados. | Evaluation |
-| [Caso 157. Un pulpo bajo el agua en Three.js](#case-157) | [Escenas y modelado 3D.](#category-three) | Compara el detalle de la escena, el tiempo y el coste con el mismo encargo y nivel de razonamiento. | Evaluation |
-| [Caso 158. Un juego inspirado en anuncios falsos](#case-158) | [Desarrollo de juegos](#category-game) | Compara cuatro interpretaciones jugables del mismo encargo para un nivel. | Evaluation |
-| [Caso 79. Un encargo de diseño en movimiento de 15 segundos](#case-79) | [Gráficos creativos y animación.](#category-graphics) | Da a ambos modelos el mismo encargo y compara tipografía, transiciones y movimiento. | Evaluation |
-| [Caso 80. Tareas completadas y número de pasos en Browser Use](#case-80) | [Sitios web e interfaces](#category-web) | Compara la tasa de finalización, el tiempo y los pasos en la misma batería de tareas de navegador. | Benchmark |
-| [Caso 78. Superar todas las salas de una prueba de Sokoban](#case-78) | [Desarrollo de juegos](#category-game) | Registra las salas superadas y revisa la repetición para localizar los atascos. | Benchmark |
-| [Caso 81. Un robot que camina sobre un mapa en Three.js](#case-81) | [Escenas y modelado 3D.](#category-three) | Usa los mismos datos del mapa y las mismas indicaciones para comparar las escenas animadas. | Evaluation |
-| [Caso 77. Una galería de mariposas con modelos de Blender](#case-77) | [Sitios web e interfaces](#category-web) | Combina un espécimen giratorio con vistas ampliadas y notas de campo. | Demo |
-| [Caso 82. WANDR, la prueba de agentes de Perplexity](#case-82) | [Sitios web e interfaces](#category-web) | Compara la puntuación y el coste por tarea. | Benchmark |
-| [Caso 83. Reconstrucción de un retrato a partir de una imagen de referencia](#case-83) | [Escenas y modelado 3D.](#category-three) | Compara la postura, el vestuario y la geometría de la escena con la referencia. | Evaluation |
-| [Caso 76. Comparación de dos modelos de abeja mecánica](#case-76) | [Escenas y modelado 3D.](#category-three) | Evalúa por separado las piezas móviles y la disposición de la interfaz. | Evaluation |
-| [Caso 84. Un ciervo modelado por cuatro sistemas](#case-84) | [Escenas y modelado 3D.](#category-three) | Compara en paralelo la cornamenta, las articulaciones y las proporciones del cuerpo. | Evaluation |
-| [Caso 75. Localizar lugares de GeoGuessr desde el navegador](#case-75) | [Sitios web e interfaces](#category-web) | Mantén fijos los puntos de partida, el tiempo y el umbral de distancia al comparar modelos. | Benchmark |
-| [Caso 85. Cuatro modelos recrean la escena del avión Alpine Gold](#case-85) | [Escenas y modelado 3D.](#category-three) | Compara la geometría, el entorno y el tiempo de creación con el mismo encargo. | Evaluation |
-| [Caso 86. Una cuadrícula de objetos de vóxeles con distintas versiones de Sol](#case-86) | [Escenas y modelado 3D.](#category-three) | Revisa cada instrucción en busca de retrocesos antes de evaluar la batería completa. | Evaluation |
-| [Caso 87. Un reino flotante de vóxeles con dos herramientas de programación](#case-87) | [Escenas y modelado 3D.](#category-three) | Registra la herramienta y el tiempo total al comparar escenas de vóxeles. | Evaluation |
-| [Caso 88. Un caballo al galope animado por dos modelos](#case-88) | [Gráficos creativos y animación.](#category-graphics) | Compara el movimiento de las patas y la zancada durante un ciclo completo. | Evaluation |
-| [Caso 74. Fuego y sonido generados con código](#case-74) | [Gráficos creativos y animación.](#category-graphics) | Anota la duración de las piezas junto con el coste y el tiempo de generación. | Evaluation |
-| [Caso 89. Un faro con dos tratamientos visuales](#case-89) | [Escenas y modelado 3D.](#category-three) | Compara el encuadre y el estilo de renderizado a partir del mismo encargo. | Evaluation |
-| [Caso 90. Renderizado de un mando con el nivel máximo de razonamiento](#case-90) | [Escenas y modelado 3D.](#category-three) | Compara la ubicación de los botones y la forma de la carcasa con el mismo encargo. | Evaluation |
-| [Caso 91. Cuatro casas con globos y movimientos distintos](#case-91) | [Escenas y modelado 3D.](#category-three) | Observa cómo se mueve la casa con respecto a los globos. | Evaluation |
-| [Caso 92. Reconstrucción en 3D de una escena de Titanic](#case-92) | [Escenas y modelado 3D.](#category-three) | Compara el detalle facial, la puesta en escena y el encuadre de cada versión. | Evaluation |
-| [Caso 93. Dos misiones completadas en RuneScape](#case-93) | [Desarrollo de juegos](#category-game) | Examina qué misiones elige el agente y qué recompensas reclama. | Benchmark |
-| [Caso 73. Un simulador de Rube Goldberg en HTML](#case-73) | [Escenas y modelado 3D.](#category-three) | Sigue cómo cada fase de la reacción en cadena da paso a la siguiente. | Demo |
-| [Caso 72. Una casa con globos y un fondo generado](#case-72) | [Escenas y modelado 3D.](#category-three) | Inspecciona los recursos de la escena cuando el encargo exija construir el fondo en Three.js. | Limit |
-| [Caso 71. Un mundo de splats gaussianos inspirado en Van Gogh](#case-71) | [Escenas y modelado 3D.](#category-three) | Compara cómo dos escenas navegables representan la misma composición. | Evaluation |
-| [Caso 70. Errores de generación en VoxelBench 2](#case-70) | [Escenas y modelado 3D.](#category-three) | Comprueba que se ejecute el código de vóxeles antes de evaluar la escena renderizada. | Benchmark |
-| [Caso 94. Una animación de 900 fotogramas hecha con código](#case-94) | [Gráficos creativos y animación.](#category-graphics) | Sigue los personajes, el movimiento y el sonido hasta la exportación final. | Demo |
-| [Caso 95. Un juego multijugador en el navegador con controles táctiles](#case-95) | [Desarrollo de juegos](#category-game) | Prueba versiones sucesivas y da indicaciones concretas sobre los controles. | Demo |
-| [Caso 96. Una escena marina en torno a varias islas](#case-96) | [Escenas y modelado 3D.](#category-three) | Usa un encargo abierto sobre islas para comparar decisiones de composición. | Demo |
-| [Caso 97. Lanternkeep, un juego de construcción de aldeas en el navegador](#case-97) | [Desarrollo de juegos](#category-game) | Observa cómo el mapa y el panel de objetivos guían la construcción de la aldea. | Demo |
-| [Caso 98. Una ilustración animada de una banana](#case-98) | [Gráficos creativos y animación.](#category-graphics) | Elige un tema sencillo para ver cómo un modelo introduce movimiento y personalidad. | Demo |
-| [Caso 99. Una partida de Pokémon FireRed basada solo en capturas de pantalla](#case-99) | [Desarrollo de juegos](#category-game) | Registra los hitos y el tiempo que tarda el agente en completar el juego. | Benchmark |
-| [Caso 100. Un retrato sobre un lienzo de dibujo en el navegador](#case-100) | [Uso de computadora y pintura.](#category-painting) | Compara los fotogramas intermedios con la referencia que aparece junto al lienzo. | Demo |
-| [Caso 101. Un pelícano en bicicleta en un solo archivo HTML](#case-101) | [Gráficos creativos y animación.](#category-graphics) | Usa un mismo encargo en SVG y examina en paralelo el movimiento del ave y la bicicleta. | Evaluation |
-| [Caso 102. Un helicóptero con vistas ensamblada y despiezada](#case-102) | [Escenas y modelado 3D.](#category-three) | Examina el mismo modelo 3D en vuelo y con sus piezas a la vista. | Demo |
-| [Caso 103. Dos animaciones de figuras de palitos en modo Ultra](#case-103) | [Gráficos creativos y animación.](#category-graphics) | Repite el mismo encargo de animación para ver cuánto varían dos ejecuciones. | Evaluation |
-| [Caso 104. Dos modelos detallados de un BMW](#case-104) | [Escenas y modelado 3D.](#category-three) | Compara la silueta, los detalles de los materiales y los ángulos de cámara con el mismo encargo. | Evaluation |
-| [Caso 105. Comparación de embarcaciones y superficies marinas](#case-105) | [Escenas y modelado 3D.](#category-three) | Compara las estelas, los reflejos y la respuesta de la escena con el mismo encargo. | Evaluation |
-| [Caso 106. La Torre Eiffel con razonamiento xhigh](#case-106) | [Escenas y modelado 3D.](#category-three) | Compara la estructura y su entorno con el mismo nivel de razonamiento. | Evaluation |
-| [Caso 123. Pelícanos en SVG con distintos niveles de razonamiento](#case-123) | [Gráficos creativos y animación.](#category-graphics) | Observa cómo encajan los pedales, las patas y el cuadro de la bicicleta en cada nivel. | Evaluation |
-| [Caso 107. Una isla con agua e iluminación ajustables](#case-107) | [Escenas y modelado 3D.](#category-three) | Prueba las ondulaciones del agua y los controles de iluminación mientras giras alrededor de la escena. | Demo |
-| [Caso 108. Navegación desde 50 páginas iniciales de Wikipedia](#case-108) | [Sitios web e interfaces](#category-web) | Mantén fijas las páginas de origen y destino al cronometrar la navegación. | Benchmark |
-| [Caso 122. Escenas 3D interactivas evaluadas por personas](#case-122) | [Escenas y modelado 3D.](#category-three) | Usa la misma batería y los mismos criterios de evaluación al comparar modelos interactivos. | Benchmark |
-| [Caso 109. Cuatro ejecuciones de una escena de conducción de un camión](#case-109) | [Escenas y modelado 3D.](#category-three) | Compara la misma escena de conducción y anota la herramienta de programación. | Evaluation |
-| [Caso 110. Un reparto en bicicleta bajo la lluvia con Sol, Opus y Qwen](#case-110) | [Gráficos creativos y animación.](#category-graphics) | Compara la escena nocturna y el pedaleo entre tres resultados. | Evaluation |
-| [Caso 111. Una habitación detallada con vistas a la ciudad en Blender](#case-111) | [Escenas y modelado 3D.](#category-three) | Examina los objetos pequeños del interior y lo que se ve por las ventanas. | Demo |
-| [Caso 112. Un pelícano reparte comida en bicicleta bajo la lluvia](#case-112) | [Gráficos creativos y animación.](#category-graphics) | Examina por separado los reflejos, los charcos, el mobiliario urbano y el entorno en movimiento. | Evaluation |
-| [Caso 113. Un mando de PS5 creado por dos modelos de programación](#case-113) | [Escenas y modelado 3D.](#category-three) | Examina la carcasa posterior y los botones laterales además de la vista frontal. | Evaluation |
-| [Caso 114. Un pelícano en bicicleta a plena luz del día en dos versiones](#case-114) | [Gráficos creativos y animación.](#category-graphics) | Compara la calidad del movimiento y el tiempo de ejecución. | Evaluation |
-| [Caso 115. Tres versiones interactivas de la Tierra](#case-115) | [Escenas y modelado 3D.](#category-three) | Compara la iluminación y la respuesta de la interfaz mientras gira el globo. | Evaluation |
-| [Caso 116. Un pelícano en bicicleta cerca de un agujero negro](#case-116) | [Escenas y modelado 3D.](#category-three) | Observa cómo cambia la escena después de varias rondas de instrucciones. | Demo |
-| [Caso 117. Dos escenas 3D centradas en un contenedor de carga](#case-117) | [Escenas y modelado 3D.](#category-three) | Compara la iluminación, los objetos y los acabados de las superficies. | Evaluation |
-| [Caso 118. Un duelo de espadas animado en SVG](#case-118) | [Gráficos creativos y animación.](#category-graphics) | Observa cómo el ritmo y las siluetas transmiten movimiento en una animación vectorial. | Demo |
-| [Caso 119. Un complemento Kanban para sesiones de agentes](#case-119) | [Sitios web e interfaces](#category-web) | Comprueba cómo se relacionan las tareas, las sesiones y las colas de revisión en la interfaz. | Integration |
-| [Caso 120. Un paisaje fotorrealista en SVG](#case-120) | [Gráficos creativos y animación.](#category-graphics) | Observa qué detalles se conservan al dibujar un entorno natural con vectores. | Demo |
-| [Caso 121. Una escena junto al lago en Three.js](#case-121) | [Escenas y modelado 3D.](#category-three) | Sigue la cámara al pasar junto al bote y la cascada para ver los detalles de la escena. | Demo |
-| [Caso 69. Configurador de 360 grados del Bugatti Chiron](#case-69) | [Sitios web e interfaces](#category-web) | Compara los acabados de pintura al girar la cámara alrededor del auto. | Demo |
-| [Caso 68. Un modelo interactivo del Boeing 787-9](#case-68) | [Escenas y modelado 3D.](#category-three) | Usa los controles de vista para examinar el exterior del avión y el motor. | Demo |
-| [Caso 67. Prototipo de un juego de carreras costero](#case-67) | [Desarrollo de juegos](#category-game) | Comprueba si la cuenta regresiva, la velocidad y el mapa del circuito se leen bien durante la carrera. | Demo |
-| [Caso 66. Un tornado sobre un estacionamiento](#case-66) | [Escenas y modelado 3D.](#category-three) | Observa cómo la simulación de una tormenta mueve los escombros en un estacionamiento. | Demo |
-| [Caso 65. Un jardín con carpas koi en Three.js](#case-65) | [Escenas y modelado 3D.](#category-three) | Sigue a las carpas para observar el movimiento y los reflejos del agua. | Demo |
-| [Caso 64. Comparación de dos escenas de pagodas](#case-64) | [Escenas y modelado 3D.](#category-three) | Compara cómo dos resultados distribuyen la pagoda, los árboles y el agua. | Evaluation |
-| [Caso 63. Vista de despiece de un reloj mecánico](#case-63) | [Escenas y modelado 3D.](#category-three) | Examina la esfera y observa cómo el modelo separa sus capas. | Demo |
-| [Caso 62. Un cubo de Rubik en el navegador](#case-62) | [Desarrollo de juegos](#category-game) | Usa la vista previa para revisar el giro del cubo y la posición de las pegatinas. | Demo |
-| [Caso 61. Bolas bajo gravedad en un heptágono giratorio](#case-61) | [Sitios web e interfaces](#category-web) | Observa cómo se mueven las bolas al girar el recipiente. | Demo |
-| [Caso 60. Comparación de SVG del Rey Mono](#case-60) | [Gráficos creativos y animación.](#category-graphics) | Compara cómo tres sistemas componen la misma escena del Rey Mono. | Evaluation |
-| [Caso 1. Freddie Mercury en MS Paint](#case-1) | [Uso de computadora y pintura.](#category-painting) | Utilice un retrato para inspeccionar lo que produce un intento de dibujar en el escritorio. | Demo |
-| [Caso 2. Una casa suburbana y un boceto de pelícano.](#case-2) | [Escenas y modelado 3D.](#category-three) | Empareje una escena renderizada con una prueba de dibujo compacto. | Demo |
-| [Caso 3. La historia de la humanidad y el futuro de la IA en 3D](#case-3) | [Gráficos creativos y animación.](#category-graphics) | Convierte un resumen narrativo en una secuencia de escenas animadas. | Demo |
-| [Caso 4. El agujero negro interactivo del fin de los tiempos](#case-4) | [Sitios web e interfaces](#category-web) | Utilice un agujero negro como punto focal para una página interactiva Three.js. | Demo |
-| [Caso 5. Dos veleros en Three.js con el mismo prompt](#case-5) | [Escenas y modelado 3D.](#category-three) | Compare cómo dos resultados manejan los detalles y la interacción en el mismo informe del barco. | Evaluation |
-| [Caso 6. Un tren rojo cruzando un valle de montaña.](#case-6) | [Escenas y modelado 3D.](#category-three) | Compara vehículos en movimiento y paisajes en una escena compartida. | Evaluation |
-| [Caso 7. Island Atlas con alternancia de día y noche](#case-7) | [Sitios web e interfaces](#category-web) | Utilice una isla 3D compacta para probar los estados de iluminación en una interfaz web. | Demo |
-| [Caso 8. Retrato de Tibo en un estudio de pintura con navegador.](#case-8) | [Gráficos creativos y animación.](#category-graphics) | Inspeccione las etapas de un retrato a medida que la página lo desarrolla. | Demo |
-| [Caso 9. Un Coliseo en ruinas en dos escenas](#case-9) | [Escenas y modelado 3D.](#category-three) | Compare la cobertura de la cámara y los detalles arquitectónicos en dos reconstrucciones. | Evaluation |
-| [Caso 10. Pintura de retrato Sam Altman compartida por 0x0SojalSec](#case-10) | [Gráficos creativos y animación.](#category-graphics) | Siga la transición de formas aproximadas a un retrato terminado. | Demo |
-| [Caso 11. Pintura de retrato Sam Altman compartida por Avenoxai](#case-11) | [Gráficos creativos y animación.](#category-graphics) | Vea cómo la demostración del navegador presenta el retrato. | Demo |
-| [Caso 12. Pintura de retrato Sam Altman compartida por pengsonal](#case-12) | [Gráficos creativos y animación.](#category-graphics) | Examine el orden en el que la escena del navegador agrega detalles de retrato. | Demo |
-| [Caso 13. Pintura de retrato Sam Altman compartida por GeekCatX](#case-13) | [Gráficos creativos y animación.](#category-graphics) | Utilice el clip para comparar la composición inicial con la imagen terminada. | Demo |
-| [Caso 14. Retrato Sam Altman en un lienzo de pintura de navegador](#case-14) | [Gráficos creativos y animación.](#category-graphics) | Observe cómo se desarrolla el retrato desde colores bloqueados hasta rasgos más finos. | Demo |
-| [Caso 15. Islas flotantes AETHERIA compartidas por EnvolDev](#case-15) | [Escenas y modelado 3D.](#category-three) | Sigue la cámara a través de un paisaje flotante. | Demo |
-| [Caso 16. Un personaje peludo de color púrpura con comparaciones anteriores.](#case-16) | [Escenas y modelado 3D.](#category-three) | Separe un nuevo clip de personaje de las salidas de referencia en la misma publicación. | Demo |
-| [Caso 17. Juego de persecución de vóxeles PELICAN PANIC](#case-17) | [Desarrollo de juegos](#category-game) | Utilice un juego de persecución breve para inspeccionar los controles, la retroalimentación y el estado final. | Demo |
-| [Caso 18. Un elefante alado llevando un jardín.](#case-18) | [Escenas y modelado 3D.](#category-three) | Utilice una única premisa de fantasía para inspeccionar la composición desde varios ángulos. | Demo |
-| [Caso 19. Retrato Dario Amodei en un lienzo de pintura de navegador](#case-19) | [Gráficos creativos y animación.](#category-graphics) | Vea una imagen de referencia que guía un retrato en escena. | Demo |
-| [Caso 20. Una comparación del agujero negro Three.js compartida por rubenssoto_ai](#case-20) | [Escenas y modelado 3D.](#category-three) | Compare las aproximaciones visibles a la misma escena del agujero negro. | Evaluation |
-| [Caso 21. Una comparación de jardines de aguas tranquilas](#case-21) | [Escenas y modelado 3D.](#category-three) | Compare el paisajismo y el tratamiento del agua en una tarea de jardín compartida. | Evaluation |
-| [Caso 22. Cuatro comparaciones de animación SVG con Opus 5.5](#case-22) | [Gráficos creativos y animación.](#category-graphics) | Compare el movimiento y los detalles de varios sujetos SVG. | Evaluation |
-| [Caso 23. Otra publicación de pintura de retratos Sam Altman de Ananth7e](#case-23) | [Gráficos creativos y animación.](#category-graphics) | Utilice la grabación compartida para inspeccionar cómo toma forma un retrato de navegador. | Demo |
-| [Caso 24. Un agujero negro con un disco de acreción brillante](#case-24) | [Escenas y modelado 3D.](#category-three) | Inspeccione las vistas de la cámara, las partículas y la iluminación de una simulación. | Demo |
-| [Caso 25. Dos ilustraciones de retratos descritas como SVG de solo código](#case-25) | [Gráficos creativos y animación.](#category-graphics) | Compara los retratos renderizados antes de juzgar cómo fueron producidos. | Demo |
-| [Caso 26. Una estrella explotando en una supernova](#case-26) | [Escenas y modelado 3D.](#category-three) | Siga un efecto visual desde su estrella inicial hasta la onda de choque. | Demo |
-| [Caso 27. Olas del océano y un faro al atardecer.](#case-27) | [Escenas y modelado 3D.](#category-three) | Compara cómo cambian la luz y el color en una escena del océano. | Demo |
-| [Caso 28. Una simulación de tornado en el navegador](#case-28) | [Escenas y modelado 3D.](#category-three) | Inspeccione cómo una escena combina rotación, nubes y escombros del suelo. | Demo |
-| [Caso 29. Una ciudad japonesa de pixel art a la luz de la luna](#case-29) | [Gráficos creativos y animación.](#category-graphics) | Utilice una escena animada compacta para inspeccionar la iluminación y los detalles. | Demo |
-| [Caso 30. Un león haciendo malabares mientras monta BMX](#case-30) | [Gráficos creativos y animación.](#category-graphics) | Pruebe el movimiento coordinado en contextos estacionales cambiantes. | Demo |
-| [Caso 31. Un caballo al galope de vista lateral](#case-31) | [Gráficos creativos y animación.](#category-graphics) | Inspeccione las patas y la cola mediante un ciclo de movimiento simple. | Demo |
-| [Caso 32. Un pavo real montando BMX a través de bambú](#case-32) | [Gráficos creativos y animación.](#category-graphics) | Compara el movimiento de una rueda con el movimiento de un personaje detallado. | Demo |
-| [Caso 33. Un santuario de bambú con un puente rojo](#case-33) | [Escenas y modelado 3D.](#category-three) | Utilice varios ángulos de cámara para examinar una escena 3D en capas. | Demo |
-| [Caso 34. Una pintura de olas Three.js transitable](#case-34) | [Escenas y modelado 3D.](#category-three) | Explora qué cambia cuando una pintura se convierte en una escena navegable. | Demo |
-| [Caso 35. Una vista previa de retrato fotorrealista](#case-35) | [Gráficos creativos y animación.](#category-graphics) | Inspeccione el resultado visible y registre cómo lo describe el autor. | Demo |
-| [Caso 36. Vectorización de retrato Sydney Sweeney](#case-36) | [Gráficos creativos y animación.](#category-graphics) | Realice un seguimiento de la imagen intermedia al evaluar un flujo de trabajo vectorial. | Demo |
-| [Caso 37. Una casa monstruosa modelada en Blender.](#case-37) | [Escenas y modelado 3D.](#category-three) | Compare la geometría y las siluetas en tres vistas etiquetadas como Blender. | Evaluation |
-| [Caso 38. Un velero Three.js compartido por karanC_12](#case-38) | [Escenas y modelado 3D.](#category-three) | Siga la publicación para ver un barco construido para una escena de navegador. | Demo |
-| [Caso 39. Islas flotantes AETHERIA de Mr_Salio](#case-39) | [Escenas y modelado 3D.](#category-three) | Utilice un recorrido de cámara para examinar la escala y la profundidad de una escena. | Demo |
-| [Caso 40. Un velero interactivo en un archivo HTML](#case-40) | [Escenas y modelado 3D.](#category-three) | Utilice aparejos, velas y un punto de vista en movimiento para inspeccionar un modelo de navegador. | Demo |
-| [Caso 41. Pruebas de imagen de referencia en Codex y API](#case-41) | [Sitios web e interfaces](#category-web) | Compara lo que hacen dos salidas con la misma referencia antes de atribuir la diferencia. | Evaluation |
-| [Caso 42. Patio vóxel del Jardín de los Cinco Aleros](#case-42) | [Escenas y modelado 3D.](#category-three) | Inspeccione la composición y las capas en un entorno de voxel compacto. | Demo |
-| [Caso 43. Un intento inconcluso de transmitir un mensaje](#case-43) | [Uso y comunicación de la computadora.](#category-communication) | Utilice el intento para ver dónde se detuvo un flujo de trabajo de escritorio. | Limit |
-| [Caso 44. Una comparación del agujero negro Three.js compartida por VraserX](#case-44) | [Escenas y modelado 3D.](#category-three) | Inspeccione las escenas de agujeros negros emparejados en el clip compartido. | Evaluation |
-| [Caso 45. Una demostración diurna y nocturna de Sakura Village compartida por jessexai_](#case-45) | [Escenas y modelado 3D.](#category-three) | Inspeccione el efecto de cambiar la escena entre día y noche. | Demo |
-| [Caso 46. Un guepardo corriendo de vista lateral](#case-46) | [Gráficos creativos y animación.](#category-graphics) | Utilice una vista de perfil fijo para comparar la marcha y el movimiento del cuerpo. | Demo |
-| [Caso 47. Un Coliseo en ruinas por fuera y por dentro.](#case-47) | [Escenas y modelado 3D.](#category-three) | Sigue una cámara a través del edificio para ver qué detalles son visibles. | Demo |
-| [Caso 48. Una comparación del agujero negro Three.js por TokenGremlin](#case-48) | [Escenas y modelado 3D.](#category-three) | Compare el movimiento de la cámara y la iluminación en dos salidas de agujeros negros. | Evaluation |
-| [Caso 49. Vistas previas del patio Sakura y Wonder Atlas](#case-49) | [Escenas y modelado 3D.](#category-three) | Inspeccione cómo dos escenas web manejan la arquitectura y la profundidad. | Demo |
-| [Caso 50. Un Tesla Roadster reconstruido](#case-50) | [Escenas y modelado 3D.](#category-three) | Utilice un automóvil conocido como referencia de forma y detalle. | Demo |
-| [Caso 51. Un pelícano y dos cangrejos andando en bicicleta.](#case-51) | [Gráficos creativos y animación.](#category-graphics) | Inspecciona la sincronización de varios personajes animados de una sola vez. | Demo |
-| [Caso 52. Una comparación del controlador PS5 en las configuraciones de Sol](#case-52) | [Gráficos creativos y animación.](#category-graphics) | Utilice un producto familiar para comparar contornos y sombras. | Evaluation |
-| [Caso 53. Una demostración diurna y nocturna de Sakura Village compartida por Haleeeemahh](#case-53) | [Escenas y modelado 3D.](#category-three) | Compare cómo lee el mismo pueblo a la luz del día y en la oscuridad. | Demo |
-| [Caso 54. Una demostración diurna y nocturna de Sakura Village compartida por VraserX](#case-54) | [Escenas y modelado 3D.](#category-three) | Utilice los estados de iluminación emparejados para inspeccionar un único entorno. | Demo |
-| [Caso 55. Una ilustración de perfil verde BMW M4 CS](#case-55) | [Gráficos creativos y animación.](#category-graphics) | Verifique proporciones y detalles del perfil en un vehículo familiar. | Demo |
-| [Caso 56. Una demostración de día y noche de Sakura Village de TokenGremlin](#case-56) | [Escenas y modelado 3D.](#category-three) | Utilice un interruptor de iluminación para comparar una aldea en dos estados. | Demo |
-| [Caso 57. Una casa con vistas interiores y aéreas.](#case-57) | [Escenas y modelado 3D.](#category-three) | Inspeccione si un edificio 3D se mantiene coherente en las vistas interiores y exteriores. | Demo |
-| [Caso 58. Un agujero negro de un solo HTML Three.js](#case-58) | [Escenas y modelado 3D.](#category-three) | Utilice el clip y las imágenes fijas para inspeccionar cómo una escena maneja varios puntos de vista. | Demo |
-| [Caso 59. Un palacio flotante Three.js](#case-59) | [Escenas y modelado 3D.](#category-three) | Inspecciona la escala y la presentación de un palacio suspendido desde varios ángulos. | Demo |
+| [Un valle atravesado por un acueducto](#case-186) | Escenas y modelado 3D. | Observa cómo un flujo de trabajo en Blender lleva un paisaje de gran tamaño a Three.js. | Demo |
+| [Generación de imágenes ante una suma sencilla](#case-187) | Uso y comunicación de la computadora. | Evalúa por separado el uso inesperado de herramientas y la corrección de la respuesta final. | Limit |
+| [Ocho escenarios de televisión reconstruidos en Minecraft](#case-188) | Desarrollo de juegos | Compara la distribución de los espacios reconocibles y el tiempo de construcción en dos versiones del mundo de juego. | Evaluation |
+| [Un vehículo de expedición interactivo en Three.js](#case-189) | Escenas y modelado 3D. | Examina los detalles modelados, los paneles articulados y el sonido sintetizado en un solo archivo HTML. | Demo |
+| [Una explicación de la hipótesis de Riemann generada con código](#case-190) | Gráficos creativos y animación. | Usa código local para montar la animación y su audio en el mismo flujo de trabajo. | Demo |
+| [Cuatro renderizados de la Torre Eiffel en Three.js](#case-191) | Escenas y modelado 3D. | Compara la estructura de celosía, las proporciones y el entorno en cuatro escenas identificadas. | Evaluation |
+| [Detección de errores conocidos al revisar una base de datos](#case-192) | Uso y comunicación de la computadora. | Compara cuántos errores conocidos se detectan y cuánto tarda la misma tarea de revisión. | Benchmark |
+| [Las ruinas de Ozymandias en Minecraft](#case-193) | Desarrollo de juegos | Compara cómo dos modelos representan con bloques la misma escena literaria. | Evaluation |
+| [Configuraciones de Sol para agentes de Hermes y Pi](#case-194) | Uso y comunicación de la computadora. | Observa cómo un único punto de acceso en el escritorio permite organizar asistentes con funciones distintas. | Integration |
+| [Seis rediseños de un mismo sitio de marketing](#case-195) | Sitios web e interfaces | Compara cómo distintos modelos dan distintas orientaciones visuales a un sitio con el mismo encargo. | Evaluation |
+| [Un diorama de una ribera lluviosa a partir de una referencia](#case-196) | Escenas y modelado 3D. | Compara cómo dos modelos convierten una sola imagen en una escena 2,5D para el navegador. | Evaluation |
+| [Vistas frontal y superior intercambiadas en SolidWorks](#case-197) | Escenas y modelado 3D. | Comprueba la orientación de las vistas del dibujo técnico con respecto al ensamblaje antes de aceptar el archivo exportado. | Limit |
+| [Una comparación a ciegas de ficción breve](#case-198) | Uso y comunicación de la computadora. | Compara textos de ficción breve escritos a partir de la misma trama e identifica dónde intervino una persona en el formato. | Evaluation |
+| [Un gato junto a una ventana en un día de lluvia](#case-199) | Gráficos creativos y animación. | Compara cómo cuatro modelos componen la misma escena en una única animación HTML. | Evaluation |
+| [Análisis de documentos con dos niveles de razonamiento](#case-176) | Uso y comunicación de la computadora. | Compara la puntuación global de análisis, la de gráficos y el coste por página. | Benchmark |
+| [Movimientos de cámara para doce modelos de edificios](#case-200) | Escenas y modelado 3D. | Usa Blender MCP para preparar los movimientos de cámara de un conjunto de modelos importados. | Demo |
+| [Cuatro ciclistas animados al atardecer](#case-177) | Gráficos creativos y animación. | Compara el movimiento de los ciclistas, las proporciones de las bicicletas y la iluminación de la escena en los cuatro resultados. | Evaluation |
+| [Tareas de oficina en Company Agent Bench](#case-178) | Uso y comunicación de la computadora. | Compara los porcentajes de acierto según el nivel de razonamiento evaluado en cada modelo. | Benchmark |
+| [Un teleférico sobre Scarlet Fjord](#case-179) | Escenas y modelado 3D. | Compara cómo los cuatro renderizados representan la cabina y su entorno. | Evaluation |
+| [Preferencias y costes en la creación de videojuegos](#case-180) | Desarrollo de juegos | Compara la posición en la clasificación por preferencias, el tiempo medio y el coste de generación en la misma prueba de diseño de videojuegos. | Benchmark |
+| [Una comparación de tareas de marketing](#case-181) | Uso y comunicación de la computadora. | Revisa la preferencia por tarea junto con el coste y el número de votos. | Benchmark |
+| [Una ruta a pie convertida en un juego para consola portátil](#case-182) | Desarrollo de juegos | Observa cómo lo captado durante un paseo se transforma en escenas del juego que se pueden volver a visitar. | Demo |
+| [Un conejo modelado en Blender a partir de una imagen](#case-183) | Escenas y modelado 3D. | Examina la geometría desde varios ángulos tras partir de una imagen de referencia generada. | Demo |
+| [Porcentaje de aciertos y tiempo de ejecución en Agents on Rails](#case-184) | Sitios web e interfaces | Registra por separado el tiempo de ejecución y los aciertos en tareas de desarrollo con aplicaciones Rails ya existentes. | Benchmark |
+| [Un campo de hierba en una escena HTML autónoma](#case-201) | Escenas y modelado 3D. | Sigue el paso de un recurso de Blender a un pequeño proyecto de Three.js que se ejecuta en el navegador. | Demo |
+| [Revisiones de ilustraciones de vestuario en ChatGPT Work](#case-202) | Gráficos creativos y animación. | Compara qué cambia al volver a ejecutar un encargo detallado de vestuario. | Evaluation |
+| [De fotogramas estáticos a un vídeo terminado](#case-159) | Gráficos creativos y animación. | Revisa la línea de tiempo de edición para ver en qué momento se incorporan los fotogramas generados al flujo de trabajo. | Demo |
+| [Dos prototipos de juegos en primera persona en Codex](#case-160) | Desarrollo de juegos | Compara el diseño del nivel y la experiencia de juego junto con el coste registrado. | Evaluation |
+| [Un juego ambientado en una aldea acogedora con recursos de Blender](#case-161) | Desarrollo de juegos | Observa cómo se combinan los objetos modelados y la animación en una escena de juego. | Demo |
+| [Planos de apartamentos a partir de fotos de interiores](#case-162) | Escenas y modelado 3D. | Mide si un agente puede deducir la distribución de las habitaciones a partir de fotografías. | Benchmark |
+| [Cortes de diálogo en un vídeo con una persona hablando a cámara](#case-163) | Gráficos creativos y animación. | Compara el tiempo de edición, la puntuación global y los tipos de cortes que fallan. | Benchmark |
+| [Dos diseños para un edificio de oficinas centrales](#case-164) | Escenas y modelado 3D. | Compara los edificios y el encuadre de cámara a partir del mismo encargo de diseño abierto. | Evaluation |
+| [Gestión de un asentamiento en Crusader Bench](#case-165) | Desarrollo de juegos | Compara cómo juegan los agentes en los mismos mapas puntuados y bajo las mismas condiciones. | Benchmark |
+| [Revisión de solicitudes de cambios en CodeRabbit](#case-185) | Uso y comunicación de la computadora. | Compara los problemas conocidos detectados, la precisión indicada y el coste de revisión con distintas configuraciones del proceso. | Benchmark |
+| [La prueba de documentos jurídicos de Legora de noviembre](#case-166) | Uso y comunicación de la computadora. | Compara la calidad y el coste por caso en el mismo conjunto de tareas profesionales. | Benchmark |
+| [Sol en la prueba de diseño de ingeniería de Xplore](#case-167) | Escenas y modelado 3D. | Compara las puntuaciones por tarea y el coste por ejecución en una batería que incluye trabajo de CAD. | Benchmark |
+| [Una plataforma de lanzamiento para Ruby Ascent](#case-168) | Escenas y modelado 3D. | Compara los detalles de la escena y el tiempo de creación en cuatro versiones de la misma plataforma. | Evaluation |
+| [Navegación espacial en MazeBench](#case-169) | Desarrollo de juegos | Compara la resolución de laberintos en la misma prueba publicada. | Benchmark |
+| [Preguntas de perfil respondidas de forma independiente en AI Village](#case-170) | Uso y comunicación de la computadora. | Compara cómo dos agentes responden de forma independiente al mismo cuestionario de perfil. | Integration |
+| [Una animación 3D a partir del mismo fragmento de vídeo](#case-171) | Escenas y modelado 3D. | Compara cómo cinco modelos representan el mismo fragmento en un estilo predefinido. | Evaluation |
+| [Una vuelta alrededor de la cima del Burj Khalifa](#case-172) | Escenas y modelado 3D. | Observa cómo los modelos representan los retranqueos de la parte superior y el remate de la torre. | Evaluation |
+| [Una animación de pizarra a partir de un vídeo corto](#case-173) | Gráficos creativos y animación. | Compara la narrativa visual y el coste con el mismo material de partida. | Evaluation |
+| [Una página web sobre un faro en una costa rocosa](#case-174) | Sitios web e interfaces | Compara dos páginas web generadas en una sola respuesta con el mismo encargo y nivel de razonamiento. | Evaluation |
+| [Cinco partidas de ajedrez sin herramientas](#case-175) | Desarrollo de juegos | Compara puntos, resultados y costes indicados para el mismo encuentro. | Benchmark |
+| [Un informe de estado de PR que omite las instrucciones del repositorio](#case-124) | Uso y comunicación de la computadora. | Compara el nivel de detalle y la organización de las respuestas a una solicitud breve de estado. | Limit |
+| [Recorrido comparativo de Astra y Sol en Arena](#case-125) | Escenas y modelado 3D. | Usa los capítulos de la grabación para comparar escenas, juegos e interfaces. | Evaluation |
+| [Una catedral vampírica embrujada](#case-126) | Escenas y modelado 3D. | Compara cómo dos modelos interpretan el mismo encargo de arquitectura gótica. | Evaluation |
+| [Una tienda de conveniencia en una noche lluviosa](#case-127) | Escenas y modelado 3D. | Usa la pantalla dividida para comparar la iluminación, la lluvia y la geometría de la fachada. | Evaluation |
+| [Una página de inicio para una pizzería de Nueva York](#case-128) | Sitios web e interfaces | Comprueba si distintos modelos toman decisiones de marca diferentes a partir de una sola frase. | Evaluation |
+| [Dos versiones de una pagoda](#case-129) | Escenas y modelado 3D. | Compara cómo dos ejecuciones en modo xhigh representan el mismo motivo arquitectónico. | Evaluation |
+| [Una hoja que cae de forma realista en tres minutos](#case-130) | Gráficos creativos y animación. | Fija un límite de tiempo para evaluar cómo el modelo combina recursos y código. | Demo |
+| [Un puerto pesquero en miniatura bajo la lluvia y el sol](#case-131) | Escenas y modelado 3D. | Compara la lluvia, los elementos en miniatura y el movimiento de cámara en cuatro ejecuciones. | Evaluation |
+| [Puntuación y coste mediano en Arena WebDev](#case-132) | Sitios web e interfaces | Compara el resultado en la clasificación con el coste mediano por tarea. | Benchmark |
+| [Cuatro modelos recrean el lanzamiento de un cohete](#case-133) | Escenas y modelado 3D. | Compara la puesta en escena y el movimiento en cuatro versiones de la misma escena ficticia. | Evaluation |
+| [Un corredor animado en pixel art en bucle](#case-134) | Gráficos creativos y animación. | Comprueba si la animación del personaje se repite sin saltos mientras se desplaza el fondo. | Demo |
+| [Tormenta en el faro](#case-135) | Escenas y modelado 3D. | Compara el detalle de la torre y el movimiento del mar a partir del mismo encargo. | Evaluation |
+| [Un visor interactivo de anatomía](#case-136) | Sitios web e interfaces | Compara el impacto de la presentación inicial y la legibilidad al explorar un modelo 3D. | Evaluation |
+| [Una embarcación en un mar agitado](#case-137) | Escenas y modelado 3D. | Examina por separado la lluvia, el volumen de las nubes, el detalle del barco y el comportamiento del agua. | Evaluation |
+| [Una partida hasta el título de Campeón en Pokémon FireRed](#case-138) | Desarrollo de juegos | Compara los tiempos de finalización del juego con una configuración explícita de entradas y razonamiento. | Benchmark |
+| [Un sitio web para un hotel ficticio](#case-139) | Sitios web e interfaces | Compara las propuestas de una sola ejecución, el tiempo y el coste con el mismo encargo de diseño. | Evaluation |
+| [Design Creativity Bench para interfaces](#case-140) | Sitios web e interfaces | Compara las puntuaciones de creatividad del diseño junto con el coste indicado. | Benchmark |
+| [Conversaciones con personajes en AITuber OnAir](#case-141) | Uso y comunicación de la computadora. | Prueba distintos niveles de razonamiento durante una conversación en directo con un personaje. | Integration |
+| [Un personaje con esqueleto de animación en Blender a partir de arte conceptual](#case-142) | Escenas y modelado 3D. | Evalúa por separado el parecido y la calidad de animación al comparar personajes generados. | Evaluation |
+| [Un robot de ciencia ficción que se ensambla solo en Three.js](#case-143) | Escenas y modelado 3D. | Compara cómo dos modelos representan una secuencia de ensamblaje y lanzamiento. | Evaluation |
+| [Un café lunar modelado por cinco sistemas](#case-144) | Escenas y modelado 3D. | Compara cómo distintos modelos componen e iluminan un café lunar. | Evaluation |
+| [Una bicicleta tándem animada en SVG](#case-145) | Gráficos creativos y animación. | Compara cómo dos herramientas de programación dibujan y animan el mismo motivo en SVG. | Evaluation |
+| [Un juego 3D de carreras con un dinosaurio y física ragdoll](#case-146) | Desarrollo de juegos | Compara el estilo visual y el comportamiento en las colisiones entre cuatro prototipos jugables. | Evaluation |
+| [El último tranvía de una ciudad de montaña bajo la lluvia](#case-147) | Escenas y modelado 3D. | Compara el modelado y la atmósfera con la misma instrucción y el mismo nivel de razonamiento. | Evaluation |
+| [Una representación 3D de la Casa Blanca](#case-148) | Escenas y modelado 3D. | Compara las proporciones de la fachada y la composición de dos visualizaciones arquitectónicas. | Evaluation |
+| [Un pelícano en bicicleta en Blender](#case-149) | Escenas y modelado 3D. | Compara los renderizados finales y registra qué entrega cada ejecución. | Evaluation |
+| [Un personaje estilizado en 3D dentro de una página web](#case-150) | Escenas y modelado 3D. | Compara el personaje modelado, su entorno y la animación que se aprecia. | Evaluation |
+| [Una cascada insular y la superficie del mar](#case-151) | Escenas y modelado 3D. | Compara el tiempo de renderizado y el aspecto del agua en dos versiones de la escena. | Evaluation |
+| [Medición de una edición de vídeo en Ultrafast](#case-152) | Gráficos creativos y animación. | Mide por separado el tiempo total de edición y el tiempo de respuesta del modelo. | Benchmark |
+| [Animación de una firma manuscrita en Remotion](#case-153) | Gráficos creativos y animación. | Compara cómo dos ejecuciones en modo Max animan la misma firma personal. | Evaluation |
+| [Un personaje creado en Mesh Avatar Studio](#case-154) | Escenas y modelado 3D. | Examina el avatar mostrado en un flujo de trabajo con un nivel bajo de razonamiento. | Demo |
+| [Llamadas simuladas a una clínica en FrontDesk-Bench](#case-155) | Uso y comunicación de la computadora. | Registra por separado las acciones inseguras y los rechazos de solicitudes legítimas. | Benchmark |
+| [Comparación de retratos en 3D a partir de una referencia](#case-156) | Escenas y modelado 3D. | Compara los detalles faciales y el parecido general en cuatro retratos modelados. | Evaluation |
+| [Un pulpo bajo el agua en Three.js](#case-157) | Escenas y modelado 3D. | Compara el detalle de la escena, el tiempo y el coste con el mismo encargo y nivel de razonamiento. | Evaluation |
+| [Un juego inspirado en anuncios falsos](#case-158) | Desarrollo de juegos | Compara cuatro interpretaciones jugables del mismo encargo para un nivel. | Evaluation |
+| [Un encargo de diseño en movimiento de 15 segundos](#case-79) | Gráficos creativos y animación. | Da a ambos modelos el mismo encargo y compara tipografía, transiciones y movimiento. | Evaluation |
+| [Tareas completadas y número de pasos en Browser Use](#case-80) | Sitios web e interfaces | Compara la tasa de finalización, el tiempo y los pasos en la misma batería de tareas de navegador. | Benchmark |
+| [Superar todas las salas de una prueba de Sokoban](#case-78) | Desarrollo de juegos | Registra las salas superadas y revisa la repetición para localizar los atascos. | Benchmark |
+| [Un robot que camina sobre un mapa en Three.js](#case-81) | Escenas y modelado 3D. | Usa los mismos datos del mapa y las mismas indicaciones para comparar las escenas animadas. | Evaluation |
+| [Una galería de mariposas con modelos de Blender](#case-77) | Sitios web e interfaces | Combina un espécimen giratorio con vistas ampliadas y notas de campo. | Demo |
+| [WANDR, la prueba de agentes de Perplexity](#case-82) | Sitios web e interfaces | Compara la puntuación y el coste por tarea. | Benchmark |
+| [Reconstrucción de un retrato a partir de una imagen de referencia](#case-83) | Escenas y modelado 3D. | Compara la postura, el vestuario y la geometría de la escena con la referencia. | Evaluation |
+| [Comparación de dos modelos de abeja mecánica](#case-76) | Escenas y modelado 3D. | Evalúa por separado las piezas móviles y la disposición de la interfaz. | Evaluation |
+| [Un ciervo modelado por cuatro sistemas](#case-84) | Escenas y modelado 3D. | Compara en paralelo la cornamenta, las articulaciones y las proporciones del cuerpo. | Evaluation |
+| [Localizar lugares de GeoGuessr desde el navegador](#case-75) | Sitios web e interfaces | Mantén fijos los puntos de partida, el tiempo y el umbral de distancia al comparar modelos. | Benchmark |
+| [Cuatro modelos recrean la escena del avión Alpine Gold](#case-85) | Escenas y modelado 3D. | Compara la geometría, el entorno y el tiempo de creación con el mismo encargo. | Evaluation |
+| [Una cuadrícula de objetos de vóxeles con distintas versiones de Sol](#case-86) | Escenas y modelado 3D. | Revisa cada instrucción en busca de retrocesos antes de evaluar la batería completa. | Evaluation |
+| [Un reino flotante de vóxeles con dos herramientas de programación](#case-87) | Escenas y modelado 3D. | Registra la herramienta y el tiempo total al comparar escenas de vóxeles. | Evaluation |
+| [Un caballo al galope animado por dos modelos](#case-88) | Gráficos creativos y animación. | Compara el movimiento de las patas y la zancada durante un ciclo completo. | Evaluation |
+| [Fuego y sonido generados con código](#case-74) | Gráficos creativos y animación. | Anota la duración de las piezas junto con el coste y el tiempo de generación. | Evaluation |
+| [Un faro con dos tratamientos visuales](#case-89) | Escenas y modelado 3D. | Compara el encuadre y el estilo de renderizado a partir del mismo encargo. | Evaluation |
+| [Renderizado de un mando con el nivel máximo de razonamiento](#case-90) | Escenas y modelado 3D. | Compara la ubicación de los botones y la forma de la carcasa con el mismo encargo. | Evaluation |
+| [Cuatro casas con globos y movimientos distintos](#case-91) | Escenas y modelado 3D. | Observa cómo se mueve la casa con respecto a los globos. | Evaluation |
+| [Reconstrucción en 3D de una escena de Titanic](#case-92) | Escenas y modelado 3D. | Compara el detalle facial, la puesta en escena y el encuadre de cada versión. | Evaluation |
+| [Dos misiones completadas en RuneScape](#case-93) | Desarrollo de juegos | Examina qué misiones elige el agente y qué recompensas reclama. | Benchmark |
+| [Un simulador de Rube Goldberg en HTML](#case-73) | Escenas y modelado 3D. | Sigue cómo cada fase de la reacción en cadena da paso a la siguiente. | Demo |
+| [Una casa con globos y un fondo generado](#case-72) | Escenas y modelado 3D. | Inspecciona los recursos de la escena cuando el encargo exija construir el fondo en Three.js. | Limit |
+| [Un mundo de splats gaussianos inspirado en Van Gogh](#case-71) | Escenas y modelado 3D. | Compara cómo dos escenas navegables representan la misma composición. | Evaluation |
+| [Errores de generación en VoxelBench 2](#case-70) | Escenas y modelado 3D. | Comprueba que se ejecute el código de vóxeles antes de evaluar la escena renderizada. | Benchmark |
+| [Una animación de 900 fotogramas hecha con código](#case-94) | Gráficos creativos y animación. | Sigue los personajes, el movimiento y el sonido hasta la exportación final. | Demo |
+| [Un juego multijugador en el navegador con controles táctiles](#case-95) | Desarrollo de juegos | Prueba versiones sucesivas y da indicaciones concretas sobre los controles. | Demo |
+| [Una escena marina en torno a varias islas](#case-96) | Escenas y modelado 3D. | Usa un encargo abierto sobre islas para comparar decisiones de composición. | Demo |
+| [Lanternkeep, un juego de construcción de aldeas en el navegador](#case-97) | Desarrollo de juegos | Observa cómo el mapa y el panel de objetivos guían la construcción de la aldea. | Demo |
+| [Una ilustración animada de una banana](#case-98) | Gráficos creativos y animación. | Elige un tema sencillo para ver cómo un modelo introduce movimiento y personalidad. | Demo |
+| [Una partida de Pokémon FireRed basada solo en capturas de pantalla](#case-99) | Desarrollo de juegos | Registra los hitos y el tiempo que tarda el agente en completar el juego. | Benchmark |
+| [Un retrato sobre un lienzo de dibujo en el navegador](#case-100) | Uso de computadora y pintura. | Compara los fotogramas intermedios con la referencia que aparece junto al lienzo. | Demo |
+| [Un pelícano en bicicleta en un solo archivo HTML](#case-101) | Gráficos creativos y animación. | Usa un mismo encargo en SVG y examina en paralelo el movimiento del ave y la bicicleta. | Evaluation |
+| [Un helicóptero con vistas ensamblada y despiezada](#case-102) | Escenas y modelado 3D. | Examina el mismo modelo 3D en vuelo y con sus piezas a la vista. | Demo |
+| [Dos animaciones de figuras de palitos en modo Ultra](#case-103) | Gráficos creativos y animación. | Repite el mismo encargo de animación para ver cuánto varían dos ejecuciones. | Evaluation |
+| [Dos modelos detallados de un BMW](#case-104) | Escenas y modelado 3D. | Compara la silueta, los detalles de los materiales y los ángulos de cámara con el mismo encargo. | Evaluation |
+| [Comparación de embarcaciones y superficies marinas](#case-105) | Escenas y modelado 3D. | Compara las estelas, los reflejos y la respuesta de la escena con el mismo encargo. | Evaluation |
+| [La Torre Eiffel con razonamiento xhigh](#case-106) | Escenas y modelado 3D. | Compara la estructura y su entorno con el mismo nivel de razonamiento. | Evaluation |
+| [Pelícanos en SVG con distintos niveles de razonamiento](#case-123) | Gráficos creativos y animación. | Observa cómo encajan los pedales, las patas y el cuadro de la bicicleta en cada nivel. | Evaluation |
+| [Una isla con agua e iluminación ajustables](#case-107) | Escenas y modelado 3D. | Prueba las ondulaciones del agua y los controles de iluminación mientras giras alrededor de la escena. | Demo |
+| [Navegación desde 50 páginas iniciales de Wikipedia](#case-108) | Sitios web e interfaces | Mantén fijas las páginas de origen y destino al cronometrar la navegación. | Benchmark |
+| [Escenas 3D interactivas evaluadas por personas](#case-122) | Escenas y modelado 3D. | Usa la misma batería y los mismos criterios de evaluación al comparar modelos interactivos. | Benchmark |
+| [Cuatro ejecuciones de una escena de conducción de un camión](#case-109) | Escenas y modelado 3D. | Compara la misma escena de conducción y anota la herramienta de programación. | Evaluation |
+| [Un reparto en bicicleta bajo la lluvia con Sol, Opus y Qwen](#case-110) | Gráficos creativos y animación. | Compara la escena nocturna y el pedaleo entre tres resultados. | Evaluation |
+| [Una habitación detallada con vistas a la ciudad en Blender](#case-111) | Escenas y modelado 3D. | Examina los objetos pequeños del interior y lo que se ve por las ventanas. | Demo |
+| [Un pelícano reparte comida en bicicleta bajo la lluvia](#case-112) | Gráficos creativos y animación. | Examina por separado los reflejos, los charcos, el mobiliario urbano y el entorno en movimiento. | Evaluation |
+| [Un mando de PS5 creado por dos modelos de programación](#case-113) | Escenas y modelado 3D. | Examina la carcasa posterior y los botones laterales además de la vista frontal. | Evaluation |
+| [Un pelícano en bicicleta a plena luz del día en dos versiones](#case-114) | Gráficos creativos y animación. | Compara la calidad del movimiento y el tiempo de ejecución. | Evaluation |
+| [Tres versiones interactivas de la Tierra](#case-115) | Escenas y modelado 3D. | Compara la iluminación y la respuesta de la interfaz mientras gira el globo. | Evaluation |
+| [Un pelícano en bicicleta cerca de un agujero negro](#case-116) | Escenas y modelado 3D. | Observa cómo cambia la escena después de varias rondas de instrucciones. | Demo |
+| [Dos escenas 3D centradas en un contenedor de carga](#case-117) | Escenas y modelado 3D. | Compara la iluminación, los objetos y los acabados de las superficies. | Evaluation |
+| [Un duelo de espadas animado en SVG](#case-118) | Gráficos creativos y animación. | Observa cómo el ritmo y las siluetas transmiten movimiento en una animación vectorial. | Demo |
+| [Un complemento Kanban para sesiones de agentes](#case-119) | Sitios web e interfaces | Comprueba cómo se relacionan las tareas, las sesiones y las colas de revisión en la interfaz. | Integration |
+| [Un paisaje fotorrealista en SVG](#case-120) | Gráficos creativos y animación. | Observa qué detalles se conservan al dibujar un entorno natural con vectores. | Demo |
+| [Una escena junto al lago en Three.js](#case-121) | Escenas y modelado 3D. | Sigue la cámara al pasar junto al bote y la cascada para ver los detalles de la escena. | Demo |
+| [Configurador de 360 grados del Bugatti Chiron](#case-69) | Sitios web e interfaces | Compara los acabados de pintura al girar la cámara alrededor del auto. | Demo |
+| [Un modelo interactivo del Boeing 787-9](#case-68) | Escenas y modelado 3D. | Usa los controles de vista para examinar el exterior del avión y el motor. | Demo |
+| [Prototipo de un juego de carreras costero](#case-67) | Desarrollo de juegos | Comprueba si la cuenta regresiva, la velocidad y el mapa del circuito se leen bien durante la carrera. | Demo |
+| [Un tornado sobre un estacionamiento](#case-66) | Escenas y modelado 3D. | Observa cómo la simulación de una tormenta mueve los escombros en un estacionamiento. | Demo |
+| [Un jardín con carpas koi en Three.js](#case-65) | Escenas y modelado 3D. | Sigue a las carpas para observar el movimiento y los reflejos del agua. | Demo |
+| [Comparación de dos escenas de pagodas](#case-64) | Escenas y modelado 3D. | Compara cómo dos resultados distribuyen la pagoda, los árboles y el agua. | Evaluation |
+| [Vista de despiece de un reloj mecánico](#case-63) | Escenas y modelado 3D. | Examina la esfera y observa cómo el modelo separa sus capas. | Demo |
+| [Un cubo de Rubik en el navegador](#case-62) | Desarrollo de juegos | Usa la vista previa para revisar el giro del cubo y la posición de las pegatinas. | Demo |
+| [Bolas bajo gravedad en un heptágono giratorio](#case-61) | Sitios web e interfaces | Observa cómo se mueven las bolas al girar el recipiente. | Demo |
+| [Comparación de SVG del Rey Mono](#case-60) | Gráficos creativos y animación. | Compara cómo tres sistemas componen la misma escena del Rey Mono. | Evaluation |
+| [Freddie Mercury en MS Paint](#case-1) | Uso de computadora y pintura. | Utilice un retrato para inspeccionar lo que produce un intento de dibujar en el escritorio. | Demo |
+| [Una casa suburbana y un boceto de pelícano.](#case-2) | Escenas y modelado 3D. | Empareje una escena renderizada con una prueba de dibujo compacto. | Demo |
+| [La historia de la humanidad y el futuro de la IA en 3D](#case-3) | Gráficos creativos y animación. | Convierte un resumen narrativo en una secuencia de escenas animadas. | Demo |
+| [El agujero negro interactivo del fin de los tiempos](#case-4) | Sitios web e interfaces | Utilice un agujero negro como punto focal para una página interactiva Three.js. | Demo |
+| [Dos veleros en Three.js con el mismo prompt](#case-5) | Escenas y modelado 3D. | Compare cómo dos resultados manejan los detalles y la interacción en el mismo informe del barco. | Evaluation |
+| [Un tren rojo cruzando un valle de montaña.](#case-6) | Escenas y modelado 3D. | Compara vehículos en movimiento y paisajes en una escena compartida. | Evaluation |
+| [Island Atlas con alternancia de día y noche](#case-7) | Sitios web e interfaces | Utilice una isla 3D compacta para probar los estados de iluminación en una interfaz web. | Demo |
+| [Retrato de Tibo en un estudio de pintura con navegador.](#case-8) | Gráficos creativos y animación. | Inspeccione las etapas de un retrato a medida que la página lo desarrolla. | Demo |
+| [Un Coliseo en ruinas en dos escenas](#case-9) | Escenas y modelado 3D. | Compare la cobertura de la cámara y los detalles arquitectónicos en dos reconstrucciones. | Evaluation |
+| [Pintura de retrato Sam Altman compartida por 0x0SojalSec](#case-10) | Gráficos creativos y animación. | Siga la transición de formas aproximadas a un retrato terminado. | Demo |
+| [Pintura de retrato Sam Altman compartida por Avenoxai](#case-11) | Gráficos creativos y animación. | Vea cómo la demostración del navegador presenta el retrato. | Demo |
+| [Pintura de retrato Sam Altman compartida por pengsonal](#case-12) | Gráficos creativos y animación. | Examine el orden en el que la escena del navegador agrega detalles de retrato. | Demo |
+| [Pintura de retrato Sam Altman compartida por GeekCatX](#case-13) | Gráficos creativos y animación. | Utilice el clip para comparar la composición inicial con la imagen terminada. | Demo |
+| [Retrato Sam Altman en un lienzo de pintura de navegador](#case-14) | Gráficos creativos y animación. | Observe cómo se desarrolla el retrato desde colores bloqueados hasta rasgos más finos. | Demo |
+| [Islas flotantes AETHERIA compartidas por EnvolDev](#case-15) | Escenas y modelado 3D. | Sigue la cámara a través de un paisaje flotante. | Demo |
+| [Un personaje peludo de color púrpura con comparaciones anteriores.](#case-16) | Escenas y modelado 3D. | Separe un nuevo clip de personaje de las salidas de referencia en la misma publicación. | Demo |
+| [Juego de persecución de vóxeles PELICAN PANIC](#case-17) | Desarrollo de juegos | Utilice un juego de persecución breve para inspeccionar los controles, la retroalimentación y el estado final. | Demo |
+| [Un elefante alado llevando un jardín.](#case-18) | Escenas y modelado 3D. | Utilice una única premisa de fantasía para inspeccionar la composición desde varios ángulos. | Demo |
+| [Retrato Dario Amodei en un lienzo de pintura de navegador](#case-19) | Gráficos creativos y animación. | Vea una imagen de referencia que guía un retrato en escena. | Demo |
+| [Una comparación de agujeros negros en Three.js](#case-20) | Escenas y modelado 3D. | Compare las aproximaciones visibles a la misma escena del agujero negro. | Evaluation |
+| [Una comparación de jardines de aguas tranquilas](#case-21) | Escenas y modelado 3D. | Compare el paisajismo y el tratamiento del agua en una tarea de jardín compartida. | Evaluation |
+| [Cuatro comparaciones de animación SVG con Opus 5.5](#case-22) | Gráficos creativos y animación. | Compare el movimiento y los detalles de varios sujetos SVG. | Evaluation |
+| [Otra publicación de pintura de retratos Sam Altman de Ananth7e](#case-23) | Gráficos creativos y animación. | Utilice la grabación compartida para inspeccionar cómo toma forma un retrato de navegador. | Demo |
+| [Un agujero negro con un disco de acreción brillante](#case-24) | Escenas y modelado 3D. | Inspeccione las vistas de la cámara, las partículas y la iluminación de una simulación. | Demo |
+| [Dos ilustraciones de retratos descritas como SVG de solo código](#case-25) | Gráficos creativos y animación. | Compara los retratos renderizados antes de juzgar cómo fueron producidos. | Demo |
+| [Una estrella explotando en una supernova](#case-26) | Escenas y modelado 3D. | Siga un efecto visual desde su estrella inicial hasta la onda de choque. | Demo |
+| [Olas del océano y un faro al atardecer.](#case-27) | Escenas y modelado 3D. | Compara cómo cambian la luz y el color en una escena del océano. | Demo |
+| [Una simulación de tornado en el navegador](#case-28) | Escenas y modelado 3D. | Inspeccione cómo una escena combina rotación, nubes y escombros del suelo. | Demo |
+| [Una ciudad japonesa de pixel art a la luz de la luna](#case-29) | Gráficos creativos y animación. | Utilice una escena animada compacta para inspeccionar la iluminación y los detalles. | Demo |
+| [Un león haciendo malabares mientras monta BMX](#case-30) | Gráficos creativos y animación. | Pruebe el movimiento coordinado en contextos estacionales cambiantes. | Demo |
+| [Un caballo al galope de vista lateral](#case-31) | Gráficos creativos y animación. | Inspeccione las patas y la cola mediante un ciclo de movimiento simple. | Demo |
+| [Un pavo real montando BMX a través de bambú](#case-32) | Gráficos creativos y animación. | Compara el movimiento de una rueda con el movimiento de un personaje detallado. | Demo |
+| [Un santuario de bambú con un puente rojo](#case-33) | Escenas y modelado 3D. | Utilice varios ángulos de cámara para examinar una escena 3D en capas. | Demo |
+| [Una pintura de olas Three.js transitable](#case-34) | Escenas y modelado 3D. | Explora qué cambia cuando una pintura se convierte en una escena navegable. | Demo |
+| [Una vista previa de retrato fotorrealista](#case-35) | Gráficos creativos y animación. | Inspeccione el resultado visible y registre cómo lo describe el autor. | Demo |
+| [Vectorización de retrato Sydney Sweeney](#case-36) | Gráficos creativos y animación. | Realice un seguimiento de la imagen intermedia al evaluar un flujo de trabajo vectorial. | Demo |
+| [Una casa monstruosa modelada en Blender.](#case-37) | Escenas y modelado 3D. | Compare la geometría y las siluetas en tres vistas etiquetadas como Blender. | Evaluation |
+| [Un velero en Three.js](#case-38) | Escenas y modelado 3D. | Siga la publicación para ver un barco construido para una escena de navegador. | Demo |
+| [Las islas flotantes de AETHERIA](#case-39) | Escenas y modelado 3D. | Utilice un recorrido de cámara para examinar la escala y la profundidad de una escena. | Demo |
+| [Un velero interactivo en un archivo HTML](#case-40) | Escenas y modelado 3D. | Utilice aparejos, velas y un punto de vista en movimiento para inspeccionar un modelo de navegador. | Demo |
+| [Pruebas de imagen de referencia en Codex y API](#case-41) | Sitios web e interfaces | Compara lo que hacen dos salidas con la misma referencia antes de atribuir la diferencia. | Evaluation |
+| [Patio vóxel del Jardín de los Cinco Aleros](#case-42) | Escenas y modelado 3D. | Inspeccione la composición y las capas en un entorno de voxel compacto. | Demo |
+| [Un intento inconcluso de transmitir un mensaje](#case-43) | Uso y comunicación de la computadora. | Utilice el intento para ver dónde se detuvo un flujo de trabajo de escritorio. | Limit |
+| [Una comparación del agujero negro Three.js compartida por VraserX](#case-44) | Escenas y modelado 3D. | Inspeccione las escenas de agujeros negros emparejados en el clip compartido. | Evaluation |
+| [Una aldea de cerezos de día y de noche](#case-45) | Escenas y modelado 3D. | Inspeccione el efecto de cambiar la escena entre día y noche. | Demo |
+| [Un guepardo corriendo de vista lateral](#case-46) | Gráficos creativos y animación. | Utilice una vista de perfil fijo para comparar la marcha y el movimiento del cuerpo. | Demo |
+| [Un Coliseo en ruinas por fuera y por dentro.](#case-47) | Escenas y modelado 3D. | Sigue una cámara a través del edificio para ver qué detalles son visibles. | Demo |
+| [Una comparación del agujero negro Three.js por TokenGremlin](#case-48) | Escenas y modelado 3D. | Compare el movimiento de la cámara y la iluminación en dos salidas de agujeros negros. | Evaluation |
+| [Vistas previas del patio Sakura y Wonder Atlas](#case-49) | Escenas y modelado 3D. | Inspeccione cómo dos escenas web manejan la arquitectura y la profundidad. | Demo |
+| [Un Tesla Roadster reconstruido](#case-50) | Escenas y modelado 3D. | Utilice un automóvil conocido como referencia de forma y detalle. | Demo |
+| [Un pelícano y dos cangrejos andando en bicicleta.](#case-51) | Gráficos creativos y animación. | Inspecciona la sincronización de varios personajes animados de una sola vez. | Demo |
+| [Una comparación del controlador PS5 en las configuraciones de Sol](#case-52) | Gráficos creativos y animación. | Utilice un producto familiar para comparar contornos y sombras. | Evaluation |
+| [Una demostración diurna y nocturna de Sakura Village compartida por Haleeeemahh](#case-53) | Escenas y modelado 3D. | Compare cómo lee el mismo pueblo a la luz del día y en la oscuridad. | Demo |
+| [Una demostración diurna y nocturna de Sakura Village compartida por VraserX](#case-54) | Escenas y modelado 3D. | Utilice los estados de iluminación emparejados para inspeccionar un único entorno. | Demo |
+| [Una ilustración de perfil verde BMW M4 CS](#case-55) | Gráficos creativos y animación. | Verifique proporciones y detalles del perfil en un vehículo familiar. | Demo |
+| [Una demostración de día y noche de Sakura Village de TokenGremlin](#case-56) | Escenas y modelado 3D. | Utilice un interruptor de iluminación para comparar una aldea en dos estados. | Demo |
+| [Una casa con vistas interiores y aéreas.](#case-57) | Escenas y modelado 3D. | Inspeccione si un edificio 3D se mantiene coherente en las vistas interiores y exteriores. | Demo |
+| [Un agujero negro de un solo HTML Three.js](#case-58) | Escenas y modelado 3D. | Utilice el clip y las imágenes fijas para inspeccionar cómo una escena maneja varios puntos de vista. | Demo |
+| [Un palacio flotante Three.js](#case-59) | Escenas y modelado 3D. | Inspecciona la escala y la presentación de un palacio suspendido desde varios ángulos. | Demo |
 
-<a id="category-three"></a>
+| Sección | Propósito |
+| --- | --- |
+| [Repositorios relacionados](#related-repositories) | Repositorios de modelos relacionados |
+| [Inicio rápido](#quick-start) | Cómo consultar casos y conocer Sol |
+| [Agradecimientos](#acknowledge) | Créditos de autoría y correcciones |
+
 ## 🧊 Escenas y modelado 3D.
+<a id="category-three"></a>
 
 <a id="case-186"></a>
 ### Caso 186: [Un valle atravesado por un acueducto](https://x.com/givros/status/2124404063802429838) (por [@givros](https://x.com/givros))
@@ -261,7 +267,7 @@ El creador usó Sol, Blender MCP, Three.js y una skill de Codex que desarrolló 
 
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2124402857818398720-f9b743ee2b727f0d1a68.mp4)
 
-Type: Demo | Date: 2026-11-22
+Tipo: Demo | Fecha: 2026-11-22
 
 ---
 
@@ -278,7 +284,7 @@ El creador adaptó un prompt atribuido a @maxt3chno. Según su publicación, Sol
 
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2124255891444658176-00f4759b0fb357f8d466.mp4)
 
-Type: Demo | Date: 2026-11-22
+Tipo: Demo | Fecha: 2026-11-22
 
 ---
 
@@ -293,7 +299,7 @@ El creador pidió a Sol, Astra, Gemini 4 Neon y Opus 5.5 que construyeran el mis
 
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2124203061245792256-cf03822b46631f0f6262.mp4)
 
-Type: Evaluation | Date: 2026-11-21
+Tipo: Evaluation | Fecha: 2026-11-21
 
 ---
 
@@ -312,7 +318,7 @@ El creador usó la misma referencia y un nivel alto de razonamiento. En la publi
 
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2124092476680249344-f23943c1146eec7fca82.mp4)
 
-Type: Evaluation | Date: 2026-11-21
+Tipo: Evaluation | Fecha: 2026-11-21
 
 ---
 
@@ -327,7 +333,7 @@ El creador indicó que Sol Ultra intercambió las vistas frontal y superior. La 
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-197/2124081091166502912-621b83a981fdd01e91b1.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-197/2124081091166502912-621b83a981fdd01e91b1.jpg" width="640" alt="Vista previa de la fuente 2 · Vistas frontal y superior intercambiadas en SolidWorks"></a>
 
-Type: Limit | Date: 2026-11-21
+Tipo: Limit | Fecha: 2026-11-21
 
 ---
 
@@ -348,7 +354,7 @@ El creador proporcionó 12 edificios hechos en Tripo y pidió a Sol con razonami
 
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123934892769918976-4eae5c0968ee503e6c4e.mp4)
 
-Type: Demo | Date: 2026-11-21
+Tipo: Demo | Fecha: 2026-11-21
 
 ---
 
@@ -363,7 +369,7 @@ El creador comparó cuatro versiones de la misma escena y prefirió el detalle d
 
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123831977287761920-470f192dfb8387e2be60.mp4)
 
-Type: Evaluation | Date: 2026-11-20
+Tipo: Evaluation | Fecha: 2026-11-20
 
 ---
 
@@ -380,7 +386,7 @@ En Codex, el creador proporcionó a Sol una imagen generada y compartió el mode
 
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123827600791638017-776fe4105084a1dd4a3a.mp4)
 
-Type: Demo | Date: 2026-11-20
+Tipo: Demo | Fecha: 2026-11-20
 
 ---
 
@@ -395,7 +401,7 @@ El creador indicó que hizo el campo desde cero con Sol Ultrafast en Blender, lo
 
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123783323075956736-b2c061712ede34b19afa.mp4)
 
-Type: Demo | Date: 2026-11-20
+Tipo: Demo | Fecha: 2026-11-20
 
 ---
 
@@ -410,7 +416,7 @@ Andon Labs publicó una puntuación normalizada de 0,570 para Sol en Blueprint-B
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-162/2123570697356390400-74a2a8af091dad776138.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-162/2123570697356390400-74a2a8af091dad776138.jpg" width="640" alt="Vista previa de la fuente 1 · Planos de apartamentos a partir de fotos de interiores"></a>
 
-Type: Benchmark | Date: 2026-11-20
+Tipo: Benchmark | Fecha: 2026-11-20
 
 ---
 
@@ -431,7 +437,7 @@ Build your own headquarters
 
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123523468025069568-e5f5716ef9794c04b495.mp4)
 
-Type: Evaluation | Date: 2026-11-19
+Tipo: Evaluation | Fecha: 2026-11-19
 
 ---
 
@@ -448,7 +454,7 @@ Xplore publicó un 30 % para GPT-6.2 Sol y un 25 % para GPT-6.1 Sol. Según Xplo
 
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123454467416748032-0542ed2a155c44a57654.mp4)
 
-Type: Benchmark | Date: 2026-11-19
+Tipo: Benchmark | Fecha: 2026-11-19
 
 ---
 
@@ -463,7 +469,7 @@ El creador compartió cuatro escenas ficticias de lanzamiento e indicó un tiemp
 
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123312658019667970-026b844d7ffb2853eec4.mp4)
 
-Type: Evaluation | Date: 2026-11-19
+Tipo: Evaluation | Fecha: 2026-11-19
 
 ---
 
@@ -478,7 +484,7 @@ El creador probó cinco modelos en Kilnframe con el mismo fragmento de 14 segund
 
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123434213122711552-8660e900d89ad65142bf.mp4)
 
-Type: Evaluation | Date: 2026-11-19
+Tipo: Evaluation | Fecha: 2026-11-19
 
 ---
 
@@ -493,7 +499,7 @@ El creador dio a tres modelos el mismo reto de Three.js y grabó una vuelta de 3
 
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123422807560429568-534d2b71e433fc51c70b.mp4)
 
-Type: Evaluation | Date: 2026-11-19
+Tipo: Evaluation | Fecha: 2026-11-19
 
 ---
 
@@ -508,7 +514,7 @@ Arena publicó la comparación de Peter Gostev, con detalles 3D en 00:30, movimi
 
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123219277939683328-987cb1d4cfc4a1963bd0.mp4)
 
-Type: Evaluation | Date: 2026-11-19
+Tipo: Evaluation | Fecha: 2026-11-19
 
 ---
 
@@ -529,7 +535,7 @@ Build a huge haunted vampire cathedral
 
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123205744254136320-04d0109a6d09b2f1f3e8.mp4)
 
-Type: Evaluation | Date: 2026-11-19
+Tipo: Evaluation | Fecha: 2026-11-19
 
 ---
 
@@ -544,7 +550,7 @@ El autor dio la misma tarea a Sol y Gemini 4 Neon y prefirió el renderizado de 
 
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123169492578738176-3fe4a52d0f37562d90bb.mp4)
 
-Type: Evaluation | Date: 2026-11-18
+Tipo: Evaluation | Fecha: 2026-11-18
 
 ---
 
@@ -559,7 +565,7 @@ El autor identificó la segunda imagen como la de Sol e indicó un coste de 0,19
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-129/2123161376868724736-59e2b840c413d16674b3.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-129/2123161376868724736-59e2b840c413d16674b3.jpg" width="640" alt="Vista previa de la fuente 2 · Dos versiones de una pagoda"></a>
 
-Type: Evaluation | Date: 2026-11-18
+Tipo: Evaluation | Fecha: 2026-11-18
 
 ---
 
@@ -580,7 +586,7 @@ a miniature fishing harbor in a sunshower, in 3D, camera slowly orbiting. Costs 
 
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123115265034715136-23c148fe6e038e1eda30.mp4)
 
-Type: Evaluation | Date: 2026-11-18
+Tipo: Evaluation | Fecha: 2026-11-18
 
 ---
 
@@ -595,7 +601,7 @@ El autor dio el mismo encargo a cuatro variantes de GPT y prefirió el resultado
 
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123100135349714944-28a8aae41aaad2da3d0d.mp4)
 
-Type: Evaluation | Date: 2026-11-18
+Tipo: Evaluation | Fecha: 2026-11-18
 
 ---
 
@@ -610,7 +616,7 @@ Al autor le gustó el detalle del faro de Sol y Astra, y prefirió el mar de los
 
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123091637643706370-376dd41ffe65db69fd65.mp4)
 
-Type: Evaluation | Date: 2026-11-18
+Tipo: Evaluation | Fecha: 2026-11-18
 
 ---
 
@@ -625,7 +631,7 @@ El creador hizo cuatro ejecuciones sin iterar. Prefirió la lluvia y el barco de
 
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123065757672325120-bcaaf81514cb034659df.mp4)
 
-Type: Evaluation | Date: 2026-11-18
+Tipo: Evaluation | Fecha: 2026-11-18
 
 ---
 
@@ -640,7 +646,7 @@ El autor probó un script de Python por modelo sin recursos prefabricados. Prefi
 
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123033858157297664-acf7c8e5237418896b78.mp4)
 
-Type: Evaluation | Date: 2026-11-18
+Tipo: Evaluation | Fecha: 2026-11-18
 
 ---
 
@@ -655,7 +661,7 @@ El creador planteó el mismo reto de Three.js a Sol y Astra y prefirió los elem
 
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123001247884328960-d4d630036efa4e5b8772.mp4)
 
-Type: Evaluation | Date: 2026-11-18
+Tipo: Evaluation | Fecha: 2026-11-18
 
 ---
 
@@ -670,7 +676,7 @@ El creador probó cinco modelos y prefirió el café de Sol al de Astra. La comp
 
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123008079885443072-e8d5d44c0e221dcb2d5b.mp4)
 
-Type: Evaluation | Date: 2026-11-18
+Tipo: Evaluation | Fecha: 2026-11-18
 
 ---
 
@@ -685,7 +691,7 @@ El creador dio el mismo encargo de Three.js y usó el nivel Max. El vídeo muest
 
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122983225324929024-b058fae56842e0add5e9.mp4)
 
-Type: Evaluation | Date: 2026-11-18
+Tipo: Evaluation | Fecha: 2026-11-18
 
 ---
 
@@ -700,7 +706,7 @@ El creador dio el mismo encargo a Sol y Opus 5.5. El vídeo adjunto muestra el e
 
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122962947903287297-afe59321523d0b8a1d8b.mp4)
 
-Type: Evaluation | Date: 2026-11-18
+Tipo: Evaluation | Fecha: 2026-11-18
 
 ---
 
@@ -715,7 +721,7 @@ El creador prefirió la escena final de Sol, que costó unos 0,37 dólares despu
 
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122961301513424896-9cad9c4dc037b8067bd7.mp4)
 
-Type: Evaluation | Date: 2026-11-18
+Tipo: Evaluation | Fecha: 2026-11-18
 
 ---
 
@@ -738,7 +744,7 @@ El creador usó xhigh en ambas ejecuciones, con Sol a la izquierda y Astra a la 
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-150/2122944600763777024-0fbd5ec8bfabf6da4adc.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-150/2122944600763777024-0fbd5ec8bfabf6da4adc.jpg" width="640" alt="Vista previa de la fuente 4 · Un personaje estilizado en 3D dentro de una página web"></a>
 
-Type: Evaluation | Date: 2026-11-18
+Tipo: Evaluation | Fecha: 2026-11-18
 
 ---
 
@@ -753,7 +759,7 @@ El creador indicó 35 minutos con Sol y una hora con Astra en la misma prueba. D
 
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122931393378529280-cf951de7282c9f9ba333.mp4)
 
-Type: Evaluation | Date: 2026-11-18
+Tipo: Evaluation | Fecha: 2026-11-18
 
 ---
 
@@ -768,7 +774,7 @@ El creador usó Sol con razonamiento bajo en Mesh Avatar Studio y publicó un cl
 
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122914453767524353-6a2ced5f005a267d5008.mp4)
 
-Type: Demo | Date: 2026-11-18
+Tipo: Demo | Fecha: 2026-11-18
 
 ---
 
@@ -787,7 +793,7 @@ Al creador le gustó la reconstrucción de Sol y prefirió el tratamiento de det
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-156/2122913690827800577-eebd800f748b74850142.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-156/2122913690827800577-eebd800f748b74850142.jpg" width="640" alt="Vista previa de la fuente 4 · Comparación de retratos en 3D a partir de una referencia"></a>
 
-Type: Evaluation | Date: 2026-11-18
+Tipo: Evaluation | Fecha: 2026-11-18
 
 ---
 
@@ -802,7 +808,7 @@ Con ambos modelos en xhigh, el creador indicó 3,65 dólares y 1 hora, 28 minuto
 
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122904640580915200-01aa63394e03f3e1699a.mp4)
 
-Type: Evaluation | Date: 2026-11-18
+Tipo: Evaluation | Fecha: 2026-11-18
 
 ---
 
@@ -823,7 +829,7 @@ Make a three js animation where yonkers stands up as a big mech (cool stand up m
 
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122822265545125888-d31b1b651b7e509c87fc.mp4)
 
-Type: Evaluation | Date: 2026-11-17
+Tipo: Evaluation | Fecha: 2026-11-17
 
 ---
 
@@ -836,7 +842,7 @@ El creador pidió a modelos GPT actuales y anteriores que recrearan la referenci
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-83/2122811098290397184-49690f8f4b78dc6c7886.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-83/2122811098290397184-49690f8f4b78dc6c7886.jpg" width="640" alt="Vista previa de la fuente 1 · Reconstrucción de un retrato a partir de una imagen de referencia"></a>
 
-Type: Evaluation | Date: 2026-11-17
+Tipo: Evaluation | Fecha: 2026-11-17
 
 ---
 
@@ -851,7 +857,7 @@ El vídeo muestra las abejas y sus controles en paralelo. El autor prefirió la 
 
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122803167826219008-c7328affdb02e5aa7e77.mp4)
 
-Type: Evaluation | Date: 2026-11-17
+Tipo: Evaluation | Fecha: 2026-11-17
 
 ---
 
@@ -866,7 +872,7 @@ El montaje de FawnBench muestra los ciervos generados por Sol, Astra, Opus 5.5 y
 
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122809522817290242-e5a7a38336a7144f4dbd.mp4)
 
-Type: Evaluation | Date: 2026-11-17
+Tipo: Evaluation | Fecha: 2026-11-17
 
 ---
 
@@ -881,7 +887,7 @@ El creador indica que Sol tardó 30 minutos y 47 segundos y costó 2,07 dólares
 
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122801610845982720-2c969b11731feb423c11.mp4)
 
-Type: Evaluation | Date: 2026-11-17
+Tipo: Evaluation | Fecha: 2026-11-17
 
 ---
 
@@ -894,7 +900,7 @@ El creador compartió una cuadrícula de objetos de vóxeles y señaló que, en 
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-86/2122798589545959424-f20f1a56ed0ed66f03d5.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-86/2122798589545959424-f20f1a56ed0ed66f03d5.jpg" width="640" alt="Vista previa de la fuente 1 · Una cuadrícula de objetos de vóxeles con distintas versiones de Sol"></a>
 
-Type: Evaluation | Date: 2026-11-17
+Tipo: Evaluation | Fecha: 2026-11-17
 
 ---
 
@@ -909,7 +915,7 @@ El creador mostró el reino flotante de cada ejecución e indicó 28 minutos con
 
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122797078279512065-dd7e34ef4e2498971541.mp4)
 
-Type: Evaluation | Date: 2026-11-17
+Tipo: Evaluation | Fecha: 2026-11-17
 
 ---
 
@@ -924,7 +930,7 @@ El creador dice que ambos modelos recibieron la misma instrucción. El vídeo id
 
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122790247327010816-1259306616718e0fb170.mp4)
 
-Type: Evaluation | Date: 2026-11-17
+Tipo: Evaluation | Fecha: 2026-11-17
 
 ---
 
@@ -937,7 +943,7 @@ La fuente identifica las imágenes de mandos creadas por Sol, Astra y Opus 5.5. 
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-90/2122788803912007680-dacabe773c79e522bd2c.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-90/2122788803912007680-dacabe773c79e522bd2c.jpg" width="640" alt="Vista previa de la fuente 1 · Renderizado de un mando con el nivel máximo de razonamiento"></a>
 
-Type: Evaluation | Date: 2026-11-17
+Tipo: Evaluation | Fecha: 2026-11-17
 
 ---
 
@@ -952,7 +958,7 @@ El creador compara cuatro resultados del mismo ejercicio y destaca el balanceo e
 
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122784867914002432-8d00ba7c14ff79aae8d8.mp4)
 
-Type: Evaluation | Date: 2026-11-17
+Tipo: Evaluation | Fecha: 2026-11-17
 
 ---
 
@@ -967,7 +973,7 @@ El creador compara modelos GPT actuales y anteriores con una escena de la pelíc
 
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122782517963231232-01580fcc6b1aba4b397c.mp4)
 
-Type: Evaluation | Date: 2026-11-17
+Tipo: Evaluation | Fecha: 2026-11-17
 
 ---
 
@@ -982,7 +988,7 @@ El autor indicó que usó un solo prompt con GPT-6.2 Sol en Max. La grabación s
 
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122772945982660608-a1e7d3419ebbeb4c61bb.mp4)
 
-Type: Demo | Date: 2026-11-17
+Tipo: Demo | Fecha: 2026-11-17
 
 ---
 
@@ -997,7 +1003,7 @@ El vídeo muestra la casa desde distintos ángulos. Según el autor, Sol generó
 
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122779173106364417-ce071a2bea10e55854ce.mp4)
 
-Type: Limit | Date: 2026-11-17
+Tipo: Limit | Fecha: 2026-11-17
 
 ---
 
@@ -1012,7 +1018,7 @@ El autor mostró juntas las escenas de Sol y Opus 5.5. Indicó cerca de una hora
 
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122778178783752192-8bc5b1a659aaf321bca3.mp4)
 
-Type: Evaluation | Date: 2026-11-17
+Tipo: Evaluation | Fecha: 2026-11-17
 
 ---
 
@@ -1025,7 +1031,7 @@ VoxelBench registró 62 errores para GPT-6.2 Sol y 19 para GPT-6.2 Astra en su b
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-70/2122777747541868545-95f3c71b7db391dfffcd.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-70/2122777747541868545-95f3c71b7db391dfffcd.jpg" width="640" alt="Vista previa de la fuente 1 · Errores de generación en VoxelBench 2"></a>
 
-Type: Benchmark | Date: 2026-11-17
+Tipo: Benchmark | Fecha: 2026-11-17
 
 ---
 
@@ -1038,7 +1044,7 @@ El creador identificó el render adjunto como resultado de Sol e indicó que la 
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-96/2122770338882678784-3685e75d3c25d27356e3.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-96/2122770338882678784-3685e75d3c25d27356e3.jpg" width="640" alt="Vista previa de la fuente 1 · Una escena marina en torno a varias islas"></a>
 
-Type: Demo | Date: 2026-11-17
+Tipo: Demo | Fecha: 2026-11-17
 
 ---
 
@@ -1053,7 +1059,7 @@ El creador indica que Sol tardó siete minutos. El vídeo muestra el helicópter
 
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122759643076149248-ab3c69be40939668496f.mp4)
 
-Type: Demo | Date: 2026-11-17
+Tipo: Demo | Fecha: 2026-11-17
 
 ---
 
@@ -1068,7 +1074,7 @@ El creador mostró los resultados de Sol y Astra para un BMW detallado y expres�
 
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122759152346726401-3f101f403955d33ccfa0.mp4)
 
-Type: Evaluation | Date: 2026-11-17
+Tipo: Evaluation | Fecha: 2026-11-17
 
 ---
 
@@ -1083,7 +1089,7 @@ El montaje identifica los resultados de Sol 6.2 y Sol 6.1 junto a los de Astra y
 
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122758142068969472-316188886f8375c689ce.mp4)
 
-Type: Evaluation | Date: 2026-11-17
+Tipo: Evaluation | Fecha: 2026-11-17
 
 ---
 
@@ -1098,7 +1104,7 @@ El creador compartió dos versiones de la Torre Eiffel atribuidas a Sol y Astra,
 
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122758010401386496-51b887d17e5c63d5499e.mp4)
 
-Type: Evaluation | Date: 2026-11-17
+Tipo: Evaluation | Fecha: 2026-11-17
 
 ---
 
@@ -1113,7 +1119,7 @@ El creador indica que Sol tardó 14 minutos. La demostración muestra una isla e
 
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122754375148085249-33fc598b8af98e28b469.mp4)
 
-Type: Demo | Date: 2026-11-17
+Tipo: Demo | Fecha: 2026-11-17
 
 ---
 
@@ -1126,7 +1132,7 @@ En su informe del día del lanzamiento, Artificial Analysis publicó puntuacione
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-122/2122747871909089280-5008660ef583b6004dbd.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-122/2122747871909089280-5008660ef583b6004dbd.jpg" width="640" alt="Vista previa de la fuente 1 · Escenas 3D interactivas evaluadas por personas"></a>
 
-Type: Benchmark | Date: 2026-11-17
+Tipo: Benchmark | Fecha: 2026-11-17
 
 ---
 
@@ -1141,7 +1147,7 @@ El creador muestra cuatro escenas identificadas y señala que Sol tardó 15 minu
 
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122210853999312896-ff27a563edb434e73b99.mp4)
 
-Type: Evaluation | Date: 2026-11-16
+Tipo: Evaluation | Fecha: 2026-11-16
 
 ---
 
@@ -1154,7 +1160,7 @@ El creador indica una ejecución de unos 30 minutos en modo Max y muestra una ha
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-111/2122035087764058112-21b99f2331bdc5cbd5f6.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-111/2122035087764058112-21b99f2331bdc5cbd5f6.jpg" width="640" alt="Vista previa de la fuente 1 · Una habitación detallada con vistas a la ciudad en Blender"></a>
 
-Type: Demo | Date: 2026-11-15
+Tipo: Demo | Fecha: 2026-11-15
 
 ---
 
@@ -1169,7 +1175,7 @@ El evaluador indica 11 minutos con Sol y tres con Gemini 4 Hydrogen. Observó de
 
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2121451983882059776-f3bfbfcac4a44b9ccf3f.mp4)
 
-Type: Evaluation | Date: 2026-11-14
+Tipo: Evaluation | Fecha: 2026-11-14
 
 ---
 
@@ -1184,7 +1190,7 @@ El creador muestra tres resultados identificados obtenidos con la misma instrucc
 
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2121198943153405952-cf0ef283fad351f72f02.mp4)
 
-Type: Evaluation | Date: 2026-11-13
+Tipo: Evaluation | Fecha: 2026-11-13
 
 ---
 
@@ -1199,7 +1205,7 @@ El creador atribuye la escena interactiva a un acceso temprano a Sol e indica qu
 
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2120886190480183296-db1ef2a4fc62055a4696.mp4)
 
-Type: Demo | Date: 2026-11-12
+Tipo: Demo | Fecha: 2026-11-12
 
 ---
 
@@ -1214,7 +1220,7 @@ El creador compartió imágenes identificadas como Sol y Fable 5.2. Ambas muestr
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-117/2120851432718962688-6004a93f85caaab2a67e.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-117/2120851432718962688-6004a93f85caaab2a67e.jpg" width="640" alt="Vista previa de la fuente 2 · Dos escenas 3D centradas en un contenedor de carga"></a>
 
-Type: Evaluation | Date: 2026-11-12
+Tipo: Evaluation | Fecha: 2026-11-12
 
 ---
 
@@ -1231,7 +1237,7 @@ El creador indica que construyó la escena en Three.js con texturas e iluminaci�
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-121/2119850475327496192-c54cc99aee779e8ff0a1.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-121/2119850475327496192-c54cc99aee779e8ff0a1.jpg" width="640" alt="Vista previa de la fuente 2 · Una escena junto al lago en Three.js"></a>
 
-Type: Demo | Date: 2026-11-09
+Tipo: Demo | Fecha: 2026-11-09
 
 ---
 
@@ -1246,7 +1252,7 @@ La grabación muestra un 787-9 que se puede girar, vistas alternativas y un cort
 
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119687852141551616-093a9713679a3d5eb80b.mp4)
 
-Type: Demo | Date: 2026-11-09
+Tipo: Demo | Fecha: 2026-11-09
 
 ---
 
@@ -1261,7 +1267,7 @@ El video muestra un tornado sobre un estacionamiento en miniatura y levanta esco
 
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119668021623201792-fe62c5ab6f21ecf5e155.mp4)
 
-Type: Demo | Date: 2026-11-09
+Tipo: Demo | Fecha: 2026-11-09
 
 ---
 
@@ -1276,7 +1282,7 @@ El autor describe un jardín hecho con Three.js en un solo archivo HTML. El vide
 
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119648453227884544-bee45570bdf53daf5f45.mp4)
 
-Type: Demo | Date: 2026-11-09
+Tipo: Demo | Fecha: 2026-11-09
 
 ---
 
@@ -1291,7 +1297,7 @@ El video identifica la escena superior como GPT-6.2 Sol y la inferior como Opus 
 
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119663168578637824-e1a40ebc49f22aacda95.mp4)
 
-Type: Evaluation | Date: 2026-11-09
+Tipo: Evaluation | Fecha: 2026-11-09
 
 ---
 
@@ -1306,7 +1312,7 @@ El video pasa del reloj montado a una vista de despiece, con la esfera y los com
 
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119644705072046080-2e9ea2a58509a7177571.mp4)
 
-Type: Demo | Date: 2026-11-09
+Tipo: Demo | Fecha: 2026-11-09
 
 ---
 
@@ -1324,7 +1330,7 @@ La publicación muestra un diorama de la casa Three.js y un dibujo de un pelíca
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-02/2119532554088742912-0aa402b50c531d333c76.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-02/2119532554088742912-0aa402b50c531d333c76.jpg" width="640" alt="Vista previa de la fuente 3 · Una casa suburbana y un boceto de pelícano."></a>
 
-Type: Demo | Date: 2026-11-08
+Tipo: Demo | Fecha: 2026-11-08
 
 ---
 
@@ -1346,7 +1352,7 @@ create an interactive sailing ship in three.js, make it detailed as possible:
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119502925797953536-f1e1d1b1900d66b4eb77.mp4)
 
 
-Type: Evaluation | Date: 2026-11-08
+Tipo: Evaluation | Fecha: 2026-11-08
 
 ---
 
@@ -1362,7 +1368,7 @@ Las dos salidas etiquetadas muestran un tren rojo viajando por una vía elevada 
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119503068949856256-bca1ef454e3e673e2bce.mp4)
 
 
-Type: Evaluation | Date: 2026-11-08
+Tipo: Evaluation | Fecha: 2026-11-08
 
 ---
 
@@ -1378,7 +1384,7 @@ El clip combina un resultado etiquetado como Sol routed con uno etiquetado como 
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119498709633220608-26722fac9106b56240f3.mp4)
 
 
-Type: Evaluation | Date: 2026-11-08
+Tipo: Evaluation | Fecha: 2026-11-08
 
 ---
 
@@ -1394,7 +1400,7 @@ El clip se mueve entre islas, cascadas y un templo antes de mostrar un título f
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119437684120707072-bd2ec92a5b611ac8fbd3.mp4)
 
 
-Type: Demo | Date: 2026-11-08
+Tipo: Demo | Fecha: 2026-11-08
 
 ---
 
@@ -1412,7 +1418,7 @@ El video muestra al personaje morado girando. Dos imágenes fijas están etiquet
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-16/2119479019515396096-43ac0320808f9c27b0e1.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-16/2119479019515396096-43ac0320808f9c27b0e1.png" width="640" alt="Vista previa de la fuente 2 · Un personaje peludo de color púrpura con comparaciones anteriores."></a>
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-16/2119479313682837504-7663aa353ea789acf78d.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-16/2119479313682837504-7663aa353ea789acf78d.png" width="640" alt="Vista previa de la fuente 3 · Un personaje peludo de color púrpura con comparaciones anteriores."></a>
 
-Type: Demo | Date: 2026-11-08
+Tipo: Demo | Fecha: 2026-11-08
 
 ---
 
@@ -1428,12 +1434,12 @@ La escena muestra un elefante de alas doradas cargando un jardín japonés por e
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119478210362830848-d6ea2866b74f766af2f6.mp4)
 
 
-Type: Demo | Date: 2026-11-08
+Tipo: Demo | Fecha: 2026-11-08
 
 ---
 
 <a id="case-20"></a>
-### Caso 20: [Una comparación del agujero negro Three.js compartida por rubenssoto_ai](https://x.com/rubenssoto_ai/status/2119473734109237340) (por [@rubenssoto_ai](https://x.com/rubenssoto_ai))
+### Caso 20: [Una comparación de agujeros negros en Three.js](https://x.com/rubenssoto_ai/status/2119473734109237340) (por [@rubenssoto_ai](https://x.com/rubenssoto_ai))
 
 **Compare las aproximaciones visibles a la misma escena del agujero negro.**
 
@@ -1444,7 +1450,7 @@ La nueva publicación comparte una comparación del agujero negro Three.js con u
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119423566944854016-8c4caf17341d8a78d874.mp4)
 
 
-Type: Evaluation | Date: 2026-11-08
+Tipo: Evaluation | Fecha: 2026-11-08
 
 ---
 
@@ -1460,7 +1466,7 @@ El autor muestra dos versiones de un jardín con estanque y atribuye a cada ejec
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119473584762396672-106a151b52cb169e2c2c.mp4)
 
 
-Type: Evaluation | Date: 2026-11-08
+Tipo: Evaluation | Fecha: 2026-11-08
 
 ---
 
@@ -1476,7 +1482,7 @@ El vídeo muestra un agujero negro y su disco luminoso desde varios ángulos. El
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119468024617160704-bfc0fbb47f7d3c7694cf.mp4)
 
 
-Type: Demo | Date: 2026-11-08
+Tipo: Demo | Fecha: 2026-11-08
 
 ---
 
@@ -1492,7 +1498,7 @@ El clip muestra una estrella luminosa, plasma rojo y azul y una onda de choque e
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119464782411780096-387c3d42a21af2cb937f.mp4)
 
 
-Type: Demo | Date: 2026-11-08
+Tipo: Demo | Fecha: 2026-11-08
 
 ---
 
@@ -1508,7 +1514,7 @@ El clip muestra olas, un faro bajo la luz de la luna y una paleta de atardecer. 
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119464564764913664-797c1ea0854763829f67.mp4)
 
 
-Type: Demo | Date: 2026-11-08
+Tipo: Demo | Fecha: 2026-11-08
 
 ---
 
@@ -1530,7 +1536,7 @@ El clip muestra el tornado desde varios ángulos. El autor informa una ejecució
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119464225299152896-e1c4fd72c33b93d86e9f.mp4)
 
 
-Type: Demo | Date: 2026-11-08
+Tipo: Demo | Fecha: 2026-11-08
 
 ---
 
@@ -1552,7 +1558,7 @@ Bamboo sanctuary in the middle of beautiful forest using three js
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119453077665423360-a208c63131dd89043dd8.mp4)
 
 
-Type: Demo | Date: 2026-11-08
+Tipo: Demo | Fecha: 2026-11-08
 
 ---
 
@@ -1569,7 +1575,7 @@ La publicación combina una imagen de referencia con una escena por la que la c�
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-34/2119443814934851584-c1bc6009a5d9a1dd22c7.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-34/2119443814934851584-c1bc6009a5d9a1dd22c7.jpg" width="640" alt="Vista previa de la fuente 2 · Una pintura de olas Three.js transitable"></a>
 
-Type: Demo | Date: 2026-11-08
+Tipo: Demo | Fecha: 2026-11-08
 
 ---
 
@@ -1585,12 +1591,12 @@ Los paneles están etiquetados como Astra, «routed GPT Sol 6.2» y Opus 5.5. Mu
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119439156862472192-769177330371f94ec66f.mp4)
 
 
-Type: Evaluation | Date: 2026-11-08
+Tipo: Evaluation | Fecha: 2026-11-08
 
 ---
 
 <a id="case-38"></a>
-### Caso 38: [Un velero Three.js compartido por karanC_12](https://x.com/karanC_12/status/2119438098438504502) (por [@karanC_12](https://x.com/karanC_12))
+### Caso 38: [Un velero en Three.js](https://x.com/karanC_12/status/2119438098438504502) (por [@karanC_12](https://x.com/karanC_12))
 
 **Siga la publicación para ver un barco construido para una escena de navegador.**
 
@@ -1601,12 +1607,12 @@ La publicación comparte imágenes del mismo material del velero que la demostra
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119436763835854848-c880c3e4797b29bb5bc2.mp4)
 
 
-Type: Demo | Date: 2026-11-08
+Tipo: Demo | Fecha: 2026-11-08
 
 ---
 
 <a id="case-39"></a>
-### Caso 39: [Islas flotantes AETHERIA de Mr_Salio](https://x.com/Mr_Salio/status/2119437812604838342) (por [@Mr_Salio](https://x.com/Mr_Salio))
+### Caso 39: [Las islas flotantes de AETHERIA](https://x.com/Mr_Salio/status/2119437812604838342) (por [@Mr_Salio](https://x.com/Mr_Salio))
 
 **Utilice un recorrido de cámara para examinar la escala y la profundidad de una escena.**
 
@@ -1617,7 +1623,7 @@ El clip muestra nubes, islas flotantes, un templo y cascadas. La publicación de
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119437684120707072-bd2ec92a5b611ac8fbd3.mp4)
 
 
-Type: Demo | Date: 2026-11-08
+Tipo: Demo | Fecha: 2026-11-08
 
 ---
 
@@ -1633,7 +1639,7 @@ El autor presenta un barco Three.js detallado y lo describe como un único archi
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119436763835854848-c880c3e4797b29bb5bc2.mp4)
 
 
-Type: Demo | Date: 2026-11-08
+Tipo: Demo | Fecha: 2026-11-08
 
 ---
 
@@ -1646,7 +1652,7 @@ La imagen fija muestra una torre escalonada, cerezos, un puente arqueado y un es
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-42/2119431646592069633-57818fd711183654054f.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-42/2119431646592069633-57818fd711183654054f.jpg" width="640" alt="Vista previa de la fuente 1 · Patio vóxel del Jardín de los Cinco Aleros"></a>
 
-Type: Demo | Date: 2026-11-08
+Tipo: Demo | Fecha: 2026-11-08
 
 ---
 
@@ -1662,12 +1668,12 @@ La nueva publicación comparte el mismo material de comparación que otras entra
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119423566944854016-8c4caf17341d8a78d874.mp4)
 
 
-Type: Evaluation | Date: 2026-11-08
+Tipo: Evaluation | Fecha: 2026-11-08
 
 ---
 
 <a id="case-45"></a>
-### Caso 45: [Una demostración diurna y nocturna de Sakura Village compartida por jessexai_](https://x.com/jessexai_/status/2119424781367881920) (por [@jessexai_](https://x.com/jessexai_))
+### Caso 45: [Una aldea de cerezos de día y de noche](https://x.com/jessexai_/status/2119424781367881920) (por [@jessexai_](https://x.com/jessexai_))
 
 **Inspeccione el efecto de cambiar la escena entre día y noche.**
 
@@ -1678,7 +1684,7 @@ La publicación comparte una grabación de la aldea Three.js que aparece en otra
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119409755286384640-c9f151ea8d8c1145a64f.mp4)
 
 
-Type: Demo | Date: 2026-11-08
+Tipo: Demo | Fecha: 2026-11-08
 
 ---
 
@@ -1694,7 +1700,7 @@ El clip cubre el exterior, el interior y un ángulo superior. Su estructura coin
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119424041870065664-5940ed4a62430aeee154.mp4)
 
 
-Type: Demo | Date: 2026-11-08
+Tipo: Demo | Fecha: 2026-11-08
 
 ---
 
@@ -1710,7 +1716,7 @@ El clip combina la escena Three.js con una comparación de Opus. Otros creadores
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119423566944854016-8c4caf17341d8a78d874.mp4)
 
 
-Type: Evaluation | Date: 2026-11-08
+Tipo: Evaluation | Fecha: 2026-11-08
 
 ---
 
@@ -1724,7 +1730,7 @@ Una imagen fija muestra un patio de vóxeles de Sakura. El otro muestra a Petra 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-49/2119421806884872192-b4a23bb6a9e591b16af5.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-49/2119421806884872192-b4a23bb6a9e591b16af5.jpg" width="640" alt="Vista previa de la fuente 1 · Vistas previas del patio Sakura y Wonder Atlas"></a>
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-49/2119421844998549504-3b77677048389bb1f0db.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-49/2119421844998549504-3b77677048389bb1f0db.jpg" width="640" alt="Vista previa de la fuente 2 · Vistas previas del patio Sakura y Wonder Atlas"></a>
 
-Type: Demo | Date: 2026-11-08
+Tipo: Demo | Fecha: 2026-11-08
 
 ---
 
@@ -1740,7 +1746,7 @@ El clip muestra un Tesla Roadster reconstruido. El autor deja abierto si el resu
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119420776025862144-34cfb4f66073bab24c47.mp4)
 
 
-Type: Demo | Date: 2026-11-08
+Tipo: Demo | Fecha: 2026-11-08
 
 ---
 
@@ -1756,7 +1762,7 @@ La publicación comparte imágenes de la aldea Three.js de la familia de materia
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119409755286384640-c9f151ea8d8c1145a64f.mp4)
 
 
-Type: Demo | Date: 2026-11-08
+Tipo: Demo | Fecha: 2026-11-08
 
 ---
 
@@ -1772,7 +1778,7 @@ El clip es otra publicación que comparte imágenes de la aldea Sakura.
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119409755286384640-c9f151ea8d8c1145a64f.mp4)
 
 
-Type: Demo | Date: 2026-11-08
+Tipo: Demo | Fecha: 2026-11-08
 
 ---
 
@@ -1788,7 +1794,7 @@ La grabación muestra el pueblo Three.js de día y de noche. Varias otras public
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119409755286384640-c9f151ea8d8c1145a64f.mp4)
 
 
-Type: Demo | Date: 2026-11-08
+Tipo: Demo | Fecha: 2026-11-08
 
 ---
 
@@ -1804,7 +1810,7 @@ El adjunto muestra la casa, sala, dormitorio, terraza y una vista aérea. El aut
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119403044274114560-550bb6f548146e501c0d.mp4)
 
 
-Type: Demo | Date: 2026-11-08
+Tipo: Demo | Fecha: 2026-11-08
 
 ---
 
@@ -1822,7 +1828,7 @@ El autor describe el resultado como un único archivo HTML. La publicación tamb
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-58/2119395920999497728-91692619ab6baecef6db.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-58/2119395920999497728-91692619ab6baecef6db.jpg" width="640" alt="Vista previa de la fuente 2 · Un agujero negro de un solo HTML Three.js"></a>
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-58/2119395925982355456-9154ce589ec778c4ee10.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-58/2119395925982355456-9154ce589ec778c4ee10.jpg" width="640" alt="Vista previa de la fuente 3 · Un agujero negro de un solo HTML Three.js"></a>
 
-Type: Demo | Date: 2026-11-08
+Tipo: Demo | Fecha: 2026-11-08
 
 ---
 
@@ -1840,12 +1846,12 @@ La fuente muestra un palacio flotante en una escena Three.js y especula sobre el
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-59/2119371325634433025-5b751df2d6a45b82b403.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-59/2119371325634433025-5b751df2d6a45b82b403.jpg" width="640" alt="Vista previa de la fuente 2 · Un palacio flotante Three.js"></a>
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-59/2119371330516566016-b39d93dfe248ca1a9f0f.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-59/2119371330516566016-b39d93dfe248ca1a9f0f.jpg" width="640" alt="Vista previa de la fuente 3 · Un palacio flotante Three.js"></a>
 
-Type: Demo | Date: 2026-11-08
+Tipo: Demo | Fecha: 2026-11-08
 
 ---
 
-<a id="category-communication"></a>
 ## 💬 Uso y comunicación de la computadora.
+<a id="category-communication"></a>
 
 <a id="case-187"></a>
 ### Caso 187: [Generación de imágenes ante una suma sencilla](https://x.com/KrishnaBuildsAI/status/2124374855332356527) (por [@KrishnaBuildsAI](https://x.com/KrishnaBuildsAI))
@@ -1864,7 +1870,7 @@ What is 500+500
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-187/2124374846599798784-c38846ecb783f3715d18.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-187/2124374846599798784-c38846ecb783f3715d18.jpg" width="640" alt="Vista previa de la fuente 2 · Generación de imágenes ante una suma sencilla"></a>
 
-Type: Limit | Date: 2026-11-22
+Tipo: Limit | Fecha: 2026-11-22
 
 ---
 
@@ -1877,7 +1883,7 @@ La tabla de resultados del creador indica que Sol encontró 6 de 20 errores hist
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-192/2124183391436242944-e23abdd3e1e2c795495b.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-192/2124183391436242944-e23abdd3e1e2c795495b.png" width="640" alt="Vista previa de la fuente 1 · Detección de errores conocidos al revisar una base de datos"></a>
 
-Type: Benchmark | Date: 2026-11-21
+Tipo: Benchmark | Fecha: 2026-11-21
 
 ---
 
@@ -1892,7 +1898,7 @@ El creador usa Paseo como punto de acceso desde el escritorio y entra a los bots
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-194/2124163587530973184-ac480b1ad79018c1d2be.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-194/2124163587530973184-ac480b1ad79018c1d2be.jpg" width="640" alt="Vista previa de la fuente 2 · Configuraciones de Sol para agentes de Hermes y Pi"></a>
 
-Type: Integration | Date: 2026-11-21
+Tipo: Integration | Fecha: 2026-11-21
 
 ---
 
@@ -1921,7 +1927,7 @@ El autor compartió tres textos de modelos y otro escrito por una persona para u
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-198/2124041505870585856-d29e292ef86b7178e225.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-198/2124041505870585856-d29e292ef86b7178e225.jpg" width="640" alt="Vista previa de la fuente 8 · Una comparación a ciegas de ficción breve"></a>
 
-Type: Evaluation | Date: 2026-11-21
+Tipo: Evaluation | Fecha: 2026-11-21
 
 ---
 
@@ -1934,7 +1940,7 @@ El gráfico de ParseBench 2 de LlamaIndex indica una puntuación global de 82,12
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-176/2123945732264923137-2fc287ffe70da3991916.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-176/2123945732264923137-2fc287ffe70da3991916.jpg" width="640" alt="Vista previa de la fuente 1 · Análisis de documentos con dos niveles de razonamiento"></a>
 
-Type: Benchmark | Date: 2026-11-21
+Tipo: Benchmark | Fecha: 2026-11-21
 
 ---
 
@@ -1949,7 +1955,7 @@ El gráfico publicado de la prueba sitúa a Sol en nivel high en un 76,4 % globa
 
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123877042928406528-4b38126f911f97edc79e.mp4)
 
-Type: Benchmark | Date: 2026-11-20
+Tipo: Benchmark | Fecha: 2026-11-20
 
 ---
 
@@ -1962,7 +1968,7 @@ El autor comparó Sol, Opus 5.5 y Gemini 4 Neon en 15 tareas con más de 4700 vo
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-181/2123826094998437888-9c51ceb178cca88b8b96.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-181/2123826094998437888-9c51ceb178cca88b8b96.jpg" width="640" alt="Vista previa de la fuente 1 · Una comparación de tareas de marketing"></a>
 
-Type: Benchmark | Date: 2026-11-20
+Tipo: Benchmark | Fecha: 2026-11-20
 
 ---
 
@@ -1977,7 +1983,7 @@ CodeRabbit detectó 60 de 81 problemas conocidos con Sol 6.2 en nivel high, fren
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-185/coderabbit-50580780-sol-review-table-9cd3782931e24f3a6d35.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-185/coderabbit-50580780-sol-review-table-9cd3782931e24f3a6d35.png" width="640" alt="Vista previa de la fuente 1 · Revisión de solicitudes de cambios en CodeRabbit"></a>
 
-Type: Benchmark | Date: 2026-11-19
+Tipo: Benchmark | Fecha: 2026-11-19
 
 ---
 
@@ -1992,7 +1998,7 @@ Legora indicó que Sol superó la calidad media con un coste por caso un 78 % in
 
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123460256260870144-6da8a1113b471ce42386.mp4)
 
-Type: Benchmark | Date: 2026-11-19
+Tipo: Benchmark | Fecha: 2026-11-19
 
 ---
 
@@ -2007,7 +2013,7 @@ AI Digest incorporó Sol y Astra a AI Village y publicó sus respuestas a 15 pre
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-170/2123446492765798400-c64a85a5d0d85d04cf39.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-170/2123446492765798400-c64a85a5d0d85d04cf39.jpg" width="640" alt="Vista previa de la fuente 2 · Preguntas de perfil respondidas de forma independiente en AI Village"></a>
 
-Type: Integration | Date: 2026-11-19
+Tipo: Integration | Fecha: 2026-11-19
 
 ---
 
@@ -2028,7 +2034,7 @@ El autor probó Sol y Gemini 4 Neon con el mismo informe sobre una solicitud de 
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-124/2123354067988824064-5ec42709de761e85172e.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-124/2123354067988824064-5ec42709de761e85172e.jpg" width="640" alt="Vista previa de la fuente 2 · Un informe de estado de PR que omite las instrucciones del repositorio"></a>
 
-Type: Limit | Date: 2026-11-19
+Tipo: Limit | Fecha: 2026-11-19
 
 ---
 
@@ -2043,7 +2049,7 @@ El desarrollador añadió Sol a AITuber OnAir y mostró una conversación. La in
 
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123040557064966144-63e1c247fbe9574434f1.mp4)
 
-Type: Integration | Date: 2026-11-18
+Tipo: Integration | Fecha: 2026-11-18
 
 ---
 
@@ -2056,7 +2062,7 @@ En la prueba con una recepción simulada, el autor del benchmark observó que So
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-155/2122905857700585472-c7658e9ed55fe97f9cbb.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-155/2122905857700585472-c7658e9ed55fe97f9cbb.jpg" width="640" alt="Vista previa de la fuente 1 · Llamadas simuladas a una clínica en FrontDesk-Bench"></a>
 
-Type: Benchmark | Date: 2026-11-18
+Tipo: Benchmark | Fecha: 2026-11-18
 
 ---
 
@@ -2070,12 +2076,12 @@ Las capturas de pantalla muestran un intento de encontrar al destinatario despu�
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-43/2119428121711775744-8419b4e0c62aa252d1dc.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-43/2119428121711775744-8419b4e0c62aa252d1dc.jpg" width="640" alt="Vista previa de la fuente 1 · Un intento inconcluso de transmitir un mensaje"></a>
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-43/2119428270945140736-f9662043dadb9a6e4b1b.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-43/2119428270945140736-f9662043dadb9a6e4b1b.jpg" width="640" alt="Vista previa de la fuente 2 · Un intento inconcluso de transmitir un mensaje"></a>
 
-Type: Limit | Date: 2026-11-08
+Tipo: Limit | Fecha: 2026-11-08
 
 ---
 
-<a id="category-game"></a>
 ## 🎮 Desarrollo de juegos
+<a id="category-game"></a>
 
 <a id="case-188"></a>
 ### Caso 188: [Ocho escenarios de televisión reconstruidos en Minecraft](https://x.com/jan_volad/status/2124308264456233400) (por [@jan_volad](https://x.com/jan_volad))
@@ -2088,7 +2094,7 @@ El creador dio el mismo encargo a Sol y a Gemini 4 Neon y prefirió las construc
 
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2124308031689183232-b013e9cbed63a5cccda8.mp4)
 
-Type: Evaluation | Date: 2026-11-22
+Tipo: Evaluation | Fecha: 2026-11-22
 
 ---
 
@@ -2103,7 +2109,7 @@ El creador publicó las interpretaciones de ambos modelos de las ruinas de Shell
 
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123910307449896960-334715fc2e1fdf12d740.mp4)
 
-Type: Evaluation | Date: 2026-11-21
+Tipo: Evaluation | Fecha: 2026-11-21
 
 ---
 
@@ -2124,7 +2130,7 @@ DesignArena indicó que Sol en nivel high quedó tercero en su clasificación Ga
 
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123854486783553536-39929a7046f4320fcbe0.mp4)
 
-Type: Benchmark | Date: 2026-11-20
+Tipo: Benchmark | Fecha: 2026-11-20
 
 ---
 
@@ -2139,7 +2145,7 @@ El proyecto Corner Walk del creador recopiló observaciones mediante GPS, una c�
 
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123826091110383617-45fec4a74a3832012d99.mp4)
 
-Type: Demo | Date: 2026-11-20
+Tipo: Demo | Fecha: 2026-11-20
 
 ---
 
@@ -2154,7 +2160,7 @@ El creador dio la misma tarea a Sol y Astra y compartió ambos prototipos. La ej
 
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123599517236817921-3ec7dd5b18f3301d8be3.mp4)
 
-Type: Evaluation | Date: 2026-11-20
+Tipo: Evaluation | Fecha: 2026-11-20
 
 ---
 
@@ -2169,7 +2175,7 @@ El creador construyó el juego con Sol en modo Ultrafast y usó Blender para mod
 
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123574639729238016-d185275dff479ab97456.mp4)
 
-Type: Demo | Date: 2026-11-20
+Tipo: Demo | Fecha: 2026-11-20
 
 ---
 
@@ -2186,7 +2192,7 @@ El creador de la prueba compartió una captura de la clasificación y una partid
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-165/2123528764613091328-7c18d649149711d41faa.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-165/2123528764613091328-7c18d649149711d41faa.jpg" width="640" alt="Vista previa de la fuente 2 · Gestión de un asentamiento en Crusader Bench"></a>
 
-Type: Benchmark | Date: 2026-11-19
+Tipo: Benchmark | Fecha: 2026-11-19
 
 ---
 
@@ -2199,7 +2205,7 @@ El autor de la prueba publicó un 14 % para Sol, un 16 % para Astra y un 10 % pa
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-169/2123446665696993280-3509529d630c29cd9ac5.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-169/2123446665696993280-3509529d630c29cd9ac5.jpg" width="640" alt="Vista previa de la fuente 1 · Navegación espacial en MazeBench"></a>
 
-Type: Benchmark | Date: 2026-11-19
+Tipo: Benchmark | Fecha: 2026-11-19
 
 ---
 
@@ -2214,7 +2220,7 @@ El autor usó xhigh con ambos modelos e indicó que Sol ganó por 4–1 puntos c
 
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123389747536207872-d38127bbf7f2c4de454f.mp4)
 
-Type: Benchmark | Date: 2026-11-19
+Tipo: Benchmark | Fecha: 2026-11-19
 
 ---
 
@@ -2227,7 +2233,7 @@ El autor indicó que alcanzó el título de Campeón en 11 horas y 40 minutos co
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-138/2123061539183726592-707694197c25ed18a424.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-138/2123061539183726592-707694197c25ed18a424.png" width="640" alt="Vista previa de la fuente 1 · Una partida hasta el título de Campeón en Pokémon FireRed"></a>
 
-Type: Benchmark | Date: 2026-11-18
+Tipo: Benchmark | Fecha: 2026-11-18
 
 ---
 
@@ -2242,7 +2248,7 @@ El creador dio el mismo encargo a los cuatro modelos, incluidos el 3D y la físi
 
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122985283993907201-9750e48cc454af4480fd.mp4)
 
-Type: Evaluation | Date: 2026-11-18
+Tipo: Evaluation | Fecha: 2026-11-18
 
 ---
 
@@ -2257,7 +2263,7 @@ El autor usó la misma instrucción con los cuatro modelos y demostró que era p
 
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122882602663124992-7fe424c3649edbe814fc.mp4)
 
-Type: Evaluation | Date: 2026-11-18
+Tipo: Evaluation | Fecha: 2026-11-18
 
 ---
 
@@ -2272,7 +2278,7 @@ El autor probó Sol y Astra con el ajuste medium. Ambos superaron las 66 salas. 
 
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122826155086512128-d2a8456da3a5a99263f5.mp4)
 
-Type: Benchmark | Date: 2026-11-17
+Tipo: Benchmark | Fecha: 2026-11-17
 
 ---
 
@@ -2285,7 +2291,7 @@ El responsable de la prueba indica que Sol y Astra realizaron dos misiones cada 
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-93/2122782503542960128-31be885019f467cb7472.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-93/2122782503542960128-31be885019f467cb7472.jpg" width="640" alt="Vista previa de la fuente 1 · Dos misiones completadas en RuneScape"></a>
 
-Type: Benchmark | Date: 2026-11-17
+Tipo: Benchmark | Fecha: 2026-11-17
 
 ---
 
@@ -2300,7 +2306,7 @@ El desarrollador indica que usó Sol para programar, depurar y revisar el protot
 
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122770342842077184-c89268a9c06156333c45.mp4)
 
-Type: Demo | Date: 2026-11-17
+Tipo: Demo | Fecha: 2026-11-17
 
 ---
 
@@ -2315,7 +2321,7 @@ El creador atribuye el juego a Sol. La grabación muestra un mapa interactivo de
 
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122766701477367808-c628e4fc3e8c14dc15d8.mp4)
 
-Type: Demo | Date: 2026-11-17
+Tipo: Demo | Fecha: 2026-11-17
 
 ---
 
@@ -2328,7 +2334,7 @@ El evaluador indicó que usó capturas de pantalla con un nivel alto de razonami
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-99/2122763933345890304-ffe6b4053f347b1d4d5f.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-99/2122763933345890304-ffe6b4053f347b1d4d5f.jpg" width="640" alt="Vista previa de la fuente 1 · Una partida de Pokémon FireRed basada solo en capturas de pantalla"></a>
 
-Type: Benchmark | Date: 2026-11-17
+Tipo: Benchmark | Fecha: 2026-11-17
 
 ---
 
@@ -2343,7 +2349,7 @@ La grabación muestra la salida desde la parrilla y la carrera en curso. El auto
 
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119682250472112128-81f053c6ffe2a4aae055.mp4)
 
-Type: Demo | Date: 2026-11-09
+Tipo: Demo | Fecha: 2026-11-09
 
 ---
 
@@ -2358,7 +2364,7 @@ La grabación muestra un cubo 3D resuelto y desordenado, junto con los controles
 
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119633608680124416-44e5b8b00d129caeba34.mp4)
 
-Type: Demo | Date: 2026-11-09
+Tipo: Demo | Fecha: 2026-11-09
 
 ---
 
@@ -2374,12 +2380,12 @@ El clip muestra a un jinete escapando de un monstruo de patatas en un pelícano.
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119478839500013568-2ec29cee42e54d0bf9c5.mp4)
 
 
-Type: Demo | Date: 2026-11-08
+Tipo: Demo | Fecha: 2026-11-08
 
 ---
 
-<a id="category-graphics"></a>
 ## 🎨 Gráficos creativos y animación.
+<a id="category-graphics"></a>
 
 <a id="case-190"></a>
 ### Caso 190: [Una explicación de la hipótesis de Riemann generada con código](https://x.com/MelissaKampers/status/2124286667288891534) (por [@MelissaKampers](https://x.com/MelissaKampers))
@@ -2392,7 +2398,7 @@ El creador publicó un vídeo breve sobre la hipótesis de Riemann e indicó que
 
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2124285929158307840-efc75451f3dacfa1fa4a.mp4)
 
-Type: Demo | Date: 2026-11-21
+Tipo: Demo | Fecha: 2026-11-21
 
 ---
 
@@ -2407,7 +2413,7 @@ El creador usó el mismo prompt para Sol, Opus 5.5, Gemini 4 Neon y DeepSeek. Ca
 
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2124005411338481665-db82f73f6287411cca10.mp4)
 
-Type: Evaluation | Date: 2026-11-21
+Tipo: Evaluation | Fecha: 2026-11-21
 
 ---
 
@@ -2422,7 +2428,7 @@ El creador compartió una comparación con los resultados identificados de Sol, 
 
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123888706998218752-2fde673e71773bed63c5.mp4)
 
-Type: Evaluation | Date: 2026-11-20
+Tipo: Evaluation | Fecha: 2026-11-20
 
 ---
 
@@ -2441,7 +2447,7 @@ El creador etiquetó la tercera y la cuarta imagen como resultados de Work con S
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-202/2123763403009515521-a552c1917ad96fcd1cae.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-202/2123763403009515521-a552c1917ad96fcd1cae.jpg" width="640" alt="Vista previa de la fuente 4 · Revisiones de ilustraciones de vestuario en ChatGPT Work"></a>
 
-Type: Evaluation | Date: 2026-11-20
+Tipo: Evaluation | Fecha: 2026-11-20
 
 ---
 
@@ -2450,13 +2456,13 @@ Type: Evaluation | Date: 2026-11-20
 
 **Revisa la línea de tiempo de edición para ver en qué momento se incorporan los fotogramas generados al flujo de trabajo.**
 
-El creador atribuye el guion a ChatGPT y los fotogramas a Sol. Animó los fotogramas en Google Vids, editó el vídeo en CapCut e indicó que todo el proyecto le llevó unas cuatro horas.
+El creador atribuye el guion a ChatGPT y los fotogramas a Sol. Animó los fotogramas en Google Vids, editó el vídeo en CapCut e indicó que el proyecto completo le llevó unas cuatro horas.
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123660882249175040-7f5a38c954cd6232ce0b.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-159/2123660882249175040-poster-6036fd4b16ea350bc22d.jpg" width="640" alt="Vista previa de la fuente 1 · De fotogramas estáticos a un vídeo terminado"></a>
 
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123660882249175040-7f5a38c954cd6232ce0b.mp4)
 
-Type: Demo | Date: 2026-11-20
+Tipo: Demo | Fecha: 2026-11-20
 
 ---
 
@@ -2469,7 +2475,7 @@ En el promedio de dos ejecuciones del creador con un vídeo de 20 minutos, Sol o
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-163/2123546497111482368-6e88a30728efbca29854.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-163/2123546497111482368-6e88a30728efbca29854.jpg" width="640" alt="Vista previa de la fuente 1 · Cortes de diálogo en un vídeo con una persona hablando a cámara"></a>
 
-Type: Benchmark | Date: 2026-11-19
+Tipo: Benchmark | Fecha: 2026-11-19
 
 ---
 
@@ -2484,7 +2490,7 @@ El creador probó cuatro modelos con el estilo Whiteboard y el modo Auto de Kiln
 
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123414708459855872-abcd21a1ca31fae0de50.mp4)
 
-Type: Evaluation | Date: 2026-11-19
+Tipo: Evaluation | Fecha: 2026-11-19
 
 ---
 
@@ -2499,7 +2505,7 @@ El creador indicó que Sol xhigh Ultrafast buscó recursos en internet, generó 
 
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123120923666423808-a00f9b04f9a3d9061acf.mp4)
 
-Type: Demo | Date: 2026-11-18
+Tipo: Demo | Fecha: 2026-11-18
 
 ---
 
@@ -2514,7 +2520,7 @@ El creador pidió a Sol una animación dinámica en pixel art. El bucle adjunto 
 
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123098773459283968-5897570c940b051711a4.mp4)
 
-Type: Demo | Date: 2026-11-18
+Tipo: Demo | Fecha: 2026-11-18
 
 ---
 
@@ -2529,7 +2535,7 @@ El autor indicó unos 46 minutos y 1,90 dólares con Sol en Codex CLI, y cerca d
 
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123002351422181377-2a6725e05299e1972940.mp4)
 
-Type: Evaluation | Date: 2026-11-18
+Tipo: Evaluation | Fecha: 2026-11-18
 
 ---
 
@@ -2542,7 +2548,7 @@ El creador indicó que la edición de un vídeo de ocho minutos tomó 27 minutos
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-152/2122925011057209345-502d3dadda839363aabd.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-152/2122925011057209345-502d3dadda839363aabd.jpg" width="640" alt="Vista previa de la fuente 1 · Medición de una edición de vídeo en Ultrafast"></a>
 
-Type: Benchmark | Date: 2026-11-18
+Tipo: Benchmark | Fecha: 2026-11-18
 
 ---
 
@@ -2557,7 +2563,7 @@ El creador pidió a Sol y Astra un vídeo en Remotion que animara su firma y pub
 
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122913982898143232-edb073cf9b2bb51a5faf.mp4)
 
-Type: Evaluation | Date: 2026-11-18
+Tipo: Evaluation | Fecha: 2026-11-18
 
 ---
 
@@ -2582,7 +2588,7 @@ El autor compartió dos vídeos y el prompt original. Uno gira en torno a una fi
 
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122846110117183488-30f1277d34e59656f484.mp4)
 
-Type: Evaluation | Date: 2026-11-18
+Tipo: Evaluation | Fecha: 2026-11-18
 
 ---
 
@@ -2597,7 +2603,7 @@ El vídeo identifica las animaciones de Astra y Sol y muestra las dos versiones 
 
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122781224338939905-9fac5a374f5ddc54f8a8.mp4)
 
-Type: Evaluation | Date: 2026-11-17
+Tipo: Evaluation | Fecha: 2026-11-17
 
 ---
 
@@ -2612,7 +2618,7 @@ El autor comparó dos ejecuciones en xhigh con imagen y sonido generados por có
 
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122794767960752128-e2e19e403efea0d778cc.mp4)
 
-Type: Evaluation | Date: 2026-11-17
+Tipo: Evaluation | Fecha: 2026-11-17
 
 ---
 
@@ -2627,7 +2633,7 @@ El creador indica que los personajes, la animación y la banda sonora se generar
 
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122768959980118016-519fd034e8c095b6bc01.mp4)
 
-Type: Demo | Date: 2026-11-17
+Tipo: Demo | Fecha: 2026-11-17
 
 ---
 
@@ -2642,7 +2648,7 @@ El creador compartió una prueba con Sol en la que una banana dibujada pasa a fo
 
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122765018739441664-63474f1acf4d1d5e18b1.mp4)
 
-Type: Demo | Date: 2026-11-17
+Tipo: Demo | Fecha: 2026-11-17
 
 ---
 
@@ -2663,7 +2669,7 @@ El creador publicó la instrucción y comparó los resultados de 6.2 y 6.1. Señ
 
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122760254945673216-c6b375b036ac15cc3a2b.mp4)
 
-Type: Evaluation | Date: 2026-11-17
+Tipo: Evaluation | Fecha: 2026-11-17
 
 ---
 
@@ -2678,7 +2684,7 @@ El creador mostró dos ejecuciones de Sol en modo Ultra e indicó tiempos de cre
 
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122758829104328704-4fe90331a8b43e8cc76c.mp4)
 
-Type: Evaluation | Date: 2026-11-17
+Tipo: Evaluation | Fecha: 2026-11-17
 
 ---
 
@@ -2703,7 +2709,7 @@ Generate an SVG of a pelican riding a bicycle
 
 *GPT-6.2 Astra en Max*
 
-Type: Evaluation | Date: 2026-11-17
+Tipo: Evaluation | Fecha: 2026-11-17
 
 ---
 
@@ -2718,7 +2724,7 @@ El creador muestra tres versiones identificadas de un pelícano repartidor y pre
 
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122183328228909056-562a9b17b2bc7222fb58.mp4)
 
-Type: Evaluation | Date: 2026-11-16
+Tipo: Evaluation | Fecha: 2026-11-16
 
 ---
 
@@ -2733,7 +2739,7 @@ El creador comparó Sol y Fable 5.2 con la escena de reparto bajo la lluvia y pr
 
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2121535105013334016-7271e00bcbdb0a0caf42.mp4)
 
-Type: Evaluation | Date: 2026-11-14
+Tipo: Evaluation | Fecha: 2026-11-14
 
 ---
 
@@ -2748,7 +2754,7 @@ El creador muestra los resultados de Sol y Gemini 4 Hydrogen con el mismo encarg
 
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2121503397702459392-e951142e407012e2ef01.mp4)
 
-Type: Evaluation | Date: 2026-11-14
+Tipo: Evaluation | Fecha: 2026-11-14
 
 ---
 
@@ -2763,7 +2769,7 @@ El creador atribuye la animación hecha con código a una ejecución de Sol e in
 
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2120537298286608384-168cc4ec913763fba163.mp4)
 
-Type: Demo | Date: 2026-11-11
+Tipo: Demo | Fecha: 2026-11-11
 
 ---
 
@@ -2776,7 +2782,7 @@ El creador dice que pidió a Sol, en modo Max, una escena natural fotorrealista 
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-120/2120193470002241536-2e471c1c74dabf15e6eb.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-120/2120193470002241536-2e471c1c74dabf15e6eb.jpg" width="640" alt="Vista previa de la fuente 1 · Un paisaje fotorrealista en SVG"></a>
 
-Type: Demo | Date: 2026-11-10
+Tipo: Demo | Fecha: 2026-11-10
 
 ---
 
@@ -2801,7 +2807,7 @@ El autor identifica las tres imágenes como GPT-6.2 Sol con el ajuste más alto,
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-60/2119581974092546048-c61fe179e1741227a187.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-60/2119581974092546048-c61fe179e1741227a187.png" width="640" alt="Vista previa de la fuente 3 · Comparación de SVG del Rey Mono"></a>
 
-Type: Evaluation | Date: 2026-11-09
+Tipo: Evaluation | Fecha: 2026-11-09
 
 ---
 
@@ -2823,7 +2829,7 @@ Create a cinematic 3D animation telling humanity’s story, from the age of Nean
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119517968493113344-17865404f54bd3f80fbd.mp4)
 
 
-Type: Demo | Date: 2026-11-08
+Tipo: Demo | Fecha: 2026-11-08
 
 ---
 
@@ -2839,7 +2845,7 @@ La página Portrait Studio desarrolla un retrato de Tibo a partir de amplios blo
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119499524137697280-bf003228060e83ba80ee.mp4)
 
 
-Type: Demo | Date: 2026-11-08
+Tipo: Demo | Fecha: 2026-11-08
 
 ---
 
@@ -2855,7 +2861,7 @@ Esta publicación comparte el clip de pintura Sam Altman. Otras publicaciones de
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119471570100113408-6537886f519fcb2581ca.mp4)
 
 
-Type: Demo | Date: 2026-11-08
+Tipo: Demo | Fecha: 2026-11-08
 
 ---
 
@@ -2871,7 +2877,7 @@ La publicación comparte el mismo retrato progresivo de Sam Altman que se muestr
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119481355943948288-d9ec44b4a8efb666f3fe.mp4)
 
 
-Type: Demo | Date: 2026-11-08
+Tipo: Demo | Fecha: 2026-11-08
 
 ---
 
@@ -2887,7 +2893,7 @@ El clip pertenece a la misma familia de pinturas Sam Altman que las otras public
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119471570100113408-6537886f519fcb2581ca.mp4)
 
 
-Type: Demo | Date: 2026-11-08
+Tipo: Demo | Fecha: 2026-11-08
 
 ---
 
@@ -2903,7 +2909,7 @@ La publicación comparte el retrato progresivo de Sam Altman de la misma familia
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119471570100113408-6537886f519fcb2581ca.mp4)
 
 
-Type: Demo | Date: 2026-11-08
+Tipo: Demo | Fecha: 2026-11-08
 
 ---
 
@@ -2919,7 +2925,7 @@ El autor presenta una demostración de pintura de navegador de Sam Altman. La mi
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119481355943948288-d9ec44b4a8efb666f3fe.mp4)
 
 
-Type: Demo | Date: 2026-11-08
+Tipo: Demo | Fecha: 2026-11-08
 
 ---
 
@@ -2935,7 +2941,7 @@ La demostración del navegador revela un retrato Dario Amodei junto a una fotogr
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119474852453306369-dc2f6dd1c623765520a2.mp4)
 
 
-Type: Demo | Date: 2026-11-08
+Tipo: Demo | Fecha: 2026-11-08
 
 ---
 
@@ -2951,7 +2957,7 @@ La comparación etiquetada incluye una entrega en el espacio, una máquina de ca
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119472766353313794-9e720b31f2e3325a6830.mp4)
 
 
-Type: Evaluation | Date: 2026-11-08
+Tipo: Evaluation | Fecha: 2026-11-08
 
 ---
 
@@ -2967,7 +2973,7 @@ Esta publicación apunta al mismo material de pintura progresiva que las otras e
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119471570100113408-6537886f519fcb2581ca.mp4)
 
 
-Type: Demo | Date: 2026-11-08
+Tipo: Demo | Fecha: 2026-11-08
 
 ---
 
@@ -2988,7 +2994,7 @@ generate an SVG of Ana de Armas and Sam Altman
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-25/2119466601804132352-31318df37f6caba7293c.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-25/2119466601804132352-31318df37f6caba7293c.jpg" width="640" alt="Vista previa de la fuente 1 · Dos ilustraciones de retratos descritas como SVG de solo código"></a>
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-25/2119466601816666112-8e9d5270da1add44ca55.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-25/2119466601816666112-8e9d5270da1add44ca55.jpg" width="640" alt="Vista previa de la fuente 2 · Dos ilustraciones de retratos descritas como SVG de solo código"></a>
 
-Type: Demo | Date: 2026-11-08
+Tipo: Demo | Fecha: 2026-11-08
 
 ---
 
@@ -3004,7 +3010,7 @@ El GIF muestra flores de cerezo, una torre, un puente, reflejos y un pequeño ba
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119461819278602240-92e36b249f95f46fbbc1.mp4)
 
 
-Type: Demo | Date: 2026-11-08
+Tipo: Demo | Fecha: 2026-11-08
 
 ---
 
@@ -3020,7 +3026,7 @@ La animación muestra un león montando y lanzando pelotas. Los fotogramas muest
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119458208041574400-65d9c5f9e0c9dae6a35f.mp4)
 
 
-Type: Demo | Date: 2026-11-08
+Tipo: Demo | Fecha: 2026-11-08
 
 ---
 
@@ -3042,7 +3048,7 @@ Horse running in side view
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119457903589646336-6fe234afbdb557492d14.mp4)
 
 
-Type: Demo | Date: 2026-11-08
+Tipo: Demo | Fecha: 2026-11-08
 
 ---
 
@@ -3058,7 +3064,7 @@ El video muestra a un pavo real que atraviesa un bosque de bambú en BMX con la 
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119453646454964224-3614c844c591897f7cb8.mp4)
 
 
-Type: Demo | Date: 2026-11-08
+Tipo: Demo | Fecha: 2026-11-08
 
 ---
 
@@ -3071,7 +3077,7 @@ La imagen muestra un retrato detallado. La vista previa proporciona evidencia vi
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-35/2119443020227727360-71913855e02651437cb9.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-35/2119443020227727360-71913855e02651437cb9.jpg" width="640" alt="Vista previa de la fuente 1 · Una vista previa de retrato fotorrealista"></a>
 
-Type: Demo | Date: 2026-11-08
+Tipo: Demo | Fecha: 2026-11-08
 
 ---
 
@@ -3091,7 +3097,7 @@ make an ultra realistic SVG of Sydney Sweeny
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-36/2119439861157707776-69b2db4eca9eb1493e6b.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-36/2119439861157707776-69b2db4eca9eb1493e6b.png" width="640" alt="Vista previa de la fuente 1 · Vectorización de retrato Sydney Sweeney"></a>
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-36/2119440248157683712-d00b68e7e2aa37f8ec7b.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-36/2119440248157683712-d00b68e7e2aa37f8ec7b.jpg" width="640" alt="Vista previa de la fuente 2 · Vectorización de retrato Sydney Sweeney"></a>
 
-Type: Demo | Date: 2026-11-08
+Tipo: Demo | Fecha: 2026-11-08
 
 ---
 
@@ -3107,7 +3113,7 @@ El clip muestra al guepardo en varias posiciones durante la carrera. El autor in
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119424200662556672-37c18d0191bd9b6c27aa.mp4)
 
 
-Type: Demo | Date: 2026-11-08
+Tipo: Demo | Fecha: 2026-11-08
 
 ---
 
@@ -3129,7 +3135,7 @@ SVG animation of pelican and 2 crabs riding bicycles side view
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119418838148366336-495e5e6b9a3a4f396f52.mp4)
 
 
-Type: Demo | Date: 2026-11-08
+Tipo: Demo | Fecha: 2026-11-08
 
 ---
 
@@ -3142,7 +3148,7 @@ Las dos imágenes del controlador están etiquetadas como enrutamiento GPT-6.1 S
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-52/2119417273249095680-f0fea371a0a411ae9aef.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-52/2119417273249095680-f0fea371a0a411ae9aef.jpg" width="640" alt="Vista previa de la fuente 1 · Una comparación del controlador PS5 en las configuraciones de Sol"></a>
 
-Type: Evaluation | Date: 2026-11-08
+Tipo: Evaluation | Fecha: 2026-11-08
 
 ---
 
@@ -3161,12 +3167,12 @@ SVG of BMW M4 CS side view
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-55/2119412669946204160-2b4789da7aa53b1095b0.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-55/2119412669946204160-2b4789da7aa53b1095b0.jpg" width="640" alt="Vista previa de la fuente 1 · Una ilustración de perfil verde BMW M4 CS"></a>
 
-Type: Demo | Date: 2026-11-08
+Tipo: Demo | Fecha: 2026-11-08
 
 ---
 
-<a id="category-web"></a>
 ## 🌐 Sitios web e interfaces
+<a id="category-web"></a>
 
 <a id="case-195"></a>
 ### Caso 195: [Seis rediseños de un mismo sitio de marketing](https://x.com/guilippert_v4/status/2124110586753482802) (por [@guilippert_v4](https://x.com/guilippert_v4))
@@ -3183,7 +3189,7 @@ Olhe o site da https://t.co/aDaMsBzyt2 e refaça ele por completo para surpreend
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-195/2123902070524715008-99e1c89f24f0f23371fc.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-195/2123902070524715008-99e1c89f24f0f23371fc.jpg" width="640" alt="Vista previa de la fuente 1 · Seis rediseños de un mismo sitio de marketing"></a>
 
-Type: Evaluation | Date: 2026-11-21
+Tipo: Evaluation | Fecha: 2026-11-21
 
 ---
 
@@ -3196,7 +3202,7 @@ La Rails Foundation indicó que Sol en nivel xhigh promedió unos 12½ minutos p
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-184/2123805893733027841-1d6628ee8b4801e16252.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-184/2123805893733027841-1d6628ee8b4801e16252.jpg" width="640" alt="Vista previa de la fuente 1 · Porcentaje de aciertos y tiempo de ejecución en Agents on Rails"></a>
 
-Type: Benchmark | Date: 2026-11-20
+Tipo: Benchmark | Fecha: 2026-11-20
 
 ---
 
@@ -3217,7 +3223,7 @@ a lighthouse on a rocky coast at night
 
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123407701489115136-64e4f54ea3929e2715d5.mp4)
 
-Type: Evaluation | Date: 2026-11-19
+Tipo: Evaluation | Fecha: 2026-11-19
 
 ---
 
@@ -3238,7 +3244,7 @@ Build a cinematic landing page for a New York pizzeria and invent all the brandi
 
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123162533758644224-5ec627d0f8ea176795c4.mp4)
 
-Type: Evaluation | Date: 2026-11-18
+Tipo: Evaluation | Fecha: 2026-11-18
 
 ---
 
@@ -3251,7 +3257,7 @@ En el momento de publicar, Arena situó a Sol Max en séptimo lugar con 1757 pun
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-132/2123105553018945536-31fb59a9fb80b9088a23.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-132/2123105553018945536-31fb59a9fb80b9088a23.jpg" width="640" alt="Vista previa de la fuente 1 · Puntuación y coste mediano en Arena WebDev"></a>
 
-Type: Benchmark | Date: 2026-11-18
+Tipo: Benchmark | Fecha: 2026-11-18
 
 ---
 
@@ -3270,7 +3276,7 @@ JetBrains usó las mismas mallas anatómicas y un nivel alto de razonamiento. Co
 
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123086311804256256-4013a1edb1de9f433ec3.mp4)
 
-Type: Evaluation | Date: 2026-11-18
+Tipo: Evaluation | Fecha: 2026-11-18
 
 ---
 
@@ -3291,7 +3297,7 @@ build a website for a hotel that doesn't exist
 
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2123055210012762112-3a8e19743ab91af7ce47.mp4)
 
-Type: Evaluation | Date: 2026-11-18
+Tipo: Evaluation | Fecha: 2026-11-18
 
 ---
 
@@ -3304,7 +3310,7 @@ Kombai publicó una puntuación de creatividad de 70,0 para Sol y de 70,4 para A
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-140/2123046406386843648-bfd3bbdd9b44149ae50d.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-140/2123046406386843648-bfd3bbdd9b44149ae50d.png" width="640" alt="Vista previa de la fuente 1 · Design Creativity Bench para interfaces"></a>
 
-Type: Benchmark | Date: 2026-11-18
+Tipo: Benchmark | Fecha: 2026-11-18
 
 ---
 
@@ -3317,7 +3323,7 @@ Browser Use publicó un 82 % para Sol 6.2 y un 81 % para Sol 6.1. Su comparativa
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-80/2122843921776889856-e164df0ff216a1ca1693.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-80/2122843921776889856-e164df0ff216a1ca1693.jpg" width="640" alt="Vista previa de la fuente 1 · Tareas completadas y número de pasos en Browser Use"></a>
 
-Type: Benchmark | Date: 2026-11-18
+Tipo: Benchmark | Fecha: 2026-11-18
 
 ---
 
@@ -3332,7 +3338,7 @@ La publicación atribuye el sitio a Sol y Blender. El recorrido muestra mariposa
 
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122813839481663488-e921dcc4253d7432553d.mp4)
 
-Type: Demo | Date: 2026-11-17
+Tipo: Demo | Fecha: 2026-11-17
 
 ---
 
@@ -3345,7 +3351,7 @@ Perplexity publicó para Sol una puntuación WANDR de 0,746 y un coste aproximad
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-82/2122814541839183872-f37a3311076b269e6032.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-82/2122814541839183872-f37a3311076b269e6032.jpg" width="640" alt="Vista previa de la fuente 1 · WANDR, la prueba de agentes de Perplexity"></a>
 
-Type: Benchmark | Date: 2026-11-17
+Tipo: Benchmark | Fecha: 2026-11-17
 
 ---
 
@@ -3360,7 +3366,7 @@ Se usaron los mismos 100 puntos de partida y cinco minutos por lugar para marcar
 
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122751536778387456-4ba9a30b51fd04a352fb.mp4)
 
-Type: Benchmark | Date: 2026-11-17
+Tipo: Benchmark | Fecha: 2026-11-17
 
 ---
 
@@ -3375,7 +3381,7 @@ Los cinco modelos llegaron a la página de Jacob Misiorowski desde todos los pun
 
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122753158950555648-0e31c6a62410aad900f2.mp4)
 
-Type: Benchmark | Date: 2026-11-17
+Tipo: Benchmark | Fecha: 2026-11-17
 
 ---
 
@@ -3388,7 +3394,7 @@ El desarrollador de Super Kanban indica que usó Sol durante dos días para refa
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-119/2120527322340335617-06bc9b33952b11d16d33.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-119/2120527322340335617-06bc9b33952b11d16d33.jpg" width="640" alt="Vista previa de la fuente 1 · Un complemento Kanban para sesiones de agentes"></a>
 
-Type: Integration | Date: 2026-11-11
+Tipo: Integration | Fecha: 2026-11-11
 
 ---
 
@@ -3403,7 +3409,7 @@ La grabación muestra acabados azules, plateados y negros bajo iluminación de e
 
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119691929403482112-00220dfbd8a8d75a6ce7.mp4)
 
-Type: Demo | Date: 2026-11-09
+Tipo: Demo | Fecha: 2026-11-09
 
 ---
 
@@ -3418,7 +3424,7 @@ La grabación del navegador muestra varias bolas de colores que caen y se acumul
 
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119613276808163329-9e32891b47f58015ccd9.mp4)
 
-Type: Demo | Date: 2026-11-09
+Tipo: Demo | Fecha: 2026-11-09
 
 ---
 
@@ -3442,7 +3448,7 @@ El clip muestra una vista orbital, un anillo luminoso, partículas y colores cam
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119507467990413312-818eda21b9c994093c1c.mp4)
 
 
-Type: Demo | Date: 2026-11-08
+Tipo: Demo | Fecha: 2026-11-08
 
 ---
 
@@ -3458,7 +3464,7 @@ La grabación de pantalla muestra Island Atlas y Kame House, un interruptor de d
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119502149323468800-f9cdb706db0b977af9fb.mp4)
 
 
-Type: Demo | Date: 2026-11-08
+Tipo: Demo | Fecha: 2026-11-08
 
 ---
 
@@ -3474,12 +3480,12 @@ El video muestra una interfaz y un resultado 3D. El autor aclara que la diferenc
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2119433659820265472-dc037578c6e914ded9aa.mp4)
 
 
-Type: Evaluation | Date: 2026-11-08
+Tipo: Evaluation | Fecha: 2026-11-08
 
 ---
 
-<a id="category-painting"></a>
 ## 🖌️ Uso de computadora y pintura.
+<a id="category-painting"></a>
 
 <a id="case-100"></a>
 ### Caso 100: [Un retrato sobre un lienzo de dibujo en el navegador](https://x.com/N1njaCodex/status/2122763308491325670) (por [@N1njaCodex](https://x.com/N1njaCodex))
@@ -3492,7 +3498,7 @@ El creador atribuye el retrato a Sol. La grabación muestra cómo un lienzo en b
 
 [Reproducir el video de demostración](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/playback/2122763229021491200-68e05d85bf900b9bde8f.mp4)
 
-Type: Demo | Date: 2026-11-17
+Tipo: Demo | Fecha: 2026-11-17
 
 ---
 
@@ -3505,7 +3511,7 @@ La captura de pantalla muestra una conversación de Codex junto a un retrato de 
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-01/2119569353834180609-7032bb605e364515b8ca.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/cases/case-01/2119569353834180609-7032bb605e364515b8ca.jpg" width="640" alt="Vista previa de la fuente 1 · Freddie Mercury en MS Paint"></a>
 
-Type: Demo | Date: 2026-11-08
+Tipo: Demo | Fecha: 2026-11-08
 
 ---
 

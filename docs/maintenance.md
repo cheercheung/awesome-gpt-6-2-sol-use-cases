@@ -12,6 +12,29 @@ The [curated data](../data/gpt-6-2-sol-usecase-curated.json) records the numbere
 
 ## Checks before publication
 
-Run the Model Repository Agent's initiation, source fidelity, localization, repository, and publication checks. Verify the official model source and the attribution of each case. Move approved media to the repository's R2 namespace and validate playable video links against their poster frames. Run `git diff --check` and verify the public repository at its final commit.
+Regenerate the [public case catalog](usecase-catalog.md) after you change the English Menu or curated data. It follows the Menu order and sources case details from the JSON.
 
-The text in this repository is covered by the repository license. Linked creator work and media remain subject to their original terms.
+```sh
+python3 scripts/build_case_index.py
+python3 scripts/build_case_index.py --check
+git diff --check
+```
+
+For the full review, use the installed Model Repository Pipeline. Set `PIPELINE` to the framework directory. Set `INTAKE`, `SCHEMA`, `SCHEMA_SHA256`, and `EVIDENCE_DIR` to the locked intake, independently reviewed localization schema, its SHA-256, and the external evidence directory for the run.
+
+```sh
+python3 "$PIPELINE/bundled-skills/usecase-update-loop/scripts/verify_usecase_update.py" --repo .
+python3 "$PIPELINE/scripts/verify_localized_readmes.py" --repo . --shape usecase \
+  --usecase-schema "$SCHEMA" --usecase-schema-sha256 "$SCHEMA_SHA256" --json
+python3 "$PIPELINE/scripts/model_repo_orchestrator.py" surface-audit --repo . \
+  --shape usecase --run-mode recurring-update --intake "$INTAKE" --out "$EVIDENCE_DIR/surfaces.md"
+python3 "$PIPELINE/scripts/model_repo_orchestrator.py" public-policy-audit --repo . \
+  --shape usecase --run-mode recurring-update --intake "$INTAKE" --out "$EVIDENCE_DIR/public-policy.md"
+python3 "$PIPELINE/scripts/audit_public_links.py" --repo . --out "$EVIDENCE_DIR/public-links.md"
+```
+
+Compare the expected source media with rendered cases by exact commit. Check R2 image bytes, video poster links, and playback. Inspect the GitHub render at desktop and narrow widths, then repeat the public readback after publication.
+
+## License scope
+
+Original editorial content is licensed under [CC BY 4.0](../LICENSE). Quoted prompts, linked or embedded demonstrations, and other creator media remain subject to their original rights and terms.

@@ -2,7 +2,7 @@
 
 <h1>GPT-6.2 Sol · Demos and Use Cases</h1>
 
-<a href="https://evolink.ai/gpt-6-2-sol?utm_source=github&utm_medium=banner&utm_campaign=gpt-6-2-sol-usecases&utm_content=readme_banner"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/covers/cover-1c4c7490be0406351b48.svg" width="760" alt="GPT-6.2 Sol community demos and use cases"></a>
+<a href="https://evolink.ai/gpt-6-2-sol?utm_source=github&utm_medium=banner&utm_campaign=gpt-6-2-sol-usecases&utm_content=readme_banner"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-sol-use-cases/assets/covers/cover-9037775f357068018b8f.svg" width="760" alt="GPT-6.2 Sol community demos and use cases"></a>
 
 [![License](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey)](LICENSE)
 
@@ -15,6 +15,8 @@
 
 **Explore community demos attributed to GPT-6.2 Sol. Follow the original posts to see how creators describe the tasks and outputs.**
 
+OpenAI describes [GPT-6.2 Sol](https://openai.com/index/introducing-gpt-6-2-astra-sol/) as a model for everyday coding and agent workflows.
+
 <a id="overview"></a>
 ## 📊 Overview
 
@@ -26,6 +28,8 @@
 > [!NOTE]
 > **The clips and stills show the output. Model labels are attributed to the creators and the underlying model version remains unverified. Entries that share footage are kept together in the data by media family.**
 
+> Posts dated before November 17, 2026 predate OpenAI’s public release. Their model attribution follows the original creators.
+
 <a id="quick-start"></a>
 ## ⚡ Quick Start
 
@@ -33,222 +37,224 @@
 2. Open a preview to see the source media, then read the original post for context.
 3. Use the public prompt where available. Preserve the original input when comparing results.
 
-[View GPT-6.2 Sol on EvoLink](https://evolink.ai/gpt-6-2-sol?utm_source=github&utm_medium=quickstart&utm_campaign=gpt-6-2-sol-usecases&utm_content=browser_try)
+[View GPT-6.2 Sol on EvoLink](https://evolink.ai/gpt-6-2-sol?utm_source=github&utm_medium=readme&utm_campaign=gpt-6-2-sol-usecases&utm_content=landing_overview)
 
 <a id="menu"></a>
 ## 📑 Menu
 
 | Case | Category | What it shows | Type |
 | --- | --- | --- | --- |
-| [Overview](#overview) | Navigation | Overview | — |
-| [Quick Start](#quick-start) | Navigation | Quick Start | — |
-| [Related Repositories](#related-repositories) | Navigation | Related Repositories | — |
-| [Acknowledge](#acknowledge) | Navigation | Acknowledge | — |
-| [Case 186. A valley crossed by an aqueduct](#case-186) | [3D scenes and modeling](#category-three) | See how a Blender workflow carries a large landscape into Three.js. | Demo |
-| [Case 187. Image generation on a simple addition question](#case-187) | [Computer use and communication](#category-communication) | Check unexpected tool use separately from whether the final answer is correct. | Limit |
-| [Case 188. Eight television locations rebuilt in Minecraft](#case-188) | [Game development](#category-game) | Compare recognizable layouts and build time across two sandbox outputs. | Evaluation |
-| [Case 189. An interactive expedition vehicle in Three.js](#case-189) | [3D scenes and modeling](#category-three) | Inspect modeled details, hinged panels and synthesized sound in one HTML file. | Demo |
-| [Case 190. A code-generated Riemann hypothesis explainer](#case-190) | [Creative graphics and animation](#category-graphics) | Use local code to assemble the animation and its audio in one workflow. | Demo |
-| [Case 191. Four Eiffel Tower renders in Three.js](#case-191) | [3D scenes and modeling](#category-three) | Compare the lattice, proportions and surroundings in four labeled scenes. | Evaluation |
-| [Case 192. Finding known bugs in a database review](#case-192) | [Computer use and communication](#category-communication) | Compare known-issue coverage and elapsed time in the same review task. | Benchmark |
-| [Case 193. The ruins of Ozymandias in Minecraft](#case-193) | [Game development](#category-game) | Compare how two builders translate the same literary scene into blocks. | Evaluation |
-| [Case 194. Sol presets for Hermes and Pi agents](#case-194) | [Computer use and communication](#category-communication) | See how one desktop entry point can organize assistants with different roles. | Integration |
-| [Case 195. Six redesigns of one marketing site](#case-195) | [Websites and interfaces](#category-web) | Compare how different models turn the same site brief into different visual directions. | Evaluation |
-| [Case 196. A rainy waterfront diorama from one reference](#case-196) | [3D scenes and modeling](#category-three) | Compare how two models turn a single image into a 2.5D browser scene. | Evaluation |
-| [Case 197. Front and top views swapped in SolidWorks](#case-197) | [3D scenes and modeling](#category-three) | Check engineering drawing orientation against the assembly before accepting the export. | Limit |
-| [Case 198. A blind short-fiction comparison](#case-198) | [Computer use and communication](#category-communication) | Compare short fiction from a shared plot and check where human formatting entered the workflow. | Evaluation |
-| [Case 199. A cat at a rainy window](#case-199) | [Creative graphics and animation](#category-graphics) | Compare how four models stage the same scene in a single HTML animation. | Evaluation |
-| [Case 176. Document parsing at two reasoning levels](#case-176) | [Computer use and communication](#category-communication) | Compare overall parsing scores, chart scores and cost per page. | Benchmark |
-| [Case 200. Camera moves for twelve building models](#case-200) | [3D scenes and modeling](#category-three) | Use Blender MCP to create camera work for a set of imported models. | Demo |
-| [Case 177. Four animated cyclists at sunset](#case-177) | [Creative graphics and animation](#category-graphics) | Compare rider motion, bicycle proportions and scene lighting across four outputs. | Evaluation |
-| [Case 178. Workplace tasks in Company Agent Bench](#case-178) | [Computer use and communication](#category-communication) | Compare reported accuracy across models at the tested reasoning settings. | Benchmark |
-| [Case 179. A cable car across Scarlet Fjord](#case-179) | [3D scenes and modeling](#category-three) | Compare how four renders handle the cabin and the landscape around it. | Evaluation |
-| [Case 180. Game development preference and generation cost](#case-180) | [Game development](#category-game) | Compare preference rank, average generation time and cost on the same game design arena. | Benchmark |
-| [Case 181. A comparison across marketing tasks](#case-181) | [Computer use and communication](#category-communication) | Review per-task preference alongside cost and the number of votes. | Benchmark |
-| [Case 182. A walking route turned into a handheld game](#case-182) | [Game development](#category-game) | See how observations from a walk become revisitable game scenes. | Demo |
-| [Case 183. A Blender rabbit from an image reference](#case-183) | [3D scenes and modeling](#category-three) | Inspect the geometry from multiple angles after starting from a generated reference image. | Demo |
-| [Case 184. Agents on Rails accuracy and runtime](#case-184) | [Websites and interfaces](#category-web) | Track runtime and accuracy separately on development tasks in existing Rails apps. | Benchmark |
-| [Case 201. A grass field in a standalone HTML scene](#case-201) | [3D scenes and modeling](#category-three) | Follow an asset from Blender into a small Three.js project that runs in a browser. | Demo |
-| [Case 202. Costume illustration iterations in ChatGPT Work](#case-202) | [Creative graphics and animation](#category-graphics) | Compare what changes when a detailed costume request is run again. | Evaluation |
-| [Case 159. From still frames to a finished video](#case-159) | [Creative graphics and animation](#category-graphics) | Use the editing timeline to see where generated frames enter a multi-tool workflow. | Demo |
-| [Case 160. Two first-person game prototypes in Codex](#case-160) | [Game development](#category-game) | Compare the level layout and play experience alongside the recorded cost. | Evaluation |
-| [Case 161. A cozy village game with Blender assets](#case-161) | [Game development](#category-game) | See how modeled objects and animation come together in a game scene. | Demo |
-| [Case 162. Apartment floor plans from interior photos](#case-162) | [3D scenes and modeling](#category-three) | Measure whether an agent can infer room layouts from photographs. | Benchmark |
-| [Case 163. Dialogue cuts in a talking-head video](#case-163) | [Creative graphics and animation](#category-graphics) | Compare edit time, overall score and the kinds of cuts that fail. | Benchmark |
-| [Case 164. Two designs for a headquarters](#case-164) | [3D scenes and modeling](#category-three) | Compare the buildings and camera view on the same open-ended design brief. | Evaluation |
-| [Case 165. Managing a settlement in Crusader Bench](#case-165) | [Game development](#category-game) | Compare agent play using the same scored maps and game conditions. | Benchmark |
-| [Case 185. Pull request review in CodeRabbit](#case-185) | [Computer use and communication](#category-communication) | Compare known issues caught, reported precision and review cost across pipeline configurations. | Benchmark |
-| [Case 166. Legora’s November legal document benchmark](#case-166) | [Computer use and communication](#category-communication) | Compare quality and cost per case on the same set of professional tasks. | Benchmark |
-| [Case 167. Sol on Xplore’s engineering design benchmark](#case-167) | [3D scenes and modeling](#category-three) | Compare task scores and per-run cost on a suite that includes CAD work. | Benchmark |
-| [Case 168. A Ruby Ascent launchpad scene](#case-168) | [3D scenes and modeling](#category-three) | Compare scene detail and build time across four versions of the same launchpad. | Evaluation |
-| [Case 169. Spatial navigation in MazeBench](#case-169) | [Game development](#category-game) | Compare maze completion on the same published benchmark. | Benchmark |
-| [Case 170. AI Village’s independently answered profile questions](#case-170) | [Computer use and communication](#category-communication) | Compare how two agents answer the same profile questionnaire independently. | Integration |
-| [Case 171. A 3D animation from the same source clip](#case-171) | [3D scenes and modeling](#category-three) | Compare how five models visualize the same segment in a preset style. | Evaluation |
-| [Case 172. An orbit around the Burj Khalifa summit](#case-172) | [3D scenes and modeling](#category-three) | Inspect how the models handle the tower’s upper setbacks and crown. | Evaluation |
-| [Case 173. A whiteboard animation of a short clip](#case-173) | [Creative graphics and animation](#category-graphics) | Compare visual storytelling and cost on the same input footage. | Evaluation |
-| [Case 174. A lighthouse webpage on a rocky coast](#case-174) | [Websites and interfaces](#category-web) | Compare two single-response webpages while keeping the brief and effort fixed. | Evaluation |
-| [Case 175. Five games of chess without tools](#case-175) | [Game development](#category-game) | Compare points, game outcomes and reported cost over the same match. | Benchmark |
-| [Case 124. Pull request status report misses repository instructions](#case-124) | [Computer use and communication](#category-communication) | Compare the detail and organization of replies to a short status request. | Limit |
-| [Case 125. Arena’s Astra and Sol walkthrough](#case-125) | [3D scenes and modeling](#category-three) | Use the recorded chapters to compare scenes, games and interfaces. | Evaluation |
-| [Case 126. A haunted vampire cathedral](#case-126) | [3D scenes and modeling](#category-three) | Compare how two models interpret the same gothic building brief. | Evaluation |
-| [Case 127. A convenience store on a rainy night](#case-127) | [3D scenes and modeling](#category-three) | Use the split screen to compare lighting, rainfall and storefront geometry. | Evaluation |
-| [Case 128. A New York pizzeria landing page](#case-128) | [Websites and interfaces](#category-web) | Check whether different models make distinct branding choices from one sentence. | Evaluation |
-| [Case 129. Two takes on a pagoda](#case-129) | [3D scenes and modeling](#category-three) | Compare how two xhigh runs render the same architectural subject. | Evaluation |
-| [Case 130. A realistic falling leaf in three minutes](#case-130) | [Creative graphics and animation](#category-graphics) | Use a time limit to test how the model combines assets and code. | Demo |
-| [Case 131. A miniature fishing harbor in a sunshower](#case-131) | [3D scenes and modeling](#category-three) | Compare rainfall, miniature scenery and camera motion across four runs. | Evaluation |
-| [Case 132. Arena WebDev score and median cost](#case-132) | [Websites and interfaces](#category-web) | Compare a leaderboard result with the median cost per task. | Benchmark |
-| [Case 133. A rocket launch rendered by four models](#case-133) | [3D scenes and modeling](#category-three) | Compare staging and motion across four versions of the same fictional scene. | Evaluation |
-| [Case 134. A looping pixel-art runner](#case-134) | [Creative graphics and animation](#category-graphics) | Check whether a character animation loops cleanly against a scrolling backdrop. | Demo |
-| [Case 135. A storm at the lighthouse](#case-135) | [3D scenes and modeling](#category-three) | Compare tower detail and ocean motion on the same scene brief. | Evaluation |
-| [Case 136. An interactive anatomy viewer](#case-136) | [Websites and interfaces](#category-web) | Compare an engaging opening with readability while exploring a 3D model. | Evaluation |
-| [Case 137. A boat in a stormy ocean](#case-137) | [3D scenes and modeling](#category-three) | Inspect rain, cloud volume, boat detail and water behavior independently. | Evaluation |
-| [Case 138. A Pokémon FireRed Champion run](#case-138) | [Game development](#category-game) | Compare game-completion times under an explicit input and reasoning setup. | Benchmark |
-| [Case 139. A website for a fictional hotel](#case-139) | [Websites and interfaces](#category-web) | Compare one-shot layouts, elapsed time and cost on the same hotel brief. | Evaluation |
-| [Case 140. Design Creativity Bench for UI](#case-140) | [Websites and interfaces](#category-web) | Compare the benchmark’s creative design scores alongside reported cost. | Benchmark |
-| [Case 141. Character chat in AITuber OnAir](#case-141) | [Computer use and communication](#category-communication) | Try adjustable reasoning effort in a live character-chat workflow. | Integration |
-| [Case 142. A rigged Blender character from concept art](#case-142) | [3D scenes and modeling](#category-three) | Review resemblance and animation quality separately when comparing generated characters. | Evaluation |
-| [Case 143. A self-assembling sci-fi mech in Three.js](#case-143) | [3D scenes and modeling](#category-three) | Compare how two models stage an assembly and launch sequence. | Evaluation |
-| [Case 144. A lunar café modeled by five systems](#case-144) | [3D scenes and modeling](#category-three) | Compare how different models stage and light a lunar café. | Evaluation |
-| [Case 145. An animated tandem bicycle SVG](#case-145) | [Creative graphics and animation](#category-graphics) | Compare how two coding tools render and animate the same SVG subject. | Evaluation |
-| [Case 146. A 3D dinosaur runner with ragdoll physics](#case-146) | [Game development](#category-game) | Compare the visual style and collision behavior across four game prototypes. | Evaluation |
-| [Case 147. The last tram in a rainy mountain city](#case-147) | [3D scenes and modeling](#category-three) | Compare modeling and atmosphere when the prompt and effort stay the same. | Evaluation |
-| [Case 148. A 3D rendering of the White House](#case-148) | [3D scenes and modeling](#category-three) | Compare façade proportions and composition across two architectural visualizations. | Evaluation |
-| [Case 149. A Blender pelican on a bicycle](#case-149) | [3D scenes and modeling](#category-three) | Compare the final renders while tracking what each run actually delivered. | Evaluation |
-| [Case 150. A stylized 3D character on a webpage](#case-150) | [3D scenes and modeling](#category-three) | Compare the modeled character, surrounding scene and visible animation. | Evaluation |
-| [Case 151. An island waterfall and its ocean surface](#case-151) | [3D scenes and modeling](#category-three) | Compare render time and the appearance of water in two scene outputs. | Evaluation |
-| [Case 152. Measuring an Ultrafast video edit](#case-152) | [Creative graphics and animation](#category-graphics) | Track elapsed editing time separately from model response time. | Benchmark |
-| [Case 153. Handwritten signature animation in Remotion](#case-153) | [Creative graphics and animation](#category-graphics) | Compare how two Max runs animate the same personal signature. | Evaluation |
-| [Case 154. A character made in Mesh Avatar Studio](#case-154) | [3D scenes and modeling](#category-three) | Inspect the avatar shown in a workflow using low reasoning effort. | Demo |
-| [Case 155. FrontDesk-Bench simulated clinic calls](#case-155) | [Computer use and communication](#category-communication) | Track unsafe actions and refusals of legitimate requests separately. | Benchmark |
-| [Case 156. Reference-based 3D portrait comparison](#case-156) | [3D scenes and modeling](#category-three) | Compare facial detail and overall resemblance in four modeled portraits. | Evaluation |
-| [Case 157. An underwater octopus in Three.js](#case-157) | [3D scenes and modeling](#category-three) | Compare scene detail, time and cost from the same brief and effort. | Evaluation |
-| [Case 158. A playable game inspired by fake ads](#case-158) | [Game development](#category-game) | Compare four playable interpretations of one game-level brief. | Evaluation |
-| [Case 79. A 15-second motion design brief](#case-79) | [Creative graphics and animation](#category-graphics) | Give both models the same brief and compare typography, transitions and motion. | Evaluation |
-| [Case 80. Browser Use task completion and step counts](#case-80) | [Websites and interfaces](#category-web) | Compare completion, time and steps on the same browser suite. | Benchmark |
-| [Case 78. Clearing a Sokoban room suite](#case-78) | [Game development](#category-game) | Track rooms cleared and replay the moves to see where a game agent stalls. | Benchmark |
-| [Case 81. A map-based walking mech in Three.js](#case-81) | [3D scenes and modeling](#category-three) | Use the same map data and brief to compare animated scenes. | Evaluation |
-| [Case 77. A butterfly gallery with Blender models](#case-77) | [Websites and interfaces](#category-web) | Combine a rotatable specimen with views for close inspection and field notes. | Demo |
-| [Case 82. Perplexity’s WANDR agent benchmark](#case-82) | [Websites and interfaces](#category-web) | Compare task score and cost per task together. | Benchmark |
-| [Case 83. Rebuilding a portrait from a reference image](#case-83) | [3D scenes and modeling](#category-three) | Compare posture, costume and scene geometry against the reference. | Evaluation |
-| [Case 76. A side-by-side mechanical bee model](#case-76) | [3D scenes and modeling](#category-three) | Compare moving parts and interface layout as separate outcomes. | Evaluation |
-| [Case 84. A deer modeled by four systems](#case-84) | [3D scenes and modeling](#category-three) | Compare the antlers, joints and body proportions side by side. | Evaluation |
-| [Case 75. Finding GeoGuessr locations with browser controls](#case-75) | [Websites and interfaces](#category-web) | Keep starting locations, the time limit and the distance threshold fixed across models. | Benchmark |
-| [Case 85. Four models on the Alpine Gold aircraft scene](#case-85) | [3D scenes and modeling](#category-three) | Compare geometry, setting and build time on the same aircraft brief. | Evaluation |
-| [Case 86. A grid of voxel outputs across Sol versions](#case-86) | [3D scenes and modeling](#category-three) | Check individual prompts for regressions before judging the suite as a whole. | Evaluation |
-| [Case 87. A floating voxel kingdom in two coding tools](#case-87) | [3D scenes and modeling](#category-three) | Record the coding tool and wall time when comparing voxel scenes. | Evaluation |
-| [Case 88. A galloping horse rendered by two models](#case-88) | [Creative graphics and animation](#category-graphics) | Compare the legs and stride over a complete loop. | Evaluation |
-| [Case 74. Fire and sound generated in code](#case-74) | [Creative graphics and animation](#category-graphics) | Record output duration alongside cost and generation time in a motion comparison. | Evaluation |
-| [Case 89. A lighthouse scene with two visual treatments](#case-89) | [3D scenes and modeling](#category-three) | Compare how the same brief affects framing and rendering style. | Evaluation |
-| [Case 90. A controller rendering at maximum reasoning](#case-90) | [3D scenes and modeling](#category-three) | Compare button placement and housing shape across the same brief. | Evaluation |
-| [Case 91. Four balloon houses with different motion](#case-91) | [3D scenes and modeling](#category-three) | Watch how the house moves relative to the balloons. | Evaluation |
-| [Case 92. A 3D reconstruction of a Titanic scene](#case-92) | [3D scenes and modeling](#category-three) | Compare facial detail, staging and camera framing in each rendition. | Evaluation |
-| [Case 93. Completing two quests in RuneScape](#case-93) | [Game development](#category-game) | Inspect which quests the agent chooses and which rewards it claims. | Benchmark |
-| [Case 73. A Rube Goldberg simulator in HTML](#case-73) | [3D scenes and modeling](#category-three) | Follow the handoff between each stage of a chain reaction. | Demo |
-| [Case 72. A balloon house with a generated backdrop](#case-72) | [3D scenes and modeling](#category-three) | Inspect the scene assets when the brief calls for a background built in Three.js. | Limit |
-| [Case 71. A Van Gogh-inspired Gaussian splat world](#case-71) | [3D scenes and modeling](#category-three) | Compare how two navigable scenes handle the same composition. | Evaluation |
-| [Case 70. VoxelBench 2 generation errors](#case-70) | [3D scenes and modeling](#category-three) | Check whether generated voxel code runs before scoring the rendered scene. | Benchmark |
-| [Case 94. A 900-frame animation made in code](#case-94) | [Creative graphics and animation](#category-graphics) | Track the characters, motion and sound through to the final export. | Demo |
-| [Case 95. A multiplayer browser game with touch controls](#case-95) | [Game development](#category-game) | Play successive builds and give targeted feedback on the controls. | Demo |
-| [Case 96. An ocean scene built around islands](#case-96) | [3D scenes and modeling](#category-three) | Use an open-ended island brief to compare composition choices. | Demo |
-| [Case 97. A browser village game called Lanternkeep](#case-97) | [Game development](#category-game) | Inspect how the map and objective panel support a village-building loop. | Demo |
-| [Case 98. An animated banana illustration](#case-98) | [Creative graphics and animation](#category-graphics) | Use a simple subject to inspect how a model introduces motion and character. | Demo |
-| [Case 99. A screenshot-only Pokémon FireRed run](#case-99) | [Game development](#category-game) | Record progress milestones and completion time for a game agent. | Benchmark |
-| [Case 100. A portrait on a browser painting canvas](#case-100) | [Computer use and painting](#category-painting) | Compare intermediate frames with the reference shown next to the canvas. | Demo |
-| [Case 101. A cycling pelican in a single HTML file](#case-101) | [Creative graphics and animation](#category-graphics) | Use one SVG brief and inspect the bird and bicycle motion side by side. | Evaluation |
-| [Case 102. A helicopter with assembly and exploded views](#case-102) | [3D scenes and modeling](#category-three) | Inspect the same 3D model in flight and with its parts exposed. | Demo |
-| [Case 103. Two stick-figure animations at Ultra effort](#case-103) | [Creative graphics and animation](#category-graphics) | Repeat an animation brief to see how much two runs vary. | Evaluation |
-| [Case 104. Two detailed BMW models](#case-104) | [3D scenes and modeling](#category-three) | Compare silhouette, material detail and camera views on the shared brief. | Evaluation |
-| [Case 105. A comparison of boats and ocean surfaces](#case-105) | [3D scenes and modeling](#category-three) | Compare wake, reflections and scene response on the shared brief. | Evaluation |
-| [Case 106. The Eiffel Tower at xhigh effort](#case-106) | [3D scenes and modeling](#category-three) | Compare the structure and surrounding scene at the same effort setting. | Evaluation |
-| [Case 123. Pelican SVGs across reasoning efforts](#case-123) | [Creative graphics and animation](#category-graphics) | Inspect how the pedals, feet and frame fit together at each effort. | Evaluation |
-| [Case 107. An island with adjustable water and lighting](#case-107) | [3D scenes and modeling](#category-three) | Test surface ripples and lighting controls while orbiting the scene. | Demo |
-| [Case 108. Navigating from 50 Wikipedia starting pages](#case-108) | [Websites and interfaces](#category-web) | Keep the destination and start pages fixed when timing navigation. | Benchmark |
-| [Case 122. Human-rated interactive 3D scenes](#case-122) | [3D scenes and modeling](#category-three) | Use the same suite and judging process for interactive modeling comparisons. | Benchmark |
-| [Case 109. Four runs on a truck driving scene](#case-109) | [3D scenes and modeling](#category-three) | Compare the same driving scene while tracking the coding tool. | Evaluation |
-| [Case 110. Rainy cycling delivery with Sol, Opus and Qwen](#case-110) | [Creative graphics and animation](#category-graphics) | Compare the night scene and cycling motion across three outputs. | Evaluation |
-| [Case 111. A detailed Blender room and city view](#case-111) | [3D scenes and modeling](#category-three) | Inspect small objects indoors and the view beyond the windows. | Demo |
-| [Case 112. A cycling pelican delivering food in the rain](#case-112) | [Creative graphics and animation](#category-graphics) | Inspect reflections, puddles, street fixtures and moving scenery separately. | Evaluation |
-| [Case 113. A PS5 controller from two coding models](#case-113) | [3D scenes and modeling](#category-three) | Inspect the rear shell and side buttons as well as the front view. | Evaluation |
-| [Case 114. A daytime cycling pelican in two outputs](#case-114) | [Creative graphics and animation](#category-graphics) | Compare motion quality alongside run time. | Evaluation |
-| [Case 115. Three interactive renderings of Earth](#case-115) | [3D scenes and modeling](#category-three) | Compare lighting and interface behavior as the globe turns. | Evaluation |
-| [Case 116. A pelican riding a bicycle near a black hole](#case-116) | [3D scenes and modeling](#category-three) | Inspect how the scene changes after several rounds of prompting. | Demo |
-| [Case 117. Two 3D scenes centered on a freight container](#case-117) | [3D scenes and modeling](#category-three) | Compare the treatment of lighting, props and surfaces. | Evaluation |
-| [Case 118. A sword duel animated in SVG](#case-118) | [Creative graphics and animation](#category-graphics) | Inspect how timing and silhouettes sell movement in vector animation. | Demo |
-| [Case 119. A Kanban plugin for agent sessions](#case-119) | [Websites and interfaces](#category-web) | Check how tasks, sessions and review queues connect in the interface. | Integration |
-| [Case 120. A photorealistic landscape in SVG](#case-120) | [Creative graphics and animation](#category-graphics) | Inspect which details survive when a natural scene is drawn in vectors. | Demo |
-| [Case 121. A lakeside Three.js scene](#case-121) | [3D scenes and modeling](#category-three) | Follow the camera past the boat and waterfall to inspect scene detail. | Demo |
-| [Case 69. A 360-degree Bugatti Chiron configurator](#case-69) | [Websites and interfaces](#category-web) | Compare paint finishes as the camera moves around the car. | Demo |
-| [Case 68. An interactive Boeing 787-9 model](#case-68) | [3D scenes and modeling](#category-three) | Use the view controls to inspect the aircraft exterior and engine. | Demo |
-| [Case 67. A coastal racing game prototype](#case-67) | [Game development](#category-game) | Check whether the countdown, speed readout and track map stay readable during a race. | Demo |
-| [Case 66. A tornado over a parking lot](#case-66) | [3D scenes and modeling](#category-three) | Watch how a storm simulation moves debris around a parking lot. | Demo |
-| [Case 65. A Three.js koi courtyard](#case-65) | [3D scenes and modeling](#category-three) | Follow the koi to inspect how the scene handles moving water and reflections. | Demo |
-| [Case 64. A comparison of two pagoda scenes](#case-64) | [3D scenes and modeling](#category-three) | Compare how two outputs arrange a pagoda, trees and water. | Evaluation |
-| [Case 63. An exploded-view mechanical watch](#case-63) | [3D scenes and modeling](#category-three) | Inspect the watch face and see how the model separates its layers. | Demo |
-| [Case 62. A browser Rubik’s Cube](#case-62) | [Game development](#category-game) | Use the preview to inspect cube rotations and sticker placement. | Demo |
-| [Case 61. Gravity balls in a rotating heptagon](#case-61) | [Websites and interfaces](#category-web) | Inspect how balls respond as their container rotates. | Demo |
-| [Case 60. Monkey King SVG comparison](#case-60) | [Creative graphics and animation](#category-graphics) | Compare how three systems stage the same Monkey King scene. | Evaluation |
-| [Case 1. Freddie Mercury in MS Paint](#case-1) | [Computer use and painting](#category-painting) | Use a portrait to inspect what a desktop drawing attempt produces. | Demo |
-| [Case 2. A suburban house and a pelican sketch](#case-2) | [3D scenes and modeling](#category-three) | Pair a rendered scene with a compact drawing test. | Demo |
-| [Case 3. Human history and the AI future in 3D](#case-3) | [Creative graphics and animation](#category-graphics) | Turn a narrative brief into a sequence of animated scenes. | Demo |
-| [Case 4. The End of Time interactive black hole](#case-4) | [Websites and interfaces](#category-web) | Use a black hole as the focal point for an interactive Three.js page. | Demo |
-| [Case 5. A same-prompt Three.js sailing ship comparison](#case-5) | [3D scenes and modeling](#category-three) | Compare how two outputs handle detail and interaction on the same ship brief. | Evaluation |
-| [Case 6. A red train crossing a mountain valley](#case-6) | [3D scenes and modeling](#category-three) | Compare moving vehicles and scenery in a shared scene. | Evaluation |
-| [Case 7. Island Atlas with a day and night toggle](#case-7) | [Websites and interfaces](#category-web) | Use a compact 3D island to test lighting states in a web interface. | Demo |
-| [Case 8. Tibo portrait in a browser painting studio](#case-8) | [Creative graphics and animation](#category-graphics) | Inspect the stages of a portrait as the page builds it up. | Demo |
-| [Case 9. A ruined Colosseum in two scene treatments](#case-9) | [3D scenes and modeling](#category-three) | Compare camera coverage and architectural detail in two reconstructions. | Evaluation |
-| [Case 10. Sam Altman portrait painting shared by 0x0SojalSec](#case-10) | [Creative graphics and animation](#category-graphics) | Follow the transition from rough shapes to a finished portrait. | Demo |
-| [Case 11. Sam Altman portrait painting shared by Avenoxai](#case-11) | [Creative graphics and animation](#category-graphics) | See how the browser demonstration stages the portrait. | Demo |
-| [Case 12. Sam Altman portrait painting shared by pengsonal](#case-12) | [Creative graphics and animation](#category-graphics) | Examine the order in which the browser scene adds portrait detail. | Demo |
-| [Case 13. Sam Altman portrait painting shared by GeekCatX](#case-13) | [Creative graphics and animation](#category-graphics) | Use the clip to compare the initial composition with the finished image. | Demo |
-| [Case 14. Sam Altman portrait in a browser painting canvas](#case-14) | [Creative graphics and animation](#category-graphics) | Watch the portrait develop from blocked-in colors to finer features. | Demo |
-| [Case 15. AETHERIA floating islands shared by EnvolDev](#case-15) | [3D scenes and modeling](#category-three) | Follow the camera through a floating landscape. | Demo |
-| [Case 16. A purple furry character with earlier comparisons](#case-16) | [3D scenes and modeling](#category-three) | Separate a new character clip from reference outputs in the same post. | Demo |
-| [Case 17. PELICAN PANIC voxel chase game](#case-17) | [Game development](#category-game) | Use a short chase game to inspect controls, feedback, and the ending state. | Demo |
-| [Case 18. A winged elephant carrying a garden](#case-18) | [3D scenes and modeling](#category-three) | Use a single fantasy premise to inspect composition from several angles. | Demo |
-| [Case 19. Dario Amodei portrait in a browser painting canvas](#case-19) | [Creative graphics and animation](#category-graphics) | Watch a reference image guide a staged portrait. | Demo |
-| [Case 20. A Three.js black hole comparison shared by rubenssoto_ai](#case-20) | [3D scenes and modeling](#category-three) | Compare the visible approaches to the same black hole scene. | Evaluation |
-| [Case 21. A stillwater garden comparison](#case-21) | [3D scenes and modeling](#category-three) | Compare the landscaping and water treatment on a shared garden task. | Evaluation |
-| [Case 22. Four SVG animation comparisons with Opus 5.5](#case-22) | [Creative graphics and animation](#category-graphics) | Compare motion and detail across several SVG subjects. | Evaluation |
-| [Case 23. Another Sam Altman portrait painting post by Ananth7e](#case-23) | [Creative graphics and animation](#category-graphics) | Use the shared recording to inspect how a browser portrait takes shape. | Demo |
-| [Case 24. A black hole with a glowing accretion disk](#case-24) | [3D scenes and modeling](#category-three) | Inspect a simulation's camera views, particles, and lighting. | Demo |
-| [Case 25. Two portrait illustrations described as code-only SVGs](#case-25) | [Creative graphics and animation](#category-graphics) | Compare the rendered portraits before judging how they were produced. | Demo |
-| [Case 26. A star exploding into a supernova](#case-26) | [3D scenes and modeling](#category-three) | Track a visual effect from its initial star to the shock wave. | Demo |
-| [Case 27. Ocean waves and a lighthouse at dusk](#case-27) | [3D scenes and modeling](#category-three) | Compare how light and color change across an ocean scene. | Demo |
-| [Case 28. A browser tornado simulation](#case-28) | [3D scenes and modeling](#category-three) | Inspect how a scene combines rotation, clouds, and ground debris. | Demo |
-| [Case 29. A pixel-art Japanese town by moonlight](#case-29) | [Creative graphics and animation](#category-graphics) | Use a compact animated scene to inspect lighting and detail. | Demo |
-| [Case 30. A lion juggling while riding BMX](#case-30) | [Creative graphics and animation](#category-graphics) | Test coordinated motion against changing seasonal backgrounds. | Demo |
-| [Case 31. A side-view galloping horse](#case-31) | [Creative graphics and animation](#category-graphics) | Inspect the legs and tail through a simple motion cycle. | Demo |
-| [Case 32. A peacock riding BMX through bamboo](#case-32) | [Creative graphics and animation](#category-graphics) | Compare wheel motion with the movement of a detailed character. | Demo |
-| [Case 33. A bamboo sanctuary with a red bridge](#case-33) | [3D scenes and modeling](#category-three) | Use several camera angles to examine a layered 3D scene. | Demo |
-| [Case 34. A walkable Three.js wave painting](#case-34) | [3D scenes and modeling](#category-three) | Explore what changes when a painting becomes a navigable scene. | Demo |
-| [Case 35. A photorealistic portrait preview](#case-35) | [Creative graphics and animation](#category-graphics) | Inspect the visible result and record how the author describes it. | Demo |
-| [Case 36. Sydney Sweeney portrait vectorization](#case-36) | [Creative graphics and animation](#category-graphics) | Track the intermediate image when evaluating a vector workflow. | Demo |
-| [Case 37. A monster house modeled in Blender](#case-37) | [3D scenes and modeling](#category-three) | Compare geometry and silhouettes across three labeled Blender views. | Evaluation |
-| [Case 38. A Three.js sailing ship shared by karanC_12](#case-38) | [3D scenes and modeling](#category-three) | Follow the repost to see a ship built for a browser scene. | Demo |
-| [Case 39. AETHERIA floating islands by Mr_Salio](#case-39) | [3D scenes and modeling](#category-three) | Use a camera fly-through to examine a scene's scale and depth. | Demo |
-| [Case 40. An interactive sailing ship in one HTML file](#case-40) | [3D scenes and modeling](#category-three) | Use rigging, sails, and a moving viewpoint to inspect a browser model. | Demo |
-| [Case 41. Reference-image tests in Codex and the API](#case-41) | [Websites and interfaces](#category-web) | Compare what two outputs do with the same reference before attributing the difference. | Evaluation |
-| [Case 42. Garden of Five Eaves voxel courtyard](#case-42) | [3D scenes and modeling](#category-three) | Inspect composition and layering in a compact voxel environment. | Demo |
-| [Case 43. An unfinished attempt to relay a message](#case-43) | [Computer use and communication](#category-communication) | Use the attempt to see where a desktop workflow stopped. | Limit |
-| [Case 44. A Three.js black hole comparison shared by VraserX](#case-44) | [3D scenes and modeling](#category-three) | Inspect the paired black hole scenes in the shared clip. | Evaluation |
-| [Case 45. A Sakura village day and night demo shared by jessexai_](#case-45) | [3D scenes and modeling](#category-three) | Inspect the effect of switching the scene between day and night. | Demo |
-| [Case 46. A side-view running cheetah](#case-46) | [Creative graphics and animation](#category-graphics) | Use a fixed profile view to compare gait and body motion. | Demo |
-| [Case 47. A ruined Colosseum exterior and interior](#case-47) | [3D scenes and modeling](#category-three) | Follow a camera through the building to see which details are visible. | Demo |
-| [Case 48. A Three.js black hole comparison by TokenGremlin](#case-48) | [3D scenes and modeling](#category-three) | Compare camera movement and lighting in two black hole outputs. | Evaluation |
-| [Case 49. Sakura courtyard and Wonder Atlas previews](#case-49) | [3D scenes and modeling](#category-three) | Inspect how two web scenes handle architecture and depth. | Demo |
-| [Case 50. A reconstructed Tesla Roadster](#case-50) | [3D scenes and modeling](#category-three) | Use a familiar car as a shape and detail reference. | Demo |
-| [Case 51. A pelican and two crabs riding bicycles](#case-51) | [Creative graphics and animation](#category-graphics) | Inspect timing across several animated characters in one shot. | Demo |
-| [Case 52. A PS5 controller comparison across Sol settings](#case-52) | [Creative graphics and animation](#category-graphics) | Use a familiar product to compare contours and shading. | Evaluation |
-| [Case 53. A Sakura village day and night demo shared by Haleeeemahh](#case-53) | [3D scenes and modeling](#category-three) | Compare how the same village reads in daylight and darkness. | Demo |
-| [Case 54. A Sakura village day and night demo shared by VraserX](#case-54) | [3D scenes and modeling](#category-three) | Use the paired lighting states to inspect a single environment. | Demo |
-| [Case 55. A green BMW M4 CS profile illustration](#case-55) | [Creative graphics and animation](#category-graphics) | Check proportions and profile detail in a familiar vehicle. | Demo |
-| [Case 56. A Sakura village day and night demo by TokenGremlin](#case-56) | [3D scenes and modeling](#category-three) | Use a lighting toggle to compare one village in two states. | Demo |
-| [Case 57. A house with interior and aerial views](#case-57) | [3D scenes and modeling](#category-three) | Inspect whether a 3D building stays coherent across interior and exterior views. | Demo |
-| [Case 58. A single-HTML Three.js black hole](#case-58) | [3D scenes and modeling](#category-three) | Use the clip and stills to inspect how one scene handles several viewpoints. | Demo |
-| [Case 59. A floating Three.js palace](#case-59) | [3D scenes and modeling](#category-three) | Inspect the scale and presentation of a suspended palace from several angles. | Demo |
+| [A valley crossed by an aqueduct](#case-186) | 3D scenes and modeling | See how a Blender workflow carries a large landscape into Three.js. | Demo |
+| [Image generation on a simple addition question](#case-187) | Computer use and communication | Check unexpected tool use separately from whether the final answer is correct. | Limit |
+| [Eight television locations rebuilt in Minecraft](#case-188) | Game development | Compare recognizable layouts and build time across two sandbox outputs. | Evaluation |
+| [An interactive expedition vehicle in Three.js](#case-189) | 3D scenes and modeling | Inspect modeled details, hinged panels and synthesized sound in one HTML file. | Demo |
+| [A code-generated Riemann hypothesis explainer](#case-190) | Creative graphics and animation | Use local code to assemble the animation and its audio in one workflow. | Demo |
+| [Four Eiffel Tower renders in Three.js](#case-191) | 3D scenes and modeling | Compare the lattice, proportions and surroundings in four labeled scenes. | Evaluation |
+| [Finding known bugs in a database review](#case-192) | Computer use and communication | Compare known-issue coverage and elapsed time in the same review task. | Benchmark |
+| [The ruins of Ozymandias in Minecraft](#case-193) | Game development | Compare how two builders translate the same literary scene into blocks. | Evaluation |
+| [Sol presets for Hermes and Pi agents](#case-194) | Computer use and communication | See how one desktop entry point can organize assistants with different roles. | Integration |
+| [Six redesigns of one marketing site](#case-195) | Websites and interfaces | Compare how different models turn the same site brief into different visual directions. | Evaluation |
+| [A rainy waterfront diorama from one reference](#case-196) | 3D scenes and modeling | Compare how two models turn a single image into a 2.5D browser scene. | Evaluation |
+| [Front and top views swapped in SolidWorks](#case-197) | 3D scenes and modeling | Check engineering drawing orientation against the assembly before accepting the export. | Limit |
+| [A blind short-fiction comparison](#case-198) | Computer use and communication | Compare short fiction from a shared plot and check where human formatting entered the workflow. | Evaluation |
+| [A cat at a rainy window](#case-199) | Creative graphics and animation | Compare how four models stage the same scene in a single HTML animation. | Evaluation |
+| [Document parsing at two reasoning levels](#case-176) | Computer use and communication | Compare overall parsing scores, chart scores and cost per page. | Benchmark |
+| [Camera moves for twelve building models](#case-200) | 3D scenes and modeling | Use Blender MCP to create camera work for a set of imported models. | Demo |
+| [Four animated cyclists at sunset](#case-177) | Creative graphics and animation | Compare rider motion, bicycle proportions and scene lighting across four outputs. | Evaluation |
+| [Workplace tasks in Company Agent Bench](#case-178) | Computer use and communication | Compare reported accuracy across models at the tested reasoning settings. | Benchmark |
+| [A cable car across Scarlet Fjord](#case-179) | 3D scenes and modeling | Compare how four renders handle the cabin and the landscape around it. | Evaluation |
+| [Game development preference and generation cost](#case-180) | Game development | Compare preference rank, average generation time and cost on the same game design arena. | Benchmark |
+| [A comparison across marketing tasks](#case-181) | Computer use and communication | Review per-task preference alongside cost and the number of votes. | Benchmark |
+| [A walking route turned into a handheld game](#case-182) | Game development | See how observations from a walk become revisitable game scenes. | Demo |
+| [A Blender rabbit from an image reference](#case-183) | 3D scenes and modeling | Inspect the geometry from multiple angles after starting from a generated reference image. | Demo |
+| [Agents on Rails accuracy and runtime](#case-184) | Websites and interfaces | Track runtime and accuracy separately on development tasks in existing Rails apps. | Benchmark |
+| [A grass field in a standalone HTML scene](#case-201) | 3D scenes and modeling | Follow an asset from Blender into a small Three.js project that runs in a browser. | Demo |
+| [Costume illustration iterations in ChatGPT Work](#case-202) | Creative graphics and animation | Compare what changes when a detailed costume request is run again. | Evaluation |
+| [From still frames to a finished video](#case-159) | Creative graphics and animation | Use the editing timeline to see where generated frames enter a multi-tool workflow. | Demo |
+| [Two first-person game prototypes in Codex](#case-160) | Game development | Compare the level layout and play experience alongside the recorded cost. | Evaluation |
+| [A cozy village game with Blender assets](#case-161) | Game development | See how modeled objects and animation come together in a game scene. | Demo |
+| [Apartment floor plans from interior photos](#case-162) | 3D scenes and modeling | Measure whether an agent can infer room layouts from photographs. | Benchmark |
+| [Dialogue cuts in a talking-head video](#case-163) | Creative graphics and animation | Compare edit time, overall score and the kinds of cuts that fail. | Benchmark |
+| [Two designs for a headquarters](#case-164) | 3D scenes and modeling | Compare the buildings and camera view on the same open-ended design brief. | Evaluation |
+| [Managing a settlement in Crusader Bench](#case-165) | Game development | Compare agent play using the same scored maps and game conditions. | Benchmark |
+| [Pull request review in CodeRabbit](#case-185) | Computer use and communication | Compare known issues caught, reported precision and review cost across pipeline configurations. | Benchmark |
+| [Legora’s November legal document benchmark](#case-166) | Computer use and communication | Compare quality and cost per case on the same set of professional tasks. | Benchmark |
+| [Sol on Xplore’s engineering design benchmark](#case-167) | 3D scenes and modeling | Compare task scores and per-run cost on a suite that includes CAD work. | Benchmark |
+| [A Ruby Ascent launchpad scene](#case-168) | 3D scenes and modeling | Compare scene detail and build time across four versions of the same launchpad. | Evaluation |
+| [Spatial navigation in MazeBench](#case-169) | Game development | Compare maze completion on the same published benchmark. | Benchmark |
+| [AI Village’s independently answered profile questions](#case-170) | Computer use and communication | Compare how two agents answer the same profile questionnaire independently. | Integration |
+| [A 3D animation from the same source clip](#case-171) | 3D scenes and modeling | Compare how five models visualize the same segment in a preset style. | Evaluation |
+| [An orbit around the Burj Khalifa summit](#case-172) | 3D scenes and modeling | Inspect how the models handle the tower’s upper setbacks and crown. | Evaluation |
+| [A whiteboard animation of a short clip](#case-173) | Creative graphics and animation | Compare visual storytelling and cost on the same input footage. | Evaluation |
+| [A lighthouse webpage on a rocky coast](#case-174) | Websites and interfaces | Compare two single-response webpages while keeping the brief and effort fixed. | Evaluation |
+| [Five games of chess without tools](#case-175) | Game development | Compare points, game outcomes and reported cost over the same match. | Benchmark |
+| [Pull request status report misses repository instructions](#case-124) | Computer use and communication | Compare the detail and organization of replies to a short status request. | Limit |
+| [Arena’s Astra and Sol walkthrough](#case-125) | 3D scenes and modeling | Use the recorded chapters to compare scenes, games and interfaces. | Evaluation |
+| [A haunted vampire cathedral](#case-126) | 3D scenes and modeling | Compare how two models interpret the same gothic building brief. | Evaluation |
+| [A convenience store on a rainy night](#case-127) | 3D scenes and modeling | Use the split screen to compare lighting, rainfall and storefront geometry. | Evaluation |
+| [A New York pizzeria landing page](#case-128) | Websites and interfaces | Check whether different models make distinct branding choices from one sentence. | Evaluation |
+| [Two takes on a pagoda](#case-129) | 3D scenes and modeling | Compare how two xhigh runs render the same architectural subject. | Evaluation |
+| [A realistic falling leaf in three minutes](#case-130) | Creative graphics and animation | Use a time limit to test how the model combines assets and code. | Demo |
+| [A miniature fishing harbor in a sunshower](#case-131) | 3D scenes and modeling | Compare rainfall, miniature scenery and camera motion across four runs. | Evaluation |
+| [Arena WebDev score and median cost](#case-132) | Websites and interfaces | Compare a leaderboard result with the median cost per task. | Benchmark |
+| [A rocket launch rendered by four models](#case-133) | 3D scenes and modeling | Compare staging and motion across four versions of the same fictional scene. | Evaluation |
+| [A looping pixel-art runner](#case-134) | Creative graphics and animation | Check whether a character animation loops cleanly against a scrolling backdrop. | Demo |
+| [A storm at the lighthouse](#case-135) | 3D scenes and modeling | Compare tower detail and ocean motion on the same scene brief. | Evaluation |
+| [An interactive anatomy viewer](#case-136) | Websites and interfaces | Compare an engaging opening with readability while exploring a 3D model. | Evaluation |
+| [A boat in a stormy ocean](#case-137) | 3D scenes and modeling | Inspect rain, cloud volume, boat detail and water behavior independently. | Evaluation |
+| [A Pokémon FireRed Champion run](#case-138) | Game development | Compare game-completion times under an explicit input and reasoning setup. | Benchmark |
+| [A website for a fictional hotel](#case-139) | Websites and interfaces | Compare one-shot layouts, elapsed time and cost on the same hotel brief. | Evaluation |
+| [Design Creativity Bench for UI](#case-140) | Websites and interfaces | Compare the benchmark’s creative design scores alongside reported cost. | Benchmark |
+| [Character chat in AITuber OnAir](#case-141) | Computer use and communication | Try adjustable reasoning effort in a live character-chat workflow. | Integration |
+| [A rigged Blender character from concept art](#case-142) | 3D scenes and modeling | Review resemblance and animation quality separately when comparing generated characters. | Evaluation |
+| [A self-assembling sci-fi mech in Three.js](#case-143) | 3D scenes and modeling | Compare how two models stage an assembly and launch sequence. | Evaluation |
+| [A lunar café modeled by five systems](#case-144) | 3D scenes and modeling | Compare how different models stage and light a lunar café. | Evaluation |
+| [An animated tandem bicycle SVG](#case-145) | Creative graphics and animation | Compare how two coding tools render and animate the same SVG subject. | Evaluation |
+| [A 3D dinosaur runner with ragdoll physics](#case-146) | Game development | Compare the visual style and collision behavior across four game prototypes. | Evaluation |
+| [The last tram in a rainy mountain city](#case-147) | 3D scenes and modeling | Compare modeling and atmosphere when the prompt and effort stay the same. | Evaluation |
+| [A 3D rendering of the White House](#case-148) | 3D scenes and modeling | Compare façade proportions and composition across two architectural visualizations. | Evaluation |
+| [A Blender pelican on a bicycle](#case-149) | 3D scenes and modeling | Compare the final renders while tracking what each run actually delivered. | Evaluation |
+| [A stylized 3D character on a webpage](#case-150) | 3D scenes and modeling | Compare the modeled character, surrounding scene and visible animation. | Evaluation |
+| [An island waterfall and its ocean surface](#case-151) | 3D scenes and modeling | Compare render time and the appearance of water in two scene outputs. | Evaluation |
+| [Measuring an Ultrafast video edit](#case-152) | Creative graphics and animation | Track elapsed editing time separately from model response time. | Benchmark |
+| [Handwritten signature animation in Remotion](#case-153) | Creative graphics and animation | Compare how two Max runs animate the same personal signature. | Evaluation |
+| [A character made in Mesh Avatar Studio](#case-154) | 3D scenes and modeling | Inspect the avatar shown in a workflow using low reasoning effort. | Demo |
+| [FrontDesk-Bench simulated clinic calls](#case-155) | Computer use and communication | Track unsafe actions and refusals of legitimate requests separately. | Benchmark |
+| [Reference-based 3D portrait comparison](#case-156) | 3D scenes and modeling | Compare facial detail and overall resemblance in four modeled portraits. | Evaluation |
+| [An underwater octopus in Three.js](#case-157) | 3D scenes and modeling | Compare scene detail, time and cost from the same brief and effort. | Evaluation |
+| [A playable game inspired by fake ads](#case-158) | Game development | Compare four playable interpretations of one game-level brief. | Evaluation |
+| [A 15-second motion design brief](#case-79) | Creative graphics and animation | Give both models the same brief and compare typography, transitions and motion. | Evaluation |
+| [Browser Use task completion and step counts](#case-80) | Websites and interfaces | Compare completion, time and steps on the same browser suite. | Benchmark |
+| [Clearing a Sokoban room suite](#case-78) | Game development | Track rooms cleared and replay the moves to see where a game agent stalls. | Benchmark |
+| [A map-based walking mech in Three.js](#case-81) | 3D scenes and modeling | Use the same map data and brief to compare animated scenes. | Evaluation |
+| [A butterfly gallery with Blender models](#case-77) | Websites and interfaces | Combine a rotatable specimen with views for close inspection and field notes. | Demo |
+| [Perplexity’s WANDR agent benchmark](#case-82) | Websites and interfaces | Compare task score and cost per task together. | Benchmark |
+| [Rebuilding a portrait from a reference image](#case-83) | 3D scenes and modeling | Compare posture, costume and scene geometry against the reference. | Evaluation |
+| [A side-by-side mechanical bee model](#case-76) | 3D scenes and modeling | Compare moving parts and interface layout as separate outcomes. | Evaluation |
+| [A deer modeled by four systems](#case-84) | 3D scenes and modeling | Compare the antlers, joints and body proportions side by side. | Evaluation |
+| [Finding GeoGuessr locations with browser controls](#case-75) | Websites and interfaces | Keep starting locations, the time limit and the distance threshold fixed across models. | Benchmark |
+| [Four models on the Alpine Gold aircraft scene](#case-85) | 3D scenes and modeling | Compare geometry, setting and build time on the same aircraft brief. | Evaluation |
+| [A grid of voxel outputs across Sol versions](#case-86) | 3D scenes and modeling | Check individual prompts for regressions before judging the suite as a whole. | Evaluation |
+| [A floating voxel kingdom in two coding tools](#case-87) | 3D scenes and modeling | Record the coding tool and wall time when comparing voxel scenes. | Evaluation |
+| [A galloping horse rendered by two models](#case-88) | Creative graphics and animation | Compare the legs and stride over a complete loop. | Evaluation |
+| [Fire and sound generated in code](#case-74) | Creative graphics and animation | Record output duration alongside cost and generation time in a motion comparison. | Evaluation |
+| [A lighthouse scene with two visual treatments](#case-89) | 3D scenes and modeling | Compare how the same brief affects framing and rendering style. | Evaluation |
+| [A controller rendering at maximum reasoning](#case-90) | 3D scenes and modeling | Compare button placement and housing shape across the same brief. | Evaluation |
+| [Four balloon houses with different motion](#case-91) | 3D scenes and modeling | Watch how the house moves relative to the balloons. | Evaluation |
+| [A 3D reconstruction of a Titanic scene](#case-92) | 3D scenes and modeling | Compare facial detail, staging and camera framing in each rendition. | Evaluation |
+| [Completing two quests in RuneScape](#case-93) | Game development | Inspect which quests the agent chooses and which rewards it claims. | Benchmark |
+| [A Rube Goldberg simulator in HTML](#case-73) | 3D scenes and modeling | Follow the handoff between each stage of a chain reaction. | Demo |
+| [A balloon house with a generated backdrop](#case-72) | 3D scenes and modeling | Inspect the scene assets when the brief calls for a background built in Three.js. | Limit |
+| [A Van Gogh-inspired Gaussian splat world](#case-71) | 3D scenes and modeling | Compare how two navigable scenes handle the same composition. | Evaluation |
+| [VoxelBench 2 generation errors](#case-70) | 3D scenes and modeling | Check whether generated voxel code runs before scoring the rendered scene. | Benchmark |
+| [A 900-frame animation made in code](#case-94) | Creative graphics and animation | Track the characters, motion and sound through to the final export. | Demo |
+| [A multiplayer browser game with touch controls](#case-95) | Game development | Play successive builds and give targeted feedback on the controls. | Demo |
+| [An ocean scene built around islands](#case-96) | 3D scenes and modeling | Use an open-ended island brief to compare composition choices. | Demo |
+| [A browser village game called Lanternkeep](#case-97) | Game development | Inspect how the map and objective panel support a village-building loop. | Demo |
+| [An animated banana illustration](#case-98) | Creative graphics and animation | Use a simple subject to inspect how a model introduces motion and character. | Demo |
+| [A screenshot-only Pokémon FireRed run](#case-99) | Game development | Record progress milestones and completion time for a game agent. | Benchmark |
+| [A portrait on a browser painting canvas](#case-100) | Computer use and painting | Compare intermediate frames with the reference shown next to the canvas. | Demo |
+| [A cycling pelican in a single HTML file](#case-101) | Creative graphics and animation | Use one SVG brief and inspect the bird and bicycle motion side by side. | Evaluation |
+| [A helicopter with assembly and exploded views](#case-102) | 3D scenes and modeling | Inspect the same 3D model in flight and with its parts exposed. | Demo |
+| [Two stick-figure animations at Ultra effort](#case-103) | Creative graphics and animation | Repeat an animation brief to see how much two runs vary. | Evaluation |
+| [Two detailed BMW models](#case-104) | 3D scenes and modeling | Compare silhouette, material detail and camera views on the shared brief. | Evaluation |
+| [A comparison of boats and ocean surfaces](#case-105) | 3D scenes and modeling | Compare wake, reflections and scene response on the shared brief. | Evaluation |
+| [The Eiffel Tower at xhigh effort](#case-106) | 3D scenes and modeling | Compare the structure and surrounding scene at the same effort setting. | Evaluation |
+| [Pelican SVGs across reasoning efforts](#case-123) | Creative graphics and animation | Inspect how the pedals, feet and frame fit together at each effort. | Evaluation |
+| [An island with adjustable water and lighting](#case-107) | 3D scenes and modeling | Test surface ripples and lighting controls while orbiting the scene. | Demo |
+| [Navigating from 50 Wikipedia starting pages](#case-108) | Websites and interfaces | Keep the destination and start pages fixed when timing navigation. | Benchmark |
+| [Human-rated interactive 3D scenes](#case-122) | 3D scenes and modeling | Use the same suite and judging process for interactive modeling comparisons. | Benchmark |
+| [Four runs on a truck driving scene](#case-109) | 3D scenes and modeling | Compare the same driving scene while tracking the coding tool. | Evaluation |
+| [Rainy cycling delivery with Sol, Opus and Qwen](#case-110) | Creative graphics and animation | Compare the night scene and cycling motion across three outputs. | Evaluation |
+| [A detailed Blender room and city view](#case-111) | 3D scenes and modeling | Inspect small objects indoors and the view beyond the windows. | Demo |
+| [A cycling pelican delivering food in the rain](#case-112) | Creative graphics and animation | Inspect reflections, puddles, street fixtures and moving scenery separately. | Evaluation |
+| [A PS5 controller from two coding models](#case-113) | 3D scenes and modeling | Inspect the rear shell and side buttons as well as the front view. | Evaluation |
+| [A daytime cycling pelican in two outputs](#case-114) | Creative graphics and animation | Compare motion quality alongside run time. | Evaluation |
+| [Three interactive renderings of Earth](#case-115) | 3D scenes and modeling | Compare lighting and interface behavior as the globe turns. | Evaluation |
+| [A pelican riding a bicycle near a black hole](#case-116) | 3D scenes and modeling | Inspect how the scene changes after several rounds of prompting. | Demo |
+| [Two 3D scenes centered on a freight container](#case-117) | 3D scenes and modeling | Compare the treatment of lighting, props and surfaces. | Evaluation |
+| [A sword duel animated in SVG](#case-118) | Creative graphics and animation | Inspect how timing and silhouettes sell movement in vector animation. | Demo |
+| [A Kanban plugin for agent sessions](#case-119) | Websites and interfaces | Check how tasks, sessions and review queues connect in the interface. | Integration |
+| [A photorealistic landscape in SVG](#case-120) | Creative graphics and animation | Inspect which details survive when a natural scene is drawn in vectors. | Demo |
+| [A lakeside Three.js scene](#case-121) | 3D scenes and modeling | Follow the camera past the boat and waterfall to inspect scene detail. | Demo |
+| [A 360-degree Bugatti Chiron configurator](#case-69) | Websites and interfaces | Compare paint finishes as the camera moves around the car. | Demo |
+| [An interactive Boeing 787-9 model](#case-68) | 3D scenes and modeling | Use the view controls to inspect the aircraft exterior and engine. | Demo |
+| [A coastal racing game prototype](#case-67) | Game development | Check whether the countdown, speed readout and track map stay readable during a race. | Demo |
+| [A tornado over a parking lot](#case-66) | 3D scenes and modeling | Watch how a storm simulation moves debris around a parking lot. | Demo |
+| [A Three.js koi courtyard](#case-65) | 3D scenes and modeling | Follow the koi to inspect how the scene handles moving water and reflections. | Demo |
+| [A comparison of two pagoda scenes](#case-64) | 3D scenes and modeling | Compare how two outputs arrange a pagoda, trees and water. | Evaluation |
+| [An exploded-view mechanical watch](#case-63) | 3D scenes and modeling | Inspect the watch face and see how the model separates its layers. | Demo |
+| [A browser Rubik’s Cube](#case-62) | Game development | Use the preview to inspect cube rotations and sticker placement. | Demo |
+| [Gravity balls in a rotating heptagon](#case-61) | Websites and interfaces | Inspect how balls respond as their container rotates. | Demo |
+| [Monkey King SVG comparison](#case-60) | Creative graphics and animation | Compare how three systems stage the same Monkey King scene. | Evaluation |
+| [Freddie Mercury in MS Paint](#case-1) | Computer use and painting | Use a portrait to inspect what a desktop drawing attempt produces. | Demo |
+| [A suburban house and a pelican sketch](#case-2) | 3D scenes and modeling | Pair a rendered scene with a compact drawing test. | Demo |
+| [Human history and the AI future in 3D](#case-3) | Creative graphics and animation | Turn a narrative brief into a sequence of animated scenes. | Demo |
+| [The End of Time interactive black hole](#case-4) | Websites and interfaces | Use a black hole as the focal point for an interactive Three.js page. | Demo |
+| [A same-prompt Three.js sailing ship comparison](#case-5) | 3D scenes and modeling | Compare how two outputs handle detail and interaction on the same ship brief. | Evaluation |
+| [A red train crossing a mountain valley](#case-6) | 3D scenes and modeling | Compare moving vehicles and scenery in a shared scene. | Evaluation |
+| [Island Atlas with a day and night toggle](#case-7) | Websites and interfaces | Use a compact 3D island to test lighting states in a web interface. | Demo |
+| [Tibo portrait in a browser painting studio](#case-8) | Creative graphics and animation | Inspect the stages of a portrait as the page builds it up. | Demo |
+| [A ruined Colosseum in two scene treatments](#case-9) | 3D scenes and modeling | Compare camera coverage and architectural detail in two reconstructions. | Evaluation |
+| [Sam Altman portrait painting shared by 0x0SojalSec](#case-10) | Creative graphics and animation | Follow the transition from rough shapes to a finished portrait. | Demo |
+| [Sam Altman portrait painting shared by Avenoxai](#case-11) | Creative graphics and animation | See how the browser demonstration stages the portrait. | Demo |
+| [Sam Altman portrait painting shared by pengsonal](#case-12) | Creative graphics and animation | Examine the order in which the browser scene adds portrait detail. | Demo |
+| [Sam Altman portrait painting shared by GeekCatX](#case-13) | Creative graphics and animation | Use the clip to compare the initial composition with the finished image. | Demo |
+| [Sam Altman portrait in a browser painting canvas](#case-14) | Creative graphics and animation | Watch the portrait develop from blocked-in colors to finer features. | Demo |
+| [AETHERIA floating islands shared by EnvolDev](#case-15) | 3D scenes and modeling | Follow the camera through a floating landscape. | Demo |
+| [A purple furry character with earlier comparisons](#case-16) | 3D scenes and modeling | Separate a new character clip from reference outputs in the same post. | Demo |
+| [PELICAN PANIC voxel chase game](#case-17) | Game development | Use a short chase game to inspect controls, feedback, and the ending state. | Demo |
+| [A winged elephant carrying a garden](#case-18) | 3D scenes and modeling | Use a single fantasy premise to inspect composition from several angles. | Demo |
+| [Dario Amodei portrait in a browser painting canvas](#case-19) | Creative graphics and animation | Watch a reference image guide a staged portrait. | Demo |
+| [A comparison of Three.js black hole scenes](#case-20) | 3D scenes and modeling | Compare the visible approaches to the same black hole scene. | Evaluation |
+| [A stillwater garden comparison](#case-21) | 3D scenes and modeling | Compare the landscaping and water treatment on a shared garden task. | Evaluation |
+| [Four SVG animation comparisons with Opus 5.5](#case-22) | Creative graphics and animation | Compare motion and detail across several SVG subjects. | Evaluation |
+| [Another Sam Altman portrait painting post by Ananth7e](#case-23) | Creative graphics and animation | Use the shared recording to inspect how a browser portrait takes shape. | Demo |
+| [A black hole with a glowing accretion disk](#case-24) | 3D scenes and modeling | Inspect a simulation's camera views, particles, and lighting. | Demo |
+| [Two portrait illustrations described as code-only SVGs](#case-25) | Creative graphics and animation | Compare the rendered portraits before judging how they were produced. | Demo |
+| [A star exploding into a supernova](#case-26) | 3D scenes and modeling | Track a visual effect from its initial star to the shock wave. | Demo |
+| [Ocean waves and a lighthouse at dusk](#case-27) | 3D scenes and modeling | Compare how light and color change across an ocean scene. | Demo |
+| [A browser tornado simulation](#case-28) | 3D scenes and modeling | Inspect how a scene combines rotation, clouds, and ground debris. | Demo |
+| [A pixel-art Japanese town by moonlight](#case-29) | Creative graphics and animation | Use a compact animated scene to inspect lighting and detail. | Demo |
+| [A lion juggling while riding BMX](#case-30) | Creative graphics and animation | Test coordinated motion against changing seasonal backgrounds. | Demo |
+| [A side-view galloping horse](#case-31) | Creative graphics and animation | Inspect the legs and tail through a simple motion cycle. | Demo |
+| [A peacock riding BMX through bamboo](#case-32) | Creative graphics and animation | Compare wheel motion with the movement of a detailed character. | Demo |
+| [A bamboo sanctuary with a red bridge](#case-33) | 3D scenes and modeling | Use several camera angles to examine a layered 3D scene. | Demo |
+| [A walkable Three.js wave painting](#case-34) | 3D scenes and modeling | Explore what changes when a painting becomes a navigable scene. | Demo |
+| [A photorealistic portrait preview](#case-35) | Creative graphics and animation | Inspect the visible result and record how the author describes it. | Demo |
+| [Sydney Sweeney portrait vectorization](#case-36) | Creative graphics and animation | Track the intermediate image when evaluating a vector workflow. | Demo |
+| [A monster house modeled in Blender](#case-37) | 3D scenes and modeling | Compare geometry and silhouettes across three labeled Blender views. | Evaluation |
+| [A Three.js sailing ship](#case-38) | 3D scenes and modeling | Follow the repost to see a ship built for a browser scene. | Demo |
+| [The floating islands of AETHERIA](#case-39) | 3D scenes and modeling | Use a camera fly-through to examine a scene's scale and depth. | Demo |
+| [An interactive sailing ship in one HTML file](#case-40) | 3D scenes and modeling | Use rigging, sails, and a moving viewpoint to inspect a browser model. | Demo |
+| [Reference-image tests in Codex and the API](#case-41) | Websites and interfaces | Compare what two outputs do with the same reference before attributing the difference. | Evaluation |
+| [Garden of Five Eaves voxel courtyard](#case-42) | 3D scenes and modeling | Inspect composition and layering in a compact voxel environment. | Demo |
+| [An unfinished attempt to relay a message](#case-43) | Computer use and communication | Use the attempt to see where a desktop workflow stopped. | Limit |
+| [A Three.js black hole comparison shared by VraserX](#case-44) | 3D scenes and modeling | Inspect the paired black hole scenes in the shared clip. | Evaluation |
+| [A day and night demo of a Sakura village](#case-45) | 3D scenes and modeling | Inspect the effect of switching the scene between day and night. | Demo |
+| [A side-view running cheetah](#case-46) | Creative graphics and animation | Use a fixed profile view to compare gait and body motion. | Demo |
+| [A ruined Colosseum exterior and interior](#case-47) | 3D scenes and modeling | Follow a camera through the building to see which details are visible. | Demo |
+| [A Three.js black hole comparison by TokenGremlin](#case-48) | 3D scenes and modeling | Compare camera movement and lighting in two black hole outputs. | Evaluation |
+| [Sakura courtyard and Wonder Atlas previews](#case-49) | 3D scenes and modeling | Inspect how two web scenes handle architecture and depth. | Demo |
+| [A reconstructed Tesla Roadster](#case-50) | 3D scenes and modeling | Use a familiar car as a shape and detail reference. | Demo |
+| [A pelican and two crabs riding bicycles](#case-51) | Creative graphics and animation | Inspect timing across several animated characters in one shot. | Demo |
+| [A PS5 controller comparison across Sol settings](#case-52) | Creative graphics and animation | Use a familiar product to compare contours and shading. | Evaluation |
+| [A Sakura village day and night demo shared by Haleeeemahh](#case-53) | 3D scenes and modeling | Compare how the same village reads in daylight and darkness. | Demo |
+| [A Sakura village day and night demo shared by VraserX](#case-54) | 3D scenes and modeling | Use the paired lighting states to inspect a single environment. | Demo |
+| [A green BMW M4 CS profile illustration](#case-55) | Creative graphics and animation | Check proportions and profile detail in a familiar vehicle. | Demo |
+| [A Sakura village day and night demo by TokenGremlin](#case-56) | 3D scenes and modeling | Use a lighting toggle to compare one village in two states. | Demo |
+| [A house with interior and aerial views](#case-57) | 3D scenes and modeling | Inspect whether a 3D building stays coherent across interior and exterior views. | Demo |
+| [A single-HTML Three.js black hole](#case-58) | 3D scenes and modeling | Use the clip and stills to inspect how one scene handles several viewpoints. | Demo |
+| [A floating Three.js palace](#case-59) | 3D scenes and modeling | Inspect the scale and presentation of a suspended palace from several angles. | Demo |
 
-<a id="category-three"></a>
+| Section | Purpose |
+| --- | --- |
+| [Related Repositories](#related-repositories) | Repositories for related models |
+| [Quick Start](#quick-start) | How to browse cases and explore Sol |
+| [Acknowledge](#acknowledge) | Creator credits and corrections |
+
 ## 🧊 3D scenes and modeling
+<a id="category-three"></a>
 
 <a id="case-186"></a>
 ### Case 186: [A valley crossed by an aqueduct](https://x.com/givros/status/2124404063802429838) (by [@givros](https://x.com/givros))
@@ -1433,7 +1439,7 @@ Type: Demo | Date: 2026-11-08
 ---
 
 <a id="case-20"></a>
-### Case 20: [A Three.js black hole comparison shared by rubenssoto_ai](https://x.com/rubenssoto_ai/status/2119473734109237340) (by [@rubenssoto_ai](https://x.com/rubenssoto_ai))
+### Case 20: [A comparison of Three.js black hole scenes](https://x.com/rubenssoto_ai/status/2119473734109237340) (by [@rubenssoto_ai](https://x.com/rubenssoto_ai))
 
 **Compare the visible approaches to the same black hole scene.**
 
@@ -1590,7 +1596,7 @@ Type: Evaluation | Date: 2026-11-08
 ---
 
 <a id="case-38"></a>
-### Case 38: [A Three.js sailing ship shared by karanC_12](https://x.com/karanC_12/status/2119438098438504502) (by [@karanC_12](https://x.com/karanC_12))
+### Case 38: [A Three.js sailing ship](https://x.com/karanC_12/status/2119438098438504502) (by [@karanC_12](https://x.com/karanC_12))
 
 **Follow the repost to see a ship built for a browser scene.**
 
@@ -1606,7 +1612,7 @@ Type: Demo | Date: 2026-11-08
 ---
 
 <a id="case-39"></a>
-### Case 39: [AETHERIA floating islands by Mr_Salio](https://x.com/Mr_Salio/status/2119437812604838342) (by [@Mr_Salio](https://x.com/Mr_Salio))
+### Case 39: [The floating islands of AETHERIA](https://x.com/Mr_Salio/status/2119437812604838342) (by [@Mr_Salio](https://x.com/Mr_Salio))
 
 **Use a camera fly-through to examine a scene's scale and depth.**
 
@@ -1667,7 +1673,7 @@ Type: Evaluation | Date: 2026-11-08
 ---
 
 <a id="case-45"></a>
-### Case 45: [A Sakura village day and night demo shared by jessexai_](https://x.com/jessexai_/status/2119424781367881920) (by [@jessexai_](https://x.com/jessexai_))
+### Case 45: [A day and night demo of a Sakura village](https://x.com/jessexai_/status/2119424781367881920) (by [@jessexai_](https://x.com/jessexai_))
 
 **Inspect the effect of switching the scene between day and night.**
 
@@ -1844,8 +1850,8 @@ Type: Demo | Date: 2026-11-08
 
 ---
 
-<a id="category-communication"></a>
 ## 💬 Computer use and communication
+<a id="category-communication"></a>
 
 <a id="case-187"></a>
 ### Case 187: [Image generation on a simple addition question](https://x.com/KrishnaBuildsAI/status/2124374855332356527) (by [@KrishnaBuildsAI](https://x.com/KrishnaBuildsAI))
@@ -2074,8 +2080,8 @@ Type: Limit | Date: 2026-11-08
 
 ---
 
-<a id="category-game"></a>
 ## 🎮 Game development
+<a id="category-game"></a>
 
 <a id="case-188"></a>
 ### Case 188: [Eight television locations rebuilt in Minecraft](https://x.com/jan_volad/status/2124308264456233400) (by [@jan_volad](https://x.com/jan_volad))
@@ -2378,8 +2384,8 @@ Type: Demo | Date: 2026-11-08
 
 ---
 
-<a id="category-graphics"></a>
 ## 🎨 Creative graphics and animation
+<a id="category-graphics"></a>
 
 <a id="case-190"></a>
 ### Case 190: [A code-generated Riemann hypothesis explainer](https://x.com/MelissaKampers/status/2124286667288891534) (by [@MelissaKampers](https://x.com/MelissaKampers))
@@ -3165,8 +3171,8 @@ Type: Demo | Date: 2026-11-08
 
 ---
 
-<a id="category-web"></a>
 ## 🌐 Websites and interfaces
+<a id="category-web"></a>
 
 <a id="case-195"></a>
 ### Case 195: [Six redesigns of one marketing site](https://x.com/guilippert_v4/status/2124110586753482802) (by [@guilippert_v4](https://x.com/guilippert_v4))
@@ -3478,8 +3484,8 @@ Type: Evaluation | Date: 2026-11-08
 
 ---
 
-<a id="category-painting"></a>
 ## 🖌️ Computer use and painting
+<a id="category-painting"></a>
 
 <a id="case-100"></a>
 ### Case 100: [A portrait on a browser painting canvas](https://x.com/N1njaCodex/status/2122763308491325670) (by [@N1njaCodex](https://x.com/N1njaCodex))
@@ -3518,7 +3524,7 @@ Type: Demo | Date: 2026-11-08
 <a id="acknowledge"></a>
 ## 🙏 Acknowledge
 
-Thanks to the creators who shared these experiments. The linked work and media belong to their respective creators.
+Thanks to the creators who shared these experiments. The linked work and media belong to their respective creators. The [license scope](docs/maintenance.md#license-scope) explains which editorial content the repository license covers.
 
 [@Avenoxai](https://x.com/Avenoxai), [@kimmonismus](https://x.com/kimmonismus), [@imjustnewatai](https://x.com/imjustnewatai), [@Khazix0918](https://x.com/Khazix0918), [@marcthecreatorr](https://x.com/marcthecreatorr), [@Bhavani_00007](https://x.com/Bhavani_00007), [@JustLingonberry](https://x.com/JustLingonberry), [@Mr_Salio](https://x.com/Mr_Salio), [@aGim_asf](https://x.com/aGim_asf), [@0x0SojalSec](https://x.com/0x0SojalSec), [@pengsonal](https://x.com/pengsonal), [@GeekCatX](https://x.com/GeekCatX), [@Ananth7e](https://x.com/Ananth7e), [@EnvolDev](https://x.com/EnvolDev), [@xbquan](https://x.com/xbquan), [@SahilPanhotra](https://x.com/SahilPanhotra), [@rubenssoto_ai](https://x.com/rubenssoto_ai), [@vikktorrrre](https://x.com/vikktorrrre), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@Cayden970207](https://x.com/Cayden970207), [@HarshithLucky3](https://x.com/HarshithLucky3), [@TokenGremlin](https://x.com/TokenGremlin), [@SadAlbert10](https://x.com/SadAlbert10), [@maxt3chno](https://x.com/maxt3chno), [@karanC_12](https://x.com/karanC_12), [@JustinGorya](https://x.com/JustinGorya), [@kdnbmb](https://x.com/kdnbmb), [@VraserX](https://x.com/VraserX), [@jessexai_](https://x.com/jessexai_), [@theaidesk_](https://x.com/theaidesk_), [@gadi_neelesh](https://x.com/gadi_neelesh), [@Haleeeemahh](https://x.com/Haleeeemahh), [@SPAC89](https://x.com/SPAC89), [@VeknQAQ](https://x.com/VeknQAQ), [@Aurora0x3f](https://x.com/Aurora0x3f), [@bei351009016](https://x.com/bei351009016), [@Stargridcompass](https://x.com/Stargridcompass), [@iamtheQwen](https://x.com/iamtheQwen), [@voxelbench](https://x.com/voxelbench), [@sshayahmet](https://x.com/sshayahmet), [@TimJayas](https://x.com/TimJayas), [@lucian__03](https://x.com/lucian__03), [@camperaigg](https://x.com/camperaigg), [@nickbaumann_](https://x.com/nickbaumann_), [@thtbee_](https://x.com/thtbee_), [@DeryaTR_](https://x.com/DeryaTR_), [@banteg](https://x.com/banteg), [@Leviwoyun](https://x.com/Leviwoyun), [@browser_use](https://x.com/browser_use), [@simonw](https://x.com/simonw), [@perplexity_ai](https://x.com/perplexity_ai), [@_3912657840](https://x.com/_3912657840), [@fawnunwrap](https://x.com/fawnunwrap), [@Angaisb_](https://x.com/Angaisb_), [@jony_palino](https://x.com/jony_palino), [@notjazii](https://x.com/notjazii), [@noclipepe](https://x.com/noclipepe), [@Super_Nius](https://x.com/Super_Nius), [@maxbittker](https://x.com/maxbittker), [@morsenxxx](https://x.com/morsenxxx), [@AdamHoltererer](https://x.com/AdamHoltererer), [@Clad3815](https://x.com/Clad3815), [@N1njaCodex](https://x.com/N1njaCodex), [@CodeByNZ](https://x.com/CodeByNZ), [@DanielZambrini](https://x.com/DanielZambrini), [@RezAIT00](https://x.com/RezAIT00), [@LuminaBench](https://x.com/LuminaBench), [@Jason85885174](https://x.com/Jason85885174), [@mspd4100](https://x.com/mspd4100), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@simonw](https://news.ycombinator.com/user?id=simonw), [@Fei2411](https://x.com/Fei2411), [@arena](https://x.com/arena), [@jan_volad](https://x.com/jan_volad), [@eliadele](https://x.com/eliadele), [@monkeys_im](https://x.com/monkeys_im), [@rotejin](https://x.com/rotejin), [@jetbrains](https://x.com/jetbrains), [@UFO2002616](https://x.com/UFO2002616), [@argofowl](https://x.com/argofowl), [@Kombaico](https://x.com/Kombaico), [@shinshin86](https://x.com/shinshin86), [@PawelJLisowski](https://x.com/PawelJLisowski), [@alohaproxy](https://x.com/alohaproxy), [@masahirochaen](https://x.com/masahirochaen), [@mylesBaiM](https://x.com/mylesBaiM), [@exploraX_](https://x.com/exploraX_), [@One2xDatalab](https://x.com/One2xDatalab), [@798145343h](https://x.com/798145343h), [@xKaka1456](https://x.com/xKaka1456), [@op7418](https://x.com/op7418), [@aura_uniiiii](https://x.com/aura_uniiiii), [@shinya_creative](https://x.com/shinya_creative), [@muratcan](https://x.com/muratcan), [@suna_gaku](https://x.com/suna_gaku), [@teddyaisi](https://x.com/teddyaisi), [@0xkhalid7](https://x.com/0xkhalid7), [@shownotover](https://x.com/shownotover), [@andonlabs](https://x.com/andonlabs), [@MatthewBerman](https://x.com/MatthewBerman), [@Hesamation](https://x.com/Hesamation), [@WeAreLegora](https://x.com/WeAreLegora), [@XploreAi](https://x.com/XploreAi), [@patience_cave](https://x.com/patience_cave), [@aidigest_](https://x.com/aidigest_), [@erhanmeydan](https://x.com/erhanmeydan), [@aapakari](https://x.com/aapakari), [@jerryjliu0](https://x.com/jerryjliu0), [@joshzqin](https://x.com/joshzqin), [@DesignArena](https://x.com/DesignArena), [@boringmarketer](https://x.com/boringmarketer), [@sriramkiron](https://x.com/sriramkiron), [@GeppiiKameWorks](https://x.com/GeppiiKameWorks), [@rails](https://x.com/rails), [@CodeRabbit](https://www.coderabbit.ai/), [@givros](https://x.com/givros), [@KrishnaBuildsAI](https://x.com/KrishnaBuildsAI), [@cfenghub](https://x.com/cfenghub), [@MelissaKampers](https://x.com/MelissaKampers), [@fankaishuoai](https://x.com/fankaishuoai), [@guilippert_v4](https://x.com/guilippert_v4), [@null_decimal](https://x.com/null_decimal), [@risui1012](https://x.com/risui1012), [@bangbuilds](https://x.com/bangbuilds), [@hone_sns](https://x.com/hone_sns), [@Rin_4ever_](https://x.com/Rin_4ever_)
 
